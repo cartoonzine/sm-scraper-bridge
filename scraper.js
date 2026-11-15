@@ -2,365 +2,301 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://saimotv.com';
+const CANAIS_BASE_URL = 'https://canais-saimo.pages.dev';
+const FILMES_BASE_URL = 'https://filmes-saimo.pages.dev';
 const OUTPUT_DIR = path.join(__dirname, 'listas');
-const FALLBACK_FILMES_URL = 'https://raw.githubusercontent.com/cartoonzine/cartoonzine-sm-bridge/refs/heads/main/filmes_saimo.json';
-
-const CHANNEL_ROUTES = [
-  '/tv-ao-vivo',
-  '/tv-ao-vivo/tv-aberta',
-  '/tv-ao-vivo/esportes',
-  '/tv-ao-vivo/filmes-e-series',
-  '/tv-ao-vivo/noticias',
-  '/tv-ao-vivo/infantil',
-  '/tv-ao-vivo/documentarios',
-  '/tv-ao-vivo/entretenimento',
-  '/tv-ao-vivo/24-horas',
-  '/tv-ao-vivo/musicas'
-];
 
 const http = axios.create({
-  baseURL: BASE_URL,
-  timeout: 20000,
+  timeout: 30000,
   headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
-  }
+    'Accept': 'text/plain, */*'
+  },
+  responseType: 'text',
+  transformResponse: [(data) => data] // Mantém sempre texto puro sem tentar fazer JSON.parse automático
 });
 
-/**
- * Formata para o schema exato do seu sistema:
- * { cat, title, desc, thumb, bannerThumb, year, genre, fontes }
- */
-function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
-  if (raw && Array.isArray(raw.fontes) && raw.title !== undefined && raw.thumb !== undefined) {
-    return {
-      cat: raw.cat || defaultCat,
-      title: String(raw.title || '').trim(),
-      desc: String(raw.desc || '').trim(),
-      thumb: String(raw.thumb || '').trim(),
-      bannerThumb: String(raw.bannerThumb || raw.thumb || '').trim(),
-      year: String(raw.year || '').trim(),
-      genre: String(raw.genre || defaultCat).trim(),
-      fontes: raw.fontes
-    };
-  }
-
-  const title = (
-    raw.title || raw.name || raw.nome || raw.titulo || raw.tvg_name || raw.slug || ''
-  ).toString().trim();
-
-  let thumb = (
-    raw.thumb || raw.poster || raw.posterUrl || raw.poster_path || raw.logo ||
-    raw.image || raw.img || raw.capa || raw.tvg_logo || raw.icon || raw.cover || ''
-  ).toString().trim();
-
-  if (thumb.startsWith('/') && !thumb.startsWith('//')) {
-    thumb = /^\/[a-zA-Z0-9]{20,}\.(jpg|png|webp)$/i.test(thumb)
-      ? `https://image.tmdb.org/t/p/w500${thumb}`
-      : `${BASE_URL}${thumb}`;
-  }
-
-  let bannerThumb = (
-    raw.bannerThumb || raw.backdrop || raw.backdropUrl || raw.backdrop_path ||
-    raw.banner || raw.fanart || raw.background || thumb || ''
-  ).toString().trim();
-
-  if (bannerThumb.startsWith('/') && !bannerThumb.startsWith('//')) {
-    bannerThumb = `${BASE_URL}${bannerThumb}`;
-  }
-
-  const desc = (
-    raw.desc || raw.description || raw.sinopse || raw.overview || raw.plot || raw.resumo || ''
-  ).toString().trim();
-
-  const year = (
-    raw.year || raw.ano || raw.release_year ||
-    (raw.release_date ? String(raw.release_date).slice(0, 4) : '') ||
-    (raw.first_air_date ? String(raw.first_air_date).slice(0, 4) : '') || ''
-  ).toString().trim();
-
-  const genre = (
-    Array.isArray(raw.genres) ? raw.genres.map(g => g.name || g).join(', ') :
-    (raw.genre || raw.genero || raw.category || raw.categoria || raw.group || raw.group_title || defaultCat)
-  ).toString().trim();
-
-  const cat = (raw.cat || raw.type || raw.tipo || defaultCat).toString().trim();
-
-  let fontes = [];
-  if (Array.isArray(raw.fontes) && raw.fontes.length > 0) {
-    fontes = raw.fontes;
-  } else if (Array.isArray(raw.sources) && raw.sources.length > 0) {
-    fontes = raw.sources;
-  } else if (Array.isArray(raw.streams) && raw.streams.length > 0) {
-    fontes = raw.streams;
-  } else if (Array.isArray(raw.urls) && raw.urls.length > 0) {
-    fontes = raw.urls;
-  } else if (Array.isArray(raw.episodes) || Array.isArray(raw.episodios) || Array.isArray(raw.seasons)) {
-    fontes = raw.episodes || raw.episodios || raw.seasons;
-  } else {
-    const singleUrl =
-      raw.streamUrl || raw.stream_url || raw.stream || raw.m3u8 ||
-      raw.videoUrl || raw.video || raw.embedUrl || raw.embed ||
-      raw.url || raw.link || raw.src || raw.file || raw.href || '';
-    if (singleUrl) {
-      fontes = [singleUrl.startsWith('/') ? `${BASE_URL}${singleUrl}` : singleUrl];
-    }
-  }
-
-  return { cat, title, desc, thumb, bannerThumb, year, genre, fontes };
-}
-
-/**
- * Extrai itens do HTML e do Payload RSC do Next.js
- */
-function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
-  const items = [];
-  if (!rawText) return items;
-
-  const unescaped = rawText
-    .replace(/\\"/g, '"')
-    .replace(/\\\\/g, '\\');
-
-  const objRegex = /\{[^{}]*?"(?:title|name|nome|titulo|slug)"\s*:\s*"[^"]+"[^{}]*\}/g;
-  let m;
-  while ((m = objRegex.exec(unescaped)) !== null) {
-    try {
-      const obj = JSON.parse(m[0]);
-      const title = obj.title || obj.name || obj.nome || obj.titulo || '';
-      if (!title || title.length < 2) continue;
-      if (title === 'Saimo TV' || title.includes('Online Grátis')) continue;
-
-      const slug = obj.slug || obj.id || '';
-      let href = obj.url || obj.streamUrl || obj.stream || obj.href || '';
-      if (!href && slug) {
-        const prefix =
-          categoryLabel === 'Canais' ? '/canal/' :
-          categoryLabel === 'Filmes' ? '/filme/' :
-          categoryLabel === 'Séries' ? '/serie/' :
-          categoryLabel === 'Animes' ? '/anime/' : '/dorama/';
-        href = `${BASE_URL}${prefix}${slug}`;
-      }
-
-      items.push({ ...obj, cat: categoryLabel, href });
-    } catch (_) {}
-  }
-
-  const linkRegex = /<a[^>]+href="(\/(?:canal|filme|filmes|serie|series|anime|animes|dorama|doramas)\/[^"?#]+)"[^>]*>([\s\S]*?)<\/a>/gi;
-  let lm;
-  while ((lm = linkRegex.exec(rawText)) !== null) {
-    const hrefPath = lm[1];
-    if (hrefPath.includes('/pagina/')) continue;
-
-    const innerHtml = lm[2];
-    const imgMatch = innerHtml.match(/<img[^>]+src="([^"]+)"/i);
-    const altMatch = innerHtml.match(/alt="([^"]+)"/i);
-    const textClean = innerHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    const yearMatch = textClean.match(/\b(19\d{2}|20\d{2})\b/);
-
-    let title = (altMatch ? altMatch[1] : textClean).trim();
-    if (!title) title = hrefPath.split('/').pop().replace(/-/g, ' ');
-
-    let thumb = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
-    if (thumb.startsWith('/_next/image')) {
-      const urlParam = thumb.match(/[?&]url=([^&]+)/);
-      if (urlParam) thumb = decodeURIComponent(urlParam[1]);
-    }
-
-    items.push({
-      cat: categoryLabel,
-      title,
-      thumb,
-      year: yearMatch ? yearMatch[1] : '',
-      genre: categoryLabel,
-      href: `${BASE_URL}${hrefPath}`
-    });
-  }
-
-  return items;
-}
-
-/**
- * Varre todas as páginas de uma categoria em alta concorrência (20 páginas simultâneas)
- */
-async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 1700) {
-  console.log(`\n=== EXTRAINDO CATEGORIA: ${categoryLabel} (${basePath}) ===`);
-  const allCollected = [];
-  const CONCURRENCY = 20;
-  let emptyStreak = 0;
-
-  for (let startPage = 1; startPage <= maxPages; startPage += CONCURRENCY) {
-    const batchPages = [];
-    for (let p = startPage; p < startPage + CONCURRENCY && p <= maxPages; p++) {
-      batchPages.push(p);
-    }
-
-    const results = await Promise.all(
-      batchPages.map(async (pageNum) => {
-        const pageUrl = pageNum === 1 ? basePath : `${basePath}/pagina/${pageNum}`;
-        try {
-          const [htmlRes, rscRes] = await Promise.all([
-            http.get(pageUrl).catch(() => ({ data: '' })),
-            http.get(pageUrl, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
-          ]);
-          const combinedText = `${typeof htmlRes.data === 'string' ? htmlRes.data : JSON.stringify(htmlRes.data)}\n${typeof rscRes.data === 'string' ? rscRes.data : JSON.stringify(rscRes.data)}`;
-          return parseItemsFromHtmlOrRsc(combinedText, categoryLabel);
-        } catch (_) {
-          return [];
-        }
-      })
-    );
-
-    let batchCount = 0;
-    for (const pageItems of results) {
-      if (pageItems.length > 0) {
-        allCollected.push(...pageItems);
-        batchCount += pageItems.length;
-      }
-    }
-
-    if (startPage === 1 || startPage % 100 === 1 || batchCount === 0) {
-      console.log(`  [Páginas ${batchPages[0]} a ${batchPages[batchPages.length - 1]}] -> +${batchCount} extraídos (Bruto acumulado: ${allCollected.length})`);
-    }
-
-    if (batchCount === 0) {
-      emptyStreak++;
-      if (emptyStreak >= 2) {
-        console.log(`  [Fim da paginação de ${categoryLabel} na página ${batchPages[0]}]`);
-        break;
-      }
-    } else {
-      emptyStreak = 0;
-    }
-  }
-
-  return deduplicate(allCollected.map(it => formatToCartoonzineSchema(it, categoryLabel)));
-}
-
-/**
- * Extrai todos os Canais ao Vivo e resolve os links de stream .m3u8 / proxy
- */
-async function scrapeAllChannels() {
-  console.log(`\n=== EXTRAINDO CANAIS AO VIVO ===`);
-  const rawChannels = [];
-
-  for (const route of CHANNEL_ROUTES) {
-    try {
-      const [htmlRes, rscRes] = await Promise.all([
-        http.get(route).catch(() => ({ data: '' })),
-        http.get(route, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
-      ]);
-      const text = `${htmlRes.data || ''}\n${rscRes.data || ''}`;
-      const items = parseItemsFromHtmlOrRsc(text, 'Canais');
-      console.log(`  [Rota ${route}] -> ${items.length} canais encontrados`);
-      rawChannels.push(...items);
-    } catch (_) {}
-  }
-
-  let channels = deduplicate(rawChannels.map(it => formatToCartoonzineSchema(it, 'Canais')));
-  console.log(`  [Total de Canais Únicos]: ${channels.length}. Buscando streams M3U8...`);
-
-  const BATCH = 20;
-  for (let i = 0; i < channels.length; i += BATCH) {
-    const slice = channels.slice(i, i + BATCH);
-    await Promise.all(
-      slice.map(async (ch) => {
-        const chUrl = (ch.fontes && ch.fontes[0]) || '';
-        if (!chUrl.includes('/canal/')) return;
-        try {
-          const pathOnly = chUrl.replace(BASE_URL, '');
-          const [hRes, rRes] = await Promise.all([
-            http.get(pathOnly).catch(() => ({ data: '' })),
-            http.get(pathOnly, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
-          ]);
-          const raw = `${hRes.data || ''}\n${rRes.data || ''}`.replace(/\\"/g, '"');
-          const m3u8Matches = raw.match(/https?:\/\/[^"'\s\\]+\.m3u8[^"'\s\\]*/gi) || [];
-          const proxyMatches = raw.match(/https?:\/\/play\.saimotv\.com\/api\/proxy\?[^"'\s\\]+/gi) || [];
-          const embedMatches = raw.match(/https?:\/\/[^"'\s\\]*(?:embed|player)[^"'\s\\]*/gi) || [];
-
-          const streams = [...new Set([...m3u8Matches, ...proxyMatches, ...embedMatches])].filter(
-            u => !u.includes('error.txt') && !u.includes('googletagmanager')
-          );
-          if (streams.length > 0) {
-            ch.fontes = streams;
-          }
-        } catch (_) {}
-      })
-    );
-  }
-
-  return channels;
-}
-
-/**
- * Deduplica preservando itens com mesmo nome mas links/anos diferentes
- */
-function deduplicate(items) {
-  const seen = new Set();
-  const out = [];
-  for (const it of items) {
-    if (!it.title || it.title.length < 2) continue;
-    const cleanTitle = it.title.toLowerCase().trim();
-    if (cleanTitle === 'ao vivo' || cleanTitle === 'saimo tv' || cleanTitle === 'assistir') continue;
-    const firstSource = (it.fontes && it.fontes[0]) ? String(it.fontes[0]).trim() : '';
-    const key = firstSource ? `${firstSource}` : `${cleanTitle}|${it.year}|${it.cat}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      out.push(it);
-    }
-  }
-  return out;
-}
-
-function saveJsonFile(filename, items) {
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
-  const fullPath = path.join(OUTPUT_DIR, filename);
-  fs.writeFileSync(fullPath, JSON.stringify(items, null, 2), 'utf-8');
-  console.log(`  [✓] Arquivo listas/${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
-}
-
-function saveSeriesIn3Parts(seriesArray) {
-  const total = seriesArray.length;
-  const partSize = Math.ceil(total / 3) || 0;
-  saveJsonFile('series_sm_pt1.json', seriesArray.slice(0, partSize));
-  saveJsonFile('series_sm_pt2.json', seriesArray.slice(partSize, partSize * 2));
-  saveJsonFile('series_sm_pt3.json', seriesArray.slice(partSize * 2));
-}
-
-(async () => {
+async function fetchText(url) {
   try {
-    // 1. CANAIS
-    const canais = await scrapeAllChannels();
-    saveJsonFile('canais_sm.json', canais);
+    const res = await http.get(url);
+    if (res.status >= 200 && res.status < 300 && typeof res.data === 'string') {
+      return res.data;
+    }
+  } catch (_) {}
+  return '';
+}
 
-    // 2. DORAMAS
-    const doramas = await scrapePaginatedCategory('/doramas', 'Doramas', 40);
-    saveJsonFile('doramas_sm.json', doramas);
-
-    // 3. ANIMES
-    const animes = await scrapePaginatedCategory('/animes', 'Animes', 100);
-    saveJsonFile('animes_sm.json', animes);
-
-    // 4. SÉRIES (Divididas em 3 partes)
-    const series = await scrapePaginatedCategory('/series', 'Séries', 550);
-    saveSeriesIn3Parts(series);
-
-    // 5. FILMES (Até 1.700 páginas + mesclagem com base principal)
-    let filmes = await scrapePaginatedCategory('/filmes', 'Filmes', 1700);
-    try {
-      const { data } = await axios.get(FALLBACK_FILMES_URL, { timeout: 30000 });
-      if (Array.isArray(data)) {
-        console.log(`  [+] Mesclando com ${data.length} filmes da base principal...`);
-        const baseFormatted = data.map(it => formatToCartoonzineSchema(it, 'Filmes'));
-        filmes = deduplicate([...filmes, ...baseFormatted]);
-      }
-    } catch (_) {}
-    saveJsonFile('filmes_sm.json', filmes);
-
-  } catch (err) {
-    console.error('[Erro Fatal]:', err);
-    process.exit(1);
+/**
+ * Converte "0:1001" ou "1:9001.mkv" no endereço HTTP real usando a tabela de bases do indice.txt
+ */
+function expandSourceUrl(rawSource, bases) {
+  const s = (rawSource || '').trim();
+  if (!s) return '';
+  if (s.startsWith('http://') || s.startsWith('https://')) {
+    return s;
   }
-})();
+
+  const colonIdx = s.indexOf(':');
+  if (colonIdx !== -1) {
+    const baseNum = s.slice(0, colonIdx).trim();
+    let rest = s.slice(colonIdx + 1).trim();
+    const baseUrl = bases[baseNum];
+    if (baseUrl && rest) {
+      // Regra oficial do formato Saimo: se o resto não tem ponto, ganha .mp4
+      if (!rest.includes('.')) {
+        rest = `${rest}.mp4`;
+      }
+      const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+      return `${cleanBase}${rest}`;
+    }
+  }
+  return s;
+}
+
+/**
+ * Extrai a lista de URLs de uma string "dub=0:1001,https://..." ou "0:1001,1:2002"
+ */
+function parseSourceList(rawField, bases) {
+  const clean = rawField.replace(/^(dub|leg)=/i, '').trim();
+  if (!clean) return [];
+  return clean
+    .split(',')
+    .map((part) => expandSourceUrl(part, bases))
+    .filter((u) => u.startsWith('http://') || u.startsWith('https://'));
+}
+
+/**
+ * 1. CANAIS: Lê catalogo.txt e canais.txt (M3U reserva) de https://canais-saimo.pages.dev/
+ */
+async function scrapeCanais() {
+  console.log('\n=== 1. EXTRAINDO CANAIS (canais-saimo.pages.dev) ===');
+  const catalogoTxt = await fetchText(`${CANAIS_BASE_URL}/catalogo.txt`);
+  const canaisM3uTxt = await fetchText(`${CANAIS_BASE_URL}/canais.txt`);
+
+  const channelsMap = new Map();
+  let currentChannel = null;
+
+  if (catalogoTxt) {
+    const lines = catalogoTxt.split(/\r?\n/);
+    for (const rawLine of lines) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+
+      const colonIdx = line.indexOf(':');
+      if (colonIdx === -1) continue;
+
+      const key = line.slice(0, colonIdx).trim().toLowerCase();
+      const val = line.slice(colonIdx + 1).trim();
+
+      if (key === 'canal') {
+        const normKey = val.toLowerCase().replace(/\s+hd$/i, '').trim();
+        if (!channelsMap.has(normKey)) {
+          currentChannel = {
+            cat: 'Canais',
+            title: val,
+            desc: '',
+            thumb: '',
+            bannerThumb: '',
+            year: '',
+            genre: 'Canais',
+            fontes: []
+          };
+          channelsMap.set(normKey, currentChannel);
+        } else {
+          currentChannel = channelsMap.get(normKey);
+        }
+      } else if (currentChannel) {
+        if (key === 'logo' && val && !currentChannel.thumb) {
+          currentChannel.thumb = val;
+          currentChannel.bannerThumb = val;
+        } else if (key === 'categoria' && val) {
+          currentChannel.genre = val;
+        } else if (key === 'fonte' && val.startsWith('http')) {
+          if (!currentChannel.fontes.includes(val)) {
+            currentChannel.fontes.push(val);
+          }
+        }
+      }
+    }
+  }
+
+  // Lê canais.txt (M3U de reserva)
+  if (canaisM3uTxt && canaisM3uTxt.includes('#EXTINF:')) {
+    const lines = canaisM3uTxt.split(/\r?\n/);
+    let pending = null;
+    for (let line of lines) {
+      line = line.trim();
+      if (!line) continue;
+      if (line.startsWith('#EXTINF:')) {
+        const logo = (line.match(/tvg-logo="([^"]*)"/i) || [])[1] || '';
+        const group = (line.match(/group-title="([^"]*)"/i) || [])[1] || 'Canais';
+        const title = line.split(',').pop()?.trim() || '';
+        pending = { title, logo, group };
+      } else if (!line.startsWith('#') && pending && line.startsWith('http')) {
+        const normKey = pending.title.toLowerCase().replace(/\s+hd$/i, '').trim();
+        if (channelsMap.has(normKey)) {
+          const existing = channelsMap.get(normKey);
+          if (!existing.fontes.includes(line)) existing.fontes.push(line);
+          if (!existing.thumb && pending.logo) {
+            existing.thumb = pending.logo;
+            existing.bannerThumb = pending.logo;
+          }
+        } else if (pending.title) {
+          channelsMap.set(normKey, {
+            cat: 'Canais',
+            title: pending.title,
+            desc: '',
+            thumb: pending.logo,
+            bannerThumb: pending.logo,
+            year: '',
+            genre: pending.group,
+            fontes: [line]
+          });
+        }
+        pending = null;
+      }
+    }
+  }
+
+  const finalChannels = Array.from(channelsMap.values()).filter((c) => c.fontes.length > 0);
+  console.log(`  [+] Total de Canais com stream extraídos: ${finalChannels.length}`);
+  return finalChannels;
+}
+
+/**
+ * 2. METADADOS DO ACERVO: Lê indice.txt, fichas.txt, generos.txt e detalhes.txt
+ */
+async function loadVodMetadata() {
+  console.log('\n=== 2. CARREGANDO ÍNDICE E FICHAS (filmes-saimo.pages.dev) ===');
+  const [indiceTxt, fichasTxt, generosTxt, detalhesTxt] = await Promise.all([
+    fetchText(`${FILMES_BASE_URL}/indice.txt`),
+    fetchText(`${FILMES_BASE_URL}/fichas.txt`),
+    fetchText(`${FILMES_BASE_URL}/generos.txt`),
+    fetchText(`${FILMES_BASE_URL}/detalhes.txt`)
+  ]);
+
+  const bases = {};
+  const letters = [];
+
+  // Parseia indice.txt
+  for (const rawLine of indiceTxt.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    if (line.startsWith('base:')) {
+      const m = line.match(/^base:\s*(\d+)\s+(\S+)/i);
+      if (m) bases[m[1]] = m[2];
+    } else if (!line.startsWith('#') || line.startsWith('#\t')) {
+      const cols = line.split('\t');
+      if (cols.length >= 3) {
+        letters.push({
+          letter: cols[0].trim(),
+          moviesCount: parseInt(cols[1], 10) || 0,
+          seriesCount: parseInt(cols[2], 10) || 0
+        });
+      }
+    }
+  }
+
+  console.log(`  [+] Servidores base encontrados no indice.txt: ${Object.keys(bases).length}`);
+  console.log(`  [+] Letras ativas no indice.txt: ${letters.length}`);
+
+  // Mapa de metadados por "tipo|título" (ex: "f|A Casa (2026)" ou "s|A Série")
+  const metaMap = new Map();
+  let capaBase = 'https://image.tmdb.org/t/p/w342';
+
+  const getOrCreateMeta = (tipo, title) => {
+    const key = `${tipo.toLowerCase()}|${title.trim().toLowerCase()}`;
+    if (!metaMap.has(key)) {
+      metaMap.set(key, { thumb: '', genre: '', year: '', desc: '' });
+    }
+    return metaMap.get(key);
+  };
+
+  // Parseia fichas.txt: tipo \t título \t id TMDB \t capa \t gêneros
+  if (fichasTxt) {
+    for (const rawLine of fichasTxt.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+      if (line.startsWith('capa:')) {
+        capaBase = line.slice(5).trim().replace(/\/$/, '');
+        continue;
+      }
+      const cols = line.split('\t');
+      if (cols.length >= 4) {
+        const [tipo, titulo, , capaRaw, generos] = cols;
+        const meta = getOrCreateMeta(tipo, titulo);
+        if (capaRaw) {
+          meta.thumb = capaRaw.startsWith('http') ? capaRaw : `${capaBase}${capaRaw.startsWith('/') ? '' : '/'}${capaRaw}`;
+        }
+        if (generos) meta.genre = generos.trim();
+      }
+    }
+  }
+
+  // Parseia generos.txt: tipo \t título \t gêneros
+  if (generosTxt) {
+    for (const rawLine of generosTxt.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+      const cols = line.split('\t');
+      if (cols.length >= 3) {
+        const [tipo, titulo, generos] = cols;
+        const meta = getOrCreateMeta(tipo, titulo);
+        if (generos && !meta.genre) meta.genre = generos.trim();
+      }
+    }
+  }
+
+  // Parseia detalhes.txt: tipo \t título \t ano \t nota \t classificação \t popularidade
+  if (detalhesTxt) {
+    for (const rawLine of detalhesTxt.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+      const cols = line.split('\t');
+      if (cols.length >= 3) {
+        const [tipo, titulo, ano, nota, classificacao] = cols;
+        const meta = getOrCreateMeta(tipo, titulo);
+        if (ano) meta.year = ano.trim();
+        if (nota || classificacao) {
+          meta.desc = [nota ? `Nota: ${nota}` : '', classificacao ? `Classificação: ${classificacao}` : '']
+            .filter(Boolean)
+            .join(' | ');
+        }
+      }
+    }
+  }
+
+  console.log(`  [+] Fichas e metadados carregados: ${metaMap.size.toLocaleString('pt-BR')} títulos`);
+  return { bases, letters, metaMap };
+}
+
+/**
+ * 3. FILMES: Lê filmes-<LETRA>.txt de A a Z e #
+ */
+async function scrapeFilmes(bases, letters, metaMap) {
+  console.log('\n=== 3. EXTRAINDO FILMES (filmes-<LETRA>.txt) ===');
+  const activeLetters = letters.length > 0
+    ? letters.filter((l) => l.moviesCount > 0).map((l) => l.letter)
+    : ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
+
+  const movies = [];
+
+  const responses = await Promise.all(
+    activeLetters.map(async (letter) => {
+      const fileLetter = letter === '#' ? '%23' : letter;
+      let txt = await fetchText(`${FILMES_BASE_URL}/filmes-${fileLetter}.txt`);
+      if (!txt && letter === '#') {
+        txt = await fetchText(`${FILMES_BASE_URL}/filmes-#.txt`);
+      }
+      return { letter, txt };
+    })
+  );
+
+  for (const { txt } of responses) {
+    if (!txt) continue;
+    for (const rawLine of txt.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+
+      const cols = line.split('\t');
+      if (cols.length
