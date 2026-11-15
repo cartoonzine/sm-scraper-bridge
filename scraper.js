@@ -1,4 +1,3 @@
-const puppeteer = require('puppeteer');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
@@ -7,7 +6,6 @@ const BASE_URL = 'https://saimotv.com';
 const OUTPUT_DIR = path.join(__dirname, 'listas');
 const FALLBACK_FILMES_URL = 'https://raw.githubusercontent.com/cartoonzine/cartoonzine-sm-bridge/refs/heads/main/filmes_saimo.json';
 
-// Todas as 9 rotas de canais detectadas no log do saimotv.com
 const CHANNEL_ROUTES = [
   '/tv-ao-vivo',
   '/tv-ao-vivo/tv-aberta',
@@ -114,18 +112,16 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
 }
 
 /**
- * Extrai todos os itens de uma página HTML ou Payload RSC do Next.js (mesmo com aspas escapadas)
+ * Extrai itens do HTML e do Payload RSC do Next.js
  */
 function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
   const items = [];
   if (!rawText) return items;
 
-  // 1. Desescapa strings embutidas no self.__next_f.push do Next.js
   const unescaped = rawText
     .replace(/\\"/g, '"')
     .replace(/\\\\/g, '\\');
 
-  // 2. Procura objetos JSON individuais que tenham slug/title/name e poster/thumb/logo/url
   const objRegex = /\{[^{}]*?"(?:title|name|nome|titulo|slug)"\s*:\s*"[^"]+"[^{}]*\}/g;
   let m;
   while ((m = objRegex.exec(unescaped)) !== null) {
@@ -133,7 +129,6 @@ function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
       const obj = JSON.parse(m[0]);
       const title = obj.title || obj.name || obj.nome || obj.titulo || '';
       if (!title || title.length < 2) continue;
-      // Filtra objetos de configuração de página que não são filmes/séries/canais
       if (title === 'Saimo TV' || title.includes('Online Grátis')) continue;
 
       const slug = obj.slug || obj.id || '';
@@ -147,15 +142,10 @@ function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
         href = `${BASE_URL}${prefix}${slug}`;
       }
 
-      items.push({
-        ...obj,
-        cat: categoryLabel,
-        href
-      });
+      items.push({ ...obj, cat: categoryLabel, href });
     } catch (_) {}
   }
 
-  // 3. Também extrai todos os cards de links <a href="/filme/...">, <a href="/serie/...">, <a href="/canal/..."> do HTML
   const linkRegex = /<a[^>]+href="(\/(?:canal|filme|filmes|serie|series|anime|animes|dorama|doramas)\/[^"?#]+)"[^>]*>([\s\S]*?)<\/a>/gi;
   let lm;
   while ((lm = linkRegex.exec(rawText)) !== null) {
@@ -169,9 +159,7 @@ function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
     const yearMatch = textClean.match(/\b(19\d{2}|20\d{2})\b/);
 
     let title = (altMatch ? altMatch[1] : textClean).trim();
-    if (!title) {
-      title = hrefPath.split('/').pop().replace(/-/g, ' ');
-    }
+    if (!title) title = hrefPath.split('/').pop().replace(/-/g, ' ');
 
     let thumb = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
     if (thumb.startsWith('/_next/image')) {
@@ -193,12 +181,12 @@ function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
 }
 
 /**
- * Varre todas as páginas de uma categoria (/doramas/pagina/1..N, /animes/pagina/1..N, etc.) em paralelo!
+ * Varre todas as páginas de uma categoria em alta concorrência (20 páginas simultâneas)
  */
-async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 500) {
+async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 1700) {
   console.log(`\n=== EXTRAINDO CATEGORIA: ${categoryLabel} (${basePath}) ===`);
   const allCollected = [];
-  const CONCURRENCY = 12;
+  const CONCURRENCY = 20;
   let emptyStreak = 0;
 
   for (let startPage = 1; startPage <= maxPages; startPage += CONCURRENCY) {
@@ -211,12 +199,10 @@ async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 500) 
       batchPages.map(async (pageNum) => {
         const pageUrl = pageNum === 1 ? basePath : `${basePath}/pagina/${pageNum}`;
         try {
-          // Faz fetch tanto do HTML normal quanto do RSC para garantir 100% dos itens da página
           const [htmlRes, rscRes] = await Promise.all([
             http.get(pageUrl).catch(() => ({ data: '' })),
             http.get(pageUrl, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
           ]);
-
           const combinedText = `${typeof htmlRes.data === 'string' ? htmlRes.data : JSON.stringify(htmlRes.data)}\n${typeof rscRes.data === 'string' ? rscRes.data : JSON.stringify(rscRes.data)}`;
           return parseItemsFromHtmlOrRsc(combinedText, categoryLabel);
         } catch (_) {
@@ -233,8 +219,9 @@ async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 500) 
       }
     }
 
-    const currentUnique = deduplicate(allCollected.map(it => formatToCartoonzineSchema(it, categoryLabel))).length;
-    console.log(`  [Páginas ${batchPages[0]} a ${batchPages[batchPages.length - 1]}] -> +${batchCount} extraídos (Total único acumulado: ${currentUnique})`);
+    if (startPage === 1 || startPage % 100 === 1 || batchCount === 0) {
+      console.log(`  [Páginas ${batchPages[0]} a ${batchPages[batchPages.length - 1]}] -> +${batchCount} extraídos (Bruto acumulado: ${allCollected.length})`);
+    }
 
     if (batchCount === 0) {
       emptyStreak++;
@@ -253,11 +240,8 @@ async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 500) 
 /**
  * Extrai todos os Canais ao Vivo e resolve os links de stream .m3u8 / proxy
  */
-async function scrapeAllChannels(browser) {
+async function scrapeAllChannels() {
   console.log(`\n=== EXTRAINDO CANAIS AO VIVO ===`);
-  const page = await browser.newPage();
-  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36');
-
   const rawChannels = [];
 
   for (const route of CHANNEL_ROUTES) {
@@ -274,10 +258,9 @@ async function scrapeAllChannels(browser) {
   }
 
   let channels = deduplicate(rawChannels.map(it => formatToCartoonzineSchema(it, 'Canais')));
-  console.log(`  [Total de Canais Únicos]: ${channels.length}. Buscando streams M3U8 via HTTP rápido...`);
+  console.log(`  [Total de Canais Únicos]: ${channels.length}. Buscando streams M3U8...`);
 
-  // Resolve os links de stream direto do código-fonte/RSC de cada canal em lotes paralelos
-  const BATCH = 15;
+  const BATCH = 20;
   for (let i = 0; i < channels.length; i += BATCH) {
     const slice = channels.slice(i, i + BATCH);
     await Promise.all(
@@ -306,10 +289,12 @@ async function scrapeAllChannels(browser) {
     );
   }
 
-  await page.close();
   return channels;
 }
 
+/**
+ * Deduplica preservando itens com mesmo nome mas links/anos diferentes
+ */
 function deduplicate(items) {
   const seen = new Set();
   const out = [];
@@ -317,7 +302,8 @@ function deduplicate(items) {
     if (!it.title || it.title.length < 2) continue;
     const cleanTitle = it.title.toLowerCase().trim();
     if (cleanTitle === 'ao vivo' || cleanTitle === 'saimo tv' || cleanTitle === 'assistir') continue;
-    const key = `${cleanTitle}|${it.cat}`;
+    const firstSource = (it.fontes && it.fontes[0]) ? String(it.fontes[0]).trim() : '';
+    const key = firstSource ? `${firstSource}` : `${cleanTitle}|${it.year}|${it.cat}`;
     if (!seen.has(key)) {
       seen.add(key);
       out.push(it);
@@ -344,30 +330,25 @@ function saveSeriesIn3Parts(seriesArray) {
 }
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
-  });
-
   try {
     // 1. CANAIS
-    const canais = await scrapeAllChannels(browser);
+    const canais = await scrapeAllChannels();
     saveJsonFile('canais_sm.json', canais);
 
-    // 2. DORAMAS (~264 títulos -> ~15 páginas)
-    const doramas = await scrapePaginatedCategory('/doramas', 'Doramas', 35);
+    // 2. DORAMAS
+    const doramas = await scrapePaginatedCategory('/doramas', 'Doramas', 40);
     saveJsonFile('doramas_sm.json', doramas);
 
-    // 3. ANIMES (~1.325 títulos -> ~60 páginas)
+    // 3. ANIMES
     const animes = await scrapePaginatedCategory('/animes', 'Animes', 100);
     saveJsonFile('animes_sm.json', animes);
 
-    // 4. SÉRIES (~9.909 títulos -> divididas em 3 partes)
-    const series = await scrapePaginatedCategory('/series', 'Séries', 450);
+    // 4. SÉRIES (Divididas em 3 partes)
+    const series = await scrapePaginatedCategory('/series', 'Séries', 550);
     saveSeriesIn3Parts(series);
 
-    // 5. FILMES (~31.518 títulos + mesclagem com a base principal)
-    let filmes = await scrapePaginatedCategory('/filmes', 'Filmes', 400);
+    // 5. FILMES (Até 1.700 páginas + mesclagem com base principal)
+    let filmes = await scrapePaginatedCategory('/filmes', 'Filmes', 1700);
     try {
       const { data } = await axios.get(FALLBACK_FILMES_URL, { timeout: 30000 });
       if (Array.isArray(data)) {
@@ -381,7 +362,5 @@ function saveSeriesIn3Parts(seriesArray) {
   } catch (err) {
     console.error('[Erro Fatal]:', err);
     process.exit(1);
-  } finally {
-    await browser.close();
   }
 })();
