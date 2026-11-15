@@ -33,12 +33,24 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Cria .gitignore para nunca subir node_modules
-          echo "node_modules/" > .gitignore
-          echo "package-lock.json" >> .gitignore
-          # Remove node_modules e JSONs antigos soltos na raiz caso tenham subido antes
-          git rm -r --cached node_modules --ignore-unmatch
-          git rm -f ./*_sm*.json ./séries_sm.json --ignore-unmatch
-          # Adiciona o .gitignore e todos os JSONs da pasta listas/
-          git add .gitignore listas/*.json
-          git diff --staged --quiet || (git commit -m "chore: atualização automática das listas em /listas" && git push)
+
+          # Garante que node_modules nunca seja rastreado
+          printf "node_modules/\npackage-lock.json\n" > .gitignore
+
+          # Remove node_modules do controle do Git caso ainda exista lá
+          git rm -r --cached node_modules --ignore-unmatch || true
+
+          # Remove arquivos JSON antigos soltos na raiz se existirem
+          rm -f ./*_sm*.json ./séries_sm.json || true
+
+          # Adiciona todas as atualizações (incluindo a pasta listas/)
+          git add -A
+
+          # Faz commit e push (com pull --rebase para evitar erro caso o repo tenha mudado durante os 6 min)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: atualização automática das listas em /listas"
+            git pull --rebase origin main || true
+            git push origin main
+          else
+            echo "Nenhuma alteração nas listas."
+          fi
