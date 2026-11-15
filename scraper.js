@@ -7,24 +7,31 @@ const BASE_URL = 'https://saimotv.com';
 const OUTPUT_DIR = path.join(__dirname, 'listas');
 const FALLBACK_FILMES_URL = 'https://raw.githubusercontent.com/cartoonzine/cartoonzine-sm-bridge/refs/heads/main/filmes_saimo.json';
 
-const ROUTES = {
-  canais: [
-    '/tv-ao-vivo',
-    '/tv-ao-vivo/esportes',
-    '/tv-ao-vivo/tv-aberta',
-    '/tv-ao-vivo/filmes-e-series',
-    '/tv-ao-vivo/noticias',
-    '/tv-ao-vivo/infantil',
-    '/tv-ao-vivo/documentarios'
-  ],
-  filmes: ['/filmes'],
-  series: ['/series'],
-  animes: ['/animes'],
-  doramas: ['/doramas']
-};
+// Todas as 9 rotas de canais detectadas no log do saimotv.com
+const CHANNEL_ROUTES = [
+  '/tv-ao-vivo',
+  '/tv-ao-vivo/tv-aberta',
+  '/tv-ao-vivo/esportes',
+  '/tv-ao-vivo/filmes-e-series',
+  '/tv-ao-vivo/noticias',
+  '/tv-ao-vivo/infantil',
+  '/tv-ao-vivo/documentarios',
+  '/tv-ao-vivo/entretenimento',
+  '/tv-ao-vivo/24-horas',
+  '/tv-ao-vivo/musicas'
+];
+
+const http = axios.create({
+  baseURL: BASE_URL,
+  timeout: 20000,
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+  }
+});
 
 /**
- * Formata qualquer objeto para o schema do seu sistema:
+ * Formata para o schema exato do seu sistema:
  * { cat, title, desc, thumb, bannerThumb, year, genre, fontes }
  */
 function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
@@ -46,12 +53,14 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
   ).toString().trim();
 
   let thumb = (
-    raw.thumb || raw.poster || raw. posterUrl || raw.poster_path || raw.logo ||
+    raw.thumb || raw.poster || raw.posterUrl || raw.poster_path || raw.logo ||
     raw.image || raw.img || raw.capa || raw.tvg_logo || raw.icon || raw.cover || ''
   ).toString().trim();
 
   if (thumb.startsWith('/') && !thumb.startsWith('//')) {
-    thumb = thumb.includes('tmdb') ? `https://image.tmdb.org/t/p/w500${thumb}` : `${BASE_URL}${thumb}`;
+    thumb = /^\/[a-zA-Z0-9]{20,}\.(jpg|png|webp)$/i.test(thumb)
+      ? `https://image.tmdb.org/t/p/w500${thumb}`
+      : `${BASE_URL}${thumb}`;
   }
 
   let bannerThumb = (
@@ -60,7 +69,7 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
   ).toString().trim();
 
   if (bannerThumb.startsWith('/') && !bannerThumb.startsWith('//')) {
-    bannerThumb = bannerThumb.includes('tmdb') ? `https://image.tmdb.org/t/p/original${bannerThumb}` : `${BASE_URL}${bannerThumb}`;
+    bannerThumb = `${BASE_URL}${bannerThumb}`;
   }
 
   const desc = (
@@ -105,242 +114,200 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
 }
 
 /**
- * Extrai objetos JSON de payloads Next.js RSC (React Server Components) e textos JS
+ * Extrai todos os itens de uma página HTML ou Payload RSC do Next.js (mesmo com aspas escapadas)
  */
-function extractObjectsFromNextPayload(text) {
-  const extracted = [];
+function parseItemsFromHtmlOrRsc(rawText, categoryLabel) {
+  const items = [];
+  if (!rawText) return items;
 
-  // 1. Procura arrays JSON de objetos dentro do payload RSC ou JS
-  const regexArray = /\[\s*\{[\s\S]*?\}\s*\]/g;
-  let match;
-  while ((match = regexArray.exec(text)) !== null) {
-    const candidate = match[0];
-    if (candidate.length < 40) continue;
+  // 1. Desescapa strings embutidas no self.__next_f.push do Next.js
+  const unescaped = rawText
+    .replace(/\\"/g, '"')
+    .replace(/\\\\/g, '\\');
+
+  // 2. Procura objetos JSON individuais que tenham slug/title/name e poster/thumb/logo/url
+  const objRegex = /\{[^{}]*?"(?:title|name|nome|titulo|slug)"\s*:\s*"[^"]+"[^{}]*\}/g;
+  let m;
+  while ((m = objRegex.exec(unescaped)) !== null) {
     try {
-      const parsed = JSON.parse(candidate);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        for (const item of parsed) {
-          if (item && typeof item === 'object' && (item.title || item.name || item.nome || item.titulo || item.slug || item.streamUrl || item.url)) {
-            extracted.push(item);
-          }
-        }
+      const obj = JSON.parse(m[0]);
+      const title = obj.title || obj.name || obj.nome || obj.titulo || '';
+      if (!title || title.length < 2) continue;
+      // Filtra objetos de configuração de página que não são filmes/séries/canais
+      if (title === 'Saimo TV' || title.includes('Online Grátis')) continue;
+
+      const slug = obj.slug || obj.id || '';
+      let href = obj.url || obj.streamUrl || obj.stream || obj.href || '';
+      if (!href && slug) {
+        const prefix =
+          categoryLabel === 'Canais' ? '/canal/' :
+          categoryLabel === 'Filmes' ? '/filme/' :
+          categoryLabel === 'Séries' ? '/serie/' :
+          categoryLabel === 'Animes' ? '/anime/' : '/dorama/';
+        href = `${BASE_URL}${prefix}${slug}`;
       }
-    } catch (_) {
-      // Se tiver escape de string do Next.js (__next_f.push), tenta desescapar
-      try {
-        const unescaped = candidate.replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-        const parsed = JSON.parse(unescaped);
-        if (Array.isArray(parsed)) {
-          for (const item of parsed) {
-            if (item && typeof item === 'object' && (item.title || item.name || item.nome || item.titulo || item.slug)) {
-              extracted.push(item);
-            }
-          }
-        }
-      } catch (_) {}
-    }
+
+      items.push({
+        ...obj,
+        cat: categoryLabel,
+        href
+      });
+    } catch (_) {}
   }
 
-  return extracted;
+  // 3. Também extrai todos os cards de links <a href="/filme/...">, <a href="/serie/...">, <a href="/canal/..."> do HTML
+  const linkRegex = /<a[^>]+href="(\/(?:canal|filme|filmes|serie|series|anime|animes|dorama|doramas)\/[^"?#]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+  let lm;
+  while ((lm = linkRegex.exec(rawText)) !== null) {
+    const hrefPath = lm[1];
+    if (hrefPath.includes('/pagina/')) continue;
+
+    const innerHtml = lm[2];
+    const imgMatch = innerHtml.match(/<img[^>]+src="([^"]+)"/i);
+    const altMatch = innerHtml.match(/alt="([^"]+)"/i);
+    const textClean = innerHtml.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const yearMatch = textClean.match(/\b(19\d{2}|20\d{2})\b/);
+
+    let title = (altMatch ? altMatch[1] : textClean).trim();
+    if (!title) {
+      title = hrefPath.split('/').pop().replace(/-/g, ' ');
+    }
+
+    let thumb = imgMatch ? imgMatch[1].replace(/&amp;/g, '&') : '';
+    if (thumb.startsWith('/_next/image')) {
+      const urlParam = thumb.match(/[?&]url=([^&]+)/);
+      if (urlParam) thumb = decodeURIComponent(urlParam[1]);
+    }
+
+    items.push({
+      cat: categoryLabel,
+      title,
+      thumb,
+      year: yearMatch ? yearMatch[1] : '',
+      genre: categoryLabel,
+      href: `${BASE_URL}${hrefPath}`
+    });
+  }
+
+  return items;
 }
 
 /**
- * Extrai itens de uma rota do saimotv.com (Rede + Next.js Flight Data + Scroll Paginado + DOM)
+ * Varre todas as páginas de uma categoria (/doramas/pagina/1..N, /animes/pagina/1..N, etc.) em paralelo!
  */
-async function scrapeSaimoRoute(page, routePath, categoryLabel, maxScrolls = 15) {
-  const targetUrl = `${BASE_URL}${routePath}`;
-  console.log(`\n[Acessando Rota] -> ${targetUrl} (${categoryLabel})`);
+async function scrapePaginatedCategory(basePath, categoryLabel, maxPages = 500) {
+  console.log(`\n=== EXTRAINDO CATEGORIA: ${categoryLabel} (${basePath}) ===`);
+  const allCollected = [];
+  const CONCURRENCY = 12;
+  let emptyStreak = 0;
 
-  const routeItems = [];
-
-  const onResponse = async (res) => {
-    const rUrl = res.url();
-    const status = res.status();
-    const cType = (res.headers()['content-type'] || '').toLowerCase();
-
-    if (status >= 400) return;
-    if (
-      rUrl.includes('google-analytics') || rUrl.includes('googletagmanager') ||
-      rUrl.includes('bancadeltempoidea') || rUrl.includes('mamshirt') ||
-      rUrl.includes('aqml.org') || rUrl.includes('directyp') || rUrl.includes('aarems') ||
-      /\.(png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|css)(\?|$)/i.test(rUrl)
-    ) {
-      return;
+  for (let startPage = 1; startPage <= maxPages; startPage += CONCURRENCY) {
+    const batchPages = [];
+    for (let p = startPage; p < startPage + CONCURRENCY && p <= maxPages; p++) {
+      batchPages.push(p);
     }
 
-    try {
-      const text = await res.text();
-      if (!text || text.length < 30) return;
-
-      // Se for JSON de API
-      if (cType.includes('application/json') || rUrl.includes('/api/')) {
-        console.log(`  [API/JSON ${status}] -> ${rUrl} (${text.length} bytes)`);
+    const results = await Promise.all(
+      batchPages.map(async (pageNum) => {
+        const pageUrl = pageNum === 1 ? basePath : `${basePath}/pagina/${pageNum}`;
         try {
-          const json = JSON.parse(text);
-          const list = Array.isArray(json)
-            ? json
-            : (json.data || json.items || json.results || json.movies || json.series || json.channels || json.canais || json.filmes || json.animes || json.doramas);
-          if (Array.isArray(list) && list.length > 0) {
-            console.log(`    -> [+] Capturados ${list.length} itens da API!`);
-            routeItems.push(...list);
-            return;
+          // Faz fetch tanto do HTML normal quanto do RSC para garantir 100% dos itens da página
+          const [htmlRes, rscRes] = await Promise.all([
+            http.get(pageUrl).catch(() => ({ data: '' })),
+            http.get(pageUrl, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
+          ]);
+
+          const combinedText = `${typeof htmlRes.data === 'string' ? htmlRes.data : JSON.stringify(htmlRes.data)}\n${typeof rscRes.data === 'string' ? rscRes.data : JSON.stringify(rscRes.data)}`;
+          return parseItemsFromHtmlOrRsc(combinedText, categoryLabel);
+        } catch (_) {
+          return [];
+        }
+      })
+    );
+
+    let batchCount = 0;
+    for (const pageItems of results) {
+      if (pageItems.length > 0) {
+        allCollected.push(...pageItems);
+        batchCount += pageItems.length;
+      }
+    }
+
+    const currentUnique = deduplicate(allCollected.map(it => formatToCartoonzineSchema(it, categoryLabel))).length;
+    console.log(`  [Páginas ${batchPages[0]} a ${batchPages[batchPages.length - 1]}] -> +${batchCount} extraídos (Total único acumulado: ${currentUnique})`);
+
+    if (batchCount === 0) {
+      emptyStreak++;
+      if (emptyStreak >= 2) {
+        console.log(`  [Fim da paginação de ${categoryLabel} na página ${batchPages[0]}]`);
+        break;
+      }
+    } else {
+      emptyStreak = 0;
+    }
+  }
+
+  return deduplicate(allCollected.map(it => formatToCartoonzineSchema(it, categoryLabel)));
+}
+
+/**
+ * Extrai todos os Canais ao Vivo e resolve os links de stream .m3u8 / proxy
+ */
+async function scrapeAllChannels(browser) {
+  console.log(`\n=== EXTRAINDO CANAIS AO VIVO ===`);
+  const page = await browser.newPage();
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36');
+
+  const rawChannels = [];
+
+  for (const route of CHANNEL_ROUTES) {
+    try {
+      const [htmlRes, rscRes] = await Promise.all([
+        http.get(route).catch(() => ({ data: '' })),
+        http.get(route, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
+      ]);
+      const text = `${htmlRes.data || ''}\n${rscRes.data || ''}`;
+      const items = parseItemsFromHtmlOrRsc(text, 'Canais');
+      console.log(`  [Rota ${route}] -> ${items.length} canais encontrados`);
+      rawChannels.push(...items);
+    } catch (_) {}
+  }
+
+  let channels = deduplicate(rawChannels.map(it => formatToCartoonzineSchema(it, 'Canais')));
+  console.log(`  [Total de Canais Únicos]: ${channels.length}. Buscando streams M3U8 via HTTP rápido...`);
+
+  // Resolve os links de stream direto do código-fonte/RSC de cada canal em lotes paralelos
+  const BATCH = 15;
+  for (let i = 0; i < channels.length; i += BATCH) {
+    const slice = channels.slice(i, i + BATCH);
+    await Promise.all(
+      slice.map(async (ch) => {
+        const chUrl = (ch.fontes && ch.fontes[0]) || '';
+        if (!chUrl.includes('/canal/')) return;
+        try {
+          const pathOnly = chUrl.replace(BASE_URL, '');
+          const [hRes, rRes] = await Promise.all([
+            http.get(pathOnly).catch(() => ({ data: '' })),
+            http.get(pathOnly, { headers: { 'RSC': '1' } }).catch(() => ({ data: '' }))
+          ]);
+          const raw = `${hRes.data || ''}\n${rRes.data || ''}`.replace(/\\"/g, '"');
+          const m3u8Matches = raw.match(/https?:\/\/[^"'\s\\]+\.m3u8[^"'\s\\]*/gi) || [];
+          const proxyMatches = raw.match(/https?:\/\/play\.saimotv\.com\/api\/proxy\?[^"'\s\\]+/gi) || [];
+          const embedMatches = raw.match(/https?:\/\/[^"'\s\\]*(?:embed|player)[^"'\s\\]*/gi) || [];
+
+          const streams = [...new Set([...m3u8Matches, ...proxyMatches, ...embedMatches])].filter(
+            u => !u.includes('error.txt') && !u.includes('googletagmanager')
+          );
+          if (streams.length > 0) {
+            ch.fontes = streams;
           }
         } catch (_) {}
-      }
-
-      // Se for payload RSC do Next.js (?_rsc=...) ou HTML/JS do saimotv.com
-      if (rUrl.includes('saimotv.com') && (rUrl.includes('_rsc=') || cType.includes('text/x-component') || cType.includes('html') || cType.includes('javascript'))) {
-        const objs = extractObjectsFromNextPayload(text);
-        if (objs.length > 0) {
-          console.log(`  [Next.js Payload] -> ${rUrl} (${objs.length} objetos extraídos)`);
-          routeItems.push(...objs);
-        }
-      }
-    } catch (_) {}
-  };
-
-  page.on('response', onResponse);
-
-  try {
-    await page.goto(targetUrl, { waitUntil: 'networkidle2', timeout: 60000 });
-    await new Promise(r => setTimeout(r, 3000));
-
-    // Faz scroll automático ou clica em "Carregar mais / Próxima" para acionar paginações
-    for (let s = 0; s < maxScrolls; s++) {
-      const clickedMore = await page.evaluate(() => {
-        window.scrollTo(0, document.body.scrollHeight);
-        const btns = Array.from(document.querySelectorAll('button, a'));
-        const loadMore = btns.find(b => /carregar mais|ver mais|próxim|mostrar mais/i.test(b.innerText || ''));
-        if (loadMore && !loadMore.disabled) {
-          loadMore.click();
-          return true;
-        }
-        return false;
-      });
-      await new Promise(r => setTimeout(r, 1200));
-      if (!clickedMore && s > 4) break;
-    }
-
-    // Extrai dados do DOM e do self.__next_f da página
-    const domAndFlight = await page.evaluate((catLbl) => {
-      const results = [];
-
-      // 1. Varre os scripts do Next.js App Router (self.__next_f)
-      if (Array.isArray(window.__next_f)) {
-        const fullFlightText = window.__next_f.map(chunk => Array.isArray(chunk) ? chunk.join('') : String(chunk)).join('\n');
-        results.push({ _rawFlight: fullFlightText });
-      }
-
-      // 2. Captura todos os cards de canais / filmes / séries / animes / doramas renderizados no DOM
-      const links = Array.from(document.querySelectorAll('a[href]'));
-      for (const a of links) {
-        const href = a.getAttribute('href') || '';
-        if (
-          href.startsWith('/canal/') ||
-          href.startsWith('/filme/') ||
-          href.startsWith('/filmes/') ||
-          href.startsWith('/serie/') ||
-          href.startsWith('/series/') ||
-          href.startsWith('/anime/') ||
-          href.startsWith('/animes/') ||
-          href.startsWith('/dorama/') ||
-          href.startsWith('/doramas/') ||
-          href.startsWith('/assistir/') ||
-          href.startsWith('/watch/')
-        ) {
-          const img = a.querySelector('img');
-          const lines = (a.innerText || '').split('\n').map(l => l.trim()).filter(Boolean);
-          const title = a.getAttribute('title') || img?.getAttribute('alt') || lines[0] || href.split('/').pop();
-          const yearMatch = (a.innerText || '').match(/\b(19\d{2}|20\d{2})\b/);
-          const thumb = img?.src || img?.getAttribute('data-src') || '';
-
-          results.push({
-            cat: catLbl,
-            title,
-            thumb,
-            year: yearMatch ? yearMatch[1] : '',
-            genre: catLbl,
-            href: href.startsWith('http') ? href : `https://saimotv.com${href}`
-          });
-        }
-      }
-
-      return results;
-    }, categoryLabel);
-
-    for (const entry of domAndFlight) {
-      if (entry._rawFlight) {
-        const fromFlight = extractObjectsFromNextPayload(entry._rawFlight);
-        if (fromFlight.length > 0) {
-          console.log(`  [Next.js __next_f] -> ${fromFlight.length} objetos extraídos da memória`);
-          routeItems.push(...fromFlight);
-        }
-      } else {
-        routeItems.push(entry);
-      }
-    }
-
-  } catch (err) {
-    console.warn(`  [Aviso] Erro na rota ${targetUrl}:`, err.message);
-  } finally {
-    page.off('response', onResponse);
+      })
+    );
   }
 
-  return routeItems;
-}
-
-/**
- * Para os canais de TV (/canal/sportv, etc.), entra nos canais para capturar o link .m3u8 real
- * ou o link do proxy https://play.saimotv.com/api/proxy?url=...
- */
-async function resolveChannelStreams(page, channels) {
-  console.log(`\n[Resolvendo Streams M3U8 de ${channels.length} Canais...]`);
-  const resolved = [];
-
-  for (let i = 0; i < channels.length; i++) {
-    const ch = channels[i];
-    const channelUrl = (ch.fontes && ch.fontes[0]) || ch.href || '';
-
-    // Se já tem link .m3u8 direto, mantém
-    if (!channelUrl.includes('saimotv.com/canal/')) {
-      resolved.push(ch);
-      continue;
-    }
-
-    const capturedStreams = [];
-    const onStreamRes = (req) => {
-      const u = req.url();
-      if (u.includes('.m3u8') || u.includes('play.saimotv.com/api/proxy')) {
-        if (!u.includes('error.txt')) capturedStreams.push(u);
-      }
-    };
-
-    page.on('request', onStreamRes);
-    try {
-      await page.goto(channelUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
-      await new Promise(r => setTimeout(r, 2500));
-
-      // Também procura URLs .m3u8 dentro do HTML/RSC do canal
-      const htmlStreams = await page.evaluate(() => {
-        const html = document.documentElement.innerHTML;
-        const matches = html.match(/https?:\/\/[^"'\\\s]+\.m3u8[^"'\\\s]*/g) || [];
-        return matches;
-      });
-
-      const allStreams = [...new Set([...capturedStreams, ...htmlStreams])];
-      if (allStreams.length > 0) {
-        ch.fontes = allStreams;
-        console.log(`  [Stream OK] ${ch.title} -> ${allStreams[0].slice(0, 80)}...`);
-      }
-    } catch (_) {
-    } finally {
-      page.off('request', onStreamRes);
-    }
-
-    resolved.push(ch);
-  }
-
-  return resolved;
+  await page.close();
+  return channels;
 }
 
 function deduplicate(items) {
@@ -348,7 +315,9 @@ function deduplicate(items) {
   const out = [];
   for (const it of items) {
     if (!it.title || it.title.length < 2) continue;
-    const key = `${it.title.toLowerCase()}|${it.cat}`;
+    const cleanTitle = it.title.toLowerCase().trim();
+    if (cleanTitle === 'ao vivo' || cleanTitle === 'saimo tv' || cleanTitle === 'assistir') continue;
+    const key = `${cleanTitle}|${it.cat}`;
     if (!seen.has(key)) {
       seen.add(key);
       out.push(it);
@@ -381,67 +350,34 @@ function saveSeriesIn3Parts(seriesArray) {
   });
 
   try {
-    const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36');
-    await page.setExtraHTTPHeaders({ 'Accept-Language': 'pt-BR,pt;q=0.9' });
+    // 1. CANAIS
+    const canais = await scrapeAllChannels(browser);
+    saveJsonFile('canais_sm.json', canais);
 
-    // Bloqueia scripts de propaganda agressivos (bancadeltempoidea, mamshirt, etc.) para acelerar 10x o scraper
-    await page.setRequestInterception(true);
-    page.on('request', (req) => {
-      const u = req.url();
-      if (
-        u.includes('bancadeltempoidea') || u.includes('mamshirt') ||
-        u.includes('aqml.org') || u.includes('directyp') || u.includes('aarems') ||
-        u.includes('nresystems') || u.includes('google-analytics')
-      ) {
-        return req.abort();
+    // 2. DORAMAS (~264 títulos -> ~15 páginas)
+    const doramas = await scrapePaginatedCategory('/doramas', 'Doramas', 35);
+    saveJsonFile('doramas_sm.json', doramas);
+
+    // 3. ANIMES (~1.325 títulos -> ~60 páginas)
+    const animes = await scrapePaginatedCategory('/animes', 'Animes', 100);
+    saveJsonFile('animes_sm.json', animes);
+
+    // 4. SÉRIES (~9.909 títulos -> divididas em 3 partes)
+    const series = await scrapePaginatedCategory('/series', 'Séries', 450);
+    saveSeriesIn3Parts(series);
+
+    // 5. FILMES (~31.518 títulos + mesclagem com a base principal)
+    let filmes = await scrapePaginatedCategory('/filmes', 'Filmes', 400);
+    try {
+      const { data } = await axios.get(FALLBACK_FILMES_URL, { timeout: 30000 });
+      if (Array.isArray(data)) {
+        console.log(`  [+] Mesclando com ${data.length} filmes da base principal...`);
+        const baseFormatted = data.map(it => formatToCartoonzineSchema(it, 'Filmes'));
+        filmes = deduplicate([...filmes, ...baseFormatted]);
       }
-      req.continue();
-    });
+    } catch (_) {}
+    saveJsonFile('filmes_sm.json', filmes);
 
-    // 1. CANAIS (TV AO VIVO)
-    let rawCanais = [];
-    for (const r of ROUTES.canais) {
-      const items = await scrapeSaimoRoute(page, r, 'Canais', 5);
-      rawCanais.push(...items);
-    }
-    let formattedCanais = deduplicate(rawCanais.map(it => formatToCartoonzineSchema(it, 'Canais')));
-    formattedCanais = await resolveChannelStreams(page, formattedCanais);
-    saveJsonFile('canais_sm.json', formattedCanais);
-
-    // 2. FILMES
-    const rawFilmes = await scrapeSaimoRoute(page, '/filmes', 'Filmes', 20);
-    let formattedFilmes = deduplicate(rawFilmes.map(it => formatToCartoonzineSchema(it, 'Filmes')));
-
-    // Complementa com o catálogo de referência caso a página entregue apenas os primeiros lotes paginados
-    if (formattedFilmes.length < 1000) {
-      try {
-        const { data } = await axios.get(FALLBACK_FILMES_URL, { timeout: 30000 });
-        if (Array.isArray(data)) {
-          console.log(`  [+] Mesclando ${data.length} filmes da base principal com os novos do saimotv.com`);
-          const fallbackFormatted = data.map(it => formatToCartoonzineSchema(it, 'Filmes'));
-          formattedFilmes = deduplicate([...formattedFilmes, ...fallbackFormatted]);
-        }
-      } catch (_) {}
-    }
-    saveJsonFile('filmes_sm.json', formattedFilmes);
-
-    // 3. SÉRIES (Divididas em 3 partes)
-    const rawSeries = await scrapeSaimoRoute(page, '/series', 'Séries', 20);
-    const formattedSeries = deduplicate(rawSeries.map(it => formatToCartoonzineSchema(it, 'Séries')));
-    saveSeriesIn3Parts(formattedSeries);
-
-    // 4. ANIMES
-    const rawAnimes = await scrapeSaimoRoute(page, '/animes', 'Animes', 15);
-    const formattedAnimes = deduplicate(rawAnimes.map(it => formatToCartoonzineSchema(it, 'Animes')));
-    saveJsonFile('animes_sm.json', formattedAnimes);
-
-    // 5. DORAMAS
-    const rawDoramas = await scrapeSaimoRoute(page, '/doramas', 'Doramas', 15);
-    const formattedDoramas = deduplicate(rawDoramas.map(it => formatToCartoonzineSchema(it, 'Doramas')));
-    saveJsonFile('doramas_sm.json', formattedDoramas);
-
-    await page.close();
   } catch (err) {
     console.error('[Erro Fatal]:', err);
     process.exit(1);
