@@ -12,15 +12,16 @@ permissions:
 jobs:
   scrape-sm:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js 20
+      - name: Configurar Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Instalar dependências e Chrome
         run: |
@@ -30,10 +31,11 @@ jobs:
       - name: Executar Scraper SM
         run: npm start
 
-      - name: Limpar raiz e salvar na pasta listas/
+      - name: Salvar todas as listas na pasta listas/
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git rm -f *_sm*.json séries_sm.json --ignore-unmatch
-          git add -A listas/*.json
-          git diff --staged --quiet || (git commit -m "chore: listas atualizadas na pasta /listas" && git push)
+          # Remove apenas JSONs soltos na raiz (sem tocar na pasta listas/)
+          rm -f ./*_sm*.json ./séries_sm.json
+          git add -A
+          git diff --staged --quiet || (git commit -m "chore: listas completas atualizadas em /listas" && git push)
