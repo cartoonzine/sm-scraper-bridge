@@ -1,10 +1,140 @@
 [
   {
     "cat": "Canais",
-    "title": "AO VIVO Band Domingo no Cinema: Nunca é Tarde para Amar",
+    "title": "Início",
     "desc": "",
-    "thumb": "https://mondrian.claro.com.br/channels/inverse/band.png",
-    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/band.png",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "TV Ao Vivo",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "Next.MetadataOutlet",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "Next.Metadata",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "next-size-adjust",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "viewport",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "theme-color",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "color-scheme",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "application-name",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "twitter:card",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "twitter:title",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "twitter:description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Canais",
+    "fontes": []
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Band Planeta Selvagem",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
+    "bannerThumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -15,10 +145,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Band RJ Nunca É Tarde para Amar",
+    "title": "AO VIVO Band RJ Planeta Selvagem",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/QWLBdd4WrGuzaPo3ZzwvydpmIpY3TYAXVoE64mIrXjLb4oJnCCXDYNSZwgAE5briFW1TLOBh1DMNjHBoxZPjcKocmB5rUHhhuffB0Bl_4EVrKS5GItc8F1YCTfDs9tF1CMeLtOt2uLF7",
-    "bannerThumb": "https://iptv-epg.org/images/QWLBdd4WrGuzaPo3ZzwvydpmIpY3TYAXVoE64mIrXjLb4oJnCCXDYNSZwgAE5briFW1TLOBh1DMNjHBoxZPjcKocmB5rUHhhuffB0Bl_4EVrKS5GItc8F1YCTfDs9tF1CMeLtOt2uLF7",
+    "thumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
+    "bannerThumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -27,10 +157,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Band SP Domingo no Cinema: Nunca é Tarde para Amar",
+    "title": "AO VIVO Band SP Planeta Selvagem",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/band.png",
-    "bannerThumb": "https://img.faz-o-eli.online/band.png",
+    "thumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
+    "bannerThumb": "https://iptv-epg.org/images/qSIZhnj6sFQ1EPPjF98q_XX_ugVOYoC8Y4BQwG5kKnXtVvcWQ5ewRMyRIqFeG4oWXIyimqtl-sIVdfLLETNzpziCzbdKcv1B5Z1CbIbg1X0WA51St8STOtXHdw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -41,7 +171,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Canal Educacao Show da Simone",
+    "title": "AO VIVO Canal Educacao Entre Longes",
     "desc": "",
     "thumb": "https://i.imgur.com/OOB7nrS.png",
     "bannerThumb": "https://i.imgur.com/OOB7nrS.png",
@@ -54,7 +184,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Canal Futura Amazônia - Arqueologia Da Floresta",
+    "title": "AO VIVO Canal Futura Sabores Da Floresta",
     "desc": "",
     "thumb": "https://i.imgur.com/LgynEBC.png",
     "bannerThumb": "https://i.imgur.com/LgynEBC.png",
@@ -80,10 +210,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Canção Nova León de Perú",
+    "title": "AO VIVO Canção Nova Canção Nova Sertaneja",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/Hhnc-SvF6FnM_OeFCXTeXMixBL3FwKKDaaM8w-028kYGsxvURagmGTEmIgg1uO1VLdnknd1Cyc7mKzD0NtlSRFclZNpaA_HHE86CPWlBW6RK90XWaZAI",
-    "bannerThumb": "https://iptv-epg.org/images/Hhnc-SvF6FnM_OeFCXTeXMixBL3FwKKDaaM8w-028kYGsxvURagmGTEmIgg1uO1VLdnknd1Cyc7mKzD0NtlSRFclZNpaA_HHE86CPWlBW6RK90XWaZAI",
+    "thumb": "https://iptv-epg.org/images/dH5RXh3zgzaVCbflVkUd26cqNI0XUsCftVnPbEFtQ59gXbhpbivMpGhKXsTvOxhFkSwO7Po7CRPYzQSnOAqG55YZ0oeyynR1uhhXogoL2dF5UhHvl48Gj2bhSDy4N8kb",
+    "bannerThumb": "https://iptv-epg.org/images/dH5RXh3zgzaVCbflVkUd26cqNI0XUsCftVnPbEFtQ59gXbhpbivMpGhKXsTvOxhFkSwO7Po7CRPYzQSnOAqG55YZ0oeyynR1uhhXogoL2dF5UhHvl48Gj2bhSDy4N8kb",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -94,10 +224,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO CNT IURD - Corrente dos 70",
+    "title": "AO VIVO CNT SOS Espiritual",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/UUfP0W5zh9TkZHUY_pCCq1aDgnAeg6VcGBFkfOsuRpKVSg4AZ_1F62VmVqje1nWJCdpmz89oRuuMd9G8IX9drdmSwpYXkrZvfFkJU9fVSfmhLRXFnbKdJNYEJ9aGVow",
-    "bannerThumb": "https://iptv-epg.org/images/UUfP0W5zh9TkZHUY_pCCq1aDgnAeg6VcGBFkfOsuRpKVSg4AZ_1F62VmVqje1nWJCdpmz89oRuuMd9G8IX9drdmSwpYXkrZvfFkJU9fVSfmhLRXFnbKdJNYEJ9aGVow",
+    "thumb": "https://iptv-epg.org/images/zcdhCAnh58DW8TlgHS21CcKTuToBNB9hJbMYAenJM7oUHzR9eC8DxkQRAmSXE9jmGDYxT2O0EiPBktz3whrQUflGHMMpOiZX8rPBI6fg6saTcSvnFgQJ8s4",
+    "bannerThumb": "https://iptv-epg.org/images/zcdhCAnh58DW8TlgHS21CcKTuToBNB9hJbMYAenJM7oUHzR9eC8DxkQRAmSXE9jmGDYxT2O0EiPBktz3whrQUflGHMMpOiZX8rPBI6fg6saTcSvnFgQJ8s4",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -207,10 +337,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO AMC Velozes &amp; Furiosos 9 - A Saga Velozes &amp; Furiosos",
+    "title": "AO VIVO AMC As Panteras",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/uWxK4r5MnVVY0Ya34frK00bdtrnPOiION43YMgo2Sk2wBn4byIuqsCokJ3s7qBbl2_pvWv6R7AcgwtIYT_O_ONt7vvB_zWDkc8UmuKr9f_Dnsp42X5vyxvTZ88mmOV4HUk69HcKOa3BSaux_onG91Q0jhB1fcZKIeqA",
-    "bannerThumb": "https://iptv-epg.org/images/uWxK4r5MnVVY0Ya34frK00bdtrnPOiION43YMgo2Sk2wBn4byIuqsCokJ3s7qBbl2_pvWv6R7AcgwtIYT_O_ONt7vvB_zWDkc8UmuKr9f_Dnsp42X5vyxvTZ88mmOV4HUk69HcKOa3BSaux_onG91Q0jhB1fcZKIeqA",
+    "thumb": "https://iptv-epg.org/images/IqCDvomOaGSW44CGDCI1UN1vnRk31002k2EESCr6t_Au5uPBWSWCFmtA6oy7zB3SWYSDKHrnp3BW1UxzvrVDmR_1qSvKlxEzkZ7157nqNMb9GGCdBaQhcTTiqA",
+    "bannerThumb": "https://iptv-epg.org/images/IqCDvomOaGSW44CGDCI1UN1vnRk31002k2EESCr6t_Au5uPBWSWCFmtA6oy7zB3SWYSDKHrnp3BW1UxzvrVDmR_1qSvKlxEzkZ7157nqNMb9GGCdBaQhcTTiqA",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -235,7 +365,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO AXN Criminal Minds : Ex Parte",
+    "title": "AO VIVO AXN Criminal Minds : Mixed Signals",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/axn.png",
     "bannerThumb": "https://img.faz-o-eli.online/axn.png",
@@ -252,10 +382,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Cinemax Morando com o Medo",
+    "title": "AO VIVO Cinemax Harry Potter e a Pedra Filosofal",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/quwbBKRvz8Wlb3X9Kz7FfHg23W9UmAHCDK_s6owzLcrBomV57VpDJaHyaIM9SEHKbAKNbTAAx0lpdU_sPdRBDSn-cZU3OO5PFJFDUCfjwsTQR5iUYRHwFVlWMH3Yx7gRTmw",
-    "bannerThumb": "https://iptv-epg.org/images/quwbBKRvz8Wlb3X9Kz7FfHg23W9UmAHCDK_s6owzLcrBomV57VpDJaHyaIM9SEHKbAKNbTAAx0lpdU_sPdRBDSn-cZU3OO5PFJFDUCfjwsTQR5iUYRHwFVlWMH3Yx7gRTmw",
+    "thumb": "https://iptv-epg.org/images/YvkGnQp0lHjHyA9HmmP-EfGxWbcc7SIk4yx0fihPAvYO1JB3iV9BXwVQ9sfd5Dmzg0ZRbnDLOefUJYipaz5iCS8JUlqifM2l3GRo97jk6eGoCPM491LD8ZOEEhOWXiDCtKmCaMpPt_J_d4xzhqDP_AIR",
+    "bannerThumb": "https://iptv-epg.org/images/YvkGnQp0lHjHyA9HmmP-EfGxWbcc7SIk4yx0fihPAvYO1JB3iV9BXwVQ9sfd5Dmzg0ZRbnDLOefUJYipaz5iCS8JUlqifM2l3GRo97jk6eGoCPM491LD8ZOEEhOWXiDCtKmCaMpPt_J_d4xzhqDP_AIR",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -306,10 +436,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HBO Barbie",
+    "title": "AO VIVO HBO Mortal Kombat 2",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/0_quv-8HsIa6puqQMGV6RDyxNNGQCiZnlPPoKTLzWtEsYa6EpqSof9ZQlPpiVt5pLqeJwDWOAydts3ZmoWqaQ39pXReheiFaIxQKl5-LsY19fiYSNhk",
-    "bannerThumb": "https://iptv-epg.org/images/0_quv-8HsIa6puqQMGV6RDyxNNGQCiZnlPPoKTLzWtEsYa6EpqSof9ZQlPpiVt5pLqeJwDWOAydts3ZmoWqaQ39pXReheiFaIxQKl5-LsY19fiYSNhk",
+    "thumb": "https://iptv-epg.org/images/QpCEYRP9YSRzaUGrrpDT6zihBYPEPuTwdZwi174WQlEBxQtMDbVakD4Niccv9ECK6QmL7s2x1ireeE7EXOWsN9FlIfTQOI_JGPQa0J41q3rckwSOyKaJJ4_LdIlVj0w",
+    "bannerThumb": "https://iptv-epg.org/images/QpCEYRP9YSRzaUGrrpDT6zihBYPEPuTwdZwi174WQlEBxQtMDbVakD4Niccv9ECK6QmL7s2x1ireeE7EXOWsN9FlIfTQOI_JGPQa0J41q3rckwSOyKaJJ4_LdIlVj0w",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -336,7 +466,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Canal UOL UOL News Especial",
+    "title": "AO VIVO Canal UOL Divã de CNPJ",
     "desc": "",
     "thumb": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
     "bannerThumb": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
@@ -348,10 +478,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO CNN Brasil CNN Sinais Vitais",
+    "title": "AO VIVO CNN Brasil Fora da Ordem",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/cnnbrasil.png",
-    "bannerThumb": "https://img.faz-o-eli.online/cnnbrasil.png",
+    "thumb": "https://iptv-epg.org/images/NNY9ReUEyJYMQ28PxZEHG-Mr79dKVtTnVsIOTwKSFDTwxsGJEjGzBmA7AdyTtz4m0MbvMqqeT0H7CSfoclNw1C7_12-EGOaurvK9g5-M_uurPLJP3t3JdQ",
+    "bannerThumb": "https://iptv-epg.org/images/NNY9ReUEyJYMQ28PxZEHG-Mr79dKVtTnVsIOTwKSFDTwxsGJEjGzBmA7AdyTtz4m0MbvMqqeT0H7CSfoclNw1C7_12-EGOaurvK9g5-M_uurPLJP3t3JdQ",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -365,10 +495,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO CNN Brasil Money Resenha do Dinheiro",
+    "title": "AO VIVO CNN Brasil Money CNN Money News - Edição Fim de Semana",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/4yH2rEOCk90YAA4Xn7QFpz-LM2sUT0-tDzzZ4yfsSHWJ0FgwUrOcb37624NwOy0yqj5vl6fclyQV87DFBssEWMgPQXGOrI0bfHOYNyRd3v50Yyru3BwZ9bNtjd5vCw",
-    "bannerThumb": "https://iptv-epg.org/images/4yH2rEOCk90YAA4Xn7QFpz-LM2sUT0-tDzzZ4yfsSHWJ0FgwUrOcb37624NwOy0yqj5vl6fclyQV87DFBssEWMgPQXGOrI0bfHOYNyRd3v50Yyru3BwZ9bNtjd5vCw",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/cnn-brasil-money.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -408,10 +538,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Record News Doc Investigação",
+    "title": "AO VIVO Record News Record News Investigação",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/sTm0HsGYugKbN4O5aix7vTJFGY1b-LBLiJ-i739Wu81iMWANUDBkldhGbf873kJx3L5t9TPIA9HNuTT17c1Kk7eebjYONQTjLgYQ4ldvKjpTb5IB0YR3erZWQZmof2OG6KI",
-    "bannerThumb": "https://iptv-epg.org/images/sTm0HsGYugKbN4O5aix7vTJFGY1b-LBLiJ-i739Wu81iMWANUDBkldhGbf873kJx3L5t9TPIA9HNuTT17c1Kk7eebjYONQTjLgYQ4ldvKjpTb5IB0YR3erZWQZmof2OG6KI",
+    "thumb": "https://iptv-epg.org/images/g-ir6F6jG_n0t2L5Z5MSIvcVz5wzCGxPPTuegRG40o-Obl9x3WAPMVDBEPLrs4exPN0e7Z4dbNi4Qgb9e4V0NczVi_q3q9SK-O3WLppc27QABslub8y0Tlm7-5C-VE_viQDn",
+    "bannerThumb": "https://iptv-epg.org/images/g-ir6F6jG_n0t2L5Z5MSIvcVz5wzCGxPPTuegRG40o-Obl9x3WAPMVDBEPLrs4exPN0e7Z4dbNi4Qgb9e4V0NczVi_q3q9SK-O3WLppc27QABslub8y0Tlm7-5C-VE_viQDn",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -454,7 +584,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Cartoon Network Apenas um Show : Beijo ou Fralda",
+    "title": "AO VIVO Cartoon Network O Mundo Maravilhosamente Estranho de Gumball : O Gourmet",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/cartoonnetwork.png",
     "bannerThumb": "https://img.faz-o-eli.online/cartoonnetwork.png",
@@ -469,7 +599,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Cartoonito Perninha em Obras : Dia Chuvoso",
+    "title": "AO VIVO Cartoonito Grizzy e os Lemmings : Olá, Grizzy? Não! Olá, Lêmingues!",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/cartoonito.png",
     "bannerThumb": "https://img.faz-o-eli.online/cartoonito.png",
@@ -484,7 +614,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Kids Super Wish : O Chão com Certeza Não É Lava",
+    "title": "AO VIVO Discovery Kids Hello Kitty: Super Style! : A Noite de Jogos",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoverykids.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoverykids.png",
@@ -526,7 +656,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Gloob Cine Gloob: Tarzan: A Evolução Da Lenda",
+    "title": "AO VIVO Gloob Cine Gloob: Madagascar 2: A Grande Escapada",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/gloob.png",
     "bannerThumb": "https://img.faz-o-eli.online/gloob.png",
@@ -540,10 +670,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Gloobinho As Aventuras De Bob Zoom",
+    "title": "AO VIVO Gloobinho Pipas",
     "desc": "",
-    "thumb": "https://logos.imperioapps.top/GLOBINHO.png",
-    "bannerThumb": "https://logos.imperioapps.top/GLOBINHO.png",
+    "thumb": "https://iptv-epg.org/images/0BMqKPoW8Yv3SPznI0ftI0C2JNaWYQyfbbEe5gkSA63l4YhVrvaGQQEFYsFjzmipy8dSc5YFTVl2mr_NrsxsC1iOaVcjvVJffg3gMNEvwas7jr6UCafmblWwlwOG5_zyTX3S5bd1XRbFVk8",
+    "bannerThumb": "https://iptv-epg.org/images/0BMqKPoW8Yv3SPznI0ftI0C2JNaWYQyfbbEe5gkSA63l4YhVrvaGQQEFYsFjzmipy8dSc5YFTVl2mr_NrsxsC1iOaVcjvVJffg3gMNEvwas7jr6UCafmblWwlwOG5_zyTX3S5bd1XRbFVk8",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -553,10 +683,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO A&amp;E Segredos Mortais - As Crianças Perdidas",
+    "title": "AO VIVO A&amp;E O Caso de Aaron Hernandez : Em Julgamento por Assassinato",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/9Y1LrCrN6jWX8PEOni_-iYTrV2ng_mOIx0fJmGYs1GBEtTAyORAs5WgQW4GzViZFaA99T3jBALEuGEJYWRcW_Ez_XYKXciLXDRuQstBJFuwyejJlu8-59UPWRVxNyNgUe4UyLCvySHYKMjp_e-bC4Q",
-    "bannerThumb": "https://iptv-epg.org/images/9Y1LrCrN6jWX8PEOni_-iYTrV2ng_mOIx0fJmGYs1GBEtTAyORAs5WgQW4GzViZFaA99T3jBALEuGEJYWRcW_Ez_XYKXciLXDRuQstBJFuwyejJlu8-59UPWRVxNyNgUe4UyLCvySHYKMjp_e-bC4Q",
+    "thumb": "https://img.faz-o-eli.online/ae.png",
+    "bannerThumb": "https://img.faz-o-eli.online/ae.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -567,7 +697,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Animal Planet Extinto ou Não? : O Dodo do Norte",
+    "title": "AO VIVO Animal Planet Criaturas Misteriosas com Forrest Galante : O Monstro do Lago",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/animalplanet.png",
     "bannerThumb": "https://img.faz-o-eli.online/animalplanet.png",
@@ -581,7 +711,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Curta Com a Palavra, Arnaldo Antunes",
+    "title": "AO VIVO Curta Van Gogh, a Criação de um Mestre",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/curta.png",
     "bannerThumb": "https://img.faz-o-eli.online/curta.png",
@@ -593,7 +723,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Channel Largados e Pelados - Brasil : Partir para Não Desistir",
+    "title": "AO VIVO Discovery Channel Largados e Pelados - Latinos : Vamos Sair Daqui!",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoverychannel.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoverychannel.png",
@@ -608,7 +738,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Home &amp; Health Irmãos à Obra - Compra e Venda : Aubrey e Jonathan",
+    "title": "AO VIVO Discovery Home &amp; Health Quilos Mortais - Como Eles Estão Agora? : Irmãos Assanti",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoveryhh.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoveryhh.png",
@@ -623,10 +753,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery ID People Magazine: A Promessa da Cura",
+    "title": "AO VIVO Discovery ID O Lado Sombrio da TV Infantil",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/9ptWrlCemZij1ifS_txGaJQhr-d-O1hP_eA5VYBc2HcjQu--9VHDqZ6ea5iM3CZ9mawWYYNyfb5DJtOihbptvSzL8rTjVwYa9Pbtb-PC0jquCSSyCmMJTV7nfpCeN0OFbMJcp9ZMa1hYQUqvyw",
-    "bannerThumb": "https://iptv-epg.org/images/9ptWrlCemZij1ifS_txGaJQhr-d-O1hP_eA5VYBc2HcjQu--9VHDqZ6ea5iM3CZ9mawWYYNyfb5DJtOihbptvSzL8rTjVwYa9Pbtb-PC0jquCSSyCmMJTV7nfpCeN0OFbMJcp9ZMa1hYQUqvyw",
+    "thumb": "https://iptv-epg.org/images/zxO14VbnzvmU31FQhJMD5aKxaUyx7gtmGsZhb0hfay8UGHnU8VAvEbTYn8ompIMhf9AUZtxL0V9LxsB946FtZsjUJPoV_2zNKgQ6fFOqbi8ujvoxQtQFNx8mJlb_N2-1KOC1wvbOKX9cQ9dXVgDglzf0Tt09yXtOSG1-1xiGycsOZBxX",
+    "bannerThumb": "https://iptv-epg.org/images/zxO14VbnzvmU31FQhJMD5aKxaUyx7gtmGsZhb0hfay8UGHnU8VAvEbTYn8ompIMhf9AUZtxL0V9LxsB946FtZsjUJPoV_2zNKgQ6fFOqbi8ujvoxQtQFNx8mJlb_N2-1KOC1wvbOKX9cQ9dXVgDglzf0Tt09yXtOSG1-1xiGycsOZBxX",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -639,7 +769,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Science Destiladores : Ajuda no Transporte",
+    "title": "AO VIVO Discovery Science Rumo ao Desconhecido - Mistérios Paranormais : Lago dos Mortos",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoveryscience.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoveryscience.png",
@@ -654,10 +784,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Theater Polônia - A Última Fronteira",
+    "title": "AO VIVO Discovery Theater Alasca: Perigo no Ar : Corrida de Trenós",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/gPYRQ93_hKOmj2xtH4UKUgBk8TDkqYnMv6q_NfJRONiWlYT4_dIRx_6UBNy_oCvNUbQOrUr4xNrBjsFTTVN0ApOcljbarTL7aA5YL5AixpGWtiiRTBTtR8lxeMg_GxhPqZ7B68OwMX7A1CyqGEOt6XHTGmGwxA",
-    "bannerThumb": "https://iptv-epg.org/images/gPYRQ93_hKOmj2xtH4UKUgBk8TDkqYnMv6q_NfJRONiWlYT4_dIRx_6UBNy_oCvNUbQOrUr4xNrBjsFTTVN0ApOcljbarTL7aA5YL5AixpGWtiiRTBTtR8lxeMg_GxhPqZ7B68OwMX7A1CyqGEOt6XHTGmGwxA",
+    "thumb": "https://img.faz-o-eli.online/discoverytheater.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoverytheater.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -670,7 +800,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Adult Swim Genndy Tartakovsky&#x27;s Primal : A Névoa Vermelha",
+    "title": "AO VIVO Adult Swim One Piece : A Voz da Vivi Não É Ouvida! O...",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/adultswim.png",
     "bannerThumb": "https://img.faz-o-eli.online/adultswim.png",
@@ -697,10 +827,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Arte 1 Acima das Nuvens",
+    "title": "AO VIVO Arte 1 A Arte dos Museus : Museu Rijksmuseum, Amsterdã",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/Mp4Frq371J4vHz2RPyGjSOodn_1OMo4Mr4DF6TyZiio1M2qD3FgIG06ciiq8nfTk_rt2dSm7da0GHQghhMiPvb_W6pOm-gSFWb0QXwemA6CgaV3w9qXPpS0zHDsA1zQjI-8",
-    "bannerThumb": "https://iptv-epg.org/images/Mp4Frq371J4vHz2RPyGjSOodn_1OMo4Mr4DF6TyZiio1M2qD3FgIG06ciiq8nfTk_rt2dSm7da0GHQghhMiPvb_W6pOm-gSFWb0QXwemA6CgaV3w9qXPpS0zHDsA1zQjI-8",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/arte1.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/arte1.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -710,10 +840,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO BIS Judas Priest: Epitaph",
+    "title": "AO VIVO BIS Nesse Canto Eu Conto",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/zDhlwXzKsAgxZQdIZW-NDPe3jTatPZzG3MuXa3PcF-Mk2-vGFoWqZ0tRYPVTRn1_aT6XTYLJb8oNR2LZv8-SaT1XMgY960Zi7uo7TC6FJdPv5ezweDdZCvbZ_EvdhqI",
-    "bannerThumb": "https://iptv-epg.org/images/zDhlwXzKsAgxZQdIZW-NDPe3jTatPZzG3MuXa3PcF-Mk2-vGFoWqZ0tRYPVTRn1_aT6XTYLJb8oNR2LZv8-SaT1XMgY960Zi7uo7TC6FJdPv5ezweDdZCvbZ_EvdhqI",
+    "thumb": "https://iptv-epg.org/images/Y_-5H_3A_IdyQO_Bj9NJjCLYj02Q05smQWLDLxFUTaZ5pSsuRLGjvt0UCMwdkpmHfcMJcoO1BrCO1TCIRHAOMPInoscnwlGGR2mPnG4nCBIRuBk9d9Jnnee1ck4CqNgSBNKQQcVKdRgSYIj9gt2l3A",
+    "bannerThumb": "https://iptv-epg.org/images/Y_-5H_3A_IdyQO_Bj9NJjCLYj02Q05smQWLDLxFUTaZ5pSsuRLGjvt0UCMwdkpmHfcMJcoO1BrCO1TCIRHAOMPInoscnwlGGR2mPnG4nCBIRuBk9d9Jnnee1ck4CqNgSBNKQQcVKdRgSYIj9gt2l3A",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -929,10 +1059,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Cultura Fast Santos Dumont",
+    "title": "AO VIVO Cultura Fast Osmar - A Primeira Fatia do Pão de Forma",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/yAnJV65DzOIE83FhgRofP_d5cFfPr28x4DZq2yxvoPHkaKus8B_X9xE7RdLki2F5C_boGCikZYwjYobQmkwCUZo8dNxEc41herxy1ZfAhqsOxAWBjADFdw",
-    "bannerThumb": "https://iptv-epg.org/images/yAnJV65DzOIE83FhgRofP_d5cFfPr28x4DZq2yxvoPHkaKus8B_X9xE7RdLki2F5C_boGCikZYwjYobQmkwCUZo8dNxEc41herxy1ZfAhqsOxAWBjADFdw",
+    "thumb": "https://iptv-epg.org/images/pFybi4IlN8K5cCkYLxszy96iCZoMca-vxBReJu-SYjq9xsNxrKC0julykKkFQA48ZvLgrgfI0CdEmG3elSzwvhqPj3LlWKIoEPQmeMJ7O27ounNpi7qIrb8utIrmZwg8o8WvM5_fyJfiP25ZDEwU6bRx3A",
+    "bannerThumb": "https://iptv-epg.org/images/pFybi4IlN8K5cCkYLxszy96iCZoMca-vxBReJu-SYjq9xsNxrKC0julykKkFQA48ZvLgrgfI0CdEmG3elSzwvhqPj3LlWKIoEPQmeMJ7O27ounNpi7qIrb8utIrmZwg8o8WvM5_fyJfiP25ZDEwU6bRx3A",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1164,10 +1294,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Rede Brasil Justiça em Dobro",
+    "title": "AO VIVO Rede Brasil Capitão América",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/9pL1DGPS3eUsCf1rV-mbeiIDUYrTk1X7_3ISl6yqUkHAEQW_czq4yM1wutM35wSQuInF4-dmv-d64M1LOeBsXUhnaUvHCxD9cIfn9QdVc3JPN0s0TqLLiziU8vh5",
-    "bannerThumb": "https://iptv-epg.org/images/9pL1DGPS3eUsCf1rV-mbeiIDUYrTk1X7_3ISl6yqUkHAEQW_czq4yM1wutM35wSQuInF4-dmv-d64M1LOeBsXUhnaUvHCxD9cIfn9QdVc3JPN0s0TqLLiziU8vh5",
+    "thumb": "https://iptv-epg.org/images/SGDblLjaamVQMQGx22nQQ5bDoykjhtsdbnwm7bVZTwnplsqEj6xkDG8W8rRGZCnL6DQYWAelj-62bMwsvCmYgVuy-j6LRZBmx2qxFqqf9lsHJRJ_7wACha_yKzT-QQs",
+    "bannerThumb": "https://iptv-epg.org/images/SGDblLjaamVQMQGx22nQQ5bDoykjhtsdbnwm7bVZTwnplsqEj6xkDG8W8rRGZCnL6DQYWAelj-62bMwsvCmYgVuy-j6LRZBmx2qxFqqf9lsHJRJ_7wACha_yKzT-QQs",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1177,10 +1307,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Rede TV! Show de Prêmios Hadassa",
+    "title": "AO VIVO Rede TV! A Hora Do Zap",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
-    "bannerThumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "thumb": "https://iptv-epg.org/images/c2zZ7VlwUFDl3_qS_YQITrkFpJK-dgOUxDFprNAetmD3QsSJoHBpVaQvgR5bhibCcvHM0PKMnofLpJF3lvdWuSZ5CAqztBEtzDhWdSdF-sjCyj_gNNeB5Q",
+    "bannerThumb": "https://iptv-epg.org/images/c2zZ7VlwUFDl3_qS_YQITrkFpJK-dgOUxDFprNAetmD3QsSJoHBpVaQvgR5bhibCcvHM0PKMnofLpJF3lvdWuSZ5CAqztBEtzDhWdSdF-sjCyj_gNNeB5Q",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1192,7 +1322,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Rede Vida Viva a Vida",
+    "title": "AO VIVO Rede Vida Arquidiocese de São Salvador da Bahia : Santa Missa de Encerramento do Ano Jubilar",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/redevida.png",
     "bannerThumb": "https://img.faz-o-eli.online/redevida.png",
@@ -1209,10 +1339,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO RedeTV! Show de Prêmios Hadassa",
+    "title": "AO VIVO RedeTV! A Hora Do Zap",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
-    "bannerThumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "thumb": "https://iptv-epg.org/images/c2zZ7VlwUFDl3_qS_YQITrkFpJK-dgOUxDFprNAetmD3QsSJoHBpVaQvgR5bhibCcvHM0PKMnofLpJF3lvdWuSZ5CAqztBEtzDhWdSdF-sjCyj_gNNeB5Q",
+    "bannerThumb": "https://iptv-epg.org/images/c2zZ7VlwUFDl3_qS_YQITrkFpJK-dgOUxDFprNAetmD3QsSJoHBpVaQvgR5bhibCcvHM0PKMnofLpJF3lvdWuSZ5CAqztBEtzDhWdSdF-sjCyj_gNNeB5Q",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1278,7 +1408,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Aparecida Santuário Nossa Senhora do Rocio : Santa Missa",
+    "title": "AO VIVO TV Aparecida Viola Perpétua",
     "desc": "",
     "thumb": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
     "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
@@ -1294,10 +1424,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Brasil Pajeú",
+    "title": "AO VIVO TV Brasil Homens do Caminho",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/9Q163bgWJFnX17HzOGyZVUbcVlqgemH3X_W9z0_kfApsVCIOyxyBApngnV-hm6y3ATLwbClbMLt77qOhgpbVcXpjpBf487wVXuqtgWcFvrlqFyRFrA",
-    "bannerThumb": "https://iptv-epg.org/images/9Q163bgWJFnX17HzOGyZVUbcVlqgemH3X_W9z0_kfApsVCIOyxyBApngnV-hm6y3ATLwbClbMLt77qOhgpbVcXpjpBf487wVXuqtgWcFvrlqFyRFrA",
+    "thumb": "https://iptv-epg.org/images/6Im5R4Ryu93sOaP7wR55dFpNSqd4PeVPCun7jZz3-rEXk19qUfktZvdpc4yrlutIFew_0x4iSkE6bfn9AQR6boFOtgALy8disQ1VboE-gXyhGFFZHlLeX3hywERDHqRLs6j7",
+    "bannerThumb": "https://iptv-epg.org/images/6Im5R4Ryu93sOaP7wR55dFpNSqd4PeVPCun7jZz3-rEXk19qUfktZvdpc4yrlutIFew_0x4iSkE6bfn9AQR6boFOtgALy8disQ1VboE-gXyhGFFZHlLeX3hywERDHqRLs6j7",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1307,10 +1437,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Câmara Ponto de Vista",
+    "title": "AO VIVO TV Câmara Documentário TV Câmara",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/46gazP8Gqdjpt1ZErTV-LazVuznMl5jEqRt31UuXqHlB3oIFPZ4F8T-cP55OQ5k9QNr-pI2_yt_9Ps2iTX_i83iu5ENdrOHL3JtzfaiUjQzm3q22smO4Rv8tiWIzyw",
-    "bannerThumb": "https://iptv-epg.org/images/46gazP8Gqdjpt1ZErTV-LazVuznMl5jEqRt31UuXqHlB3oIFPZ4F8T-cP55OQ5k9QNr-pI2_yt_9Ps2iTX_i83iu5ENdrOHL3JtzfaiUjQzm3q22smO4Rv8tiWIzyw",
+    "thumb": "https://iptv-epg.org/images/jRl4BlnbXOhGSwRzGKV92NbdQX5R7psX1STK25ExmDwhMbDskil3871ANTwAj_dlH50iwUj6iIlojLWXWcQrTGIi8zgi_eOV9XjHEjc-8tvIMf-Vz7ZKFuTs65KadZL8SA",
+    "bannerThumb": "https://iptv-epg.org/images/jRl4BlnbXOhGSwRzGKV92NbdQX5R7psX1STK25ExmDwhMbDskil3871ANTwAj_dlH50iwUj6iIlojLWXWcQrTGIi8zgi_eOV9XjHEjc-8tvIMf-Vz7ZKFuTs65KadZL8SA",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1320,7 +1450,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Cultura Santos Dumont : O Voo da Libélula",
+    "title": "AO VIVO TV Cultura Planeta Terra : Catar - Pérolas na Areia",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/cultura.png",
     "bannerThumb": "https://img.faz-o-eli.online/cultura.png",
@@ -1350,10 +1480,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Justiça 6º Prêmio CNJ Juíza Viviane Vieira do Amaral - De Proteção às Mulheres Vítimas de Violência Doméstica e Familiar",
+    "title": "AO VIVO TV Justiça Plenárias",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/7XMV16yEB8P-KnMIiRjo7iOxcL7Kg_Xy67JMV3ucYjVSOl-_0EoOMPtoUm2F6cjU9x5v0qCOgfHe9PQfzVLypnJ-CcTJDv__quBS2j1aK0B5KFReBLDpDO8h3k2lqHmZUAVdj0Y9QLE3WCgkTemZHRctjhsN-2bP2_bPVyhREkfP00BU0gJXj79c8sfzEz1zEEydSCQx3V6GIKzoJU2zkZ87peHorICvIWZPpCpVOK09LyUv66U0XA",
-    "bannerThumb": "https://iptv-epg.org/images/7XMV16yEB8P-KnMIiRjo7iOxcL7Kg_Xy67JMV3ucYjVSOl-_0EoOMPtoUm2F6cjU9x5v0qCOgfHe9PQfzVLypnJ-CcTJDv__quBS2j1aK0B5KFReBLDpDO8h3k2lqHmZUAVdj0Y9QLE3WCgkTemZHRctjhsN-2bP2_bPVyhREkfP00BU0gJXj79c8sfzEz1zEEydSCQx3V6GIKzoJU2zkZ87peHorICvIWZPpCpVOK09LyUv66U0XA",
+    "thumb": "https://iptv-epg.org/images/6_Yl7Eke7Ldyg6-iynd_CQpZlY1SXPmFvae-sdpmqNgZ85fc5zqGyAsDqCTv7tP1pqA_g7d27RqqP61HrAkgahVXjdZfKaJGgHM9YbVYxPQ54X_f",
+    "bannerThumb": "https://iptv-epg.org/images/6_Yl7Eke7Ldyg6-iynd_CQpZlY1SXPmFvae-sdpmqNgZ85fc5zqGyAsDqCTv7tP1pqA_g7d27RqqP61HrAkgahVXjdZfKaJGgHM9YbVYxPQ54X_f",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1363,10 +1493,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Senado Habitar/Habitat",
+    "title": "AO VIVO TV Senado Tela Brasil",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/hrI6xmFXrOfF4LagBHna6v-KpLYHkcE-gNl-XOpRbGnpr3uxO8DjP48qS3IJDsI1eBmBz7_A6bxnRdGZc4haBommST3kqBNcUuRSrTrKuIZP_CA2sR4SYKZy",
-    "bannerThumb": "https://iptv-epg.org/images/hrI6xmFXrOfF4LagBHna6v-KpLYHkcE-gNl-XOpRbGnpr3uxO8DjP48qS3IJDsI1eBmBz7_A6bxnRdGZc4haBommST3kqBNcUuRSrTrKuIZP_CA2sR4SYKZy",
+    "thumb": "https://iptv-epg.org/images/U_DqCRbmaH0yZYln372sZSm1IyeJaZN8dUt0bkZk322evV5MJhiAO9imv15YN95v1dA7dJfvIaU28_6oBdELiP1Sm4HoMs2O_gDvYpiLzF04XYK_ufs",
+    "bannerThumb": "https://iptv-epg.org/images/U_DqCRbmaH0yZYln372sZSm1IyeJaZN8dUt0bkZk322evV5MJhiAO9imv15YN95v1dA7dJfvIaU28_6oBdELiP1Sm4HoMs2O_gDvYpiLzF04XYK_ufs",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1463,7 +1593,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO BAND SPORTS HD Catarinense de Vôlei Masculino",
+    "title": "AO VIVO BAND SPORTS HD Sporting x Surabaya",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/bandsports.png",
     "bannerThumb": "https://img.faz-o-eli.online/bandsports.png",
@@ -1480,7 +1610,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Canal OFF Guató: Uma Remada No Tempo",
+    "title": "AO VIVO Canal OFF O Labirinto Do Ártico",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/off.png",
     "bannerThumb": "https://img.faz-o-eli.online/off.png",
@@ -1495,7 +1625,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Combate Acesso Total - Ippon - Ep. 4",
+    "title": "AO VIVO Combate FMS Fight Night 12",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/combate.png",
     "bannerThumb": "https://img.faz-o-eli.online/combate.png",
@@ -1509,10 +1639,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO ESPN Sportscenter Abre o Jogo",
+    "title": "AO VIVO ESPN Bélgica x Itália",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/dm37-qhKit0YhAKPyFkfG3l6RPEayYS7oMBpTGPW-JVCBNqLXvbQKcehkSa7IEiHkaaTqN_ZLVGRZZtfFVo14C9DHJCgD0LTb5_Z-B55nnCpB0NdmRyfPjBVNFNcWKK_-8Dib-ut0f6h68FMli7f",
-    "bannerThumb": "https://iptv-epg.org/images/dm37-qhKit0YhAKPyFkfG3l6RPEayYS7oMBpTGPW-JVCBNqLXvbQKcehkSa7IEiHkaaTqN_ZLVGRZZtfFVo14C9DHJCgD0LTb5_Z-B55nnCpB0NdmRyfPjBVNFNcWKK_-8Dib-ut0f6h68FMli7f",
+    "thumb": "https://iptv-epg.org/images/N62rWKdZjqMn_In7h2CcvnSjBOVqbZcfOt01-b9LK_-Mrf_7lTvoHVEAWEWNJfO_ycwcDfbU-cn3dnt1Yhoepm5Ycs5n5IOjiD0QSDoVjOdQa9JvJztNOaZzxQI_cYhktg8mYw",
+    "bannerThumb": "https://iptv-epg.org/images/N62rWKdZjqMn_In7h2CcvnSjBOVqbZcfOt01-b9LK_-Mrf_7lTvoHVEAWEWNJfO_ycwcDfbU-cn3dnt1Yhoepm5Ycs5n5IOjiD0QSDoVjOdQa9JvJztNOaZzxQI_cYhktg8mYw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1541,10 +1671,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO ESPN 3 In the Arena: Serena Williams",
+    "title": "AO VIVO ESPN 3 WTA Finals: Final Simples",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/mDraTI-nqOwUPUISZAsDQnOW1CjEvYq-iG1QH0rG3bIdWq1U-fhdbvStY_DVyuJwEDTSTjaLHvTWuAXSl3wNLiljxbPXWTRA7DbZzKJiYaGRNegc5g0XCiKT31faB4sivVih_buH2fwGmD9k0M4",
-    "bannerThumb": "https://iptv-epg.org/images/mDraTI-nqOwUPUISZAsDQnOW1CjEvYq-iG1QH0rG3bIdWq1U-fhdbvStY_DVyuJwEDTSTjaLHvTWuAXSl3wNLiljxbPXWTRA7DbZzKJiYaGRNegc5g0XCiKT31faB4sivVih_buH2fwGmD9k0M4",
+    "thumb": "https://img.faz-o-eli.online/espn3.png",
+    "bannerThumb": "https://img.faz-o-eli.online/espn3.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1575,10 +1705,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO ESPN 5 VT - NBA: Detroit Pistons x Miami Heat",
+    "title": "AO VIVO ESPN 5 VT - Sport x Goiás",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/espn5.png",
-    "bannerThumb": "https://img.faz-o-eli.online/espn5.png",
+    "thumb": "https://iptv-epg.org/images/HmALoUNjIr2md-qbJEg_Z4urXIUNyxQnSCQ1N5_yCGS4XchoTVLC6vOW0UiG1HEv3n9cQkf2Fv7KNf-94rV5RoYdou-XD7iY38kIXJO4Mma8rBQmAj5e06-iB5jTR1cZAQ",
+    "bannerThumb": "https://iptv-epg.org/images/HmALoUNjIr2md-qbJEg_Z4urXIUNyxQnSCQ1N5_yCGS4XchoTVLC6vOW0UiG1HEv3n9cQkf2Fv7KNf-94rV5RoYdou-XD7iY38kIXJO4Mma8rBQmAj5e06-iB5jTR1cZAQ",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1590,7 +1720,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO ESPN 6 UEFA Nations League Match Night Highlights",
+    "title": "AO VIVO ESPN 6 VT - Rugby Nations Championship: País de Gales x Nova Zelândia",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/espn6.png",
     "bannerThumb": "https://img.faz-o-eli.online/espn6.png",
@@ -1605,11 +1735,11 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO FIFA+ Português Suíça x Nigéria - Final - Copa do Mundo Sub-17 da FIFA Nigéria 2009™ - Jogo completo",
+    "title": "AO VIVO FIFA+ Português México x Nigéria - Semifinais - Copa do Mundo Sub-17 da FIFA Chile 2015™ - Jogo completo",
     "desc": "",
     "thumb": "https://mondrian.claro.com.br/channels/inverse/fifa-plus.png",
     "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/fifa-plus.png",
-    "year": "2009",
+    "year": "2015",
     "genre": "Canais",
     "fontes": [
       "https://c2657533.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8",
@@ -1631,10 +1761,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO GE TV VT - Sérvia x Alemanha",
+    "title": "AO VIVO GE TV França x Turquia",
     "desc": "",
-    "thumb": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
-    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
+    "thumb": "https://iptv-epg.org/images/84shspTnsrv9yj0v_6S-naRUEEj3vRb4TFvASR2z0Z1lmH78QnRBLm-mMvJ_mS96v_v8-pe-uZ79MyDu7AIUNEGcmdmq7Re30teft-bI5L-TVIRGMy69yMtj_OuiNxxfcg-bUg",
+    "bannerThumb": "https://iptv-epg.org/images/84shspTnsrv9yj0v_6S-naRUEEj3vRb4TFvASR2z0Z1lmH78QnRBLm-mMvJ_mS96v_v8-pe-uZ79MyDu7AIUNEGcmdmq7Re30teft-bI5L-TVIRGMy69yMtj_OuiNxxfcg-bUg",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1720,7 +1850,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Premiere 6 Com o PREMIERE dá jogo!",
+    "title": "AO VIVO Premiere 6 Que Coffee",
     "desc": "",
     "thumb": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
@@ -1762,10 +1892,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Premiere Clubes Giro Da Rodada - Brasileirão - 34ª Rodada",
+    "title": "AO VIVO Premiere Clubes VT - Botafogo x Chapecoense",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/premiere.png",
-    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
+    "thumb": "https://iptv-epg.org/images/G2_A9RgdhmXxooq9AEORFS5Cj_FjsuFWF4F1TCLAq7VSxRIqT-EZ8aiQMzYfPhtRGnfJfbA3vt8QKFMvVXuK7PZ4P9s2V_BPQ0Yc_2K_EN5kzGGOX-A-3ajIF7CSLTHXq_sH6cpkN1Akqg",
+    "bannerThumb": "https://iptv-epg.org/images/G2_A9RgdhmXxooq9AEORFS5Cj_FjsuFWF4F1TCLAq7VSxRIqT-EZ8aiQMzYfPhtRGnfJfbA3vt8QKFMvVXuK7PZ4P9s2V_BPQ0Yc_2K_EN5kzGGOX-A-3ajIF7CSLTHXq_sH6cpkN1Akqg",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1779,8 +1909,8 @@
     "cat": "Canais",
     "title": "AO VIVO PT - Eleven 3 Keeping Up With the Kardashians",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/PvSQLm7_AR-3d9qcuilbTc0ZGoRVCI68kWNcilmmmhbozbZ300M41YdxzvM-jxohGEHFHTAiJ7CMao7OdjA79ALhEcGL7JPyI3GbdvDJM2-SMRZaXNRZ5hwTfH0Um2E3X4djxhdIQy_slVRXlDHJyd0",
-    "bannerThumb": "https://iptv-epg.org/images/PvSQLm7_AR-3d9qcuilbTc0ZGoRVCI68kWNcilmmmhbozbZ300M41YdxzvM-jxohGEHFHTAiJ7CMao7OdjA79ALhEcGL7JPyI3GbdvDJM2-SMRZaXNRZ5hwTfH0Um2E3X4djxhdIQy_slVRXlDHJyd0",
+    "thumb": "https://iptv-epg.org/images/FLSd7Px5r510aw0_o0guhJGy8kRk2VVUb6RSuEsyP30TW13Gp8gBzPRd-J67APsIwNIj6RZ1unZEZ7gzWSX8Np5g9nehZVxXt9U8-1WEBlC4nm5Mpflvl9h0F53uL41Cxtz0AIq40cAgytFu3IdmVdAdzAwGEWllCYUdBsMgjWNNpirWKxk",
+    "bannerThumb": "https://iptv-epg.org/images/FLSd7Px5r510aw0_o0guhJGy8kRk2VVUb6RSuEsyP30TW13Gp8gBzPRd-J67APsIwNIj6RZ1unZEZ7gzWSX8Np5g9nehZVxXt9U8-1WEBlC4nm5Mpflvl9h0F53uL41Cxtz0AIq40cAgytFu3IdmVdAdzAwGEWllCYUdBsMgjWNNpirWKxk",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1789,10 +1919,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO SporTV Aquecimento sportv",
+    "title": "AO VIVO SporTV Espanha x Inglaterra",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/psqEwF5zkO_0itUddBp_K9sArJ1DXJJdvHk1lID0NwR0_NabgaYG1pR-PM7WKoGEa9EDOe7_sQJ6AEC3FqTLjsXGYh82qj-HYvnd9xROqF8x2OZJMAV5RuxVXlXBVSaY42MQxQ",
-    "bannerThumb": "https://iptv-epg.org/images/psqEwF5zkO_0itUddBp_K9sArJ1DXJJdvHk1lID0NwR0_NabgaYG1pR-PM7WKoGEa9EDOe7_sQJ6AEC3FqTLjsXGYh82qj-HYvnd9xROqF8x2OZJMAV5RuxVXlXBVSaY42MQxQ",
+    "thumb": "https://iptv-epg.org/images/z5ExZ2T0tXA-PfN3I-x-gRm2umry6IxmR4qoOiommlxm5GNT_Tky13JQVXpG_OVDSto5mgYv77EDy9PYeVMXIIB9dhtGJc0cxrbyB2q8_7siafYwCe8pGIYBn_y5w4t_M9e88KmJcEE",
+    "bannerThumb": "https://iptv-epg.org/images/z5ExZ2T0tXA-PfN3I-x-gRm2umry6IxmR4qoOiommlxm5GNT_Tky13JQVXpG_OVDSto5mgYv77EDy9PYeVMXIIB9dhtGJc0cxrbyB2q8_7siafYwCe8pGIYBn_y5w4t_M9e88KmJcEE",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1818,10 +1948,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO SporTV 3 Lendas - Romário",
+    "title": "AO VIVO SporTV 3 França x Turquia",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/sportv3.png",
-    "bannerThumb": "https://img.faz-o-eli.online/sportv3.png",
+    "thumb": "https://iptv-epg.org/images/84shspTnsrv9yj0v_6S-naRUEEj3vRb4TFvASR2z0Z1lmH78QnRBLm-mMvJ_mS96v_v8-pe-uZ79MyDu7AIUNEGcmdmq7Re30teft-bI5L-TVIRGMy69yMtj_OuiNxxfcg-bUg",
+    "bannerThumb": "https://iptv-epg.org/images/84shspTnsrv9yj0v_6S-naRUEEj3vRb4TFvASR2z0Z1lmH78QnRBLm-mMvJ_mS96v_v8-pe-uZ79MyDu7AIUNEGcmdmq7Re30teft-bI5L-TVIRGMy69yMtj_OuiNxxfcg-bUg",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -1889,10 +2019,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Woohoo Drop",
+    "title": "AO VIVO Woohoo Queue",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/DGi1Yoy7pU-g3ajk6O4iKWxgpzsrhNCdnZsMeaGuRYdWoGYCdZsueN_johkvO1Inio67uqflBJBBgHADOYlWEDvVyZtswy7IzfnGQaRfcQ",
-    "bannerThumb": "https://iptv-epg.org/images/DGi1Yoy7pU-g3ajk6O4iKWxgpzsrhNCdnZsMeaGuRYdWoGYCdZsueN_johkvO1Inio67uqflBJBBgHADOYlWEDvVyZtswy7IzfnGQaRfcQ",
+    "thumb": "https://iptv-epg.org/images/GtAYznyFND5wqlMS_Sj3K_Qc53NX6IFtEyR6NjfUr9fwCNJIF05k9OOa1oRjouW-RBY2PgYtsTz5d4t8t9bu9wAAfos_JgKKfAVj-rKlaPA",
+    "bannerThumb": "https://iptv-epg.org/images/GtAYznyFND5wqlMS_Sj3K_Qc53NX6IFtEyR6NjfUr9fwCNJIF05k9OOa1oRjouW-RBY2PgYtsTz5d4t8t9bu9wAAfos_JgKKfAVj-rKlaPA",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2445,10 +2575,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HBO Family Os Smurfs e a Vila Perdida",
+    "title": "AO VIVO HBO Family Angry Birds - O Filme",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/9vAD3MCcvOZpU_YqgXM0wfaF5c7rQmJ7z5_j78wk1qfFYNJuKIGOopVi-gAabPDdCPokw8kCYyMN_qdn7ZWYJJkfpDJEGzP1BqeFCBVMGr0gs46VKN0teDZONCneeqfjsh1pIoRLsUFChQ",
-    "bannerThumb": "https://iptv-epg.org/images/9vAD3MCcvOZpU_YqgXM0wfaF5c7rQmJ7z5_j78wk1qfFYNJuKIGOopVi-gAabPDdCPokw8kCYyMN_qdn7ZWYJJkfpDJEGzP1BqeFCBVMGr0gs46VKN0teDZONCneeqfjsh1pIoRLsUFChQ",
+    "thumb": "https://iptv-epg.org/images/aIuHXeCvurQmjn57Z4Hvkq1myuGhH0cniQzit7TfhXW_gOPjXfShf4jgCxnfba8nxWxCTgc8Jud_iojxDRrgQmhjWIjwMv8q146WFyEg7bBHppG1eC46PGPXcN4akf2ZU6xV",
+    "bannerThumb": "https://iptv-epg.org/images/aIuHXeCvurQmjn57Z4Hvkq1myuGhH0cniQzit7TfhXW_gOPjXfShf4jgCxnfba8nxWxCTgc8Jud_iojxDRrgQmhjWIjwMv8q146WFyEg7bBHppG1eC46PGPXcN4akf2ZU6xV",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2490,10 +2620,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HBO Pop Família do Bagulho",
+    "title": "AO VIVO HBO Pop Wonka",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/fMs_0X2-YyM6L-spXyzlzgNXVE60rZNuZjDiVAWiU_ZkyazbRIW4GvA_xtguYhasc84F8q2vHp5pzWUYaiiY1EvVopscx0nIgvkMqhYLXKBdDKKw9i30JkCBfvQ_8JTcPuxHCg",
-    "bannerThumb": "https://iptv-epg.org/images/fMs_0X2-YyM6L-spXyzlzgNXVE60rZNuZjDiVAWiU_ZkyazbRIW4GvA_xtguYhasc84F8q2vHp5pzWUYaiiY1EvVopscx0nIgvkMqhYLXKBdDKKw9i30JkCBfvQ_8JTcPuxHCg",
+    "thumb": "https://iptv-epg.org/images/FRtzBKH9UCQCsCQynzBYdIGPd0ASiiuHQtTbyyRaQMKc0sTh8a-LJucuqxv5-jc9CVqk6t98I5uToAPn7_R1vvzaQf84L1zJ9BLM2vggmOzGiTqwcw",
+    "bannerThumb": "https://iptv-epg.org/images/FRtzBKH9UCQCsCQynzBYdIGPd0ASiiuHQtTbyyRaQMKc0sTh8a-LJucuqxv5-jc9CVqk6t98I5uToAPn7_R1vvzaQf84L1zJ9BLM2vggmOzGiTqwcw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2506,7 +2636,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HBO Signature Twisted Metal : DOLF4C3",
+    "title": "AO VIVO HBO Signature Twisted Metal : LZGTBZY",
     "desc": "",
     "thumb": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
     "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
@@ -2535,7 +2665,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HBO2 Premonição 6 - Laços de Sangue",
+    "title": "AO VIVO HBO2 Annabelle 2 - A Criação do Mal",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/hbo2.png",
     "bannerThumb": "https://img.faz-o-eli.online/hbo2.png",
@@ -2551,11 +2681,11 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Megapix Sobreviventes Megapix: A Fera",
+    "title": "AO VIVO Megapix Sobreviventes Megapix: O Homem Invisivel (2020)",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/megapix.png",
     "bannerThumb": "https://img.faz-o-eli.online/megapix.png",
-    "year": "",
+    "year": "2020",
     "genre": "Canais",
     "fontes": [
       "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/megapix/index.m3u8",
@@ -2566,10 +2696,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Sony Channel Um Sonho Possível",
+    "title": "AO VIVO Sony Channel A Fera",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/jGLF-YDb_jRBJZ9u1Cfwk6AwRcwdikyE_Hksk2qdTYNJ6S8modoT05rbM0WMUtKpw5hsVsMNwtdZSjtrKu4eOMlUuegf-5TVZcapR21IdS7jGadkxUiTdsCInPU62pUBIfh5",
-    "bannerThumb": "https://iptv-epg.org/images/jGLF-YDb_jRBJZ9u1Cfwk6AwRcwdikyE_Hksk2qdTYNJ6S8modoT05rbM0WMUtKpw5hsVsMNwtdZSjtrKu4eOMlUuegf-5TVZcapR21IdS7jGadkxUiTdsCInPU62pUBIfh5",
+    "thumb": "https://iptv-epg.org/images/qF921wNij55TmMzttuIxYMC3xjUotY5FKg_ptGcgVBNnWXd43gtCmCLs_pbhlEjmo8FXGJ0ZTk0rNseCeBzKE1kQtmNdqDgEKEQFYrBShTSRpAyDdQY",
+    "bannerThumb": "https://iptv-epg.org/images/qF921wNij55TmMzttuIxYMC3xjUotY5FKg_ptGcgVBNnWXd43gtCmCLs_pbhlEjmo8FXGJ0ZTk0rNseCeBzKE1kQtmNdqDgEKEQFYrBShTSRpAyDdQY",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2609,10 +2739,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Studio Universal Três Babás Para o Natal",
+    "title": "AO VIVO Studio Universal Três Babás para o Natal 2",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/KALa94Yd5MWPb5mYgcLdi0VrWaYeuSodfqlky0sSgIJz50J-5ABrD14i8NttNQP_K_199cELgFpQo33mtW4GVir2Ee1z1NOk9esGJQTThE8WxFeiMatb5pIUM-O28bZrSddfopKZHQ",
-    "bannerThumb": "https://iptv-epg.org/images/KALa94Yd5MWPb5mYgcLdi0VrWaYeuSodfqlky0sSgIJz50J-5ABrD14i8NttNQP_K_199cELgFpQo33mtW4GVir2Ee1z1NOk9esGJQTThE8WxFeiMatb5pIUM-O28bZrSddfopKZHQ",
+    "thumb": "https://iptv-epg.org/images/6AIBsq61clImu18LwbhbknS1HXwZoiv7E5zBIUjSIZ8Vhm5PS7B1QAL-Sul3U88gaNpJAEjoqvNNV_JxLgXU07CM8IT3tNwLyyweOZjBfw4RiGJJi2qcfAFAY_P_Cy0k5szOZH87rJXO",
+    "bannerThumb": "https://iptv-epg.org/images/6AIBsq61clImu18LwbhbknS1HXwZoiv7E5zBIUjSIZ8Vhm5PS7B1QAL-Sul3U88gaNpJAEjoqvNNV_JxLgXU07CM8IT3tNwLyyweOZjBfw4RiGJJi2qcfAFAY_P_Cy0k5szOZH87rJXO",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2623,10 +2753,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TCM A Mulher do Dia",
+    "title": "AO VIVO TCM O Dragão Invencível",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/ZAiVUgQmVHUlrxgCvf1FRvA3hOAR9TCDaqg7CXm37CtTxNuyJC9GHfnRB-2vII8lD-EdaJTyw1Nh8pEQ1uIPHZTWBIRRSpyB2FDU-jAh6hNGSTVyc2NDAqokvM6T4OM",
-    "bannerThumb": "https://iptv-epg.org/images/ZAiVUgQmVHUlrxgCvf1FRvA3hOAR9TCDaqg7CXm37CtTxNuyJC9GHfnRB-2vII8lD-EdaJTyw1Nh8pEQ1uIPHZTWBIRRSpyB2FDU-jAh6hNGSTVyc2NDAqokvM6T4OM",
+    "thumb": "https://iptv-epg.org/images/rRGdpAs_hpAj1OS9n_WtfzlgBaPI5fuGJpOrydcBbK_IAAR8vWHMs9Nc5zvQ_c6Gc2w59pNqpWf4ElzUl43h90haggseBiMaPFRKJlHSK00LxgIxfnCzcdOyueb4cqRjhRp1",
+    "bannerThumb": "https://iptv-epg.org/images/rRGdpAs_hpAj1OS9n_WtfzlgBaPI5fuGJpOrydcBbK_IAAR8vWHMs9Nc5zvQ_c6Gc2w59pNqpWf4ElzUl43h90haggseBiMaPFRKJlHSK00LxgIxfnCzcdOyueb4cqRjhRp1",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2650,10 +2780,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Telecine Cult Boyhood - Da Infância à Juventude",
+    "title": "AO VIVO Telecine Cult Os Amantes de Pont-Neuf",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/6p4oKXXkoZxLE-9pEbLSjE3HgBbZvvBshsXzltCgOSqtDh2JC4X07wIiooIHxhiXbV2IOT0AdTKXuarUgBq8SXefjEzgWDGBBYM1iu1mSwyi8JCmna3cCfZfK-bd6_QHdTrVU7fbJMHy4JLzKE6HkV8",
-    "bannerThumb": "https://iptv-epg.org/images/6p4oKXXkoZxLE-9pEbLSjE3HgBbZvvBshsXzltCgOSqtDh2JC4X07wIiooIHxhiXbV2IOT0AdTKXuarUgBq8SXefjEzgWDGBBYM1iu1mSwyi8JCmna3cCfZfK-bd6_QHdTrVU7fbJMHy4JLzKE6HkV8",
+    "thumb": "https://iptv-epg.org/images/D2NnPWp6gE_EkfB7MXYY_gwyj4f-sWz5ZDlVsxfW62xbM4-HAzUgyXs6bl6odrEdoCF8lxY6fR1XCtAcLsE3pNCdS2N0XTS6gsNSJXBWWJnF8_dbWOannygxLVCEHBdyIJFw_Dt-Aw",
+    "bannerThumb": "https://iptv-epg.org/images/D2NnPWp6gE_EkfB7MXYY_gwyj4f-sWz5ZDlVsxfW62xbM4-HAzUgyXs6bl6odrEdoCF8lxY6fR1XCtAcLsE3pNCdS2N0XTS6gsNSJXBWWJnF8_dbWOannygxLVCEHBdyIJFw_Dt-Aw",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2665,10 +2795,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Telecine Fun Missão Antena - Uma Aventura Intergaláctica",
+    "title": "AO VIVO Telecine Fun O Poderoso Chefinho",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/vzE4z3SaAvCmrDzg31_-TM6TdyHzd358E2Sc1APXutH0dVjXf66dkHjRyVfKTVm1uUXzbkfEcwfkM0lBWJ4CHNDHY-ORC7o-JACwkgDJ0QnTi2Jvbr4spQTR5-g3JrJ-3_pzCCh7oJiAkI4J7PTmH-f-3ggVl0sClA",
-    "bannerThumb": "https://iptv-epg.org/images/vzE4z3SaAvCmrDzg31_-TM6TdyHzd358E2Sc1APXutH0dVjXf66dkHjRyVfKTVm1uUXzbkfEcwfkM0lBWJ4CHNDHY-ORC7o-JACwkgDJ0QnTi2Jvbr4spQTR5-g3JrJ-3_pzCCh7oJiAkI4J7PTmH-f-3ggVl0sClA",
+    "thumb": "https://iptv-epg.org/images/c9hDovZKwpsZruzfzVlB5oUSjDkpLSOVKzBsQJWJeomUZhSrjJgDl4BUBAMpRdJys30JELXMTYfrW0kfSpY1Wp3HElKq3g3QS_lbHY_Njh5dOBqCekuo5gAKaIWnv7LaLThs",
+    "bannerThumb": "https://iptv-epg.org/images/c9hDovZKwpsZruzfzVlB5oUSjDkpLSOVKzBsQJWJeomUZhSrjJgDl4BUBAMpRdJys30JELXMTYfrW0kfSpY1Wp3HElKq3g3QS_lbHY_Njh5dOBqCekuo5gAKaIWnv7LaLThs",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2680,10 +2810,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Telecine Pipoca Caça às Bruxas",
+    "title": "AO VIVO Telecine Pipoca Invasão ao Serviço Secreto",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/WP8hPWiE8zkC1BRsxQiby-8QUqadxGSKWJk8pyIubtU8hvcB1CMxbBGenlAtdU8e_67j5HET_x1BXFkvoxEuLkHhgLbeSQ5v3k65NVGvnNq0rp-rtJTEE6eEl8hWOQ",
-    "bannerThumb": "https://iptv-epg.org/images/WP8hPWiE8zkC1BRsxQiby-8QUqadxGSKWJk8pyIubtU8hvcB1CMxbBGenlAtdU8e_67j5HET_x1BXFkvoxEuLkHhgLbeSQ5v3k65NVGvnNq0rp-rtJTEE6eEl8hWOQ",
+    "thumb": "https://iptv-epg.org/images/77-Q5lG99GL84jf0rUPtjXm02BaYlzVw2SycnsldCnCBTlAxyxipAJ9c3uW5KRgGDBM5n4d2NX9Jf7yFQBS5jKBJ7ujh2EPeN0kRiKaYh_dY31jkEbQGHbkhv1WcNjQFdpb19YmeU0f6dA",
+    "bannerThumb": "https://iptv-epg.org/images/77-Q5lG99GL84jf0rUPtjXm02BaYlzVw2SycnsldCnCBTlAxyxipAJ9c3uW5KRgGDBM5n4d2NX9Jf7yFQBS5jKBJ7ujh2EPeN0kRiKaYh_dY31jkEbQGHbkhv1WcNjQFdpb19YmeU0f6dA",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2695,10 +2825,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Telecine Premium A Sogra Perfeita 2",
+    "title": "AO VIVO Telecine Premium Gato de Botas 2 - O Último Pedido",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/MgjCWGIRRpyCZIejrGS0QaUCK5LqOy2wwSdL4cYdsDzuTOUZ3gz6ujQAsNfsXlowRDFceprfjDcadRvSLMOtuuvkO5o3uFyIsEuh6eDx5mZSSjKUeTOaDJOh5vPf00UneJk",
-    "bannerThumb": "https://iptv-epg.org/images/MgjCWGIRRpyCZIejrGS0QaUCK5LqOy2wwSdL4cYdsDzuTOUZ3gz6ujQAsNfsXlowRDFceprfjDcadRvSLMOtuuvkO5o3uFyIsEuh6eDx5mZSSjKUeTOaDJOh5vPf00UneJk",
+    "thumb": "https://iptv-epg.org/images/RhrvLbFXz_ZrGcxi0_7qvXCA4U1W-hMPk-jIwWip9SWnTG9rff9psNoncKOsj__Zh96nlLAUTx-eNi4dFacswpmm0Yxe6uO2RR0W3MyP33IlJPmcAgxf4Mc8K8C-Oo6Z0jAu5SjhslL-ejfQMNug",
+    "bannerThumb": "https://iptv-epg.org/images/RhrvLbFXz_ZrGcxi0_7qvXCA4U1W-hMPk-jIwWip9SWnTG9rff9psNoncKOsj__Zh96nlLAUTx-eNi4dFacswpmm0Yxe6uO2RR0W3MyP33IlJPmcAgxf4Mc8K8C-Oo6Z0jAu5SjhslL-ejfQMNug",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2709,10 +2839,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Telecine Touch O que Esperar Quando Você Está Esperando",
+    "title": "AO VIVO Telecine Touch O Amor Não Tira Férias",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/uRmyGtowEKgvqw51fUDSYYY8Noz53BBLGPXpA2wr284GBzitsUtK8YIaAI9m6VxJZp83TLtqQt-mdk9UG30DG1WLVZSRGNtReOF2K6rs6gmWsjIJg8VPDfBSRQXsorfUz5XnzQNBfL_71od5FR2FPg40jUXI5lWQ6ZA",
-    "bannerThumb": "https://iptv-epg.org/images/uRmyGtowEKgvqw51fUDSYYY8Noz53BBLGPXpA2wr284GBzitsUtK8YIaAI9m6VxJZp83TLtqQt-mdk9UG30DG1WLVZSRGNtReOF2K6rs6gmWsjIJg8VPDfBSRQXsorfUz5XnzQNBfL_71od5FR2FPg40jUXI5lWQ6ZA",
+    "thumb": "https://iptv-epg.org/images/6hTsmK7XH6gJ1UO_rBdBtYFez5Ag0duCcCH6c1d97novBe3K7uM_qOfcCF5wpZ2yRcgKN9x2YAgDzP-lACnya2BuFQR-LLBJV27UOHxSRPZzvP9pmoDCrjh7928KltcIEO5pIASn",
+    "bannerThumb": "https://iptv-epg.org/images/6hTsmK7XH6gJ1UO_rBdBtYFez5Ag0duCcCH6c1d97novBe3K7uM_qOfcCF5wpZ2yRcgKN9x2YAgDzP-lACnya2BuFQR-LLBJV27UOHxSRPZzvP9pmoDCrjh7928KltcIEO5pIASn",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2723,7 +2853,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TNT Jumanji",
+    "title": "AO VIVO TNT Encontro de Casais",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/tnt.png",
     "bannerThumb": "https://img.faz-o-eli.online/tnt.png",
@@ -2753,7 +2883,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TNT Séries The Mentalist : Bleeding Heart",
+    "title": "AO VIVO TNT Séries The Mentalist : Red All Over",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/tntseries.png",
     "bannerThumb": "https://img.faz-o-eli.online/tntseries.png",
@@ -2807,10 +2937,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Warner Sully - O Herói do Rio Hudson",
+    "title": "AO VIVO Warner Elvis",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/mmEEwx6fS-RBIyGs-OhK29WalX1UXUFhvJBQhatH142ZfGbqsWb1UELla6P8TgIbD8MBJxTCvOBe2wEryjEzYbc4M1kmDttDZ4hZ7YvV50OBAA29et4mH9RGvG-uFdrKlM5LIwkiMqO3oV0",
-    "bannerThumb": "https://iptv-epg.org/images/mmEEwx6fS-RBIyGs-OhK29WalX1UXUFhvJBQhatH142ZfGbqsWb1UELla6P8TgIbD8MBJxTCvOBe2wEryjEzYbc4M1kmDttDZ4hZ7YvV50OBAA29et4mH9RGvG-uFdrKlM5LIwkiMqO3oV0",
+    "thumb": "https://iptv-epg.org/images/dy3Fk_KiEfIMqnvOYfUckyH59_TWm5e48fQ8_sWdOTGcnrUa_IKqnNw-6Dt2kfq-XehgAeeTZUa-qwSEdt70MH3UQloG3QtdR9iuRoNeR0Npz1rKjg",
+    "bannerThumb": "https://iptv-epg.org/images/dy3Fk_KiEfIMqnvOYfUckyH59_TWm5e48fQ8_sWdOTGcnrUa_IKqnNw-6Dt2kfq-XehgAeeTZUa-qwSEdt70MH3UQloG3QtdR9iuRoNeR0Npz1rKjg",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -2990,7 +3120,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Tooncast Corrida Maluca : O Grande Prêmio Carlsbad",
+    "title": "AO VIVO Tooncast Irmão do Jorel : Sonâmbulo Maneiro",
     "desc": "",
     "thumb": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
     "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
@@ -3004,7 +3134,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Rá Tim Bum DJ Cão e a Loja de Discos : Bruno Borges - Como Se Faz um Vinil?",
+    "title": "AO VIVO TV Rá Tim Bum Isso Disso : Controle Remoto",
     "desc": "",
     "thumb": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
     "bannerThumb": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
@@ -3148,7 +3278,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery Turbo Máquinas Muito Loucas : A Supermáquina do Homem de Ferro",
+    "title": "AO VIVO Discovery Turbo Oficina de Sonhos : A Superlimusine",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoveryturbo.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoveryturbo.png",
@@ -3165,7 +3295,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Discovery World Sabores da América: Bacon : Paraíso do Bacon",
+    "title": "AO VIVO Discovery World Minha Casa nas Montanhas : Oásis nos Alpes",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/discoveryworld.png",
     "bannerThumb": "https://img.faz-o-eli.online/discoveryworld.png",
@@ -3181,7 +3311,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO History Trato Feito - Pé na Estrada : O Encanto do Sul",
+    "title": "AO VIVO History Trato Feito - Pé na Estrada : Diversão em San Francisco",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/history.png",
     "bannerThumb": "https://img.faz-o-eli.online/history.png",
@@ -3198,7 +3328,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO History 2 Ideias Sinistras : Trapaças Sensacionais",
+    "title": "AO VIVO History 2 Bebidas Apostas e Sexo : Impérios Perdidos",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/history2.png",
     "bannerThumb": "https://img.faz-o-eli.online/history2.png",
@@ -3222,10 +3352,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO Food Network Confeiteiro Número 1 - A Competição : Sobremesas Pequenas e Altas",
+    "title": "AO VIVO Food Network Bobby Flay: Ameaça Tripla",
     "desc": "",
-    "thumb": "https://img.faz-o-eli.online/foodnetwork.png",
-    "bannerThumb": "https://img.faz-o-eli.online/foodnetwork.png",
+    "thumb": "https://iptv-epg.org/images/tK8tWw1yfhHAeoHQer98AX5Xgkht-HgmC5rTp-5lwbfdUD5fv2JfbwvEYO6J3rfRuhDOVwW6XQ4Xo423IOmWgFtA9H1UAxGtZKYgN8npzVFDyncOS46zaOIS8tynULrWz-GmzlHgkDnJYQ",
+    "bannerThumb": "https://iptv-epg.org/images/tK8tWw1yfhHAeoHQer98AX5Xgkht-HgmC5rTp-5lwbfdUD5fv2JfbwvEYO6J3rfRuhDOVwW6XQ4Xo423IOmWgFtA9H1UAxGtZKYgN8npzVFDyncOS46zaOIS8tynULrWz-GmzlHgkDnJYQ",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -3237,10 +3367,10 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO GNT Chef De Alto Nível.",
+    "title": "AO VIVO GNT Cozinha Prática Com Rita Lobo",
     "desc": "",
-    "thumb": "https://iptv-epg.org/images/8svyZXMVBzaMvz9w02Fke_PhlS2U4TEAzCaYWYVRTP9ykkFIUoPOwXFznjTbp_yPQChLAfomtYtSG2Jp3AdzsG2Nib9mCNLccxd80ytqFBpzpCbUI_neSTs7ghFGc_p3hCur5g",
-    "bannerThumb": "https://iptv-epg.org/images/8svyZXMVBzaMvz9w02Fke_PhlS2U4TEAzCaYWYVRTP9ykkFIUoPOwXFznjTbp_yPQChLAfomtYtSG2Jp3AdzsG2Nib9mCNLccxd80ytqFBpzpCbUI_neSTs7ghFGc_p3hCur5g",
+    "thumb": "https://iptv-epg.org/images/A2CwCbV984h9_UxL4MBI1xhj2aL1bYEU4edY_MKLE4FYropoFfXpaOMn-xaD9ax3W2ujEGos3NpRTjy9xh1KiV795Yv05NsgihocoINf7JDBKCbc6pEhfNEdY1lQabjbQ3O46Xxg1L063R5t6NYD",
+    "bannerThumb": "https://iptv-epg.org/images/A2CwCbV984h9_UxL4MBI1xhj2aL1bYEU4edY_MKLE4FYropoFfXpaOMn-xaD9ax3W2ujEGos3NpRTjy9xh1KiV795Yv05NsgihocoINf7JDBKCbc6pEhfNEdY1lQabjbQ3O46Xxg1L063R5t6NYD",
     "year": "",
     "genre": "Canais",
     "fontes": [
@@ -3252,7 +3382,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO HGTV Restaurando Casas Históricas : A Casa do Ferreiro",
+    "title": "AO VIVO HGTV Vida no Paraíso - Bahamas : Pronta para Morar em Treasure Cay",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/hgtv.png",
     "bannerThumb": "https://img.faz-o-eli.online/hgtv.png",
@@ -3344,7 +3474,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TLC Amor no Caribe - Rumo aos 90 Dias? : O Monstro do Ciúme",
+    "title": "AO VIVO TLC Bem-Vindo à Família Plath : O Namorado",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/tlc.png",
     "bannerThumb": "https://img.faz-o-eli.online/tlc.png",
@@ -3384,7 +3514,7 @@
   },
   {
     "cat": "Canais",
-    "title": "AO VIVO TV Pai Eterno ZonaDocu: Los Médicos del Egeo",
+    "title": "AO VIVO TV Pai Eterno Cultura.21",
     "desc": "",
     "thumb": "https://img.faz-o-eli.online/tvpaieterno.png",
     "bannerThumb": "https://img.faz-o-eli.online/tvpaieterno.png",

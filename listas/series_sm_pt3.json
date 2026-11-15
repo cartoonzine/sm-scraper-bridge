@@ -1,6 +1,30 @@
 [
   {
     "cat": "Séries",
+    "title": "Pôster de O Jogo da Fama",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/iu7ss1V9Kz1PXyS3GEO8RFrzBOK.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/iu7ss1V9Kz1PXyS3GEO8RFrzBOK.jpg",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/o-jogo-da-fama"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Pôster de O Jogo da Piramide",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/i2QVw6Ot4ywdKcVc7EeDH3ojlzw.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/i2QVw6Ot4ywdKcVc7EeDH3ojlzw.jpg",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/o-jogo-da-piramide"
+    ]
+  },
+  {
+    "cat": "Séries",
     "title": "Pôster de O Jogo Inglês",
     "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w342/vvOccQ5Mcn665KXS2KSnldhpvva.jpg",

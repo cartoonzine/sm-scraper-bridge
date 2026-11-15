@@ -1,6 +1,208 @@
 [
   {
     "cat": "Doramas",
+    "title": "Início",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "Doramas",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "Next.MetadataOutlet",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "Next.Metadata",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "next-size-adjust",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "viewport",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "theme-color",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "color-scheme",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "application-name",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "twitter:card",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "twitter:title",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "twitter:description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": []
+  },
+  {
+    "cat": "Doramas",
+    "title": "Drama",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/drama"
+    ]
+  },
+  {
+    "cat": "Doramas",
+    "title": "Comédia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/comedia"
+    ]
+  },
+  {
+    "cat": "Doramas",
+    "title": "Ficção e fantasia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/ficcao-e-fantasia"
+    ]
+  },
+  {
+    "cat": "Doramas",
+    "title": "Mistério",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/misterio"
+    ]
+  },
+  {
+    "cat": "Doramas",
+    "title": "Crime",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/crime"
+    ]
+  },
+  {
+    "cat": "Doramas",
+    "title": "Ação e aventura",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Doramas",
+    "fontes": [
+      "https://saimotv.com/doramas/genero/acao-e-aventura"
+    ]
+  },
+  {
+    "cat": "Doramas",
     "title": "Pôster de Febre de Primavera",
     "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w342/zJaMDWPhxInDKNgoLpCPtRKsaAv.jpg",

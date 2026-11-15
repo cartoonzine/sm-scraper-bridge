@@ -1,6 +1,256 @@
 [
   {
     "cat": "Animes",
+    "title": "Início",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "Animes",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "Next.MetadataOutlet",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "Next.Metadata",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "next-size-adjust",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "viewport",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "theme-color",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "color-scheme",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "application-name",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "twitter:card",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "twitter:title",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "twitter:description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": []
+  },
+  {
+    "cat": "Animes",
+    "title": "Animação",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/animacao"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Ficção e fantasia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/ficcao-e-fantasia"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Ação e aventura",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/acao-e-aventura"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Comédia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/comedia"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Infantil",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/infantil"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Drama",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/drama"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Família",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/familia"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Mistério",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/misterio"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Crime",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/crime"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Guerra e política",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/animes/genero/guerra-e-politica"
+    ]
+  },
+  {
+    "cat": "Animes",
     "title": "Pôster de DEMON LORD",
     "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w342/mU7QgTm2WadwVoT7jDyMY9Czpsj.jpg",
@@ -7473,6 +7723,18 @@
     "genre": "Animes",
     "fontes": [
       "https://saimotv.com/serie/as-novas-aventuras-do-ursinho-puff-2"
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Pôster de DuckTales: Os Caçadores de Aventuras",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/9FsIGJeCS3lCiXU7gICBSgjOPIW.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/9FsIGJeCS3lCiXU7gICBSgjOPIW.jpg",
+    "year": "1987",
+    "genre": "Animes",
+    "fontes": [
+      "https://saimotv.com/serie/ducktales-os-cacadores-de-aventuras-2"
     ]
   },
   {

@@ -1,6 +1,328 @@
 [
   {
     "cat": "Séries",
+    "title": "Início",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "Séries",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "Next.MetadataOutlet",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "Next.Metadata",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "next-size-adjust",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "viewport",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "theme-color",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "color-scheme",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "application-name",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "twitter:card",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "twitter:title",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "twitter:description",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": []
+  },
+  {
+    "cat": "Séries",
+    "title": "Drama",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/drama"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Comédia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/comedia"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Crime",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/crime"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Ficção e fantasia",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/ficcao-e-fantasia"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Documentário",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/documentario"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Ação e aventura",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/acao-e-aventura"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Animação",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/animacao"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Mistério",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/misterio"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Reality",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/reality"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Família",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/familia"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Infantil",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/infantil"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Novela",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/novela"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Guerra e política",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/guerra-e-politica"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Talk show",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/talk-show"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Faroeste",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/faroeste"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Notícias",
+    "desc": "",
+    "thumb": "",
+    "bannerThumb": "",
+    "year": "",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/series/genero/noticias"
+    ]
+  },
+  {
+    "cat": "Séries",
     "title": "Pôster de 56 Dias",
     "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w342/bJgbL2qHhKEnDUsVVPYJ6GJfvtW.jpg",
@@ -117,6 +439,18 @@
     "genre": "Séries",
     "fontes": [
       "https://saimotv.com/serie/amigos-sexo-e-jogos"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Pôster de Amigos Sexo e Jogos",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/72Xo63mlPdftbj65CC6WRtUGWBg.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/72Xo63mlPdftbj65CC6WRtUGWBg.jpg",
+    "year": "2026",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/amigos-sexo-e-jogos-2"
     ]
   },
   {
@@ -273,6 +607,18 @@
     "genre": "Séries",
     "fontes": [
       "https://saimotv.com/serie/crystal-lake"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Pôster de Crystal Lake",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/sIj9WcA1LkcjGbYjrbfV3pGegbF.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/sIj9WcA1LkcjGbYjrbfV3pGegbF.jpg",
+    "year": "2026",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/crystal-lake-2"
     ]
   },
   {
@@ -469,6 +815,18 @@
   },
   {
     "cat": "Séries",
+    "title": "Pôster de Hollywood Arts",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/xsL1ig6Tyi0j9AZPt23yZprslGS.jpg",
+    "year": "2026",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/hollywood-arts-2"
+    ]
+  },
+  {
+    "cat": "Séries",
     "title": "Pôster de Homem em Chamas",
     "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w342/nIyQtwmxmry2xFVPpKOJRAdBnXM.jpg",
@@ -609,6 +967,18 @@
     "genre": "Séries",
     "fontes": [
       "https://saimotv.com/serie/marilia-mendonca-sentimento-louco"
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Pôster de Marília Mendonça: Sentimento Louco",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w342/g4XB3hmoPC75AtjsRtFhRdbDxhe.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w342/g4XB3hmoPC75AtjsRtFhRdbDxhe.jpg",
+    "year": "2026",
+    "genre": "Séries",
+    "fontes": [
+      "https://saimotv.com/serie/marilia-mendonca-sentimento-louco-2"
     ]
   },
   {
@@ -28929,42 +29299,6 @@
     "genre": "Séries",
     "fontes": [
       "https://saimotv.com/serie/cartel-crew"
-    ]
-  },
-  {
-    "cat": "Séries",
-    "title": "Pôster de Carter",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w342/fpeMeA3b54TuPVSsnk03ZxlYCDF.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w342/fpeMeA3b54TuPVSsnk03ZxlYCDF.jpg",
-    "year": "",
-    "genre": "Séries",
-    "fontes": [
-      "https://saimotv.com/serie/carter"
-    ]
-  },
-  {
-    "cat": "Séries",
-    "title": "Pôster de Casa das Facas A Batalha",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w342/uBAkbjWbLDShbuxG1p4kA8wRwZl.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w342/uBAkbjWbLDShbuxG1p4kA8wRwZl.jpg",
-    "year": "",
-    "genre": "Séries",
-    "fontes": [
-      "https://saimotv.com/serie/casa-das-facas-a-batalha"
-    ]
-  },
-  {
-    "cat": "Séries",
-    "title": "Pôster de Casa do Patrao",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w342/o7qewxkzfZqRiM9JGDO7tWOA0BS.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w342/o7qewxkzfZqRiM9JGDO7tWOA0BS.jpg",
-    "year": "",
-    "genre": "Séries",
-    "fontes": [
-      "https://saimotv.com/serie/casa-do-patrao"
     ]
   }
 ]
