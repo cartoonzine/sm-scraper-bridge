@@ -21,7 +21,7 @@
   },
   {
     "cat": "Canais",
-    "title": "InÃ­cio",
+    "title": "Next.MetadataOutlet",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -31,7 +31,7 @@
   },
   {
     "cat": "Canais",
-    "title": "FinlÃ¢ndia x San Marino",
+    "title": "Next.Metadata",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -41,7 +41,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Belarus x AlbÃ¢nia",
+    "title": "next-size-adjust",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -51,7 +51,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Atlanta Falcons x Kansas City Chiefs",
+    "title": "viewport",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -61,7 +61,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Elina Svitolina x Mirra Andreeva",
+    "title": "theme-color",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -71,7 +71,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Internacional (F) x Flamengo (F)",
+    "title": "color-scheme",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -81,7 +81,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Espanha x Inglaterra",
+    "title": "description",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -91,7 +91,7 @@
   },
   {
     "cat": "Canais",
-    "title": "FranÃ§a x Turquia",
+    "title": "application-name",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -101,7 +101,7 @@
   },
   {
     "cat": "Canais",
-    "title": "BÃ©lgica x ItÃ¡lia",
+    "title": "twitter:card",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -111,7 +111,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Las Vegas Raiders x Seattle Seahawks",
+    "title": "twitter:title",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -121,7 +121,7 @@
   },
   {
     "cat": "Canais",
-    "title": "Dallas Cowboys x San Francisco 49ers",
+    "title": "twitter:description",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -131,153 +131,921 @@
   },
   {
     "cat": "Canais",
-    "title": "Boston Celtics x Dallas Mavericks",
+    "title": "AO VIVO Band Domingo no Cinema: Nunca é Tarde para Amar",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/band.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/band.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/index.m3u8",
+      "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8",
+      "http://138.204.86.4:8080/BAND_HD/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Toronto Raptors x New York Knicks",
+    "title": "AO VIVO Band RJ Nunca É Tarde para Amar",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/QWLBdd4WrGuzaPo3ZzwvydpmIpY3TYAXVoE64mIrXjLb4oJnCCXDYNSZwgAE5briFW1TLOBh1DMNjHBoxZPjcKocmB5rUHhhuffB0Bl_4EVrKS5GItc8F1YCTfDs9tF1CMeLtOt2uLF7",
+    "bannerThumb": "https://iptv-epg.org/images/QWLBdd4WrGuzaPo3ZzwvydpmIpY3TYAXVoE64mIrXjLb4oJnCCXDYNSZwgAE5briFW1TLOBh1DMNjHBoxZPjcKocmB5rUHhhuffB0Bl_4EVrKS5GItc8F1YCTfDs9tF1CMeLtOt2uLF7",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Philadelphia Flyers x Edmonton Oilers",
+    "title": "AO VIVO Band SP Domingo no Cinema: Nunca é Tarde para Amar",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/band.png",
+    "bannerThumb": "https://img.faz-o-eli.online/band.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/bandsp/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Anaheim Ducks x Calgary Flames",
+    "title": "AO VIVO Canal Educacao Show da Simone",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/OOB7nrS.png",
+    "bannerThumb": "https://i.imgur.com/OOB7nrS.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://canaleducacao-stream.ebc.com.br/index.m3u8",
+      "http://45.162.64.114/CANAL_EDUCACAO/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Cincinnati Bengals x Pittsburgh Steelers",
+    "title": "AO VIVO Canal Futura Amazônia - Arqueologia Da Floresta",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/LgynEBC.png",
+    "bannerThumb": "https://i.imgur.com/LgynEBC.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.162.64.114/FUTURA/index.m3u8",
+      "http://170.83.16.50/FUTURA/index.m3u8",
+      "http://186.219.52.187/futura/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Vegas Golden Knights x Vancouver Canucks",
+    "title": "AO VIVO Canal Gov No Data",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://canalgov-stream.ebc.com.br/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "San Jose Sharks x Nashville Predators",
+    "title": "AO VIVO Canção Nova León de Perú",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/Hhnc-SvF6FnM_OeFCXTeXMixBL3FwKKDaaM8w-028kYGsxvURagmGTEmIgg1uO1VLdnknd1Cyc7mKzD0NtlSRFclZNpaA_HHE86CPWlBW6RK90XWaZAI",
+    "bannerThumb": "https://iptv-epg.org/images/Hhnc-SvF6FnM_OeFCXTeXMixBL3FwKKDaaM8w-028kYGsxvURagmGTEmIgg1uO1VLdnknd1Cyc7mKzD0NtlSRFclZNpaA_HHE86CPWlBW6RK90XWaZAI",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cancaonova/index.m3u8",
+      "http://45.162.64.114/CANCAO_NOVA/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "O Saimo TV Ã© grÃ¡tis?",
+    "title": "AO VIVO CNT IURD - Corrente dos 70",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/UUfP0W5zh9TkZHUY_pCCq1aDgnAeg6VcGBFkfOsuRpKVSg4AZ_1F62VmVqje1nWJCdpmz89oRuuMd9G8IX9drdmSwpYXkrZvfFkJU9fVSfmhLRXFnbKdJNYEJ9aGVow",
+    "bannerThumb": "https://iptv-epg.org/images/UUfP0W5zh9TkZHUY_pCCq1aDgnAeg6VcGBFkfOsuRpKVSg4AZ_1F62VmVqje1nWJCdpmz89oRuuMd9G8IX9drdmSwpYXkrZvfFkJU9fVSfmhLRXFnbKdJNYEJ9aGVow",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.162.64.114/CNT/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir o Saimo TV na Smart TV?",
+    "title": "AO VIVO A Fazenda 18 1 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/afazenda2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/afazenda2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Onde vejo os jogos de hoje?",
+    "title": "AO VIVO A Fazenda 18 2 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/afazenda2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/afazenda2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "O Saimo TV nÃ£o estÃ¡ funcionando, o que fazer?",
+    "title": "AO VIVO A Fazenda 18 3 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/afazenda2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/afazenda2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Filmes",
+    "title": "AO VIVO A Fazenda 18 4 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/afazenda2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/afazenda2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "SÃ©ries",
+    "title": "AO VIVO A Fazenda 18 5 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/afazenda2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/afazenda2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Doramas",
+    "title": "AO VIVO Amazon Prime Video 01 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/primevideo.png",
+    "bannerThumb": "https://img.faz-o-eli.online/primevideo.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/amazonprimevideo/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Animes",
+    "title": "AO VIVO Amazon Prime Video 02 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/primevideo.png",
+    "bannerThumb": "https://img.faz-o-eli.online/primevideo.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/amazonprimevideo02/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Apple TV 01 Esportes",
+    "desc": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/appletv1.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/appletv1.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv01/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/appletv1.png",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO AMC Velozes &amp; Furiosos 9 - A Saga Velozes &amp; Furiosos",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/uWxK4r5MnVVY0Ya34frK00bdtrnPOiION43YMgo2Sk2wBn4byIuqsCokJ3s7qBbl2_pvWv6R7AcgwtIYT_O_ONt7vvB_zWDkc8UmuKr9f_Dnsp42X5vyxvTZ88mmOV4HUk69HcKOa3BSaux_onG91Q0jhB1fcZKIeqA",
+    "bannerThumb": "https://iptv-epg.org/images/uWxK4r5MnVVY0Ya34frK00bdtrnPOiION43YMgo2Sk2wBn4byIuqsCokJ3s7qBbl2_pvWv6R7AcgwtIYT_O_ONt7vvB_zWDkc8UmuKr9f_Dnsp42X5vyxvTZ88mmOV4HUk69HcKOa3BSaux_onG91Q0jhB1fcZKIeqA",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/amc/index.m3u8",
+      "http://45.185.11.126:8000/play/a06s/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO AMC Séries Filmes e Séries",
+    "desc": "",
+    "thumb": "https://vipcanais.net/images/amcseries.png",
+    "bannerThumb": "https://vipcanais.net/images/amcseries.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/amcseries/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO AXN Criminal Minds : Ex Parte",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/axn.png",
+    "bannerThumb": "https://img.faz-o-eli.online/axn.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/axn/index.m3u8",
+      "http://138.204.86.4:8080/AXN_HD/index.m3u8",
+      "http://170.83.49.66:8083/AXNHD/index.m3u8",
+      "http://170.83.16.50/AXN/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Cinemax Morando com o Medo",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/quwbBKRvz8Wlb3X9Kz7FfHg23W9UmAHCDK_s6owzLcrBomV57VpDJaHyaIM9SEHKbAKNbTAAx0lpdU_sPdRBDSn-cZU3OO5PFJFDUCfjwsTQR5iUYRHwFVlWMH3Yx7gRTmw",
+    "bannerThumb": "https://iptv-epg.org/images/quwbBKRvz8Wlb3X9Kz7FfHg23W9UmAHCDK_s6owzLcrBomV57VpDJaHyaIM9SEHKbAKNbTAAx0lpdU_sPdRBDSn-cZU3OO5PFJFDUCfjwsTQR5iUYRHwFVlWMH3Yx7gRTmw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cinemax/index.m3u8",
+      "http://138.204.86.4:8080/CINEMAX/index.m3u8",
+      "http://45.185.11.126:8000/play/a081/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Classique Faroeste Filmes e Séries",
+    "desc": "",
+    "thumb": "https://i.imgur.com/c6uFj7A.png",
+    "bannerThumb": "https://i.imgur.com/c6uFj7A.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Disney Plus 1 Filmes e Séries",
+    "desc": "",
+    "thumb": "https://vipcanais.net/images/disneyplus.png",
+    "bannerThumb": "https://vipcanais.net/images/disneyplus.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globoplay Novelas Belíssima",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globonovelas.prev.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globonovelas.prev.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globoplaynovelas/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO HBO Barbie",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/0_quv-8HsIa6puqQMGV6RDyxNNGQCiZnlPPoKTLzWtEsYa6EpqSof9ZQlPpiVt5pLqeJwDWOAydts3ZmoWqaQ39pXReheiFaIxQKl5-LsY19fiYSNhk",
+    "bannerThumb": "https://iptv-epg.org/images/0_quv-8HsIa6puqQMGV6RDyxNNGQCiZnlPPoKTLzWtEsYa6EpqSof9ZQlPpiVt5pLqeJwDWOAydts3ZmoWqaQ39pXReheiFaIxQKl5-LsY19fiYSNhk",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbo/index.m3u8",
+      "http://138.204.86.4:8080/HBO/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Band News Tarde BandNews",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/0T21-vFrBTukSgGWISMGwfwlnaOSe3NZptik5dkDvfE0PMKlf5vDSImJg_Qn8uIVrYw3atjDA1sI9KN6AxJIelyWNj4qyVyG1yG3dYp04a9YxH__0OtPrNfl5w",
+    "bannerThumb": "https://iptv-epg.org/images/0T21-vFrBTukSgGWISMGwfwlnaOSe3NZptik5dkDvfE0PMKlf5vDSImJg_Qn8uIVrYw3atjDA1sI9KN6AxJIelyWNj4qyVyG1yG3dYp04a9YxH__0OtPrNfl5w",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/bandnews/index.m3u8",
+      "http://45.162.64.114/BAND_NEWS/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Canal UOL UOL News Especial",
+    "desc": "",
+    "thumb": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
+    "bannerThumb": "https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://video24.mais.uol.com.br/live/6146.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO CNN Brasil CNN Sinais Vitais",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/cnnbrasil.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cnnbrasil.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cnnbrasil/index.m3u8",
+      "https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8",
+      "http://45.162.64.114/CNN_BRASIL/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO CNN Brasil Money Resenha do Dinheiro",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/4yH2rEOCk90YAA4Xn7QFpz-LM2sUT0-tDzzZ4yfsSHWJ0FgwUrOcb37624NwOy0yqj5vl6fclyQV87DFBssEWMgPQXGOrI0bfHOYNyRd3v50Yyru3BwZ9bNtjd5vCw",
+    "bannerThumb": "https://iptv-epg.org/images/4yH2rEOCk90YAA4Xn7QFpz-LM2sUT0-tDzzZ4yfsSHWJ0FgwUrOcb37624NwOy0yqj5vl6fclyQV87DFBssEWMgPQXGOrI0bfHOYNyRd3v50Yyru3BwZ9bNtjd5vCw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amg01391-amg01391c57-amgplt0026.playout.now3.amagi.tv/playlist/amg01391-amg01391c57-amgplt0026/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO GloboNews Jornal Das Dez",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/Rg07BmPsSgtK0_iZWOPqqnrhScvHsGM-7jlrqWWbnU4HprF6oRD-3-iZGrhL_fL-eCxsilwGMZ6B12QDg99ysg1B60q2Uq4mniqad27Pay1mTCNjaQ9KG_W7RA",
+    "bannerThumb": "https://iptv-epg.org/images/Rg07BmPsSgtK0_iZWOPqqnrhScvHsGM-7jlrqWWbnU4HprF6oRD-3-iZGrhL_fL-eCxsilwGMZ6B12QDg99ysg1B60q2Uq4mniqad27Pay1mTCNjaQ9KG_W7RA",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globonews/index.m3u8",
+      "http://45.185.11.126:8000/play/a08d/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Jovem Pan News Fast News - 2ª Edição",
+    "desc": "",
+    "thumb": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
+    "bannerThumb": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
+      "https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8",
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/jovempannews/index.m3u8",
+      "http://186.219.52.187/jp_news/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record News Doc Investigação",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/sTm0HsGYugKbN4O5aix7vTJFGY1b-LBLiJ-i739Wu81iMWANUDBkldhGbf873kJx3L5t9TPIA9HNuTT17c1Kk7eebjYONQTjLgYQ4ldvKjpTb5IB0YR3erZWQZmof2OG6KI",
+    "bannerThumb": "https://iptv-epg.org/images/sTm0HsGYugKbN4O5aix7vTJFGY1b-LBLiJ-i739Wu81iMWANUDBkldhGbf873kJx3L5t9TPIA9HNuTT17c1Kk7eebjYONQTjLgYQ4ldvKjpTb5IB0YR3erZWQZmof2OG6KI",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431",
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recordnews/index.m3u8",
+      "https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8",
+      "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
+      "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
+      "https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8",
+      "http://45.162.64.114/RECORD_NEWS/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO SBT News News Domingo",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/sbt-news.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://sbtnews.maissbt.com/index.m3u8",
+      "https://sbtnews.maissbt.com/3.m3u8",
+      "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Anime Channel TV Infantil",
+    "desc": "",
+    "thumb": "https://i.imgur.com/eHw2M6p.png",
+    "bannerThumb": "https://i.imgur.com/eHw2M6p.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Cartoon Network Apenas um Show : Beijo ou Fralda",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/cartoonnetwork.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cartoonnetwork.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cartoonnetwork/index.m3u8",
+      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Cartoonito Perninha em Obras : Dia Chuvoso",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/cartoonito.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cartoonito.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cartoonito/index.m3u8",
+      "http://45.185.11.126:8000/play/a0ae/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery Kids Super Wish : O Chão com Certeza Não É Lava",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoverykids.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoverykids.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoverykids/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_KIDS_HD/index.m3u8",
+      "http://45.185.11.126:8000/play/a0ad/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO DumDum Infantil",
+    "desc": "",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg",
+    "bannerThumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/ZOOMOO_KIDS/index.m3u8",
+      "http://45.185.11.126:8000/play/a078/index.m3u8",
+      "http://186.219.52.187/zoomoo/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Geekdot Infantil",
+    "desc": "",
+    "thumb": "https://i.imgur.com/jML1u4O.png",
+    "bannerThumb": "https://i.imgur.com/jML1u4O.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://stream.ichibansys.com:3764/hybrid/play.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Gloob Cine Gloob: Tarzan: A Evolução Da Lenda",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/gloob.png",
+    "bannerThumb": "https://img.faz-o-eli.online/gloob.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/gloob/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Gloobinho As Aventuras De Bob Zoom",
+    "desc": "",
+    "thumb": "https://logos.imperioapps.top/GLOBINHO.png",
+    "bannerThumb": "https://logos.imperioapps.top/GLOBINHO.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/gloobinho/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO A&amp;E Segredos Mortais - As Crianças Perdidas",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/9Y1LrCrN6jWX8PEOni_-iYTrV2ng_mOIx0fJmGYs1GBEtTAyORAs5WgQW4GzViZFaA99T3jBALEuGEJYWRcW_Ez_XYKXciLXDRuQstBJFuwyejJlu8-59UPWRVxNyNgUe4UyLCvySHYKMjp_e-bC4Q",
+    "bannerThumb": "https://iptv-epg.org/images/9Y1LrCrN6jWX8PEOni_-iYTrV2ng_mOIx0fJmGYs1GBEtTAyORAs5WgQW4GzViZFaA99T3jBALEuGEJYWRcW_Ez_XYKXciLXDRuQstBJFuwyejJlu8-59UPWRVxNyNgUe4UyLCvySHYKMjp_e-bC4Q",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/aee/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Animal Planet Extinto ou Não? : O Dodo do Norte",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/animalplanet.png",
+    "bannerThumb": "https://img.faz-o-eli.online/animalplanet.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/animalplanet/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Curta Com a Palavra, Arnaldo Antunes",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/curta.png",
+    "bannerThumb": "https://img.faz-o-eli.online/curta.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery Channel Largados e Pelados - Brasil : Partir para Não Desistir",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoverychannel.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoverychannel.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoverychannel/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery Home &amp; Health Irmãos à Obra - Compra e Venda : Aubrey e Jonathan",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoveryhh.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoveryhh.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoveryhh/index.m3u8",
+      "http://45.162.64.114/DISCOVERY_H_H/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery ID People Magazine: A Promessa da Cura",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/9ptWrlCemZij1ifS_txGaJQhr-d-O1hP_eA5VYBc2HcjQu--9VHDqZ6ea5iM3CZ9mawWYYNyfb5DJtOihbptvSzL8rTjVwYa9Pbtb-PC0jquCSSyCmMJTV7nfpCeN0OFbMJcp9ZMa1hYQUqvyw",
+    "bannerThumb": "https://iptv-epg.org/images/9ptWrlCemZij1ifS_txGaJQhr-d-O1hP_eA5VYBc2HcjQu--9VHDqZ6ea5iM3CZ9mawWYYNyfb5DJtOihbptvSzL8rTjVwYa9Pbtb-PC0jquCSSyCmMJTV7nfpCeN0OFbMJcp9ZMa1hYQUqvyw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoveryid/index.m3u8",
+      "http://138.204.86.4:8080/ID_HD/index.m3u8",
+      "http://45.162.64.114/DISCOVERY_ID/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery Science Destiladores : Ajuda no Transporte",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoveryscience.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoveryscience.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoveryscience/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery Theater Polônia - A Última Fronteira",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/gPYRQ93_hKOmj2xtH4UKUgBk8TDkqYnMv6q_NfJRONiWlYT4_dIRx_6UBNy_oCvNUbQOrUr4xNrBjsFTTVN0ApOcljbarTL7aA5YL5AixpGWtiiRTBTtR8lxeMg_GxhPqZ7B68OwMX7A1CyqGEOt6XHTGmGwxA",
+    "bannerThumb": "https://iptv-epg.org/images/gPYRQ93_hKOmj2xtH4UKUgBk8TDkqYnMv6q_NfJRONiWlYT4_dIRx_6UBNy_oCvNUbQOrUr4xNrBjsFTTVN0ApOcljbarTL7aA5YL5AixpGWtiiRTBTtR8lxeMg_GxhPqZ7B68OwMX7A1CyqGEOt6XHTGmGwxA",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoverytheater/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_THEATER_HD/index.m3u8",
+      "http://45.185.11.126:8000/play/a085/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Adult Swim Genndy Tartakovsky&#x27;s Primal : A Névoa Vermelha",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/adultswim.png",
+    "bannerThumb": "https://img.faz-o-eli.online/adultswim.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/adultswim/index.m3u8",
+      "http://45.185.11.126:8000/play/a06m/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Agro Mais 2° Leilão Virtual Jumasa e Convidados : 8ª Etapa",
+    "desc": "",
+    "thumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/agro-mais-br.png",
+    "bannerThumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/agro-mais-br.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/AGROMAIS/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Arte 1 Acima das Nuvens",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/Mp4Frq371J4vHz2RPyGjSOodn_1OMo4Mr4DF6TyZiio1M2qD3FgIG06ciiq8nfTk_rt2dSm7da0GHQghhMiPvb_W6pOm-gSFWb0QXwemA6CgaV3w9qXPpS0zHDsA1zQjI-8",
+    "bannerThumb": "https://iptv-epg.org/images/Mp4Frq371J4vHz2RPyGjSOodn_1OMo4Mr4DF6TyZiio1M2qD3FgIG06ciiq8nfTk_rt2dSm7da0GHQghhMiPvb_W6pOm-gSFWb0QXwemA6CgaV3w9qXPpS0zHDsA1zQjI-8",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/ARTE1/index.m3u8",
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO BIS Judas Priest: Epitaph",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/zDhlwXzKsAgxZQdIZW-NDPe3jTatPZzG3MuXa3PcF-Mk2-vGFoWqZ0tRYPVTRn1_aT6XTYLJb8oNR2LZv8-SaT1XMgY960Zi7uo7TC6FJdPv5ezweDdZCvbZ_EvdhqI",
+    "bannerThumb": "https://iptv-epg.org/images/zDhlwXzKsAgxZQdIZW-NDPe3jTatPZzG3MuXa3PcF-Mk2-vGFoWqZ0tRYPVTRn1_aT6XTYLJb8oNR2LZv8-SaT1XMgY960Zi7uo7TC6FJdPv5ezweDdZCvbZ_EvdhqI",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.185.11.126:8000/play/a07w/index.m3u8",
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Blits TV Entretenimento",
+    "desc": "",
+    "thumb": "https://i.imgur.com/FO4QTRf.jpeg",
+    "bannerThumb": "https://i.imgur.com/FO4QTRf.jpeg",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Canal Agro 2° Leilão Virtual Jumasa e Convidados : 8ª Etapa",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/agromais.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/agromais.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8",
+      "http://45.162.64.114/AGRO_CANAL/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Canal do Boi No Data",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/CANAL_DO_BOI/index.m3u8",
+      "http://170.83.16.50/CANAL_DO_BOI/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Canal Rural Leilão",
+    "desc": "",
+    "thumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-rural-br.png",
+    "bannerThumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-rural-br.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://170.83.49.66:8083/CANALRURALHD/index.m3u8",
+      "http://186.219.52.187/canal_rural/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Chaves 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Dragon Ball Z 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Friends 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Naruto Clássico 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8",
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Os Simpsons 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Os Smurfs 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d144py1prrd7ns.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-affg2ev32s0dq/smrfe.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Pica Pau 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO 24H Todo Mundo Odeia o Cris 24 Horas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/24h.png",
+    "bannerThumb": "https://img.faz-o-eli.online/24h.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Now Rock Músicas",
+    "desc": "",
+    "thumb": "https://i.imgur.com/GuM4GnX.png",
+    "bannerThumb": "https://i.imgur.com/GuM4GnX.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://lightning-now90s-rakuten.amagi.tv/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Retro Music Músicas",
+    "desc": "",
+    "thumb": "https://i.imgur.com/pyOjdZs.png",
+    "bannerThumb": "https://i.imgur.com/pyOjdZs.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://newstream.mediawork.cz/retrotv/smil:retrotv_new.smil/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Top TV Músicas",
+    "desc": "",
+    "thumb": "https://i.imgur.com/aKbHjFO.png",
+    "bannerThumb": "https://i.imgur.com/aKbHjFO.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://isaocorp.cloudecast.com/toptv/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Trace Urban Músicas",
+    "desc": "",
+    "thumb": "https://i.imgur.com/DLIbUMx.png",
+    "bannerThumb": "https://i.imgur.com/DLIbUMx.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amg01076-lightningintern-traceurban-xiaomi-m78n3.amagi.tv/playlist/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
@@ -291,6 +1059,530 @@
   },
   {
     "cat": "Canais",
+    "title": "AO VIVO Cultura Fast Santos Dumont",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/yAnJV65DzOIE83FhgRofP_d5cFfPr28x4DZq2yxvoPHkaKus8B_X9xE7RdLki2F5C_boGCikZYwjYobQmkwCUZo8dNxEc41herxy1ZfAhqsOxAWBjADFdw",
+    "bannerThumb": "https://iptv-epg.org/images/yAnJV65DzOIE83FhgRofP_d5cFfPr28x4DZq2yxvoPHkaKus8B_X9xE7RdLki2F5C_boGCikZYwjYobQmkwCUZo8dNxEc41herxy1ZfAhqsOxAWBjADFdw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/globo.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/globo.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://138.204.86.4:8080/GLOBO_HD/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo AM Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo CE Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo DF Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globodf/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo ES Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globoes/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo GO Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo MG Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globomg/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo PB Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo PE Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo RJ Final, Jogo de Volta: Internacional x Flamengo - Copa do Brasil Feminina de Futebol : Final, Jogo de Volta: Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globorj.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globorj.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globorj/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo RS Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globors/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo SP Internacional x Flamengo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globosp.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globosp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globosp/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record Acerte ou Caia",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "bannerThumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://138.204.86.4:8080/RECORD/index.m3u8",
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record GO Acerte ou Caia",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "bannerThumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record MG Acerte ou Caia",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "bannerThumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recordmg/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record RJ Acerte ou Caia",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "bannerThumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recordrj/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record SP Acerte ou Caia",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "bannerThumb": "https://iptv-epg.org/images/aTmq6lPDuwwGtjV86LGkj7HAIi_EbwwBjp7tUbkO5YO12U0VvaCtOzwdg9L1Nmv-9uFlDgtA1O_xaO3NUBSF4SOy3SqUAIW6nNMi1vnSfx7-bigUKI6Sy98",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recordsp/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Rede Brasil Justiça em Dobro",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/9pL1DGPS3eUsCf1rV-mbeiIDUYrTk1X7_3ISl6yqUkHAEQW_czq4yM1wutM35wSQuInF4-dmv-d64M1LOeBsXUhnaUvHCxD9cIfn9QdVc3JPN0s0TqLLiziU8vh5",
+    "bannerThumb": "https://iptv-epg.org/images/9pL1DGPS3eUsCf1rV-mbeiIDUYrTk1X7_3ISl6yqUkHAEQW_czq4yM1wutM35wSQuInF4-dmv-d64M1LOeBsXUhnaUvHCxD9cIfn9QdVc3JPN0s0TqLLiziU8vh5",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
+      "https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Rede TV! Show de Prêmios Hadassa",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "bannerThumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
+      "http://45.162.64.114/REDE_TV/index.m3u8",
+      "http://170.83.16.50/REDE_TV/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Rede Vida Viva a Vida",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/redevida.png",
+    "bannerThumb": "https://img.faz-o-eli.online/redevida.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/redevida/index.m3u8",
+      "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8",
+      "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8",
+      "http://186.219.52.187/rede_vida/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO RedeTV! Show de Prêmios Hadassa",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "bannerThumb": "https://iptv-epg.org/images/67GYo9uZcXrgAypXQoPnSz27419Dp_8LupSoRN0UG_-MaPs3Wc1a6KLnnBBMDNmPo4DZQsPk97UiiGekDFhhFTNliYJJKKNjDaUOWB3KOlqrHSR2G4vdIxY1zU2oPd9k26k",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/redetv/index.m3u8",
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
+      "http://45.162.64.114/REDE_TV/index.m3u8",
+      "http://170.83.16.50/REDE_TV/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO SBT Domingo Legal",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "bannerThumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://aovivo.maissbt.com/indexMobile.m3u8",
+      "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
+      "http://138.204.86.4:8080/SBT_HD/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO SBT RJ Domingo Legal",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "bannerThumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO SBT SP Domingo Legal",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "bannerThumb": "https://iptv-epg.org/images/8Ng5ZIBbkZIpUWpldQWlARW4Lddbf7WmNJKc_14hvgZzIu0w_UHPDtxfA8Cu4QZWPOYjtj8Nfao5o3BPJF3-xK3FpV-o7XeiYvBo7ka7EBzeRlPvB_5_DvI-",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sbtsp/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV A Crítica Magazine",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/mQ7JbCurBWtvtrPSnFaNMxdtK2-PQOWQtiqjuwAlVu3hYU7r9mFh_9xfFBdV75sBbUTxkRfZhx_LRsmc4kR8ZGqvh2BRfK6kRde_GOLlmAQiaZw",
+    "bannerThumb": "https://iptv-epg.org/images/mQ7JbCurBWtvtrPSnFaNMxdtK2-PQOWQtiqjuwAlVu3hYU7r9mFh_9xfFBdV75sBbUTxkRfZhx_LRsmc4kR8ZGqvh2BRfK6kRde_GOLlmAQiaZw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://video01.brascast.com/bdctv/bdctv/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Aparecida Santuário Nossa Senhora do Rocio : Santa Missa",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tvaparecida/index.m3u8",
+      "http://45.162.64.114/TV_APARECIDA/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Brasil Pajeú",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/9Q163bgWJFnX17HzOGyZVUbcVlqgemH3X_W9z0_kfApsVCIOyxyBApngnV-hm6y3ATLwbClbMLt77qOhgpbVcXpjpBf487wVXuqtgWcFvrlqFyRFrA",
+    "bannerThumb": "https://iptv-epg.org/images/9Q163bgWJFnX17HzOGyZVUbcVlqgemH3X_W9z0_kfApsVCIOyxyBApngnV-hm6y3ATLwbClbMLt77qOhgpbVcXpjpBf487wVXuqtgWcFvrlqFyRFrA",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+      "http://45.162.64.114/TV_BRASIL/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Câmara Ponto de Vista",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/46gazP8Gqdjpt1ZErTV-LazVuznMl5jEqRt31UuXqHlB3oIFPZ4F8T-cP55OQ5k9QNr-pI2_yt_9Ps2iTX_i83iu5ENdrOHL3JtzfaiUjQzm3q22smO4Rv8tiWIzyw",
+    "bannerThumb": "https://iptv-epg.org/images/46gazP8Gqdjpt1ZErTV-LazVuznMl5jEqRt31UuXqHlB3oIFPZ4F8T-cP55OQ5k9QNr-pI2_yt_9Ps2iTX_i83iu5ENdrOHL3JtzfaiUjQzm3q22smO4Rv8tiWIzyw",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+      "http://45.162.64.114/TV_CAMARA/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Cultura Santos Dumont : O Voo da Libélula",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/cultura.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cultura.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tvcultura/index.m3u8",
+      "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+      "https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Gazeta O Melhor do Mulheres",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://video08.logicahost.com.br/tvc21/tvc21/chunklist_w930922724.m3u8",
+      "http://45.162.64.114/GAZETA/index.m3u8",
+      "http://45.162.64.114/TV_GAZETA/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Justiça 6º Prêmio CNJ Juíza Viviane Vieira do Amaral - De Proteção às Mulheres Vítimas de Violência Doméstica e Familiar",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/7XMV16yEB8P-KnMIiRjo7iOxcL7Kg_Xy67JMV3ucYjVSOl-_0EoOMPtoUm2F6cjU9x5v0qCOgfHe9PQfzVLypnJ-CcTJDv__quBS2j1aK0B5KFReBLDpDO8h3k2lqHmZUAVdj0Y9QLE3WCgkTemZHRctjhsN-2bP2_bPVyhREkfP00BU0gJXj79c8sfzEz1zEEydSCQx3V6GIKzoJU2zkZ87peHorICvIWZPpCpVOK09LyUv66U0XA",
+    "bannerThumb": "https://iptv-epg.org/images/7XMV16yEB8P-KnMIiRjo7iOxcL7Kg_Xy67JMV3ucYjVSOl-_0EoOMPtoUm2F6cjU9x5v0qCOgfHe9PQfzVLypnJ-CcTJDv__quBS2j1aK0B5KFReBLDpDO8h3k2lqHmZUAVdj0Y9QLE3WCgkTemZHRctjhsN-2bP2_bPVyhREkfP00BU0gJXj79c8sfzEz1zEEydSCQx3V6GIKzoJU2zkZ87peHorICvIWZPpCpVOK09LyUv66U0XA",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/TV_JUSTICA/index.m3u8",
+      "http://170.83.16.50/TV_JUSTICA/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Senado Habitar/Habitat",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/hrI6xmFXrOfF4LagBHna6v-KpLYHkcE-gNl-XOpRbGnpr3uxO8DjP48qS3IJDsI1eBmBz7_A6bxnRdGZc4haBommST3kqBNcUuRSrTrKuIZP_CA2sR4SYKZy",
+    "bannerThumb": "https://iptv-epg.org/images/hrI6xmFXrOfF4LagBHna6v-KpLYHkcE-gNl-XOpRbGnpr3uxO8DjP48qS3IJDsI1eBmBz7_A6bxnRdGZc4haBommST3kqBNcUuRSrTrKuIZP_CA2sR4SYKZy",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/TV_SENADO/index.m3u8",
+      "http://170.83.16.50/TV_SENADO/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Globo Bahia TV Aberta",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/globo.png",
+    "bannerThumb": "https://img.faz-o-eli.online/globo.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO PlayTV TV Aberta",
+    "desc": "",
+    "thumb": "https://i.imgur.com/Ikrj3lk.png",
+    "bannerThumb": "https://i.imgur.com/Ikrj3lk.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://isaocorp.cloudecast.com/playtv/index.m3u8",
+      "http://45.162.64.114/PLAY_TV/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record DF TV Aberta",
+    "desc": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/record.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/record.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recorddf/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/record.png",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Record ES TV Aberta",
+    "desc": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/record.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/record.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recordes/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/record.png",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO SESC TV TV Aberta",
+    "desc": "",
+    "thumb": "https://i.imgur.com/Mu8O6CV.png",
+    "bannerThumb": "https://i.imgur.com/Mu8O6CV.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://45.162.64.114/SESC_TV/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TVE Bahia TV Aberta",
+    "desc": "",
+    "thumb": "http://i.imgur.com/IWGyp65.jpeg",
+    "bannerThumb": "http://i.imgur.com/IWGyp65.jpeg",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
     "title": "Esportes",
     "desc": "",
     "thumb": "",
@@ -301,1327 +1593,975 @@
   },
   {
     "cat": "Canais",
-    "title": "Filmes e SÃ©ries",
+    "title": "AO VIVO BAND SPORTS HD Catarinense de Vôlei Masculino",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Infantil",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "NotÃ­cias",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "DocumentÃ¡rios",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Entretenimento",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "24 Horas",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "MÃºsicas",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Band ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Band hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band RJ",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Band RJ ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band RJ nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Band RJ hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band SP",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Band SP ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band SP nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Band SP hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Educacao",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Canal Educacao ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Educacao nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Canal Educacao hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Futura",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Canal Futura ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Futura nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Canal Futura hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Gov",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Canal Gov ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal Gov nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Canal Gov hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Now Rock",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Now Rock ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Now Rock nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Now Rock hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Top TV",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Top TV ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Top TV nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Top TV hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Trace Urban",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Trace Urban ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Trace Urban nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Trace Urban hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Retro Music",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Retro Music ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Retro Music nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Retro Music hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "AO VIVO",
-    "desc": "",
-    "thumb": "https://iptv-epg.org/images/-ASHHChtxR1Qtq1VBfFvJ1GhyQ5KEdm-VMmSQ8fU2v6yKgXOz6MKUtwfEtcY-YNiqKE-b1Fuwd72GL80-iH1lzlCeHmF0ka1QD2p9Xrr3-iChP0MKqF9zS8OG99VTIFDlcf-7eJ-",
-    "bannerThumb": "https://iptv-epg.org/images/-ASHHChtxR1Qtq1VBfFvJ1GhyQ5KEdm-VMmSQ8fU2v6yKgXOz6MKUtwfEtcY-YNiqKE-b1Fuwd72GL80-iH1lzlCeHmF0ka1QD2p9Xrr3-iChP0MKqF9zS8OG99VTIFDlcf-7eJ-",
+    "thumb": "https://img.faz-o-eli.online/bandsports.png",
+    "bannerThumb": "https://img.faz-o-eli.online/bandsports.png",
     "year": "",
     "genre": "Canais",
     "fontes": [
-      "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/index.m3u8",
-      "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8",
-      "http://138.204.86.4:8080/BAND_HD/index.m3u8"
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/bandsports/index.m3u8",
+      "http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8",
+      "http://45.162.64.114/BAND_SPORTS/index.m3u8",
+      "http://170.83.16.50/BAND_SPORTS/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
     ]
   },
   {
     "cat": "Canais",
-    "title": "BAND SPORTS HD",
+    "title": "AO VIVO Canal OFF Guató: Uma Remada No Tempo",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/off.png",
+    "bannerThumb": "https://img.faz-o-eli.online/off.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/canaloff/index.m3u8",
+      "http://45.185.11.126:8000/play/a07t/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir BAND SPORTS HD ao vivo?",
+    "title": "AO VIVO Combate Acesso Total - Ippon - Ep. 4",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/combate.png",
+    "bannerThumb": "https://img.faz-o-eli.online/combate.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/combate/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "BAND SPORTS HD nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO ESPN Sportscenter Abre o Jogo",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/dm37-qhKit0YhAKPyFkfG3l6RPEayYS7oMBpTGPW-JVCBNqLXvbQKcehkSa7IEiHkaaTqN_ZLVGRZZtfFVo14C9DHJCgD0LTb5_Z-B55nnCpB0NdmRyfPjBVNFNcWKK_-8Dib-ut0f6h68FMli7f",
+    "bannerThumb": "https://iptv-epg.org/images/dm37-qhKit0YhAKPyFkfG3l6RPEayYS7oMBpTGPW-JVCBNqLXvbQKcehkSa7IEiHkaaTqN_ZLVGRZZtfFVo14C9DHJCgD0LTb5_Z-B55nnCpB0NdmRyfPjBVNFNcWKK_-8Dib-ut0f6h68FMli7f",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn/index.m3u8",
+      "http://138.204.86.4:8080/ESPN_HD/index.m3u8",
+      "http://181.78.197.59:8000/play/a07z/index.m3u8",
+      "http://45.162.64.114/ESPN_BRASIL/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do BAND SPORTS HD hoje?",
+    "title": "AO VIVO ESPN 2 NFL: Kansas City Chiefs x Atlanta Falcons",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/espn2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/espn2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn2/index.m3u8",
+      "http://138.204.86.4:8080/ESPN2_HD/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Canal OFF",
+    "title": "AO VIVO ESPN 3 In the Arena: Serena Williams",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/mDraTI-nqOwUPUISZAsDQnOW1CjEvYq-iG1QH0rG3bIdWq1U-fhdbvStY_DVyuJwEDTSTjaLHvTWuAXSl3wNLiljxbPXWTRA7DbZzKJiYaGRNegc5g0XCiKT31faB4sivVih_buH2fwGmD9k0M4",
+    "bannerThumb": "https://iptv-epg.org/images/mDraTI-nqOwUPUISZAsDQnOW1CjEvYq-iG1QH0rG3bIdWq1U-fhdbvStY_DVyuJwEDTSTjaLHvTWuAXSl3wNLiljxbPXWTRA7DbZzKJiYaGRNegc5g0XCiKT31faB4sivVih_buH2fwGmD9k0M4",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn3/index.m3u8",
+      "http://138.204.86.4:8080/ESPN3_HD/index.m3u8",
+      "http://181.78.197.59:8000/play/a081/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Canal OFF ao vivo?",
+    "title": "AO VIVO ESPN 4 NFL Redzone",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/espn4.png",
+    "bannerThumb": "https://img.faz-o-eli.online/espn4.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn4/index.m3u8",
+      "http://138.204.86.4:8080/ESPN4_HD/index.m3u8",
+      "http://181.78.197.59:8000/play/a07n/index.m3u8",
+      "http://45.185.11.126:8000/play/a05m/index.m3u8",
+      "http://45.162.64.114/ESPN_4/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Canal OFF nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO ESPN 5 VT - NBA: Detroit Pistons x Miami Heat",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/espn5.png",
+    "bannerThumb": "https://img.faz-o-eli.online/espn5.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn5/index.m3u8",
+      "http://45.185.11.126:8000/play/a05n/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Canal OFF hoje?",
+    "title": "AO VIVO ESPN 6 UEFA Nations League Match Night Highlights",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/espn6.png",
+    "bannerThumb": "https://img.faz-o-eli.online/espn6.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn6/index.m3u8",
+      "http://45.185.11.126:8000/play/a084/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Combate",
+    "title": "AO VIVO FIFA+ Português Suíça x Nigéria - Final - Copa do Mundo Sub-17 da FIFA Nigéria 2009™ - Jogo completo",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Combate ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Combate nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Combate hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir ESPN ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do ESPN hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN 2",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir ESPN 2 ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN 2 nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do ESPN 2 hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN 3",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir ESPN 3 ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "ESPN 3 nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/fifa-plus.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/fifa-plus.png",
+    "year": "2009",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://c2657533.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8",
+      "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do ESPN 3 hoje?",
+    "title": "AO VIVO Fish TV TV Shopping Brasil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.162.64.114/FISH_TV/index.m3u8",
+      "http://170.83.16.50/FISH_TV/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "ESPN 4",
+    "title": "AO VIVO GE TV VT - Sérvia x Alemanha",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist1080p.m3u8",
+      "https://proxylinkurl.wored85282.workers.dev/https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
+      "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/getv/index.m3u8",
+      "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
+      "http://45.185.11.126:8000/play/a08v/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir ESPN 4 ao vivo?",
+    "title": "AO VIVO N SPORTS Futebol Feminino Copa do Brasil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/nsports/index.m3u8",
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=16337",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "ESPN 4 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Premiere 2 Com o PREMIERE dá jogo!",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere2/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do ESPN 4 hoje?",
+    "title": "AO VIVO Premiere 3 Com o PREMIERE dá jogo!",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere3/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "ESPN 5",
+    "title": "AO VIVO Premiere 4 NFL: Minnesota Vikings x Green Bay Packers",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere4/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir ESPN 5 ao vivo?",
+    "title": "AO VIVO Premiere 5 Com o PREMIERE dá jogo!",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere5/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "ESPN 5 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Premiere 6 Com o PREMIERE dá jogo!",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere6/index.m3u8",
+      "http://45.185.11.126:8000/play/a05j/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do ESPN 5 hoje?",
+    "title": "AO VIVO Premiere 7 Com o PREMIERE dá jogo!",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere7/index.m3u8",
+      "http://45.185.11.126:8000/play/a05k/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 5",
+    "title": "AO VIVO Premiere 8 Premiere 8",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/37VDEe4Blpki0SlEltj9gd8zNb0tvS31HLuSvFaFYtD508mcYRNGHZLm01hziAchazKfrCzO-M_fYmuLSTiJwX0PNFMLXrL-K7HdYelVCtiY03eN9bYeRXMzrZTA",
+    "bannerThumb": "https://iptv-epg.org/images/37VDEe4Blpki0SlEltj9gd8zNb0tvS31HLuSvFaFYtD508mcYRNGHZLm01hziAchazKfrCzO-M_fYmuLSTiJwX0PNFMLXrL-K7HdYelVCtiY03eN9bYeRXMzrZTA",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiere8/index.m3u8",
+      "http://45.185.11.126:8000/play/a05l/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir PT - Sporttv 5 ao vivo?",
+    "title": "AO VIVO Premiere Clubes Giro Da Rodada - Brasileirão - 34ª Rodada",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/premiere.png",
+    "bannerThumb": "https://img.faz-o-eli.online/premiere.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiereclubes/index.m3u8",
+      "http://45.185.11.126:8000/play/a06g/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 5 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO PT - Eleven 3 Keeping Up With the Kardashians",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/PvSQLm7_AR-3d9qcuilbTc0ZGoRVCI68kWNcilmmmhbozbZ300M41YdxzvM-jxohGEHFHTAiJ7CMao7OdjA79ALhEcGL7JPyI3GbdvDJM2-SMRZaXNRZ5hwTfH0Um2E3X4djxhdIQy_slVRXlDHJyd0",
+    "bannerThumb": "https://iptv-epg.org/images/PvSQLm7_AR-3d9qcuilbTc0ZGoRVCI68kWNcilmmmhbozbZ300M41YdxzvM-jxohGEHFHTAiJ7CMao7OdjA79ALhEcGL7JPyI3GbdvDJM2-SMRZaXNRZ5hwTfH0Um2E3X4djxhdIQy_slVRXlDHJyd0",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do PT - Sporttv 5 hoje?",
+    "title": "AO VIVO SporTV Aquecimento sportv",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/psqEwF5zkO_0itUddBp_K9sArJ1DXJJdvHk1lID0NwR0_NabgaYG1pR-PM7WKoGEa9EDOe7_sQJ6AEC3FqTLjsXGYh82qj-HYvnd9xROqF8x2OZJMAV5RuxVXlXBVSaY42MQxQ",
+    "bannerThumb": "https://iptv-epg.org/images/psqEwF5zkO_0itUddBp_K9sArJ1DXJJdvHk1lID0NwR0_NabgaYG1pR-PM7WKoGEa9EDOe7_sQJ6AEC3FqTLjsXGYh82qj-HYvnd9xROqF8x2OZJMAV5RuxVXlXBVSaY42MQxQ",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportv/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 6",
+    "title": "AO VIVO SporTV 2 Internacional x Flamengo",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportv2/index.m3u8",
+      "http://45.185.11.126:8000/play/a05f/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir PT - Sporttv 6 ao vivo?",
+    "title": "AO VIVO SporTV 3 Lendas - Romário",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv3.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv3.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportv3/index.m3u8",
+      "http://45.185.11.126:8000/play/a06v/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 6 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO SportyNet VT - Toluca x Monterrey",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportynet.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportynet.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportynet/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do PT - Sporttv 6 hoje?",
+    "title": "AO VIVO SportyNet+ 1 VT - Toluca x Monterrey",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportynet.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportynet.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportynet1/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 7",
+    "title": "AO VIVO SportyNet+ 2 VT - Toluca x Monterrey",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportynet.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportynet.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportynet2/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir PT - Sporttv 7 ao vivo?",
+    "title": "AO VIVO SportyNet+ 3 VT - Toluca x Monterrey",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportynet.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportynet.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sportynet3/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 7 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Woohoo Drop",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/DGi1Yoy7pU-g3ajk6O4iKWxgpzsrhNCdnZsMeaGuRYdWoGYCdZsueN_johkvO1Inio67uqflBJBBgHADOYlWEDvVyZtswy7IzfnGQaRfcQ",
+    "bannerThumb": "https://iptv-epg.org/images/DGi1Yoy7pU-g3ajk6O4iKWxgpzsrhNCdnZsMeaGuRYdWoGYCdZsueN_johkvO1Inio67uqflBJBBgHADOYlWEDvVyZtswy7IzfnGQaRfcQ",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.162.64.114/WOOHOO/index.m3u8",
+      "http://170.83.16.50/WOOHOO/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do PT - Sporttv 7 hoje?",
+    "title": "AO VIVO X Sports Internacional x Flamengo",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/xsports.png",
+    "bannerThumb": "https://img.faz-o-eli.online/xsports.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/xsports/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 4",
+    "title": "AO VIVO Apple TV 02 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/appletv1.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/appletv1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv02/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/appletv1.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir PT - Sporttv 4 ao vivo?",
+    "title": "AO VIVO Apple TV 03 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/appletv1.png",
+    "bannerThumb": "https://vipcanais.net/images/appletv1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv03/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PT - Sporttv 4 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Apple TV 04 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/appletv1.png",
+    "bannerThumb": "https://vipcanais.net/images/appletv1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv04/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do PT - Sporttv 4 hoje?",
+    "title": "AO VIVO Apple TV 05 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/appletv1.png",
+    "bannerThumb": "https://vipcanais.net/images/appletv1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv05/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "UFC Fight Pass",
+    "title": "AO VIVO Apple TV 06 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/appletv1.png",
+    "bannerThumb": "https://vipcanais.net/images/appletv1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/appletv06/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir UFC Fight Pass ao vivo?",
+    "title": "AO VIVO Canal GOAT (Jogo 1) Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
+    "bannerThumb": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/canalgoat/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "UFC Fight Pass nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO CazéTV Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
+    "bannerThumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do UFC Fight Pass hoje?",
+    "title": "AO VIVO CazeTV 1 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/cazetv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cazetv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8",
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cazetv/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "CanÃ§Ã£o Nova",
+    "title": "AO VIVO CazeTV 2 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/cazetv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cazetv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cazetv2/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir CanÃ§Ã£o Nova ao vivo?",
+    "title": "AO VIVO CazeTV 3 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/cazetv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/cazetv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cazetv3/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "CanÃ§Ã£o Nova nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO CazeTV 4 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/cazetv.png",
+    "bannerThumb": "https://vipcanais.net/images/cazetv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/cazetv4/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do CanÃ§Ã£o Nova hoje?",
+    "title": "AO VIVO DAZN (Jogo 1) Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://logos.appscms.xyz/logos/2025/dazn.png",
+    "bannerThumb": "http://logos.appscms.xyz/logos/2025/dazn.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/dazn/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "CNT",
+    "title": "AO VIVO Disney+ 01 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
+    "bannerThumb": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir CNT ao vivo?",
+    "title": "AO VIVO Disney+ 02 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
+    "bannerThumb": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus02/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "CNT nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Disney+ 03 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus03/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/disneyplus.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do CNT hoje?",
+    "title": "AO VIVO Disney+ 04 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus04/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/disneyplus.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Record DF",
+    "title": "AO VIVO Disney+ 05 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus05/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/disneyplus.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Record DF ao vivo?",
+    "title": "AO VIVO Disney+ 06 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus06/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/disneyplus.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Record DF nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Disney+ 07 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/disneyplus.png",
+    "bannerThumb": "https://vipcanais.net/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus07/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Record DF hoje?",
+    "title": "AO VIVO Disney+ 08 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/disneyplus.png",
+    "bannerThumb": "https://vipcanais.net/images/disneyplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/disneyplus08/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Globo Bahia",
+    "title": "AO VIVO Max Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/max.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/max.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Globo Bahia ao vivo?",
+    "title": "AO VIVO MAX 04 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/max.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max04/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/max.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Globo Bahia nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO MAX 05 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/max.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max05/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/max.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Globo Bahia hoje?",
+    "title": "AO VIVO Max 06 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://1.embedcanaisdetv.com/images/max.png",
+    "bannerThumb": "https://1.embedcanaisdetv.com/images/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max06/index.m3u8",
+      "https://1.embedcanaisdetv.com/images/max.png",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Record ES",
+    "title": "AO VIVO Paramount+ (Jogo 1) Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/paramountplus.png",
+    "bannerThumb": "https://img.faz-o-eli.online/paramountplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/paramountplus/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Record ES ao vivo?",
+    "title": "AO VIVO Paramount+ (Jogo 2) Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
+    "bannerThumb": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/paramountplus02/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Record ES nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Paramount+ (Jogo 3) Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
+    "bannerThumb": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/paramountplus03/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Record ES hoje?",
+    "title": "AO VIVO PT - A Bola Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/pt_abola.png",
+    "bannerThumb": "https://img.faz-o-eli.online/pt_abola.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PlayTV",
+    "title": "AO VIVO PT - Benfica TV Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
+    "bannerThumb": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir PlayTV ao vivo?",
+    "title": "AO VIVO PT - Canal 11 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/pt_canal11.prev.png",
+    "bannerThumb": "https://img.faz-o-eli.online/pt_canal11.prev.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "PlayTV nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO PT - Eleven 1 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
+    "bannerThumb": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do PlayTV hoje?",
+    "title": "AO VIVO PT - Eleven 2 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
+    "bannerThumb": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "SESC TV",
+    "title": "AO VIVO PT - Sporttv 1 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir SESC TV ao vivo?",
+    "title": "AO VIVO PT - Sporttv 2 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "SESC TV nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO PT - Sporttv 3 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do SESC TV hoje?",
+    "title": "AO VIVO PT - Sporttv 4 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "TVE Bahia",
+    "title": "AO VIVO PT - Sporttv 5 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir TVE Bahia ao vivo?",
+    "title": "AO VIVO PT - Sporttv 6 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "TVE Bahia nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO PT - Sporttv 7 Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/sportv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/sportv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do TVE Bahia hoje?",
+    "title": "AO VIVO UFC Fight Pass Esportes",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/ufcfightpass.png",
+    "bannerThumb": "https://img.faz-o-eli.online/ufcfightpass.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
@@ -1635,483 +2575,503 @@
   },
   {
     "cat": "Canais",
-    "title": "AXN",
+    "title": "AO VIVO HBO Family Os Smurfs e a Vila Perdida",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/9vAD3MCcvOZpU_YqgXM0wfaF5c7rQmJ7z5_j78wk1qfFYNJuKIGOopVi-gAabPDdCPokw8kCYyMN_qdn7ZWYJJkfpDJEGzP1BqeFCBVMGr0gs46VKN0teDZONCneeqfjsh1pIoRLsUFChQ",
+    "bannerThumb": "https://iptv-epg.org/images/9vAD3MCcvOZpU_YqgXM0wfaF5c7rQmJ7z5_j78wk1qfFYNJuKIGOopVi-gAabPDdCPokw8kCYyMN_qdn7ZWYJJkfpDJEGzP1BqeFCBVMGr0gs46VKN0teDZONCneeqfjsh1pIoRLsUFChQ",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbofamily/index.m3u8",
+      "http://138.204.86.4:8080/HBO_FAMILY/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir AXN ao vivo?",
+    "title": "AO VIVO HBO Mundi O Sussurro",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/1oJhiqUHCNfWsJCzTmxj1SkXf3lkJL_xLt0oMF7pDjBmiKTi5zjQ0phEHkIU_cPP469lqFLm3Gi7HQ2zzGLSDHW1SWfGBAkjoiTM1UV2IV8HYrmLmFlhGfMa",
+    "bannerThumb": "https://iptv-epg.org/images/1oJhiqUHCNfWsJCzTmxj1SkXf3lkJL_xLt0oMF7pDjBmiKTi5zjQ0phEHkIU_cPP469lqFLm3Gi7HQ2zzGLSDHW1SWfGBAkjoiTM1UV2IV8HYrmLmFlhGfMa",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbomundi/index.m3u8",
+      "http://138.204.86.4:8080/HBO_MUNDI_HD/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "AXN nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO HBO Plus Batman - O Cavaleiro das Trevas",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/Pl-7YtlscQ-KI5gll6ZQVafhK-OoByVn_F_jwDClOtIzXf8l8L2EJHjUqsiCQW0Q8bkXIn5VdBz70Q1pJooWzQ2Bdp-LI3UebifsX9g3GWvpJEntzb0cPF57FxRmvmQlJD-ZrsiIT-ql_S5y7OAH",
+    "bannerThumb": "https://iptv-epg.org/images/Pl-7YtlscQ-KI5gll6ZQVafhK-OoByVn_F_jwDClOtIzXf8l8L2EJHjUqsiCQW0Q8bkXIn5VdBz70Q1pJooWzQ2Bdp-LI3UebifsX9g3GWvpJEntzb0cPF57FxRmvmQlJD-ZrsiIT-ql_S5y7OAH",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hboplus/index.m3u8",
+      "http://138.204.86.4:8080/HBO_PLUS/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do AXN hoje?",
+    "title": "AO VIVO HBO Pop Família do Bagulho",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/fMs_0X2-YyM6L-spXyzlzgNXVE60rZNuZjDiVAWiU_ZkyazbRIW4GvA_xtguYhasc84F8q2vHp5pzWUYaiiY1EvVopscx0nIgvkMqhYLXKBdDKKw9i30JkCBfvQ_8JTcPuxHCg",
+    "bannerThumb": "https://iptv-epg.org/images/fMs_0X2-YyM6L-spXyzlzgNXVE60rZNuZjDiVAWiU_ZkyazbRIW4GvA_xtguYhasc84F8q2vHp5pzWUYaiiY1EvVopscx0nIgvkMqhYLXKBdDKKw9i30JkCBfvQ_8JTcPuxHCg",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbopop/index.m3u8",
+      "http://138.204.86.4:8080/HBO_POP_HD/index.m3u8",
+      "http://45.185.11.126:8000/play/a08s/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "AMC",
+    "title": "AO VIVO HBO Signature Twisted Metal : DOLF4C3",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbosignature/index.m3u8",
+      "http://138.204.86.4:8080/HBO_SIGNATURE/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir AMC ao vivo?",
+    "title": "AO VIVO HBO Xtreme O Senhor dos Anéis: O Retorno do Rei",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hboxtreme/index.m3u8",
+      "http://45.185.11.126:8000/play/a083/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "AMC nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO HBO2 Premonição 6 - Laços de Sangue",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/hbo2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/hbo2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/hbo2/index.m3u8",
+      "http://138.204.86.4:8080/HBO2/index.m3u8",
+      "http://45.185.11.126:8000/play/a08o/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do AMC hoje?",
+    "title": "AO VIVO Megapix Sobreviventes Megapix: A Fera",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/megapix.png",
+    "bannerThumb": "https://img.faz-o-eli.online/megapix.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/megapix/index.m3u8",
+      "http://45.185.11.126:8000/play/a057/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Cinemax",
+    "title": "AO VIVO Sony Channel Um Sonho Possível",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/jGLF-YDb_jRBJZ9u1Cfwk6AwRcwdikyE_Hksk2qdTYNJ6S8modoT05rbM0WMUtKpw5hsVsMNwtdZSjtrKu4eOMlUuegf-5TVZcapR21IdS7jGadkxUiTdsCInPU62pUBIfh5",
+    "bannerThumb": "https://iptv-epg.org/images/jGLF-YDb_jRBJZ9u1Cfwk6AwRcwdikyE_Hksk2qdTYNJ6S8modoT05rbM0WMUtKpw5hsVsMNwtdZSjtrKu4eOMlUuegf-5TVZcapR21IdS7jGadkxUiTdsCInPU62pUBIfh5",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sonychannel/index.m3u8",
+      "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Cinemax ao vivo?",
+    "title": "AO VIVO SONY Movies Jogos Letais",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://www.tvlogo.org/brazil/sony-movies-br.png",
+    "bannerThumb": "https://www.tvlogo.org/brazil/sony-movies-br.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.162.64.114/SONY_MOVIES/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Cinemax nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Space Velozes &amp; Furiosos 9",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/space.png",
+    "bannerThumb": "https://img.faz-o-eli.online/space.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/space/index.m3u8",
+      "http://138.204.86.4:8080/SPACE_HD/index.m3u8",
+      "http://45.162.64.114/SPACE/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Cinemax hoje?",
+    "title": "AO VIVO Studio Universal Três Babás Para o Natal",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/KALa94Yd5MWPb5mYgcLdi0VrWaYeuSodfqlky0sSgIJz50J-5ABrD14i8NttNQP_K_199cELgFpQo33mtW4GVir2Ee1z1NOk9esGJQTThE8WxFeiMatb5pIUM-O28bZrSddfopKZHQ",
+    "bannerThumb": "https://iptv-epg.org/images/KALa94Yd5MWPb5mYgcLdi0VrWaYeuSodfqlky0sSgIJz50J-5ABrD14i8NttNQP_K_199cELgFpQo33mtW4GVir2Ee1z1NOk9esGJQTThE8WxFeiMatb5pIUM-O28bZrSddfopKZHQ",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/studiouniversal/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Globoplay Novelas",
+    "title": "AO VIVO TCM A Mulher do Dia",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/ZAiVUgQmVHUlrxgCvf1FRvA3hOAR9TCDaqg7CXm37CtTxNuyJC9GHfnRB-2vII8lD-EdaJTyw1Nh8pEQ1uIPHZTWBIRRSpyB2FDU-jAh6hNGSTVyc2NDAqokvM6T4OM",
+    "bannerThumb": "https://iptv-epg.org/images/ZAiVUgQmVHUlrxgCvf1FRvA3hOAR9TCDaqg7CXm37CtTxNuyJC9GHfnRB-2vII8lD-EdaJTyw1Nh8pEQ1uIPHZTWBIRRSpyB2FDU-jAh6hNGSTVyc2NDAqokvM6T4OM",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Globoplay Novelas ao vivo?",
+    "title": "AO VIVO Telecine Action The Last Samurai",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/evc0i8NnpWI44rqViM7ScE1PIyt0AWr0kOPGJ_By3LlQGKhkQVmVvk7Z4V5xtL4rsFy-OrTCDGsU0spIFNrALowxCZ6ZrD7K0ynLIomYDy5zqe9kNNS5xHHxhNwPRwcV",
+    "bannerThumb": "https://iptv-epg.org/images/evc0i8NnpWI44rqViM7ScE1PIyt0AWr0kOPGJ_By3LlQGKhkQVmVvk7Z4V5xtL4rsFy-OrTCDGsU0spIFNrALowxCZ6ZrD7K0ynLIomYDy5zqe9kNNS5xHHxhNwPRwcV",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tcaction/index.m3u8",
+      "http://45.185.11.126:8000/play/a058/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Globoplay Novelas nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Telecine Cult Boyhood - Da Infância à Juventude",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/6p4oKXXkoZxLE-9pEbLSjE3HgBbZvvBshsXzltCgOSqtDh2JC4X07wIiooIHxhiXbV2IOT0AdTKXuarUgBq8SXefjEzgWDGBBYM1iu1mSwyi8JCmna3cCfZfK-bd6_QHdTrVU7fbJMHy4JLzKE6HkV8",
+    "bannerThumb": "https://iptv-epg.org/images/6p4oKXXkoZxLE-9pEbLSjE3HgBbZvvBshsXzltCgOSqtDh2JC4X07wIiooIHxhiXbV2IOT0AdTKXuarUgBq8SXefjEzgWDGBBYM1iu1mSwyi8JCmna3cCfZfK-bd6_QHdTrVU7fbJMHy4JLzKE6HkV8",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tccult/index.m3u8",
+      "http://45.185.11.126:8000/play/a05a/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Globoplay Novelas hoje?",
+    "title": "AO VIVO Telecine Fun Missão Antena - Uma Aventura Intergaláctica",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/vzE4z3SaAvCmrDzg31_-TM6TdyHzd358E2Sc1APXutH0dVjXf66dkHjRyVfKTVm1uUXzbkfEcwfkM0lBWJ4CHNDHY-ORC7o-JACwkgDJ0QnTi2Jvbr4spQTR5-g3JrJ-3_pzCCh7oJiAkI4J7PTmH-f-3ggVl0sClA",
+    "bannerThumb": "https://iptv-epg.org/images/vzE4z3SaAvCmrDzg31_-TM6TdyHzd358E2Sc1APXutH0dVjXf66dkHjRyVfKTVm1uUXzbkfEcwfkM0lBWJ4CHNDHY-ORC7o-JACwkgDJ0QnTi2Jvbr4spQTR5-g3JrJ-3_pzCCh7oJiAkI4J7PTmH-f-3ggVl0sClA",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tcfun/index.m3u8",
+      "http://45.185.11.126:8000/play/a059/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "HBO Family",
+    "title": "AO VIVO Telecine Pipoca Caça às Bruxas",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/WP8hPWiE8zkC1BRsxQiby-8QUqadxGSKWJk8pyIubtU8hvcB1CMxbBGenlAtdU8e_67j5HET_x1BXFkvoxEuLkHhgLbeSQ5v3k65NVGvnNq0rp-rtJTEE6eEl8hWOQ",
+    "bannerThumb": "https://iptv-epg.org/images/WP8hPWiE8zkC1BRsxQiby-8QUqadxGSKWJk8pyIubtU8hvcB1CMxbBGenlAtdU8e_67j5HET_x1BXFkvoxEuLkHhgLbeSQ5v3k65NVGvnNq0rp-rtJTEE6eEl8hWOQ",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tcpipoca/index.m3u8",
+      "http://45.185.11.126:8000/play/a08g/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir HBO Family ao vivo?",
+    "title": "AO VIVO Telecine Premium A Sogra Perfeita 2",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/MgjCWGIRRpyCZIejrGS0QaUCK5LqOy2wwSdL4cYdsDzuTOUZ3gz6ujQAsNfsXlowRDFceprfjDcadRvSLMOtuuvkO5o3uFyIsEuh6eDx5mZSSjKUeTOaDJOh5vPf00UneJk",
+    "bannerThumb": "https://iptv-epg.org/images/MgjCWGIRRpyCZIejrGS0QaUCK5LqOy2wwSdL4cYdsDzuTOUZ3gz6ujQAsNfsXlowRDFceprfjDcadRvSLMOtuuvkO5o3uFyIsEuh6eDx5mZSSjKUeTOaDJOh5vPf00UneJk",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tcpremium/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "HBO Family nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Telecine Touch O que Esperar Quando Você Está Esperando",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/uRmyGtowEKgvqw51fUDSYYY8Noz53BBLGPXpA2wr284GBzitsUtK8YIaAI9m6VxJZp83TLtqQt-mdk9UG30DG1WLVZSRGNtReOF2K6rs6gmWsjIJg8VPDfBSRQXsorfUz5XnzQNBfL_71od5FR2FPg40jUXI5lWQ6ZA",
+    "bannerThumb": "https://iptv-epg.org/images/uRmyGtowEKgvqw51fUDSYYY8Noz53BBLGPXpA2wr284GBzitsUtK8YIaAI9m6VxJZp83TLtqQt-mdk9UG30DG1WLVZSRGNtReOF2K6rs6gmWsjIJg8VPDfBSRQXsorfUz5XnzQNBfL_71od5FR2FPg40jUXI5lWQ6ZA",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tctouch/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do HBO Family hoje?",
+    "title": "AO VIVO TNT Jumanji",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/tnt.png",
+    "bannerThumb": "https://img.faz-o-eli.online/tnt.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tnt/index.m3u8",
+      "http://138.204.86.4:8080/TNT_HD/index.m3u8",
+      "http://45.162.64.114/TNT/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "HBO",
+    "title": "AO VIVO TNT Novelas Será Isso Amor?",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/tntnovelas.png",
+    "bannerThumb": "https://img.faz-o-eli.online/tntnovelas.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tntnovelas/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir HBO ao vivo?",
+    "title": "AO VIVO TNT Séries The Mentalist : Bleeding Heart",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/tntseries.png",
+    "bannerThumb": "https://img.faz-o-eli.online/tntseries.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tntseries/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "HBO nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Universal Reality Top Chef",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/universal-reality.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "http://45.185.11.126:8000/play/a08c/index.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do HBO hoje?",
+    "title": "AO VIVO Universal TV Law &amp; Order: Svu",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/universaltv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/universaltv.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/universaltv/index.m3u8",
+      "http://45.185.11.126:8000/play/a0af/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "MyTime Movie Network",
+    "title": "AO VIVO USA Network Blue Bloods",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/4gh7B18WomjC5Kw7W-RDYiF1Uh_sQMcPPvenvU7GVgHfYEtpCsMM9aP3-YJSLHPRVM5Ljr7QycLJ9sHA0ugjpyoSl_ne3ifwdix-03hhCseJ6YEVpp9xu-wYWbyltT48swarnOBOwvyF",
+    "bannerThumb": "https://iptv-epg.org/images/4gh7B18WomjC5Kw7W-RDYiF1Uh_sQMcPPvenvU7GVgHfYEtpCsMM9aP3-YJSLHPRVM5Ljr7QycLJ9sHA0ugjpyoSl_ne3ifwdix-03hhCseJ6YEVpp9xu-wYWbyltT48swarnOBOwvyF",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/usa/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir MyTime Movie Network ao vivo?",
+    "title": "AO VIVO Warner Sully - O Herói do Rio Hudson",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/mmEEwx6fS-RBIyGs-OhK29WalX1UXUFhvJBQhatH142ZfGbqsWb1UELla6P8TgIbD8MBJxTCvOBe2wEryjEzYbc4M1kmDttDZ4hZ7YvV50OBAA29et4mH9RGvG-uFdrKlM5LIwkiMqO3oV0",
+    "bannerThumb": "https://iptv-epg.org/images/mmEEwx6fS-RBIyGs-OhK29WalX1UXUFhvJBQhatH142ZfGbqsWb1UELla6P8TgIbD8MBJxTCvOBe2wEryjEzYbc4M1kmDttDZ4hZ7YvV50OBAA29et4mH9RGvG-uFdrKlM5LIwkiMqO3oV0",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/warner/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "MyTime Movie Network nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO MAX 01 Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://www.fontedecanais.gs/logos/canais/max.png",
+    "bannerThumb": "http://www.fontedecanais.gs/logos/canais/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do MyTime Movie Network hoje?",
+    "title": "AO VIVO MAX 02 Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "http://www.fontedecanais.gs/logos/canais/max.png",
+    "bannerThumb": "http://www.fontedecanais.gs/logos/canais/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max02/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Paramount Plus 1",
+    "title": "AO VIVO MAX 03 Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/max.png",
+    "bannerThumb": "https://img.faz-o-eli.online/max.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/max03/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Paramount Plus 1 ao vivo?",
+    "title": "AO VIVO MovieSphere Brazil Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/c6uFj7A.png",
+    "bannerThumb": "https://i.imgur.com/c6uFj7A.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://amg00353-amg00353c29-plex-us-3205.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg00353-lionsgatetvfast-moviespherebrazil-plexus/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Paramount Plus 1 nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO MyTime Movie Network Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/aiGQtzI.png",
+    "bannerThumb": "https://i.imgur.com/aiGQtzI.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Paramount Plus 1 hoje?",
+    "title": "AO VIVO Paramount Plus 1 Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://vipcanais.net/images/paramountplus.png",
+    "bannerThumb": "https://vipcanais.net/images/paramountplus.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Runtime",
+    "title": "AO VIVO Runtime Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
+    "bannerThumb": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Runtime ao vivo?",
+    "title": "AO VIVO Runtime Ação Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/3rM8nL2.png",
+    "bannerThumb": "https://i.imgur.com/3rM8nL2.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://run-rt-ra.otteravision.com/run/rt_ra/rt_ra_720.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Runtime nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Sony One Classics Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/sony-movies.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/sony-movies.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Runtime hoje?",
+    "title": "AO VIVO TV Clássicos Filmes e Séries",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/c6uFj7A.png",
+    "bannerThumb": "https://i.imgur.com/c6uFj7A.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Runtime AÃ§Ã£o",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Runtime AÃ§Ã£o ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Runtime AÃ§Ã£o nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Runtime AÃ§Ã£o hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Sony One Classics",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Sony One Classics ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Sony One Classics nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Sony One Classics hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TV ClÃ¡ssicos",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir TV ClÃ¡ssicos ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TV ClÃ¡ssicos nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do TV ClÃ¡ssicos hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv2.painelvideocast.com.br/multicanais/multicanais/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
@@ -2125,707 +3085,20 @@
   },
   {
     "cat": "Canais",
-    "title": "Canal UOL",
+    "title": "AO VIVO TVideoNews Notícias",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Canal UOL ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Canal UOL nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Canal UOL hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band News",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Band News ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Band News nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Band News hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "CNN Brasil",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir CNN Brasil ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "CNN Brasil nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do CNN Brasil hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "CNN Brasil Money",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir CNN Brasil Money ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "CNN Brasil Money nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do CNN Brasil Money hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Jovem Pan News",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Jovem Pan News ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Jovem Pan News nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Jovem Pan News hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "GloboNews",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir GloboNews ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "GloboNews nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do GloboNews hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Record News",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Record News ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Record News nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Record News hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "SBT News",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir SBT News ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "SBT News nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do SBT News hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TVideoNews",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir TVideoNews ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TVideoNews nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do TVideoNews hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Cartoon Network",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Cartoon Network ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Cartoon Network nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Cartoon Network hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Cartoonito",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Cartoonito ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Cartoonito nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Cartoonito hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Kids",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Kids ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Kids nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Kids hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Gloob",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Gloob ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Gloob nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Gloob hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Gloobinho",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Gloobinho ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Gloobinho nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Gloobinho hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "NickToons Brasil",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir NickToons Brasil ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "NickToons Brasil nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do NickToons Brasil hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Tooncast",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Tooncast ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Tooncast nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Tooncast hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TV RÃ¡ Tim Bum",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir TV RÃ¡ Tim Bum ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "TV RÃ¡ Tim Bum nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do TV RÃ¡ Tim Bum hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Rede CrianÃ§as",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/vstHOYx.png",
+    "bannerThumb": "https://i.imgur.com/vstHOYx.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Rede CrianÃ§as ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8",
+      "https://video01.logicahost.com.br/tvideonews/tvideonews/chunklist_w1659802033.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Rede CrianÃ§as nÃ£o carrega, o que fazer?",
+    "title": "Infantil",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -2835,133 +3108,163 @@
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Rede CrianÃ§as hoje?",
+    "title": "AO VIVO NickToons Brasil No Data",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "NickOnline",
+    "title": "AO VIVO Tooncast Corrida Maluca : O Grande Prêmio Carlsbad",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tooncast/index.m3u8",
+      "http://170.83.16.50:80/TOONCAST/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir NickOnline ao vivo?",
+    "title": "AO VIVO TV Rá Tim Bum DJ Cão e a Loja de Discos : Bruno Borges - Como Se Faz um Vinil?",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
+    "bannerThumb": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tvratimbum/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "NickOnline nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Gospel Cartoon Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/yxjPno5.png",
+    "bannerThumb": "https://i.imgur.com/yxjPno5.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do NickOnline hoje?",
+    "title": "AO VIVO Jetsons TV Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/PZcTfqV.png",
+    "bannerThumb": "https://i.imgur.com/PZcTfqV.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv1.srvif.com/jetsontv/jetsontv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "SBC Kids",
+    "title": "AO VIVO Kuriakos Kids Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/SRX6EPY.png",
+    "bannerThumb": "https://i.imgur.com/SRX6EPY.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir SBC Kids ao vivo?",
+    "title": "AO VIVO Loading TV Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/R0aflu1.png",
+    "bannerThumb": "https://i.imgur.com/R0aflu1.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "SBC Kids nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO NBX TV Kids Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/SRX6EPY.png",
+    "bannerThumb": "https://i.imgur.com/SRX6EPY.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do SBC Kids hoje?",
+    "title": "AO VIVO Nickelodeon Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://img.faz-o-eli.online/nickelodeon.png",
+    "bannerThumb": "https://img.faz-o-eli.online/nickelodeon.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Otaku Sign TV",
+    "title": "AO VIVO NickOnline Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://x1colegal.com/logo.png",
+    "bannerThumb": "https://x1colegal.com/logo.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://x1colegal.com/hls/stream.m3u8",
+      "https://x1colegal.com/hls/0/stream.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Otaku Sign TV ao vivo?",
+    "title": "AO VIVO Otaku Sign TV Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/eHw2M6p.png",
+    "bannerThumb": "https://i.imgur.com/eHw2M6p.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://stmv1.srvif.com/anime/anime/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Otaku Sign TV nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO Rede Crianças Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/SRX6EPY.png",
+    "bannerThumb": "https://i.imgur.com/SRX6EPY.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://video08.logicahost.com.br/kanucatv/kanucatv/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Otaku Sign TV hoje?",
+    "title": "AO VIVO SBC Kids Infantil",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://i.imgur.com/SRX6EPY.png",
+    "bannerThumb": "https://i.imgur.com/SRX6EPY.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://video01.brascast.com/rede1220/rede1220/playlist.m3u8"
+    ]
   },
   {
     "cat": "Canais",
@@ -2975,7 +3278,71 @@
   },
   {
     "cat": "Canais",
-    "title": "Animal Planet",
+    "title": "AO VIVO Discovery Turbo Máquinas Muito Loucas : A Supermáquina do Homem de Ferro",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoveryturbo.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoveryturbo.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoveryturbo/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8",
+      "http://45.185.11.126:8000/play/a07z/index.m3u8",
+      "http://45.162.64.114/DISCOVERY_TURBO/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Discovery World Sabores da América: Bacon : Paraíso do Bacon",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/discoveryworld.png",
+    "bannerThumb": "https://img.faz-o-eli.online/discoveryworld.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/discoveryworld/index.m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_WORLD_HD/index.m3u8",
+      "http://45.162.64.114/DISCOVERY_WORLD/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO History Trato Feito - Pé na Estrada : O Encanto do Sul",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/history.png",
+    "bannerThumb": "https://img.faz-o-eli.online/history.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/history/index.m3u8",
+      "http://138.204.86.4:8080/HISTORY_HD/index.m3u8",
+      "http://45.185.11.126:8000/play/a0al/index.m3u8",
+      "http://170.83.16.50/HISTORY/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO History 2 Ideias Sinistras : Trapaças Sensacionais",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/history2.png",
+    "bannerThumb": "https://img.faz-o-eli.online/history2.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/history2/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "Entretenimento",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -2985,7 +3352,226 @@
   },
   {
     "cat": "Canais",
-    "title": "Como assistir Animal Planet ao vivo?",
+    "title": "AO VIVO Food Network Confeiteiro Número 1 - A Competição : Sobremesas Pequenas e Altas",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/foodnetwork.png",
+    "bannerThumb": "https://img.faz-o-eli.online/foodnetwork.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/foodnetwork/index.m3u8",
+      "http://45.185.11.126:8000/play/a06j/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO GNT Chef De Alto Nível.",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/8svyZXMVBzaMvz9w02Fke_PhlS2U4TEAzCaYWYVRTP9ykkFIUoPOwXFznjTbp_yPQChLAfomtYtSG2Jp3AdzsG2Nib9mCNLccxd80ytqFBpzpCbUI_neSTs7ghFGc_p3hCur5g",
+    "bannerThumb": "https://iptv-epg.org/images/8svyZXMVBzaMvz9w02Fke_PhlS2U4TEAzCaYWYVRTP9ykkFIUoPOwXFznjTbp_yPQChLAfomtYtSG2Jp3AdzsG2Nib9mCNLccxd80ytqFBpzpCbUI_neSTs7ghFGc_p3hCur5g",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/gnt/index.m3u8",
+      "http://45.185.11.126:8000/play/a079/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO HGTV Restaurando Casas Históricas : A Casa do Ferreiro",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/hgtv.png",
+    "bannerThumb": "https://img.faz-o-eli.online/hgtv.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO MTV No Data",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8",
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Multishow Vai Que Cola",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/XqQrfU8xHLrw6t459PDdwuv7B1EMuohtu1lJ4-o1Uj0GNMlwl0anMCNQazpYz_gWsFMjtELpEviSM8Ow4WaKMWyGy9jbigcUjY3ZEFjmGlnaNJALw_ARHqM",
+    "bannerThumb": "https://iptv-epg.org/images/XqQrfU8xHLrw6t459PDdwuv7B1EMuohtu1lJ4-o1Uj0GNMlwl0anMCNQazpYz_gWsFMjtELpEviSM8Ow4WaKMWyGy9jbigcUjY3ZEFjmGlnaNJALw_ARHqM",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/multishow/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Paramount + 4 Libertadores e Sulamericana",
+    "desc": "",
+    "thumb": "https://vipcanais.net/images/paramountplus.png",
+    "bannerThumb": "https://vipcanais.net/images/paramountplus.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/paramountplus04/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Rede Gospel Celebração da Família",
+    "desc": "",
+    "thumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
+    "bannerThumb": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/redegospel/index.m3u8",
+      "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO RIT No Data",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://acesso.ecast.site:3648/live/ritlive.m3u8",
+      "https://stream.ecast.com.br/rit-tv/tracks-v1a1/mono.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Terra Viva 2º Leilão Virtual Raízes - Fazenda Jacamim",
+    "desc": "",
+    "thumb": "https://www.tvlogo.org/brazil/terraviva-br.png",
+    "bannerThumb": "https://www.tvlogo.org/brazil/terraviva-br.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://9ada494d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVXBseW5rLU5ld2NvX0hMUw/playlist.m3u8",
+      "http://45.162.64.114/TERRAVIVA/index.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TLC Amor no Caribe - Rumo aos 90 Dias? : O Monstro do Ciúme",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/tlc.png",
+    "bannerThumb": "https://img.faz-o-eli.online/tlc.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://ww0.embedtv.cc/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Trace Brazuca Hits Non Stop",
+    "desc": "",
+    "thumb": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
+    "bannerThumb": "https://mondrian.claro.com.br/channels/inverse/trace-brazuca.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://amg01131-tracetv-tracebrazuca-xiaomi-vvr19.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8",
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Novo Tempo No Data",
+    "desc": "",
+    "thumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "bannerThumb": "https://iptv-epg.org/images/pk65exgZRia1zyr7s4YcyRO7F2TiMUhgiwLmULl7h5EH7iD92IFnB98qrplev4JIcSM_A6B0QEcW",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/novotempo/index.m3u8",
+      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8",
+      "http://45.162.64.114/NOVO_TEMPO/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Pai Eterno ZonaDocu: Los Médicos del Egeo",
+    "desc": "",
+    "thumb": "https://img.faz-o-eli.online/tvpaieterno.png",
+    "bannerThumb": "https://img.faz-o-eli.online/tvpaieterno.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/paieterno/index.m3u8",
+      "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
+      "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
+      "http://45.162.64.114/TV_PAI_ETERNO/index.m3u8",
+      "https://ww0.embedtv.cc/",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO Com Brasil Entretenimento",
+    "desc": "",
+    "thumb": "https://i.imgur.com/GrjGwKM.png",
+    "bannerThumb": "https://i.imgur.com/GrjGwKM.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8",
+      "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/NewCo/New_Brasil_BR/New_Brasil.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO IMPD Entretenimento",
+    "desc": "",
+    "thumb": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
+    "bannerThumb": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://igrejamundial.nuvemplay.live/hls/stream.m3u8"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "AO VIVO TV Evangelizar Entretenimento",
+    "desc": "",
+    "thumb": "https://i.imgur.com/IrYR7Kp.png",
+    "bannerThumb": "https://i.imgur.com/IrYR7Kp.png",
+    "year": "",
+    "genre": "Canais",
+    "fontes": [
+      "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/tvevangelizar/index.m3u8",
+      "http://45.162.64.114/EVANGELIZAR/index.m3u8",
+      "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8",
+      "https://playerembedcanais.site/"
+    ]
+  },
+  {
+    "cat": "Canais",
+    "title": "24 Horas",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
@@ -2995,457 +3581,19 @@
   },
   {
     "cat": "Canais",
-    "title": "Animal Planet nÃ£o carrega, o que fazer?",
+    "title": "AO VIVO MasterChef 24 Horas",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
+    "bannerThumb": "https://images.pluto.tv/channels/6077045b6031bd00078de127/colorLogoPNG_1785430539950.png",
     "year": "",
     "genre": "Canais",
-    "fontes": []
+    "fontes": [
+      "https://amg00627-amg00627c9-runtime-latam-2613.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00627-banijayfast-masterchefbrazil-runtimelatam/cb543d167c6c618784cb3760cef342a0f94b1fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7352db80148b61299bce8c37683f03409a5e5afba358b38ab50a5ad969a1af1c56953145f59647c0dd4ebdd4d20883448e7fa7099c93a68ace42d381c77efc02b036510f7a2fc98528cbfbb5d7b0eb01b321c2493c7c77d4e1f5dc5c3d9c4e4f2e8095a98c448fdd4a1447fb0d04b4158c47c411876eb800a4e034d1c52c03f0204bcef7f8a228e0d5a19ff73a71c90e6a7e5bbc011eaac66e1174c86298122a2d9cf28173eea645c7e673d5e62e7559b158362bb90a43b810f4f8fc9ba8aec6bf9d083f4209079454a19b22e828d24798cf062d5377e3ccf048e989c3573c6e4ec9d5108453538ed28587d019288a4e2f1ab930970b5e2cfb3d622ab176b9826a38c0662b952531fe6f308269f5ac63a0f48cab556df596ec6acb42c3f94adeff09ac2d1b5c01b8fd651f66446fdfe36342612c930bb49d9aaf274933edf1ccecc91c6d546e59015acbc7e377d4df957953468f03683006657dfc33df67db0f5e136e984ea1cb2740c5577163b6dd703733419fcba38e94d9cc50c716fec6fe2b20285665a9496b036ad4b3cd14bd0f42707e52971c262499024949fe9ad9effad13a9b7c05109ca8a6054b0f3f8d3f8d662d6d5d57dc5c82626e/145/1920x1080_6046040/index.m3u8a:[["
+    ]
   },
   {
     "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Animal Planet hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "A&E",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir A&E ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "A&E nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do A&E hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Curta",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Curta ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Curta nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Curta hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Channel",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Channel ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Channel nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Channel hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery ID",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery ID ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery ID nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery ID hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Home & Health",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Home & Health ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Home & Health nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Home & Health hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Science",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Science ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Science nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Science hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Theater",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Theater ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Theater nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Theater hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Turbo",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery Turbo ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery Turbo nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery Turbo hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "History",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir History ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "History nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do History hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "History 2",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir History 2 ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "History 2 nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do History 2 hoje?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery World",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Como assistir Discovery World ao vivo?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Discovery World nÃ£o carrega, o que fazer?",
-    "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
-    "year": "",
-    "genre": "Canais",
-    "fontes": []
-  },
-  {
-    "cat": "Canais",
-    "title": "Qual a programaÃ§Ã£o do Discovery World hoje?",
+    "title": "Músicas",
     "desc": "",
     "thumb": "",
     "bannerThumb": "",
