@@ -1,18 +1,33 @@
 const puppeteer = require('puppeteer');
+const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
 const URL_CANAIS = 'https://canais-saimo.pages.dev/';
 const URL_VOD = 'https://filmes-saimo.pages.dev/';
 
-// Defina aqui se quer 'series_sm.json' (sem acento) ou 'séries_sm.json' (com acento)
-const SERIES_FILENAME = 'series_sm.json';
+// Caso você já tenha as listas ou espelhos no seu cartoonzine-sm-bridge, usamos como fallback anti-bloqueio de IP dos EUA
+const FALLBACK_FILMES_URL = 'https://raw.githubusercontent.com/cartoonzine/cartoonzine-sm-bridge/refs/heads/main/filmes_saimo.json';
 
 /**
- * Converte qualquer objeto capturado para o formato exato do seu sistema:
+ * Formata qualquer objeto para o padrão exato do seu sistema:
  * { cat, title, desc, thumb, bannerThumb, year, genre, fontes }
  */
 function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
+  // Se já estiver exatamente no formato Cartoonzine, apenas garante a categoria
+  if (raw && Array.isArray(raw.fontes) && raw.title !== undefined && raw.thumb !== undefined) {
+    return {
+      cat: raw.cat || defaultCat,
+      title: String(raw.title || '').trim(),
+      desc: String(raw.desc || '').trim(),
+      thumb: String(raw.thumb || '').trim(),
+      bannerThumb: String(raw.bannerThumb || raw.thumb || '').trim(),
+      year: String(raw.year || '').trim(),
+      genre: String(raw.genre || defaultCat).trim(),
+      fontes: raw.fontes
+    };
+  }
+
   const title = (
     raw.title || raw.name || raw.nome || raw.titulo || raw.tvg_name || ''
   ).toString().trim();
@@ -117,7 +132,7 @@ function parseM3U(content, defaultCat = 'Canais') {
 }
 
 /**
- * Extrator pesado: encontra arrays de objetos literais [{...},{...}] dentro de arquivos .js do Vite/Webpack
+ * Extrai arrays literais de dentro de bundles JS
  */
 function extractJsLiteralArrays(jsCode, sourceUrl) {
   const results = [];
@@ -130,7 +145,6 @@ function extractJsLiteralArrays(jsCode, sourceUrl) {
     }
   }
 
-  // Procura padrões de início de array de objetos: `=[{` ou `: [{`
   const startRegex = /[=:]\s*\[\s*\{/g;
   let match;
 
@@ -146,52 +160,24 @@ function extractJsLiteralArrays(jsCode, sourceUrl) {
 
     for (let i = bracketStart; i < jsCode.length; i++) {
       const ch = jsCode[i];
-
-      if (escaped) {
-        escaped = false;
-        continue;
-      }
-      if (ch === '\\') {
-        escaped = true;
-        continue;
-      }
-      if (inString) {
-        if (ch === stringChar) inString = false;
-        continue;
-      }
-      if (ch === '"' || ch === "'" || ch === '`') {
-        inString = true;
-        stringChar = ch;
-        continue;
-      }
+      if (escaped) { escaped = false; continue; }
+      if (ch === '\\') { escaped = true; continue; }
+      if (inString) { if (ch === stringChar) inString = false; continue; }
+      if (ch === '"' || ch === "'" || ch === '`') { inString = true; stringChar = ch; continue; }
       if (ch === '[') depth++;
       else if (ch === ']') {
         depth--;
-        if (depth === 0) {
-          endIdx = i;
-          break;
-        }
+        if (depth === 0) { endIdx = i; break; }
       }
     }
 
     if (endIdx !== -1 && (endIdx - bracketStart) > 500) {
-      const arrayCandidate = jsCode.slice(bracketStart, endIdx + 1);
+      const candidate = jsCode.slice(bracketStart, endIdx + 1);
       try {
-        // Avalia com segurança o literal de array extraído do bundle JS
-        const evaluated = new Function(`return ${arrayCandidate}`)();
+        const evaluated = new Function(`return ${candidate}`)();
         if (Array.isArray(evaluated) && evaluated.length > 5 && typeof evaluated[0] === 'object') {
-          const sample = evaluated[0];
-          const keys = Object.keys(sample).join(',').toLowerCase();
-          if (
-            keys.includes('title') || keys.includes('name') || keys.includes('nome') ||
-            keys.includes('titulo') || keys.includes('url') || keys.includes('stream') ||
-            keys.includes('fontes') || keys.includes('logo') || keys.includes('thumb')
-          ) {
-            console.log(`    -> [+] Array JS Literal extraído (${evaluated.length} itens | chaves: ${keys.slice(0, 60)}): ${sourceUrl}`);
-            results.push(...evaluated);
-            // Avança o ponteiro do regex para depois desse array gigante
-            startRegex.lastIndex = endIdx;
-          }
+          results.push(...evaluated);
+          startRegex.lastIndex = endIdx;
         }
       } catch (_) {}
     }
@@ -223,7 +209,8 @@ function classifyVodItem(raw) {
     /t\d{1,2}\s*ep?\d{1,2}/i.test(genreAndTitle) ||
     raw.seasons ||
     raw.episodes ||
-    raw.episodios
+    raw.episodios ||
+    (Array.isArray(raw.fontes) && raw.fontes.length > 1 && typeof raw.fontes[0] === 'object' && (raw.fontes[0].episodio || raw.fontes[0].ep || raw.fontes[0].season))
   ) {
     return 'series';
   }
@@ -251,13 +238,40 @@ function saveJsonFile(filename, items) {
   console.log(`  [✓] Arquivo ${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
 }
 
-async function scrapeSite(browser, url, isVod = false) {
+/**
+ * Divide a lista de séries em 3 partes iguais:
+ * series_sm_pt1.json, series_sm_pt2.json, series_sm_pt3.json
+ */
+function saveSeriesIn3Parts(seriesArray) {
+  const total = seriesArray.length;
+  const partSize = Math.ceil(total / 3) || 0;
+
+  const pt1 = seriesArray.slice(0, partSize);
+  const pt2 = seriesArray.slice(partSize, partSize * 2);
+  const pt3 = seriesArray.slice(partSize * 2);
+
+  saveJsonFile('series_sm_pt1.json', pt1);
+  saveJsonFile('series_sm_pt2.json', pt2);
+  saveJsonFile('series_sm_pt3.json', pt3);
+}
+
+/**
+ * Faz o scraping configurando cabeçalhos brasileiros (pt-BR) e testando sub-rotas se der 404
+ */
+async function scrapeSite(browser, baseUrl, isVod = false) {
   console.log(`\n======================================================`);
-  console.log(`ACESSANDO: ${url}`);
+  console.log(`ACESSANDO: ${baseUrl}`);
   console.log(`======================================================`);
 
   const page = await browser.newPage();
-  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36');
+
+  // Simula navegador no Brasil para evitar bloqueio regional 404 em Workers/Pages
+  await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36');
+  await page.setExtraHTTPHeaders({
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'CF-IPCountry': 'BR',
+    'X-Forwarded-For': '177.67.80.1'
+  });
 
   const collected = [];
   let activeTab = '';
@@ -267,17 +281,17 @@ async function scrapeSite(browser, url, isVod = false) {
     const status = res.status();
     const cType = (res.headers()['content-type'] || '').toLowerCase();
 
-    if (/\.(png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|css)(\?|$)/i.test(rUrl) || rUrl.includes('tmdb.org/t/p') || rUrl.includes('fonts.')) {
+    if (rUrl.startsWith('data:') || /\.(png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|css)(\?|$)/i.test(rUrl) || rUrl.includes('tmdb.org/t/p')) {
       return;
     }
 
     console.log(`  [Rede ${status}] (${cType.split(';')[0] || 'unknown'}) -> ${rUrl}`);
+    if (status >= 400) return;
 
     try {
       const text = await res.text();
       if (!text || text.length < 20) return;
 
-      // 1. M3U direto
       if (text.includes('#EXTINF:')) {
         const parsed = parseM3U(text, isVod ? (activeTab || 'Filmes') : 'Canais');
         console.log(`    -> [+] M3U extraído (${parsed.length} itens)`);
@@ -285,7 +299,6 @@ async function scrapeSite(browser, url, isVod = false) {
         return;
       }
 
-      // 2. JSON direto
       const trimmed = text.trim();
       if (trimmed.startsWith('[') || trimmed.startsWith('{')) {
         try {
@@ -306,7 +319,6 @@ async function scrapeSite(browser, url, isVod = false) {
         } catch (_) {}
       }
 
-      // 3. Bundles JS ou HTML com scripts inline
       if (cType.includes('javascript') || cType.includes('html') || rUrl.endsWith('.js')) {
         const fromJs = extractJsLiteralArrays(text, rUrl);
         fromJs.forEach(it => collected.push({ ...it, _sourceUrl: rUrl, _activeTab: activeTab }));
@@ -314,50 +326,65 @@ async function scrapeSite(browser, url, isVod = false) {
     } catch (_) {}
   });
 
-  await page.goto(url, { waitUntil: 'networkidle2', timeout: 120000 });
-  await new Promise(r => setTimeout(r, 6000));
+  const mainRes = await page.goto(baseUrl, { waitUntil: 'networkidle2', timeout: 90000 }).catch(() => null);
 
-  if (isVod) {
-    const tabs = [
-      { key: 'filmes', label: 'Filmes' },
-      { key: 'series', label: 'Séries' },
-      { key: 'animes', label: 'Animes' },
-      { key: 'doramas', label: 'Doramas' }
-    ];
+  // Se o Cloudflare Pages retornar 404 na raiz, sonda caminhos comuns de listas estáticas
+  if (!mainRes || mainRes.status() === 404) {
+    console.warn(`  [!] O endereço ${baseUrl} retornou HTTP 404 nos servidores do GitHub Actions!`);
+    const cleanBase = baseUrl.replace(/\/$/, '');
+    const probePaths = isVod
+      ? ['/index.html', '/filmes.json', '/series.json', '/animes.json', '/doramas.json', '/catalogo.json', '/data.json', '/lista.m3u']
+      : ['/index.html', '/canais.json', '/channels.json', '/lista.m3u', '/canais.m3u', '/tv.json'];
 
-    for (const t of tabs) {
-      activeTab = t.key;
-      console.log(`  [>] Clicando na aba: ${t.label}...`);
-      await page.evaluate((lbl) => {
-        const all = Array.from(document.querySelectorAll('div, button, a, span, li'));
-        const el = all.find(node => (node.innerText || '').trim().startsWith(lbl) && (node.innerText || '').length < 45);
-        if (el) el.click();
-      }, t.label);
-      await new Promise(r => setTimeout(r, 4000));
+    for (const p of probePaths) {
+      try {
+        const probeUrl = `${cleanBase}${p}`;
+        const r = await axios.get(probeUrl, {
+          timeout: 8000,
+          headers: { 'Accept-Language': 'pt-BR', 'User-Agent': 'Mozilla/5.0' }
+        });
+        if (r.status === 200 && r.data) {
+          console.log(`  [+] Rota alternativa encontrada: ${probeUrl}`);
+          if (Array.isArray(r.data)) collected.push(...r.data);
+          else if (typeof r.data === 'string' && r.data.includes('#EXTINF:')) {
+            collected.push(...parseM3U(r.data, isVod ? 'Filmes' : 'Canais'));
+          }
+        }
+      } catch (_) {}
+    }
+  } else {
+    await new Promise(r => setTimeout(r, 5000));
+    if (isVod) {
+      const tabs = [
+        { key: 'filmes', label: 'Filmes' },
+        { key: 'series', label: 'Séries' },
+        { key: 'animes', label: 'Animes' },
+        { key: 'doramas', label: 'Doramas' }
+      ];
+      for (const t of tabs) {
+        activeTab = t.key;
+        await page.evaluate((lbl) => {
+          const all = Array.from(document.querySelectorAll('div, button, a, span, li'));
+          const el = all.find(node => (node.innerText || '').trim().startsWith(lbl) && (node.innerText || '').length < 45);
+          if (el) el.click();
+        }, t.label);
+        await new Promise(r => setTimeout(r, 3500));
+      }
     }
   }
-
-  // Diagnóstico do HTML renderizado
-  const diag = await page.evaluate(() => ({
-    title: document.title,
-    scripts: Array.from(document.querySelectorAll('script[src]')).map(s => s.src),
-    bodyPreview: (document.body?.innerText || '').slice(0, 500).replace(/\s+/g, ' ')
-  }));
-
-  console.log(`  [Diagnóstico] Título: "${diag.title}"`);
-  console.log(`  [Diagnóstico] Scripts na página:`, diag.scripts);
-  console.log(`  [Diagnóstico] Texto na tela: "${diag.bodyPreview}"`);
 
   await page.close();
   return collected;
 }
 
 (async () => {
-  // Remove o arquivo duplicado com acento caso exista no repositório
-  const duplicatePath = path.join(__dirname, 'séries_sm.json');
-  if (SERIES_FILENAME !== 'séries_sm.json' && fs.existsSync(duplicatePath)) {
-    fs.unlinkSync(duplicatePath);
-    console.log('[Limpeza] Arquivo duplicado séries_sm.json removido.');
+  // Remove arquivos indesejados (séries_sm.json com acento e series_sm.json único)
+  for (const oldFile of ['séries_sm.json', 'series_sm.json']) {
+    const p = path.join(__dirname, oldFile);
+    if (fs.existsSync(p)) {
+      fs.unlinkSync(p);
+      console.log(`[Limpeza] Removido: ${oldFile}`);
+    }
   }
 
   const browser = await puppeteer.launch({
@@ -366,13 +393,30 @@ async function scrapeSite(browser, url, isVod = false) {
   });
 
   try {
+    // 1. CANAIS
     const rawCanais = await scrapeSite(browser, URL_CANAIS, false);
     const canaisFormatted = deduplicate(
       rawCanais.map(item => formatToCartoonzineSchema(item, 'Canais'))
     );
     saveJsonFile('canais_sm.json', canaisFormatted);
 
-    const rawVod = await scrapeSite(browser, URL_VOD, true);
+    // 2. VOD (FILMES, SÉRIES EM 3 PARTES, ANIMES, DORAMAS)
+    let rawVod = await scrapeSite(browser, URL_VOD, true);
+
+    // Fallback inteligente: se o pages.dev retornar 404 para o IP do GitHub Actions, busca da bridge de referência
+    if (rawVod.length === 0) {
+      console.log(`  [Fallback] Buscando dados de referência em: ${FALLBACK_FILMES_URL}`);
+      try {
+        const { data } = await axios.get(FALLBACK_FILMES_URL, { timeout: 30000 });
+        if (Array.isArray(data)) {
+          console.log(`  [+] Carregados ${data.length} itens via Fallback!`);
+          rawVod = data;
+        }
+      } catch (e) {
+        console.warn(`  [!] Falha no fallback:`, e.message);
+      }
+    }
+
     const buckets = { filmes: [], series: [], animes: [], doramas: [] };
 
     for (let i = 0; i < rawVod.length; i++) {
@@ -383,7 +427,7 @@ async function scrapeSite(browser, url, isVod = false) {
     }
 
     saveJsonFile('filmes_sm.json', deduplicate(buckets.filmes));
-    saveJsonFile(SERIES_FILENAME, deduplicate(buckets.series));
+    saveSeriesIn3Parts(deduplicate(buckets.series));
     saveJsonFile('animes_sm.json', deduplicate(buckets.animes));
     saveJsonFile('doramas_sm.json', deduplicate(buckets.doramas));
 
