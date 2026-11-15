@@ -12,7 +12,7 @@ permissions:
 jobs:
   scrape-sm:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
 
     steps:
       - name: Checkout do repositório
@@ -24,29 +24,24 @@ jobs:
           node-version: '22'
 
       - name: Instalar dependências
-        run: npm install
+        run: npm install axios
 
       - name: Executar Scraper SM
         run: npm start
 
-      - name: Limpar node_modules do Git e salvar apenas /listas
+      - name: Salvar listas na pasta /listas
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Garante que node_modules nunca seja rastreado
+          # Garante que node_modules nunca vá para o GitHub
           printf "node_modules/\npackage-lock.json\n" > .gitignore
-
-          # Remove node_modules do controle do Git caso ainda exista lá
           git rm -r --cached node_modules --ignore-unmatch || true
 
-          # Remove arquivos JSON antigos soltos na raiz se existirem
-          rm -f ./*_sm*.json ./séries_sm.json || true
+          # Adiciona apenas o .gitignore e a pasta listas/
+          git add .gitignore listas/*.json
 
-          # Adiciona todas as atualizações (incluindo a pasta listas/)
-          git add -A
-
-          # Faz commit e push (com pull --rebase para evitar erro caso o repo tenha mudado durante os 6 min)
+          # Faz commit e push com segurança
           if ! git diff --staged --quiet; then
             git commit -m "chore: atualização automática das listas em /listas"
             git pull --rebase origin main || true
