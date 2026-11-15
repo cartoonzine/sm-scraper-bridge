@@ -1,0 +1,39 @@
+name: Auto Update SM Lists
+
+on:
+  schedule:
+    # Atualiza automaticamente a cada 6 horas
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permite rodar manualmente clicando em "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-sm:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Instalar dependências e Chrome
+        run: |
+          npm install
+          npx puppeteer browsers install chrome
+
+      - name: Executar Scraper SM (Canais, Filmes, Séries, Animes e Doramas)
+        run: npm start
+
+      - name: Salvar e fazer Push dos arquivos *_sm.json
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add *_sm.json || true
+          git diff --staged --quiet || (git commit -m "chore: atualização automática das listas *_sm.json" && git push)
