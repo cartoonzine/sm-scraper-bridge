@@ -4,7 +4,7 @@ on:
   schedule:
     # Atualiza automaticamente a cada 6 horas
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Permite rodar manualmente clicando em "Run workflow"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -27,12 +27,13 @@ jobs:
           npm install
           npx puppeteer browsers install chrome
 
-      - name: Executar Scraper SM (Canais, Filmes, Séries, Animes e Doramas)
+      - name: Executar Scraper SM
         run: npm start
 
-      - name: Salvar e fazer Push dos arquivos *_sm.json
+      - name: Limpar arquivos antigos e fazer Push das listas *_sm*.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *_sm.json || true
+          git rm -f séries_sm.json series_sm.json --ignore-unmatch
+          git add -A *_sm*.json
           git diff --staged --quiet || (git commit -m "chore: atualização automática das listas *_sm.json" && git push)
