@@ -299,4 +299,251 @@ async function scrapeFilmes(bases, letters, metaMap) {
       if (!line || line.startsWith('#')) continue;
 
       const cols = line.split('\t');
-      if (cols.length
+      if (cols.length < 2) continue;
+
+      const rawTitle = cols[0].trim();
+      const fontes = [];
+
+      for (let i = 1; i < cols.length; i++) {
+        const urls = parseSourceList(cols[i], bases);
+        for (const u of urls) {
+          if (!fontes.includes(u)) fontes.push(u);
+        }
+      }
+
+      if (fontes.length === 0) continue;
+
+      const meta = metaMap.get(`f|${rawTitle.toLowerCase()}`) || {};
+      const yearMatch = rawTitle.match(/\((\d{4})\)\s*$/);
+      const cleanTitle = rawTitle.replace(/\s*\(\d{4}\)\s*$/, '').trim();
+      const year = meta.year || (yearMatch ? yearMatch[1] : '');
+
+      movies.push({
+        cat: 'Filmes',
+        title: cleanTitle,
+        desc: meta.desc || '',
+        thumb: meta.thumb || '',
+        bannerThumb: meta.thumb || '',
+        year,
+        genre: meta.genre || 'Filmes',
+        fontes
+      });
+    }
+  }
+
+  console.log(`  [+] Total de Filmes extraídos com link direto: ${movies.length.toLocaleString('pt-BR')}`);
+  return movies;
+}
+
+/**
+ * 4. SÉRIES: Lê series-<LETRA>.txt e todos os pedaços series-<LETRA>-<N>.txt
+ */
+async function scrapeSeries(bases, letters, metaMap) {
+  console.log('\n=== 4. EXTRAINDO SÉRIES E EPISÓDIOS (series-<LETRA>-<N>.txt) ===');
+  const activeLetters = letters.length > 0
+    ? letters.filter((l) => l.seriesCount > 0).map((l) => l.letter)
+    : ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
+
+  const seriesMap = new Map();
+
+  for (const letter of activeLetters) {
+    const fileLetter = letter === '#' ? '%23' : letter;
+    const listTxt = await fetchText(`${FILMES_BASE_URL}/series-${fileLetter}.txt`);
+    if (!listTxt) continue;
+
+    const chunksToFetch = new Set();
+
+    // Lê series-<LETRA>.txt: título \t ano \t pedaço \t episódios
+    for (const rawLine of listTxt.split(/\r?\n/)) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith('#')) continue;
+      const cols = line.split('\t');
+      if (cols.length < 3) continue;
+
+      const title = cols[0].trim();
+      const year = (cols[1] || '').trim();
+      const chunkNum = (cols[2] || '0').trim();
+      chunksToFetch.add(chunkNum);
+
+      const sKey = `${title.toLowerCase()}|${year}`;
+      const meta = metaMap.get(`s|${title.toLowerCase()}`) || {};
+
+      if (!seriesMap.has(sKey)) {
+        seriesMap.set(sKey, {
+          cat: 'Séries',
+          title,
+          desc: meta.desc || '',
+          thumb: meta.thumb || '',
+          bannerThumb: meta.thumb || '',
+          year: year || meta.year || '',
+          genre: meta.genre || 'Séries',
+          fontes: []
+        });
+      }
+    }
+
+    // Baixa todos os pedaços de episódios daquela letra em paralelo
+    const chunkNums = Array.from(chunksToFetch);
+    const chunkResponses = await Promise.all(
+      chunkNums.map((num) => fetchText(`${FILMES_BASE_URL}/series-${fileLetter}-${num}.txt`))
+    );
+
+    for (const chunkTxt of chunkResponses) {
+      if (!chunkTxt) continue;
+      let currentSerie = null;
+
+      for (const rawLine of chunkTxt.split(/\r?\n/)) {
+        const line = rawLine.trim();
+        if (!line || line.startsWith('#')) continue;
+
+        if (line.startsWith('@')) {
+          const headerCols = line.slice(1).split('\t');
+          const sTitle = (headerCols[0] || '').trim();
+          const sYear = (headerCols[1] || '').trim();
+          const sKey = `${sTitle.toLowerCase()}|${sYear}`;
+
+          if (!seriesMap.has(sKey)) {
+            const meta = metaMap.get(`s|${sTitle.toLowerCase()}`) || {};
+            seriesMap.set(sKey, {
+              cat: 'Séries',
+              title: sTitle,
+              desc: meta.desc || '',
+              thumb: meta.thumb || '',
+              bannerThumb: meta.thumb || '',
+              year: sYear || meta.year || '',
+              genre: meta.genre || 'Séries',
+              fontes: []
+            });
+          }
+          currentSerie = seriesMap.get(sKey);
+        } else if (currentSerie) {
+          // Linha de episódio: temporada \t episódio \t versão \t fontes
+          const epCols = line.split('\t');
+          if (epCols.length >= 4) {
+            const urls = parseSourceList(epCols[3], bases);
+            for (const u of urls) {
+              if (!currentSerie.fontes.includes(u)) {
+                currentSerie.fontes.push(u);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  const finalSeries = Array.from(seriesMap.values()).filter((s) => s.fontes.length > 0);
+  console.log(`  [+] Total de Séries extraídas com episódios: ${finalSeries.length.toLocaleString('pt-BR')}`);
+  return finalSeries;
+}
+
+/**
+ * 5. ANIMES E DORAMAS: Lê redeflix/links-animes.txt e redeflix/links-doramas.txt
+ */
+async function scrapeRedeFlixFile(relativePath, categoryLabel, tipoMeta, bases, metaMap) {
+  console.log(`\n=== EXTRAINDO ${categoryLabel.toUpperCase()} (${relativePath}) ===`);
+  const txt = await fetchText(`${FILMES_BASE_URL}/${relativePath}`);
+  if (!txt) {
+    console.warn(`  [!] Arquivo ${relativePath} vazio ou não encontrado.`);
+    return [];
+  }
+
+  const itemsMap = new Map();
+  let currentItem = null;
+
+  for (const rawLine of txt.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith('#')) continue;
+
+    if (line.startsWith('@')) {
+      // Formato: @título \t ano \t id
+      const cols = line.slice(1).split('\t');
+      const title = (cols[0] || '').trim();
+      const year = (cols[1] || '').trim();
+      const key = `${title.toLowerCase()}|${year}`;
+
+      const meta =
+        metaMap.get(`${tipoMeta}|${title.toLowerCase()}`) ||
+        metaMap.get(`s|${title.toLowerCase()}`) ||
+        {};
+
+      if (!itemsMap.has(key)) {
+        currentItem = {
+          cat: categoryLabel,
+          title,
+          desc: meta.desc || '',
+          thumb: meta.thumb || '',
+          bannerThumb: meta.thumb || '',
+          year: year || meta.year || '',
+          genre: meta.genre || categoryLabel,
+          fontes: []
+        };
+        itemsMap.set(key, currentItem);
+      } else {
+        currentItem = itemsMap.get(key);
+      }
+    } else if (currentItem) {
+      // temporada \t episódio \t versão \t fontes
+      const epCols = line.split('\t');
+      const sourceField = epCols[3] || epCols[epCols.length - 1] || '';
+      const urls = parseSourceList(sourceField, bases);
+      for (const u of urls) {
+        if (!currentItem.fontes.includes(u)) {
+          currentItem.fontes.push(u);
+        }
+      }
+    }
+  }
+
+  const result = Array.from(itemsMap.values()).filter((it) => it.fontes.length > 0);
+  console.log(`  [+] Total de ${categoryLabel} extraídos: ${result.length.toLocaleString('pt-BR')}`);
+  return result;
+}
+
+function saveJsonFile(filename, items) {
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  }
+  const fullPath = path.join(OUTPUT_DIR, filename);
+  fs.writeFileSync(fullPath, JSON.stringify(items, null, 2), 'utf-8');
+  console.log(`  [✓] Arquivo listas/${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
+}
+
+function saveSeriesIn3Parts(seriesArray) {
+  const total = seriesArray.length;
+  const partSize = Math.ceil(total / 3) || 0;
+  saveJsonFile('series_sm_pt1.json', seriesArray.slice(0, partSize));
+  saveJsonFile('series_sm_pt2.json', seriesArray.slice(partSize, partSize * 2));
+  saveJsonFile('series_sm_pt3.json', seriesArray.slice(partSize * 2));
+}
+
+(async () => {
+  try {
+    // 1. Canais ao vivo
+    const canais = await scrapeCanais();
+    saveJsonFile('canais_sm.json', canais);
+
+    // 2. Carrega índice de servidores (bases) e fichas de capas/gêneros
+    const { bases, letters, metaMap } = await loadVodMetadata();
+
+    // 3. Filmes
+    const filmes = await scrapeFilmes(bases, letters, metaMap);
+    saveJsonFile('filmes_sm.json', filmes);
+
+    // 4. Séries (Divididas em 3 partes)
+    const series = await scrapeSeries(bases, letters, metaMap);
+    saveSeriesIn3Parts(series);
+
+    // 5. Animes
+    const animes = await scrapeRedeFlixFile('redeflix/links-animes.txt', 'Animes', 'a', bases, metaMap);
+    saveJsonFile('animes_sm.json', animes);
+
+    // 6. Doramas
+    const doramas = await scrapeRedeFlixFile('redeflix/links-doramas.txt', 'Doramas', 'd', bases, metaMap);
+    saveJsonFile('doramas_sm.json', doramas);
+
+  } catch (err) {
+    console.error('[Erro Fatal]:', err);
+    process.exit(1);
+  }
+})();
