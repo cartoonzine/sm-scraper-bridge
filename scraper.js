@@ -232,10 +232,17 @@ function deduplicate(items) {
   return out;
 }
 
+// Pasta onde todas as listas serão salvas
+const OUTPUT_DIR = path.join(__dirname, 'listas');
+
 function saveJsonFile(filename, items) {
-  const fullPath = path.join(__dirname, filename);
+  // Cria a pasta "listas/" automaticamente se ela não existir
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  }
+  const fullPath = path.join(OUTPUT_DIR, filename);
   fs.writeFileSync(fullPath, JSON.stringify(items, null, 2), 'utf-8');
-  console.log(`  [✓] Arquivo ${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
+  console.log(`  [✓] Arquivo listas/${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
 }
 
 /**
@@ -378,12 +385,24 @@ async function scrapeSite(browser, baseUrl, isVod = false) {
 }
 
 (async () => {
-  // Remove arquivos indesejados (séries_sm.json com acento e series_sm.json único)
-  for (const oldFile of ['séries_sm.json', 'series_sm.json']) {
+  // Remove os JSONs que estavam soltos na raiz do repositório
+  const oldRootFiles = [
+    'canais_sm.json',
+    'filmes_sm.json',
+    'series_sm.json',
+    'séries_sm.json',
+    'series_sm_pt1.json',
+    'series_sm_pt2.json',
+    'series_sm_pt3.json',
+    'animes_sm.json',
+    'doramas_sm.json'
+  ];
+
+  for (const oldFile of oldRootFiles) {
     const p = path.join(__dirname, oldFile);
     if (fs.existsSync(p)) {
       fs.unlinkSync(p);
-      console.log(`[Limpeza] Removido: ${oldFile}`);
+      console.log(`[Limpeza Raiz] Removido da raiz: ${oldFile}`);
     }
   }
 
