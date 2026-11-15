@@ -5,8 +5,11 @@ const path = require('path');
 const URL_CANAIS = 'https://canais-saimo.pages.dev/';
 const URL_VOD = 'https://filmes-saimo.pages.dev/';
 
+// Defina aqui se quer 'series_sm.json' (sem acento) ou 'séries_sm.json' (com acento)
+const SERIES_FILENAME = 'series_sm.json';
+
 /**
- * Converte um item bruto (seja de JSON, bundle JS ou M3U) para o formato exato:
+ * Converte qualquer objeto capturado para o formato exato do seu sistema:
  * { cat, title, desc, thumb, bannerThumb, year, genre, fontes }
  */
 function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
@@ -43,7 +46,6 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
     raw.cat || raw.type || raw.tipo || defaultCat
   ).toString().trim();
 
-  // Monta o campo "fontes" exatamente como o seu sistema lê
   let fontes = [];
   if (Array.isArray(raw.fontes) && raw.fontes.length > 0) {
     fontes = raw.fontes;
@@ -77,7 +79,7 @@ function formatToCartoonzineSchema(raw, defaultCat = 'Filmes') {
 }
 
 /**
- * Parser M3U / TXT completo
+ * Parser M3U / TXT
  */
 function parseM3U(content, defaultCat = 'Canais') {
   const lines = content.split(/\r?\n/);
@@ -115,36 +117,87 @@ function parseM3U(content, defaultCat = 'Canais') {
 }
 
 /**
- * Extrai arrays de objetos que estejam embutidos dentro de arquivos .js (bundles)
+ * Extrator pesado: encontra arrays de objetos literais [{...},{...}] dentro de arquivos .js do Vite/Webpack
  */
-function extractArraysFromJsText(jsText, sourceUrl) {
-  const found = [];
+function extractJsLiteralArrays(jsCode, sourceUrl) {
+  const results = [];
 
-  // 1. Verifica se há blocos M3U dentro do JS (template strings `#EXTINF:...`)
-  if (jsText.includes('#EXTINF:')) {
-    const m3uParsed = parseM3U(jsText);
-    if (m3uParsed.length > 0) {
-      console.log(`  [+] Bloco M3U encontrado dentro de JS (${m3uParsed.length} itens): ${sourceUrl}`);
-      found.push(...m3uParsed);
+  if (jsCode.includes('#EXTINF:')) {
+    const m3u = parseM3U(jsCode);
+    if (m3u.length > 0) {
+      console.log(`    -> [+] M3U embutido em JS (${m3u.length} itens): ${sourceUrl}`);
+      results.push(...m3u);
     }
   }
 
-  // 2. Procura JSON.parse('...') ou JSON.parse("...") embutidos no bundle do Vite/Webpack
-  const jsonParseRegex = /JSON\.parse\(\s*(['"`])([\s\S]*?)\1\s*\)/g;
+  // Procura padrões de início de array de objetos: `=[{` ou `: [{`
+  const startRegex = /[=:]\s*\[\s*\{/g;
   let match;
-  while ((match = jsonParseRegex.exec(jsText)) !== null) {
-    try {
-      const unescaped = match[2].replace(/\\"/g, '"').replace(/\\'/g, "'").replace(/\\\\/g, '\\');
-      const parsed = JSON.parse(unescaped);
-      const arr = Array.isArray(parsed) ? parsed : Object.values(parsed).find(v => Array.isArray(v));
-      if (Array.isArray(arr) && arr.length > 5) {
-        console.log(`  [+] JSON.parse embutido em JS (${arr.length} itens): ${sourceUrl}`);
-        found.push(...arr);
+
+  while ((match = startRegex.exec(jsCode)) !== null) {
+    const bracketStart = jsCode.indexOf('[', match.index);
+    if (bracketStart === -1) continue;
+
+    let depth = 0;
+    let inString = false;
+    let stringChar = '';
+    let escaped = false;
+    let endIdx = -1;
+
+    for (let i = bracketStart; i < jsCode.length; i++) {
+      const ch = jsCode[i];
+
+      if (escaped) {
+        escaped = false;
+        continue;
       }
-    } catch (_) {}
+      if (ch === '\\') {
+        escaped = true;
+        continue;
+      }
+      if (inString) {
+        if (ch === stringChar) inString = false;
+        continue;
+      }
+      if (ch === '"' || ch === "'" || ch === '`') {
+        inString = true;
+        stringChar = ch;
+        continue;
+      }
+      if (ch === '[') depth++;
+      else if (ch === ']') {
+        depth--;
+        if (depth === 0) {
+          endIdx = i;
+          break;
+        }
+      }
+    }
+
+    if (endIdx !== -1 && (endIdx - bracketStart) > 500) {
+      const arrayCandidate = jsCode.slice(bracketStart, endIdx + 1);
+      try {
+        // Avalia com segurança o literal de array extraído do bundle JS
+        const evaluated = new Function(`return ${arrayCandidate}`)();
+        if (Array.isArray(evaluated) && evaluated.length > 5 && typeof evaluated[0] === 'object') {
+          const sample = evaluated[0];
+          const keys = Object.keys(sample).join(',').toLowerCase();
+          if (
+            keys.includes('title') || keys.includes('name') || keys.includes('nome') ||
+            keys.includes('titulo') || keys.includes('url') || keys.includes('stream') ||
+            keys.includes('fontes') || keys.includes('logo') || keys.includes('thumb')
+          ) {
+            console.log(`    -> [+] Array JS Literal extraído (${evaluated.length} itens | chaves: ${keys.slice(0, 60)}): ${sourceUrl}`);
+            results.push(...evaluated);
+            // Avança o ponteiro do regex para depois desse array gigante
+            startRegex.lastIndex = endIdx;
+          }
+        }
+      } catch (_) {}
+    }
   }
 
-  return found;
+  return results;
 }
 
 /**
@@ -177,149 +230,6 @@ function classifyVodItem(raw) {
   return 'filmes';
 }
 
-/**
- * Injeta espiões (hooks) no navegador ANTES da página carregar para capturar
- * qualquer JSON.parse, fetch, XHR ou array gigante na memória do React/Vite
- */
-async function attachBrowserHooks(page) {
-  await page.evaluateOnNewDocument(() => {
-    window.__SM_CAPTURED_ARRAYS__ = [];
-    window.__SM_CAPTURED_TEXTS__ = [];
-
-    const recordData = (data, label) => {
-      try {
-        if (!data) return;
-        if (Array.isArray(data) && data.length > 3 && typeof data[0] === 'object' && data[0] !== null) {
-          window.__SM_CAPTURED_ARRAYS__.push({ label, items: data });
-        } else if (typeof data === 'object') {
-          for (const [k, v] of Object.entries(data)) {
-            if (Array.isArray(v) && v.length > 3 && typeof v[0] === 'object' && v[0] !== null) {
-              window.__SM_CAPTURED_ARRAYS__.push({ label: `${label}.${k}`, items: v });
-            }
-          }
-        }
-      } catch (_) {}
-    };
-
-    // Hook no JSON.parse nativo da página
-    const origParse = JSON.parse;
-    JSON.parse = function (...args) {
-      const res = origParse.apply(this, args);
-      recordData(res, 'JSON.parse');
-      return res;
-    };
-
-    // Hook no window.fetch nativo da página
-    const origFetch = window.fetch;
-    window.fetch = async function (...args) {
-      const response = await origFetch.apply(this, args);
-      try {
-        const clone = response.clone();
-        const url = typeof args[0] === 'string' ? args[0] : (args[0]?.url || 'fetch');
-        clone.text().then((txt) => {
-          if (txt.includes('#EXTINF:')) {
-            window.__SM_CAPTURED_TEXTS__.push({ url, text: txt });
-          } else if (txt.trim().startsWith('[') || txt.trim().startsWith('{')) {
-            try {
-              const parsed = origParse(txt);
-              recordData(parsed, `fetch:${url}`);
-            } catch (_) {}
-          }
-        }).catch(() => {});
-      } catch (_) {}
-      return response;
-    };
-  });
-}
-
-/**
- * Coleta dados profundos da página (Hooks + IndexedDB + LocalStorage + DOM)
- */
-async function collectFromPageMemory(page) {
-  return await page.evaluate(async () => {
-    const arrays = [...(window.__SM_CAPTURED_ARRAYS__ || [])];
-    const texts = [...(window.__SM_CAPTURED_TEXTS__ || [])];
-
-    // 1. Varre todas as variáveis globais no window
-    for (const key of Object.keys(window)) {
-      if (key.startsWith('__SM_')) continue;
-      try {
-        const val = window[key];
-        if (Array.isArray(val) && val.length > 3 && typeof val[0] === 'object' && val[0] !== null) {
-          arrays.push({ label: `window.${key}`, items: val });
-        } else if (val && typeof val === 'object' && ! (val instanceof Element) && val !== window && val !== document) {
-          for (const [subK, subV] of Object.entries(val)) {
-            if (Array.isArray(subV) && subV.length > 3 && typeof subV[0] === 'object' && subV[0] !== null) {
-              arrays.push({ label: `window.${key}.${subK}`, items: subV });
-            }
-          }
-        }
-      } catch (_) {}
-    }
-
-    // 2. Varre bancos IndexedDB (muito usado em catálogos grandes no pages.dev)
-    if (window.indexedDB && typeof window.indexedDB.databases === 'function') {
-      try {
-        const dbs = await window.indexedDB.databases();
-        for (const dbInfo of dbs) {
-          if (!dbInfo.name) continue;
-          await new Promise((resolve) => {
-            const req = window.indexedDB.open(dbInfo.name);
-            req.onsuccess = () => {
-              const db = req.result;
-              const storeNames = Array.from(db.objectStoreNames);
-              if (storeNames.length === 0) return resolve();
-              let pending = storeNames.length;
-              for (const sName of storeNames) {
-                try {
-                  const tx = db.transaction(sName, 'readonly');
-                  const store = tx.objectStore(sName);
-                  const getAllReq = store.getAll();
-                  getAllReq.onsuccess = () => {
-                    const res = getAllReq.result;
-                    if (Array.isArray(res) && res.length > 0) {
-                      arrays.push({ label: `IndexedDB:${dbInfo.name}.${sName}`, items: res });
-                    }
-                    if (--pending === 0) resolve();
-                  };
-                  getAllReq.onerror = () => { if (--pending === 0) resolve(); };
-                } catch (_) {
-                  if (--pending === 0) resolve();
-                }
-              }
-            };
-            req.onerror = () => resolve();
-          });
-        }
-      } catch (_) {}
-    }
-
-    // 3. Fallback DOM: captura os cards visíveis na tela se nada mais existir
-    const domCards = [];
-    document.querySelectorAll('img').forEach((img) => {
-      const card = img.closest('div, a, li, article');
-      if (!card) return;
-      const title = (card.innerText || img.alt || '').split('\n')[0].trim();
-      const thumb = img.src || img.getAttribute('data-src') || '';
-      const link = card.querySelector('a')?.href || card.getAttribute('data-url') || card.getAttribute('data-src') || '';
-      if (title && thumb && !thumb.includes('data:image/svg')) {
-        domCards.push({ title, thumb, url: link });
-      }
-    });
-
-    return {
-      arrays,
-      texts,
-      domCards,
-      pageTitle: document.title,
-      bodySample: (document.body?.innerText || '').slice(0, 400).replace(/\s+/g, ' ')
-    };
-  });
-}
-
-/**
- * Remove duplicados mantendo performance para +40 mil itens
- */
 function deduplicate(items) {
   const seen = new Set();
   const out = [];
@@ -335,18 +245,12 @@ function deduplicate(items) {
   return out;
 }
 
-/**
- * Salva o arquivo JSON sempre (para o git add não falhar)
- */
 function saveJsonFile(filename, items) {
   const fullPath = path.join(__dirname, filename);
   fs.writeFileSync(fullPath, JSON.stringify(items, null, 2), 'utf-8');
-  console.log(`  [✓] Arquivo ${filename} gerado com ${items.length.toLocaleString('pt-BR')} registros.`);
+  console.log(`  [✓] Arquivo ${filename} salvo com ${items.length.toLocaleString('pt-BR')} registros.`);
 }
 
-/**
- * Faz o scraping completo de uma URL (.pages.dev)
- */
 async function scrapeSite(browser, url, isVod = false) {
   console.log(`\n======================================================`);
   console.log(`ACESSANDO: ${url}`);
@@ -354,9 +258,8 @@ async function scrapeSite(browser, url, isVod = false) {
 
   const page = await browser.newPage();
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36');
-  await attachBrowserHooks(page);
 
-  const networkItems = [];
+  const collected = [];
   let activeTab = '';
 
   page.on('response', async (res) => {
@@ -364,7 +267,6 @@ async function scrapeSite(browser, url, isVod = false) {
     const status = res.status();
     const cType = (res.headers()['content-type'] || '').toLowerCase();
 
-    // Ignora imagens e fontes
     if (/\.(png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|css)(\?|$)/i.test(rUrl) || rUrl.includes('tmdb.org/t/p') || rUrl.includes('fonts.')) {
       return;
     }
@@ -375,28 +277,28 @@ async function scrapeSite(browser, url, isVod = false) {
       const text = await res.text();
       if (!text || text.length < 20) return;
 
-      // Caso 1: Lista M3U / EXTINF
+      // 1. M3U direto
       if (text.includes('#EXTINF:')) {
         const parsed = parseM3U(text, isVod ? (activeTab || 'Filmes') : 'Canais');
-        console.log(`    -> [+] M3U extraído da rede: ${parsed.length} itens`);
-        parsed.forEach(p => networkItems.push({ ...p, _sourceUrl: rUrl, _activeTab: activeTab }));
+        console.log(`    -> [+] M3U extraído (${parsed.length} itens)`);
+        parsed.forEach(p => collected.push({ ...p, _sourceUrl: rUrl, _activeTab: activeTab }));
         return;
       }
 
-      // Caso 2: Resposta JSON direta (mesmo se vier com content-type text/plain ou octet-stream)
+      // 2. JSON direto
       const trimmed = text.trim();
       if (trimmed.startsWith('[') || trimmed.startsWith('{')) {
         try {
           const json = JSON.parse(trimmed);
           if (Array.isArray(json) && json.length > 0) {
-            console.log(`    -> [+] Array JSON direto: ${json.length} itens`);
-            json.forEach(it => networkItems.push({ ...it, _sourceUrl: rUrl, _activeTab: activeTab }));
+            console.log(`    -> [+] Array JSON (${json.length} itens)`);
+            json.forEach(it => collected.push({ ...it, _sourceUrl: rUrl, _activeTab: activeTab }));
             return;
           } else if (json && typeof json === 'object') {
             for (const [k, v] of Object.entries(json)) {
               if (Array.isArray(v) && v.length > 0) {
-                console.log(`    -> [+] Objeto JSON["${k}"]: ${v.length} itens`);
-                v.forEach(it => networkItems.push({ ...it, _sourceUrl: rUrl, _sourceKey: k, _activeTab: activeTab }));
+                console.log(`    -> [+] Objeto JSON["${k}"] (${v.length} itens)`);
+                v.forEach(it => collected.push({ ...it, _sourceUrl: rUrl, _sourceKey: k, _activeTab: activeTab }));
               }
             }
             return;
@@ -404,16 +306,15 @@ async function scrapeSite(browser, url, isVod = false) {
         } catch (_) {}
       }
 
-      // Caso 3: Bundle JavaScript (.js) que pode conter dados embutidos
-      if (cType.includes('javascript') || rUrl.endsWith('.js')) {
-        const fromJs = extractArraysFromJsText(text, rUrl);
-        fromJs.forEach(it => networkItems.push({ ...it, _sourceUrl: rUrl, _activeTab: activeTab }));
+      // 3. Bundles JS ou HTML com scripts inline
+      if (cType.includes('javascript') || cType.includes('html') || rUrl.endsWith('.js')) {
+        const fromJs = extractJsLiteralArrays(text, rUrl);
+        fromJs.forEach(it => collected.push({ ...it, _sourceUrl: rUrl, _activeTab: activeTab }));
       }
     } catch (_) {}
   });
 
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 120000 });
-  // Aguarda descomprimir listas grandes ou carregar WebWorkers/IndexedDB
   await new Promise(r => setTimeout(r, 6000));
 
   if (isVod) {
@@ -436,80 +337,55 @@ async function scrapeSite(browser, url, isVod = false) {
     }
   }
 
-  // Coleta tudo que foi interceptado pelos hooks na memória do navegador
-  const mem = await collectFromPageMemory(page);
-  console.log(`  [Diagnóstico da Página] Título: "${mem.pageTitle}" | Texto inicial: "${mem.bodySample}"`);
+  // Diagnóstico do HTML renderizado
+  const diag = await page.evaluate(() => ({
+    title: document.title,
+    scripts: Array.from(document.querySelectorAll('script[src]')).map(s => s.src),
+    bodyPreview: (document.body?.innerText || '').slice(0, 500).replace(/\s+/g, ' ')
+  }));
 
-  for (const group of mem.arrays) {
-    console.log(`  [+] Capturado na memória (${group.label}): ${group.items.length} itens`);
-    group.items.forEach(it => {
-      if (it && typeof it === 'object') {
-        networkItems.push({ ...it, _sourceKey: group.label });
-      }
-    });
-  }
-
-  for (const txtObj of mem.texts) {
-    const parsed = parseM3U(txtObj.text, isVod ? 'Filmes' : 'Canais');
-    console.log(`  [+] M3U capturado via Hook Fetch (${txtObj.url}): ${parsed.length} itens`);
-    parsed.forEach(it => networkItems.push({ ...it, _sourceUrl: txtObj.url }));
-  }
-
-  if (networkItems.length === 0 && mem.domCards.length > 0) {
-    console.log(`  [+] Usando fallback de cards do DOM: ${mem.domCards.length} itens`);
-    networkItems.push(...mem.domCards);
-  }
+  console.log(`  [Diagnóstico] Título: "${diag.title}"`);
+  console.log(`  [Diagnóstico] Scripts na página:`, diag.scripts);
+  console.log(`  [Diagnóstico] Texto na tela: "${diag.bodyPreview}"`);
 
   await page.close();
-  return networkItems;
+  return collected;
 }
 
 (async () => {
+  // Remove o arquivo duplicado com acento caso exista no repositório
+  const duplicatePath = path.join(__dirname, 'séries_sm.json');
+  if (SERIES_FILENAME !== 'séries_sm.json' && fs.existsSync(duplicatePath)) {
+    fs.unlinkSync(duplicatePath);
+    console.log('[Limpeza] Arquivo duplicado séries_sm.json removido.');
+  }
+
   const browser = await puppeteer.launch({
     headless: 'new',
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
   });
 
   try {
-    // 1. CANAIS
     const rawCanais = await scrapeSite(browser, URL_CANAIS, false);
     const canaisFormatted = deduplicate(
       rawCanais.map(item => formatToCartoonzineSchema(item, 'Canais'))
     );
     saveJsonFile('canais_sm.json', canaisFormatted);
 
-    // 2. VOD (FILMES, SÉRIES, ANIMES, DORAMAS)
     const rawVod = await scrapeSite(browser, URL_VOD, true);
-    const buckets = {
-      filmes: [],
-      series: [],
-      animes: [],
-      doramas: []
-    };
+    const buckets = { filmes: [], series: [], animes: [], doramas: [] };
 
     for (let i = 0; i < rawVod.length; i++) {
       const raw = rawVod[i];
       const category = classifyVodItem(raw);
-      const labelMap = {
-        filmes: 'Filmes',
-        series: 'Séries',
-        animes: 'Animes',
-        doramas: 'Doramas'
-      };
-      const formatted = formatToCartoonzineSchema(raw, labelMap[category]);
-      buckets[category].push(formatted);
+      const labelMap = { filmes: 'Filmes', series: 'Séries', animes: 'Animes', doramas: 'Doramas' };
+      buckets[category].push(formatToCartoonzineSchema(raw, labelMap[category]));
     }
 
-    const filmesFinal = deduplicate(buckets.filmes);
-    const seriesFinal = deduplicate(buckets.series);
-    const animesFinal = deduplicate(buckets.animes);
-    const doramasFinal = deduplicate(buckets.doramas);
-
-    saveJsonFile('filmes_sm.json', filmesFinal);
-    saveJsonFile('series_sm.json', seriesFinal);
-    saveJsonFile('séries_sm.json', seriesFinal);
-    saveJsonFile('animes_sm.json', animesFinal);
-    saveJsonFile('doramas_sm.json', doramasFinal);
+    saveJsonFile('filmes_sm.json', deduplicate(buckets.filmes));
+    saveJsonFile(SERIES_FILENAME, deduplicate(buckets.series));
+    saveJsonFile('animes_sm.json', deduplicate(buckets.animes));
+    saveJsonFile('doramas_sm.json', deduplicate(buckets.doramas));
 
   } catch (err) {
     console.error('[Erro Fatal]:', err);
