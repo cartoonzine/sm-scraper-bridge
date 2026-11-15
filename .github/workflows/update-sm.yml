@@ -23,19 +23,22 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Instalar dependências e Chrome
-        run: |
-          npm install
-          npx puppeteer browsers install chrome
+      - name: Instalar dependências
+        run: npm install
 
       - name: Executar Scraper SM
         run: npm start
 
-      - name: Salvar todas as listas na pasta listas/
+      - name: Limpar node_modules do Git e salvar apenas /listas
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Remove apenas JSONs soltos na raiz (sem tocar na pasta listas/)
-          rm -f ./*_sm*.json ./séries_sm.json
-          git add -A
-          git diff --staged --quiet || (git commit -m "chore: listas completas atualizadas em /listas" && git push)
+          # Cria .gitignore para nunca subir node_modules
+          echo "node_modules/" > .gitignore
+          echo "package-lock.json" >> .gitignore
+          # Remove node_modules e JSONs antigos soltos na raiz caso tenham subido antes
+          git rm -r --cached node_modules --ignore-unmatch
+          git rm -f ./*_sm*.json ./séries_sm.json --ignore-unmatch
+          # Adiciona o .gitignore e todos os JSONs da pasta listas/
+          git add .gitignore listas/*.json
+          git diff --staged --quiet || (git commit -m "chore: atualização automática das listas em /listas" && git push)
