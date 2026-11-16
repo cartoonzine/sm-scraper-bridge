@@ -43,6 +43,17 @@ async function fetchText(url, retries = 4) {
   return '';
 }
 
+/**
+ * Só considera comentário se começar com "# " (sustenido + espaço) e não tiver TAB,
+ * para NUNCA ignorar filmes/séries reais como "#blackAF", "#Alive", etc.!
+ */
+function isCommentLine(line) {
+  if (!line) return true;
+  if (line.startsWith('#') && !line.includes('\t')) return true;
+  if (line.startsWith('# ') && line.split('\t')[0].includes('tipo')) return true;
+  return false;
+}
+
 function decodificarHtml(s) {
   return String(s || '')
     .replace(/&amp;/gi, '&')
@@ -94,6 +105,7 @@ function extrairTmdbIdDaLinha(linhaCompleta) {
 function normalizeMediaUrl(rawUrl, referer = '', userAgent = '') {
   if (!rawUrl || typeof rawUrl !== 'string') return null;
   let u = rawUrl.trim();
+  if (u.startsWith('//')) u = `https:${u}`;
   if (!u.startsWith('http://') && !u.startsWith('https://')) return null;
 
   const low = u.toLowerCase().split('?')[0];
@@ -203,15 +215,16 @@ function montarFonteComQualidade(valorBruto, idioma, bases, marcasMap) {
   if (!limpo) return null;
   const qualidadeMarca = marcasMap ? (marcasMap.get(limpo) || '') : '';
 
-  if (limpo.startsWith('http://') || limpo.startsWith('https://')) {
+  if (limpo.startsWith('http://') || limpo.startsWith('https://') || limpo.startsWith('//')) {
     const urlFinal = normalizeMediaUrl(limpo);
     return urlFinal ? { url: urlFinal, idioma, qualidade: qualidadeMarca } : null;
   }
 
   const partes = limpo.split(':');
   if (partes.length < 2) return null;
-  const base = bases[partes[0].trim()];
+  const baseKey = partes[0].trim();
   const resto = partes.slice(1).join(':').trim();
+  const base = bases[baseKey];
   if (!base || !resto) return null;
 
   const baseFmt = base.endsWith('/') ? base : `${base}/`;
@@ -482,7 +495,7 @@ async function carregarMetadadosVOD() {
 
   for (let l of (fichasTxt || '').split(/\r?\n/)) {
     l = l.trim();
-    if (!l || l.startsWith('#') || l.startsWith('capa:')) continue;
+    if (!l || isCommentLine(l) || l.startsWith('capa:')) continue;
     const c = l.split('\t');
     if (c.length >= 4) {
       const m = getOrInit(c[0], c[1]);
@@ -500,7 +513,7 @@ async function carregarMetadadosVOD() {
 
   for (let l of (destaquesTxt || '').split(/\r?\n/)) {
     l = l.trim();
-    if (!l || l.startsWith('#') || l.startsWith('capa:') || l.startsWith('fila\t')) continue;
+    if (!l || isCommentLine(l) || l.startsWith('capa:') || l.startsWith('fila\t')) continue;
     const c = l.split('\t');
     if (c.length >= 5 && ['f', 's', 'a', 'd'].includes(c[0])) {
       const anoDest = (c[3] || '').trim();
@@ -515,7 +528,7 @@ async function carregarMetadadosVOD() {
 
   for (let l of (generosTxt || '').split(/\r?\n/)) {
     const c = l.trim().split('\t');
-    if (c.length >= 3 && !c[0].startsWith('#')) {
+    if (c.length >= 3 && !isCommentLine(l)) {
       const m = getOrInit(c[0], c[1]);
       if (!m.genre && c[2]) m.genre = c[2].split(',')[0].trim();
     }
@@ -523,7 +536,7 @@ async function carregarMetadadosVOD() {
 
   for (let l of (detalhesTxt || '').split(/\r?\n/)) {
     const c = l.trim().split('\t');
-    if (c.length >= 3 && !c[0].startsWith('#')) {
+    if (c.length >= 3 && !isCommentLine(l)) {
       const anoDet = (c[2] || '').trim();
       const m = getOrInit(c[0], c[1]);
       if (anoDet) m.year = anoDet;
@@ -542,11 +555,13 @@ async function carregarMetadadosVOD() {
 }
 
 /**
- * 3. COLETA FILMES + RESERVADOS (Bate os 31.526!) E SÉRIES
+ * 3. COLETA TODOS OS FILMES + RESERVADOS E TODAS AS SÉRIES (Com Diagnóstico de Linhas)
  */
 async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marcasMap, latenciasHost) {
   const filmesCartoonzine = [];
   const seriesCartoonzine = [];
+  let totalLinhasBrutasFilmes = 0;
+  let linhasIgnoradasFilmes = [];
 
   console.log('\n🎥 3. Extraindo todos os Filmes (filmes-<LETRA>.txt + reservado-<LETRA>.txt)...');
   const todasLetras = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
@@ -560,24 +575,29 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
           fetchText(`${FILMES_BASE_URL}/filmes-${arq}.txt`).then((t) => t || (letra === '#' ? fetchText(`${FILMES_BASE_URL}/filmes-#.txt`) : '')),
           fetchText(`${FILMES_BASE_URL}/reservado-${arq}.txt`).then((t) => t || (letra === '#' ? fetchText(`${FILMES_BASE_URL}/reservado-#.txt`) : ''))
         ]);
-        return { fTxt, rTxt };
+        return { letra, fTxt, rTxt };
       })
     );
 
-    for (const { fTxt, rTxt } of lote) {
-      // Processa filmes-<LETRA>.txt e reservado-<LETRA>.txt
+    for (const { letra, fTxt, rTxt } of lote) {
       for (const [blocoTxt, generoPadrao] of [[fTxt, 'Filme'], [rTxt, 'Adulto']]) {
         for (let l of (blocoTxt || '').split(/\r?\n/)) {
           l = l.trim();
-          if (!l || l.startsWith('#')) continue;
-          const c = l.split('\t');
-          if (c.length < 2 || !c[0]) continue;
+          if (!l || isCommentLine(l)) continue;
+          totalLinhasBrutasFilmes++;
 
-          const tituloBruto = c[0].trim();
+          const c = l.split('\t');
+          const tituloBruto = (c[0] || '').trim();
+          if (!tituloBruto) continue;
+
           const anoExtraido = extrairAnoDoTitulo(tituloBruto);
           const tmdbIdNaLinha = extrairTmdbIdDaLinha(l);
           const fontes = extrairFontes(c, bases, marcasMap, latenciasHost);
-          if (fontes.length === 0) continue;
+
+          if (fontes.length === 0) {
+            if (linhasIgnoradasFilmes.length < 5) linhasIgnoradasFilmes.push(`[${letra}] ${l.slice(0, 120)}`);
+            continue;
+          }
 
           const meta =
             (tmdbIdNaLinha && metaPorTmdbId.get(`f_${tmdbIdNaLinha}`)) ||
@@ -610,7 +630,14 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
     }
   }
 
+  console.log(`  [Raio-X Filmes] Total de linhas existentes nos arquivos .txt: ${totalLinhasBrutasFilmes} | Extraídos com fonte: ${filmesCartoonzine.length}`);
+  if (linhasIgnoradasFilmes.length > 0) {
+    console.log(`  [Amostra de linhas sem fonte em Filmes]:\n    ${linhasIgnoradasFilmes.join('\n    ')}`);
+  }
+
   console.log('\n📺 4. Extraindo todas as Séries (# e A-Z)...');
+  let totalLinhasIndiceSeries = 0;
+
   for (const letra of todasLetras) {
     const arq = letra === '#' ? '%23' : letra;
     const idxTxt = (await fetchText(`${FILMES_BASE_URL}/series-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/series-#.txt`) : '');
@@ -618,8 +645,13 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
 
     const pedacos = new Set();
     for (const l of idxTxt.split(/\r?\n/)) {
-      const c = l.split('\t');
-      if (c.length >= 3 && c[2]) pedacos.add(c[2].trim());
+      const line = l.trim();
+      if (!line || isCommentLine(line)) continue;
+      totalLinhasIndiceSeries++;
+      const c = line.split('\t');
+      if (c.length >= 3 && c[2] !== undefined && c[2].trim() !== '') {
+        pedacos.add(c[2].trim());
+      }
     }
 
     const pedacosArr = Array.from(pedacos);
@@ -646,7 +678,7 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
 
       for (let l of (txt || '').split(/\r?\n/)) {
         l = l.trim();
-        if (!l || l.startsWith('#')) continue;
+        if (!l || isCommentLine(l)) continue;
         if (l.startsWith('@')) {
           fechar();
           const c = l.slice(1).split('\t');
@@ -682,6 +714,8 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
     }
   }
 
+  console.log(`  [Raio-X Séries] Total listadas em series-<LETRA>.txt: ${totalLinhasIndiceSeries} | Séries com episódios em series-<LETRA>-<N>.txt: ${seriesCartoonzine.length}`);
+
   return { filmesCartoonzine, seriesCartoonzine };
 }
 
@@ -704,7 +738,7 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, norm
 
   for (let l of txt.split(/\r?\n/)) {
     l = l.trim();
-    if (!l || l.startsWith('#')) continue;
+    if (!l || isCommentLine(l)) continue;
     if (l.startsWith('@')) {
       fechar();
       const c = l.slice(1).split('\t');
@@ -746,7 +780,7 @@ async function processarDestaques(destaquesTxt, metaMap, normKey, tmdbCache) {
 
   for (let l of destaquesTxt.split(/\r?\n/)) {
     l = l.trim();
-    if (!l || l.startsWith('#')) continue;
+    if (!l || isCommentLine(l)) continue;
     if (l.startsWith('capa:')) { capaBase = l.replace('capa:', '').trim(); continue; }
     const c = l.split('\t');
     if (c[0] === 'fila' && c.length >= 2) {
