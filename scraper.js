@@ -15,7 +15,6 @@ const TMDB_IMG_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
 const TMDB_IMG_LOGO = 'https://image.tmdb.org/t/p/w500';
 
 const DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
-// User-Agent nativo extraído da engenharia reversa do Saimo TV.exe
 const SAIMO_APP_UA = 'SaimoTV-cliente/3.0.5 libmpv';
 const MAX_TMDB_FETCH_PER_RUN = 5500;
 const TMDB_CONCURRENCY = 30;
@@ -70,28 +69,18 @@ function normalizarTituloChave(titulo, anoOpcional = '') {
 function limparTituloExibicao(titulo) {
   return decodificarHtml(titulo)
     .replace(/\s*\(\d{4}\)\s*$/g, '')
-    .replace(/\s*\[(4k|uhd|fhd|1080p|720p|hd|sd|dub|leg)\]\s*/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-/**
- * Diferencia a rota bloqueada (/api/stream) do proxy de vídeo válido (/api/proxy?url=...)
- */
 function isSaimoApiStreamUrl(url) {
   const low = String(url || '').toLowerCase();
   return low.includes('/api/stream');
 }
 
-/**
- * Extrai o tmdbId diretamente dos links "api/stream?tipo=movie&id=1381071" presentes na linha!
- * Isso garante que 100% dos lançamentos de 2026 tenham seu tmdbId mesmo se não estiverem em fichas.txt!
- */
 function extrairTmdbIdDaLinha(linhaCompleta) {
   const matches = [...String(linhaCompleta || '').matchAll(/[?&]id=(\d+)/gi)].map((m) => Number(m[1]));
-  if (!matches.length) return null;
-  // Se uma linha tiver mais de um ID (ex: Street Fighter sem ano que tem 11667 e 1153576), pega o primeiro
-  return matches[0];
+  return matches.length ? matches[0] : null;
 }
 
 function normalizeMediaUrl(rawUrl, referer = '', userAgent = '') {
@@ -102,8 +91,6 @@ function normalizeMediaUrl(rawUrl, referer = '', userAgent = '') {
 
   const low = u.toLowerCase().split('?')[0];
 
-  // Se for um proxy de vídeo da FenixFlix (saimo-tv.pages.dev/api/proxy?url=http...fenixflix...)
-  // adiciona &.mp4 no fim para o format-detector.js reconhecer como arquivo de vídeo direto (mp4)!
   if (u.includes('/api/proxy?url=') && !u.includes('format=m3u8')) {
     if (u.toLowerCase().includes('.m3u8') || u.toLowerCase().includes('.txt')) {
       return `${u}&format=m3u8`;
@@ -111,19 +98,16 @@ function normalizeMediaUrl(rawUrl, referer = '', userAgent = '') {
     return `${u}&ext=.mp4`;
   }
 
-  // Se for link do OpenDrive (.../file.json/...?inline=1), adiciona &ext=.mp4 para o format-detector.js
   if (low.includes('opendrive.com/api/v1/download/file.json')) {
     return u.includes('?') ? `${u}&ext=.mp4` : `${u}?inline=1&ext=.mp4`;
   }
 
-  // Se for canal que exige Referer (s25-cloudfront-net.lat/.../error.txt)
   if (referer || low.includes('s25-cloudfront-net.lat/')) {
     const refFinal = referer || 'https://ww0.embedtv.cc/';
     const uaFinal = userAgent || DEFAULT_UA;
     return `${SAIMO_PROXY_URL}?url=${encodeURIComponent(u)}&referer=${encodeURIComponent(refFinal)}&ua=${encodeURIComponent(uaFinal)}&format=m3u8`;
   }
 
-  // Se for HLS disfarçado em .txt (ex: embedplayer2.xyz/cdn/hls/.../master.txt)
   if (low.endsWith('.txt') && !u.includes('format=m3u8')) {
     u += (u.includes('?') ? '&' : '?') + 'format=m3u8';
   }
@@ -183,7 +167,11 @@ function calcularScoreFonte(fonteObj, latenciasHost) {
   return score;
 }
 
-function unificarEOrdenarFontes(listaFontes, latenciasHost) {
+/**
+ * Ordena as fontes dentro do MESMO título (melhor resolução + servidor mais rápido em 1º lugar)
+ * sem unificar nem apagar outros títulos do catálogo!
+ */
+function ordenarFontesDoItem(listaFontes, latenciasHost) {
   const mapa = new Map();
   for (const f of listaFontes) {
     if (!f || !f.url) continue;
@@ -249,18 +237,14 @@ function extrairFontes(campos, bases, marcasMap, latenciasHost) {
   }
 
   return {
-    diretas: unificarEOrdenarFontes(fontesDiretas, latenciasHost),
+    diretas: ordenarFontesDoItem(fontesDiretas, latenciasHost),
     apiFallbacks
   };
 }
 
-/**
- * Usa o User-Agent nativo do Saimo TV.exe ("SaimoTV-cliente/3.0.5 libmpv") para resolver
- * qualquer título que só possua link /api/stream
- */
 async function resolverFilmesExclusivosApi(filmesSemFonteDireta, latenciasHost) {
   if (!filmesSemFonteDireta.length) return [];
-  console.log(`\n🔍 Resolvendo ${filmesSemFonteDireta.length} títulos exclusivos da API com header nativo SaimoTV-cliente...`);
+  console.log(`\n🔍 Resolvendo ${filmesSemFonteDireta.length} títulos exclusivos da API...`);
   const resolvidos = [];
   const LOTE = 20;
 
@@ -300,95 +284,14 @@ async function resolverFilmesExclusivosApi(filmesSemFonteDireta, latenciasHost) 
         }
         delete filme._apiFallbacks;
         if (novasFontes.length > 0) {
-          filme.fontes = unificarEOrdenarFontes(novasFontes, latenciasHost);
+          filme.fontes = ordenarFontesDoItem(novasFontes, latenciasHost);
           resolvidos.push(filme);
         }
       })
     );
   }
-  console.log(`  [+] ${resolvidos.length} títulos exclusivos de API convertidos para link direto!`);
+  console.log(`  [+] ${resolvidos.length} títulos de API convertidos para link direto!`);
   return resolvidos;
-}
-
-function mesclarTemporadas(seasonsA = [], seasonsB = [], latenciasHost) {
-  const mapaTemp = new Map();
-  const add = (lista) => {
-    for (const s of lista) {
-      const sNum = parseInt(s.season, 10) || 1;
-      if (!mapaTemp.has(sNum)) mapaTemp.set(sNum, new Map());
-      const mapaEp = mapaTemp.get(sNum);
-      for (const ep of (s.episodes || [])) {
-        const epNum = parseInt(ep.episode, 10) || 1;
-        if (!mapaEp.has(epNum)) mapaEp.set(epNum, []);
-        mapaEp.get(epNum).push(...(ep.fontes || []));
-      }
-    }
-  };
-  add(seasonsA);
-  add(seasonsB);
-
-  return Array.from(mapaTemp.keys())
-    .sort((a, b) => a - b)
-    .map((sNum) => {
-      const mapaEp = mapaTemp.get(sNum);
-      const episodes = Array.from(mapaEp.keys())
-        .sort((a, b) => a - b)
-        .map((epNum) => ({
-          season: sNum,
-          episode: epNum,
-          fontes: unificarEOrdenarFontes(mapaEp.get(epNum), latenciasHost)
-        }))
-        .filter((ep) => ep.fontes.length > 0);
-      return { season: sNum, episodes };
-    })
-    .filter((s) => s.episodes.length > 0);
-}
-
-/**
- * Unifica títulos repetidos:
- * - Se ambos têm o MESMO tmdbId (extraído da própria linha ou do fichas.txt), como "Dinheiro Suspeito" (id=1306368)
- *   e "Dinheiro Suspeito (2026)" (id=1306368), funde num card só e preserva o ano "2026"!
- * - Já "Street Fighter" antigo (id=11667) e "Street Fighter (2026)" (id=1153576) têm tmdbIds diferentes,
- *   portanto NUNCA se misturam!
- */
-function unificarTitulosRepetidos(itens, latenciasHost, isSerie = false) {
-  const mapaUnico = new Map();
-  let fundidos = 0;
-
-  for (const item of itens) {
-    const chave = item.tmdbId
-      ? `tmdb_${item.tmdbTipo || (isSerie ? 'tv' : 'movie')}_${item.tmdbId}`
-      : `norm_${normalizarTituloChave(item.title, item.year)}`;
-
-    if (!chave || chave === 'norm_') continue;
-
-    if (!mapaUnico.has(chave)) {
-      const copia = { ...item, title: limparTituloExibicao(item.title) };
-      if (isSerie) copia.seasons = mesclarTemporadas(item.seasons || [], [], latenciasHost);
-      else copia.fontes = unificarEOrdenarFontes(item.fontes || [], latenciasHost);
-      mapaUnico.set(chave, copia);
-    } else {
-      fundidos++;
-      const ex = mapaUnico.get(chave);
-      if (!ex.thumb && item.thumb) ex.thumb = item.thumb;
-      if (!ex.bannerThumb && item.bannerThumb) ex.bannerThumb = item.bannerThumb;
-      if (!ex.desc && item.desc) ex.desc = item.desc;
-      if (!ex.year && item.year) ex.year = item.year;
-      if (!ex.tmdbId && item.tmdbId) { ex.tmdbId = item.tmdbId; ex.tmdbTipo = item.tmdbTipo; }
-
-      if (isSerie) ex.seasons = mesclarTemporadas(ex.seasons, item.seasons, latenciasHost);
-      else ex.fontes = unificarEOrdenarFontes([...(ex.fontes || []), ...(item.fontes || [])], latenciasHost);
-    }
-  }
-
-  if (fundidos > 0) console.log(`  [♻️ Unificação] ${fundidos} cópias repetidas foram fundidas como fontes reserva!`);
-
-  return Array.from(mapaUnico.values()).sort((a, b) => {
-    const anoA = parseInt(a.year, 10) || 0;
-    const anoB = parseInt(b.year, 10) || 0;
-    if (anoB !== anoA) return anoB - anoA;
-    return a.title.localeCompare(b.title, 'pt-BR');
-  });
 }
 
 function loadTmdbCache() {
@@ -426,8 +329,11 @@ async function fetchTmdbDetails(tmdbId, tipo) {
 }
 
 async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
+  // Prioriza consultar no TMDB os títulos mais recentes (2026 -> 2025...) sem alterar a ordem original da lista!
+  const itensOrdenadosPorAno = [...allItems].sort((a, b) => (parseInt(b.year, 10) || 0) - (parseInt(a.year, 10) || 0));
+
   const fila = [];
-  for (const it of allItems) {
+  for (const it of itensOrdenadosPorAno) {
     if (!it.tmdbId || !it.tmdbTipo) continue;
     const k = `${it.tmdbTipo}_${it.tmdbId}`;
     if (!tmdbCache[k]) fila.push({ key: k, tmdbId: it.tmdbId, tmdbTipo: it.tmdbTipo });
@@ -435,7 +341,7 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
   const unicos = Array.from(new Map(fila.map((x) => [x.key, x])).values()).slice(0, MAX_TMDB_FETCH_PER_RUN);
 
   if (unicos.length > 0) {
-    console.log(`\n🎨 Buscando Capas, Logos PNG e Backdrops no TMDB para ${unicos.length} títulos (priorizando 2026)...`);
+    console.log(`\n🎨 Buscando Capas, Logos PNG e Backdrops no TMDB para ${unicos.length} títulos...`);
     for (let i = 0; i < unicos.length; i += TMDB_CONCURRENCY) {
       const lote = unicos.slice(i, i + TMDB_CONCURRENCY);
       await Promise.all(lote.map(async (q) => {
@@ -475,18 +381,20 @@ function classificarCanal(nome) {
   return 'Variedades';
 }
 
+/**
+ * 1. CANAIS: Mantém TODOS os canais na ordem original (sem unificar nomes parecidos)
+ */
 async function processarCanais() {
-  console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev...');
+  console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev (sem unificar)...');
   const [catalogoTxt, canaisM3uTxt, restritosTxt] = await Promise.all([
     fetchText(`${CANAIS_BASE_URL}/catalogo.txt`),
     fetchText(`${CANAIS_BASE_URL}/canais.txt`),
     fetchText(`${CANAIS_BASE_URL}/restritos.txt`)
   ]);
 
-  const canaisMap = new Map();
+  const todosCanais = [];
   let canalAtual = null;
   let ultimaFonte = null;
-  const chaveCanal = (n) => String(n || '').toLowerCase().replace(/\s+hd$/i, '').replace(/\s+/g, ' ').trim();
 
   const lerCatalogo = (txt, catPadrao = '') => {
     for (let linha of (txt || '').split(/\r?\n/)) {
@@ -500,19 +408,27 @@ async function processarCanais() {
 
       if (k === 'canal') {
         ultimaFonte = null;
-        const nk = chaveCanal(v);
-        if (!canaisMap.has(nk)) {
-          canalAtual = { nome: v, logo: '', categoria: catPadrao || classificarCanal(v), fontesBrutas: [] };
-          canaisMap.set(nk, canalAtual);
-        } else canalAtual = canaisMap.get(nk);
-      } else if (canalAtual && k === 'logo' && !canalAtual.logo) canalAtual.logo = v;
-      else if (canalAtual && k === 'categoria' && !catPadrao) canalAtual.categoria = v;
-      else if (canalAtual && k === 'fonte') {
+        canalAtual = {
+          nome: v,
+          logo: '',
+          categoria: catPadrao || classificarCanal(v),
+          fontesBrutas: []
+        };
+        todosCanais.push(canalAtual);
+      } else if (canalAtual && k === 'logo' && !canalAtual.logo) {
+        canalAtual.logo = v;
+      } else if (canalAtual && k === 'categoria' && !catPadrao) {
+        canalAtual.categoria = v;
+      } else if (canalAtual && k === 'fonte') {
         ultimaFonte = !isSaimoApiStreamUrl(v) ? { rawUrl: v, referer: '', ua: '', qualidade: '' } : null;
         if (ultimaFonte) canalAtual.fontesBrutas.push(ultimaFonte);
-      } else if (ultimaFonte && k === 'qualidade') ultimaFonte.qualidade = v;
-      else if (ultimaFonte && k === 'referer') ultimaFonte.referer = v;
-      else if (ultimaFonte && k === 'agente') ultimaFonte.ua = v;
+      } else if (ultimaFonte && k === 'qualidade') {
+        ultimaFonte.qualidade = v;
+      } else if (ultimaFonte && k === 'referer') {
+        ultimaFonte.referer = v;
+      } else if (ultimaFonte && k === 'agente') {
+        ultimaFonte.ua = v;
+      }
     }
   };
 
@@ -530,12 +446,17 @@ async function processarCanais() {
         const nome = l.split(',').pop()?.trim() || '';
         pend = { nome, logo, categoria: grp || classificarCanal(nome) };
       } else if (!l.startsWith('#') && pend && !isSaimoApiStreamUrl(l)) {
-        const nk = chaveCanal(pend.nome);
-        if (canaisMap.has(nk)) {
-          canaisMap.get(nk).fontesBrutas.push({ rawUrl: l, referer: '', ua: '', qualidade: '' });
-          if (!canaisMap.get(nk).logo && pend.logo) canaisMap.get(nk).logo = pend.logo;
+        const existente = todosCanais.find((c) => c.nome.toLowerCase() === pend.nome.toLowerCase());
+        if (existente) {
+          existente.fontesBrutas.push({ rawUrl: l, referer: '', ua: '', qualidade: '' });
+          if (!existente.logo && pend.logo) existente.logo = pend.logo;
         } else if (pend.nome) {
-          canaisMap.set(nk, { nome: pend.nome, logo: pend.logo, categoria: pend.categoria, fontesBrutas: [{ rawUrl: l, referer: '', ua: '', qualidade: '' }] });
+          todosCanais.push({
+            nome: pend.nome,
+            logo: pend.logo,
+            categoria: pend.categoria,
+            fontesBrutas: [{ rawUrl: l, referer: '', ua: '', qualidade: '' }]
+          });
         }
         pend = null;
       }
@@ -544,9 +465,11 @@ async function processarCanais() {
 
   const out = [];
   let id = 0;
-  for (const c of canaisMap.values()) {
-    const conv = c.fontesBrutas.map((f) => ({ url: normalizeMediaUrl(f.rawUrl, f.referer, f.ua), idioma: 'dublado', qualidade: f.qualidade })).filter((f) => f.url);
-    const ord = unificarEOrdenarFontes(conv, null);
+  for (const c of todosCanais) {
+    const conv = c.fontesBrutas
+      .map((f) => ({ url: normalizeMediaUrl(f.rawUrl, f.referer, f.ua), idioma: 'dublado', qualidade: f.qualidade }))
+      .filter((f) => f.url);
+    const ord = ordenarFontesDoItem(conv, null);
     if (ord.length > 0) {
       id++;
       out.push({ id: String(id), nome: c.nome, categoria: c.categoria, logo: c.logo, urls: ord.map((x) => x.url) });
@@ -614,7 +537,6 @@ async function carregarMetadadosVOD() {
     }
   }
 
-  // Também aproveita as capas dos lançamentos de 2026 presentes em destaques.txt (ex: Godzilla Minus Zero, Street Fighter)
   for (let l of (destaquesTxt || '').split(/\r?\n/)) {
     l = l.trim();
     if (!l || l.startsWith('#') || l.startsWith('capa:') || l.startsWith('fila\t')) continue;
@@ -658,12 +580,15 @@ async function carregarMetadadosVOD() {
   return { bases, gavetas, metaMap, metaPorTmdbId, normKey, marcasMap, latenciasHost, destaquesTxt };
 }
 
+/**
+ * 3. COLETA TODOS OS ~31.500 FILMES E ~7.600 SÉRIES (SEM UNIFICAR TÍTULOS)
+ */
 async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marcasMap, latenciasHost) {
-  const filmesBrutos = [];
+  const filmesCartoonzine = [];
   const filmesApenasApi = [];
-  const seriesBrutas = [];
+  const seriesCartoonzine = [];
 
-  console.log('\n🎥 3. Extraindo todos os Filmes (# e A-Z, incluindo lançamentos 2026)...');
+  console.log('\n🎥 3. Extraindo todos os Filmes (# e A-Z, sem unificar)...');
   const todasLetras = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
 
   const resFilmes = await Promise.all(
@@ -711,7 +636,7 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
       }
 
       if (diretas.length > 0) {
-        filmesBrutos.push(obj);
+        filmesCartoonzine.push(obj);
       } else if (apiFallbacks.length > 0) {
         obj._apiFallbacks = apiFallbacks;
         filmesApenasApi.push(obj);
@@ -721,10 +646,10 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
 
   if (filmesApenasApi.length > 0) {
     const recuperados = await resolverFilmesExclusivosApi(filmesApenasApi, latenciasHost);
-    filmesBrutos.push(...recuperados);
+    filmesCartoonzine.push(...recuperados);
   }
 
-  console.log('\n📺 4. Extraindo todas as Séries (# e A-Z)...');
+  console.log('\n📺 4. Extraindo todas as Séries (# e A-Z, sem unificar)...');
   for (const letra of todasLetras) {
     const arq = letra === '#' ? '%23' : letra;
     const idxTxt = (await fetchText(`${FILMES_BASE_URL}/series-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/series-#.txt`) : '');
@@ -746,10 +671,10 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
         if (!atual) return;
         atual.seasons = Object.keys(atual.seasonsMap).sort((a, b) => Number(a) - Number(b)).map((s) => ({
           season: parseInt(s, 10),
-          episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: unificarEOrdenarFontes(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
+          episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
         })).filter((s) => s.episodes.length > 0);
         delete atual.seasonsMap;
-        if (atual.seasons.length > 0) seriesBrutas.push(atual);
+        if (atual.seasons.length > 0) seriesCartoonzine.push(atual);
       };
 
       for (let l of (txt || '').split(/\r?\n/)) {
@@ -790,27 +715,27 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
     }
   }
 
-  return {
-    filmesCartoonzine: unificarTitulosRepetidos(filmesBrutos, latenciasHost, false),
-    seriesCartoonzine: unificarTitulosRepetidos(seriesBrutas, latenciasHost, true)
-  };
+  return { filmesCartoonzine, seriesCartoonzine };
 }
 
+/**
+ * 4. COLETA TODOS OS 1.322 ANIMES E 264 DORAMAS (SEM UNIFICAR TÍTULOS)
+ */
 async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, normKey, marcasMap, latenciasHost) {
-  console.log(`\n✨ Extraindo ${catLabel}...`);
+  console.log(`\n✨ Extraindo ${catLabel} (sem unificar)...`);
   const txt = await fetchText(`${FILMES_BASE_URL}/${caminho}`);
   if (!txt) return [];
-  const bruta = [];
+  const listaFinal = [];
   let atual = null;
 
   const fechar = () => {
     if (!atual) return;
     atual.seasons = Object.keys(atual.seasonsMap).sort((a, b) => Number(a) - Number(b)).map((s) => ({
       season: parseInt(s, 10),
-      episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: unificarEOrdenarFontes(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
+      episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
     })).filter((s) => s.episodes.length > 0);
     delete atual.seasonsMap;
-    if (atual.seasons.length > 0) bruta.push(atual);
+    if (atual.seasons.length > 0) listaFinal.push(atual);
   };
 
   for (let l of txt.split(/\r?\n/)) {
@@ -846,7 +771,7 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, norm
     }
   }
   fechar();
-  return unificarTitulosRepetidos(bruta, latenciasHost, true);
+  return listaFinal;
 }
 
 async function processarDestaques(destaquesTxt, metaMap, normKey, tmdbCache) {
@@ -906,7 +831,7 @@ function saveJsonFile(filename, items) {
     saveJsonFile('doramas_sm.json', doramas);
     await processarDestaques(destaquesTxt, metaMap, normKey, tmdbCache);
 
-    console.log('\n✅ TUDO CONCLUÍDO E UNIFICADO COM SUCESSO!');
+    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO (100% DOS REGISTROS ORIGINAIS MANTIDOS)!');
   } catch (err) {
     console.error('❌ Erro fatal:', err);
     process.exit(1);
