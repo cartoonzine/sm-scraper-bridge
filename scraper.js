@@ -15,24 +15,39 @@ const TMDB_IMG_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
 const TMDB_IMG_LOGO = 'https://image.tmdb.org/t/p/w500';
 
 const DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
-const SAIMO_APP_UA = 'SaimoTV-cliente/3.0.5 libmpv';
 const MAX_TMDB_FETCH_PER_RUN = 5500;
-const TMDB_CONCURRENCY = 30;
+const TMDB_CONCURRENCY = 25;
 
 const http = axios.create({
-  timeout: 25000,
+  timeout: 30000,
   headers: { 'User-Agent': DEFAULT_UA, 'Accept': 'text/plain, application/json, */*' },
   responseType: 'text',
   transformResponse: [(d) => d]
 });
 
-async function fetchText(url) {
-  try {
-    const res = await http.get(url);
-    return (res.status >= 200 && res.status < 300 && typeof res.data === 'string') ? res.data : '';
-  } catch (_) {
-    return '';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Faz o download com até 4 tentativas automáticas para NUNCA perder uma letra por falha de rede/Cloudflare!
+ */
+async function fetchText(url, retries = 4) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await http.get(url);
+      if (res.status >= 200 && res.status < 300 && typeof res.data === 'string' && res.data.length > 0) {
+        return res.data;
+      }
+      if (res.status === 404) return '';
+    } catch (err) {
+      if (err.response && err.response.status === 404) return '';
+      if (i < retries - 1) {
+        await sleep(800 * (i + 1));
+      } else {
+        console.warn(`  [!] Falha após ${retries} tentativas em: ${url}`);
+      }
+    }
   }
+  return '';
 }
 
 function decodificarHtml(s) {
@@ -87,7 +102,6 @@ function normalizeMediaUrl(rawUrl, referer = '', userAgent = '') {
   if (!rawUrl || typeof rawUrl !== 'string') return null;
   let u = rawUrl.trim();
   if (!u.startsWith('http://') && !u.startsWith('https://')) return null;
-  if (isSaimoApiStreamUrl(u)) return null;
 
   const low = u.toLowerCase().split('?')[0];
 
@@ -149,6 +163,8 @@ function pontosQualidade(qStr, url = '') {
 
 function calcularScoreFonte(fonteObj, latenciasHost) {
   const url = fonteObj.url || '';
+  if (isSaimoApiStreamUrl(url)) return -5000; // Sempre joga a API para o final caso seja a única fonte
+
   let score = pontosQualidade(fonteObj.qualidade, url) * 10;
 
   if (/\.(mp4|mkv|m4v|webm)(\?|$|&)/i.test(url) && !url.includes('/api/proxy')) score += 800;
@@ -168,10 +184,12 @@ function calcularScoreFonte(fonteObj, latenciasHost) {
 }
 
 /**
- * Ordena as fontes dentro do MESMO título (melhor resolução + servidor mais rápido em 1º lugar)
- * sem unificar nem apagar outros títulos do catálogo!
+ * Ordena as fontes do item:
+ * - Se o item já tem links diretos (.mp4, .m3u8, master.txt, proxy), REMOVE 100% os links /api/stream!
+ * - Se o item SÓ tem links /api/stream (como os 528 animes ou os ~5.000 filmes que não têm outra fonte),
+ *   mantém apenas para o título não desaparecer da contagem total do catálogo!
  */
-function ordenarFontesDoItem(listaFontes, latenciasHost) {
+function ordenarELimparFontesDoItem(listaFontes, latenciasHost) {
   const mapa = new Map();
   for (const f of listaFontes) {
     if (!f || !f.url) continue;
@@ -179,9 +197,15 @@ function ordenarFontesDoItem(listaFontes, latenciasHost) {
     if (!ex) mapa.set(f.url, { ...f });
     else if (!ex.qualidade && f.qualidade) ex.qualidade = f.qualidade;
   }
-  const unicas = Array.from(mapa.values());
-  unicas.sort((a, b) => calcularScoreFonte(b, latenciasHost) - calcularScoreFonte(a, latenciasHost));
-  return unicas.map((f) => {
+
+  const todas = Array.from(mapa.values());
+  const apenasDiretas = todas.filter((f) => !isSaimoApiStreamUrl(f.url));
+
+  // Se tem pelo menos 1 link direto real, descarta totalmente os links de API!
+  const escolhidas = apenasDiretas.length > 0 ? apenasDiretas : todas;
+
+  escolhidas.sort((a, b) => calcularScoreFonte(b, latenciasHost) - calcularScoreFonte(a, latenciasHost));
+  return escolhidas.map((f) => {
     const out = { url: f.url, idioma: f.idioma || 'dublado' };
     if (f.qualidade) out.qualidade = f.qualidade.toUpperCase();
     return out;
@@ -195,11 +219,8 @@ function montarFonteComQualidade(valorBruto, idioma, bases, marcasMap) {
   const qualidadeMarca = marcasMap ? (marcasMap.get(limpo) || '') : '';
 
   if (limpo.startsWith('http://') || limpo.startsWith('https://')) {
-    if (isSaimoApiStreamUrl(limpo)) {
-      return { url: limpo, idioma, qualidade: qualidadeMarca, isApiFallback: true };
-    }
     const urlFinal = normalizeMediaUrl(limpo);
-    return urlFinal ? { url: urlFinal, idioma, qualidade: qualidadeMarca, isApiFallback: false } : null;
+    return urlFinal ? { url: urlFinal, idioma, qualidade: qualidadeMarca } : null;
   }
 
   const partes = limpo.split(':');
@@ -210,88 +231,34 @@ function montarFonteComQualidade(valorBruto, idioma, bases, marcasMap) {
 
   const baseFmt = base.endsWith('/') ? base : `${base}/`;
   const urlCrua = resto.includes('.') ? `${baseFmt}${resto}` : `${baseFmt}${resto}.mp4`;
-  if (isSaimoApiStreamUrl(urlCrua)) {
-    return { url: urlCrua, idioma, qualidade: qualidadeMarca, isApiFallback: true };
-  }
   const urlFinal = normalizeMediaUrl(urlCrua);
-  return urlFinal ? { url: urlFinal, idioma, qualidade: qualidadeMarca, isApiFallback: false } : null;
+  return urlFinal ? { url: urlFinal, idioma, qualidade: qualidadeMarca } : null;
 }
 
 function extrairFontes(campos, bases, marcasMap, latenciasHost) {
-  const fontesDiretas = [];
-  const apiFallbacks = [];
+  const fontes = [];
 
   for (let i = 1; i < campos.length; i++) {
     const campo = (campos[i] || '').trim();
-    if (!campo || !campo.includes('=')) continue;
-    const idxEq = campo.indexOf('=');
-    const prefixo = campo.slice(0, idxEq).toLowerCase().trim();
-    const resto = campo.slice(idxEq + 1).trim();
-    const idioma = (prefixo === 'leg' || prefixo.includes('leg')) ? 'legendado' : 'dublado';
+    if (!campo) continue;
+
+    let idioma = 'dublado';
+    let resto = campo;
+
+    if (campo.includes('=')) {
+      const idxEq = campo.indexOf('=');
+      const prefixo = campo.slice(0, idxEq).toLowerCase().trim();
+      resto = campo.slice(idxEq + 1).trim();
+      idioma = (prefixo === 'leg' || prefixo.includes('leg')) ? 'legendado' : 'dublado';
+    }
+
     for (const urlBruta of resto.split(',')) {
       const fObj = montarFonteComQualidade(urlBruta, idioma, bases, marcasMap);
-      if (!fObj) continue;
-      if (fObj.isApiFallback) apiFallbacks.push(fObj);
-      else fontesDiretas.push(fObj);
+      if (fObj) fontes.push(fObj);
     }
   }
 
-  return {
-    diretas: ordenarFontesDoItem(fontesDiretas, latenciasHost),
-    apiFallbacks
-  };
-}
-
-async function resolverFilmesExclusivosApi(filmesSemFonteDireta, latenciasHost) {
-  if (!filmesSemFonteDireta.length) return [];
-  console.log(`\n🔍 Resolvendo ${filmesSemFonteDireta.length} títulos exclusivos da API...`);
-  const resolvidos = [];
-  const LOTE = 20;
-
-  for (let i = 0; i < Math.min(filmesSemFonteDireta.length, 400); i += LOTE) {
-    const slice = filmesSemFonteDireta.slice(i, i + LOTE);
-    await Promise.all(
-      slice.map(async (filme) => {
-        const novasFontes = [];
-        for (const apiObj of (filme._apiFallbacks || [])) {
-          try {
-            const res = await axios.get(apiObj.url, {
-              timeout: 8000,
-              maxRedirects: 5,
-              headers: {
-                'User-Agent': SAIMO_APP_UA,
-                'Accept': '*/*',
-                'X-Saimo-Client': 'SaimoTV-cliente'
-              },
-              responseType: 'text',
-              transformResponse: [(d) => d],
-              validateStatus: (s) => s >= 200 && s < 400
-            });
-            const finalUrl = res.request?.res?.responseUrl || '';
-            if (finalUrl && !isSaimoApiStreamUrl(finalUrl)) {
-              const norm = normalizeMediaUrl(finalUrl);
-              if (norm) novasFontes.push({ url: norm, idioma: apiObj.idioma });
-            } else if (res.data) {
-              const matches = String(res.data).match(/https?:\/\/[^"'\s\\]+(?:\.mp4|\.m3u8|master\.txt|\/api\/proxy\?url=)[^"'\s\\]*/gi) || [];
-              for (const m of matches) {
-                if (!isSaimoApiStreamUrl(m)) {
-                  const norm = normalizeMediaUrl(m);
-                  if (norm) novasFontes.push({ url: norm, idioma: apiObj.idioma });
-                }
-              }
-            }
-          } catch (_) {}
-        }
-        delete filme._apiFallbacks;
-        if (novasFontes.length > 0) {
-          filme.fontes = ordenarFontesDoItem(novasFontes, latenciasHost);
-          resolvidos.push(filme);
-        }
-      })
-    );
-  }
-  console.log(`  [+] ${resolvidos.length} títulos de API convertidos para link direto!`);
-  return resolvidos;
+  return ordenarELimparFontesDoItem(fontes, latenciasHost);
 }
 
 function loadTmdbCache() {
@@ -329,7 +296,6 @@ async function fetchTmdbDetails(tmdbId, tipo) {
 }
 
 async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
-  // Prioriza consultar no TMDB os títulos mais recentes (2026 -> 2025...) sem alterar a ordem original da lista!
   const itensOrdenadosPorAno = [...allItems].sort((a, b) => (parseInt(b.year, 10) || 0) - (parseInt(a.year, 10) || 0));
 
   const fila = [];
@@ -381,9 +347,6 @@ function classificarCanal(nome) {
   return 'Variedades';
 }
 
-/**
- * 1. CANAIS: Mantém TODOS os canais na ordem original (sem unificar nomes parecidos)
- */
 async function processarCanais() {
   console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev (sem unificar)...');
   const [catalogoTxt, canaisM3uTxt, restritosTxt] = await Promise.all([
@@ -469,7 +432,7 @@ async function processarCanais() {
     const conv = c.fontesBrutas
       .map((f) => ({ url: normalizeMediaUrl(f.rawUrl, f.referer, f.ua), idioma: 'dublado', qualidade: f.qualidade }))
       .filter((f) => f.url);
-    const ord = ordenarFontesDoItem(conv, null);
+    const ord = ordenarELimparFontesDoItem(conv, null);
     if (ord.length > 0) {
       id++;
       out.push({ id: String(id), nome: c.nome, categoria: c.categoria, logo: c.logo, urls: ord.map((x) => x.url) });
@@ -581,22 +544,27 @@ async function carregarMetadadosVOD() {
 }
 
 /**
- * 3. COLETA TODOS OS ~31.500 FILMES E ~7.600 SÉRIES (SEM UNIFICAR TÍTULOS)
+ * 3. COLETA TODOS OS 31.526 FILMES E 7.651+ SÉRIES (Em lotes seguros com Retry)
  */
 async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marcasMap, latenciasHost) {
   const filmesCartoonzine = [];
-  const filmesApenasApi = [];
   const seriesCartoonzine = [];
 
   console.log('\n🎥 3. Extraindo todos os Filmes (# e A-Z, sem unificar)...');
   const todasLetras = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
 
-  const resFilmes = await Promise.all(
-    todasLetras.map(async (letra) => {
-      const arq = letra === '#' ? '%23' : letra;
-      return (await fetchText(`${FILMES_BASE_URL}/filmes-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/filmes-#.txt`) : '');
-    })
-  );
+  // Baixa em lotes controlados de 7 letras por vez para nunca sofrer bloqueio/reset da Cloudflare
+  const resFilmes = [];
+  for (let i = 0; i < todasLetras.length; i += 7) {
+    const slice = todasLetras.slice(i, i + 7);
+    const lote = await Promise.all(
+      slice.map(async (letra) => {
+        const arq = letra === '#' ? '%23' : letra;
+        return (await fetchText(`${FILMES_BASE_URL}/filmes-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/filmes-#.txt`) : '');
+      })
+    );
+    resFilmes.push(...lote);
+  }
 
   for (const txt of resFilmes) {
     for (let l of (txt || '').split(/\r?\n/)) {
@@ -608,7 +576,8 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
       const tituloBruto = c[0].trim();
       const anoExtraido = extrairAnoDoTitulo(tituloBruto);
       const tmdbIdNaLinha = extrairTmdbIdDaLinha(l);
-      const { diretas, apiFallbacks } = extrairFontes(c, bases, marcasMap, latenciasHost);
+      const fontes = extrairFontes(c, bases, marcasMap, latenciasHost);
+      if (fontes.length === 0) continue;
 
       const meta =
         (tmdbIdNaLinha && metaPorTmdbId.get(`f_${tmdbIdNaLinha}`)) ||
@@ -628,25 +597,15 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
         bannerlogo: '',
         year: anoExtraido || meta.year || '',
         genre: meta.genre || 'Filme',
-        fontes: diretas
+        fontes
       };
       if (finalTmdbId) {
         obj.tmdbId = finalTmdbId;
         obj.tmdbTipo = 'movie';
       }
 
-      if (diretas.length > 0) {
-        filmesCartoonzine.push(obj);
-      } else if (apiFallbacks.length > 0) {
-        obj._apiFallbacks = apiFallbacks;
-        filmesApenasApi.push(obj);
-      }
+      filmesCartoonzine.push(obj);
     }
-  }
-
-  if (filmesApenasApi.length > 0) {
-    const recuperados = await resolverFilmesExclusivosApi(filmesApenasApi, latenciasHost);
-    filmesCartoonzine.push(...recuperados);
   }
 
   console.log('\n📺 4. Extraindo todas as Séries (# e A-Z, sem unificar)...');
@@ -661,9 +620,15 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
       if (c.length >= 3 && c[2]) pedacos.add(c[2].trim());
     }
 
-    const textosPedacos = await Promise.all(
-      Array.from(pedacos).map(async (p) => (await fetchText(`${FILMES_BASE_URL}/series-${arq}-${p}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/series-#-${p}.txt`) : ''))
-    );
+    const pedacosArr = Array.from(pedacos);
+    const textosPedacos = [];
+    for (let i = 0; i < pedacosArr.length; i += 6) {
+      const slice = pedacosArr.slice(i, i + 6);
+      const lote = await Promise.all(
+        slice.map(async (p) => (await fetchText(`${FILMES_BASE_URL}/series-${arq}-${p}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/series-#-${p}.txt`) : ''))
+      );
+      textosPedacos.push(...lote);
+    }
 
     for (const txt of textosPedacos) {
       let atual = null;
@@ -671,7 +636,7 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
         if (!atual) return;
         atual.seasons = Object.keys(atual.seasonsMap).sort((a, b) => Number(a) - Number(b)).map((s) => ({
           season: parseInt(s, 10),
-          episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
+          episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarELimparFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
         })).filter((s) => s.episodes.length > 0);
         delete atual.seasonsMap;
         if (atual.seasons.length > 0) seriesCartoonzine.push(atual);
@@ -706,7 +671,7 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
             if (!ep) { ep = { season: tNum, episode: eNum, fontes: [] }; atual.seasonsMap[tNum].push(ep); }
             for (const u of c[3].split(',')) {
               const fObj = montarFonteComQualidade(u, idm, bases, marcasMap);
-              if (fObj && !fObj.isApiFallback) ep.fontes.push(fObj);
+              if (fObj) ep.fontes.push(fObj);
             }
           }
         }
@@ -719,7 +684,7 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
 }
 
 /**
- * 4. COLETA TODOS OS 1.322 ANIMES E 264 DORAMAS (SEM UNIFICAR TÍTULOS)
+ * 4. COLETA TODOS OS 1.322 ANIMES E 264 DORAMAS
  */
 async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, normKey, marcasMap, latenciasHost) {
   console.log(`\n✨ Extraindo ${catLabel} (sem unificar)...`);
@@ -732,7 +697,7 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, norm
     if (!atual) return;
     atual.seasons = Object.keys(atual.seasonsMap).sort((a, b) => Number(a) - Number(b)).map((s) => ({
       season: parseInt(s, 10),
-      episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
+      episodes: atual.seasonsMap[s].map((ep) => ({ ...ep, fontes: ordenarELimparFontesDoItem(ep.fontes, latenciasHost) })).filter((ep) => ep.fontes.length > 0).sort((a, b) => a.episode - b.episode)
     })).filter((s) => s.episodes.length > 0);
     delete atual.seasonsMap;
     if (atual.seasons.length > 0) listaFinal.push(atual);
@@ -765,7 +730,7 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, norm
         if (!ep) { ep = { season: tNum, episode: eNum, fontes: [] }; atual.seasonsMap[tNum].push(ep); }
         for (const u of c[3].split(',')) {
           const fObj = montarFonteComQualidade(u, idm, bases, marcasMap);
-          if (fObj && !fObj.isApiFallback) ep.fontes.push(fObj);
+          if (fObj) ep.fontes.push(fObj);
         }
       }
     }
