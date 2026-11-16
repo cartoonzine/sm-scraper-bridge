@@ -826,7 +826,7 @@
   },
   {
     "id": "77",
-    "nome": "BAND SPORTS",
+    "nome": "BAND SPORTS HD",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/bandsports.png",
     "urls": [
@@ -847,8 +847,7 @@
       "http://170.83.16.50/REDE_TV/index.m3u8",
       "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F8160796a28be5c8e2de472bbfd485771%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Ftv01.zas.media%3A1936%2Fredetvparana%2Fredetvparana%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Frede-tv&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F8160796a28be5c8e2de472bbfd485771%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -930,8 +929,8 @@
     "logo": "https://img.faz-o-eli.online/cancaonova.png",
     "urls": [
       "http://45.162.64.114/CANCAO_NOVA/index.m3u8",
-      "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcancaonova%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcancaonova%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8"
     ]
   },
   {
@@ -1349,6 +1348,18 @@
   },
   {
     "id": "127",
+    "nome": "Rede TV!",
+    "categoria": "TV Aberta",
+    "logo": "https://i.imgur.com/ZJgD38F.png",
+    "urls": [
+      "http://45.162.64.114/REDE_TV/index.m3u8",
+      "http://170.83.16.50/REDE_TV/index.m3u8",
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Ftv01.zas.media%3A1936%2Fredetvparana%2Fredetvparana%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Frede-tv&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+    ]
+  },
+  {
+    "id": "128",
     "nome": "Runtime",
     "categoria": "Filmes e Séries",
     "logo": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
@@ -1357,7 +1368,7 @@
     ]
   },
   {
-    "id": "128",
+    "id": "129",
     "nome": "Amazon Prime Video 01",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/primevideo.png",
@@ -1366,7 +1377,7 @@
     ]
   },
   {
-    "id": "129",
+    "id": "130",
     "nome": "Amazon Prime Video 02",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/primevideo.png",
@@ -1376,7 +1387,7 @@
     ]
   },
   {
-    "id": "130",
+    "id": "131",
     "nome": "Canal GOAT (Jogo 1)",
     "categoria": "Esportes",
     "logo": "http://logos.appscms.xyz/logos/2025/canalgoat.png",
@@ -1385,7 +1396,7 @@
     ]
   },
   {
-    "id": "131",
+    "id": "132",
     "nome": "Combate",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/combate.png",
@@ -1395,7 +1406,7 @@
     ]
   },
   {
-    "id": "132",
+    "id": "133",
     "nome": "DAZN (Jogo 1)",
     "categoria": "Esportes",
     "logo": "http://logos.appscms.xyz/logos/2025/dazn.png",
@@ -1404,7 +1415,7 @@
     ]
   },
   {
-    "id": "133",
+    "id": "134",
     "nome": "Disney+ 01",
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
@@ -1413,7 +1424,7 @@
     ]
   },
   {
-    "id": "134",
+    "id": "135",
     "nome": "Disney+ 02",
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
@@ -1422,7 +1433,7 @@
     ]
   },
   {
-    "id": "135",
+    "id": "136",
     "nome": "Paramount+ (Jogo 1)",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/paramountplus.png",
@@ -1432,7 +1443,7 @@
     ]
   },
   {
-    "id": "136",
+    "id": "137",
     "nome": "Paramount+ (Jogo 2)",
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
@@ -1441,7 +1452,7 @@
     ]
   },
   {
-    "id": "137",
+    "id": "138",
     "nome": "Paramount+ (Jogo 3)",
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
@@ -1450,7 +1461,7 @@
     ]
   },
   {
-    "id": "138",
+    "id": "139",
     "nome": "MAX 02",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
@@ -1460,7 +1471,7 @@
     ]
   },
   {
-    "id": "139",
+    "id": "140",
     "nome": "Studio Universal",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/studiouniversal.png",
@@ -1470,7 +1481,7 @@
     ]
   },
   {
-    "id": "140",
+    "id": "141",
     "nome": "Gloob",
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/gloob.png",
@@ -1480,7 +1491,7 @@
     ]
   },
   {
-    "id": "141",
+    "id": "142",
     "nome": "Gloobinho",
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/GLOBINHO.png",
@@ -1489,7 +1500,7 @@
     ]
   },
   {
-    "id": "142",
+    "id": "143",
     "nome": "TV Rá Tim Bum",
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
@@ -1498,7 +1509,7 @@
     ]
   },
   {
-    "id": "143",
+    "id": "144",
     "nome": "TVE Bahia",
     "categoria": "TV Aberta",
     "logo": "http://i.imgur.com/IWGyp65.jpeg",
@@ -1507,7 +1518,7 @@
     ]
   },
   {
-    "id": "144",
+    "id": "145",
     "nome": "BIS",
     "categoria": "Variedades",
     "logo": "http://www.fontedecanais.me/logos/canais/bis.png",
@@ -1517,7 +1528,7 @@
     ]
   },
   {
-    "id": "145",
+    "id": "146",
     "nome": "Food Network",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/foodnetwork.png",
@@ -1528,7 +1539,7 @@
     ]
   },
   {
-    "id": "146",
+    "id": "147",
     "nome": "24H Naruto Clássico",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -1538,7 +1549,7 @@
     ]
   },
   {
-    "id": "147",
+    "id": "148",
     "nome": "Discovery World",
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryworld.png",
@@ -1550,7 +1561,7 @@
     ]
   },
   {
-    "id": "148",
+    "id": "149",
     "nome": "CazeTV 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
@@ -1561,7 +1572,7 @@
     ]
   },
   {
-    "id": "149",
+    "id": "150",
     "nome": "CazeTV 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
@@ -1571,7 +1582,7 @@
     ]
   },
   {
-    "id": "150",
+    "id": "151",
     "nome": "SportyNet+ 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -1581,7 +1592,7 @@
     ]
   },
   {
-    "id": "151",
+    "id": "152",
     "nome": "SportyNet+ 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -1591,7 +1602,7 @@
     ]
   },
   {
-    "id": "152",
+    "id": "153",
     "nome": "SportyNet+ 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -1601,7 +1612,7 @@
     ]
   },
   {
-    "id": "153",
+    "id": "154",
     "nome": "Globo ES",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -1611,7 +1622,7 @@
     ]
   },
   {
-    "id": "154",
+    "id": "155",
     "nome": "Globo RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globorj.png",
@@ -1621,7 +1632,7 @@
     ]
   },
   {
-    "id": "155",
+    "id": "156",
     "nome": "Globo RS",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -1631,7 +1642,7 @@
     ]
   },
   {
-    "id": "156",
+    "id": "157",
     "nome": "Record MG",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
@@ -1641,7 +1652,7 @@
     ]
   },
   {
-    "id": "157",
+    "id": "158",
     "nome": "Record RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
@@ -1651,7 +1662,7 @@
     ]
   },
   {
-    "id": "158",
+    "id": "159",
     "nome": "CazeTV 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
@@ -1660,7 +1671,7 @@
     ]
   },
   {
-    "id": "159",
+    "id": "160",
     "nome": "Globo DF",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -1670,7 +1681,7 @@
     ]
   },
   {
-    "id": "160",
+    "id": "161",
     "nome": "Globo MG",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -1680,7 +1691,7 @@
     ]
   },
   {
-    "id": "161",
+    "id": "162",
     "nome": "MAX 03",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/max.png",
@@ -1690,7 +1701,7 @@
     ]
   },
   {
-    "id": "162",
+    "id": "163",
     "nome": "SportyNet",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
@@ -1700,7 +1711,7 @@
     ]
   },
   {
-    "id": "163",
+    "id": "164",
     "nome": "Paramount + 4",
     "categoria": "Variedades",
     "logo": "https://vipcanais.net/images/paramountplus.png",
@@ -1709,7 +1720,7 @@
     ]
   },
   {
-    "id": "164",
+    "id": "165",
     "nome": "Anime Channel TV",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/eHw2M6p.png",
@@ -1718,7 +1729,7 @@
     ]
   },
   {
-    "id": "165",
+    "id": "166",
     "nome": "Otaku Sign TV",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/eHw2M6p.png",
@@ -1727,7 +1738,7 @@
     ]
   },
   {
-    "id": "166",
+    "id": "167",
     "nome": "Geekdot",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/jML1u4O.png",
@@ -1736,7 +1747,7 @@
     ]
   },
   {
-    "id": "167",
+    "id": "168",
     "nome": "NBX TV Kids",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/SRX6EPY.png",
@@ -1745,7 +1756,7 @@
     ]
   },
   {
-    "id": "168",
+    "id": "169",
     "nome": "SBC Kids",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/SRX6EPY.png",
@@ -1754,7 +1765,7 @@
     ]
   },
   {
-    "id": "169",
+    "id": "170",
     "nome": "Rede Crianças",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/SRX6EPY.png",
@@ -1763,7 +1774,7 @@
     ]
   },
   {
-    "id": "170",
+    "id": "171",
     "nome": "Kuriakos Kids",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/SRX6EPY.png",
@@ -1772,7 +1783,7 @@
     ]
   },
   {
-    "id": "171",
+    "id": "172",
     "nome": "Gospel Cartoon",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/yxjPno5.png",
@@ -1781,7 +1792,7 @@
     ]
   },
   {
-    "id": "172",
+    "id": "173",
     "nome": "Jetsons TV",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/PZcTfqV.png",
@@ -1790,7 +1801,7 @@
     ]
   },
   {
-    "id": "173",
+    "id": "174",
     "nome": "24H Os Smurfs",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -1799,7 +1810,7 @@
     ]
   },
   {
-    "id": "174",
+    "id": "175",
     "nome": "TV A Crítica",
     "categoria": "TV Aberta",
     "logo": "https://i.imgur.com/j51rBro.png",
@@ -1808,17 +1819,17 @@
     ]
   },
   {
-    "id": "175",
+    "id": "176",
     "nome": "FIFA+ Português",
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/fifa-plus.png",
     "urls": [
-      "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fc2657533.wurl.com%2Fmaster%2Ff36d25e7e52f1ba8d7e56eb859c636563214f541%2FUGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Ffifa&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fc2657533.wurl.com%2Fmaster%2Ff36d25e7e52f1ba8d7e56eb859c636563214f541%2FUGxleC1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Ffifa&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8"
     ]
   },
   {
-    "id": "176",
+    "id": "177",
     "nome": "Globo Bahia",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globo.png",
@@ -1827,7 +1838,7 @@
     ]
   },
   {
-    "id": "177",
+    "id": "178",
     "nome": "Runtime Ação",
     "categoria": "Filmes e Séries",
     "logo": "https://i.imgur.com/3rM8nL2.png",
@@ -1836,7 +1847,7 @@
     ]
   },
   {
-    "id": "178",
+    "id": "179",
     "nome": "Top TV",
     "categoria": "Músicas",
     "logo": "https://i.imgur.com/aKbHjFO.png",
@@ -1845,7 +1856,7 @@
     ]
   },
   {
-    "id": "179",
+    "id": "180",
     "nome": "MovieSphere Brazil",
     "categoria": "Filmes e Séries",
     "logo": "https://i.imgur.com/c6uFj7A.png",
@@ -1854,7 +1865,7 @@
     ]
   },
   {
-    "id": "180",
+    "id": "181",
     "nome": "Trace Urban",
     "categoria": "Músicas",
     "logo": "https://i.imgur.com/DLIbUMx.png",
@@ -1863,7 +1874,7 @@
     ]
   },
   {
-    "id": "181",
+    "id": "182",
     "nome": "Sony One Classics",
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/sony-movies.png",
@@ -1872,7 +1883,7 @@
     ]
   },
   {
-    "id": "182",
+    "id": "183",
     "nome": "Classique Faroeste",
     "categoria": "Filmes e Séries",
     "logo": "https://i.imgur.com/c6uFj7A.png",
@@ -1881,7 +1892,7 @@
     ]
   },
   {
-    "id": "183",
+    "id": "184",
     "nome": "Loading TV",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/R0aflu1.png",
@@ -1890,7 +1901,7 @@
     ]
   },
   {
-    "id": "184",
+    "id": "185",
     "nome": "Retrô Cartoon",
     "categoria": "Infantil",
     "logo": "https://i.imgur.com/hIlEfhl.png",
@@ -1899,7 +1910,7 @@
     ]
   },
   {
-    "id": "185",
+    "id": "186",
     "nome": "Retro Music",
     "categoria": "Músicas",
     "logo": "https://i.imgur.com/pyOjdZs.png",
@@ -1908,7 +1919,7 @@
     ]
   },
   {
-    "id": "186",
+    "id": "187",
     "nome": "Now Rock",
     "categoria": "Músicas",
     "logo": "https://i.imgur.com/GuM4GnX.png",
@@ -1917,7 +1928,7 @@
     ]
   },
   {
-    "id": "187",
+    "id": "188",
     "nome": "TV Clássicos",
     "categoria": "Filmes e Séries",
     "logo": "https://i.imgur.com/c6uFj7A.png",
@@ -1926,7 +1937,7 @@
     ]
   },
   {
-    "id": "188",
+    "id": "189",
     "nome": "Apple TV 01",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/appletv1.png",
@@ -1935,7 +1946,7 @@
     ]
   },
   {
-    "id": "189",
+    "id": "190",
     "nome": "Apple TV 02",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/appletv1.png",
@@ -1944,7 +1955,7 @@
     ]
   },
   {
-    "id": "190",
+    "id": "191",
     "nome": "Apple TV 03",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/appletv1.png",
@@ -1953,7 +1964,7 @@
     ]
   },
   {
-    "id": "191",
+    "id": "192",
     "nome": "Apple TV 04",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/appletv1.png",
@@ -1962,7 +1973,7 @@
     ]
   },
   {
-    "id": "192",
+    "id": "193",
     "nome": "Apple TV 05",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/appletv1.png",
@@ -1971,7 +1982,7 @@
     ]
   },
   {
-    "id": "193",
+    "id": "194",
     "nome": "Apple TV 06",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/appletv1.png",
@@ -1980,7 +1991,7 @@
     ]
   },
   {
-    "id": "194",
+    "id": "195",
     "nome": "CazeTV 4",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/cazetv.png",
@@ -1989,7 +2000,7 @@
     ]
   },
   {
-    "id": "195",
+    "id": "196",
     "nome": "Disney+ 07",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -1998,7 +2009,7 @@
     ]
   },
   {
-    "id": "196",
+    "id": "197",
     "nome": "Disney+ 08",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -2007,7 +2018,7 @@
     ]
   },
   {
-    "id": "197",
+    "id": "198",
     "nome": "Disney+ 03",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2016,7 +2027,7 @@
     ]
   },
   {
-    "id": "198",
+    "id": "199",
     "nome": "Disney+ 05",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2025,7 +2036,7 @@
     ]
   },
   {
-    "id": "199",
+    "id": "200",
     "nome": "Disney+ 06",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2034,7 +2045,7 @@
     ]
   },
   {
-    "id": "200",
+    "id": "201",
     "nome": "MAX 04",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/max.png",
@@ -2043,7 +2054,7 @@
     ]
   },
   {
-    "id": "201",
+    "id": "202",
     "nome": "MAX 05",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/max.png",
@@ -2052,7 +2063,7 @@
     ]
   },
   {
-    "id": "202",
+    "id": "203",
     "nome": "AMC Séries",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/amcseries.png",
@@ -2061,7 +2072,7 @@
     ]
   },
   {
-    "id": "203",
+    "id": "204",
     "nome": "Record DF",
     "categoria": "TV Aberta",
     "logo": "https://1.embedcanaisdetv.com/images/record.png",
@@ -2070,7 +2081,7 @@
     ]
   },
   {
-    "id": "204",
+    "id": "205",
     "nome": "Record ES",
     "categoria": "TV Aberta",
     "logo": "https://1.embedcanaisdetv.com/images/record.png",
@@ -2079,7 +2090,7 @@
     ]
   },
   {
-    "id": "205",
+    "id": "206",
     "nome": "Disney+ 04",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2088,7 +2099,7 @@
     ]
   },
   {
-    "id": "206",
+    "id": "207",
     "nome": "Max",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/max.png",
@@ -2097,7 +2108,7 @@
     ]
   },
   {
-    "id": "207",
+    "id": "208",
     "nome": "Max 06",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/max.png",
@@ -2106,7 +2117,7 @@
     ]
   },
   {
-    "id": "208",
+    "id": "209",
     "nome": "MTV",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/mtv.png",
@@ -2116,7 +2127,7 @@
     ]
   },
   {
-    "id": "209",
+    "id": "210",
     "nome": "24H Chaves",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2125,7 +2136,7 @@
     ]
   },
   {
-    "id": "210",
+    "id": "211",
     "nome": "24H Dragon Ball Z",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2134,7 +2145,7 @@
     ]
   },
   {
-    "id": "211",
+    "id": "212",
     "nome": "24H Friends",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2143,7 +2154,7 @@
     ]
   },
   {
-    "id": "212",
+    "id": "213",
     "nome": "24H Os Simpsons",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2152,7 +2163,7 @@
     ]
   },
   {
-    "id": "213",
+    "id": "214",
     "nome": "24H Pica Pau",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2161,7 +2172,7 @@
     ]
   },
   {
-    "id": "214",
+    "id": "215",
     "nome": "24H Todo Mundo Odeia o Cris",
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
@@ -2170,7 +2181,7 @@
     ]
   },
   {
-    "id": "215",
+    "id": "216",
     "nome": "A Fazenda 18 1",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
@@ -2179,7 +2190,7 @@
     ]
   },
   {
-    "id": "216",
+    "id": "217",
     "nome": "A Fazenda 18 2",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
@@ -2188,7 +2199,7 @@
     ]
   },
   {
-    "id": "217",
+    "id": "218",
     "nome": "A Fazenda 18 3",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
@@ -2197,7 +2208,7 @@
     ]
   },
   {
-    "id": "218",
+    "id": "219",
     "nome": "A Fazenda 18 4",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
@@ -2206,7 +2217,7 @@
     ]
   },
   {
-    "id": "219",
+    "id": "220",
     "nome": "A Fazenda 18 5",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/afazenda2.png",
@@ -2215,7 +2226,7 @@
     ]
   },
   {
-    "id": "220",
+    "id": "221",
     "nome": "Band RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
@@ -2224,7 +2235,7 @@
     ]
   },
   {
-    "id": "221",
+    "id": "222",
     "nome": "Curta",
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/curta.png",
@@ -2233,7 +2244,7 @@
     ]
   },
   {
-    "id": "222",
+    "id": "223",
     "nome": "Disney Plus 1",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -2242,7 +2253,7 @@
     ]
   },
   {
-    "id": "223",
+    "id": "224",
     "nome": "Globo AM",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -2251,7 +2262,7 @@
     ]
   },
   {
-    "id": "224",
+    "id": "225",
     "nome": "Globo CE",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -2260,7 +2271,7 @@
     ]
   },
   {
-    "id": "225",
+    "id": "226",
     "nome": "Globo GO",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -2269,7 +2280,7 @@
     ]
   },
   {
-    "id": "226",
+    "id": "227",
     "nome": "Globo PB",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -2278,7 +2289,7 @@
     ]
   },
   {
-    "id": "227",
+    "id": "228",
     "nome": "Globo PE",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
@@ -2287,7 +2298,7 @@
     ]
   },
   {
-    "id": "228",
+    "id": "229",
     "nome": "HGTV",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/hgtv.png",
@@ -2296,7 +2307,7 @@
     ]
   },
   {
-    "id": "229",
+    "id": "230",
     "nome": "MAX 01",
     "categoria": "Filmes e Séries",
     "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
@@ -2305,7 +2316,7 @@
     ]
   },
   {
-    "id": "230",
+    "id": "231",
     "nome": "PT - A Bola",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_abola.png",
@@ -2314,7 +2325,7 @@
     ]
   },
   {
-    "id": "231",
+    "id": "232",
     "nome": "PT - Benfica TV",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
@@ -2323,7 +2334,7 @@
     ]
   },
   {
-    "id": "232",
+    "id": "233",
     "nome": "PT - Canal 11",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_canal11.prev.png",
@@ -2332,7 +2343,7 @@
     ]
   },
   {
-    "id": "233",
+    "id": "234",
     "nome": "PT - Eleven 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
@@ -2341,7 +2352,7 @@
     ]
   },
   {
-    "id": "234",
+    "id": "235",
     "nome": "PT - Eleven 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
@@ -2350,7 +2361,7 @@
     ]
   },
   {
-    "id": "235",
+    "id": "236",
     "nome": "PT - Eleven 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
@@ -2359,7 +2370,7 @@
     ]
   },
   {
-    "id": "236",
+    "id": "237",
     "nome": "PT - Sporttv 1",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2368,7 +2379,7 @@
     ]
   },
   {
-    "id": "237",
+    "id": "238",
     "nome": "PT - Sporttv 2",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2377,7 +2388,7 @@
     ]
   },
   {
-    "id": "238",
+    "id": "239",
     "nome": "PT - Sporttv 3",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2386,7 +2397,7 @@
     ]
   },
   {
-    "id": "239",
+    "id": "240",
     "nome": "PT - Sporttv 4",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2395,7 +2406,7 @@
     ]
   },
   {
-    "id": "240",
+    "id": "241",
     "nome": "PT - Sporttv 5",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2404,7 +2415,7 @@
     ]
   },
   {
-    "id": "241",
+    "id": "242",
     "nome": "PT - Sporttv 6",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2413,7 +2424,7 @@
     ]
   },
   {
-    "id": "242",
+    "id": "243",
     "nome": "PT - Sporttv 7",
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
@@ -2422,7 +2433,7 @@
     ]
   },
   {
-    "id": "243",
+    "id": "244",
     "nome": "Paramount Plus 1",
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/paramountplus.png",
@@ -2431,7 +2442,7 @@
     ]
   },
   {
-    "id": "244",
+    "id": "245",
     "nome": "Record GO",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
@@ -2440,7 +2451,7 @@
     ]
   },
   {
-    "id": "245",
+    "id": "246",
     "nome": "SBT RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
@@ -2449,7 +2460,7 @@
     ]
   },
   {
-    "id": "246",
+    "id": "247",
     "nome": "TCM",
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tcm.png",
@@ -2458,7 +2469,7 @@
     ]
   },
   {
-    "id": "247",
+    "id": "248",
     "nome": "TLC",
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/tlc.png",
@@ -2467,7 +2478,7 @@
     ]
   },
   {
-    "id": "248",
+    "id": "249",
     "nome": "UFC Fight Pass",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/ufcfightpass.png",
@@ -2476,7 +2487,463 @@
     ]
   },
   {
-    "id": "249",
+    "id": "250",
+    "nome": "Sexy Hot",
+    "categoria": "Adulto",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/sexy-hot.png",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/180157.ts",
+      "https://canais.fazoeli.co.za/fontes/smart/sexyhot.m3u8"
+    ]
+  },
+  {
+    "id": "251",
+    "nome": "Playboy TV",
+    "categoria": "Adulto",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/playboy-tv.png",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/72221.ts",
+      "https://canais.fazoeli.co.za/fontes/smart/playboy.m3u8"
+    ]
+  },
+  {
+    "id": "252",
+    "nome": "Anal",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/anal.m3u8"
+    ]
+  },
+  {
+    "id": "253",
+    "nome": "Asian",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/asian.m3u8"
+    ]
+  },
+  {
+    "id": "254",
+    "nome": "Big Ass",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/bigass.m3u8"
+    ]
+  },
+  {
+    "id": "255",
+    "nome": "Big Dick",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/bigdick.m3u8"
+    ]
+  },
+  {
+    "id": "256",
+    "nome": "Big Tits",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/bigtits.m3u8"
+    ]
+  },
+  {
+    "id": "257",
+    "nome": "Blowjob",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/blowjob.m3u8"
+    ]
+  },
+  {
+    "id": "258",
+    "nome": "Compilation",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/compilation.m3u8"
+    ]
+  },
+  {
+    "id": "259",
+    "nome": "Cuckold",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/cuckold.m3u8"
+    ]
+  },
+  {
+    "id": "260",
+    "nome": "Fetish",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/fetish.m3u8"
+    ]
+  },
+  {
+    "id": "261",
+    "nome": "Gangbang",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/gangbang.m3u8"
+    ]
+  },
+  {
+    "id": "262",
+    "nome": "Gay",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/gay.m3u8"
+    ]
+  },
+  {
+    "id": "263",
+    "nome": "Hardcore",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/hardcore.m3u8"
+    ]
+  },
+  {
+    "id": "264",
+    "nome": "Interracial",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/interracial.m3u8"
+    ]
+  },
+  {
+    "id": "265",
+    "nome": "Live Cams",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/livecams.m3u8"
+    ]
+  },
+  {
+    "id": "266",
+    "nome": "Pornstar",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/pornstar.m3u8"
+    ]
+  },
+  {
+    "id": "267",
+    "nome": "POV",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/pov.m3u8"
+    ]
+  },
+  {
+    "id": "268",
+    "nome": "Rough",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/rough.m3u8"
+    ]
+  },
+  {
+    "id": "269",
+    "nome": "Russian",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/russian.m3u8"
+    ]
+  },
+  {
+    "id": "270",
+    "nome": "Threesome",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://cdn.adultiptv.net/threesome.m3u8"
+    ]
+  },
+  {
+    "id": "271",
+    "nome": "Woman",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.redtraffic.net/woman.m3u8"
+    ]
+  },
+  {
+    "id": "272",
+    "nome": "MyCam Anal",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/anal.m3u8"
+    ]
+  },
+  {
+    "id": "273",
+    "nome": "MyCam Asian",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/asian.m3u8"
+    ]
+  },
+  {
+    "id": "274",
+    "nome": "MyCam Big Ass",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/defstream.m3u8"
+    ]
+  },
+  {
+    "id": "275",
+    "nome": "MyCam Big Tits",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/bigtits.m3u8"
+    ]
+  },
+  {
+    "id": "276",
+    "nome": "MyCam Blonde",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/blonde.m3u8"
+    ]
+  },
+  {
+    "id": "277",
+    "nome": "MyCam Brunette",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/brunette.m3u8"
+    ]
+  },
+  {
+    "id": "278",
+    "nome": "MyCam Latina",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/latina.m3u8"
+    ]
+  },
+  {
+    "id": "279",
+    "nome": "MyCam Squirt",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/squirt.m3u8"
+    ]
+  },
+  {
+    "id": "280",
+    "nome": "MyCam White",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://live.mycamtv.com/white.m3u8"
+    ]
+  },
+  {
+    "id": "281",
+    "nome": "Jenny Live",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "282",
+    "nome": "Miami TV Mexico",
+    "categoria": "Adulto",
+    "logo": "",
+    "urls": [
+      "https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "283",
+    "nome": "O-la-la!",
+    "categoria": "Adulto",
+    "logo": "https://i.imgur.com/6aOmZs4.png",
+    "urls": [
+      "http://31.148.48.15/O-la-la/index.m3u8"
+    ]
+  },
+  {
+    "id": "284",
+    "nome": "Playboy TV Latin America",
+    "categoria": "Adulto",
+    "logo": "https://i.imgur.com/B3DMUM9.png",
+    "urls": [
+      "http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8"
+    ]
+  },
+  {
+    "id": "285",
+    "nome": "Sex Privé",
+    "categoria": "Adulto",
+    "logo": "https://mondrian.claro.com.br/channels/inverse/sex-prive.png",
+    "urls": [
+      "https://cdn-mg1.satlabscloud.com.br/SEX_PRIVE/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7"
+    ]
+  },
+  {
+    "id": "286",
+    "nome": "A Casa das Brasileirinhas",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/508f0d666609e140b531f552b60c3478.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140487.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140488.ts"
+    ]
+  },
+  {
+    "id": "287",
+    "nome": "All Anal",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/166035.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/166036.ts"
+    ]
+  },
+  {
+    "id": "288",
+    "nome": "Anal Only",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/149544.ts",
+      "http://vivlar.me:80/497238/KK8Kdy/149544.ts"
+    ]
+  },
+  {
+    "id": "289",
+    "nome": "Filmes Adultos",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/f859ff8b3b8b08745491656f1dab6019.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140536.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140537.ts"
+    ]
+  },
+  {
+    "id": "290",
+    "nome": "Filmes Trans",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/f859ff8b3b8b08745491656f1dab6019.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/145382.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/145383.ts"
+    ]
+  },
+  {
+    "id": "291",
+    "nome": "Fuck Studies",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/169085.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/169086.ts"
+    ]
+  },
+  {
+    "id": "292",
+    "nome": "Homossexual Masculino",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/23282a88114949d0a31f5fbee6dd0733.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140492.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140493.ts"
+    ]
+  },
+  {
+    "id": "293",
+    "nome": "Interesseiras",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/149606.ts",
+      "http://vivlar.me:80/497238/KK8Kdy/149606.ts"
+    ]
+  },
+  {
+    "id": "294",
+    "nome": "Lets Try Anal",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/f859ff8b3b8b08745491656f1dab6019.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140760.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/141499.ts"
+    ]
+  },
+  {
+    "id": "295",
+    "nome": "MissaX",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/169088.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/169089.ts"
+    ]
+  },
+  {
+    "id": "296",
+    "nome": "Pornhub Yinyleon",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/149548.ts",
+      "http://vivlar.me:80/497238/KK8Kdy/149548.ts"
+    ]
+  },
+  {
+    "id": "297",
+    "nome": "Teste de Fudelidade",
+    "categoria": "Adulto",
+    "logo": "http://24horas.cc:80/images/3e81163f7309a5a4f01613ff430db818.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140761.ts",
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/140762.ts"
+    ]
+  },
+  {
+    "id": "298",
+    "nome": "Tweetney",
+    "categoria": "Adulto",
+    "logo": "http://vaiagora.vip/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",
+    "urls": [
+      "http://vaiagora.vip:80/5q8VUj/5BeUd8/169097.ts",
+      "http://vivlar.me:80/497238/KK8Kdy/169097.ts"
+    ]
+  },
+  {
+    "id": "299",
     "nome": "A&E (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://www.tvlogo.org/brazil/a-and-e-br.png",
@@ -2485,7 +2952,7 @@
     ]
   },
   {
-    "id": "250",
+    "id": "300",
     "nome": "AXN (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/axn.png",
@@ -2494,7 +2961,7 @@
     ]
   },
   {
-    "id": "251",
+    "id": "301",
     "nome": "CAZE TV (ST)",
     "categoria": "ESPORTES",
     "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
@@ -2503,7 +2970,7 @@
     ]
   },
   {
-    "id": "252",
+    "id": "302",
     "nome": "COMBATE (S46)",
     "categoria": "ESPORTES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/combate.png",
@@ -2512,7 +2979,7 @@
     ]
   },
   {
-    "id": "253",
+    "id": "303",
     "nome": "ESPN 2 (S46)",
     "categoria": "ESPN",
     "logo": "https://i.imgur.com/ZAHnoPh.png",
@@ -2521,7 +2988,7 @@
     ]
   },
   {
-    "id": "254",
+    "id": "304",
     "nome": "N SPORTS (OT)",
     "categoria": "ESPORTES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
@@ -2530,7 +2997,7 @@
     ]
   },
   {
-    "id": "255",
+    "id": "305",
     "nome": "N SPORTS (RK)",
     "categoria": "ESPORTES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
@@ -2539,7 +3006,7 @@
     ]
   },
   {
-    "id": "256",
+    "id": "306",
     "nome": "WARNER CHANNEL (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/warner-channel.png",
