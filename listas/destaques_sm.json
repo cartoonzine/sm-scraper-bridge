@@ -259,9 +259,9 @@
         "titulo": "Vingadores: Ultimato",
         "ano": "2019",
         "capa": "https://image.tmdb.org/t/p/w342/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/sho75cP0eN6wZKTeIuEJFaKJBUP.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/sho75cP0eN6wZKTeIuEJFaKJBUP.png"
       },
       {
         "tipo": "Filme",
@@ -579,9 +579,9 @@
         "titulo": "Scrubs",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/vYmEEiuYU3O1BmlHhJwnNEOOTxn.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/rRKTV46DKVP8AfdCQDyQMAtJeCl.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2Cu1TAOJRsp8l91KNCT5KZKcUzT.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2Cu1TAOJRsp8l91KNCT5KZKcUzT.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Série",
@@ -1246,9 +1246,9 @@
         "titulo": "Scrubs",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/vYmEEiuYU3O1BmlHhJwnNEOOTxn.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/rRKTV46DKVP8AfdCQDyQMAtJeCl.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2Cu1TAOJRsp8l91KNCT5KZKcUzT.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2Cu1TAOJRsp8l91KNCT5KZKcUzT.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Série",
@@ -1467,117 +1467,117 @@
         "titulo": "Solo Leveling",
         "ano": "2024",
         "capa": "https://image.tmdb.org/t/p/w342/eCD7WS9h4lCT8N4Xavc9u8R1IGk.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xMNH87maNLt9n2bMDYeI6db5VFm.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/piJiMJx8ubLCgiIC9fgjaQcpG8a.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/piJiMJx8ubLCgiIC9fgjaQcpG8a.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Jujutsu Kaisen",
         "ano": "2020",
         "capa": "https://image.tmdb.org/t/p/w342/8R1mMSC1gX1cg5ed7ns49JOEqw3.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/flgn0jXbg8GIe2qaWfd70A0uzfp.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2HJI1oFVjbMaMWMqqGLtdGck3JN.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2HJI1oFVjbMaMWMqqGLtdGck3JN.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Demon Slayer: Kimetsu no Yaiba",
         "ano": "2019",
         "capa": "https://image.tmdb.org/t/p/w342/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Chainsaw Man",
         "ano": "2022",
         "capa": "https://image.tmdb.org/t/p/w342/mIz0eKhzHuSPeRSePCyoCt9bKVp.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/fOUKSCbZzaoQKsO39enivHnWDid.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/8X3AdUA5q3owusAXOiCOn3FwXUa.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/8X3AdUA5q3owusAXOiCOn3FwXUa.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Frieren e a Jornada para o Além",
         "ano": "2023",
         "capa": "https://image.tmdb.org/t/p/w342/qykTIEJQF8cunKD0CKOqab15wns.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/rpkGXU1CUPCYwqi6F7iNLvE3VLS.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/rpkGXU1CUPCYwqi6F7iNLvE3VLS.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Kaiju No. 8",
         "ano": "2024",
         "capa": "https://image.tmdb.org/t/p/w342/A6JOsCdFFTxtbDnKAfE0iY6jOiE.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/htGeuCcNhlBe8GTx3izKOsd8frw.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/mZge2y3vQx4CEWOlZplt40Smxri.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/mZge2y3vQx4CEWOlZplt40Smxri.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Attack on Titan / Ataque dos Titãs",
         "ano": "2013",
         "capa": "https://image.tmdb.org/t/p/w342/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/qSntvVN1vTFZJQRcUzzAPcb0KPO.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/qSntvVN1vTFZJQRcUzzAPcb0KPO.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "SPY x FAMILY",
         "ano": "2022",
         "capa": "https://image.tmdb.org/t/p/w342/vaIREdPGZOnW9Jrs86mheVVlIQQ.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/lysUnU6V0VfcthDbviuVlIqgHOR.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/rEWhjQE3KVU6neMkCJ45tz6yh59.svg",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/rEWhjQE3KVU6neMkCJ45tz6yh59.svg"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "My Hero Academia",
         "ano": "2016",
         "capa": "https://image.tmdb.org/t/p/w342/cfESQ8y8oNAeLuRbs7NkW7Qjwhy.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/14DNU5iobo7Ky0jJYkDx8EiTgnj.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/14DNU5iobo7Ky0jJYkDx8EiTgnj.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "My Hero Academia: Vigilantes",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/3INu3n1sUa9K3O5OTPrqvJOetbd.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/baZ0pGbBGjCBhIqsFyOSTpJyUnQ.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/vimvF2sV798HPYAZRDQzRrWp7Iy.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/vimvF2sV798HPYAZRDQzRrWp7Iy.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "One Piece",
         "ano": "1999",
         "capa": "https://image.tmdb.org/t/p/w342/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "LEGO ONE PIECE: A Série",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/lNEzS2CbwpIwMmhhlj3Utw8MhY7.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/cZYqe6GeT7Qzp8RTYwITB1PFL9s.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/cZYqe6GeT7Qzp8RTYwITB1PFL9s.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Black Clover",
         "ano": "2017",
         "capa": "https://image.tmdb.org/t/p/w342/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/j9ZZ7WV5pwLLXbbebyGdMUxbqrc.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/j9ZZ7WV5pwLLXbbebyGdMUxbqrc.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
@@ -1593,90 +1593,90 @@
         "titulo": "Bleach",
         "ano": "2004",
         "capa": "https://image.tmdb.org/t/p/w342/dx28DE7EgLy0FatOvnaUg0k9j92.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/c9iFgEgSsQae88d8jsF7O9otxg6.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/c9iFgEgSsQae88d8jsF7O9otxg6.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Naruto Shippuden",
         "ano": "2007",
         "capa": "https://image.tmdb.org/t/p/w342/nRJmByfK9XdtOY73VArcN8KpKVs.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/z0YhJvomqedHF85bplUJEotkN5l.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/qopvxH4C4YIoeJWss0EVLv13rgW.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/qopvxH4C4YIoeJWss0EVLv13rgW.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Naruto",
         "ano": "2002",
         "capa": "https://image.tmdb.org/t/p/w342/9ptbVZpKNy5NY9D4zq4KGiYWRQY.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5F0HVEgkgP99fEWDjPyikGt9jQi.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/kaZ99sfclCKWnUgmW7AYrok03Am.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/kaZ99sfclCKWnUgmW7AYrok03Am.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Boruto: Naruto Next Generations",
         "ano": "2017",
         "capa": "https://image.tmdb.org/t/p/w342/n4OLeeHqP4tpdvDxiloV65N6M5h.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4jDRuUk02VGAVMBJXabI9r0Cj6j.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/fLc6pr3c5XAZjOjUA7JjlE7e4OC.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/fLc6pr3c5XAZjOjUA7JjlE7e4OC.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Hunter x Hunter",
         "ano": "2011",
         "capa": "https://image.tmdb.org/t/p/w342/9WxfAQquTun9ATkV6iAeFHMkqxv.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/r20WExRYrZ37WXVxBhqT5s8GwwO.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/r20WExRYrZ37WXVxBhqT5s8GwwO.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Death Note",
         "ano": "2006",
         "capa": "https://image.tmdb.org/t/p/w342/mQABf5KFAMD0hLOdpFrthy00BCh.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/mbDyY5qEDKVQNvuHk71OvxH8Cjg.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/mbDyY5qEDKVQNvuHk71OvxH8Cjg.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Fullmetal Alchemist: Brotherhood",
         "ano": "2009",
         "capa": "https://image.tmdb.org/t/p/w342/vIkH7fUQf8Olo8Apq56FQLGDXOo.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/2UG177tWHy7xRmMKWJHB7nAUmKd.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/1uxD6336yvySlaNqAuCl5XuGt3U.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/1uxD6336yvySlaNqAuCl5XuGt3U.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Tokyo Ghoul",
         "ano": "2014",
         "capa": "https://image.tmdb.org/t/p/w342/5XBk7T4NsGeN9RG39y2nU6gRWQl.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/jnwRlthXIgJB75Mt9GEl93Dczki.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/9u3baMv9AZ9znK9ecPjQQVoyEl8.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/9u3baMv9AZ9znK9ecPjQQVoyEl8.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "MASHLE: MAGIA E MÚSCULOS",
         "ano": "2023",
         "capa": "https://image.tmdb.org/t/p/w342/koKOPmCjEBOUVQwC6uV3HflKba3.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/p1swd15DRtCnNj20U904dbXeVsi.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/f1iybcTUUU0QnPwvFjJvChxss6b.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/f1iybcTUUU0QnPwvFjJvChxss6b.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Hell's Paradise",
         "ano": "2023",
         "capa": "https://image.tmdb.org/t/p/w342/fusvI9NECr7T97JpRwV50BKTk9p.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/zlXW7Y5LvqTQBlhalMKc0gUrYYE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/12gap9DNVqPvhwrAoa6W4mJj1Po.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/12gap9DNVqPvhwrAoa6W4mJj1Po.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
@@ -1692,135 +1692,135 @@
         "titulo": "Dragon Ball GT",
         "ano": "1996",
         "capa": "https://image.tmdb.org/t/p/w342/kxXsfMR9lQr3Gem6aDFbvmyRyqd.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xLoQu249IIlQtFsFgF6VZhMYWfz.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/lyrXcWp8QWFyEXepcEG0SEJvCG4.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/lyrXcWp8QWFyEXepcEG0SEJvCG4.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Ball Z",
         "ano": "1989",
         "capa": "https://image.tmdb.org/t/p/w342/kbkuYkaFsDwL6cyMgnBf77LczEo.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ydf1CeiBLfdxiyNTpskM0802TKl.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/yMoktMFgvqnsQ1Pii9xwturAHx4.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/yMoktMFgvqnsQ1Pii9xwturAHx4.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Ball Z Kai",
         "ano": "2009",
         "capa": "https://image.tmdb.org/t/p/w342/uAZmpZY9oCRgJ06f342sagwdjYL.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/oz5zbMBKCUsb7hsbjdxvK8yagPD.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/hB10t9pGbNcuVzzjH2j2o3ZYIOR.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/hB10t9pGbNcuVzzjH2j2o3ZYIOR.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Ball Super",
         "ano": "2015",
         "capa": "https://image.tmdb.org/t/p/w342/cQDCIp92rTzTnd8mjb1syLhrAqy.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/qA2UwUQbj05aeBMCuC0mHSQ4loE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/qpkdM5lO3Kfpcuzjz2fxSLVRWCf.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/qpkdM5lO3Kfpcuzjz2fxSLVRWCf.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Super Dragon Ball Heroes",
         "ano": "2018",
         "capa": "https://image.tmdb.org/t/p/w342/79C1S70I2nR4o0WpVETIezT3jyG.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xlKKD1TXJvh0YYlVPqqQ3g3ZUjM.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/pFXtsOJRcuZjQmi97wBQwGKWFPi.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/pFXtsOJRcuZjQmi97wBQwGKWFPi.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Ball DAIMA",
         "ano": "2024",
         "capa": "https://image.tmdb.org/t/p/w342/qlLJvJO8rsltmnWWbKgT13hP90I.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/oUmWLyeko3kYdUr8DBLIsxwcugl.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/HFAyXFb8VpdJCXZPylKo3jtNT8.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/HFAyXFb8VpdJCXZPylKo3jtNT8.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Ball Super: Beerus",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/w5ai45092PIlV1Vbt7kswry2C03.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/f6iqLFmexkPkZr2GLG3pXZ7xEZo.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/f6iqLFmexkPkZr2GLG3pXZ7xEZo.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Yu Yu Hakusho",
         "ano": "1992",
         "capa": "https://image.tmdb.org/t/p/w342/j6dzDPkrAsfJ6GUyyMPz38ZkpbF.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/uNM5dbnPJXJJs1eggepRWjSvdIR.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/csmFVVcS2KfM6e02qLBgmncpYwZ.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/csmFVVcS2KfM6e02qLBgmncpYwZ.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Overlord",
         "ano": "2015",
         "capa": "https://image.tmdb.org/t/p/w342/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/q5WJxYTXNNJdEHxFCqd3S8pO4VA.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2tHAFkKMvwbR22CCMsR5eAFYzP.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2tHAFkKMvwbR22CCMsR5eAFYzP.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dr. Stone",
         "ano": "2019",
         "capa": "https://image.tmdb.org/t/p/w342/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/lN13BPAEnc5iXmoxxBQHOZ1ScfZ.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/hnCHjH1xvqDDGLrt7vL7Ur0oy5c.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/hnCHjH1xvqDDGLrt7vL7Ur0oy5c.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "A Luz do Futuro",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/nnqscYuGNJKdM62PAxTYEf8Z9cm.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/fx5JyhFvPn1GSm5ITtNNM6hmpUa.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/rySmv62p4VBXmSEO7OYGb7X5VcP.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/rySmv62p4VBXmSEO7OYGb7X5VcP.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Witch Hat Atelier",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/1qGSBnrANHLX8C7KqGuPDCylns2.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5NmmaK9dt38UXOwzPC2t9yR3HTv.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/zr13I75ky1xxop8NOVbN4QNrn5j.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/zr13I75ky1xxop8NOVbN4QNrn5j.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Dragon Striker",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/5aELUnMSAIcJf4CAmcgIWcKmO8c.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/hoLPJjPfYdEWJXG1y7OCgOeipaF.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/hUlANqWyQyIvEUARxeAyP9vzaYU.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/hUlANqWyQyIvEUARxeAyP9vzaYU.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "OS DOOMIES",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/8gGP5wpMKnFlyOMwzMbnI6xFzbd.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/dT7ARI93vfbP1Tf8fuVfDFMyQqE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/xJTKe9og8LbF2AbX0VPGul7ymVM.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/xJTKe9og8LbF2AbX0VPGul7ymVM.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Anime",
         "titulo": "Stranger Things: Histórias de 85",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/zUdykEDaQrjGKnVnAAcua3kNiAG.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/enHLRGFx8P2XQtyYcvuV4o1vl6S.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/enHLRGFx8P2XQtyYcvuV4o1vl6S.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       }
     ]
   },
@@ -1832,27 +1832,27 @@
         "titulo": "The Early Spring",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/nhQS3j9GDWJj7u8BR7WaR4bTspo.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/9oO4ovVx0NbmrqNdKVK2OOHKxar.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/9oO4ovVx0NbmrqNdKVK2OOHKxar.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Vapor Humano",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/cpLc0SVNL5j34X7PGEiT1sMZERU.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/tDjLCYMaJK27PEZHiAtCYujXdRo.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/bIxMWbtdEUHVnPliAUBvY50sp7r.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/bIxMWbtdEUHVnPliAUBvY50sp7r.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Namorado por Assinatura",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/iz9UJqXRDjBkrwpfdngJwzv5ub1.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/sjOTFlGapgXFjwV3LmD9eHZEp3d.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/zLuvy5J9Bup9rY9ZWV35wMw9EIW.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/zLuvy5J9Bup9rY9ZWV35wMw9EIW.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -1868,54 +1868,54 @@
         "titulo": "Se Desejos Matassem...",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/l7Yqgal5v7qa7DTfPpsLTYlehXc.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5BzfcAW5ZI2m7QypeJBbYNjBuR0.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "O Beijo da Sereia",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/rParsARU91lw009qNKkgKFEEYAP.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/dWSR0GpWsgnLZCEe6bGZZIzw8YP.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/e9zgv12zFgobn8v2MMBC3mrDc1L.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/e9zgv12zFgobn8v2MMBC3mrDc1L.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Um Amor Que Ilumina",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/6ayQpRaaJdGimfyWzspmzbCXbC9.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/gtxt1avGOgu3nhYGqWQWFPHSpKc.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/tOX9zERt6ax0rnPGLBdmvExU8Da.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/tOX9zERt6ax0rnPGLBdmvExU8Da.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "O Amor Pode Ser Traduzido?",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/psKcuLNGd5AY4pwaUFM4yACZazl.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/svnZYhAboLrwHEtkKRm2mIdjocB.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Febre de Primavera",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/zJaMDWPhxInDKNgoLpCPtRKsaAv.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/nRxbtO6OchyepUL2Zr4dpMZsdsX.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/o2x2q0u21yCoC37awBLzHM1xWAw.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/o2x2q0u21yCoC37awBLzHM1xWAw.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Todos os Crimes da Louva-a-Deus",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/kX0vZSMsdSibAMFkwn9EJZjXrTD.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4A5TEvk99fCg8WSgImYJ6dqqe8Y.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -1931,63 +1931,63 @@
         "titulo": "Desejo Ardente",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/yo7LpxTaptErKsm1DR6ur3daFmq.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/s2GQUEJApbOVZL3vASbm5FWGdYN.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/dKQIEsZ31XGyn1umGXWY8gdEj4y.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/dKQIEsZ31XGyn1umGXWY8gdEj4y.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Cinderella Closet",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/vgI1sXvM8idd15SdaozQsEEieaL.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5O4yzrSwHeJwkoiGIT2qepJU5cY.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/mEuKmr3E7dY8oP3GWAT7MNQwMkH.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/mEuKmr3E7dY8oP3GWAT7MNQwMkH.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Um Amor Tão Bom",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/dIrOzcfXg0zNrUrkJ4DkjGWjG4a.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5a71lpPRPukpHeVgxyxTLdItHno.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Segunda Chance no Amor",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/b9x7UqVmR0voDOxvQKBHSgnf3nM.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/kMtFpxmrm2CymLinlfwHrkfSqz.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/59oUDJe1Bp7OS68mb1tnMU7m8KJ.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/59oUDJe1Bp7OS68mb1tnMU7m8KJ.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "A Estrada de Lichia",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/tr9Xkdxsualrb4b2L2LMyHxCS31.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/fXpsbFfQkIsj1MF3FRJh9JgO6Qq.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/sswLe0t0qwXmEB3NduLNqD8rawm.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/sswLe0t0qwXmEB3NduLNqD8rawm.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Fitness na Academia e no Amor",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/d6SubGZP1j0m5gNurPEizxzuzFR.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/b5M1ZUxYT3v5cRVKMpw6tKIYo89.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/poeZTGhygtSo1vvgsLVAx4RLnjI.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/poeZTGhygtSo1vvgsLVAx4RLnjI.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Serendipidade",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/ixr0KxcgljVNLtK3wbEEWn1DGf6.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/h4KieinulGJOsgCHwr23LWD5rLi.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/bUPaDhKCkUQykwvlmrIsATfFlZZ.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/bUPaDhKCkUQykwvlmrIsATfFlZZ.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -2003,9 +2003,9 @@
         "titulo": "Professora Sem Querer",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/xDva26tsnJiSArvyGBszy6Ze6k2.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/pPWAapGqIBB29qENWkS1Vb6cwyE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/2rKmW59Fye7slp7q8NBp5Dd8CBZ.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/2rKmW59Fye7slp7q8NBp5Dd8CBZ.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -2021,9 +2021,9 @@
         "titulo": "Comer, Correr, Amar",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/ee8DBgl3btULqnFaUiMriJXo7Dx.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/33Bg4EM7Oqpran2WjE8y4dv2Syr.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -2039,9 +2039,9 @@
         "titulo": "Esquiando para o Amor",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/dInBSlB39HZbJmwk3Rl0mt25Gkq.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/iZLtHdy8supE79NsAXERN5Vju1K.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/y1xC89FqGV1JpYPbJQvn44rr0ro.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/y1xC89FqGV1JpYPbJQvn44rr0ro.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -2057,36 +2057,36 @@
         "titulo": "Fight For You",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/Ac5pYnWeVQZGhODKLhxQ4a7NMRW.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/mzIZYRcNPPnPlgznRMGAeAdK3wN.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/594YWVmNzN8F6PfDWdVFY60KdQH.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/594YWVmNzN8F6PfDWdVFY60KdQH.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "O Escândalo de Chunhwa",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/jIhFyraPjS033HekEG3SyEHcQyg.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/6KxnwMK9E2ttQvX808clPJ004zY.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Meu Querido Nêmesis",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/yo2Cdnk2kgzWsGeZ08bohx8FrrH.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4Xer0oaXautbLRfJQOrlmPSCfN1.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Everlasting Longing",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/zGmr1l6JGLD0SEL2o1cPAwSThmp.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/8QNhMj89fGasqYrFPHyH9Kmfqcs.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/i8zEQddW1i92NiQqYv2fx8un5Uv.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/i8zEQddW1i92NiQqYv2fx8un5Uv.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
@@ -2102,90 +2102,90 @@
         "titulo": "Escolhendo o Destino",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/bRrycgd4bYkLrsFlSqA2BtTLoDe.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ndlCS6ffWYoYwOiP6wLNDXuJj3f.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/bmS6WIAXV0cWEUInCMSguhcyovs.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/bmS6WIAXV0cWEUInCMSguhcyovs.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Beijo Explosivo",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/kdVqCFaENSuXI97oaDnFeciJG4j.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/cTFQKu8CLftXHUCIBGksfL8uhf3.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/5B2L2X6G9FNDLxU5CyhIAPnI9z.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/5B2L2X6G9FNDLxU5CyhIAPnI9z.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Desprazer em Te Conhecer",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/9SWkM0d5nocTD0GOZeE7R6i8NUL.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xiWu9f9jP2NSmXu2hWzrtafrpQ.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/zLEek27GI3RfqgNwIYXOR1C2rDl.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/zLEek27GI3RfqgNwIYXOR1C2rDl.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Pergunte às Estrelas",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/jO8eCh0rLGQj7c1TwHqcCAvJegD.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/sP0R5F8fkVM0eHcRFXr012rzNAM.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Resident Playbook",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/rTUxQBriK8fkr4n0qijjkSGiBb3.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/A4X2JVnABZeZpMAWcI0eBHvLYAl.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/9cHQ9q6XuRlndCKZTVeMu54KtF9.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/9cHQ9q6XuRlndCKZTVeMu54KtF9.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Um Amor de Cinema",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/r89dQ1SAKRuBZMmp2YL4Yekfwxn.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/9QjIFAVFN7Pe4MbF2O7oHvLkFsI.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/uWDXzt1rfu2YfFQVYp5evqtCdiA.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/uWDXzt1rfu2YfFQVYp5evqtCdiA.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Você Estava Lá",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/utrGFclbnCqELR7GS34B4NMQkzo.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/7uVNWsjnmkvqpeqWHq5qpLBv3wd.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "A Pousada Bizarra do Kian84",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/8C52BNqZTxGLZEWTOShkdCkCZYQ.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/iPiacwH8UK9Jnt9U27lhwdpU2cE.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/sCPe3cQNFYBxMqAuaRcR4lt55Ww.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/sCPe3cQNFYBxMqAuaRcR4lt55Ww.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Traição e Redenção",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/py1HcJi82NwTAOkNPcNX6kw8DZ4.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/gd6er39HiIfVQIDKhZdMz7FVIw.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       },
       {
         "tipo": "Dorama",
         "titulo": "Desmascarado",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/4BXb4okDyVWIBCAQT4KaMAIbnpx.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xI4sbzJPNorYgTkfYs4ycMombVc.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/wvbMow3zefTp56DsVVmyMfbitEO.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/wvbMow3zefTp56DsVVmyMfbitEO.png"
+        "bannerThumb": "",
+        "logo": "",
+        "bannerlogo": ""
       }
     ]
   }

@@ -15,8 +15,8 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/adultswim.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a06m/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fadultswim%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a06m/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0b85b252b071b5ccf51e5dd03a326646%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -26,8 +26,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/amc.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a06s/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Famc%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a06s/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0b8b262f7bf1ddb168f3e5e1a6ed114e%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -58,8 +58,8 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonnetwork.png",
     "urls": [
-      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.162.64.114/CARTOON_NETWORK/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fbd1fdd50f44c62b4105fe51a099aa617%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -69,10 +69,10 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/cnnbrasil.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcnnbrasil%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
       "http://45.162.64.114/CNN_BRASIL/index.m3u8",
       "https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcnnbrasil%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fd79f50ca92c57848c4f332cf1b4727be%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -91,11 +91,11 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist1080p.m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "http://45.185.11.126:8000/play/a08v/index.m3u8",
       "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fproxylinkurl.wored85282.workers.dev%2Fhttps%3A%2F%2Famg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Fgetv&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fa1c812b7610abd8f87a475373af24ba3%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
@@ -106,8 +106,8 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/globonews.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a08d/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobonews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a08d/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F362a79b2f64bc8d70acfde8784875b89%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -127,8 +127,8 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/gnt.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a079/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a079/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F5e5d0e9de9360a1548554b40cea0b7ed%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -138,10 +138,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/history.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhistory%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/HISTORY_HD/index.m3u8",
       "http://45.185.11.126:8000/play/a0al/index.m3u8",
       "http://170.83.16.50/HISTORY/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhistory%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F1ce3021f5934b7960262416a2825a44a%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -161,10 +161,10 @@
     "categoria": "Notícias",
     "logo": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fjovempannews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
       "https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8",
-      "http://186.219.52.187/jp_news/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fjovempannews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "http://186.219.52.187/jp_news/index.m3u8"
     ]
   },
   {
@@ -173,8 +173,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/megapix.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a057/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fmegapix%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a057/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Ff94c59930168fec750783008d0dd3b62%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -234,8 +234,8 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05j/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05j/index.m3u8"
     ]
   },
   {
@@ -244,8 +244,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05k/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere7%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere7%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05k/index.m3u8"
     ]
   },
   {
@@ -254,8 +254,8 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05l/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere8%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere8%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05l/index.m3u8"
     ]
   },
   {
@@ -264,8 +264,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a06g/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiereclubes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a06g/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F93cf8a87b969fd42be9bc8973b61d5b6%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -297,8 +297,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/sonychannel.png",
     "urls": [
-      "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsonychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0f4871b2271dba3a47c8a27834e1335b%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -318,8 +318,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv2.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05f/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05f/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fa5d70403274bb2aa99754b165ac3afd7%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -329,8 +329,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv3.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a06v/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a06v/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fa43a8da8da22a9ece220bacb4d9680ba%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -340,8 +340,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/off.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a07t/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcanaloff%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a07t/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0653e61212a5b3396b6fed73a21d07c3%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -351,8 +351,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecineaction.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a058/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcaction%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a058/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Ff2ca6d8a1be888c76ab8c4c0ff376550%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -362,8 +362,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinepipoca.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a08g/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcpipoca%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a08g/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F7477ff554e1d45b23f7df4f38c5a6cd9%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -431,8 +431,8 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonito.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a0ae/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonito%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a0ae/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F55dcda0a65cc1828029a6dca34a1fdb3%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -442,9 +442,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/cinemax.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcinemax%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/CINEMAX/index.m3u8",
       "http://45.185.11.126:8000/play/a081/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcinemax%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F172325546451095e0652b00e885ea8fc%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -454,8 +454,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverychannel.png",
     "urls": [
-      "http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F854c4b9acf103229d55c0e0b29d1bc86%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -465,9 +465,9 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/discoverykids.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverykids%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/DISCOVERY_KIDS_HD/index.m3u8",
       "http://45.185.11.126:8000/play/a0ad/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverykids%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F5cc97655584a6849ed3354a98ef36337%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -477,9 +477,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverytheater.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverytheater%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/DISCOVERY_THEATER_HD/index.m3u8",
       "http://45.185.11.126:8000/play/a085/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverytheater%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fc2461c2a650012dd68811b9db65d5f9a%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -489,10 +489,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/ESPN_HD/index.m3u8",
       "http://181.78.197.59:8000/play/a07z/index.m3u8",
       "http://45.162.64.114/ESPN_BRASIL/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0d6d2f213fc2f13d13d421851a19466e%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -502,8 +502,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn2.png",
     "urls": [
-      "http://138.204.86.4:8080/ESPN2_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/ESPN2_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Ff461df3463d87dacaa0188af4f49f8b3%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -513,11 +513,11 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn4.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/ESPN4_HD/index.m3u8",
       "http://181.78.197.59:8000/play/a07n/index.m3u8",
       "http://45.185.11.126:8000/play/a05m/index.m3u8",
       "http://45.162.64.114/ESPN_4/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F7060623b71935144957cbca8725a4679%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -527,8 +527,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn5.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05n/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn5%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05n/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fac741344d8008bd23e087abdc9c79337%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -538,8 +538,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn6.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a084/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a084/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F574295649c01ca3269d2831f035732c9%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -549,8 +549,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo.png",
     "urls": [
-      "http://138.204.86.4:8080/HBO/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/HBO/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fd361c9f760998a9682ef79f16f78ed86%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -560,9 +560,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo2.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/HBO2/index.m3u8",
       "http://45.185.11.126:8000/play/a08o/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F26376d9bc80f9f287663ac13b1275670%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -572,8 +572,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbofamily.png",
     "urls": [
-      "http://138.204.86.4:8080/HBO_FAMILY/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbofamily%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/HBO_FAMILY/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fe859fc6625e54c78463bb71ede5a74cc%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -583,8 +583,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbomundi.png",
     "urls": [
-      "http://138.204.86.4:8080/HBO_MUNDI_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbomundi%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/HBO_MUNDI_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fef997c6ec417f028eebc996140f3a8c8%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -594,8 +594,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hboplus.png",
     "urls": [
-      "http://138.204.86.4:8080/HBO_PLUS/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/HBO_PLUS/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fe3bc4dfa43b4668c900888edef9c2cd7%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -605,9 +605,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbopop.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbopop%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/HBO_POP_HD/index.m3u8",
       "http://45.185.11.126:8000/play/a08s/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbopop%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F8621f8145850d0e5cad3f311b12b28da%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -617,8 +617,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
     "urls": [
-      "http://138.204.86.4:8080/HBO_SIGNATURE/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbosignature%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbosignature%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/HBO_SIGNATURE/index.m3u8"
     ]
   },
   {
@@ -627,8 +627,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a083/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboxtreme%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a083/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fab25156a6f10775bca86d0a251fb9356%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -648,9 +648,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/space.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fspace%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/SPACE_HD/index.m3u8",
       "http://45.162.64.114/SPACE/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fspace%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fcfa0de0a46250d4baf2ec498b8b1f9ef%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -660,9 +660,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tnt.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/TNT_HD/index.m3u8",
       "http://45.162.64.114/TNT/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F9ea02d6c806065bdbdf1f23de69fad9e%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -682,8 +682,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/universaltv.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a0af/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Funiversaltv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a0af/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Ff4bb279971a22bde2bb43bd6378f0aa3%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -693,10 +693,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryturbo.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryturbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/DISCOVERY_TURBO_HD/index.m3u8",
       "http://45.185.11.126:8000/play/a07z/index.m3u8",
       "http://45.162.64.114/DISCOVERY_TURBO/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryturbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fe99eaa27df284c6f7f7a580bba96148b%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -715,8 +715,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinefun.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a059/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcfun%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a059/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0638b7f3e8881fed5a7eedd8ff18ff97%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -726,8 +726,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinecult.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a05a/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftccult%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a05a/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fb8342422627ec3e4055ce66dc1c5e848%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -765,8 +765,8 @@
     "categoria": "Infantil",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
     "urls": [
-      "http://170.83.16.50:80/TOONCAST/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftooncast%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftooncast%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://170.83.16.50:80/TOONCAST/index.m3u8"
     ]
   },
   {
@@ -795,8 +795,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryscience.png",
     "urls": [
-      "http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryscience%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://138.204.86.4:8080/DISCOVERY_SCIENCE_HD/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F9a0fe346e573a1d4148e8e4034fbb78b%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -806,10 +806,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/axn.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faxn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/AXN_HD/index.m3u8",
       "http://170.83.49.66:8083/AXNHD/index.m3u8",
       "http://170.83.16.50/AXN/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faxn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F88a48b865b4960bcef4bf20fb8f4bf25%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -819,8 +819,8 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/bandnews.png",
     "urls": [
-      "http://45.162.64.114/BAND_NEWS/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.162.64.114/BAND_NEWS/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F13c70968eee7f46471addbc5855b7964%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -830,10 +830,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/bandsports.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8",
       "http://45.162.64.114/BAND_SPORTS/index.m3u8",
       "http://170.83.16.50/BAND_SPORTS/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F649eafe26d2962e9468252f108e8ebd4%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -843,10 +843,10 @@
     "categoria": "TV Aberta",
     "logo": "https://www.tvlogo.org/brazil/rede-tv-br.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/REDE_TV/index.m3u8",
       "http://170.83.16.50/REDE_TV/index.m3u8",
       "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F8160796a28be5c8e2de472bbfd485771%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -856,10 +856,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cultura.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvcultura%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
       "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
       "https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvcultura%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F607d31208ec1d37697e6e9a0d063959f%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -889,9 +889,9 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn3.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/ESPN3_HD/index.m3u8",
       "http://181.78.197.59:8000/play/a081/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F20ef32cf5f040691b9ad69bc0be95387%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -912,12 +912,12 @@
     "categoria": "Notícias",
     "logo": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/RECORD_NEWS/index.m3u8",
       "https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fb60efa04c1626d9faeea26028119dca1%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fstream.ads.ottera.tv%2Fplaylist.m3u8%3Fnetwork_id%3D5431&referer=https%3A%2F%2Fmeufut.top%2Frecord-news&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
@@ -928,8 +928,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cancaonova.png",
     "urls": [
-      "http://45.162.64.114/CANCAO_NOVA/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcancaonova%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.162.64.114/CANCAO_NOVA/index.m3u8",
       "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8"
     ]
   },
@@ -939,9 +939,9 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvaparecida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/TV_APARECIDA/index.m3u8",
       "https://cdn.live.br1.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvaparecida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fb09e689b733830ea1f4f9082afd2d337%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -951,10 +951,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/redevida.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredevida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8",
       "http://186.219.52.187/rede_vida/index.m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredevida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F7a1545e58e96301599f9cd1ba0b7942e%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -964,9 +964,9 @@
     "categoria": "Documentários",
     "logo": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryid%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/ID_HD/index.m3u8",
       "http://45.162.64.114/DISCOVERY_ID/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryid%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Ff1fc13a9f99e12f15e052dd096c88f9b%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -1063,9 +1063,9 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/tvpaieterno.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpaieterno%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/TV_PAI_ETERNO/index.m3u8",
       "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpaieterno%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F24690f9b8e6b56abe4189f864b0532cc%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fvideo09.logicahost.com.br%2Fpaieterno%2Fpaieterno%2Fplaylist.m3u8&referer=https%3A%2F%2Fmeufut.top%2Ftv-pai-eterno&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
@@ -1096,8 +1096,8 @@
     "categoria": "Variedades",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
     "urls": [
-      "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredegospel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredegospel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8"
     ]
   },
   {
@@ -1126,9 +1126,9 @@
     "categoria": "Variedades",
     "logo": "https://i.imgur.com/IrYR7Kp.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvevangelizar%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/EVANGELIZAR/index.m3u8",
-      "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvevangelizar%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8"
     ]
   },
   {
@@ -1147,9 +1147,9 @@
     "categoria": "Variedades",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fnovotempo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://45.162.64.114/NOVO_TEMPO/index.m3u8",
-      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fnovotempo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8"
     ]
   },
   {
@@ -1178,8 +1178,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryhh.png",
     "urls": [
-      "http://45.162.64.114/DISCOVERY_H_H/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryhh%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.162.64.114/DISCOVERY_H_H/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F353589c721583cfe6219dc065583fb90%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -1533,8 +1533,8 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/foodnetwork.png",
     "urls": [
-      "http://45.185.11.126:8000/play/a06j/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ffoodnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://45.185.11.126:8000/play/a06j/index.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F55f9d410aeb4a776f0deb93acd12f9b5%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -1554,9 +1554,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryworld.png",
     "urls": [
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryworld%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "http://138.204.86.4:8080/DISCOVERY_WORLD_HD/index.m3u8",
       "http://45.162.64.114/DISCOVERY_WORLD/index.m3u8",
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryworld%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2Fe33bb0448071fea3823c662c0b8779ee%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
@@ -1566,8 +1566,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8",
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2F908485dfcfcc6d43ee34661e0249105e.s25-cloudfront-net.lat%2Fstream%2F0197e4f7ccf66ec054e8e21ebe3d38df%2Ferror.txt&referer=https%3A%2F%2Fww0.embedtv.cc%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },

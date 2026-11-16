@@ -149,7 +149,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/rySmv62p4VBXmSEO7OYGb7X5VcP.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rySmv62p4VBXmSEO7OYGb7X5VcP.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 153217,
     "tmdbTipo": "tv",
@@ -514,6 +514,247 @@
     "genre": "Infantil",
     "anime": true,
     "tmdbId": 228671,
+    "tmdbTipo": "tv",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312421.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312422.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312423.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312424.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312425.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312426.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312427.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312428.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312429.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312430.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312431.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312432.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 13,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312433.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 14,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312434.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 15,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312435.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 16,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312436.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 17,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312437.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 18,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312438.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 19,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312439.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 20,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312440.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 21,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312441.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 22,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/312442.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Acampamento Mágico",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/h4LKokTSEGsSD59E4WXYdAXpRZp.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/rJDmGP4uhBYw2z4L9aizBkk5cHl.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "2026",
+    "genre": "Infantil",
+    "anime": true,
+    "tmdbId": 228673,
     "tmdbTipo": "tv",
     "seasons": [
       {
@@ -2559,7 +2800,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/f6iqLFmexkPkZr2GLG3pXZ7xEZo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/f6iqLFmexkPkZr2GLG3pXZ7xEZo.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 312359,
     "tmdbTipo": "tv",
@@ -2640,7 +2881,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/hUlANqWyQyIvEUARxeAyP9vzaYU.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hUlANqWyQyIvEUARxeAyP9vzaYU.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 204135,
     "tmdbTipo": "tv",
@@ -3622,7 +3863,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/cZYqe6GeT7Qzp8RTYwITB1PFL9s.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cZYqe6GeT7Qzp8RTYwITB1PFL9s.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 318918,
     "tmdbTipo": "tv",
@@ -4813,7 +5054,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/xJTKe9og8LbF2AbX0VPGul7ymVM.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xJTKe9og8LbF2AbX0VPGul7ymVM.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 204137,
     "tmdbTipo": "tv",
@@ -6936,7 +7177,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/enHLRGFx8P2XQtyYcvuV4o1vl6S.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/enHLRGFx8P2XQtyYcvuV4o1vl6S.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 224263,
     "tmdbTipo": "tv",
@@ -7683,7 +7924,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/zr13I75ky1xxop8NOVbN4QNrn5j.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zr13I75ky1xxop8NOVbN4QNrn5j.png",
     "year": "2026",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 196950,
     "tmdbTipo": "tv",
@@ -9700,6 +9941,256 @@
     "genre": "Animação",
     "anime": true,
     "tmdbId": 12577,
+    "tmdbTipo": "tv",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138590.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/20f6b681ac2bbb129d2cb425efe5ff8a/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138591.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/04c91925ddf89f3c07c647439cbe1192/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138592.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/9068b02c15bf4fd01dc7e9d1e7830fe3/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138593.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/c43b57f7318837ebaff14ff7576526bd/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138594.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/ec2df23a8cd56dafa864ba91b099ebfe/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138595.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/13150674cd0aae2a4be0c0f2a5a0eb07/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138596.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/4a12b59487d6961b5b233406e70f80df/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138597.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/1f46bf29123d5a293bba25554e5b44f4/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "season": 2,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255070.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/90b8ec696190a11b61b207a7cd08e524/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255071.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/5d3ce7d09741b23276c41a8547530815/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255072.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/bbf3d5eb2f3eb3326eebf111e47c5c43/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255073.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/0b75c4b7454ad25b7db864117ad4bec1/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255074.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/94aa0266c76ed6243c4d72e79729527a/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255075.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/eb4231021afbfcda90b5de428e05c970/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255076.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/fd860a4a666139e9bbf15415591f2898/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 2,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/255077.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/ae8b95a24cf48170c4b939f7c851bf29/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Devil May Cry",
+    "desc": "Nesta batalha épica do bem contra o mal, as linhas não estão nada claras. E as esperanças de salvação estão nas mãos de um caçador de demônios diabolicamente bonito.",
+    "thumb": "https://image.tmdb.org/t/p/w500/75KximV3WhtvlWFneTrf1Pw61cu.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/zPO7RC0T1kA79cH3zBXPVNUL1Ge.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/o9hnKyKcgroZbpT9bRIqhftxdJ6.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/o9hnKyKcgroZbpT9bRIqhftxdJ6.png",
+    "year": "2025",
+    "genre": "Animação",
+    "anime": true,
+    "tmdbId": 235930,
     "tmdbTipo": "tv",
     "seasons": [
       {
@@ -12543,7 +13034,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/vimvF2sV798HPYAZRDQzRrWp7Iy.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vimvF2sV798HPYAZRDQzRrWp7Iy.png",
     "year": "2025",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 280110,
     "tmdbTipo": "tv",
@@ -23117,7 +23608,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/HFAyXFb8VpdJCXZPylKo3jtNT8.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/HFAyXFb8VpdJCXZPylKo3jtNT8.png",
     "year": "2024",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 236994,
     "tmdbTipo": "tv",
@@ -24922,7 +25413,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/mZge2y3vQx4CEWOlZplt40Smxri.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mZge2y3vQx4CEWOlZplt40Smxri.png",
     "year": "2024",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 207468,
     "tmdbTipo": "tv",
@@ -27779,7 +28270,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/piJiMJx8ubLCgiIC9fgjaQcpG8a.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/piJiMJx8ubLCgiIC9fgjaQcpG8a.png",
     "year": "2024",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 127532,
     "tmdbTipo": "tv",
@@ -36688,7 +37179,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/rpkGXU1CUPCYwqi6F7iNLvE3VLS.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rpkGXU1CUPCYwqi6F7iNLvE3VLS.png",
     "year": "2023",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 209867,
     "tmdbTipo": "tv",
@@ -38101,7 +38592,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/12gap9DNVqPvhwrAoa6W4mJj1Po.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/12gap9DNVqPvhwrAoa6W4mJj1Po.png",
     "year": "2023",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 117465,
     "tmdbTipo": "tv",
@@ -40121,7 +40612,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/f1iybcTUUU0QnPwvFjJvChxss6b.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/f1iybcTUUU0QnPwvFjJvChxss6b.png",
     "year": "2023",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 204832,
     "tmdbTipo": "tv",
@@ -54134,7 +54625,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/8X3AdUA5q3owusAXOiCOn3FwXUa.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8X3AdUA5q3owusAXOiCOn3FwXUa.png",
     "year": "2022",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 114410,
     "tmdbTipo": "tv",
@@ -63988,7 +64479,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/rEWhjQE3KVU6neMkCJ45tz6yh59.svg",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rEWhjQE3KVU6neMkCJ45tz6yh59.svg",
     "year": "2022",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 120089,
     "tmdbTipo": "tv",
@@ -94368,7 +94859,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/2HJI1oFVjbMaMWMqqGLtdGck3JN.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2HJI1oFVjbMaMWMqqGLtdGck3JN.png",
     "year": "2020",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 95479,
     "tmdbTipo": "tv",
@@ -104050,7 +104541,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png",
     "year": "2019",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 85937,
     "tmdbTipo": "tv",
@@ -105108,7 +105599,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/hnCHjH1xvqDDGLrt7vL7Ur0oy5c.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hnCHjH1xvqDDGLrt7vL7Ur0oy5c.png",
     "year": "2019",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 86031,
     "tmdbTipo": "tv",
@@ -123054,7 +123545,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/pFXtsOJRcuZjQmi97wBQwGKWFPi.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/pFXtsOJRcuZjQmi97wBQwGKWFPi.png",
     "year": "2018",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 80020,
     "tmdbTipo": "tv",
@@ -127226,12 +127717,12 @@
     "cat": "Animes",
     "title": "Black Clover",
     "desc": "Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida desse dom. Aos quinze anos, ambos recebem grimórios - livros mágicos que amplificam os poderes do detentor. Asta recebe um raro grimório de anti-magia, capaz de negar e repelir os feitiços do oponente. Dois opostos que nutrem uma rivalidade amigável, Yuno e Asta estão prontos para encarar os mais difíceis desafios para conquistar seu sonho em comum: tornar-se o Rei dos Feiticeiros. Desistir não é opção!",
-    "thumb": "https://image.tmdb.org/t/p/w500/p3rUhlE81nWxPqpPR8F2u7a01Tl.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/zObHoFAX6P7DirR2dybN3cVC1Ms.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/j9ZZ7WV5pwLLXbbebyGdMUxbqrc.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/j9ZZ7WV5pwLLXbbebyGdMUxbqrc.png",
     "year": "2017",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 73223,
     "tmdbTipo": "tv",
@@ -129936,7 +130427,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/fLc6pr3c5XAZjOjUA7JjlE7e4OC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fLc6pr3c5XAZjOjUA7JjlE7e4OC.png",
     "year": "2017",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 70881,
     "tmdbTipo": "tv",
@@ -141128,7 +141619,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/14DNU5iobo7Ky0jJYkDx8EiTgnj.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/14DNU5iobo7Ky0jJYkDx8EiTgnj.png",
     "year": "2016",
-    "genre": "Ação e aventura",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 65930,
     "tmdbTipo": "tv",
@@ -145117,7 +145608,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qpkdM5lO3Kfpcuzjz2fxSLVRWCf.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qpkdM5lO3Kfpcuzjz2fxSLVRWCf.png",
     "year": "2015",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 62715,
     "tmdbTipo": "tv",
@@ -150565,7 +151056,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/2tHAFkKMvwbR22CCMsR5eAFYzP.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2tHAFkKMvwbR22CCMsR5eAFYzP.png",
     "year": "2015",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 64196,
     "tmdbTipo": "tv",
@@ -163893,7 +164384,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/9u3baMv9AZ9znK9ecPjQQVoyEl8.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9u3baMv9AZ9znK9ecPjQQVoyEl8.png",
     "year": "2014",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 61374,
     "tmdbTipo": "tv",
@@ -166139,7 +166630,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qSntvVN1vTFZJQRcUzzAPcb0KPO.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qSntvVN1vTFZJQRcUzzAPcb0KPO.png",
     "year": "2013",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 1429,
     "tmdbTipo": "tv",
@@ -191976,12 +192467,12 @@
     "cat": "Animes",
     "title": "Hunter x Hunter",
     "desc": "Monstros amedrontadores, criaturas exóticas, riquezas vastas, tesouros misteriosos, terras vis e terras inexploradas... Gon parte em uma aventura para se tornar um caçador profissional que arrisca a própria vida em busca do desconhecido. Pelo caminho, ele conhece outros participantes da Prova dos Caçadores: Kurapika, Leorio e Killua. Será Gon capaz de vencer os grandes desafios da Prova de Caçadores e se tornar o melhor do mundo? Esta jornada selvagem e épica está prestes a começar!!",
-    "thumb": "https://image.tmdb.org/t/p/w500/eobAuhCJA8oRp814V67WhezVXtQ.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/9WxfAQquTun9ATkV6iAeFHMkqxv.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/r20WExRYrZ37WXVxBhqT5s8GwwO.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/r20WExRYrZ37WXVxBhqT5s8GwwO.png",
     "year": "2011",
-    "genre": "Ficção e fantasia",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 46298,
     "tmdbTipo": "tv",
@@ -207908,7 +208399,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/hB10t9pGbNcuVzzjH2j2o3ZYIOR.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hB10t9pGbNcuVzzjH2j2o3ZYIOR.png",
     "year": "2009",
-    "genre": "Ficção e fantasia",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 61709,
     "tmdbTipo": "tv",
@@ -210350,7 +210841,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/1uxD6336yvySlaNqAuCl5XuGt3U.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1uxD6336yvySlaNqAuCl5XuGt3U.png",
     "year": "2009",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 31911,
     "tmdbTipo": "tv",
@@ -217890,7 +218381,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qopvxH4C4YIoeJWss0EVLv13rgW.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qopvxH4C4YIoeJWss0EVLv13rgW.png",
     "year": "2007",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 31910,
     "tmdbTipo": "tv",
@@ -230252,12 +230743,12 @@
     "cat": "Animes",
     "title": "Death Note",
     "desc": "O jovem estudante Light Yagami acha um caderno com poderes sobrenaturais, chamado Death Note, no qual é possível matar uma pessoa apenas escrevendo seu nome no caderno. Quando o descobre, Light tenta eliminar todos os criminosos do mundo e dar à sociedade um mundo livre do mal. Mas seus planos começam a sair de rumo quando o detetive L resolve contrariar Light.",
-    "thumb": "https://image.tmdb.org/t/p/w500/iigTJJskR1PcjjXqxdyJwVB3BoU.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/mQABf5KFAMD0hLOdpFrthy00BCh.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/mbDyY5qEDKVQNvuHk71OvxH8Cjg.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mbDyY5qEDKVQNvuHk71OvxH8Cjg.png",
     "year": "2006",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 13916,
     "tmdbTipo": "tv",
@@ -245711,7 +246202,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/c9iFgEgSsQae88d8jsF7O9otxg6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/c9iFgEgSsQae88d8jsF7O9otxg6.png",
     "year": "2004",
-    "genre": "Ação e aventura",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 30984,
     "tmdbTipo": "tv",
@@ -273122,7 +273613,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/kaZ99sfclCKWnUgmW7AYrok03Am.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kaZ99sfclCKWnUgmW7AYrok03Am.png",
     "year": "2002",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 46260,
     "tmdbTipo": "tv",
@@ -302394,12 +302885,12 @@
     "cat": "Animes",
     "title": "One Piece",
     "desc": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
-    "thumb": "https://image.tmdb.org/t/p/w500/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/9ltisibeD4gzqjM1AzmQwCdyirQ.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
     "year": "1999",
-    "genre": "Ação e aventura",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 37854,
     "tmdbTipo": "tv",
@@ -334784,7 +335275,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/lyrXcWp8QWFyEXepcEG0SEJvCG4.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lyrXcWp8QWFyEXepcEG0SEJvCG4.png",
     "year": "1996",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 12697,
     "tmdbTipo": "tv",
@@ -342139,6 +342630,419 @@
     "genre": "Animação",
     "anime": true,
     "tmdbId": 20451,
+    "tmdbTipo": "tv",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41680.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41714.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41682.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41715.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41683.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41716.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41684.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41718.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41685.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41719.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41686.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41720.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/2ecf1419714d5ed96aae032fa97f32ac/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41687.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41721.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41688.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41723.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41690.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41724.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/121c3a4b15e00043707d4c2dc9df81f8/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41691.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41725.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41692.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41726.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41694.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41728.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/0ee31bb61ef7f3df22314805a40f5b6c/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 13,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41695.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41729.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 14,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41696.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41730.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 15,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41697.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41731.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 16,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41699.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41733.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 17,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41700.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41734.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/eef0cecd6fcb2aa2c4a84b9e8239190b/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 18,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41701.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41735.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/226828242d2ceed12d307f1272ce8ddc/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 19,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41703.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41737.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 20,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41704.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41738.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 21,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41705.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41739.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 22,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41706.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41740.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 23,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41708.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41742.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 24,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41709.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41743.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 25,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41710.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41744.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/d17cdcb66b372bb5fa55aa9d0687b453/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 26,
+            "fontes": [
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41711.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41745.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://embedplayer2.xyz/cdn/hls/b620932a8ad5b0af6bc119082f9d5b1b/master.txt?format=m3u8",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Animes",
+    "title": "Tenchi Muyo!",
+    "desc": "O mundo está um caos por culpa de Washu. Agora para salvá-lo, Masaki Tenchi precisa se disfarçar de professor em uma escola só para meninas.",
+    "thumb": "https://image.tmdb.org/t/p/w500/rfRVtVJtGzhg6v3mfR5qzspQdI7.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/sWRP7tYngmuH80dAVlAh8D0cAw7.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/gZ0djwzO6a0ljjxXa2nXSkEKafG.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/gZ0djwzO6a0ljjxXa2nXSkEKafG.png",
+    "year": "1995",
+    "genre": "Animação",
+    "anime": true,
+    "tmdbId": 76645,
     "tmdbTipo": "tv",
     "seasons": [
       {
@@ -350883,7 +351787,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/csmFVVcS2KfM6e02qLBgmncpYwZ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/csmFVVcS2KfM6e02qLBgmncpYwZ.png",
     "year": "1992",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 30669,
     "tmdbTipo": "tv",
@@ -353989,7 +354893,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/yMoktMFgvqnsQ1Pii9xwturAHx4.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/yMoktMFgvqnsQ1Pii9xwturAHx4.png",
     "year": "1989",
-    "genre": "Animação",
+    "genre": "Animes",
     "anime": true,
     "tmdbId": 12971,
     "tmdbTipo": "tv",
@@ -372994,7 +373898,7 @@
     "cat": "Animes",
     "title": "Dragon Ball Classico",
     "desc": "Criado isolado nas montanhas, Son Goku é um garoto de força extraordinária, coração puro e completo desconhecimento do mundo além de sua casa. Sua vida muda ao conhecer Bulma, uma jovem inventora à procura das sete Esferas do Dragão, artefatos capazes de invocar Shenlong e realizar qualquer desejo. O que começa como uma busca pelas esferas leva Goku a descobrir um mundo de mestres, rivais, torneios e inimigos cada vez mais perigosos. Entre amizades e batalhas que moldam seu caminho, o garoto das montanhas cresce como lutador enquanto enfrenta aqueles que desejam usar o poder das Esferas do Dragão para seus próprios fins.",
-    "thumb": "https://image.tmdb.org/t/p/w500/fdqeVkZKhYnR29jJFDVYZaFhfy7.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/1YIJYarVZKH3nq89n1lVAxeVktg.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/30L49n4Dhn7dzuGG50GV3ybMhC3.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/rJUfPW8a5kaFYkxD5kMHi1KC2c.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rJUfPW8a5kaFYkxD5kMHi1KC2c.png",
