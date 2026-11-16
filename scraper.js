@@ -4,14 +4,25 @@ const path = require('path');
 
 const CANAIS_BASE_URL = 'https://canais-saimo.pages.dev';
 const FILMES_BASE_URL = 'https://filmes-saimo.pages.dev';
+const SAIMO_PROXY_URL = 'https://play.saimotv.com/api/proxy';
 const OUTPUT_DIR = path.join(__dirname, 'listas');
-const TMDB_IMG = 'https://image.tmdb.org/t/p/w500';
+const CACHE_FILE = path.join(OUTPUT_DIR, 'tmdb_cache.json');
+
+const TMDB_KEY = process.env.TMDB_KEY || '4a0e81a33a44fc2b682553ef05a5e49e';
+const TMDB_API = 'https://api.themoviedb.org/3';
+const TMDB_IMG_POSTER = 'https://image.tmdb.org/t/p/w500';
+const TMDB_IMG_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
+const TMDB_IMG_LOGO = 'https://image.tmdb.org/t/p/w500';
+
+const DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
+const MAX_TMDB_FETCH_PER_RUN = 6000;
+const TMDB_CONCURRENCY = 30;
 
 const http = axios.create({
-  timeout: 30000,
+  timeout: 25000,
   headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-    'Accept': 'text/plain, */*'
+    'User-Agent': DEFAULT_UA,
+    'Accept': 'text/plain, application/json, */*'
   },
   responseType: 'text',
   transformResponse: [(data) => data]
@@ -28,35 +39,54 @@ async function fetchText(url) {
 }
 
 /**
- * Filtra links incompatíveis com o format-detector.js do Cartoonzine Ultra Player:
- * - Remove saimo-tv.pages.dev/api/stream
- * - Remove embedplayer2.xyz/.../master.txt
+ * Remove apenas a API interna inútil (saimo-tv.pages.dev/api/stream).
+ * Permite links .mp4, .m3u8 e também os HLS disfarçados (.txt).
  */
 function isValidMediaUrl(url) {
   if (!url || typeof url !== 'string') return false;
   const u = url.trim();
   if (!u.startsWith('http://') && !u.startsWith('https://')) return false;
-  if (
-    u.includes('saimo-tv.pages.dev/api/') ||
-    u.includes('/api/stream') ||
-    u.includes('embedplayer2.xyz/') ||
-    u.endsWith('/master.txt')
-  ) {
+
+  const low = u.toLowerCase();
+  if (low.includes('saimo-tv.pages.dev/api/') || low.includes('/api/stream')) {
     return false;
   }
   return true;
 }
 
 /**
- * Converte "0:302441" na URL completa usando as bases do indice.txt
+ * Converte links HLS disfarçados (.txt como error.txt e master.txt) em links
+ * reconhecidos como HLS (.m3u8) pelo format-detector.js e compatíveis com todas as plataformas.
  */
+function normalizeHlsUrl(rawUrl, referer = '', userAgent = '') {
+  if (!rawUrl || !isValidMediaUrl(rawUrl)) return null;
+  let u = rawUrl.trim();
+  const low = u.toLowerCase().split('?')[0];
+
+  // Se o canal exige Referer (ou é do servidor s25-cloudfront-net.lat que exige referer do embedtv),
+  // encapsula no proxy de streaming com &format=m3u8 no final para tocar em qualquer plataforma
+  if (referer || low.includes('s25-cloudfront-net.lat/')) {
+    const refFinal = referer || 'https://ww0.embedtv.cc/';
+    const uaFinal = userAgent || DEFAULT_UA;
+    return `${SAIMO_PROXY_URL}?url=${encodeURIComponent(u)}&referer=${encodeURIComponent(refFinal)}&ua=${encodeURIComponent(uaFinal)}&format=m3u8`;
+  }
+
+  // Se for um HLS disfarçado com extensão .txt (ex: embedplayer2.xyz/cdn/hls/.../master.txt),
+  // acrescenta ?format=m3u8 para que qualquer player e o format-detector.js reconheçam como HLS
+  if (low.endsWith('.txt') && !u.includes('format=m3u8')) {
+    u += (u.includes('?') ? '&' : '?') + 'format=m3u8';
+  }
+
+  return u;
+}
+
 function montarUrl(valor, bases) {
   if (!valor) return null;
   const limpo = valor.trim();
   if (!limpo) return null;
 
   if (limpo.startsWith('http://') || limpo.startsWith('https://')) {
-    return isValidMediaUrl(limpo) ? limpo : null;
+    return normalizeHlsUrl(limpo);
   }
 
   const partesUrl = limpo.split(':');
@@ -70,12 +100,22 @@ function montarUrl(valor, bases) {
   const baseFormatada = base.endsWith('/') ? base : `${base}/`;
   const urlFinal = resto.includes('.') ? `${baseFormatada}${resto}` : `${baseFormatada}${resto}.mp4`;
 
-  return isValidMediaUrl(urlFinal) ? urlFinal : null;
+  return normalizeHlsUrl(urlFinal);
 }
 
 /**
- * Extrai fontes no formato [{ url, idioma: "dublado" | "legendado" }]
+ * Ordena as fontes para que o arquivo .mp4 direto venha sempre em 1º lugar
+ * e o HLS (.txt / format=m3u8) fique logo atrás como reserva automática!
  */
+function ordenarFontesPreferenciais(fontesArray) {
+  return fontesArray.sort((a, b) => {
+    const aIsTxtHls = a.url.includes('master.txt') || a.url.includes('format=m3u8');
+    const bIsTxtHls = b.url.includes('master.txt') || b.url.includes('format=m3u8');
+    if (aIsTxtHls === bIsTxtHls) return 0;
+    return aIsTxtHls ? 1 : -1;
+  });
+}
+
 function extrairFontes(campos, bases) {
   const fontes = [];
   const urlsVistas = new Set();
@@ -99,7 +139,95 @@ function extrairFontes(campos, bases) {
       }
     }
   }
-  return fontes;
+  return ordenarFontesPreferenciais(fontes);
+}
+
+/**
+ * CACHE TMDB (Logo PNG Transparente, Backdrop w1280 e Sinopse PT-BR)
+ */
+function loadTmdbCache() {
+  try {
+    if (fs.existsSync(CACHE_FILE)) {
+      return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+    }
+  } catch (_) {}
+  return {};
+}
+
+function saveTmdbCache(cacheObj) {
+  try {
+    if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(cacheObj), 'utf-8');
+  } catch (_) {}
+}
+
+async function fetchTmdbDetails(tmdbId, tipo) {
+  const endpoint = `${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=pt-BR&append_to_response=images&include_image_language=pt,en,null`;
+  try {
+    const res = await http.get(endpoint, { timeout: 10000 });
+    if (res.status !== 200 || !res.data) return null;
+    const d = JSON.parse(res.data);
+
+    const logos = (d.images && d.images.logos) || [];
+    const chosenLogo =
+      logos.find((l) => l.iso_639_1 === 'pt') ||
+      logos.find((l) => l.iso_639_1 === 'en') ||
+      logos[0];
+
+    return {
+      logo: chosenLogo && chosenLogo.file_path ? `${TMDB_IMG_LOGO}${chosenLogo.file_path}` : '',
+      backdrop: d.backdrop_path ? `${TMDB_IMG_BACKDROP}${d.backdrop_path}` : '',
+      poster: d.poster_path ? `${TMDB_IMG_POSTER}${d.poster_path}` : '',
+      desc: (d.overview || '').trim()
+    };
+  } catch (_) {
+    return null;
+  }
+}
+
+async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
+  const toFetch = [];
+  for (const item of allItems) {
+    if (!item.tmdbId || !item.tmdbTipo) continue;
+    const key = `${item.tmdbTipo}_${item.tmdbId}`;
+    if (!tmdbCache[key]) {
+      toFetch.push({ key, tmdbId: item.tmdbId, tmdbTipo: item.tmdbTipo });
+    }
+  }
+
+  const uniqueQueue = Array.from(new Map(toFetch.map((x) => [x.key, x])).values()).slice(0, MAX_TMDB_FETCH_PER_RUN);
+
+  if (uniqueQueue.length > 0) {
+    console.log(`\n🎨 Buscando Logos PNG e Backdrops no TMDB para ${uniqueQueue.length} títulos...`);
+    for (let i = 0; i < uniqueQueue.length; i += TMDB_CONCURRENCY) {
+      const batch = uniqueQueue.slice(i, i + TMDB_CONCURRENCY);
+      await Promise.all(
+        batch.map(async (q) => {
+          const info = await fetchTmdbDetails(q.tmdbId, q.tmdbTipo);
+          if (info) tmdbCache[q.key] = info;
+        })
+      );
+      if ((i + TMDB_CONCURRENCY) % 600 === 0 || i + TMDB_CONCURRENCY >= uniqueQueue.length) {
+        console.log(`  [TMDB Progresso]: ${Math.min(i + TMDB_CONCURRENCY, uniqueQueue.length)} / ${uniqueQueue.length}`);
+      }
+    }
+    saveTmdbCache(tmdbCache);
+  }
+
+  for (const item of allItems) {
+    const key = item.tmdbId ? `${item.tmdbTipo}_${item.tmdbId}` : null;
+    const cached = key ? tmdbCache[key] : null;
+
+    const logoUrl = (cached && cached.logo) || '';
+    item.logo = logoUrl;
+    item.bannerlogo = logoUrl;
+
+    if (cached) {
+      if (cached.backdrop) item.bannerThumb = cached.backdrop;
+      if (!item.thumb && cached.poster) item.thumb = cached.poster;
+      if (cached.desc) item.desc = cached.desc;
+    }
+  }
 }
 
 function classificarCanal(nome) {
@@ -117,10 +245,10 @@ function classificarCanal(nome) {
 }
 
 /**
- * 1. CANAIS: Gera canais_sm.json no formato { id, nome, categoria, logo, urls }
+ * 1. CANAIS: Lê catalogo.txt respeitando referer: e agente: para converter error.txt em HLS compatível
  */
 async function processarCanais() {
-  console.log('\n📺 1. Baixando e categorizando canais de canais-saimo.pages.dev...');
+  console.log('\n📺 1. Baixando e processando canais de canais-saimo.pages.dev...');
   const [catalogoTxt, canaisM3uTxt] = await Promise.all([
     fetchText(`${CANAIS_BASE_URL}/catalogo.txt`),
     fetchText(`${CANAIS_BASE_URL}/canais.txt`)
@@ -128,6 +256,7 @@ async function processarCanais() {
 
   const canaisMap = new Map();
   let canalAtual = null;
+  let ultimaFonteObj = null;
 
   for (let linha of catalogoTxt.split(/\r?\n/)) {
     linha = linha.trim();
@@ -141,13 +270,14 @@ async function processarCanais() {
     if (!valor) continue;
 
     if (chave === 'canal') {
+      ultimaFonteObj = null;
       const normKey = valor.toLowerCase().replace(/\s+hd$/i, '').trim();
       if (!canaisMap.has(normKey)) {
         canalAtual = {
           nome: valor,
           logo: '',
           categoria: classificarCanal(valor),
-          urls: []
+          fontesBrutas: []
         };
         canaisMap.set(normKey, canalAtual);
       } else {
@@ -158,9 +288,16 @@ async function processarCanais() {
     } else if (canalAtual && chave === 'categoria') {
       canalAtual.categoria = valor;
     } else if (canalAtual && chave === 'fonte') {
-      if (isValidMediaUrl(valor) && !canalAtual.urls.includes(valor)) {
-        canalAtual.urls.push(valor);
+      if (isValidMediaUrl(valor)) {
+        ultimaFonteObj = { rawUrl: valor, referer: '', ua: '' };
+        canalAtual.fontesBrutas.push(ultimaFonteObj);
+      } else {
+        ultimaFonteObj = null;
       }
+    } else if (ultimaFonteObj && chave === 'referer') {
+      ultimaFonteObj.referer = valor;
+    } else if (ultimaFonteObj && chave === 'agente') {
+      ultimaFonteObj.ua = valor;
     }
   }
 
@@ -179,14 +316,14 @@ async function processarCanais() {
         const normKey = pendente.nome.toLowerCase().replace(/\s+hd$/i, '').trim();
         if (canaisMap.has(normKey)) {
           const c = canaisMap.get(normKey);
-          if (!c.urls.includes(linha)) c.urls.push(linha);
+          c.fontesBrutas.push({ rawUrl: linha, referer: '', ua: '' });
           if (!c.logo && pendente.logo) c.logo = pendente.logo;
         } else if (pendente.nome) {
           canaisMap.set(normKey, {
             nome: pendente.nome,
             logo: pendente.logo,
             categoria: pendente.categoria,
-            urls: [linha]
+            fontesBrutas: [{ rawUrl: linha, referer: '', ua: '' }]
           });
         }
         pendente = null;
@@ -198,14 +335,30 @@ async function processarCanais() {
   let contador = 0;
 
   for (const canal of canaisMap.values()) {
-    if (canal.urls.length > 0) {
+    const urlsConvertidas = [];
+    for (const f of canal.fontesBrutas) {
+      const u = normalizeHlsUrl(f.rawUrl, f.referer, f.ua);
+      if (u && !urlsConvertidas.includes(u)) {
+        urlsConvertidas.push(u);
+      }
+    }
+
+    // Prioriza links .m3u8 diretos na frente e mantém os convertidos via proxy/error.txt como reserva!
+    urlsConvertidas.sort((a, b) => {
+      const aProxy = a.includes('play.saimotv.com/api/proxy');
+      const bProxy = b.includes('play.saimotv.com/api/proxy');
+      if (aProxy === bProxy) return 0;
+      return aProxy ? 1 : -1;
+    });
+
+    if (urlsConvertidas.length > 0) {
       contador++;
       canaisJSON.push({
         id: contador.toString(),
         nome: canal.nome,
         categoria: canal.categoria,
         logo: canal.logo,
-        urls: canal.urls
+        urls: urlsConvertidas
       });
     }
   }
@@ -214,8 +367,7 @@ async function processarCanais() {
 }
 
 /**
- * 2. CARREGA METADADOS (indice.txt, fichas.txt, generos.txt, detalhes.txt)
- *    Inclui tmdbId para integração direta com o cz-info.js do player!
+ * 2. CARREGA METADADOS DO ACERVO
  */
 async function carregarMetadadosVOD() {
   console.log('\n🎬 2. Carregando índice, fichas (TMDB ID) e gêneros de filmes-saimo.pages.dev...');
@@ -259,7 +411,6 @@ async function carregarMetadadosVOD() {
     return metaMap.get(k);
   };
 
-  // fichas.txt: tipo \t título \t id TMDB \t pôster \t gêneros
   if (fichasTxt) {
     for (let linha of fichasTxt.split(/\r?\n/)) {
       linha = linha.trim();
@@ -272,7 +423,7 @@ async function carregarMetadadosVOD() {
           m.tmdbId = Number(tmdbId.trim());
         }
         if (posterPath) {
-          const fullImg = posterPath.startsWith('http') ? posterPath : `${TMDB_IMG}${posterPath.startsWith('/') ? '' : '/'}${posterPath}`;
+          const fullImg = posterPath.startsWith('http') ? posterPath : `${TMDB_IMG_POSTER}${posterPath.startsWith('/') ? '' : '/'}${posterPath}`;
           m.thumb = fullImg;
           m.bannerThumb = fullImg;
         }
@@ -306,20 +457,17 @@ async function carregarMetadadosVOD() {
     }
   }
 
-  console.log(`  [+] Bases carregadas: ${Object.keys(bases).length} | Fichas TMDB em cache: ${metaMap.size}`);
   return { bases, gavetas, metaMap, normKey };
 }
 
 /**
- * 3. PROCESSA FILMES E SÉRIES (Com tmdbId, tmdbTipo e Seasons -> Episodes -> Fontes)
+ * 3. COLETA FILMES E SÉRIES
  */
-async function processarVOD(bases, gavetas, metaMap, normKey) {
+async function coletarVOD(bases, gavetas, metaMap, normKey) {
   const filmesCartoonzine = [];
   const seriesCartoonzine = [];
-  const adultosVodCartoonzine = [];
 
-  // 3.1 FILMES
-  console.log('\n🎥 3. Processando Filmes...');
+  console.log('\n🎥 3. Extraindo Filmes...');
   const respostasFilmes = await Promise.all(
     gavetas.filter((g) => g.filmes > 0).map(async (g) => {
       const nomeArquivo = g.letra === '#' ? '%23' : g.letra;
@@ -353,6 +501,8 @@ async function processarVOD(bases, gavetas, metaMap, normKey) {
         desc: meta.desc || '',
         thumb: meta.thumb || '',
         bannerThumb: meta.bannerThumb || '',
+        logo: '',
+        bannerlogo: '',
         year: meta.year || anoExtraido,
         genre: meta.genre || 'Filme',
         fontes: fontesFilme
@@ -366,8 +516,7 @@ async function processarVOD(bases, gavetas, metaMap, normKey) {
     }
   }
 
-  // 3.2 SÉRIES
-  console.log('\n📺 4. Processando Séries com Temporadas e Episódios...');
+  console.log('\n📺 4. Extraindo Séries com Temporadas e Episódios...');
   for (const g of gavetas) {
     if (g.series <= 0) continue;
     const letra = g.letra;
@@ -405,6 +554,10 @@ async function processarVOD(bases, gavetas, metaMap, normKey) {
             .map((sNum) => ({
               season: parseInt(sNum, 10),
               episodes: serieAtual.seasonsMap[sNum]
+                .map((ep) => {
+                  ep.fontes = ordenarFontesPreferenciais(ep.fontes);
+                  return ep;
+                })
                 .filter((ep) => ep.fontes.length > 0)
                 .sort((a, b) => a.episode - b.episode)
             }))
@@ -434,6 +587,8 @@ async function processarVOD(bases, gavetas, metaMap, normKey) {
             desc: meta.desc || '',
             thumb: meta.thumb || '',
             bannerThumb: meta.bannerThumb || '',
+            logo: '',
+            bannerlogo: '',
             year: anoSerie || meta.year || '',
             genre: meta.genre || 'Série',
             seasonsMap: {}
@@ -473,54 +628,16 @@ async function processarVOD(bases, gavetas, metaMap, normKey) {
     }
   }
 
-  // 3.3 ADULTO VOD
-  for (const g of gavetas) {
-    const nomeArquivo = g.letra === '#' ? '%23' : g.letra;
-    const textoAdulto = await fetchText(`${FILMES_BASE_URL}/reservado-${nomeArquivo}.txt`);
-    if (!textoAdulto) continue;
-
-    for (let linha of textoAdulto.split(/\r?\n/)) {
-      linha = linha.trim();
-      if (!linha || linha.startsWith('#')) continue;
-      const campos = linha.split('\t');
-      if (campos.length < 2 || !campos[0]) continue;
-
-      const tituloCompleto = campos[0].trim();
-      const fontesFilme = extrairFontes(campos, bases);
-      if (fontesFilme.length === 0) continue;
-
-      adultosVodCartoonzine.push({
-        cat: 'Adulto VOD',
-        title: tituloCompleto,
-        desc: 'Conteúdo restrito para maiores de 18 anos.',
-        thumb: '',
-        bannerThumb: '',
-        year: '',
-        genre: 'Adulto',
-        fontes: fontesFilme
-      });
-    }
-  }
-
-  saveJsonFile('filmes_sm.json', filmesCartoonzine);
-
-  const tamanho = Math.ceil(seriesCartoonzine.length / 3) || 0;
-  saveJsonFile('series_sm_pt1.json', seriesCartoonzine.slice(0, tamanho));
-  saveJsonFile('series_sm_pt2.json', seriesCartoonzine.slice(tamanho, tamanho * 2));
-  saveJsonFile('series_sm_pt3.json', seriesCartoonzine.slice(tamanho * 2));
-
-  if (adultosVodCartoonzine.length > 0) {
-    saveJsonFile('adultos_vod_sm.json', adultosVodCartoonzine);
-  }
+  return { filmesCartoonzine, seriesCartoonzine };
 }
 
 /**
- * 4. ANIMES E DORAMAS (Com seasons -> episodes -> fontes [{ url, idioma }] + tmdbId)
+ * 4. COLETA ANIMES E DORAMAS
  */
-async function processarRedeFlix(caminhoRelativo, catLabel, tipoMeta, nomeArquivoSaida, bases, metaMap, normKey) {
-  console.log(`\n✨ Processando ${catLabel} (${caminhoRelativo})...`);
+async function coletarRedeFlix(caminhoRelativo, catLabel, tipoMeta, bases, metaMap, normKey) {
+  console.log(`\n✨ Extraindo ${catLabel} (${caminhoRelativo})...`);
   const texto = await fetchText(`${FILMES_BASE_URL}/${caminhoRelativo}`);
-  if (!texto) return;
+  if (!texto) return [];
 
   const listaFinal = [];
   let itemAtual = null;
@@ -532,6 +649,10 @@ async function processarRedeFlix(caminhoRelativo, catLabel, tipoMeta, nomeArquiv
         .map((sNum) => ({
           season: parseInt(sNum, 10),
           episodes: itemAtual.seasonsMap[sNum]
+            .map((ep) => {
+              ep.fontes = ordenarFontesPreferenciais(ep.fontes);
+              return ep;
+            })
             .filter((ep) => ep.fontes.length > 0)
             .sort((a, b) => a.episode - b.episode)
         }))
@@ -550,7 +671,6 @@ async function processarRedeFlix(caminhoRelativo, catLabel, tipoMeta, nomeArquiv
 
     if (linha.startsWith('@')) {
       salvarItemAtual();
-      // Formato: @título \t ano \t id_tmdb
       const camposCabecalho = linha.substring(1).split('\t');
       const titulo = (camposCabecalho[0] || '').trim();
       const ano = (camposCabecalho[1] || '').trim();
@@ -567,6 +687,8 @@ async function processarRedeFlix(caminhoRelativo, catLabel, tipoMeta, nomeArquiv
         desc: meta.desc || '',
         thumb: meta.thumb || '',
         bannerThumb: meta.bannerThumb || '',
+        logo: '',
+        bannerlogo: '',
         year: ano || meta.year || '',
         genre: meta.genre || catLabel,
         seasonsMap: {}
@@ -610,13 +732,13 @@ async function processarRedeFlix(caminhoRelativo, catLabel, tipoMeta, nomeArquiv
   }
   salvarItemAtual();
 
-  saveJsonFile(nomeArquivoSaida, listaFinal);
+  return listaFinal;
 }
 
 /**
- * 5. DESTAQUES: Gera destaques_sm.json
+ * 5. DESTAQUES (Com logo e bannerlogo do cache TMDB)
  */
-async function processarDestaques() {
+async function processarDestaques(metaMap, normKey, tmdbCache) {
   console.log('\n🌟 Processando Destaques da Tela Inicial...');
   const texto = await fetchText(`${FILMES_BASE_URL}/destaques.txt`);
   if (!texto) return;
@@ -642,13 +764,25 @@ async function processarDestaques() {
     }
 
     if (filaAtual && ['f', 's', 'a', 'd'].includes(campos[0]) && campos.length >= 5) {
-      const tipo = campos[0] === 'f' ? 'Filme' : campos[0] === 's' ? 'Série' : campos[0] === 'a' ? 'Anime' : 'Dorama';
+      const codTipo = campos[0];
+      const tipo = codTipo === 'f' ? 'Filme' : codTipo === 's' ? 'Série' : codTipo === 'a' ? 'Anime' : 'Dorama';
+      const titulo = campos[1];
+      const ano = campos[3];
       const posterPath = campos[4];
+
+      const meta = metaMap.get(normKey(codTipo, titulo)) || metaMap.get(normKey('s', titulo)) || {};
+      const tmdbTipo = codTipo === 'f' ? 'movie' : 'tv';
+      const cached = meta.tmdbId ? tmdbCache[`${tmdbTipo}_${meta.tmdbId}`] : null;
+      const logoUrl = (cached && cached.logo) || '';
+
       filaAtual.itens.push({
         tipo,
-        titulo: campos[1],
-        ano: campos[3],
-        capa: posterPath ? (posterPath.startsWith('http') ? posterPath : capaBase + posterPath) : ''
+        titulo,
+        ano,
+        capa: posterPath ? (posterPath.startsWith('http') ? posterPath : capaBase + posterPath) : '',
+        bannerThumb: (cached && cached.backdrop) || '',
+        logo: logoUrl,
+        bannerlogo: logoUrl
       });
     }
   }
@@ -664,21 +798,39 @@ function saveJsonFile(filename, items) {
   }
   const fullPath = path.join(OUTPUT_DIR, filename);
   fs.writeFileSync(fullPath, JSON.stringify(items, null, 2), 'utf-8');
-  console.log(`  [✓] listas/${filename} gerado com sucesso (${items.length.toLocaleString('pt-BR')} registros)`);
+  console.log(`  [✓] listas/${filename} salvo (${items.length.toLocaleString('pt-BR')} registros)`);
 }
 
 (async () => {
   try {
     console.log('==========================================');
-    console.log('🚀 CARTOONZINE SM SCRAPER BRIDGE');
+    console.log('🚀 CARTOONZINE SM SCRAPER + HLS CONVERTER');
     console.log('==========================================');
 
     await processarCanais();
     const { bases, gavetas, metaMap, normKey } = await carregarMetadadosVOD();
-    await processarVOD(bases, gavetas, metaMap, normKey);
-    await processarRedeFlix('redeflix/links-animes.txt', 'Animes', 'a', 'animes_sm.json', bases, metaMap, normKey);
-    await processarRedeFlix('redeflix/links-doramas.txt', 'Doramas', 'd', 'doramas_sm.json', bases, metaMap, normKey);
-    await processarDestaques();
+
+    const { filmesCartoonzine, seriesCartoonzine } = await coletarVOD(bases, gavetas, metaMap, normKey);
+    const animes = await coletarRedeFlix('redeflix/links-animes.txt', 'Animes', 'a', bases, metaMap, normKey);
+    const doramas = await coletarRedeFlix('redeflix/links-doramas.txt', 'Doramas', 'd', bases, metaMap, normKey);
+
+    const tmdbCache = loadTmdbCache();
+    await enrichItemsWithTmdbLogos(
+      [...doramas, ...animes, ...seriesCartoonzine, ...filmesCartoonzine],
+      tmdbCache
+    );
+
+    saveJsonFile('filmes_sm.json', filmesCartoonzine);
+
+    const tamanho = Math.ceil(seriesCartoonzine.length / 3) || 0;
+    saveJsonFile('series_sm_pt1.json', seriesCartoonzine.slice(0, tamanho));
+    saveJsonFile('series_sm_pt2.json', seriesCartoonzine.slice(tamanho, tamanho * 2));
+    saveJsonFile('series_sm_pt3.json', seriesCartoonzine.slice(tamanho * 2));
+
+    saveJsonFile('animes_sm.json', animes);
+    saveJsonFile('doramas_sm.json', doramas);
+
+    await processarDestaques(metaMap, normKey, tmdbCache);
 
     console.log('\n==========================================');
     console.log('✅ TUDO CONCLUÍDO COM SUCESSO!');
