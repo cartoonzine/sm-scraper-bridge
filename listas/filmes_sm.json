@@ -1,6 +1,312 @@
 [
   {
     "cat": "Filmes",
+    "title": "#AMFAD: All My Friends Are Dead",
+    "desc": "Um grupo de amigos da faculdade aluga um Airbnb para o maior festival de música do ano. Um fim de semana de festa rapidamente muda, enquanto o grupo é assassinado um por um.",
+    "thumb": "https://image.tmdb.org/t/p/w500/wMaBBxGaPlxvmSebHOzuSaMbO00.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/PiJNrw0TY4q22Tr5mvyAyVU5Jb.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/dk5eiscV9MV24uscqMGFXcrvu48.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/dk5eiscV9MV24uscqMGFXcrvu48.png",
+    "year": "2024",
+    "genre": "Terror",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/53550.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59440.mp4",
+        "idioma": "legendado"
+      }
+    ],
+    "tmdbId": 1090323,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#Alive",
+    "desc": "Um vírus terrível destrói a cidade, e um homem se tranca no apartamento para sobreviver. Desconectado do mundo, ele tenta desesperadamente encontrar uma saída.",
+    "thumb": "https://image.tmdb.org/t/p/w500/fUEv9INjh1HEdbD9BAExioSO65a.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/k2SY15W9QXH9qL8f4a4BbytV1BE.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/nAJhLVWWEe6iHY5hDTq0P8F2S7V.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/nAJhLVWWEe6iHY5hDTq0P8F2S7V.png",
+    "year": "2020",
+    "genre": "Ação",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/47592.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b1c196e518e58054be45c0fc82475f56/master.txt?format=m3u8",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 614696,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#ComVocê: Volume 2",
+    "desc": "O conceito é bastante simples: usando um aparelho smartphone ou qualquer outro recurso disponível, várias histórias foram registradas ao longo dos dias de isolamento provocado pela pandemia da COVID-19. Cada segmento traz um ponto de vista único, mostrando como as vidas das pessoas passaram por mudanças e o público pode acompanhar eventos reais sob a ótica de pessoas de diferentes origens e classes durante tempos complexos sem contato social.",
+    "thumb": "https://image.tmdb.org/t/p/w500/yiY4nI6HPAqnpGt5cPmszC6pTR7.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/fHHoGAj2XwbrQsrXoTt3pDaA71e.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/3i5U5k5oj1XO7mFCKYrcEyAQrpu.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/3i5U5k5oj1XO7mFCKYrcEyAQrpu.png",
+    "year": "2021",
+    "genre": "Drama",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/22029.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59451.mp4",
+        "idioma": "legendado"
+      }
+    ],
+    "tmdbId": 838482,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#ComVocê: Volume: 1",
+    "desc": "O conceito é bastante simples: usando um aparelho smartphone ou qualquer outro recurso disponível, várias histórias foram registradas ao longo dos dias de isolamento provocado pela pandemia da COVID-19. Cada segmento traz um ponto de vista único, mostrando como as vidas das pessoas passaram por mudanças e o público pode acompanhar eventos reais sob a ótica de pessoas de diferentes origens e classes durante tempos complexos sem contato social.",
+    "thumb": "https://image.tmdb.org/t/p/w500/dEgBV4Tuo9jFZh7rFiQEbiY91sT.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/okGPsMjrqCWGIPJUZs751lzOvqv.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/xXA8NCMUz43jLOyWt0xOEwObVuC.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/xXA8NCMUz43jLOyWt0xOEwObVuC.png",
+    "year": "2021",
+    "genre": "Comédia",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/12129.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59445.mp4",
+        "idioma": "legendado"
+      }
+    ],
+    "tmdbId": 838480,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#NUDES",
+    "desc": "Leo (Guily Machovec) e Maysa (Yolanda de Paulo) são um casal enfrentando problemas no seu relacionamento. Eles então começam a sair com Adélia (Gabriela Pimenta) e Heitor (Vini Hideki), um casal que acabaram de conhecer, e essa união muda completamente suas vidas e a dinâmica que eles têm como casal.",
+    "thumb": "https://image.tmdb.org/t/p/w500/f463CTemzbWdAMYTYfkG5rnB2Wg.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/1MbFbg2Zz8jRUQEdBs6BcxhCfQl.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "2018",
+    "genre": "Comédia",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/12134.mp4",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 531269,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#Natal",
+    "desc": "Mariann, uma criança, vive um momento mágico quando, em uma feira de Natal, vê o ursinho de pelúcia mais fofo se mexendo e deseja ganhar o brinquedo vivo. Mas Teddy quer encontrar um dono rico que possa lhe mostrar tudo o que o mundo tem a oferecer.",
+    "thumb": "https://image.tmdb.org/t/p/w500/mDKmfsU32us6F5N9Nhh8nCRd4NN.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/8FWC4tDWB1p006vwiubhai4a8iS.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "2022",
+    "genre": "Família",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/39666.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/39905.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/53152.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59456.mp4",
+        "idioma": "legendado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/79989.mp4",
+        "idioma": "legendado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/80160.mp4",
+        "idioma": "legendado"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/016e0022d6b531533d518b229ddf7ccf/master.txt?format=m3u8",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 1020969,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#PartiuFama: Cancelado no Amor",
+    "desc": "Gabriel sempre sonhou em ser famoso, mas sua timidez não permitia nem que ele falasse com Bianca, sua paixão de infância. Depois de reprogramar seu passado, ele se torna popular na escola. Mesmo assim, seus vídeos não viralizam. Quando decide prestar atenção nas histórias de um cliente do boteco de seu pai, que relata suas desventuras na juventude, Gabriel passa a gravar vídeos contando estas histórias como se fossem suas e se torna um youtuber de sucesso, mas as coisas fogem de controle.",
+    "thumb": "https://image.tmdb.org/t/p/w500/24eEIEi7bgGmNDnsfkC6FAQTF8.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/gYx3o2OD8UNZV76rTJXRevKvkRZ.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/gY6QEzPXxQwVJvsOS7t8Qsica5d.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/gY6QEzPXxQwVJvsOS7t8Qsica5d.png",
+    "year": "2022",
+    "genre": "Comédia",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/12138.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59461.mp4",
+        "idioma": "legendado"
+      }
+    ],
+    "tmdbId": 900026,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#SalveRosa",
+    "desc": "Uma jovem influencer decide investigar seu passado após um desmaio na escola. O que ela descobre coloca não apenas sua relação com a mãe superprotetora em risco, mas também sua própria vida.",
+    "thumb": "https://image.tmdb.org/t/p/w500/cSLQCG8f0NIlZkYcryPg6t8VZHU.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/zSMwzgkGzAGsu8JnnGvOIodBLdN.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/uBvT2i4SdzeeYrIwHz5JJJw1Lu7.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/uBvT2i4SdzeeYrIwHz5JJJw1Lu7.png",
+    "year": "2025",
+    "genre": "Suspense",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/251506.mp4",
+        "idioma": "dublado",
+        "qualidade": "4K"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/253284.mp4",
+        "idioma": "dublado",
+        "qualidade": "4K"
+      },
+      {
+        "url": "http://45.172.0.116:8085/hd8/2025/SalveRosa.2025.1080p/master.m3u8",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/98386.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/98619.mp4",
+        "idioma": "legendado"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/5f15488cf03ea39eca112bdd4f905bed/master.txt?format=m3u8",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 1280234,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#SeAcabó: Diário das Campeãs",
+    "desc": "A seleção espanhola se reúne pela primeira vez para relembrar a turbulenta Copa do Mundo Feminina de 2023 e o beijo que ofuscou a vitória.",
+    "thumb": "https://image.tmdb.org/t/p/w500/AbhsO718qA8qeHyF00FsvG7vt3f.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/8pSb6TrJp1RIW8wd6p5Tm1CLzd8.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/8y9hOELP3wNseMJ1jDLrSlsjGBI.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/8y9hOELP3wNseMJ1jDLrSlsjGBI.png",
+    "year": "2024",
+    "genre": "Documentário",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59503.mp4",
+        "idioma": "legendado"
+      }
+    ],
+    "tmdbId": 1365578,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#SemSaida",
+    "desc": "Uma personalidade das redes sociais viaja com seus amigos para Moscou para gravar novo conteúdo para os seus seguidores. Sempre excedendo seus limites em busca de uma nova audiência, eles entram em um mundo frio de mistério, excesso e perigoso. Quando as linhas entre vida real e rede social ficam borradas, o grupo deve lutar para escapar e sobreviver.",
+    "thumb": "https://image.tmdb.org/t/p/w500/fUCIj47O9v5zktS81hRWktUVnSR.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/2Xh3Q0LLir3a2Ss0ASuEMgiz4Qv.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/eltZezRot070rmvuf7Gn1sKA8sO.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/eltZezRot070rmvuf7Gn1sKA8sO.png",
+    "year": "2020",
+    "genre": "Terror",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/46500.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/b1cf5b152416fcb3bfd2e5074aba409c/master.txt?format=m3u8",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 606625,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#Sem_Filtro - Noite Sangrenta",
+    "desc": "As pegadinhas que a influenciadora Anna faz viralizam à medida que uma força demoníaca invade seu feed, confundindo realidade e virtualidade. Ela deve lutar para sobreviver ou ficará offline, inclusive da vida.",
+    "thumb": "https://image.tmdb.org/t/p/w500/hlIXhMYMjxhppv2EagLNXXey5H5.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/zA9VQD6AgRNobrDh9SI8r6Trd5V.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/2XMy7Tc9Vt1u1vYcmUBuHH2Vb7i.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/2XMy7Tc9Vt1u1vYcmUBuHH2Vb7i.png",
+    "year": "2022",
+    "genre": "Terror",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/12143.mp4",
+        "idioma": "dublado"
+      },
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59474.mp4",
+        "idioma": "legendado"
+      },
+      {
+        "url": "https://embedplayer2.xyz/cdn/hls/d82d0dd99b25264a91f44d5b699c18cb/master.txt?format=m3u8",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 991291,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
+    "title": "#eagoraoque",
+    "desc": "Como agir politicamente hoje? É possível mudar as coisas, as pessoas, a sociedade? E agora, o que fazer? Um intelectual e suas contradições. Esse é o mote do drama político dirigido por Jean-Claude Bernardet e Rubens Rewald.",
+    "thumb": "https://image.tmdb.org/t/p/w500/pxLHtMGnLf22iBmmwtCvVlHdjDR.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/pxLHtMGnLf22iBmmwtCvVlHdjDR.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "2020",
+    "genre": "Documentário",
+    "fontes": [
+      {
+        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/37469.mp4",
+        "idioma": "dublado"
+      }
+    ],
+    "tmdbId": 752652,
+    "tmdbTipo": "movie"
+  },
+  {
+    "cat": "Filmes",
     "title": "(A) Fronteira",
     "desc": "Após uma conturbada eleição e a abolição da Noite do Expurgo, Adela e Juan se refugiam em um rancho texano, escapando de um cartel de drogas no México. As coisas se complicam quando um grupo de forasteiros decidem continuar o Expurgo após o tempo permitido onde as pessoas podem quebrar todas as leis.",
     "thumb": "https://image.tmdb.org/t/p/w500/v9d5RN9j9BbqBQm4L7oTLIM3qu2.jpg",
