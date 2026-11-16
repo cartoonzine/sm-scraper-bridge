@@ -27,9 +27,6 @@ const http = axios.create({
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/**
- * Faz o download com até 4 tentativas automáticas para NUNCA perder uma letra por falha de rede/Cloudflare!
- */
 async function fetchText(url, retries = 4) {
   for (let i = 0; i < retries; i++) {
     try {
@@ -40,11 +37,7 @@ async function fetchText(url, retries = 4) {
       if (res.status === 404) return '';
     } catch (err) {
       if (err.response && err.response.status === 404) return '';
-      if (i < retries - 1) {
-        await sleep(800 * (i + 1));
-      } else {
-        console.warn(`  [!] Falha após ${retries} tentativas em: ${url}`);
-      }
+      if (i < retries - 1) await sleep(800 * (i + 1));
     }
   }
   return '';
@@ -163,7 +156,7 @@ function pontosQualidade(qStr, url = '') {
 
 function calcularScoreFonte(fonteObj, latenciasHost) {
   const url = fonteObj.url || '';
-  if (isSaimoApiStreamUrl(url)) return -5000; // Sempre joga a API para o final caso seja a única fonte
+  if (isSaimoApiStreamUrl(url)) return -5000;
 
   let score = pontosQualidade(fonteObj.qualidade, url) * 10;
 
@@ -183,12 +176,6 @@ function calcularScoreFonte(fonteObj, latenciasHost) {
   return score;
 }
 
-/**
- * Ordena as fontes do item:
- * - Se o item já tem links diretos (.mp4, .m3u8, master.txt, proxy), REMOVE 100% os links /api/stream!
- * - Se o item SÓ tem links /api/stream (como os 528 animes ou os ~5.000 filmes que não têm outra fonte),
- *   mantém apenas para o título não desaparecer da contagem total do catálogo!
- */
 function ordenarELimparFontesDoItem(listaFontes, latenciasHost) {
   const mapa = new Map();
   for (const f of listaFontes) {
@@ -200,8 +187,6 @@ function ordenarELimparFontesDoItem(listaFontes, latenciasHost) {
 
   const todas = Array.from(mapa.values());
   const apenasDiretas = todas.filter((f) => !isSaimoApiStreamUrl(f.url));
-
-  // Se tem pelo menos 1 link direto real, descarta totalmente os links de API!
   const escolhidas = apenasDiretas.length > 0 ? apenasDiretas : todas;
 
   escolhidas.sort((a, b) => calcularScoreFonte(b, latenciasHost) - calcularScoreFonte(a, latenciasHost));
@@ -348,7 +333,7 @@ function classificarCanal(nome) {
 }
 
 async function processarCanais() {
-  console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev (sem unificar)...');
+  console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev...');
   const [catalogoTxt, canaisM3uTxt, restritosTxt] = await Promise.all([
     fetchText(`${CANAIS_BASE_URL}/catalogo.txt`),
     fetchText(`${CANAIS_BASE_URL}/canais.txt`),
@@ -454,6 +439,10 @@ async function carregarMetadadosVOD() {
 
   const bases = {};
   const gavetas = [];
+  let somaFilmesIdx = 0;
+  let somaSeriesIdx = 0;
+  let somaReservadosIdx = 0;
+
   for (let l of indiceTxt.split(/\r?\n/)) {
     l = l.trim();
     if (!l) continue;
@@ -462,9 +451,18 @@ async function carregarMetadadosVOD() {
       if (p.length >= 2) bases[p[0]] = p[1];
     } else if (l.includes('\t')) {
       const c = l.split('\t');
-      if (c[0]) gavetas.push({ letra: c[0].trim(), filmes: parseInt(c[1] || '0', 10), series: parseInt(c[2] || '0', 10) });
+      if (c[0]) {
+        const fCount = parseInt(c[1] || '0', 10);
+        const sCount = parseInt(c[2] || '0', 10);
+        const rCount = parseInt(c[3] || '0', 10);
+        somaFilmesIdx += fCount;
+        somaSeriesIdx += sCount;
+        somaReservadosIdx += rCount;
+        gavetas.push({ letra: c[0].trim(), filmes: fCount, series: sCount, reservados: rCount });
+      }
     }
   }
+  console.log(`  [📊 Contagem Oficial no indice.txt] Filmes: ${somaFilmesIdx} | Reservados: ${somaReservadosIdx} (Soma=${somaFilmesIdx + somaReservadosIdx}) | Séries: ${somaSeriesIdx}`);
 
   const marcasMap = new Map();
   for (let l of (marcasTxt || '').split(/\r?\n/)) {
@@ -544,71 +542,75 @@ async function carregarMetadadosVOD() {
 }
 
 /**
- * 3. COLETA TODOS OS 31.526 FILMES E 7.651+ SÉRIES (Em lotes seguros com Retry)
+ * 3. COLETA FILMES + RESERVADOS (Bate os 31.526!) E SÉRIES
  */
 async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marcasMap, latenciasHost) {
   const filmesCartoonzine = [];
   const seriesCartoonzine = [];
 
-  console.log('\n🎥 3. Extraindo todos os Filmes (# e A-Z, sem unificar)...');
+  console.log('\n🎥 3. Extraindo todos os Filmes (filmes-<LETRA>.txt + reservado-<LETRA>.txt)...');
   const todasLetras = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
 
-  // Baixa em lotes controlados de 7 letras por vez para nunca sofrer bloqueio/reset da Cloudflare
-  const resFilmes = [];
   for (let i = 0; i < todasLetras.length; i += 7) {
     const slice = todasLetras.slice(i, i + 7);
     const lote = await Promise.all(
       slice.map(async (letra) => {
         const arq = letra === '#' ? '%23' : letra;
-        return (await fetchText(`${FILMES_BASE_URL}/filmes-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/filmes-#.txt`) : '');
+        const [fTxt, rTxt] = await Promise.all([
+          fetchText(`${FILMES_BASE_URL}/filmes-${arq}.txt`).then((t) => t || (letra === '#' ? fetchText(`${FILMES_BASE_URL}/filmes-#.txt`) : '')),
+          fetchText(`${FILMES_BASE_URL}/reservado-${arq}.txt`).then((t) => t || (letra === '#' ? fetchText(`${FILMES_BASE_URL}/reservado-#.txt`) : ''))
+        ]);
+        return { fTxt, rTxt };
       })
     );
-    resFilmes.push(...lote);
-  }
 
-  for (const txt of resFilmes) {
-    for (let l of (txt || '').split(/\r?\n/)) {
-      l = l.trim();
-      if (!l || l.startsWith('#')) continue;
-      const c = l.split('\t');
-      if (c.length < 2 || !c[0]) continue;
+    for (const { fTxt, rTxt } of lote) {
+      // Processa filmes-<LETRA>.txt e reservado-<LETRA>.txt
+      for (const [blocoTxt, generoPadrao] of [[fTxt, 'Filme'], [rTxt, 'Adulto']]) {
+        for (let l of (blocoTxt || '').split(/\r?\n/)) {
+          l = l.trim();
+          if (!l || l.startsWith('#')) continue;
+          const c = l.split('\t');
+          if (c.length < 2 || !c[0]) continue;
 
-      const tituloBruto = c[0].trim();
-      const anoExtraido = extrairAnoDoTitulo(tituloBruto);
-      const tmdbIdNaLinha = extrairTmdbIdDaLinha(l);
-      const fontes = extrairFontes(c, bases, marcasMap, latenciasHost);
-      if (fontes.length === 0) continue;
+          const tituloBruto = c[0].trim();
+          const anoExtraido = extrairAnoDoTitulo(tituloBruto);
+          const tmdbIdNaLinha = extrairTmdbIdDaLinha(l);
+          const fontes = extrairFontes(c, bases, marcasMap, latenciasHost);
+          if (fontes.length === 0) continue;
 
-      const meta =
-        (tmdbIdNaLinha && metaPorTmdbId.get(`f_${tmdbIdNaLinha}`)) ||
-        metaMap.get(normKey('f', tituloBruto, anoExtraido)) ||
-        metaMap.get(normKey('f', tituloBruto)) ||
-        {};
+          const meta =
+            (tmdbIdNaLinha && metaPorTmdbId.get(`f_${tmdbIdNaLinha}`)) ||
+            metaMap.get(normKey('f', tituloBruto, anoExtraido)) ||
+            metaMap.get(normKey('f', tituloBruto)) ||
+            {};
 
-      const finalTmdbId = tmdbIdNaLinha || meta.tmdbId || null;
+          const finalTmdbId = tmdbIdNaLinha || meta.tmdbId || null;
 
-      const obj = {
-        cat: 'Filmes',
-        title: limparTituloExibicao(tituloBruto),
-        desc: meta.desc || '',
-        thumb: meta.thumb || '',
-        bannerThumb: meta.bannerThumb || '',
-        logo: '',
-        bannerlogo: '',
-        year: anoExtraido || meta.year || '',
-        genre: meta.genre || 'Filme',
-        fontes
-      };
-      if (finalTmdbId) {
-        obj.tmdbId = finalTmdbId;
-        obj.tmdbTipo = 'movie';
+          const obj = {
+            cat: 'Filmes',
+            title: limparTituloExibicao(tituloBruto),
+            desc: meta.desc || '',
+            thumb: meta.thumb || '',
+            bannerThumb: meta.bannerThumb || '',
+            logo: '',
+            bannerlogo: '',
+            year: anoExtraido || meta.year || '',
+            genre: meta.genre || generoPadrao,
+            fontes
+          };
+          if (finalTmdbId) {
+            obj.tmdbId = finalTmdbId;
+            obj.tmdbTipo = 'movie';
+          }
+
+          filmesCartoonzine.push(obj);
+        }
       }
-
-      filmesCartoonzine.push(obj);
     }
   }
 
-  console.log('\n📺 4. Extraindo todas as Séries (# e A-Z, sem unificar)...');
+  console.log('\n📺 4. Extraindo todas as Séries (# e A-Z)...');
   for (const letra of todasLetras) {
     const arq = letra === '#' ? '%23' : letra;
     const idxTxt = (await fetchText(`${FILMES_BASE_URL}/series-${arq}.txt`)) || (letra === '#' ? await fetchText(`${FILMES_BASE_URL}/series-#.txt`) : '');
@@ -683,9 +685,6 @@ async function coletarVOD(bases, gavetas, metaMap, metaPorTmdbId, normKey, marca
   return { filmesCartoonzine, seriesCartoonzine };
 }
 
-/**
- * 4. COLETA TODOS OS 1.322 ANIMES E 264 DORAMAS
- */
 async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, metaMap, normKey, marcasMap, latenciasHost) {
   console.log(`\n✨ Extraindo ${catLabel} (sem unificar)...`);
   const txt = await fetchText(`${FILMES_BASE_URL}/${caminho}`);
