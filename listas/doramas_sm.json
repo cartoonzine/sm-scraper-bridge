@@ -9,6 +9,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9oO4ovVx0NbmrqNdKVK2OOHKxar.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 299952,
     "tmdbTipo": "tv",
     "seasons": [
@@ -38,7 +44,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/1v7IODCeedvbKLXZjkbaIKiaPMf.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1v7IODCeedvbKLXZjkbaIKiaPMf.png",
     "year": "2014",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 61192,
     "tmdbTipo": "tv",
     "seasons": [
@@ -68,7 +81,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/4zKDT5iBnxU7dGjIxLZKBEIzeup.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4zKDT5iBnxU7dGjIxLZKBEIzeup.png",
     "year": "2016",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "7.3",
+    "age": "14",
+    "popularity": 3,
     "tmdbId": 67802,
     "tmdbTipo": "tv",
     "seasons": [
@@ -239,6 +259,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 243248,
     "tmdbTipo": "tv",
     "seasons": [
@@ -339,6 +365,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ja7ZsCYh4AcYePn3HO5cYDFcyzv.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 231462,
     "tmdbTipo": "tv",
     "seasons": [
@@ -469,6 +501,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dKQIEsZ31XGyn1umGXWY8gdEj4y.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 280100,
     "tmdbTipo": "tv",
     "seasons": [
@@ -599,6 +637,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mEuKmr3E7dY8oP3GWAT7MNQwMkH.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 293431,
     "tmdbTipo": "tv",
     "seasons": [
@@ -719,6 +763,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 258070,
     "tmdbTipo": "tv",
     "seasons": [
@@ -999,6 +1049,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/59oUDJe1Bp7OS68mb1tnMU7m8KJ.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 261981,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1138,7 +1194,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/amO8VnbUkamFFMIxQhdp5v2TYGH.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/amO8VnbUkamFFMIxQhdp5v2TYGH.png",
     "year": "2017",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 84559,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1259,6 +1322,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sswLe0t0qwXmEB3NduLNqD8rawm.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 203367,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1628,7 +1697,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/zfgnAxI14eXFvrWjh5Zfz5rUl7v.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zfgnAxI14eXFvrWjh5Zfz5rUl7v.png",
     "year": "1988",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Infantil, Ficção e fantasia",
+    "genres": [
+      "Ação e aventura",
+      "Infantil",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "14",
+    "popularity": 6,
     "tmdbId": 274922,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2118,7 +2195,15 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2023",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama, Ação e aventura",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Ação e aventura"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 232812,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2239,6 +2324,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/poeZTGhygtSo1vvgsLVAx4RLnjI.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 260555,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2379,6 +2470,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bUPaDhKCkUQykwvlmrIsATfFlZZ.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 252920,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2799,6 +2896,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sL9ahXhxEBcANedYRD7I3KpWhdJ.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 250178,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2899,6 +3002,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/o3FIRvEcLOyuW5GD5M3AU8WYjJF.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 219915,
     "tmdbTipo": "tv",
     "seasons": [
@@ -3329,6 +3438,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/m52adl5IlK2apsWpA9TqAZPOgdt.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 249167,
     "tmdbTipo": "tv",
     "seasons": [
@@ -3459,6 +3574,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2rKmW59Fye7slp7q8NBp5Dd8CBZ.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 287868,
     "tmdbTipo": "tv",
     "seasons": [
@@ -3579,6 +3700,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3vpMMmzH0LtJLya3KhAjR16Qdoj.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 285009,
     "tmdbTipo": "tv",
     "seasons": [
@@ -3688,7 +3815,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/fijSLofhc76zNJnc1uZB7xfVXN1.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fijSLofhc76zNJnc1uZB7xfVXN1.png",
     "year": "2025",
-    "genre": "Crime",
+    "genre": "Crime, Mistério",
+    "genres": [
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 287927,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4045,6 +4179,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 255095,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4345,6 +4485,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hT1TEOTUbu1moucqSe9Q9hPXFLF.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 287429,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4385,6 +4531,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/y1xC89FqGV1JpYPbJQvn44rr0ro.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 247207,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4635,6 +4787,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/z9lUo3nKMXeovqu3Ugtlr3KudYN.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 220041,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4755,6 +4913,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/594YWVmNzN8F6PfDWdVFY60KdQH.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 263300,
     "tmdbTipo": "tv",
     "seasons": [
@@ -4895,6 +5059,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/gc8NQTUfAUj6un31sKDW3UYNpWG.png",
     "year": "2017",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.3",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 71748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -5115,6 +5285,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 224733,
     "tmdbTipo": "tv",
     "seasons": [
@@ -5234,7 +5410,16 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2004",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama, Infantil, Ficção e fantasia",
+    "genres": [
+      "Ação e aventura",
+      "Drama",
+      "Infantil",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 262251,
     "tmdbTipo": "tv",
     "seasons": [
@@ -5744,7 +5929,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/iYCJlg9W4aLYG8xNjDQ59L7Ijwg.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/iYCJlg9W4aLYG8xNjDQ59L7Ijwg.png",
     "year": "2013",
-    "genre": "Drama",
+    "genre": "Drama, Guerra e política",
+    "genres": [
+      "Drama",
+      "Guerra e política"
+    ],
+    "rating": "7.3",
+    "age": "",
+    "popularity": 17,
     "tmdbId": 61148,
     "tmdbTipo": "tv",
     "seasons": [
@@ -6275,6 +6467,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 259015,
     "tmdbTipo": "tv",
     "seasons": [
@@ -6414,7 +6612,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/cnhhoXqbI1xWCnBl5EAswKgLahh.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cnhhoXqbI1xWCnBl5EAswKgLahh.png",
     "year": "2025",
-    "genre": "Crime",
+    "genre": "Crime, Mistério",
+    "genres": [
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 275648,
     "tmdbTipo": "tv",
     "seasons": [
@@ -6715,6 +6920,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6A6Cxq7F7KdCv3nj1WnxsFOX0QI.png",
     "year": "2018",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 79070,
     "tmdbTipo": "tv",
     "seasons": [
@@ -7059,7 +7270,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/uKZvTHXQ6SRsNnxAUtKn9WNzzNv.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uKZvTHXQ6SRsNnxAUtKn9WNzzNv.png",
     "year": "2017",
-    "genre": "Comédia",
+    "genre": "Comédia, Crime, Drama",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Drama"
+    ],
+    "rating": "7.8",
+    "age": "14",
+    "popularity": 9,
     "tmdbId": 71349,
     "tmdbTipo": "tv",
     "seasons": [
@@ -7480,6 +7699,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/i8zEQddW1i92NiQqYv2fx8un5Uv.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 229213,
     "tmdbTipo": "tv",
     "seasons": [
@@ -7800,6 +8025,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rrAfl3blQbDZCmrSEzPGmbNU6LE.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 276903,
     "tmdbTipo": "tv",
     "seasons": [
@@ -7920,6 +8151,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/pXDMXbtB1PDXdJd1BeLyzDStKfk.png",
     "year": "2002",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 36162,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8049,7 +8286,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/3ktFCgafLsMUDhJWrtCwXQZL1Vs.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3ktFCgafLsMUDhJWrtCwXQZL1Vs.png",
     "year": "2018",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama, Família",
+    "genres": [
+      "Comédia",
+      "Drama",
+      "Família"
+    ],
+    "rating": "",
+    "age": "L",
+    "popularity": 1,
     "tmdbId": 80997,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8099,7 +8344,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/tb37R41vftrczFmGBFOjsaubkF3.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tb37R41vftrczFmGBFOjsaubkF3.png",
     "year": "2024",
-    "genre": "Reality",
+    "genre": "Reality, Ação e aventura",
+    "genres": [
+      "Reality",
+      "Ação e aventura"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 271347,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8220,6 +8472,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bmS6WIAXV0cWEUInCMSguhcyovs.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 279206,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8469,7 +8727,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/wRpkTaCwCUlS4o4SknMpq6WyzJy.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wRpkTaCwCUlS4o4SknMpq6WyzJy.png",
     "year": "2021",
-    "genre": "Reality",
+    "genre": "Reality, Mistério",
+    "genres": [
+      "Reality",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 137640,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8610,6 +8875,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qWbX3fx32ehhX0VgydnfI3T379u.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 274508,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8749,7 +9020,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/hxDI1y1dimdz6nsd96PY39eYx6E.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hxDI1y1dimdz6nsd96PY39eYx6E.png",
     "year": "2009",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia"
+    ],
+    "rating": "8.0",
+    "age": "",
+    "popularity": 8,
     "tmdbId": 46198,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8995,6 +9273,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aLllEqjMi0tsTNpNS7D3vvZDMRR.png",
     "year": "2000",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "12",
+    "popularity": 3,
     "tmdbId": 21297,
     "tmdbTipo": "tv",
     "seasons": [
@@ -9125,6 +9409,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jrVVPGtvOzcwKWMDLid8r8sHC7m.png",
     "year": "2021",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.9",
+    "age": "14",
+    "popularity": 6,
     "tmdbId": 126723,
     "tmdbTipo": "tv",
     "seasons": [
@@ -9544,7 +9834,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/1DTbahxtLCE2oOyj6h3b8NwozWG.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1DTbahxtLCE2oOyj6h3b8NwozWG.png",
     "year": "2024",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 260835,
     "tmdbTipo": "tv",
     "seasons": [
@@ -9684,7 +9981,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/8RTC5oexnahjVkYgBGf04yCWzfF.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8RTC5oexnahjVkYgBGf04yCWzfF.png",
     "year": "2018",
-    "genre": "Mistério",
+    "genre": "Mistério, Drama, Crime",
+    "genres": [
+      "Mistério",
+      "Drama",
+      "Crime"
+    ],
+    "rating": "8.1",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 82501,
     "tmdbTipo": "tv",
     "seasons": [
@@ -9864,7 +10169,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/lChaES7Y7sduJaJFDCQfRud7vKi.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lChaES7Y7sduJaJFDCQfRud7vKi.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Mistério, Comédia",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 245292,
     "tmdbTipo": "tv",
     "seasons": [
@@ -10265,6 +10578,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/u782FBMFl6KsbFscwoUp2e1YXz5.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 218560,
     "tmdbTipo": "tv",
     "seasons": [
@@ -10364,7 +10683,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/vq3jtNuFkeVW3dYZGOjvsgTKyPa.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vq3jtNuFkeVW3dYZGOjvsgTKyPa.png",
     "year": "2016",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia, Comédia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia",
+      "Comédia"
+    ],
+    "rating": "8.6",
+    "age": "",
+    "popularity": 15,
     "tmdbId": 67915,
     "tmdbTipo": "tv",
     "seasons": [
@@ -10544,7 +10871,17 @@
     "logo": "https://image.tmdb.org/t/p/w500/5b56ajNUndTR1hUcklr0brUbRFD.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5b56ajNUndTR1hUcklr0brUbRFD.png",
     "year": "1987",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama, Infantil, Mistério, Ficção e fantasia",
+    "genres": [
+      "Ação e aventura",
+      "Drama",
+      "Infantil",
+      "Mistério",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "10",
+    "popularity": 8,
     "tmdbId": 263079,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11075,6 +11412,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9MGW4VdLveUrAKQ5IPIXdNlTsTH.png",
     "year": "2020",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 104976,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11134,7 +11477,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/h6SGvbDUfGRJSMx87NkZ8z5WmHL.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/h6SGvbDUfGRJSMx87NkZ8z5WmHL.png",
     "year": "2024",
-    "genre": "Comédia",
+    "genre": "Comédia, Mistério, Crime",
+    "genres": [
+      "Comédia",
+      "Mistério",
+      "Crime"
+    ],
+    "rating": "7.2",
+    "age": "16",
+    "popularity": 2,
     "tmdbId": 245265,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11214,7 +11565,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/pLb0trJsqWMGvpF5xcmMTkFzHyq.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/pLb0trJsqWMGvpF5xcmMTkFzHyq.png",
     "year": "2020",
-    "genre": "Drama",
+    "genre": "Drama, Crime, Mistério",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 101146,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11399,7 +11758,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/uvT2QOdqaheldwwFNvONAJiXL6c.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uvT2QOdqaheldwwFNvONAJiXL6c.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Mistério, Comédia",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 201330,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11540,6 +11907,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2oacXhz8rSujFZOCeu0gMFyGEem.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.1",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 220521,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11630,6 +12003,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1TUd3KhjNqCuRJIeUMuuZqEAFVb.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.9",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 249838,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11729,7 +12108,14 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2021",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 129128,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11809,7 +12195,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/kI7esLywpCJ8XJfmHEtEmWyyHJH.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kI7esLywpCJ8XJfmHEtEmWyyHJH.png",
     "year": "2024",
-    "genre": "Crime",
+    "genre": "Crime, Mistério",
+    "genres": [
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 234667,
     "tmdbTipo": "tv",
     "seasons": [
@@ -12309,7 +12702,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/yHgcbnjqzkllZL9wekgPlBQS3hS.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/yHgcbnjqzkllZL9wekgPlBQS3hS.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Guerra e política",
+    "genres": [
+      "Drama",
+      "Guerra e política"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 218290,
     "tmdbTipo": "tv",
     "seasons": [
@@ -12650,6 +13050,12 @@
     "bannerlogo": "",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 209916,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13030,6 +13436,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qKmMz8AOzSQLCw7j0GEpnGuRu9T.png",
     "year": "2019",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 90706,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13497,7 +13909,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/ePMpaMWh2LT76mgjrNCzK7S9MDr.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ePMpaMWh2LT76mgjrNCzK7S9MDr.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 209751,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13637,7 +14056,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/mPmJp4vwaYch5eroEnazEIhgRH2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mPmJp4vwaYch5eroEnazEIhgRH2.png",
     "year": "2017",
-    "genre": "Crime",
+    "genre": "Crime, Drama",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": "8.1",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 68890,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13837,7 +14263,15 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2021",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Mistério, Ficção e fantasia",
+    "genres": [
+      "Ação e aventura",
+      "Mistério",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 120314,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13977,7 +14411,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/8rhRzzITfhlRemUFh2BPHTlT6R2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8rhRzzITfhlRemUFh2BPHTlT6R2.png",
     "year": "2016",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 66387,
     "tmdbTipo": "tv",
     "seasons": [
@@ -14138,6 +14579,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ozGmolzerMv4v7zIjAX8AOeuhv5.png",
     "year": "2015",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 64649,
     "tmdbTipo": "tv",
     "seasons": [
@@ -14372,7 +14819,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/tXxqG7enmpPVXetUsJyfNU6khUF.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tXxqG7enmpPVXetUsJyfNU6khUF.png",
     "year": "2019",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 87187,
     "tmdbTipo": "tv",
     "seasons": [
@@ -14712,7 +15166,14 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2021",
-    "genre": "Ficção e fantasia",
+    "genre": "Ficção e fantasia, Drama",
+    "genres": [
+      "Ficção e fantasia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 131009,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15232,7 +15693,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/dpJ1TvdXp5kbUy4cJK7g5wKDsYi.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dpJ1TvdXp5kbUy4cJK7g5wKDsYi.png",
     "year": "2021",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 125061,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15612,7 +16080,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/BHq8I9zsbt9W3kzHF0aWuoFtMz.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/BHq8I9zsbt9W3kzHF0aWuoFtMz.png",
     "year": "2023",
-    "genre": "Reality",
+    "genre": "Reality, Comédia",
+    "genres": [
+      "Reality",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 238046,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15692,7 +16167,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/eprhgqSuxrCLWpbNqe20vLMotjz.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/eprhgqSuxrCLWpbNqe20vLMotjz.png",
     "year": "2019",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 86546,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15832,7 +16314,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/i3NZ2bszYmgSznFZ6Itj0p7P7xU.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/i3NZ2bszYmgSznFZ6Itj0p7P7xU.png",
     "year": "2016",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 68293,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15962,7 +16451,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/ztxOZMYgNYvTJhyKprrqWZjuKxx.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ztxOZMYgNYvTJhyKprrqWZjuKxx.png",
     "year": "2023",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 218840,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16213,6 +16709,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ajm8C8gspp5uqkI8gAs9fBwhbs2.png",
     "year": "2023",
     "genre": "Documentário",
+    "genres": [
+      "Documentário"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 234739,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16263,6 +16765,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/x7laOpd4dEC6i9LI0i6fjW7z6es.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 134679,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16673,6 +17181,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9weSgZNRnWX0sQegKlonLDv3Oeu.png",
     "year": "2019",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 89604,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16853,6 +17367,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/oGd2t7xXZDGFORSnVulAhaSX4Vw.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.7",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 98772,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16962,7 +17482,16 @@
     "logo": "https://image.tmdb.org/t/p/w500/wUqkmEjMAMDRfmCaxVHpttjhyZ6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wUqkmEjMAMDRfmCaxVHpttjhyZ6.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia, Crime, Mistério",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia",
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "8.6",
+    "age": "",
+    "popularity": 9,
     "tmdbId": 235577,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17147,6 +17676,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bIxMWbtdEUHVnPliAUBvY50sp7r.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 253960,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17247,6 +17782,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zLuvy5J9Bup9rY9ZWV35wMw9EIW.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 281016,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17367,6 +17908,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kOveERxl0qVsyiZtJOf2v632GWb.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 287011,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17396,7 +17943,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/lILulzktXH56l7XPke0jtwWsGpP.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lILulzktXH56l7XPke0jtwWsGpP.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 204367,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17517,6 +18071,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 285838,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17649,6 +18209,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/e9zgv12zFgobn8v2MMBC3mrDc1L.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 310800,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17789,6 +18355,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tOX9zERt6ax0rnPGLBdmvExU8Da.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 276472,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17909,6 +18481,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5B2L2X6G9FNDLxU5CyhIAPnI9z.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 281013,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18125,6 +18703,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cuWdT1yfF4AG0r6dWDkicoaUkeq.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.1",
+    "age": "16",
+    "popularity": 6,
     "tmdbId": 227192,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18244,7 +18828,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/6rvJ0DSwmsfnpl4nEtFj5tDMPU2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6rvJ0DSwmsfnpl4nEtFj5tDMPU2.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.1",
+    "age": "12",
+    "popularity": 7,
     "tmdbId": 222233,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18488,7 +19079,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/waTjsO0BEhxdzvcNKiWCMw6gv0F.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/waTjsO0BEhxdzvcNKiWCMw6gv0F.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Ação e aventura, Crime",
+    "genres": [
+      "Drama",
+      "Ação e aventura",
+      "Crime"
+    ],
+    "rating": "8.5",
+    "age": "16",
+    "popularity": 26,
     "tmdbId": 127529,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18723,7 +19322,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/6DvvOdXAVW0Jelv09R0nGO5auGJ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6DvvOdXAVW0Jelv09R0nGO5auGJ.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "7.7",
+    "age": "16",
+    "popularity": 4,
     "tmdbId": 216228,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18823,7 +19429,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/4lTzMSdcFkvCyJXOF9bQ74xRJdT.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4lTzMSdcFkvCyJXOF9bQ74xRJdT.png",
     "year": "2020",
-    "genre": "Mistério",
+    "genre": "Mistério, Drama, Ação e aventura",
+    "genres": [
+      "Mistério",
+      "Drama",
+      "Ação e aventura"
+    ],
+    "rating": "8.1",
+    "age": "16",
+    "popularity": 39,
     "tmdbId": 110316,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19074,6 +19688,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 229891,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19214,6 +19834,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/o2x2q0u21yCoC37awBLzHM1xWAw.png",
     "year": "2026",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 280948,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19354,6 +19980,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zLEek27GI3RfqgNwIYXOR1C2rDl.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 285770,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19533,7 +20165,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/p41HihMvjznjLJx42bl0t8E7GdI.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/p41HihMvjznjLJx42bl0t8E7GdI.png",
     "year": "2020",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "8.3",
+    "age": "14",
+    "popularity": 22,
     "tmdbId": 112888,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19714,6 +20353,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mkXLY9lrkoOPxNfzdbeaqV4j3SM.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.5",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 113240,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19893,7 +20538,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/413Jhal0XDdQWU3XZDmP6qQvruN.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/413Jhal0XDdQWU3XZDmP6qQvruN.png",
     "year": "2021",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia, Comédia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia",
+      "Comédia"
+    ],
+    "rating": "7.9",
+    "age": "14",
+    "popularity": 6,
     "tmdbId": 116386,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20137,7 +20790,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/tPCZgcyitUtULLldn4ot3RBBELA.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tPCZgcyitUtULLldn4ot3RBBELA.png",
     "year": "2021",
-    "genre": "Mistério",
+    "genre": "Mistério, Drama",
+    "genres": [
+      "Mistério",
+      "Drama"
+    ],
+    "rating": "7.5",
+    "age": "12",
+    "popularity": 4,
     "tmdbId": 124426,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20318,6 +20978,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/z3RUTzYAC6B5IzGY6SnOSxdIX03.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.4",
+    "age": "12",
+    "popularity": 8,
     "tmdbId": 129888,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20497,7 +21163,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/jo2mROeyHCpORm28rKYW0BGlXYo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jo2mROeyHCpORm28rKYW0BGlXYo.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "7.7",
+    "age": "12",
+    "popularity": 3,
     "tmdbId": 135155,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20597,7 +21270,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/wnDCW1EQI3sAqRwG22jEv5Zl9C8.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wnDCW1EQI3sAqRwG22jEv5Zl9C8.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.2",
+    "age": "12",
+    "popularity": 4,
     "tmdbId": 137094,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20718,6 +21398,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1wcxs36gOGIf1OTZOGnHzp0lGXl.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.3",
+    "age": "16",
+    "popularity": 3,
     "tmdbId": 139280,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20848,6 +21534,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 154822,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21092,6 +21784,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8zPGebaPeFilG4vn51cREv2vbl9.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.1",
+    "age": "18",
+    "popularity": 6,
     "tmdbId": 154861,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21191,7 +21889,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/6Ug0fDovKenB6LaRwjm2rvZY6oV.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6Ug0fDovKenB6LaRwjm2rvZY6oV.png",
     "year": "2023",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "8.1",
+    "age": "12",
+    "popularity": 27,
     "tmdbId": 195670,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21481,7 +22186,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/mWMpfn9NDFmNpTvDO14dto24v61.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mWMpfn9NDFmNpTvDO14dto24v61.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.2",
+    "age": "12",
+    "popularity": 11,
     "tmdbId": 198004,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21661,7 +22373,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/r9x5dNEyWdSGZCktEmXt8KyQ8L0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/r9x5dNEyWdSGZCktEmXt8KyQ8L0.png",
     "year": "2022",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "8.7",
+    "age": "16",
+    "popularity": 28,
     "tmdbId": 200709,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21906,7 +22625,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/x0Lornpp68Qqho1NqmXc3DGnGYk.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/x0Lornpp68Qqho1NqmXc3DGnGYk.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.2",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 202318,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22087,6 +22813,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nUvRjky84PxwRhi5g9Tv3ZbjMKJ.png",
     "year": "2023",
     "genre": "Reality",
+    "genres": [
+      "Reality"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 34,
     "tmdbId": 214582,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22351,7 +23083,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/fT7FkKf9cNcA7TueTEQx6H3HX6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fT7FkKf9cNcA7TueTEQx6H3HX6.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.2",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 214997,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22531,7 +23270,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/3DaE2jOfW0Bbnrpb0SsBs6wjUJR.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3DaE2jOfW0Bbnrpb0SsBs6wjUJR.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.9",
+    "age": "16",
+    "popularity": 6,
     "tmdbId": 214999,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22691,7 +23437,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/cfWw9FQLbLkHGVD8fWarzDpGGZV.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cfWw9FQLbLkHGVD8fWarzDpGGZV.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia, Comédia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia",
+      "Comédia"
+    ],
+    "rating": "8.1",
+    "age": "",
+    "popularity": 7,
     "tmdbId": 215001,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22871,7 +23625,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/5mOzj1r5aA8BdNkXKNJqiAyyqYU.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5mOzj1r5aA8BdNkXKNJqiAyyqYU.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.4",
+    "age": "12",
+    "popularity": 16,
     "tmdbId": 215720,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23115,7 +23876,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/zFLWWEF9WBLShqxozYkCxqTvqpV.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zFLWWEF9WBLShqxozYkCxqTvqpV.png",
     "year": "2023",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 216310,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23255,7 +24023,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/cnjJ4FiiOSlg3IjkQW3Wv8YvRzT.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cnjJ4FiiOSlg3IjkQW3Wv8YvRzT.png",
     "year": "2024",
-    "genre": "Mistério",
+    "genre": "Mistério, Crime, Drama",
+    "genres": [
+      "Mistério",
+      "Crime",
+      "Drama"
+    ],
+    "rating": "7.3",
+    "age": "16",
+    "popularity": 5,
     "tmdbId": 219652,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23368,6 +24144,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5LvraKw02mZEQfy8dPBZql5KRgH.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 226527,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23485,7 +24267,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/z465bu4Wwcvyy9DOWTkQZA3y0jr.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/z465bu4Wwcvyy9DOWTkQZA3y0jr.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "8.5",
+    "age": "14",
+    "popularity": 8,
     "tmdbId": 229480,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23625,7 +24414,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/dds6cCox4JF79b5YuE2THVr5u02.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dds6cCox4JF79b5YuE2THVr5u02.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "7.0",
+    "age": "16",
+    "popularity": 4,
     "tmdbId": 230777,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23737,7 +24533,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/xs5LBwqeZ4QjNlPYYAFO9TF7R8J.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xs5LBwqeZ4QjNlPYYAFO9TF7R8J.png",
     "year": "2024",
-    "genre": "Ficção e fantasia",
+    "genre": "Ficção e fantasia, Comédia, Mistério",
+    "genres": [
+      "Ficção e fantasia",
+      "Comédia",
+      "Mistério"
+    ],
+    "rating": "8.6",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 231749,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23857,7 +24661,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/jIytLkzBl9E9b8q0NslAZNDfsCk.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jIytLkzBl9E9b8q0NslAZNDfsCk.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia"
+    ],
+    "rating": "8.3",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 232616,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23998,6 +24809,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9cHQ9q6XuRlndCKZTVeMu54KtF9.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 235355,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24137,7 +24954,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/bhnmr6NRGVHfu6t00DqqfDUobu0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bhnmr6NRGVHfu6t00DqqfDUobu0.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "7.9",
+    "age": "12",
+    "popularity": 10,
     "tmdbId": 241454,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24346,6 +25170,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uWDXzt1rfu2YfFQVYp5evqtCdiA.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 243964,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24505,7 +25335,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/fG6G9bPrchce8yyvkbLiaCnXQAd.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fG6G9bPrchce8yyvkbLiaCnXQAd.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Mistério, Crime",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Crime"
+    ],
+    "rating": "8.3",
+    "age": "12",
+    "popularity": 7,
     "tmdbId": 253905,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24646,6 +25484,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2enMG9FqsIIjjbXnFjGvcP79lhM.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.4",
+    "age": "16",
+    "popularity": 3,
     "tmdbId": 257221,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24777,7 +25621,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/zmFGopHhzL5vUG7OBROpEHnqqam.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zmFGopHhzL5vUG7OBROpEHnqqam.png",
     "year": "2024",
-    "genre": "Família",
+    "genre": "Família, Drama",
+    "genres": [
+      "Família",
+      "Drama"
+    ],
+    "rating": "7.9",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 258707,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24957,7 +25808,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/dcd3PC1dDXiLMiUDPSMbMkv9KoI.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dcd3PC1dDXiLMiUDPSMbMkv9KoI.png",
     "year": "2018",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "8.3",
+    "age": "14",
+    "popularity": 11,
     "tmdbId": 79434,
     "tmdbTipo": "tv",
     "seasons": [
@@ -25137,7 +25995,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/z3JAy1vjvnTm6GTkHzOs1ePyOzl.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/z3JAy1vjvnTm6GTkHzOs1ePyOzl.png",
     "year": "2018",
-    "genre": "Drama",
+    "genre": "Drama, Família",
+    "genres": [
+      "Drama",
+      "Família"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 79818,
     "tmdbTipo": "tv",
     "seasons": [
@@ -25647,7 +26512,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/7YVAIqiZP7Fn6b0CQDc3OkRJf3I.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7YVAIqiZP7Fn6b0CQDc3OkRJf3I.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Ficção e fantasia"
+    ],
+    "rating": "8.4",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 209502,
     "tmdbTipo": "tv",
     "seasons": [
@@ -25807,7 +26680,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/hjzrOLWZSNzkveL6yxMqkTkohN9.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hjzrOLWZSNzkveL6yxMqkTkohN9.png",
     "year": "2019",
-    "genre": "Crime",
+    "genre": "Crime, Drama",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 95111,
     "tmdbTipo": "tv",
     "seasons": [
@@ -26147,7 +27027,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/oVTE3BybRmbW93SPcsvwKWtCgh2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/oVTE3BybRmbW93SPcsvwKWtCgh2.png",
     "year": "2018",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "7.2",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 79238,
     "tmdbTipo": "tv",
     "seasons": [
@@ -26487,7 +27374,16 @@
     "logo": "https://image.tmdb.org/t/p/w500/bfDaPy8wpx9YFA3KRKwUPZcHxeM.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bfDaPy8wpx9YFA3KRKwUPZcHxeM.png",
     "year": "2017",
-    "genre": "Crime",
+    "genre": "Crime, Drama, Família, Comédia",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Família",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 71640,
     "tmdbTipo": "tv",
     "seasons": [
@@ -26817,7 +27713,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/aPq1mXn6TpXdEEqDweeWAwU5MLI.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aPq1mXn6TpXdEEqDweeWAwU5MLI.png",
     "year": "2018",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 80843,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27237,7 +28140,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/xY4GTJMw7WRpk5Rv5hF3ZoRdW1Z.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xY4GTJMw7WRpk5Rv5hF3ZoRdW1Z.png",
     "year": "2024",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 253029,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27357,7 +28267,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/qRJPNHZJu9yANgAeXg1CXvJ7oYh.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qRJPNHZJu9yANgAeXg1CXvJ7oYh.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 243155,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27478,6 +28395,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dAEpKhe7r1CQiNXbIuANYbetmTd.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 96164,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27557,7 +28480,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/dXA0pLyJAIDMU6qG0sMIF59EhJF.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dXA0pLyJAIDMU6qG0sMIF59EhJF.png",
     "year": "2018",
-    "genre": "Drama",
+    "genre": "Drama, Família, Comédia",
+    "genres": [
+      "Drama",
+      "Família",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 81016,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27677,7 +28608,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/9GAvt6fXSzFnoHWQB1GmQRK5oGD.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9GAvt6fXSzFnoHWQB1GmQRK5oGD.png",
     "year": "2020",
-    "genre": "Comédia",
+    "genre": "Comédia, Ação e aventura",
+    "genres": [
+      "Comédia",
+      "Ação e aventura"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 99497,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27858,6 +28796,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 271885,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27957,7 +28901,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/t7PqRAkD6gVEocTqWE8Dw7zlB79.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/t7PqRAkD6gVEocTqWE8Dw7zlB79.png",
     "year": "2023",
-    "genre": "Animação",
+    "genre": "Animação, Ação e aventura, Ficção e fantasia",
+    "genres": [
+      "Animação",
+      "Ação e aventura",
+      "Ficção e fantasia"
+    ],
+    "rating": "8.5",
+    "age": "L",
+    "popularity": 32,
     "tmdbId": 121659,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28028,6 +28980,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sCPe3cQNFYBxMqAuaRcR4lt55Ww.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 256355,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28182,7 +29140,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/gltLHnsSjvSM9h7qz1JebI6TV0z.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/gltLHnsSjvSM9h7qz1JebI6TV0z.png",
     "year": "2011",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 39205,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28362,7 +29327,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/l38hHoTzQgYCXQhdwz9FMR4KEZx.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/l38hHoTzQgYCXQhdwz9FMR4KEZx.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia, Crime",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Crime"
+    ],
+    "rating": "5.9",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 210218,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28607,6 +29580,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 245079,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28707,6 +29686,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7ig7GMO5MqpUEMOwyzrBMwAAoMF.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 253357,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28857,6 +29842,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xTbSBgmdvX6f7BD3RQv37KEK07D.png",
     "year": "2017",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 73575,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29277,6 +30268,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/49MLLHHDqOC4trDUPA1PRPERiln.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 253767,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29637,6 +30634,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wvbMow3zefTp56DsVVmyMfbitEO.png",
     "year": "2025",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 239006,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29776,7 +30779,14 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2025",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 279720,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29867,6 +30877,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rBJ3tvULugxcbLJrBdQSxwXm55w.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 102783,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29996,7 +31012,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/q1bEIebobsqcITxEwMW763HMBO6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/q1bEIebobsqcITxEwMW763HMBO6.png",
     "year": "2019",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 10,
     "tmdbId": 94083,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31017,6 +32040,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5d7IpsaN8IwauanXh1ZDLbg7J6r.png",
     "year": "2010",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 10,
     "tmdbId": 38852,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31637,6 +32666,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bWKy0JXaFc858ooxcOi2oyG1Htd.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 245042,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31776,7 +32811,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/zHwwtoot5zlnLRust65dxDgwX5R.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zHwwtoot5zlnLRust65dxDgwX5R.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Crime, Mistério",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "12",
+    "popularity": 5,
     "tmdbId": 249928,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31896,7 +32939,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/2ICGAc4AYKYYtfhqxErp9fVJoSB.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2ICGAc4AYKYYtfhqxErp9fVJoSB.png",
     "year": "2017",
-    "genre": "Crime",
+    "genre": "Crime, Mistério",
+    "genres": [
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 69610,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31956,7 +33006,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/xOu3VuoSrgx5PlffxhArTv5wu0Q.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xOu3VuoSrgx5PlffxhArTv5wu0Q.png",
     "year": "2021",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 137408,
     "tmdbTipo": "tv",
     "seasons": [
@@ -32107,6 +33164,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dL0CIt5RjHgHhHJYEgVQt1hQ4NV.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 221550,
     "tmdbTipo": "tv",
     "seasons": [
@@ -32246,7 +33309,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/lixVSPuVRJL5pijeKVZxFvtecLh.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lixVSPuVRJL5pijeKVZxFvtecLh.png",
     "year": "2024",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 224732,
     "tmdbTipo": "tv",
     "seasons": [
@@ -32379,6 +33449,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6ZOhK5vUWS54VWukrcZPVKnBANp.png",
     "year": "2020",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 95485,
     "tmdbTipo": "tv",
     "seasons": [
@@ -32709,6 +33785,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/AkAyJS7jeMiylIeGPI8kmT8ict.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.9",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 100857,
     "tmdbTipo": "tv",
     "seasons": [
@@ -33048,7 +34130,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/rkKm0kfqPcsE6OvbEwxKgUCEkYk.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rkKm0kfqPcsE6OvbEwxKgUCEkYk.png",
     "year": "2013",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "7.9",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 53095,
     "tmdbTipo": "tv",
     "seasons": [
@@ -33228,7 +34317,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/1BneUhw2dzdgUiGWx2EChUfh5bz.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1BneUhw2dzdgUiGWx2EChUfh5bz.png",
     "year": "2022",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 209408,
     "tmdbTipo": "tv",
     "seasons": [
@@ -33369,6 +34465,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/k9bpthCPiMzIc2f11grI6z8AWDC.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 275591,
     "tmdbTipo": "tv",
     "seasons": [
@@ -34399,6 +35501,12 @@
     "bannerlogo": "",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 246808,
     "tmdbTipo": "tv",
     "seasons": [
@@ -34539,6 +35647,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/A8qahA2CdaL7bM9KTiVqK6y5pIe.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 234674,
     "tmdbTipo": "tv",
     "seasons": [
@@ -34639,6 +35753,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3CaPTg8m99whOHUkjrJ91JCFncg.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 255074,
     "tmdbTipo": "tv",
     "seasons": [
@@ -34879,6 +35999,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zyJFue2EyCI6fUG9sCKsj5Cl70C.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 250833,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35018,7 +36144,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/uLhijfScmZfONCQ7k8iqFVbdGoq.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uLhijfScmZfONCQ7k8iqFVbdGoq.png",
     "year": "2024",
-    "genre": "Mistério",
+    "genre": "Mistério, Comédia",
+    "genres": [
+      "Mistério",
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "14",
+    "popularity": 1,
     "tmdbId": 240054,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35158,7 +36291,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/qeyBSirC1itcfqVo9N53lCnAJJn.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qeyBSirC1itcfqVo9N53lCnAJJn.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Família",
+    "genres": [
+      "Drama",
+      "Família"
+    ],
+    "rating": "8.1",
+    "age": "",
+    "popularity": 7,
     "tmdbId": 237565,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35338,7 +36478,16 @@
     "logo": "https://image.tmdb.org/t/p/w500/n0NWiFsFH8FUwsbvK6q9ngIG1HX.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/n0NWiFsFH8FUwsbvK6q9ngIG1HX.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Família, Comédia, Mistério",
+    "genres": [
+      "Drama",
+      "Família",
+      "Comédia",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "12",
+    "popularity": 4,
     "tmdbId": 250385,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35719,6 +36868,12 @@
     "bannerlogo": "",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 259902,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36099,6 +37254,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ymKZx6LIKCfaWBtJNnNDNNNgdQG.png",
     "year": "2020",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 105231,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36218,7 +37379,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/plCznzAh6lUDf2HQQgF7XKYQKqD.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/plCznzAh6lUDf2HQQgF7XKYQKqD.png",
     "year": "2016",
-    "genre": "Crime",
+    "genre": "Crime, Drama, Mistério",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 68095,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36439,6 +37608,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1acro1Fgu7qkgZ1AqoIsshsN5ri.png",
     "year": "2018",
     "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 83435,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36843,6 +38018,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fGaS978KwZdubZ0suMDRLbSe51E.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 241613,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36983,6 +38164,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7Ey4KlpC3mbyxaTkXU4nbf4eMsm.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 241756,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37062,7 +38249,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/hWuCVXo0xpZow0P5JHp2FLyNh6y.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hWuCVXo0xpZow0P5JHp2FLyNh6y.png",
     "year": "2019",
-    "genre": "Comédia",
+    "genre": "Comédia, Crime, Mistério",
+    "genres": [
+      "Comédia",
+      "Crime",
+      "Mistério"
+    ],
+    "rating": "7.5",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 94615,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37243,6 +38438,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7LhbdPRJk6JuimhPce8MrxA7m2L.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.5",
+    "age": "12",
+    "popularity": 3,
     "tmdbId": 233452,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37343,6 +38544,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jTV59UCRLZtKF6Zff0fgjmJj6vl.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.9",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 230735,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37442,7 +38649,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/avQpPfQsNuvplL8vvFEiRFxbZMi.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/avQpPfQsNuvplL8vvFEiRFxbZMi.png",
     "year": "2022",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 210084,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37543,6 +38757,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tkbHXZmLRRFAzcfEfOQosTdGHYr.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 222059,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37682,7 +38902,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/7TqkmkMoNQZW6xMSjGKWQ9lP0y0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7TqkmkMoNQZW6xMSjGKWQ9lP0y0.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "7.6",
+    "age": "16",
+    "popularity": 9,
     "tmdbId": 221007,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37823,6 +39050,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jYKfeRLZNhuMaULX8fv6ls3fdSs.png",
     "year": "2022",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 214483,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37923,6 +39156,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/klDCtmT6fgZBo4zeLjd419wm0Dk.png",
     "year": "2020",
     "genre": "Reality",
+    "genres": [
+      "Reality"
+    ],
+    "rating": "8.5",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 106600,
     "tmdbTipo": "tv",
     "seasons": [
@@ -38068,6 +39307,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nRvquGgdg8mB4rmlwqrX2WDXFeM.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 7,
     "tmdbId": 254474,
     "tmdbTipo": "tv",
     "seasons": [
@@ -38487,7 +39732,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/cMyA6wq5nDZHx7TSaMWN03ZWbmQ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cMyA6wq5nDZHx7TSaMWN03ZWbmQ.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "6.7",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 138251,
     "tmdbTipo": "tv",
     "seasons": [
@@ -38668,6 +39920,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8cWJf2MRC0WdXjGw5jkuTuxVFPs.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 236033,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39088,6 +40346,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2wAw3fweVfEjMtGFoIOtL27oUQb.png",
     "year": "2024",
     "genre": "Crime",
+    "genres": [
+      "Crime"
+    ],
+    "rating": "7.0",
+    "age": "16",
+    "popularity": 7,
     "tmdbId": 249906,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39178,6 +40442,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/yP52gmCDNBl3TmAFUtwLKH12OiC.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 247264,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39228,6 +40498,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4etDVPc7fX7IfOxaldARhK4HXuA.png",
     "year": "2019",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.3",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 95484,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39407,7 +40683,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/tiU7FmLkwOMhBDmVbzeAhHzA0zv.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tiU7FmLkwOMhBDmVbzeAhHzA0zv.png",
     "year": "2016",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 66082,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39607,7 +40890,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/Aji39ZoQzriONcxmryZ20diPAr.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/Aji39ZoQzriONcxmryZ20diPAr.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Guerra e política",
+    "genres": [
+      "Drama",
+      "Guerra e política"
+    ],
+    "rating": "7.0",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 223329,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39748,6 +41038,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9HuXcXxoK8kraNb3hvifDRoQKKL.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 209173,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39928,6 +41224,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/1of6Hf7qN7SkWPXg3e8zEgzcpKz.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 237508,
     "tmdbTipo": "tv",
     "seasons": [
@@ -40108,6 +41410,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/yOVmDwEOMsGXTU3kAXMGSFbrvb3.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 235619,
     "tmdbTipo": "tv",
     "seasons": [
@@ -40447,7 +41755,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/vFFRX0MgxcUt7IydVnP6YJKqhmj.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vFFRX0MgxcUt7IydVnP6YJKqhmj.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia"
+    ],
+    "rating": "8.4",
+    "age": "",
+    "popularity": 7,
     "tmdbId": 207668,
     "tmdbTipo": "tv",
     "seasons": [
@@ -40858,6 +42173,12 @@
     "bannerlogo": "",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 224232,
     "tmdbTipo": "tv",
     "seasons": [
@@ -40957,7 +42278,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/xcQ6SfthwuhQmeQKEgOgXoKNZdt.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/xcQ6SfthwuhQmeQKEgOgXoKNZdt.png",
     "year": "2024",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "7.1",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 211705,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41146,6 +42474,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7m3siruRuv3Zo8zGTIVNxGJsADA.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 233954,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41235,7 +42569,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/mT92DARz6YTiU85E1M0fuz7cH4x.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mT92DARz6YTiU85E1M0fuz7cH4x.png",
     "year": "2021",
-    "genre": "Drama",
+    "genre": "Drama, Comédia",
+    "genres": [
+      "Drama",
+      "Comédia"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 115663,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41461,6 +42802,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4t2Z76hHqdnFq5VDmOXwLBz6PJN.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.5",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 209482,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41551,6 +42898,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3Dm7uVmfIB72iAPtaghXOciJQVo.png",
     "year": "2024",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 243691,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41701,6 +43054,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qlSL2UXgy1D38iD7H3Xra7NuGCo.png",
     "year": "2022",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 157208,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41800,7 +43159,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/j46rUV1e1DWYdXj5BkhDaZJCEAL.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/j46rUV1e1DWYdXj5BkhDaZJCEAL.png",
     "year": "2024",
-    "genre": "Ficção e fantasia",
+    "genre": "Ficção e fantasia, Drama",
+    "genres": [
+      "Ficção e fantasia",
+      "Drama"
+    ],
+    "rating": "6.7",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 209750,
     "tmdbTipo": "tv",
     "seasons": [
@@ -41921,6 +43287,12 @@
     "bannerlogo": "",
     "year": "2021",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 128002,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42101,6 +43473,12 @@
     "bannerlogo": "",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 214406,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42201,6 +43579,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wySJIalsIiADsWVtBTdxymGIi4s.png",
     "year": "2022",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 157214,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42301,6 +43685,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9y2HUyR2zUIbM26siHXkArhpnya.png",
     "year": "2021",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 154051,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42400,7 +43790,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/aMVqcg7Muo956duPjxgSfyGKr36.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aMVqcg7Muo956duPjxgSfyGKr36.png",
     "year": "2024",
-    "genre": "Crime",
+    "genre": "Crime, Mistério, Drama",
+    "genres": [
+      "Crime",
+      "Mistério",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 231268,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42580,7 +43978,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/qcuWS6YrD0QFNjtv5seyep0ZrKo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qcuWS6YrD0QFNjtv5seyep0ZrKo.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 214993,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42721,6 +44126,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hE23If3Hehp5S3IyJjw2BhBcVOD.png",
     "year": "2019",
     "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 89927,
     "tmdbTipo": "tv",
     "seasons": [
@@ -43061,6 +44472,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5BfCrlT80usuSGrjGpAz5Xo4KpL.png",
     "year": "2017",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 72549,
     "tmdbTipo": "tv",
     "seasons": [
@@ -43481,6 +44898,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/i7zLd8LKwL7cyk5uoKCZ0FFMb2v.png",
     "year": "2018",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.3",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 83165,
     "tmdbTipo": "tv",
     "seasons": [
@@ -43611,6 +45034,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/d6WB6PUo1ByDLtzzud6yTbeqaa6.png",
     "year": "2022",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 152471,
     "tmdbTipo": "tv",
     "seasons": [
@@ -43790,7 +45219,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/iBTu57JLBZq0d7obdfh2qNTqHJl.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/iBTu57JLBZq0d7obdfh2qNTqHJl.png",
     "year": "2015",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "5.8",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 64529,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44010,7 +45446,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/4bf9oGrxFShcabWTXtzVu3Ea4AC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4bf9oGrxFShcabWTXtzVu3Ea4AC.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 222425,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44151,6 +45594,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/omtZ0BpZ4t0jM3cAH1eSTadhk90.png",
     "year": "2024",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 230824,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44410,7 +45859,16 @@
     "logo": "https://image.tmdb.org/t/p/w500/fFihTENpuEl26NFNFZFUlh5x0gf.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/fFihTENpuEl26NFNFZFUlh5x0gf.png",
     "year": "2024",
-    "genre": "Crime",
+    "genre": "Crime, Comédia, Mistério, Drama",
+    "genres": [
+      "Crime",
+      "Comédia",
+      "Mistério",
+      "Drama"
+    ],
+    "rating": "7.4",
+    "age": "16",
+    "popularity": 7,
     "tmdbId": 202783,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44542,7 +46000,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/vrPyLOvPkxjTdLTd40jwSwi1T4b.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vrPyLOvPkxjTdLTd40jwSwi1T4b.png",
     "year": "2024",
-    "genre": "Drama",
+    "genre": "Drama, Guerra e política, Mistério",
+    "genres": [
+      "Drama",
+      "Guerra e política",
+      "Mistério"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 233205,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44722,7 +46188,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/3rEBYAyTN2jrl7dw3UV2gU8kGPB.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3rEBYAyTN2jrl7dw3UV2gU8kGPB.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 6,
     "tmdbId": 216264,
     "tmdbTipo": "tv",
     "seasons": [
@@ -45143,6 +46616,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vHvZDIu4RkREYKhGphRarpMvyZ9.png",
     "year": "2016",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 66776,
     "tmdbTipo": "tv",
     "seasons": [
@@ -45463,6 +46942,12 @@
     "bannerlogo": "",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.3",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 225178,
     "tmdbTipo": "tv",
     "seasons": [
@@ -45763,6 +47248,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kyav14qyS7HjTQfSrqIciH51CPV.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.2",
+    "age": "",
+    "popularity": 7,
     "tmdbId": 216424,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46183,6 +47674,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/gpftO9yGOYrLEw7CkiO2ixgXG5b.png",
     "year": "2023",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 217337,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46283,6 +47780,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kpzSESBK08bc6wmex1TKqbmYKnj.png",
     "year": "2002",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 36368,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46463,6 +47966,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nenLa7jfoCEGzmYgJeGPYGeysob.png",
     "year": "2019",
     "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "7.5",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 88783,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46642,7 +48151,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/ds997RcySifrW74eQHJUBu0nCJo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ds997RcySifrW74eQHJUBu0nCJo.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "8.2",
+    "age": "14",
+    "popularity": 6,
     "tmdbId": 214994,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46673,6 +48189,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/25VLJthcoKkBOBtQFHkr9ZrwApo.png",
     "year": "2015",
     "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "7.8",
+    "age": "12",
+    "popularity": 1,
     "tmdbId": 63417,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46763,6 +48285,12 @@
     "bannerlogo": "",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 101906,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47102,7 +48630,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/aiGeWZgqgnexIWZzPXxIUI6nmRC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aiGeWZgqgnexIWZzPXxIUI6nmRC.png",
     "year": "2009",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "7.6",
+    "age": "14",
+    "popularity": 4,
     "tmdbId": 31417,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47282,7 +48817,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/cf8BAFmrTZKeihzgrmTvTZ1eqwQ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cf8BAFmrTZKeihzgrmTvTZ1eqwQ.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "7.1",
+    "age": "",
+    "popularity": 18,
     "tmdbId": 218038,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47402,7 +48944,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/euC4beMpJPZpIWjVEZVYtHsF6pD.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/euC4beMpJPZpIWjVEZVYtHsF6pD.png",
     "year": "2021",
-    "genre": "Ficção e fantasia",
+    "genre": "Ficção e fantasia, Drama, Mistério",
+    "genres": [
+      "Ficção e fantasia",
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "7.5",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 120199,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47733,6 +49283,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sP29ruYepHmh75nwhrcMcENWNZg.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.9",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 109866,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47992,7 +49548,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/qxVGcHeLHGa2kfOl5R9cDwz9JOo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qxVGcHeLHGa2kfOl5R9cDwz9JOo.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia, Mistério",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Mistério"
+    ],
+    "rating": "7.6",
+    "age": "12",
+    "popularity": 3,
     "tmdbId": 224900,
     "tmdbTipo": "tv",
     "seasons": [
@@ -48133,6 +49697,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kYokmBZRqRyzn2M9NWtdudlQPkm.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 229210,
     "tmdbTipo": "tv",
     "seasons": [
@@ -48552,7 +50122,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/8Oxk7NIamnLgkao2xdqHaXmemY0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8Oxk7NIamnLgkao2xdqHaXmemY0.png",
     "year": "2023",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "7.5",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 155040,
     "tmdbTipo": "tv",
     "seasons": [
@@ -48733,6 +50310,12 @@
     "bannerlogo": "",
     "year": "2021",
     "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 118871,
     "tmdbTipo": "tv",
     "seasons": [
@@ -48832,7 +50415,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/bHn4NKtYCwyELn3mkbSn7ChMrVp.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bHn4NKtYCwyELn3mkbSn7ChMrVp.png",
     "year": "2023",
-    "genre": "Ficção e fantasia",
+    "genre": "Ficção e fantasia, Drama",
+    "genres": [
+      "Ficção e fantasia",
+      "Drama"
+    ],
+    "rating": "8.8",
+    "age": "14",
+    "popularity": 12,
     "tmdbId": 212204,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49013,6 +50603,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sz1GhwpnXmiXRdKqnLRPXxR1f84.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 204027,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49133,6 +50729,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6Ag7j8HmoFuf94LeQDwL9Gr4f9U.png",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.3",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 114195,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49233,6 +50835,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7VtI79AR7Om9XDBHekIjTpzQ59r.png",
     "year": "2011",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.0",
+    "age": "14",
+    "popularity": 10,
     "tmdbId": 37722,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49412,7 +51020,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/w7KuD4Yx2p9PIAL3kfaPJepVbYz.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/w7KuD4Yx2p9PIAL3kfaPJepVbYz.png",
     "year": "2021",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 131026,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49592,7 +51207,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/7i0UPkB38OPoDsnub5fyO7zDfiG.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7i0UPkB38OPoDsnub5fyO7zDfiG.png",
     "year": "2023",
-    "genre": "Crime",
+    "genre": "Crime, Ação e aventura, Drama",
+    "genres": [
+      "Crime",
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "8.4",
+    "age": "",
+    "popularity": 9,
     "tmdbId": 210704,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49732,7 +51355,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/ry5U5CgywKVlllhgTyMkcHybxYj.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ry5U5CgywKVlllhgTyMkcHybxYj.png",
     "year": "2023",
-    "genre": "Ação e aventura",
+    "genre": "Ação e aventura, Drama",
+    "genres": [
+      "Ação e aventura",
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "",
+    "popularity": 12,
     "tmdbId": 216445,
     "tmdbTipo": "tv",
     "seasons": [
@@ -50153,6 +51783,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/w1M6hpPxrUtiasLqI1MOfvKeDYS.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 229371,
     "tmdbTipo": "tv",
     "seasons": [
@@ -50252,7 +51888,16 @@
     "logo": "https://image.tmdb.org/t/p/w500/eGdonOsarUstpJ7igxkMTvP0Jqx.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/eGdonOsarUstpJ7igxkMTvP0Jqx.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Comédia, Ficção e fantasia, Mistério",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Ficção e fantasia",
+      "Mistério"
+    ],
+    "rating": "8.1",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 210107,
     "tmdbTipo": "tv",
     "seasons": [
@@ -50497,6 +52142,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/goK20A1MFVl9nYnHNNsinGWU1MX.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.8",
+    "age": "",
+    "popularity": 1,
     "tmdbId": 216576,
     "tmdbTipo": "tv",
     "seasons": [
@@ -50597,6 +52248,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8cAr4PyyPhxf8ReQMIvWzeKlcwl.png",
     "year": "2023",
     "genre": "Doramas",
+    "genres": [
+      "Doramas"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 228965,
     "tmdbTipo": "tv",
     "seasons": [
@@ -50777,6 +52434,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/586pkuUQe66mbwG9ui4VSvzGFC2.png",
     "year": "2016",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.1",
+    "age": "10",
+    "popularity": 29,
     "tmdbId": 68398,
     "tmdbTipo": "tv",
     "seasons": [
@@ -51336,7 +52999,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/2LLRedA2iRR4ozaTPlc7TE8OrYf.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2LLRedA2iRR4ozaTPlc7TE8OrYf.png",
     "year": "2018",
-    "genre": "Drama",
+    "genre": "Drama, Comédia, Ficção e fantasia",
+    "genres": [
+      "Drama",
+      "Comédia",
+      "Ficção e fantasia"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
     "tmdbId": 82237,
     "tmdbTipo": "tv",
     "seasons": [
@@ -51516,7 +53187,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/oFDSMpU0XCMZBbDposwB3DYoEyC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/oFDSMpU0XCMZBbDposwB3DYoEyC.png",
     "year": "2023",
-    "genre": "Drama",
+    "genre": "Drama, Mistério",
+    "genres": [
+      "Drama",
+      "Mistério"
+    ],
+    "rating": "7.2",
+    "age": "14",
+    "popularity": 4,
     "tmdbId": 210268,
     "tmdbTipo": "tv",
     "seasons": [
@@ -51616,7 +53294,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/zvwMCeb1aheg47jrjoKoNQgzJKp.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zvwMCeb1aheg47jrjoKoNQgzJKp.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Crime",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": "8.5",
+    "age": "16",
+    "popularity": 15,
     "tmdbId": 136283,
     "tmdbTipo": "tv",
     "seasons": [
@@ -51801,6 +53486,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/eFszaW5eUMJ5mOfI0gcrFsultNx.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "6.2",
+    "age": "",
+    "popularity": 4,
     "tmdbId": 211746,
     "tmdbTipo": "tv",
     "seasons": [
@@ -51980,7 +53671,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/eufOLLqeJj2i6BqgblH6uzZGUky.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/eufOLLqeJj2i6BqgblH6uzZGUky.png",
     "year": "2022",
-    "genre": "Mistério",
+    "genre": "Mistério, Drama",
+    "genres": [
+      "Mistério",
+      "Drama"
+    ],
+    "rating": "5.0",
+    "age": "",
+    "popularity": 3,
     "tmdbId": 196526,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52161,6 +53859,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bZ3VGbKjTYJBqw2zIvfvjHvp537.png",
     "year": "2023",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.7",
+    "age": "12",
+    "popularity": 4,
     "tmdbId": 154916,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52271,6 +53975,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sgXWxsbcGTej2yTpLqYBsT93FRS.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.3",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 156406,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52450,7 +54160,15 @@
     "logo": "https://image.tmdb.org/t/p/w500/8lZ28TCnw48fAxqOxXMP9493Qjy.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8lZ28TCnw48fAxqOxXMP9493Qjy.png",
     "year": "2022",
-    "genre": "Drama",
+    "genre": "Drama, Mistério, Comédia",
+    "genres": [
+      "Drama",
+      "Mistério",
+      "Comédia"
+    ],
+    "rating": "7.6",
+    "age": "",
+    "popularity": 5,
     "tmdbId": 138663,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52651,6 +54369,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6SLm5Z0E8xR1nHsi92u5ijDAiXx.svg",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.5",
+    "age": "16",
+    "popularity": 14,
     "tmdbId": 197067,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52831,6 +54555,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lpfuehesmrGviaOVILYrEtF4CwQ.png",
     "year": "2022",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "7.0",
+    "age": "",
+    "popularity": 2,
     "tmdbId": 196907,
     "tmdbTipo": "tv",
     "seasons": [
@@ -52971,6 +54701,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/c20g6KJt5dj58httlGCq6hNZFb.png",
     "year": "2019",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.2",
+    "age": "12",
+    "popularity": 3,
     "tmdbId": 87527,
     "tmdbTipo": "tv",
     "seasons": [
@@ -53156,6 +54892,12 @@
     "bannerlogo": "",
     "year": "2020",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "14",
+    "popularity": 6,
     "tmdbId": 99047,
     "tmdbTipo": "tv",
     "seasons": [
@@ -53336,6 +55078,12 @@
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8ulaHSy8b76VQM6efkin7bxthfB.png",
     "year": "2003",
     "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.5",
+    "age": "",
+    "popularity": 13,
     "tmdbId": 333,
     "tmdbTipo": "tv",
     "seasons": [
@@ -53895,7 +55643,14 @@
     "logo": "https://image.tmdb.org/t/p/w500/9JcsxOBfCr8zZdRoFwo8Hz899hg.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9JcsxOBfCr8zZdRoFwo8Hz899hg.png",
     "year": "2007",
-    "genre": "Comédia",
+    "genre": "Comédia, Drama",
+    "genres": [
+      "Comédia",
+      "Drama"
+    ],
+    "rating": "8.1",
+    "age": "14",
+    "popularity": 5,
     "tmdbId": 3215,
     "tmdbTipo": "tv",
     "seasons": [
