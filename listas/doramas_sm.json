@@ -238,7 +238,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 243248,
     "tmdbTipo": "tv",
     "seasons": [
@@ -718,7 +718,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 258070,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1138,7 +1138,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/amO8VnbUkamFFMIxQhdp5v2TYGH.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/amO8VnbUkamFFMIxQhdp5v2TYGH.png",
     "year": "2017",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 84559,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2798,7 +2798,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/sL9ahXhxEBcANedYRD7I3KpWhdJ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sL9ahXhxEBcANedYRD7I3KpWhdJ.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 250178,
     "tmdbTipo": "tv",
     "seasons": [
@@ -3681,362 +3681,6 @@
   },
   {
     "cat": "Doramas",
-    "title": "权宠",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w500/jGShO4DyvOXJRwnilCH8iSH48Qs.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/luuWoXZ5VpvNv2iImP7o2YyoWmK.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/fijSLofhc76zNJnc1uZB7xfVXN1.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/fijSLofhc76zNJnc1uZB7xfVXN1.png",
-    "year": "2025",
-    "genre": "Doramas",
-    "tmdbId": 287927,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195976.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281487.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195977.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281488.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195978.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281489.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195979.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281490.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195980.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281491.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195981.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281492.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195982.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281493.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195983.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281494.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195984.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281495.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195985.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281496.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195986.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281497.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 12,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195987.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281498.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195988.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281499.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195989.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281500.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195990.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281501.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195991.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281502.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195992.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281503.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195993.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281504.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 19,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195994.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281505.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 20,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195995.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281506.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 21,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195996.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281507.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 22,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195997.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281508.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 23,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195998.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281509.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 24,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2195999.mp4",
-                "idioma": "legendado"
-              },
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2281510.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Doramas",
     "title": "Comer, Correr, Amar",
     "desc": "Ding Zhi Tong vivia preocupada com sua vida financeira e não encontrava tempo para vivenciar um romance até conhecer o alegre e despreocupado Gan Yang, que acaba conquistando seu coração. Porém, tudo muda quando a empresa da família de Gan Yang vai à falência e ele, sem coragem para contar a Zhi Tong sobre o ocorrido, prefere terminar o relacionamento deles. O destino, no entanto, tem outros planos para o casal, que começa a trabalhar no mesmo lugar uma década após o término. Agora, enquanto Zhi Tong ainda guarda rancor de Gan Yang, ele sonha em voltar com ela e busca uma forma de quebrar a barreira que existe entre os dois para que o futuro deles tenha uma segunda chance.",
     "thumb": "https://image.tmdb.org/t/p/w500/ee8DBgl3btULqnFaUiMriJXo7Dx.jpg",
@@ -4044,7 +3688,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 255095,
     "tmdbTipo": "tv",
     "seasons": [
@@ -5114,7 +4758,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 224733,
     "tmdbTipo": "tv",
     "seasons": [
@@ -6274,7 +5918,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 259015,
     "tmdbTipo": "tv",
     "seasons": [
@@ -6397,306 +6041,6 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2193323.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Doramas",
-    "title": "ナンバーワン戦隊ゴジュウジャー",
-    "desc": "Em um passado distante, uma grande batalha conhecida como Guerra do Universo eclode entre os robôs de todas as equipes Super Sentai e uma calamidade colossal. A guerra termina graças à divindade gigante Tega Sword, que, ferida, cai em sono profundo. No presente, Hoeru Tono, um jovem que vive de trabalhos temporários, conhece Tega Sword e descobre que reunir anéis especiais pode realizar qualquer desejo. Sem saber o que deseja, decide se tornar o Nº 1 e enfrenta a organização Bridan como Gozyu Wolf. Qual será o verdadeiro desejo de Hoeru, e quem são os outros guerreiros dos anéis?",
-    "thumb": "https://image.tmdb.org/t/p/w500/hw0EYA0lS6DRYjMq24xdluFIZsu.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/djQVc69Ljq9mtEXtZ7T9rHcBFEA.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/cnhhoXqbI1xWCnBl5EAswKgLahh.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/cnhhoXqbI1xWCnBl5EAswKgLahh.png",
-    "year": "2025",
-    "genre": "Doramas",
-    "tmdbId": 275648,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396263.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396264.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396265.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396266.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396267.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396268.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396269.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396270.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396271.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396272.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396273.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396274.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396275.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396276.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396277.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396278.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396279.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 19,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396280.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 20,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396281.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 21,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396282.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 22,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396283.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 23,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396284.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 24,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396285.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 25,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396286.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 26,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396287.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 27,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396288.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 28,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396289.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 29,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2396290.mp4",
                 "idioma": "legendado"
               }
             ]
@@ -7799,7 +7143,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/rrAfl3blQbDZCmrSEzPGmbNU6LE.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/rrAfl3blQbDZCmrSEzPGmbNU6LE.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 276903,
     "tmdbTipo": "tv",
     "seasons": [
@@ -8049,7 +7393,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/3ktFCgafLsMUDhJWrtCwXQZL1Vs.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3ktFCgafLsMUDhJWrtCwXQZL1Vs.png",
     "year": "2018",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 80997,
     "tmdbTipo": "tv",
     "seasons": [
@@ -9124,7 +8468,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/jrVVPGtvOzcwKWMDLid8r8sHC7m.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jrVVPGtvOzcwKWMDLid8r8sHC7m.png",
     "year": "2021",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 126723,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11134,7 +10478,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/h6SGvbDUfGRJSMx87NkZ8z5WmHL.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/h6SGvbDUfGRJSMx87NkZ8z5WmHL.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 245265,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11214,7 +10558,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/pLb0trJsqWMGvpF5xcmMTkFzHyq.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/pLb0trJsqWMGvpF5xcmMTkFzHyq.png",
     "year": "2020",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 101146,
     "tmdbTipo": "tv",
     "seasons": [
@@ -11802,506 +11146,6 @@
   },
   {
     "cat": "Doramas",
-    "title": "爆上戦隊ブンブンジャー",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w500/sF4iozfFt9R6PgPPmhM16i0PLGy.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/yNabCz32woEXgrcvRS8ASH55s3G.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/kI7esLywpCJ8XJfmHEtEmWyyHJH.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/kI7esLywpCJ8XJfmHEtEmWyyHJH.png",
-    "year": "2024",
-    "genre": "Doramas",
-    "tmdbId": 234667,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277304.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277305.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277306.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277307.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277308.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277309.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277310.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277311.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277312.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277313.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277314.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 12,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277315.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277316.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277317.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277318.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277319.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277320.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277321.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 19,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277322.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 20,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277323.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 21,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277324.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 22,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277325.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 23,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277326.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 24,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277327.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 25,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277328.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 26,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277329.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 27,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277330.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 28,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277331.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 29,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277332.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 30,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277333.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 31,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277334.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 32,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277335.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 33,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277336.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 34,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277337.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 35,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277338.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 36,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277339.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 37,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277340.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 38,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277341.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 39,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277342.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 40,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277343.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 41,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277344.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 42,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277345.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 43,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277346.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 44,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277347.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 45,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277348.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 46,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277349.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 47,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277350.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 48,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2277351.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Doramas",
     "title": "Guerra Korea-Khitan War",
     "desc": "Rei Hyeonjong e Kang Kam-chan lideram a Guerra Coreia-Cítia de 26 anos até a vitória, iniciando a era de paz no leste asiático e prosperidade em Goryeo.",
     "thumb": "https://image.tmdb.org/t/p/w500/oPoDBoAn8aFCSskE6ExhVAxxeSq.jpg",
@@ -12309,7 +11153,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/yHgcbnjqzkllZL9wekgPlBQS3hS.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/yHgcbnjqzkllZL9wekgPlBQS3hS.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 218290,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13497,7 +12341,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/ePMpaMWh2LT76mgjrNCzK7S9MDr.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ePMpaMWh2LT76mgjrNCzK7S9MDr.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 209751,
     "tmdbTipo": "tv",
     "seasons": [
@@ -13637,7 +12481,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/mPmJp4vwaYch5eroEnazEIhgRH2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/mPmJp4vwaYch5eroEnazEIhgRH2.png",
     "year": "2017",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 68890,
     "tmdbTipo": "tv",
     "seasons": [
@@ -14712,7 +13556,7 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2021",
-    "genre": "Doramas",
+    "genre": "Ficção e fantasia",
     "tmdbId": 131009,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15232,7 +14076,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/dpJ1TvdXp5kbUy4cJK7g5wKDsYi.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dpJ1TvdXp5kbUy4cJK7g5wKDsYi.png",
     "year": "2021",
-    "genre": "Doramas",
+    "genre": "Ação e aventura",
     "tmdbId": 125061,
     "tmdbTipo": "tv",
     "seasons": [
@@ -15962,7 +14806,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/ztxOZMYgNYvTJhyKprrqWZjuKxx.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ztxOZMYgNYvTJhyKprrqWZjuKxx.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 218840,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16212,7 +15056,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/ajm8C8gspp5uqkI8gAs9fBwhbs2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ajm8C8gspp5uqkI8gAs9fBwhbs2.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Documentário",
     "tmdbId": 234739,
     "tmdbTipo": "tv",
     "seasons": [
@@ -16962,7 +15806,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/wUqkmEjMAMDRfmCaxVHpttjhyZ6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/wUqkmEjMAMDRfmCaxVHpttjhyZ6.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 235577,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17366,7 +16210,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/kOveERxl0qVsyiZtJOf2v632GWb.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/kOveERxl0qVsyiZtJOf2v632GWb.png",
     "year": "2026",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 287011,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17396,7 +16240,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/lILulzktXH56l7XPke0jtwWsGpP.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/lILulzktXH56l7XPke0jtwWsGpP.png",
     "year": "2022",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 204367,
     "tmdbTipo": "tv",
     "seasons": [
@@ -17516,7 +16360,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png",
     "year": "2026",
-    "genre": "Doramas",
+    "genre": "Mistério",
     "tmdbId": 285838,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18124,7 +16968,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/cuWdT1yfF4AG0r6dWDkicoaUkeq.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cuWdT1yfF4AG0r6dWDkicoaUkeq.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 227192,
     "tmdbTipo": "tv",
     "seasons": [
@@ -18244,7 +17088,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/6rvJ0DSwmsfnpl4nEtFj5tDMPU2.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6rvJ0DSwmsfnpl4nEtFj5tDMPU2.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 222233,
     "tmdbTipo": "tv",
     "seasons": [
@@ -19073,7 +17917,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png",
     "year": "2026",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 229891,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20137,7 +18981,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/tPCZgcyitUtULLldn4ot3RBBELA.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/tPCZgcyitUtULLldn4ot3RBBELA.png",
     "year": "2021",
-    "genre": "Doramas",
+    "genre": "Mistério",
     "tmdbId": 124426,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20317,7 +19161,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/z3RUTzYAC6B5IzGY6SnOSxdIX03.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/z3RUTzYAC6B5IzGY6SnOSxdIX03.png",
     "year": "2022",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 129888,
     "tmdbTipo": "tv",
     "seasons": [
@@ -20847,7 +19691,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 154822,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21191,7 +20035,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/6Ug0fDovKenB6LaRwjm2rvZY6oV.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6Ug0fDovKenB6LaRwjm2rvZY6oV.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 195670,
     "tmdbTipo": "tv",
     "seasons": [
@@ -21661,7 +20505,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/r9x5dNEyWdSGZCktEmXt8KyQ8L0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/r9x5dNEyWdSGZCktEmXt8KyQ8L0.png",
     "year": "2022",
-    "genre": "Doramas",
+    "genre": "Ação e aventura",
     "tmdbId": 200709,
     "tmdbTipo": "tv",
     "seasons": [
@@ -22870,8 +21714,8 @@
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/wcP3FsRLog4GNEs9PFrDKKQdcof.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/5mOzj1r5aA8BdNkXKNJqiAyyqYU.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5mOzj1r5aA8BdNkXKNJqiAyyqYU.png",
-    "year": "",
-    "genre": "Doramas",
+    "year": "2024",
+    "genre": "Drama",
     "tmdbId": 215720,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23115,7 +21959,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/zFLWWEF9WBLShqxozYkCxqTvqpV.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zFLWWEF9WBLShqxozYkCxqTvqpV.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 216310,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23255,7 +22099,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/cnjJ4FiiOSlg3IjkQW3Wv8YvRzT.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cnjJ4FiiOSlg3IjkQW3Wv8YvRzT.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Mistério",
     "tmdbId": 219652,
     "tmdbTipo": "tv",
     "seasons": [
@@ -23857,7 +22701,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/jIytLkzBl9E9b8q0NslAZNDfsCk.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/jIytLkzBl9E9b8q0NslAZNDfsCk.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 232616,
     "tmdbTipo": "tv",
     "seasons": [
@@ -24957,7 +23801,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/dcd3PC1dDXiLMiUDPSMbMkv9KoI.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/dcd3PC1dDXiLMiUDPSMbMkv9KoI.png",
     "year": "2018",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 79434,
     "tmdbTipo": "tv",
     "seasons": [
@@ -25807,7 +24651,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/hjzrOLWZSNzkveL6yxMqkTkohN9.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hjzrOLWZSNzkveL6yxMqkTkohN9.png",
     "year": "2019",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 95111,
     "tmdbTipo": "tv",
     "seasons": [
@@ -26487,7 +25331,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/bfDaPy8wpx9YFA3KRKwUPZcHxeM.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/bfDaPy8wpx9YFA3KRKwUPZcHxeM.png",
     "year": "2017",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 71640,
     "tmdbTipo": "tv",
     "seasons": [
@@ -26817,7 +25661,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/aPq1mXn6TpXdEEqDweeWAwU5MLI.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aPq1mXn6TpXdEEqDweeWAwU5MLI.png",
     "year": "2018",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 80843,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27357,7 +26201,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qRJPNHZJu9yANgAeXg1CXvJ7oYh.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qRJPNHZJu9yANgAeXg1CXvJ7oYh.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 243155,
     "tmdbTipo": "tv",
     "seasons": [
@@ -27857,7 +26701,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 271885,
     "tmdbTipo": "tv",
     "seasons": [
@@ -28606,7 +27450,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png",
     "year": "2025",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 245079,
     "tmdbTipo": "tv",
     "seasons": [
@@ -29996,7 +28840,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/q1bEIebobsqcITxEwMW763HMBO6.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/q1bEIebobsqcITxEwMW763HMBO6.png",
     "year": "2019",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 94083,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31776,7 +30620,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/zHwwtoot5zlnLRust65dxDgwX5R.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/zHwwtoot5zlnLRust65dxDgwX5R.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 249928,
     "tmdbTipo": "tv",
     "seasons": [
@@ -31879,66 +30723,6 @@
             "fontes": [
               {
                 "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2192481.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Doramas",
-    "title": "맨몸의 소방관",
-    "desc": "Kang Chul-Soo é um bombeiro dedicado que leva uma vida simples, mas tudo muda quando ele é falsamente acusado de um assassinato. Na tentativa de limpar seu nome, ele aceita uma proposta inusitada: posar como modelo para pinturas de Han Jin-A, uma artista rica e misteriosa que tem ligações com o caso. Enquanto Chul-Soo tenta desvendar o verdadeiro culpado, ele e Jin-A acabam formando uma parceria inesperada, repleta de desconfianças, segredos e uma atração crescente. Entre o calor das investigações e o fogo do romance, Naked Fireman combina ação, mistério e humor, revelando que, às vezes, a verdade pode estar onde menos se espera.",
-    "thumb": "https://image.tmdb.org/t/p/w500/6MOGfuEKeVWcYg3JEavZJFbTMwn.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/y2gjVDY4wyVpZwuSgcXsgbw7F5x.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/2ICGAc4AYKYYtfhqxErp9fVJoSB.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/2ICGAc4AYKYYtfhqxErp9fVJoSB.png",
-    "year": "2017",
-    "genre": "Doramas",
-    "tmdbId": 69610,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2192877.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2192878.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2192879.mp4",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "http://corruptx.org:80/series/3llohwk4g9/kwf099q30o/2192880.mp4",
                 "idioma": "legendado"
               }
             ]
@@ -35018,7 +33802,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/uLhijfScmZfONCQ7k8iqFVbdGoq.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/uLhijfScmZfONCQ7k8iqFVbdGoq.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Mistério",
     "tmdbId": 240054,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35158,7 +33942,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qeyBSirC1itcfqVo9N53lCnAJJn.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qeyBSirC1itcfqVo9N53lCnAJJn.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 237565,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35338,7 +34122,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/n0NWiFsFH8FUwsbvK6q9ngIG1HX.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/n0NWiFsFH8FUwsbvK6q9ngIG1HX.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 250385,
     "tmdbTipo": "tv",
     "seasons": [
@@ -35718,7 +34502,7 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 259902,
     "tmdbTipo": "tv",
     "seasons": [
@@ -36218,7 +35002,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/plCznzAh6lUDf2HQQgF7XKYQKqD.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/plCznzAh6lUDf2HQQgF7XKYQKqD.png",
     "year": "2016",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 68095,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37062,7 +35846,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/hWuCVXo0xpZow0P5JHp2FLyNh6y.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/hWuCVXo0xpZow0P5JHp2FLyNh6y.png",
     "year": "2019",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 94615,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37242,7 +36026,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/7LhbdPRJk6JuimhPce8MrxA7m2L.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7LhbdPRJk6JuimhPce8MrxA7m2L.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 233452,
     "tmdbTipo": "tv",
     "seasons": [
@@ -37677,12 +36461,12 @@
     "cat": "Doramas",
     "title": "Família Perfeita",
     "desc": "A vida era perfeita para Choi Jin Hyeok, sua esposa Ha Eun Ju e sua amada filha Seon Hui – até o dia em que a jovem chegou em casa coberta de sangue, dizendo que acha que matou sua amiga… Quando a casa desta última pega fogo, suspeitas em casa e na escola começam a surgir. Quando outra criança também desaparece, familiares e amigos começam a apontar o dedo uns para os outros. A verdade sobre esta “família perfeita” algum dia surgirá?",
-    "thumb": "https://image.tmdb.org/t/p/w500/nCODaSrYdJOtWNtTi9uQJKh8mUD.jpg",
+    "thumb": "https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/w7jDqnvfJQ7rRLuAxXjKj5c3E2U.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/7TqkmkMoNQZW6xMSjGKWQ9lP0y0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/7TqkmkMoNQZW6xMSjGKWQ9lP0y0.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 221007,
     "tmdbTipo": "tv",
     "seasons": [
@@ -38487,7 +37271,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/cMyA6wq5nDZHx7TSaMWN03ZWbmQ.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/cMyA6wq5nDZHx7TSaMWN03ZWbmQ.png",
     "year": "2022",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 138251,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39087,7 +37871,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/2wAw3fweVfEjMtGFoIOtL27oUQb.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/2wAw3fweVfEjMtGFoIOtL27oUQb.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Crime",
     "tmdbId": 249906,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39227,7 +38011,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/4etDVPc7fX7IfOxaldARhK4HXuA.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4etDVPc7fX7IfOxaldARhK4HXuA.png",
     "year": "2019",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 95484,
     "tmdbTipo": "tv",
     "seasons": [
@@ -39607,7 +38391,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/Aji39ZoQzriONcxmryZ20diPAr.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/Aji39ZoQzriONcxmryZ20diPAr.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 223329,
     "tmdbTipo": "tv",
     "seasons": [
@@ -42580,7 +41364,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/qcuWS6YrD0QFNjtv5seyep0ZrKo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/qcuWS6YrD0QFNjtv5seyep0ZrKo.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 214993,
     "tmdbTipo": "tv",
     "seasons": [
@@ -43060,7 +41844,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/5BfCrlT80usuSGrjGpAz5Xo4KpL.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/5BfCrlT80usuSGrjGpAz5Xo4KpL.png",
     "year": "2017",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 72549,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44010,7 +42794,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/4bf9oGrxFShcabWTXtzVu3Ea4AC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/4bf9oGrxFShcabWTXtzVu3Ea4AC.png",
     "year": "2024",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 222425,
     "tmdbTipo": "tv",
     "seasons": [
@@ -44722,7 +43506,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/3rEBYAyTN2jrl7dw3UV2gU8kGPB.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/3rEBYAyTN2jrl7dw3UV2gU8kGPB.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 216264,
     "tmdbTipo": "tv",
     "seasons": [
@@ -45462,7 +44246,7 @@
     "logo": "",
     "bannerlogo": "",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 225178,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46462,7 +45246,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/nenLa7jfoCEGzmYgJeGPYGeysob.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/nenLa7jfoCEGzmYgJeGPYGeysob.png",
     "year": "2019",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 88783,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46642,7 +45426,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/ds997RcySifrW74eQHJUBu0nCJo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/ds997RcySifrW74eQHJUBu0nCJo.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 214994,
     "tmdbTipo": "tv",
     "seasons": [
@@ -46672,7 +45456,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/25VLJthcoKkBOBtQFHkr9ZrwApo.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/25VLJthcoKkBOBtQFHkr9ZrwApo.png",
     "year": "2015",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 63417,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47102,7 +45886,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/aiGeWZgqgnexIWZzPXxIUI6nmRC.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/aiGeWZgqgnexIWZzPXxIUI6nmRC.png",
     "year": "2009",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 31417,
     "tmdbTipo": "tv",
     "seasons": [
@@ -48552,7 +47336,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/8Oxk7NIamnLgkao2xdqHaXmemY0.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/8Oxk7NIamnLgkao2xdqHaXmemY0.png",
     "year": "2023",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 155040,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49012,7 +47796,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/sz1GhwpnXmiXRdKqnLRPXxR1f84.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/sz1GhwpnXmiXRdKqnLRPXxR1f84.png",
     "year": "2022",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 204027,
     "tmdbTipo": "tv",
     "seasons": [
@@ -49132,7 +47916,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/6Ag7j8HmoFuf94LeQDwL9Gr4f9U.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/6Ag7j8HmoFuf94LeQDwL9Gr4f9U.png",
     "year": "2020",
-    "genre": "Doramas",
+    "genre": "Drama",
     "tmdbId": 114195,
     "tmdbTipo": "tv",
     "seasons": [
@@ -53895,7 +52679,7 @@
     "logo": "https://image.tmdb.org/t/p/w500/9JcsxOBfCr8zZdRoFwo8Hz899hg.png",
     "bannerlogo": "https://image.tmdb.org/t/p/w500/9JcsxOBfCr8zZdRoFwo8Hz899hg.png",
     "year": "2007",
-    "genre": "Doramas",
+    "genre": "Comédia",
     "tmdbId": 3215,
     "tmdbTipo": "tv",
     "seasons": [

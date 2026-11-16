@@ -4,16 +4,16 @@
     "itens": [
       {
         "tipo": "Filme",
-        "titulo": "A Odisseia (2026)",
+        "titulo": "A Odisseia",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/b82gpDmbbDZGywc0Zq1t2N3wWj5.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/mIi99BK2mDpLp2lGsa8jCBDFit4.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/jQ3nTwMWLGHOlnV9oL5v2LjcmHl.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/jQ3nTwMWLGHOlnV9oL5v2LjcmHl.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Outra Mamãe (2026)",
+        "titulo": "Outra Mamãe",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hiuBB4ZqGbL7uihdVPUahFtg7Zr.jpg",
         "bannerThumb": "",
@@ -22,7 +22,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Resident Evil (2026)",
+        "titulo": "Resident Evil",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/bvBTdNaWVPrHKjyPFnsigZJsKdD.jpg",
         "bannerThumb": "",
@@ -31,7 +31,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Ebenezer e os Fantasmas do Natal (2026)",
+        "titulo": "Ebenezer e os Fantasmas do Natal",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/7MBeM27NNcCYUszjTNYJUycPDhV.jpg",
         "bannerThumb": "",
@@ -40,7 +40,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Godzilla Minus Zero (2026)",
+        "titulo": "Godzilla Minus Zero",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/ebVZ8n64rtHsSItTei4EgTKzPVu.jpg",
         "bannerThumb": "",
@@ -58,7 +58,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Sem Desistir (2026)",
+        "titulo": "Sem Desistir",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/k0f4a5RVBwLJUq3UYXnfcOaXjCu.jpg",
         "bannerThumb": "",
@@ -67,25 +67,25 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Cara-de-Barro (2026)",
+        "titulo": "Cara-de-Barro",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/dqvHs2YXks989ScXvsngbqAeBHX.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/aSDzYeuLyK8WYzyxwZJ1Gmpbv9J.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/aSDzYeuLyK8WYzyxwZJ1Gmpbv9J.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Como Roubar um Banco (2026)",
+        "titulo": "Como Roubar um Banco",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/6QOVs2PMyxHtE4tHiMZS1eIboxl.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/iS1A5fnVt8gRum7LrMd0VfEKtHR.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/iS1A5fnVt8gRum7LrMd0VfEKtHR.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Fuga Mortal (2026)",
+        "titulo": "Fuga Mortal",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/3QX08keJGtcIJsCyy4Mdaq28ZGq.jpg",
         "bannerThumb": "",
@@ -94,7 +94,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Obsessão (2026)",
+        "titulo": "Obsessão",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
         "bannerThumb": "",
@@ -103,21 +103,21 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Arte de Ser Heumann (2026)",
+        "titulo": "A Arte de Ser Heumann",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/k9uyh5Fdm2d2cdpNryVvlsnpTnM.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/esUzs91z0roGt4szH2xEoflUt5w.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/esUzs91z0roGt4szH2xEoflUt5w.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "A Queda 2: No Limite (2026)",
+        "titulo": "A Queda 2: No Limite",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/xtxEvJACNnbz3WYmJ5mYT1a0KGk.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/AmqBFI6I3LMKZkZ81yfPq5YYnIm.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/AmqBFI6I3LMKZkZ81yfPq5YYnIm.png"
       },
       {
         "tipo": "Filme",
@@ -130,25 +130,25 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Allen (2026)",
+        "titulo": "Allen",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/nc5MVDGX2TOBRSYNYNhxUeULrQv.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/nc5MVDGX2TOBRSYNYNhxUeULrQv.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "A Ilha Esquecida (2026)",
+        "titulo": "A Ilha Esquecida",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/7OTbIk4TwYzpvf1GbOGXAFafxiz.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/qJOArECLJAgvfGlAtydl9JA3XQb.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/qJOArECLJAgvfGlAtydl9JA3XQb.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Um Bom Advogado (2026)",
+        "titulo": "Um Bom Advogado",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/8u6v5JIm96DYMbZtTvmhUEqdLuw.jpg",
         "bannerThumb": "",
@@ -157,7 +157,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Transformação de Natal (2026)",
+        "titulo": "Transformação de Natal",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/cwbRuD96GobB3YSRMnKVw3LVRLx.jpg",
         "bannerThumb": "",
@@ -166,7 +166,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Fim da Rua (2026)",
+        "titulo": "O Fim da Rua",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aqEPRht1pZR653rmU7eHyk8wSNP.jpg",
         "bannerThumb": "",
@@ -175,7 +175,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Três Horas Para Viver (2026)",
+        "titulo": "Três Horas Para Viver",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/vzb3bKOFtciIVSEIsLOZH4uJfxN.jpg",
         "bannerThumb": "",
@@ -184,16 +184,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Backrooms: Um Não-Lugar (2026)",
+        "titulo": "Backrooms: Um Não-Lugar",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/3Rd8YUpupcJh0jxjqLn79UHb2in.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/e8TSmo1bgonM53XF7DclxWm8VaQ.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/e8TSmo1bgonM53XF7DclxWm8VaQ.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Devoradores de Estrelas (2026)",
+        "titulo": "Devoradores de Estrelas",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg",
         "bannerThumb": "",
@@ -202,7 +202,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Toy Story 5 (2026)",
+        "titulo": "Toy Story 5",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/jTN1hdfP88Km63waezqIN1uUqT3.jpg",
         "bannerThumb": "",
@@ -211,7 +211,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Tudo Pode Ser Visto (2026)",
+        "titulo": "Tudo Pode Ser Visto",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/mnu5cNfijdbuU4iWrV2Lg7AfM0J.jpg",
         "bannerThumb": "",
@@ -220,7 +220,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "No Limite da Justiça (2026)",
+        "titulo": "No Limite da Justiça",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aD01dfnZ0RSrDEEOz7qwm4SReeD.jpg",
         "bannerThumb": "",
@@ -229,7 +229,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Natal Perfeito de um Cachorro (2026)",
+        "titulo": "O Natal Perfeito de um Cachorro",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2YhgEEGYOQfl3CzoRcYys8b6JxH.jpg",
         "bannerThumb": "",
@@ -238,7 +238,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Moana (2026)",
+        "titulo": "Moana",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/iHpNZzSMLWPfnDqTVuMyRIhrdiW.jpg",
         "bannerThumb": "",
@@ -247,7 +247,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Matchbox - O Filme (2026)",
+        "titulo": "Matchbox - O Filme",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg",
         "bannerThumb": "",
@@ -256,7 +256,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Vingadores: Ultimato (2019)",
+        "titulo": "Vingadores: Ultimato",
         "ano": "2019",
         "capa": "https://image.tmdb.org/t/p/w342/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
         "bannerThumb": "",
@@ -265,7 +265,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Uma História de Derry (2026)",
+        "titulo": "Uma História de Derry",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/9duTLm4Xk62wGIWJBfdco9lPHvW.jpg",
         "bannerThumb": "",
@@ -274,7 +274,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "The Cycle (2026)",
+        "titulo": "The Cycle",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
         "bannerThumb": "",
@@ -283,7 +283,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Convite (2026)",
+        "titulo": "O Convite",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg",
         "bannerThumb": "",
@@ -292,12 +292,12 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Avatar Aang: O Último Mestre do Ar (2026)",
+        "titulo": "Avatar Aang: O Último Mestre do Ar",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/tiUtJXN4OZaK2PQM0q8mbbBgKS4.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/wgZy42OeOllxTIddvNcO61YAevr.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/wgZy42OeOllxTIddvNcO61YAevr.png"
       },
       {
         "tipo": "Filme",
@@ -310,7 +310,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Superman (2025)",
+        "titulo": "Superman",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/1ZLhjqbNgd0jzczAQtqMbwuMJKB.jpg",
         "bannerThumb": "",
@@ -319,7 +319,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Dia D (2026)",
+        "titulo": "Dia D",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/pmff1wjKrgJi92PPr346lAifzlg.jpg",
         "bannerThumb": "",
@@ -328,7 +328,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Rebelde (2026)",
+        "titulo": "O Rebelde",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/kvE28LKAjRlkf2x3G6BmSCYyOk7.jpg",
         "bannerThumb": "",
@@ -337,7 +337,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Thunderbolts* (2025)",
+        "titulo": "Thunderbolts*",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/zkysYSX51ddSPQuiDTjkGCS6vyh.jpg",
         "bannerThumb": "",
@@ -346,7 +346,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Zona Zero (2026)",
+        "titulo": "Zona Zero",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/5tQ8kDNk00HPuVb43pZH1BmcNWQ.jpg",
         "bannerThumb": "",
@@ -355,7 +355,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Minions & Monstros (2026)",
+        "titulo": "Minions & Monstros",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hTowtXrkCY7FJyoj4p91JckrJSE.jpg",
         "bannerThumb": "",
@@ -381,18 +381,18 @@
         "titulo": "VisionQuest",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/igI6wXxLOjALEbFkkcaM7fdZ1d4.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/igI6wXxLOjALEbFkkcaM7fdZ1d4.png"
       },
       {
         "tipo": "Série",
         "titulo": "Terra da Mafia",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/jM7bH9b9QT22PtkTyHzxbXx4lDI.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/4IrwcNJk4yBoQZGeR9tMblrjDMG.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/4IrwcNJk4yBoQZGeR9tMblrjDMG.png"
       },
       {
         "tipo": "Série",
@@ -624,18 +624,18 @@
         "titulo": "Ted Lasso",
         "ano": "2020",
         "capa": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4bG49jVR7NrCNQjahDUsDqvIwle.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/iNudegFbTBAGBB529k7wGVivqE4.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/iNudegFbTBAGBB529k7wGVivqE4.png"
       },
       {
         "tipo": "Série",
         "titulo": "Stick",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/D7cxWHBj769OYsX9jpx9eb2Y9q.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/xuCl12ui7dtUkp0hN0SSqn92kPi.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/xuCl12ui7dtUkp0hN0SSqn92kPi.png"
       },
       {
         "tipo": "Série",
@@ -660,9 +660,9 @@
         "titulo": "Stranger Things",
         "ano": "2016",
         "capa": "https://image.tmdb.org/t/p/w342/twfKp60THrcOIep9sjHODOOfO8d.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/e9qFk5zrKZaB2IbbOI9N0W77vlh.svg",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/e9qFk5zrKZaB2IbbOI9N0W77vlh.svg"
       },
       {
         "tipo": "Série",
@@ -678,18 +678,18 @@
         "titulo": "The Rookie",
         "ano": "2018",
         "capa": "https://image.tmdb.org/t/p/w342/yCPGrd6fzbftuaH97OUS6tUdE4B.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/4QwiJB2PwXWFHy7tbV6nIfWjBmT.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/4QwiJB2PwXWFHy7tbV6nIfWjBmT.png"
       },
       {
         "tipo": "Série",
         "titulo": "The Rainmaker",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/q8l0lj20amBFi0SBs8NI9yJpaHq.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/avur9Jx0zfV4X6aKBmmZQSLiQ6i.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/avur9Jx0zfV4X6aKBmmZQSLiQ6i.png"
       },
       {
         "tipo": "Série",
@@ -723,9 +723,9 @@
         "titulo": "Yellowjackets",
         "ano": "2021",
         "capa": "https://image.tmdb.org/t/p/w342/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png"
       }
     ]
   },
@@ -734,7 +734,7 @@
     "itens": [
       {
         "tipo": "Filme",
-        "titulo": "Resident Evil (2026)",
+        "titulo": "Resident Evil",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/bvBTdNaWVPrHKjyPFnsigZJsKdD.jpg",
         "bannerThumb": "",
@@ -743,12 +743,12 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Odisseia (2026)",
+        "titulo": "A Odisseia",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/b82gpDmbbDZGywc0Zq1t2N3wWj5.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/mIi99BK2mDpLp2lGsa8jCBDFit4.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/jQ3nTwMWLGHOlnV9oL5v2LjcmHl.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/jQ3nTwMWLGHOlnV9oL5v2LjcmHl.png"
       },
       {
         "tipo": "Filme",
@@ -761,7 +761,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Outra Mamãe (2026)",
+        "titulo": "Outra Mamãe",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hiuBB4ZqGbL7uihdVPUahFtg7Zr.jpg",
         "bannerThumb": "",
@@ -770,7 +770,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Devoradores de Estrelas (2026)",
+        "titulo": "Devoradores de Estrelas",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2i8uru7rlbHKaoIbC2V4FZLT7uW.jpg",
         "bannerThumb": "",
@@ -779,7 +779,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Uma História de Derry (2026)",
+        "titulo": "Uma História de Derry",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/9duTLm4Xk62wGIWJBfdco9lPHvW.jpg",
         "bannerThumb": "",
@@ -788,7 +788,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Sem Desistir (2026)",
+        "titulo": "Sem Desistir",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/k0f4a5RVBwLJUq3UYXnfcOaXjCu.jpg",
         "bannerThumb": "",
@@ -797,7 +797,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Godzilla Minus Zero (2026)",
+        "titulo": "Godzilla Minus Zero",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/ebVZ8n64rtHsSItTei4EgTKzPVu.jpg",
         "bannerThumb": "",
@@ -806,7 +806,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Fuga Mortal (2026)",
+        "titulo": "Fuga Mortal",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/3QX08keJGtcIJsCyy4Mdaq28ZGq.jpg",
         "bannerThumb": "",
@@ -815,16 +815,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Queda 2: No Limite (2026)",
+        "titulo": "A Queda 2: No Limite",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/xtxEvJACNnbz3WYmJ5mYT1a0KGk.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/AmqBFI6I3LMKZkZ81yfPq5YYnIm.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/AmqBFI6I3LMKZkZ81yfPq5YYnIm.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Ebenezer e os Fantasmas do Natal (2026)",
+        "titulo": "Ebenezer e os Fantasmas do Natal",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/7MBeM27NNcCYUszjTNYJUycPDhV.jpg",
         "bannerThumb": "",
@@ -833,7 +833,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Velocidade e Paixão (2026)",
+        "titulo": "Velocidade e Paixão",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/d2lY6L7gOa1GeDkRNBAoVmnK9ne.jpg",
         "bannerThumb": "",
@@ -842,7 +842,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Natal Perfeito de um Cachorro (2026)",
+        "titulo": "O Natal Perfeito de um Cachorro",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/2YhgEEGYOQfl3CzoRcYys8b6JxH.jpg",
         "bannerThumb": "",
@@ -869,7 +869,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Obsessão (2026)",
+        "titulo": "Obsessão",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
         "bannerThumb": "",
@@ -878,34 +878,34 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Allen (2026)",
+        "titulo": "Allen",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/alhhrpj1PSAn5bfz4Os1k7Bweoj.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/51fGmBW7WjyJouP9TjIcxRpCUNk.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/nc5MVDGX2TOBRSYNYNhxUeULrQv.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/nc5MVDGX2TOBRSYNYNhxUeULrQv.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Cara-de-Barro (2026)",
+        "titulo": "Cara-de-Barro",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/dqvHs2YXks989ScXvsngbqAeBHX.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/aSDzYeuLyK8WYzyxwZJ1Gmpbv9J.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/aSDzYeuLyK8WYzyxwZJ1Gmpbv9J.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "A Ilha Esquecida (2026)",
+        "titulo": "A Ilha Esquecida",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/7OTbIk4TwYzpvf1GbOGXAFafxiz.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/qJOArECLJAgvfGlAtydl9JA3XQb.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/qJOArECLJAgvfGlAtydl9JA3XQb.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Pinóquio: Maldição de Madeira (2026)",
+        "titulo": "Pinóquio: Maldição de Madeira",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/wgO649swkzsI58q3ikpxYNvkwv7.jpg",
         "bannerThumb": "",
@@ -914,16 +914,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "A Maldição do Vestido (2026)",
+        "titulo": "A Maldição do Vestido",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/cblb7r3vv5rnARKNssdxPnmkUgo.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ftfnS4ABocBNkwrvkIjkkxaBjgH.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/mfie2CYHQFku0LFXjv65lrdgVNx.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/mfie2CYHQFku0LFXjv65lrdgVNx.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Toy Story 5 (2026)",
+        "titulo": "Toy Story 5",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/jTN1hdfP88Km63waezqIN1uUqT3.jpg",
         "bannerThumb": "",
@@ -932,7 +932,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Matchbox - O Filme (2026)",
+        "titulo": "Matchbox - O Filme",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg",
         "bannerThumb": "",
@@ -941,16 +941,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Como Roubar um Banco (2026)",
+        "titulo": "Como Roubar um Banco",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/6QOVs2PMyxHtE4tHiMZS1eIboxl.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/iS1A5fnVt8gRum7LrMd0VfEKtHR.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/iS1A5fnVt8gRum7LrMd0VfEKtHR.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Tudo Pode Ser Visto (2026)",
+        "titulo": "Tudo Pode Ser Visto",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/mnu5cNfijdbuU4iWrV2Lg7AfM0J.jpg",
         "bannerThumb": "",
@@ -959,7 +959,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Moana (2026)",
+        "titulo": "Moana",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/iHpNZzSMLWPfnDqTVuMyRIhrdiW.jpg",
         "bannerThumb": "",
@@ -968,7 +968,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Devorador (2026)",
+        "titulo": "Devorador",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/zuhbisyyICXuYR8k3lE6pTpq5Vl.jpg",
         "bannerThumb": "",
@@ -977,7 +977,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "O Fim da Rua (2026)",
+        "titulo": "O Fim da Rua",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aqEPRht1pZR653rmU7eHyk8wSNP.jpg",
         "bannerThumb": "",
@@ -986,7 +986,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Três Horas Para Viver (2026)",
+        "titulo": "Três Horas Para Viver",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/vzb3bKOFtciIVSEIsLOZH4uJfxN.jpg",
         "bannerThumb": "",
@@ -995,16 +995,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Contra o Furacão (2026)",
+        "titulo": "Contra o Furacão",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/aAkMQit6uVKpBMbIP8HsJrgXlGG.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/cpNMIRCrDl0sxDL1tHBzfWi0UZC.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/dcGKOA3046777ctID911qMuNvDP.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/dcGKOA3046777ctID911qMuNvDP.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Minions & Monstros (2026)",
+        "titulo": "Minions & Monstros",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/hTowtXrkCY7FJyoj4p91JckrJSE.jpg",
         "bannerThumb": "",
@@ -1013,7 +1013,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Dia D (2026)",
+        "titulo": "Dia D",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/pmff1wjKrgJi92PPr346lAifzlg.jpg",
         "bannerThumb": "",
@@ -1022,7 +1022,7 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Da Magia à Sedução: Feitiço de Amor (2026)",
+        "titulo": "Da Magia à Sedução: Feitiço de Amor",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/6xb6fv7MluhncJkNU6VtUWCBz3S.jpg",
         "bannerThumb": "",
@@ -1040,16 +1040,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Avatar Aang: O Último Mestre do Ar (2026)",
+        "titulo": "Avatar Aang: O Último Mestre do Ar",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/tiUtJXN4OZaK2PQM0q8mbbBgKS4.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/wgZy42OeOllxTIddvNcO61YAevr.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/wgZy42OeOllxTIddvNcO61YAevr.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Zona Zero (2026)",
+        "titulo": "Zona Zero",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/5tQ8kDNk00HPuVb43pZH1BmcNWQ.jpg",
         "bannerThumb": "",
@@ -1058,16 +1058,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Backrooms: Um Não-Lugar (2026)",
+        "titulo": "Backrooms: Um Não-Lugar",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/3Rd8YUpupcJh0jxjqLn79UHb2in.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/e8TSmo1bgonM53XF7DclxWm8VaQ.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/e8TSmo1bgonM53XF7DclxWm8VaQ.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Dentro da Baleia (2026)",
+        "titulo": "Dentro da Baleia",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/66fDoNVCtPrP6jIqMpV1sUEcciw.jpg",
         "bannerThumb": "",
@@ -1076,16 +1076,16 @@
       },
       {
         "tipo": "Filme",
-        "titulo": "Coração Partido (2026)",
+        "titulo": "Coração Partido",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/v0eNvmZ3yMEAtZlP8N6OiAUsqKa.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/fRjy6zDeNjfzmjpKz8mElA9Aa6l.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/qgLLhfHNZOIcDnoJGB8DM542ojh.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/qgLLhfHNZOIcDnoJGB8DM542ojh.png"
       },
       {
         "tipo": "Filme",
-        "titulo": "Um Bom Advogado (2026)",
+        "titulo": "Um Bom Advogado",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/8u6v5JIm96DYMbZtTvmhUEqdLuw.jpg",
         "bannerThumb": "",
@@ -1102,9 +1102,9 @@
         "titulo": "VisionQuest",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/31o1Ufd7bStD5dGEcpzapOjwaqx.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/igI6wXxLOjALEbFkkcaM7fdZ1d4.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/igI6wXxLOjALEbFkkcaM7fdZ1d4.png"
       },
       {
         "tipo": "Série",
@@ -1219,9 +1219,9 @@
         "titulo": "Um Choque de Amor",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/ncqFauZ8eT5jq6E7jNxsopMwd8m.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/cnb3SelfQKewpo0bw4HCNRHjwY4.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/8wXmxI1w6r8VU3d2ukU2aPAyDOm.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/8wXmxI1w6r8VU3d2ukU2aPAyDOm.png"
       },
       {
         "tipo": "Série",
@@ -1345,9 +1345,9 @@
         "titulo": "Um Grude de Amor",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/qITVjM7ETkIH0l8WoIApSrzDjgu.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/mp2AFsWsuyxCzenJh3DTKw7z4jG.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/4mm98Xv4cz2rnjDHu1yOz4lpfXW.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/4mm98Xv4cz2rnjDHu1yOz4lpfXW.png"
       },
       {
         "tipo": "Série",
@@ -1399,9 +1399,9 @@
         "titulo": "The Drop: Uma Saga Snowfall",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/l9zahFAR3vtYTkWPpKQAdUnmO98.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/88af0njmiFW4hl8M3gTaJBLxvua.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/88af0njmiFW4hl8M3gTaJBLxvua.png"
       },
       {
         "tipo": "Série",
@@ -1435,9 +1435,9 @@
         "titulo": "Um Amor Diferente do Seu",
         "ano": "",
         "capa": "https://image.tmdb.org/t/p/w342/vvywxGVcFihxOWxXoAxECOQ20pi.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/moUjiEzpJVNZc7hyNRBbLPt0CPX.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/oR9Y1S0ucW4YSupm64hCx1jE43L.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/oR9Y1S0ucW4YSupm64hCx1jE43L.png"
       },
       {
         "tipo": "Série",
@@ -1453,9 +1453,9 @@
         "titulo": "Fúria",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/g9s9wOAQMfYNJoDf38fQRHCvlXr.jpg",
-        "bannerThumb": "https://image.tmdb.org/t/p/w1280/xWTgLbS1HLr2sqwZH9sD6zO16Jj.jpg",
-        "logo": "https://image.tmdb.org/t/p/w500/foHKCioqOhibXxojlZZIXeADlD6.png",
-        "bannerlogo": "https://image.tmdb.org/t/p/w500/foHKCioqOhibXxojlZZIXeADlD6.png"
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/z5HO3jBQY10ysUEBW69cA00Ztp1.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/z5HO3jBQY10ysUEBW69cA00Ztp1.png"
       }
     ]
   },
@@ -1485,9 +1485,9 @@
         "titulo": "Demon Slayer: Kimetsu no Yaiba",
         "ano": "2019",
         "capa": "https://image.tmdb.org/t/p/w342/7Uj6vqmznWQ3w3hpQ1eIY9mMyMw.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/ecghlDeabR3X3Vv8tXIOeXHQvQe.png"
       },
       {
         "tipo": "Anime",
@@ -1868,9 +1868,9 @@
         "titulo": "Se Desejos Matassem...",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/l7Yqgal5v7qa7DTfPpsLTYlehXc.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5BzfcAW5ZI2m7QypeJBbYNjBuR0.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/7R0v8gwXDaMCF026VyAnPftYRvv.png"
       },
       {
         "tipo": "Dorama",
@@ -1895,9 +1895,9 @@
         "titulo": "O Amor Pode Ser Traduzido?",
         "ano": "2026",
         "capa": "https://image.tmdb.org/t/p/w342/psKcuLNGd5AY4pwaUFM4yACZazl.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/svnZYhAboLrwHEtkKRm2mIdjocB.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/uymwfEQMcllKNLDImJIRmWOoWwB.png"
       },
       {
         "tipo": "Dorama",
@@ -1913,9 +1913,9 @@
         "titulo": "Todos os Crimes da Louva-a-Deus",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/kX0vZSMsdSibAMFkwn9EJZjXrTD.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4A5TEvk99fCg8WSgImYJ6dqqe8Y.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/2EK8Tj38jijR1Cu4Ip2MzYR8gM0.png"
       },
       {
         "tipo": "Dorama",
@@ -1949,9 +1949,9 @@
         "titulo": "Um Amor Tão Bom",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/dIrOzcfXg0zNrUrkJ4DkjGWjG4a.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/5a71lpPRPukpHeVgxyxTLdItHno.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/nLp7MANiSACRSxvhsiklO4rwbU4.png"
       },
       {
         "tipo": "Dorama",
@@ -2021,9 +2021,9 @@
         "titulo": "Comer, Correr, Amar",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/ee8DBgl3btULqnFaUiMriJXo7Dx.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/33Bg4EM7Oqpran2WjE8y4dv2Syr.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/tcLIxDPjowj3ggjwU1ZUGcqh51U.png"
       },
       {
         "tipo": "Dorama",
@@ -2066,18 +2066,18 @@
         "titulo": "O Escândalo de Chunhwa",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/jIhFyraPjS033HekEG3SyEHcQyg.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/6KxnwMK9E2ttQvX808clPJ004zY.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/cuBL1ziARXCugsx5wF7syMc4jGL.png"
       },
       {
         "tipo": "Dorama",
         "titulo": "Meu Querido Nêmesis",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/yo2Cdnk2kgzWsGeZ08bohx8FrrH.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/4Xer0oaXautbLRfJQOrlmPSCfN1.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/tLqY0vG5jbEAmeCMRc71hgTEOZM.png"
       },
       {
         "tipo": "Dorama",
@@ -2129,9 +2129,9 @@
         "titulo": "Pergunte às Estrelas",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/jO8eCh0rLGQj7c1TwHqcCAvJegD.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/sP0R5F8fkVM0eHcRFXr012rzNAM.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/vBkMeR3glZ7zbuwbmWeEQxkltDN.png"
       },
       {
         "tipo": "Dorama",
@@ -2156,9 +2156,9 @@
         "titulo": "Você Estava Lá",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/utrGFclbnCqELR7GS34B4NMQkzo.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/7uVNWsjnmkvqpeqWHq5qpLBv3wd.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/oJ2aZtPp64vobvyNMMdGWt4Erb4.png"
       },
       {
         "tipo": "Dorama",
@@ -2174,9 +2174,9 @@
         "titulo": "Traição e Redenção",
         "ano": "2025",
         "capa": "https://image.tmdb.org/t/p/w342/py1HcJi82NwTAOkNPcNX6kw8DZ4.jpg",
-        "bannerThumb": "",
-        "logo": "",
-        "bannerlogo": ""
+        "bannerThumb": "https://image.tmdb.org/t/p/w1280/gd6er39HiIfVQIDKhZdMz7FVIw.jpg",
+        "logo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png",
+        "bannerlogo": "https://image.tmdb.org/t/p/w500/qRlkg5bBi9Ac4x09JWpEBhhY2HM.png"
       },
       {
         "tipo": "Dorama",
