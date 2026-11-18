@@ -126034,7 +126034,7 @@
     ],
     "rating": "7.5",
     "age": "14",
-    "popularity": 36,
+    "popularity": 33,
     "tmdbId": 30980,
     "tmdbTipo": "tv",
     "seasons": [
@@ -336812,6 +336812,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1217.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/1.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -336829,6 +336833,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1218.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/2.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -336848,6 +336856,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1220.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/3.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -336865,6 +336877,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1221.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/4.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -336884,6 +336900,10 @@
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1222.mp4",
                 "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/5.mp4",
+                "idioma": "dublado"
               }
             ]
           },
@@ -336901,6 +336921,10 @@
               },
               {
                 "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/1224.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/278383/1/6.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -502437,7 +502461,7 @@
     ],
     "rating": "7.6",
     "age": "12",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 87553,
     "tmdbTipo": "tv",
     "seasons": [
@@ -621053,9 +621077,9 @@
       "Drama",
       "Ficção e fantasia"
     ],
-    "rating": "6.9",
+    "rating": "6.8",
     "age": "",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 70594,
     "tmdbTipo": "tv",
     "seasons": [
@@ -649372,7 +649396,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 27,
+    "popularity": 29,
     "tmdbId": 64572,
     "tmdbTipo": "tv",
     "seasons": [
@@ -672884,7 +672908,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 90399,
     "tmdbTipo": "tv",
     "seasons": [
@@ -715350,7 +715374,7 @@
     ],
     "rating": "6.9",
     "age": "16",
-    "popularity": 25,
+    "popularity": 22,
     "tmdbId": 4392,
     "tmdbTipo": "tv",
     "seasons": [
@@ -822009,7 +822033,7 @@
     ],
     "rating": "6.4",
     "age": "16",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 80767,
     "tmdbTipo": "tv",
     "seasons": [
@@ -828057,7 +828081,7 @@
     ],
     "rating": "5.4",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 68134,
     "tmdbTipo": "tv",
     "seasons": [
@@ -885303,7 +885327,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 7,
+    "popularity": 8,
     "tmdbId": 45186,
     "tmdbTipo": "tv",
     "seasons": [
@@ -885858,7 +885882,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 81710,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1023118,7 +1023142,7 @@
     ],
     "rating": "6.8",
     "age": "16",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 100369,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1023995,7 +1024019,7 @@
     ],
     "rating": "5.7",
     "age": "",
-    "popularity": 9,
+    "popularity": 12,
     "tmdbId": 2030,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1083254,7 +1083278,7 @@
     ],
     "rating": "6.8",
     "age": "",
-    "popularity": 17,
+    "popularity": 20,
     "tmdbId": 95498,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1101260,7 +1101284,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 15,
+    "popularity": 18,
     "tmdbId": 69236,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1101557,7 +1101581,7 @@
     ],
     "rating": "8.6",
     "age": "",
-    "popularity": 15,
+    "popularity": 13,
     "tmdbId": 80564,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1347474,7 +1347498,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 60730,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1369983,6 +1370007,140 @@
   },
   {
     "cat": "Séries",
+    "title": "Boris",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/jPZe3X3mfQdqtWMLlTg8VYB8y5N.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/jPZe3X3mfQdqtWMLlTg8VYB8y5N.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "",
+    "genre": "Série",
+    "genres": [
+      "Série"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/1.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/2.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/3.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/4.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/5.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/6.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/7.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/8.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/9.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/10.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/36189/1/12.mp4?lang=leg",
+                "idioma": "legendado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Séries",
     "title": "Born with Luck",
     "desc": "O policial Zhang Yiang, que se afastou da investigação criminal de primeira linha há alguns anos, foi enviado para o Sanjiangkou para investigar um caso devido a uma carta anônima de denúncia recebida pela Diretoria Provincial. Pouco depois de chegar ao Sanjiangkou, Zhang Yiang encontrou o capitão da polícia morto. Enquanto limpava suas próprias suspeitas, Zhang Yiang arrestou acidentalmente o assassino do caso de assassinatos em série e rapidamente construiu uma reputação. Zhang Yiang direcionou a investigação para a gangue do rico local Zhou Rong. No entanto, os ladrões estúpidos surgiram sem parar. O efeito borboleta da rivalidade entre os ladrões estúpidos, ao contrário, ajudou os policiais liderados por Zhang Yiang a obter muitas vitórias notáveis. O \"destino\" reuniu Zhang Yiang com todos os ladrões estúpidos. Com inteligência e coragem, ele ficou no final da briga, descobriu a causa da morte de seus colegas e, finalmente, fez com que o verdadeiro assassino fosse preso.",
     "thumb": "https://image.tmdb.org/t/p/w500/e4JlZu0PAQ2Qpg4Tj4qDfD0ePO1.jpg",
@@ -1369999,7 +1370157,7 @@
     ],
     "rating": "7.7",
     "age": "14",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 272432,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1493002,7 +1493160,7 @@
     ],
     "rating": "5.8",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 246072,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1511720,7 +1511878,7 @@
     ],
     "rating": "8.3",
     "age": "",
-    "popularity": 6,
+    "popularity": 8,
     "tmdbId": 155499,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1557646,7 +1557804,7 @@
     ],
     "rating": "8.4",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 43295,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1709056,7 +1709214,7 @@
     ],
     "rating": "7.6",
     "age": "",
-    "popularity": 58,
+    "popularity": 41,
     "tmdbId": 45247,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1710499,6 +1710657,16 @@
             "fontes": [
               {
                 "url": "https://nixplay.lat/series/saimo-vods/221097/115951/1/1.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/115951/1/2.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -1732375,6 +1732543,16 @@
             "fontes": [
               {
                 "url": "https://nixplay.lat/series/saimo-vods/221097/102324/3/2.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 3,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/102324/3/3.mp4",
                 "idioma": "dublado"
               }
             ]
@@ -1765011,7 +1765189,7 @@
     ],
     "rating": "7.9",
     "age": "L",
-    "popularity": 8,
+    "popularity": 9,
     "tmdbId": 249,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1856145,212 +1856323,6 @@
   },
   {
     "cat": "Séries",
-    "title": "Contos da Noite",
-    "desc": "Depois de ser traída por seu amante e mentor, um enóloga talentosa assume a identidade de uma herdeira ilegítima para se infiltrar em uma família poderosa. À medida que seus planos cuidadosamente estabelecidos se desenrolam, agendas ocultas ameaçam destruir todos os envolvidos.",
-    "thumb": "https://image.tmdb.org/t/p/w500/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
-    "logo": "",
-    "bannerlogo": "",
-    "year": "2026",
-    "genre": "Drama",
-    "genres": [
-      "Drama"
-    ],
-    "rating": "",
-    "age": "",
-    "popularity": 1,
-    "tmdbId": 330440,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/1.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/2.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/3.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/4.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/5.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/6.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/7.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/8.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/9.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/10.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/11.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 12,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/12.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/13.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/14.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/15.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/16.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/17.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/18.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Séries",
     "title": "Contos de The Walking Dead",
     "desc": "Série Antológica composta de episódios independentes focados em personagens novos e já apresentados do universo The Walking Dead.",
     "thumb": "https://image.tmdb.org/t/p/w500/jDwjAEQJXP9dkGmh5MWZgbDjFMv.jpg",
@@ -1863399,9 +1863371,9 @@
       "Comédia",
       "Drama"
     ],
-    "rating": "9.3",
+    "rating": "9.1",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 231699,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1939123,7 +1939095,7 @@
     ],
     "rating": "6.7",
     "age": "16",
-    "popularity": 13,
+    "popularity": 12,
     "tmdbId": 46975,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2065822,7 +2065794,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 315295,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2084910,7 +2084882,7 @@
     ],
     "rating": "8.1",
     "age": "",
-    "popularity": 17,
+    "popularity": 10,
     "tmdbId": 76148,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2134903,8 +2134875,8 @@
     "cat": "Séries",
     "title": "Devils' Crest",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/kimx6VeIKhNQH0sqyT2OXfWUO07.jpg",
     "logo": "",
     "bannerlogo": "",
     "year": "",
@@ -2287991,7 +2287963,7 @@
                 "idioma": "legendado"
               },
               {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/312359/1/4.mp4?lang=leg",
+                "url": "https://nixplay.lat/series/saimo-vods/221097/312359/1/4.mkv?lang=leg",
                 "idioma": "legendado"
               }
             ]
@@ -2288011,7 +2287983,7 @@
             "episode": 6,
             "fontes": [
               {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/312359/1/6.mp4?lang=leg",
+                "url": "https://nixplay.lat/series/saimo-vods/221097/312359/1/6.mkv?lang=leg",
                 "idioma": "legendado"
               }
             ]
@@ -2301155,7 +2301127,7 @@
     ],
     "rating": "8.4",
     "age": "L",
-    "popularity": 27,
+    "popularity": 28,
     "tmdbId": 78173,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2361950,7 +2361922,7 @@
     ],
     "rating": "6.5",
     "age": "",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 195288,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2423639,7 +2423611,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "tmdbId": 15716,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2430648,7 +2430620,7 @@
     ],
     "rating": "6.8",
     "age": "10",
-    "popularity": 5,
+    "popularity": 6,
     "tmdbId": 57754,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2513100,7 +2513072,7 @@
     ],
     "rating": "5.8",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 128424,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2523195,6 +2523167,412 @@
             "fontes": [
               {
                 "url": "https://nixplay.lat/series/saimo-vods/221097/66008/5/9.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Eu, Você e Toda uma Vida",
+    "desc": "Com uma amizade cheia de altos e baixos desde a adolescência, elas se afastaram na idade adulta. Até que uma precisa acompanhar a outra em seus últimos dias de vida.",
+    "thumb": "https://image.tmdb.org/t/p/w500/sYkRAzoXpNdxHdvxqwGJsdv4KQn.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/5VxTROBF4YeokB5aaJXzAvFzr8j.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/rSYYa7ximPu0oBVvmc8Zs3YfiN1.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/rSYYa7ximPu0oBVvmc8Zs3YfiN1.png",
+    "year": "2025",
+    "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": "8.0",
+    "age": "14",
+    "popularity": 5,
+    "tmdbId": 224414,
+    "tmdbTipo": "tv",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656234.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512783.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139826.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656235.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512784.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139827.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656236.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512785.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139828.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656237.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512786.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139829.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656238.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512787.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139830.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656239.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512788.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139831.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656240.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512789.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139832.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656241.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512790.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139833.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656242.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512791.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139834.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656243.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512792.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139835.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656244.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512793.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139836.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656245.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512794.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139837.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 13,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656246.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512795.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139838.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 14,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656247.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512796.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139839.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 15,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5656248.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2512797.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139840.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Séries",
+    "title": "Eu, a Vó e a Boi",
+    "desc": "A história de uma inimizade que atravessa décadas. Travando uma guerra sem tréguas, as vizinhas vão às últimas consequências para infernizar a vida uma da outra.",
+    "thumb": "https://image.tmdb.org/t/p/w500/dGakIOv52Z9uHDFAYTMKtrh84QP.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/j6PFbj9jfXpBp0VM5eKfd60AINC.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/aSSpbeqwHZaxdr2SE46YGqMv0Hf.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/aSSpbeqwHZaxdr2SE46YGqMv0Hf.png",
+    "year": "2019",
+    "genre": "Comédia",
+    "genres": [
+      "Comédia"
+    ],
+    "rating": "8.8",
+    "age": "14",
+    "popularity": 1,
+    "tmdbId": 95969,
+    "tmdbTipo": "tv",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582041.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497489.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582042.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497490.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582043.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497491.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582044.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497492.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582045.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497493.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "http://64.31.23.207:80/series/96795792/50165825/5582046.mp4",
+                "idioma": "dublado"
+              },
+              {
+                "url": "http://acaidopt.org:80/series/3llohwk4g9/kwf099q30o/2497494.mp4",
                 "idioma": "dublado"
               }
             ]
