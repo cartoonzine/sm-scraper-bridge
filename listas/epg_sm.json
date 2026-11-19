@@ -1,0 +1,1242 @@
+{
+  "atualizadoEm": "2026-11-19T03:46:27.959Z",
+  "fonte": null,
+  "totalCanaisComGuia": 0,
+  "canais": [
+    {
+      "channelId": "1",
+      "channelName": "A&E",
+      "programs": []
+    },
+    {
+      "channelId": "2",
+      "channelName": "AMC",
+      "programs": []
+    },
+    {
+      "channelId": "3",
+      "channelName": "Animal Planet",
+      "programs": []
+    },
+    {
+      "channelId": "4",
+      "channelName": "Band",
+      "programs": []
+    },
+    {
+      "channelId": "5",
+      "channelName": "Cartoon Network",
+      "programs": []
+    },
+    {
+      "channelId": "6",
+      "channelName": "CNN Brasil",
+      "programs": []
+    },
+    {
+      "channelId": "7",
+      "channelName": "CNN Brasil Money",
+      "programs": []
+    },
+    {
+      "channelId": "8",
+      "channelName": "GE TV",
+      "programs": []
+    },
+    {
+      "channelId": "9",
+      "channelName": "GloboNews",
+      "programs": []
+    },
+    {
+      "channelId": "10",
+      "channelName": "Globoplay Novelas",
+      "programs": []
+    },
+    {
+      "channelId": "11",
+      "channelName": "GNT",
+      "programs": []
+    },
+    {
+      "channelId": "12",
+      "channelName": "History",
+      "programs": []
+    },
+    {
+      "channelId": "13",
+      "channelName": "History 2",
+      "programs": []
+    },
+    {
+      "channelId": "14",
+      "channelName": "Jovem Pan News",
+      "programs": []
+    },
+    {
+      "channelId": "15",
+      "channelName": "Megapix",
+      "programs": []
+    },
+    {
+      "channelId": "16",
+      "channelName": "Multishow",
+      "programs": []
+    },
+    {
+      "channelId": "17",
+      "channelName": "Premiere 2",
+      "programs": []
+    },
+    {
+      "channelId": "18",
+      "channelName": "Premiere 3",
+      "programs": []
+    },
+    {
+      "channelId": "19",
+      "channelName": "Premiere 4",
+      "programs": []
+    },
+    {
+      "channelId": "20",
+      "channelName": "Premiere 5",
+      "programs": []
+    },
+    {
+      "channelId": "21",
+      "channelName": "Premiere 6",
+      "programs": []
+    },
+    {
+      "channelId": "22",
+      "channelName": "Premiere 7",
+      "programs": []
+    },
+    {
+      "channelId": "23",
+      "channelName": "Premiere 8",
+      "programs": []
+    },
+    {
+      "channelId": "24",
+      "channelName": "Premiere Clubes",
+      "programs": []
+    },
+    {
+      "channelId": "25",
+      "channelName": "SBT",
+      "programs": []
+    },
+    {
+      "channelId": "26",
+      "channelName": "SBT News",
+      "programs": []
+    },
+    {
+      "channelId": "27",
+      "channelName": "Sony Channel",
+      "programs": []
+    },
+    {
+      "channelId": "28",
+      "channelName": "SporTV",
+      "programs": []
+    },
+    {
+      "channelId": "29",
+      "channelName": "SporTV 2",
+      "programs": []
+    },
+    {
+      "channelId": "30",
+      "channelName": "SporTV 3",
+      "programs": []
+    },
+    {
+      "channelId": "31",
+      "channelName": "Canal OFF",
+      "programs": []
+    },
+    {
+      "channelId": "32",
+      "channelName": "Telecine Action",
+      "programs": []
+    },
+    {
+      "channelId": "33",
+      "channelName": "Telecine Pipoca",
+      "programs": []
+    },
+    {
+      "channelId": "34",
+      "channelName": "Telecine Premium",
+      "programs": []
+    },
+    {
+      "channelId": "35",
+      "channelName": "TV Brasil",
+      "programs": []
+    },
+    {
+      "channelId": "36",
+      "channelName": "Warner",
+      "programs": []
+    },
+    {
+      "channelId": "37",
+      "channelName": "IMPD",
+      "programs": []
+    },
+    {
+      "channelId": "38",
+      "channelName": "Globo SP",
+      "programs": []
+    },
+    {
+      "channelId": "39",
+      "channelName": "Cartoonito",
+      "programs": []
+    },
+    {
+      "channelId": "40",
+      "channelName": "Cinemax",
+      "programs": []
+    },
+    {
+      "channelId": "41",
+      "channelName": "Discovery Channel",
+      "programs": []
+    },
+    {
+      "channelId": "42",
+      "channelName": "Discovery Kids",
+      "programs": []
+    },
+    {
+      "channelId": "43",
+      "channelName": "Discovery Theater",
+      "programs": []
+    },
+    {
+      "channelId": "44",
+      "channelName": "ESPN",
+      "programs": []
+    },
+    {
+      "channelId": "45",
+      "channelName": "ESPN 2",
+      "programs": []
+    },
+    {
+      "channelId": "46",
+      "channelName": "ESPN 4",
+      "programs": []
+    },
+    {
+      "channelId": "47",
+      "channelName": "ESPN 5",
+      "programs": []
+    },
+    {
+      "channelId": "48",
+      "channelName": "ESPN 6",
+      "programs": []
+    },
+    {
+      "channelId": "49",
+      "channelName": "HBO",
+      "programs": []
+    },
+    {
+      "channelId": "50",
+      "channelName": "HBO2",
+      "programs": []
+    },
+    {
+      "channelId": "51",
+      "channelName": "HBO Family",
+      "programs": []
+    },
+    {
+      "channelId": "52",
+      "channelName": "HBO Mundi",
+      "programs": []
+    },
+    {
+      "channelId": "53",
+      "channelName": "HBO Plus",
+      "programs": []
+    },
+    {
+      "channelId": "54",
+      "channelName": "HBO Pop",
+      "programs": []
+    },
+    {
+      "channelId": "55",
+      "channelName": "HBO Signature",
+      "programs": []
+    },
+    {
+      "channelId": "56",
+      "channelName": "HBO Xtreme",
+      "programs": []
+    },
+    {
+      "channelId": "57",
+      "channelName": "Space",
+      "programs": []
+    },
+    {
+      "channelId": "58",
+      "channelName": "TNT",
+      "programs": []
+    },
+    {
+      "channelId": "59",
+      "channelName": "TNT Séries",
+      "programs": []
+    },
+    {
+      "channelId": "60",
+      "channelName": "Universal TV",
+      "programs": []
+    },
+    {
+      "channelId": "61",
+      "channelName": "Discovery Turbo",
+      "programs": []
+    },
+    {
+      "channelId": "62",
+      "channelName": "USA Network",
+      "programs": []
+    },
+    {
+      "channelId": "63",
+      "channelName": "Telecine Fun",
+      "programs": []
+    },
+    {
+      "channelId": "64",
+      "channelName": "Telecine Cult",
+      "programs": []
+    },
+    {
+      "channelId": "65",
+      "channelName": "Telecine Touch",
+      "programs": []
+    },
+    {
+      "channelId": "66",
+      "channelName": "Tooncast",
+      "programs": []
+    },
+    {
+      "channelId": "67",
+      "channelName": "TNT Novelas",
+      "programs": []
+    },
+    {
+      "channelId": "68",
+      "channelName": "Discovery Science",
+      "programs": []
+    },
+    {
+      "channelId": "69",
+      "channelName": "AXN",
+      "programs": []
+    },
+    {
+      "channelId": "70",
+      "channelName": "Band News",
+      "programs": []
+    },
+    {
+      "channelId": "71",
+      "channelName": "BAND SPORTS HD",
+      "programs": []
+    },
+    {
+      "channelId": "72",
+      "channelName": "RedeTV!",
+      "programs": []
+    },
+    {
+      "channelId": "73",
+      "channelName": "TV Cultura",
+      "programs": []
+    },
+    {
+      "channelId": "74",
+      "channelName": "Terra Viva",
+      "programs": []
+    },
+    {
+      "channelId": "75",
+      "channelName": "Woohoo",
+      "programs": []
+    },
+    {
+      "channelId": "76",
+      "channelName": "ESPN 3",
+      "programs": []
+    },
+    {
+      "channelId": "77",
+      "channelName": "TV Gazeta",
+      "programs": []
+    },
+    {
+      "channelId": "78",
+      "channelName": "Record News",
+      "programs": []
+    },
+    {
+      "channelId": "79",
+      "channelName": "Canção Nova",
+      "programs": []
+    },
+    {
+      "channelId": "80",
+      "channelName": "TV Aparecida",
+      "programs": []
+    },
+    {
+      "channelId": "81",
+      "channelName": "Rede Vida",
+      "programs": []
+    },
+    {
+      "channelId": "82",
+      "channelName": "Discovery ID",
+      "programs": []
+    },
+    {
+      "channelId": "83",
+      "channelName": "Fish TV",
+      "programs": []
+    },
+    {
+      "channelId": "84",
+      "channelName": "X Sports",
+      "programs": []
+    },
+    {
+      "channelId": "85",
+      "channelName": "N SPORTS",
+      "programs": []
+    },
+    {
+      "channelId": "86",
+      "channelName": "Band SP",
+      "programs": []
+    },
+    {
+      "channelId": "87",
+      "channelName": "SBT SP",
+      "programs": []
+    },
+    {
+      "channelId": "88",
+      "channelName": "Record SP",
+      "programs": []
+    },
+    {
+      "channelId": "89",
+      "channelName": "Canal Rural",
+      "programs": []
+    },
+    {
+      "channelId": "90",
+      "channelName": "TV Pai Eterno",
+      "programs": []
+    },
+    {
+      "channelId": "91",
+      "channelName": "PlayTV",
+      "programs": []
+    },
+    {
+      "channelId": "92",
+      "channelName": "Rede Brasil",
+      "programs": []
+    },
+    {
+      "channelId": "93",
+      "channelName": "Rede Gospel",
+      "programs": []
+    },
+    {
+      "channelId": "94",
+      "channelName": "Trace Brazuca",
+      "programs": []
+    },
+    {
+      "channelId": "95",
+      "channelName": "TV Evangelizar",
+      "programs": []
+    },
+    {
+      "channelId": "96",
+      "channelName": "TV Justiça",
+      "programs": []
+    },
+    {
+      "channelId": "97",
+      "channelName": "TV Novo Tempo",
+      "programs": []
+    },
+    {
+      "channelId": "98",
+      "channelName": "TV Senado",
+      "programs": []
+    },
+    {
+      "channelId": "99",
+      "channelName": "RIT",
+      "programs": []
+    },
+    {
+      "channelId": "100",
+      "channelName": "Discovery Home & Health",
+      "programs": []
+    },
+    {
+      "channelId": "101",
+      "channelName": "Blits TV",
+      "programs": []
+    },
+    {
+      "channelId": "102",
+      "channelName": "Com Brasil",
+      "programs": []
+    },
+    {
+      "channelId": "103",
+      "channelName": "TVideoNews",
+      "programs": []
+    },
+    {
+      "channelId": "104",
+      "channelName": "Canal Educacao",
+      "programs": []
+    },
+    {
+      "channelId": "105",
+      "channelName": "Canal Futura",
+      "programs": []
+    },
+    {
+      "channelId": "106",
+      "channelName": "Canal Gov",
+      "programs": []
+    },
+    {
+      "channelId": "107",
+      "channelName": "Canal UOL",
+      "programs": []
+    },
+    {
+      "channelId": "108",
+      "channelName": "Canal do Boi",
+      "programs": []
+    },
+    {
+      "channelId": "109",
+      "channelName": "Cultura Fast",
+      "programs": []
+    },
+    {
+      "channelId": "110",
+      "channelName": "DumDum",
+      "programs": []
+    },
+    {
+      "channelId": "111",
+      "channelName": "MasterChef",
+      "programs": []
+    },
+    {
+      "channelId": "112",
+      "channelName": "MyTime Movie Network",
+      "programs": []
+    },
+    {
+      "channelId": "113",
+      "channelName": "NickOnline",
+      "programs": []
+    },
+    {
+      "channelId": "114",
+      "channelName": "NickToons Brasil",
+      "programs": []
+    },
+    {
+      "channelId": "115",
+      "channelName": "Nickelodeon",
+      "programs": []
+    },
+    {
+      "channelId": "116",
+      "channelName": "Rede TV!",
+      "programs": []
+    },
+    {
+      "channelId": "117",
+      "channelName": "Runtime",
+      "programs": []
+    },
+    {
+      "channelId": "118",
+      "channelName": "Amazon Prime Video 01",
+      "programs": []
+    },
+    {
+      "channelId": "119",
+      "channelName": "Amazon Prime Video 02",
+      "programs": []
+    },
+    {
+      "channelId": "120",
+      "channelName": "Canal GOAT (Jogo 1)",
+      "programs": []
+    },
+    {
+      "channelId": "121",
+      "channelName": "Combate",
+      "programs": []
+    },
+    {
+      "channelId": "122",
+      "channelName": "DAZN (Jogo 1)",
+      "programs": []
+    },
+    {
+      "channelId": "123",
+      "channelName": "Disney+ 01",
+      "programs": []
+    },
+    {
+      "channelId": "124",
+      "channelName": "Disney+ 02",
+      "programs": []
+    },
+    {
+      "channelId": "125",
+      "channelName": "Paramount+ (Jogo 1)",
+      "programs": []
+    },
+    {
+      "channelId": "126",
+      "channelName": "Paramount+ (Jogo 2)",
+      "programs": []
+    },
+    {
+      "channelId": "127",
+      "channelName": "Paramount+ (Jogo 3)",
+      "programs": []
+    },
+    {
+      "channelId": "128",
+      "channelName": "MAX 02",
+      "programs": []
+    },
+    {
+      "channelId": "129",
+      "channelName": "Studio Universal",
+      "programs": []
+    },
+    {
+      "channelId": "130",
+      "channelName": "Gloob",
+      "programs": []
+    },
+    {
+      "channelId": "131",
+      "channelName": "Gloobinho",
+      "programs": []
+    },
+    {
+      "channelId": "132",
+      "channelName": "TV Rá Tim Bum",
+      "programs": []
+    },
+    {
+      "channelId": "133",
+      "channelName": "TVE Bahia",
+      "programs": []
+    },
+    {
+      "channelId": "134",
+      "channelName": "Food Network",
+      "programs": []
+    },
+    {
+      "channelId": "135",
+      "channelName": "24H Naruto Clássico",
+      "programs": []
+    },
+    {
+      "channelId": "136",
+      "channelName": "Discovery World",
+      "programs": []
+    },
+    {
+      "channelId": "137",
+      "channelName": "CazeTV 1",
+      "programs": []
+    },
+    {
+      "channelId": "138",
+      "channelName": "CazeTV 2",
+      "programs": []
+    },
+    {
+      "channelId": "139",
+      "channelName": "SportyNet+ 1",
+      "programs": []
+    },
+    {
+      "channelId": "140",
+      "channelName": "SportyNet+ 2",
+      "programs": []
+    },
+    {
+      "channelId": "141",
+      "channelName": "SportyNet+ 3",
+      "programs": []
+    },
+    {
+      "channelId": "142",
+      "channelName": "Globo ES",
+      "programs": []
+    },
+    {
+      "channelId": "143",
+      "channelName": "Globo RJ",
+      "programs": []
+    },
+    {
+      "channelId": "144",
+      "channelName": "Globo RS",
+      "programs": []
+    },
+    {
+      "channelId": "145",
+      "channelName": "Record MG",
+      "programs": []
+    },
+    {
+      "channelId": "146",
+      "channelName": "Record RJ",
+      "programs": []
+    },
+    {
+      "channelId": "147",
+      "channelName": "CazeTV 3",
+      "programs": []
+    },
+    {
+      "channelId": "148",
+      "channelName": "Globo DF",
+      "programs": []
+    },
+    {
+      "channelId": "149",
+      "channelName": "Globo MG",
+      "programs": []
+    },
+    {
+      "channelId": "150",
+      "channelName": "MAX 03",
+      "programs": []
+    },
+    {
+      "channelId": "151",
+      "channelName": "SportyNet",
+      "programs": []
+    },
+    {
+      "channelId": "152",
+      "channelName": "Paramount + 4",
+      "programs": []
+    },
+    {
+      "channelId": "153",
+      "channelName": "Anime Channel TV",
+      "programs": []
+    },
+    {
+      "channelId": "154",
+      "channelName": "Otaku Sign TV",
+      "programs": []
+    },
+    {
+      "channelId": "155",
+      "channelName": "Geekdot",
+      "programs": []
+    },
+    {
+      "channelId": "156",
+      "channelName": "NBX TV Kids",
+      "programs": []
+    },
+    {
+      "channelId": "157",
+      "channelName": "SBC Kids",
+      "programs": []
+    },
+    {
+      "channelId": "158",
+      "channelName": "Rede Crianças",
+      "programs": []
+    },
+    {
+      "channelId": "159",
+      "channelName": "Kuriakos Kids",
+      "programs": []
+    },
+    {
+      "channelId": "160",
+      "channelName": "Gospel Cartoon",
+      "programs": []
+    },
+    {
+      "channelId": "161",
+      "channelName": "Jetsons TV",
+      "programs": []
+    },
+    {
+      "channelId": "162",
+      "channelName": "24H Os Smurfs",
+      "programs": []
+    },
+    {
+      "channelId": "163",
+      "channelName": "TV A Crítica",
+      "programs": []
+    },
+    {
+      "channelId": "164",
+      "channelName": "FIFA+ Português",
+      "programs": []
+    },
+    {
+      "channelId": "165",
+      "channelName": "Runtime Ação",
+      "programs": []
+    },
+    {
+      "channelId": "166",
+      "channelName": "Top TV",
+      "programs": []
+    },
+    {
+      "channelId": "167",
+      "channelName": "MovieSphere Brazil",
+      "programs": []
+    },
+    {
+      "channelId": "168",
+      "channelName": "Trace Urban",
+      "programs": []
+    },
+    {
+      "channelId": "169",
+      "channelName": "Sony One Classics",
+      "programs": []
+    },
+    {
+      "channelId": "170",
+      "channelName": "Classique Faroeste",
+      "programs": []
+    },
+    {
+      "channelId": "171",
+      "channelName": "Loading TV",
+      "programs": []
+    },
+    {
+      "channelId": "172",
+      "channelName": "Retrô Cartoon",
+      "programs": []
+    },
+    {
+      "channelId": "173",
+      "channelName": "Retro Music",
+      "programs": []
+    },
+    {
+      "channelId": "174",
+      "channelName": "Now Rock",
+      "programs": []
+    },
+    {
+      "channelId": "175",
+      "channelName": "TV Clássicos",
+      "programs": []
+    },
+    {
+      "channelId": "176",
+      "channelName": "Apple TV 01",
+      "programs": []
+    },
+    {
+      "channelId": "177",
+      "channelName": "Apple TV 02",
+      "programs": []
+    },
+    {
+      "channelId": "178",
+      "channelName": "CazeTV 4",
+      "programs": []
+    },
+    {
+      "channelId": "179",
+      "channelName": "Disney+ 07",
+      "programs": []
+    },
+    {
+      "channelId": "180",
+      "channelName": "Disney+ 08",
+      "programs": []
+    },
+    {
+      "channelId": "181",
+      "channelName": "Disney+ 03",
+      "programs": []
+    },
+    {
+      "channelId": "182",
+      "channelName": "Disney+ 05",
+      "programs": []
+    },
+    {
+      "channelId": "183",
+      "channelName": "Disney+ 06",
+      "programs": []
+    },
+    {
+      "channelId": "184",
+      "channelName": "MAX 04",
+      "programs": []
+    },
+    {
+      "channelId": "185",
+      "channelName": "MAX 05",
+      "programs": []
+    },
+    {
+      "channelId": "186",
+      "channelName": "AMC Séries",
+      "programs": []
+    },
+    {
+      "channelId": "187",
+      "channelName": "Record DF",
+      "programs": []
+    },
+    {
+      "channelId": "188",
+      "channelName": "Record ES",
+      "programs": []
+    },
+    {
+      "channelId": "189",
+      "channelName": "Disney+ 04",
+      "programs": []
+    },
+    {
+      "channelId": "190",
+      "channelName": "Max",
+      "programs": []
+    },
+    {
+      "channelId": "191",
+      "channelName": "Max 06",
+      "programs": []
+    },
+    {
+      "channelId": "192",
+      "channelName": "MTV",
+      "programs": []
+    },
+    {
+      "channelId": "193",
+      "channelName": "24H Chaves",
+      "programs": []
+    },
+    {
+      "channelId": "194",
+      "channelName": "24H Dragon Ball Z",
+      "programs": []
+    },
+    {
+      "channelId": "195",
+      "channelName": "24H Friends",
+      "programs": []
+    },
+    {
+      "channelId": "196",
+      "channelName": "24H Os Simpsons",
+      "programs": []
+    },
+    {
+      "channelId": "197",
+      "channelName": "24H Pica Pau",
+      "programs": []
+    },
+    {
+      "channelId": "198",
+      "channelName": "24H Todo Mundo Odeia o Cris",
+      "programs": []
+    },
+    {
+      "channelId": "199",
+      "channelName": "A Fazenda 18 1",
+      "programs": []
+    },
+    {
+      "channelId": "200",
+      "channelName": "A Fazenda 18 2",
+      "programs": []
+    },
+    {
+      "channelId": "201",
+      "channelName": "A Fazenda 18 3",
+      "programs": []
+    },
+    {
+      "channelId": "202",
+      "channelName": "A Fazenda 18 4",
+      "programs": []
+    },
+    {
+      "channelId": "203",
+      "channelName": "A Fazenda 18 5",
+      "programs": []
+    },
+    {
+      "channelId": "204",
+      "channelName": "Arte 1",
+      "programs": []
+    },
+    {
+      "channelId": "205",
+      "channelName": "BIS",
+      "programs": []
+    },
+    {
+      "channelId": "206",
+      "channelName": "Band RJ",
+      "programs": []
+    },
+    {
+      "channelId": "207",
+      "channelName": "Curta",
+      "programs": []
+    },
+    {
+      "channelId": "208",
+      "channelName": "Disney Plus 1",
+      "programs": []
+    },
+    {
+      "channelId": "209",
+      "channelName": "Globo AM",
+      "programs": []
+    },
+    {
+      "channelId": "210",
+      "channelName": "Globo CE",
+      "programs": []
+    },
+    {
+      "channelId": "211",
+      "channelName": "Globo GO",
+      "programs": []
+    },
+    {
+      "channelId": "212",
+      "channelName": "Globo PB",
+      "programs": []
+    },
+    {
+      "channelId": "213",
+      "channelName": "Globo PE",
+      "programs": []
+    },
+    {
+      "channelId": "214",
+      "channelName": "HGTV",
+      "programs": []
+    },
+    {
+      "channelId": "215",
+      "channelName": "MAX 01",
+      "programs": []
+    },
+    {
+      "channelId": "216",
+      "channelName": "PT - A Bola",
+      "programs": []
+    },
+    {
+      "channelId": "217",
+      "channelName": "PT - Benfica TV",
+      "programs": []
+    },
+    {
+      "channelId": "218",
+      "channelName": "PT - Canal 11",
+      "programs": []
+    },
+    {
+      "channelId": "219",
+      "channelName": "PT - Eleven 1",
+      "programs": []
+    },
+    {
+      "channelId": "220",
+      "channelName": "PT - Eleven 2",
+      "programs": []
+    },
+    {
+      "channelId": "221",
+      "channelName": "PT - Eleven 3",
+      "programs": []
+    },
+    {
+      "channelId": "222",
+      "channelName": "PT - Sporttv 1",
+      "programs": []
+    },
+    {
+      "channelId": "223",
+      "channelName": "PT - Sporttv 2",
+      "programs": []
+    },
+    {
+      "channelId": "224",
+      "channelName": "PT - Sporttv 3",
+      "programs": []
+    },
+    {
+      "channelId": "225",
+      "channelName": "PT - Sporttv 4",
+      "programs": []
+    },
+    {
+      "channelId": "226",
+      "channelName": "PT - Sporttv 5",
+      "programs": []
+    },
+    {
+      "channelId": "227",
+      "channelName": "PT - Sporttv 6",
+      "programs": []
+    },
+    {
+      "channelId": "228",
+      "channelName": "PT - Sporttv 7",
+      "programs": []
+    },
+    {
+      "channelId": "229",
+      "channelName": "Paramount Plus 1",
+      "programs": []
+    },
+    {
+      "channelId": "230",
+      "channelName": "Record",
+      "programs": []
+    },
+    {
+      "channelId": "231",
+      "channelName": "Record GO",
+      "programs": []
+    },
+    {
+      "channelId": "232",
+      "channelName": "SBT RJ",
+      "programs": []
+    },
+    {
+      "channelId": "233",
+      "channelName": "TCM",
+      "programs": []
+    },
+    {
+      "channelId": "234",
+      "channelName": "TLC",
+      "programs": []
+    },
+    {
+      "channelId": "235",
+      "channelName": "UFC Fight Pass",
+      "programs": []
+    },
+    {
+      "channelId": "236",
+      "channelName": "Apple TV 03",
+      "programs": []
+    },
+    {
+      "channelId": "237",
+      "channelName": "Apple TV 04",
+      "programs": []
+    },
+    {
+      "channelId": "238",
+      "channelName": "Apple TV 05",
+      "programs": []
+    },
+    {
+      "channelId": "239",
+      "channelName": "Apple TV 06",
+      "programs": []
+    },
+    {
+      "channelId": "A&E",
+      "channelName": "A&E (S79)",
+      "programs": []
+    },
+    {
+      "channelId": "AXN",
+      "channelName": "AXN (S79)",
+      "programs": []
+    },
+    {
+      "channelId": "CazéTV",
+      "channelName": "CAZE TV (ST)",
+      "programs": []
+    },
+    {
+      "channelId": "Combate ",
+      "channelName": "COMBATE (S46)",
+      "programs": []
+    },
+    {
+      "channelId": "ESPN 2",
+      "channelName": "ESPN 2 (S46)",
+      "programs": []
+    },
+    {
+      "channelId": "245",
+      "channelName": "N SPORTS (OT)",
+      "programs": []
+    },
+    {
+      "channelId": "246",
+      "channelName": "N SPORTS (RK)",
+      "programs": []
+    },
+    {
+      "channelId": "Warner",
+      "channelName": "WARNER CHANNEL (S79)",
+      "programs": []
+    }
+  ]
+}
