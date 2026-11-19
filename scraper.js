@@ -46,7 +46,7 @@ async function fetchText(url, retries = 4) {
 function isCommentLine(line) {
   if (!line) return true;
   if (line.startsWith('#') && !line.includes('\t')) return true;
-  if (line.startsWith('# ') && line.split('\t')[0].includes('tipo')) return true;
+  if (line.startsWith('# ') && (line.split('\t')[0].includes('tipo') || line.split('\t')[0].includes('id'))) return true;
   return false;
 }
 
@@ -869,6 +869,101 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, buscarMeta, m
   return listaFinal;
 }
 
+/**
+ * 5. COLETA NOVELINHAS (Minisséries verticais 720x1280 de novelinhas.txt)
+ * Formato: id \t título \t pasta \t episódios \t áudio (dub|leg) \t capa \t gêneros \t sinopse
+ * Episódio: base + pasta + /episode-NNN.mp4 (três dígitos)
+ */
+async function coletarNovelinhas() {
+  console.log('\n📱 Extraindo Novelinhas (minisséries verticais de novelinhas.txt)...');
+  const txt = await fetchText(`${FILMES_BASE_URL}/novelinhas.txt`);
+  if (!txt) return [];
+
+  let baseUrl = 'https://pub-3bce2defc5bb48328c9c6f4b234fa0fb.r2.dev/novelinhas/';
+  const lista = [];
+
+  for (let l of txt.split(/\r?\n/)) {
+    l = l.trim();
+    if (!l) continue;
+    if (l.startsWith('base:')) {
+      const b = l.replace('base:', '').trim();
+      if (b) baseUrl = b.endsWith('/') ? b : `${b}/`;
+      continue;
+    }
+    if (l.startsWith('#')) continue;
+
+    const c = l.split('\t');
+    if (c.length < 6) continue;
+
+    const id = (c[0] || '').trim();
+    const titulo = limparTituloExibicao(c[1] || '');
+    const pasta = (c[2] || '').trim();
+    const totalEps = parseInt(c[3] || '0', 10) || 0;
+    const idioma = (c[4] || '').trim().toLowerCase() === 'leg' ? 'legendado' : 'dublado';
+    const capa = (c[5] || '').trim();
+    const genresArr = parseGenerosLista(c[6], 'Novelinha');
+    const sinopse = decodificarHtml(c[7] || '').trim();
+
+    if (!titulo || !pasta || totalEps <= 0) continue;
+
+    const episodes = [];
+    for (let epNum = 1; epNum <= totalEps; epNum++) {
+      const numFmt = String(epNum).padStart(3, '0');
+      episodes.push({
+        season: 1,
+        episode: epNum,
+        fontes: [
+          {
+            url: `${baseUrl}${pasta}/episode-${numFmt}.mp4`,
+            idioma,
+            qualidade: 'HD'
+          }
+        ]
+      });
+    }
+
+    lista.push({
+      id,
+      cat: 'Novelinhas',
+      vertical: true,
+      title: titulo,
+      desc: sinopse,
+      thumb: capa,
+      bannerThumb: capa,
+      logo: '',
+      bannerlogo: '',
+      year: '',
+      genre: genresArr.join(', '),
+      genres: genresArr,
+      rating: '',
+      age: '',
+      popularity: 0,
+      seasons: [{ season: 1, episodes }]
+    });
+  }
+
+  return lista;
+}
+
+/**
+ * 6. FILTRA NOVELAS E KIDS A PARTIR DO CATÁLOGO JÁ EXTRAÍDO (sem remover das listas originais)
+ */
+function extrairNovelasEKids(filmes, series) {
+  const novelas = series.filter((s) => {
+    const gStr = String(s.genre || '').toLowerCase();
+    return /\b(novela|soap|telenovela)\b/i.test(gStr);
+  });
+
+  const kids = [...filmes, ...series].filter((item) => {
+    const gStr = String(item.genre || '').toLowerCase();
+    const idade = String(item.age || '').trim();
+    if (idade === '18' || idade === '16' || /\badulto\b/i.test(gStr)) return false;
+    return /\b(kids|infantil|animação|animacao|família|familia)\b/i.test(gStr);
+  });
+
+  return { novelas, kids };
+}
+
 function saveJsonFile(filename, items) {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.writeFileSync(path.join(OUTPUT_DIR, filename), JSON.stringify(items, null, 2), 'utf-8');
@@ -882,9 +977,12 @@ function saveJsonFile(filename, items) {
     const { filmesCartoonzine, seriesCartoonzine } = await coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost);
     const animes = await coletarRedeFlix('redeflix/links-animes.txt', 'Animes', 'a', bases, buscarMeta, marcasMap, latenciasHost);
     const doramas = await coletarRedeFlix('redeflix/links-doramas.txt', 'Doramas', 'd', bases, buscarMeta, marcasMap, latenciasHost);
+    const novelinhas = await coletarNovelinhas();
 
     const tmdbCache = loadTmdbCache();
     await enrichItemsWithTmdbLogos([...doramas, ...animes, ...seriesCartoonzine, ...filmesCartoonzine], tmdbCache);
+
+    const { novelas, kids } = extrairNovelasEKids(filmesCartoonzine, seriesCartoonzine);
 
     saveJsonFile('filmes_sm.json', filmesCartoonzine);
     const tam = Math.ceil(seriesCartoonzine.length / 3) || 0;
@@ -893,6 +991,9 @@ function saveJsonFile(filename, items) {
     saveJsonFile('series_sm_pt3.json', seriesCartoonzine.slice(tam * 2));
     saveJsonFile('animes_sm.json', animes);
     saveJsonFile('doramas_sm.json', doramas);
+    saveJsonFile('novelinhas_sm.json', novelinhas);
+    saveJsonFile('novelas_sm.json', novelas);
+    saveJsonFile('kids_sm.json', kids);
 
     console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO!');
   } catch (err) {
@@ -900,3 +1001,4 @@ function saveJsonFile(filename, items) {
     process.exit(1);
   }
 })();
+// FIM DO ARQUIVO
