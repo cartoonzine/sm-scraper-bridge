@@ -1,7 +1,6 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const zlib = require('zlib');
 
 const CANAIS_BASE_URL = 'https://canais-saimo.pages.dev';
 const FILMES_BASE_URL = 'https://filmes-saimo.pages.dev';
@@ -19,40 +18,21 @@ const DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 const MAX_TMDB_FETCH_PER_RUN = 5500;
 const TMDB_CONCURRENCY = 25;
 
-// Termos comuns em títulos/tags/URLs de conteúdo adulto
-const TERMOS_ADULTO_REGEX = /\b(xxx|porn|porno|pornô|sex|sexo|hentai|erotic|erotico|erótico|adulto|adult|nsfw|brazzers|onlyfans|playboy|sexy\s*hot|venus|hustler|private|cam4|chaturbate|xvideos|pornhub|redtube|xnxx)\b/i;
-
 const http = axios.create({
   timeout: 30000,
-  headers: { 'User-Agent': DEFAULT_UA, 'Accept': 'text/plain, application/xml, text/xml, application/json, */*' },
-  responseType: 'arraybuffer',
+  headers: { 'User-Agent': DEFAULT_UA, 'Accept': 'text/plain, application/json, */*' },
+  responseType: 'text',
   transformResponse: [(d) => d]
 });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function decodificarBufferTexto(buf) {
-  if (!buf) return '';
-  const buffer = Buffer.isBuffer(buf) ? buf : Buffer.from(buf);
-  if (buffer.length === 0) return '';
-  // Detecta GZIP (magic bytes 1f 8b)
-  if (buffer.length >= 2 && buffer[0] === 0x1f && buffer[1] === 0x8b) {
-    try {
-      return zlib.gunzipSync(buffer).toString('utf-8');
-    } catch (_) {
-      return '';
-    }
-  }
-  return buffer.toString('utf-8');
-}
-
 async function fetchText(url, retries = 4) {
   for (let i = 0; i < retries; i++) {
     try {
       const res = await http.get(url);
-      if (res.status >= 200 && res.status < 300 && res.data) {
-        const txt = decodificarBufferTexto(res.data);
-        if (txt.length > 0) return txt;
+      if (res.status >= 200 && res.status < 300 && typeof res.data === 'string' && res.data.length > 0) {
+        return res.data;
       }
       if (res.status === 404) return '';
     } catch (err) {
@@ -114,22 +94,6 @@ function parseGenerosLista(strGeneros, fallback = '') {
     .map((g) => g.trim())
     .filter(Boolean);
   return Array.from(new Set(brutos));
-}
-
-function isConteudoAdulto({ origemReservado = false, title = '', genre = '', genres = [], age = '', urls = [] }) {
-  if (origemReservado) return true;
-  if (String(age).trim() === '18') return true;
-
-  const listaGeneros = Array.isArray(genres) && genres.length > 0 ? genres : parseGenerosLista(genre);
-  if (listaGeneros.some((g) => /^adulto$/i.test(String(g).trim()))) return true;
-
-  if (TERMOS_ADULTO_REGEX.test(decodificarHtml(title))) return true;
-
-  for (const u of urls) {
-    if (TERMOS_ADULTO_REGEX.test(String(u || ''))) return true;
-  }
-
-  return false;
 }
 
 function isSaimoApiStreamUrl(url) {
@@ -315,7 +279,7 @@ async function fetchTmdbDetails(tmdbId, tipo) {
   try {
     const res = await http.get(url, { timeout: 10000 });
     if (res.status !== 200 || !res.data) return null;
-    const d = JSON.parse(decodificarBufferTexto(res.data));
+    const d = JSON.parse(res.data);
     const logos = (d.images && d.images.logos) || [];
     const logo = logos.find((l) => l.iso_639_1 === 'pt') || logos.find((l) => l.iso_639_1 === 'en') || logos[0];
     const releaseYear = String(d.release_date || d.first_air_date || '').slice(0, 4);
@@ -381,7 +345,7 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
 
 function classificarCanal(nome) {
   const n = String(nome || '').toLowerCase();
-  if (TERMOS_ADULTO_REGEX.test(n)) return 'Adulto';
+  if (/(sexy hot|playboy|adulto|venus|hustler|private|sex)/.test(n)) return 'Adulto';
   if (/(pluto)/.test(n)) return 'Pluto TV';
   if (/(espn|sportv|premiere|combate|band sports|cazé|caze|nsports|xsports)/.test(n)) return 'Esportes';
   if (/(news|globonews|cnn|record news|jovem pan|terra viva)/.test(n)) return 'Notícias';
@@ -392,27 +356,8 @@ function classificarCanal(nome) {
   return 'Variedades';
 }
 
-/**
- * 1. CANAIS + CAPTURA DE EPG
- */
-function parseXmltvTime(str) {
-  // Ex: "20261119123000 -0300" -> ISO string
-  const m = String(str || '').trim().match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s*([+-]\d{4})?/);
-  if (!m) return String(str || '').trim();
-  const tz = m[7] ? `${m[7].slice(0, 3)}:${m[7].slice(3)}` : 'Z';
-  const iso = `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}${tz}`;
-  const d = new Date(iso);
-  return Number.isNaN(d.getTime()) ? iso : d.toISOString();
-}
-
-function extrairTagsXml(blocoXml, tagName) {
-  const re = new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, 'i');
-  const m = String(blocoXml || '').match(re);
-  return m ? decodificarHtml(m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')).trim() : '';
-}
-
-async function processarCanaisEEpg() {
-  console.log('\n📺 1. Baixando canais e buscando EPG em canais-saimo.pages.dev...');
+async function processarCanais() {
+  console.log('\n📺 1. Baixando todos os canais de canais-saimo.pages.dev...');
   const [catalogoTxt, canaisM3uTxt, restritosTxt] = await Promise.all([
     fetchText(`${CANAIS_BASE_URL}/catalogo.txt`),
     fetchText(`${CANAIS_BASE_URL}/canais.txt`),
@@ -420,11 +365,10 @@ async function processarCanaisEEpg() {
   ]);
 
   const todosCanais = [];
-  const epgMap = new Map(); // tvgId/nomeNormalizado -> { channelId, channelName, programs: [] }
   let canalAtual = null;
   let ultimaFonte = null;
 
-  const lerCatalogo = (txt, catPadrao = '', forcarAdulto = false) => {
+  const lerCatalogo = (txt, catPadrao = '') => {
     for (let linha of (txt || '').split(/\r?\n/)) {
       linha = linha.trim();
       if (!linha || linha.startsWith('#')) continue;
@@ -438,15 +382,11 @@ async function processarCanaisEEpg() {
         ultimaFonte = null;
         canalAtual = {
           nome: v,
-          tvgId: '',
           logo: '',
           categoria: catPadrao || classificarCanal(v),
-          forcarAdulto,
           fontesBrutas: []
         };
         todosCanais.push(canalAtual);
-      } else if (canalAtual && k === 'tvg-id') {
-        canalAtual.tvgId = v;
       } else if (canalAtual && k === 'logo' && !canalAtual.logo) {
         canalAtual.logo = v;
       } else if (canalAtual && k === 'categoria' && !catPadrao) {
@@ -464,185 +404,57 @@ async function processarCanaisEEpg() {
     }
   };
 
-  lerCatalogo(catalogoTxt, '', false);
-  lerCatalogo(restritosTxt, 'Adulto', true);
+  lerCatalogo(catalogoTxt);
+  lerCatalogo(restritosTxt, 'Adulto');
 
-  const urlsEpgExternas = new Set();
-
-  if (canaisM3uTxt) {
-    const headerMatch = canaisM3uTxt.match(/url-tvg="([^"]+)"/i) || canaisM3uTxt.match(/x-tvg-url="([^"]+)"/i);
-    if (headerMatch && headerMatch[1]) {
-      headerMatch[1].split(',').forEach((u) => {
-        if (u.trim()) urlsEpgExternas.add(u.trim());
-      });
-    }
-
-    if (canaisM3uTxt.includes('#EXTINF:')) {
-      let pend = null;
-      for (let l of canaisM3uTxt.split(/\r?\n/)) {
-        l = l.trim();
-        if (!l) continue;
-        if (l.startsWith('#EXTINF:')) {
-          const logo = (l.match(/tvg-logo="([^"]*)"/i) || [])[1] || '';
-          const grp = (l.match(/group-title="([^"]*)"/i) || [])[1] || '';
-          const tvgId = (l.match(/tvg-id="([^"]*)"/i) || [])[1] || '';
-          const nome = l.split(',').pop()?.trim() || '';
-          pend = { nome, tvgId, logo, categoria: grp || classificarCanal(nome) };
-        } else if (!l.startsWith('#') && pend && !isSaimoApiStreamUrl(l)) {
-          const existente = todosCanais.find((c) => c.nome.toLowerCase() === pend.nome.toLowerCase());
-          if (existente) {
-            existente.fontesBrutas.push({ rawUrl: l, referer: '', ua: '', qualidade: '' });
-            if (!existente.logo && pend.logo) existente.logo = pend.logo;
-            if (!existente.tvgId && pend.tvgId) existente.tvgId = pend.tvgId;
-          } else if (pend.nome) {
-            todosCanais.push({
-              nome: pend.nome,
-              tvgId: pend.tvgId,
-              logo: pend.logo,
-              categoria: pend.categoria,
-              forcarAdulto: false,
-              fontesBrutas: [{ rawUrl: l, referer: '', ua: '', qualidade: '' }]
-            });
-          }
-          pend = null;
+  if (canaisM3uTxt && canaisM3uTxt.includes('#EXTINF:')) {
+    let pend = null;
+    for (let l of canaisM3uTxt.split(/\r?\n/)) {
+      l = l.trim();
+      if (!l) continue;
+      if (l.startsWith('#EXTINF:')) {
+        const logo = (l.match(/tvg-logo="([^"]*)"/i) || [])[1] || '';
+        const grp = (l.match(/group-title="([^"]*)"/i) || [])[1] || '';
+        const nome = l.split(',').pop()?.trim() || '';
+        pend = { nome, logo, categoria: grp || classificarCanal(nome) };
+      } else if (!l.startsWith('#') && pend && !isSaimoApiStreamUrl(l)) {
+        const existente = todosCanais.find((c) => c.nome.toLowerCase() === pend.nome.toLowerCase());
+        if (existente) {
+          existente.fontesBrutas.push({ rawUrl: l, referer: '', ua: '', qualidade: '' });
+          if (!existente.logo && pend.logo) existente.logo = pend.logo;
+        } else if (pend.nome) {
+          todosCanais.push({
+            nome: pend.nome,
+            logo: pend.logo,
+            categoria: pend.categoria,
+            fontesBrutas: [{ rawUrl: l, referer: '', ua: '', qualidade: '' }]
+          });
         }
+        pend = null;
       }
     }
   }
 
-  const canaisNormais = [];
-  const canaisAdultos = [];
-  let idNormal = 0;
-  let idAdulto = 0;
-
+  const out = [];
+  let id = 0;
   for (const c of todosCanais) {
     const conv = c.fontesBrutas
       .map((f) => ({ url: normalizeMediaUrl(f.rawUrl, f.referer, f.ua), idioma: 'dublado', qualidade: f.qualidade }))
       .filter((f) => f.url);
     const ord = ordenarELimparFontesDoItem(conv, null);
-    if (ord.length === 0) continue;
-
-    const urlsLimpos = ord.map((x) => x.url);
-    const adulto = isConteudoAdulto({
-      origemReservado: c.forcarAdulto,
-      title: c.nome,
-      genre: c.categoria,
-      urls: urlsLimpos
-    });
-
-    if (adulto) {
-      idAdulto++;
-      canaisAdultos.push({
-        id: String(idAdulto),
-        nome: c.nome,
-        categoria: 'Adulto',
-        logo: c.logo,
-        tvgId: c.tvgId || '',
-        urls: urlsLimpos
-      });
-    } else {
-      idNormal++;
-      canaisNormais.push({
-        id: String(idNormal),
-        nome: c.nome,
-        categoria: c.categoria,
-        logo: c.logo,
-        tvgId: c.tvgId || '',
-        urls: urlsLimpos
-      });
+    if (ord.length > 0) {
+      id++;
+      out.push({ id: String(id), nome: c.nome, categoria: c.categoria, logo: c.logo, urls: ord.map((x) => x.url) });
     }
   }
-
-  saveJsonFile('canais_sm.json', canaisNormais);
-  if (canaisAdultos.length > 0) {
-    saveJsonFile('canais_adulto_sm.json', canaisAdultos);
-  }
-
-  // Busca EPG em caminhos padrão do servidor de canais + qualquer url-tvg encontrada no M3U
-  const candidatosEpg = [
-    ...urlsEpgExternas,
-    `${CANAIS_BASE_URL}/epg.xml`,
-    `${CANAIS_BASE_URL}/epg.xml.gz`,
-    `${CANAIS_BASE_URL}/guia.xml`,
-    `${CANAIS_BASE_URL}/grade.xml`,
-    `${CANAIS_BASE_URL}/epg.txt`,
-    `${CANAIS_BASE_URL}/guia.txt`,
-    `${CANAIS_BASE_URL}/grade.txt`
-  ];
-
-  let xmlEpgEncontrado = '';
-  let fonteEpgUsada = '';
-
-  for (const cand of candidatosEpg) {
-    const t = await fetchText(cand, 2);
-    if (t && (t.includes('<programme') || t.includes('<tv') || t.length > 200)) {
-      xmlEpgEncontrado = t;
-      fonteEpgUsada = cand;
-      break;
-    }
-  }
-
-  if (xmlEpgEncontrado && xmlEpgEncontrado.includes('<programme')) {
-    const canaisXmlMap = new Map();
-    for (const m of xmlEpgEncontrado.matchAll(/<channel[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/channel>/gi)) {
-      const chId = m[1].trim();
-      const displayName = extrairTagsXml(m[2], 'display-name');
-      canaisXmlMap.set(chId, displayName || chId);
-    }
-
-    for (const m of xmlEpgEncontrado.matchAll(/<programme[^>]*start="([^"]*)"[^>]*stop="([^"]*)"[^>]*channel="([^"]*)"[^>]*>([\s\S]*?)<\/programme>/gi)) {
-      const startIso = parseXmltvTime(m[1]);
-      const stopIso = parseXmltvTime(m[2]);
-      const chId = m[3].trim();
-      const bloco = m[4];
-      const tituloProg = extrairTagsXml(bloco, 'title');
-      const descProg = extrairTagsXml(bloco, 'desc');
-      const catProg = extrairTagsXml(bloco, 'category');
-
-      if (!epgMap.has(chId)) {
-        epgMap.set(chId, {
-          channelId: chId,
-          channelName: canaisXmlMap.get(chId) || chId,
-          programs: []
-        });
-      }
-      epgMap.get(chId).programs.push({
-        start: startIso,
-        stop: stopIso,
-        title: tituloProg,
-        desc: descProg,
-        category: catProg
-      });
-    }
-
-    const epgArray = Array.from(epgMap.values()).filter((e) => e.programs.length > 0);
-    saveJsonFile('epg_sm.json', {
-      atualizadoEm: new Date().toISOString(),
-      fonte: fonteEpgUsada,
-      totalCanaisComGuia: epgArray.length,
-      canais: epgArray
-    });
-  } else {
-    console.log('  [i] Nenhum XMLTV público encontrado em canais-saimo.pages.dev no momento; gerando esqueleto epg_sm.json');
-    const esqueleto = canaisNormais.map((c) => ({
-      channelId: c.tvgId || c.id,
-      channelName: c.nome,
-      programs: []
-    }));
-    saveJsonFile('epg_sm.json', {
-      atualizadoEm: new Date().toISOString(),
-      fonte: null,
-      totalCanaisComGuia: 0,
-      canais: esqueleto
-    });
-  }
+  saveJsonFile('canais_sm.json', out);
 }
 
 /**
- * 2. CARREGA METADADOS VOD
+ * 2. CARREGA METADADOS COMPLETOS (Ano, Todos os Gêneros, Rating IMDb, Classificação Etária e Popularidade)
  */
 async function carregarMetadadosVOD() {
-  console.log('\n🎬 2. Carregando índice, fichas, destaques, detalhes e marcas.txt...');
+  console.log('\n🎬 2. Carregando índice, fichas, destaques, detalhes (ano/nota/idade/pop) e marcas.txt...');
   const [indiceTxt, fichasTxt, generosTxt, detalhesTxt, marcasTxt, destaquesTxt] = await Promise.all([
     fetchText(`${FILMES_BASE_URL}/indice.txt`),
     fetchText(`${FILMES_BASE_URL}/fichas.txt`),
@@ -702,7 +514,9 @@ async function carregarMetadadosVOD() {
         desc: ''
       };
       metaMap.set(kComAno, novo);
-      if (!metaMap.has(kSemAno)) metaMap.set(kSemAno, novo);
+      if (!metaMap.has(kSemAno)) {
+        metaMap.set(kSemAno, novo);
+      }
     }
     return metaMap.get(kComAno);
   };
@@ -771,6 +585,7 @@ async function carregarMetadadosVOD() {
     }
   }
 
+  // Lê detalhes.txt: tipo \t titulo \t ano \t nota \t classificacao \t acessos/popularidade
   for (let l of (detalhesTxt || '').split(/\r?\n/)) {
     const c = l.trim().split('\t');
     if (c.length >= 3 && !isCommentLine(l)) {
@@ -821,14 +636,13 @@ async function carregarMetadadosVOD() {
 }
 
 /**
- * 3. COLETA FILMES E SEPARA CONTEÚDO ADULTO (reservado-<LETRA>.txt + xxx/porn/adulto/18)
+ * 3. COLETA TODOS OS FILMES + RESERVADOS E TODAS AS SÉRIES
  */
 async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) {
-  const filmesNormais = [];
-  const adultoVod = [];
+  const filmesCartoonzine = [];
   const seriesCartoonzine = [];
 
-  console.log('\n🎥 3. Extraindo Filmes e separando Conteúdo Adulto (reservado-<LETRA>.txt + xxx/porn/etc.)...');
+  console.log('\n🎥 3. Extraindo todos os Filmes (filmes-<LETRA>.txt + reservado-<LETRA>.txt)...');
   const todasLetras = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
 
   for (let i = 0; i < todasLetras.length; i += 7) {
@@ -845,7 +659,7 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
     );
 
     for (const { fTxt, rTxt } of lote) {
-      for (const [blocoTxt, ehReservado] of [[fTxt, false], [rTxt, true]]) {
+      for (const [blocoTxt, generoPadrao] of [[fTxt, 'Filme'], [rTxt, 'Adulto']]) {
         for (let l of (blocoTxt || '').split(/\r?\n/)) {
           l = l.trim();
           if (!l || isCommentLine(l)) continue;
@@ -861,38 +675,21 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
 
           const meta = buscarMeta('f', tituloBruto, anoExtraido, tmdbIdNaLinha);
           const finalTmdbId = tmdbIdNaLinha || meta.tmdbId || null;
-          const tituloLimpo = limparTituloExibicao(tituloBruto);
-          const idadeFinal = meta.age || (ehReservado ? '18' : '');
-          const genresArr = (meta.genres && meta.genres.length > 0)
-            ? meta.genres
-            : [ehReservado ? 'Adulto' : 'Filme'];
-
-          const adulto = isConteudoAdulto({
-            origemReservado: ehReservado,
-            title: tituloLimpo,
-            genre: genresArr.join(', '),
-            genres: genresArr,
-            age: idadeFinal,
-            urls: fontes.map((f) => f.url)
-          });
-
-          const genresFinal = adulto && !genresArr.some((g) => /^adulto$/i.test(g))
-            ? ['Adulto', ...genresArr]
-            : genresArr;
+          const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : [generoPadrao];
 
           const obj = {
-            cat: adulto ? 'Adulto' : 'Filmes',
-            title: tituloLimpo,
+            cat: 'Filmes',
+            title: limparTituloExibicao(tituloBruto),
             desc: meta.desc || '',
             thumb: meta.thumb || '',
             bannerThumb: meta.bannerThumb || '',
             logo: '',
             bannerlogo: '',
             year: anoExtraido || meta.year || '',
-            genre: genresFinal.join(', '),
-            genres: genresFinal,
+            genre: genresArr.join(', '),
+            genres: genresArr,
             rating: meta.rating || '',
-            age: idadeFinal,
+            age: meta.age || (generoPadrao === 'Adulto' ? '18' : ''),
             popularity: meta.popularity || 0,
             fontes
           };
@@ -901,15 +698,11 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
             obj.tmdbTipo = 'movie';
           }
 
-          if (adulto) adultoVod.push(obj);
-          else filmesNormais.push(obj);
+          filmesCartoonzine.push(obj);
         }
       }
     }
   }
-
-  console.log(`  [🔞 Adulto VOD] ${adultoVod.length.toLocaleString('pt-BR')} itens separados em listas/adulto_vod_sm.json`);
-  console.log(`  [🎬 Filmes Principais] ${filmesNormais.length.toLocaleString('pt-BR')} itens em listas/filmes_sm.json`);
 
   console.log('\n📺 4. Extraindo todas as Séries (# e A-Z)...');
   for (const letra of todasLetras) {
@@ -1005,7 +798,7 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
     }
   }
 
-  return { filmesCartoonzine: filmesNormais, adultoVod, seriesCartoonzine };
+  return { filmesCartoonzine, seriesCartoonzine };
 }
 
 async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, buscarMeta, marcasMap, latenciasHost) {
@@ -1114,8 +907,11 @@ async function processarDestaques(destaquesTxt, buscarMeta, tmdbCache) {
   if (destaques.length > 0) saveJsonFile('destaques_sm.json', destaques);
 }
 
-function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
-  console.log('\n🔎 Gerando JSON de Metadados para Filtros de Busca (metadados_busca_sm.json)...');
+/**
+ * 5. GERA O JSON EXCLUSIVO DE METADADOS E FILTROS DE BUSCA (metadados_busca_sm.json)
+ */
+function gerarJsonMetadadosBusca(filmes, series, animes, doramas) {
+  console.log('\n🔎 Gerando JSON exclusivo de Metadados para Filtros de Busca (metadados_busca_sm.json)...');
 
   const contagemGeneros = new Map();
   const contagemAnos = new Map();
@@ -1145,6 +941,7 @@ function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
       contagemIdades.set(String(item.age), (contagemIdades.get(String(item.age)) || 0) + 1);
     }
 
+    // Inspeciona idiomas e qualidade máxima disponíveis nas fontes do filme ou episódios da série
     const idiomasSet = new Set();
     let qualidadeMax = '';
     const rankQual = { '4K': 4, FHD: 3, HD: 2, SD: 1, '': 0 };
@@ -1186,10 +983,14 @@ function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
       tmdbId: item.tmdbId || null
     };
 
-    if (item.seasons) metaEntry.totalSeasons = item.seasons.length;
+    if (item.seasons) {
+      metaEntry.totalSeasons = item.seasons.length;
+    }
+
     catalogoIndice.push(metaEntry);
   }
 
+  // Ordena facetas para usar direto nos dropdowns/botões de filtro
   const generosFacet = Array.from(contagemGeneros.entries())
     .map(([nome, total]) => ({ nome, total }))
     .sort((a, b) => b.total - a.total || a.nome.localeCompare(b.nome, 'pt-BR'));
@@ -1202,6 +1003,7 @@ function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
     .map(([classificacao, total]) => ({ classificacao, total }))
     .sort((a, b) => b.total - a.total);
 
+  // Top 100 Rankings para vitrines rápidas de busca/filtro
   const resumirCard = (x) => ({
     cat: x.cat,
     title: x.title,
@@ -1216,31 +1018,31 @@ function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
   });
 
   const emAlta = [...catalogoIndice]
+    .filter((x) => x.genre !== 'Adulto' && x.age !== '18')
     .sort((a, b) => (b.popularity - a.popularity) || (parseFloat(b.rating || 0) - parseFloat(a.rating || 0)))
     .slice(0, 100)
     .map(resumirCard);
 
   const lancamentos2026 = [...catalogoIndice]
-    .filter((x) => x.year === '2026')
+    .filter((x) => x.year === '2026' && x.genre !== 'Adulto')
     .sort((a, b) => (b.popularity - a.popularity) || (parseFloat(b.rating || 0) - parseFloat(a.rating || 0)))
     .slice(0, 100)
     .map(resumirCard);
 
   const melhoresAvaliados = [...catalogoIndice]
-    .filter((x) => parseFloat(x.rating || 0) >= 7.5 && x.popularity >= 3)
+    .filter((x) => parseFloat(x.rating || 0) >= 7.5 && x.popularity >= 3 && x.genre !== 'Adulto')
     .sort((a, b) => (parseFloat(b.rating || 0) - parseFloat(a.rating || 0)) || (b.popularity - a.popularity))
     .slice(0, 100)
     .map(resumirCard);
 
-  saveJsonFile('metadados_busca_sm.json', {
+  const payloadMetadados = {
     atualizadoEm: new Date().toISOString(),
     filtrosDisponiveis: {
       categorias: [
         { nome: 'Filmes', total: filmes.length },
         { nome: 'Séries', total: series.length },
         { nome: 'Animes', total: animes.length },
-        { nome: 'Doramas', total: doramas.length },
-        { nome: 'Adulto', total: adultoVod.length }
+        { nome: 'Doramas', total: doramas.length }
       ],
       generos: generosFacet,
       anos: anosFacet,
@@ -1254,22 +1056,24 @@ function gerarJsonMetadadosBusca(filmes, series, animes, doramas, adultoVod) {
       melhoresAvaliados
     },
     catalogoIndice
-  });
+  };
+
+  const fullPath = path.join(OUTPUT_DIR, 'metadados_busca_sm.json');
+  fs.writeFileSync(fullPath, JSON.stringify(payloadMetadados, null, 2), 'utf-8');
+  console.log(`  [✓] listas/metadados_busca_sm.json salvo (${catalogoIndice.length.toLocaleString('pt-BR')} itens indexados e ${generosFacet.length} gêneros mapeados)`);
 }
 
-function saveJsonFile(filename, data) {
+function saveJsonFile(filename, items) {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  const fullPath = path.join(OUTPUT_DIR, filename);
-  fs.writeFileSync(fullPath, JSON.stringify(data, null, 2), 'utf-8');
-  const qtd = Array.isArray(data) ? `${data.length.toLocaleString('pt-BR')} registros` : 'objeto gerado';
-  console.log(`  [✓] listas/${filename} salvo (${qtd})`);
+  fs.writeFileSync(path.join(OUTPUT_DIR, filename), JSON.stringify(items, null, 2), 'utf-8');
+  console.log(`  [✓] listas/${filename} salvo (${items.length.toLocaleString('pt-BR')} registros)`);
 }
 
 (async () => {
   try {
-    await processarCanaisEEpg();
+    await processarCanais();
     const { bases, gavetas, buscarMeta, marcasMap, latenciasHost, destaquesTxt } = await carregarMetadadosVOD();
-    const { filmesCartoonzine, adultoVod, seriesCartoonzine } = await coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost);
+    const { filmesCartoonzine, seriesCartoonzine } = await coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost);
     const animes = await coletarRedeFlix('redeflix/links-animes.txt', 'Animes', 'a', bases, buscarMeta, marcasMap, latenciasHost);
     const doramas = await coletarRedeFlix('redeflix/links-doramas.txt', 'Doramas', 'd', bases, buscarMeta, marcasMap, latenciasHost);
 
@@ -1277,20 +1081,17 @@ function saveJsonFile(filename, data) {
     await enrichItemsWithTmdbLogos([...doramas, ...animes, ...seriesCartoonzine, ...filmesCartoonzine], tmdbCache);
 
     saveJsonFile('filmes_sm.json', filmesCartoonzine);
-    saveJsonFile('adulto_vod_sm.json', adultoVod);
-
     const tam = Math.ceil(seriesCartoonzine.length / 3) || 0;
     saveJsonFile('series_sm_pt1.json', seriesCartoonzine.slice(0, tam));
     saveJsonFile('series_sm_pt2.json', seriesCartoonzine.slice(tam, tam * 2));
     saveJsonFile('series_sm_pt3.json', seriesCartoonzine.slice(tam * 2));
-
     saveJsonFile('animes_sm.json', animes);
     saveJsonFile('doramas_sm.json', doramas);
 
     await processarDestaques(destaquesTxt, buscarMeta, tmdbCache);
-    gerarJsonMetadadosBusca(filmesCartoonzine, seriesCartoonzine, animes, doramas, adultoVod);
+    gerarJsonMetadadosBusca(filmesCartoonzine, seriesCartoonzine, animes, doramas);
 
-    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO!');
+    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO (CATÁLOGO + METADADOS DE BUSCA GERADOS)!');
   } catch (err) {
     console.error('❌ Erro fatal:', err);
     process.exit(1);
