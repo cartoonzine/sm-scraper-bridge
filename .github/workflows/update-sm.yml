@@ -24,7 +24,7 @@ jobs:
           node-version: '22'
 
       - name: Instalar dependências
-        run: npm install axios
+        run: npm install --no-save axios
 
       - name: Executar Scraper SM
         run: npm start
@@ -38,13 +38,13 @@ jobs:
           printf "node_modules/\npackage-lock.json\n" > .gitignore
           git rm -r --cached node_modules --ignore-unmatch || true
 
-          # Adiciona apenas o .gitignore e a pasta listas/
+          # Adiciona apenas o .gitignore e todos os JSONs da pasta listas/
           git add .gitignore listas/*.json
 
           # Faz commit e push com segurança
           if ! git diff --staged --quiet; then
             git commit -m "chore: atualização automática das listas em /listas"
-            git pull --rebase origin main || true
+            git pull --rebase --autostash origin main || true
             git push origin main
           else
             echo "Nenhuma alteração nas listas."
