@@ -7587,7 +7587,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 11,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2764086.mp4",
@@ -9284,7 +9284,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2761492.mp4",
@@ -9323,7 +9323,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/586945.mp4",
@@ -11559,41 +11559,6 @@
   },
   {
     "cat": "Filmes",
-    "title": "Alaska",
-    "desc": "Jake Barnes se muda para o Alasca com seus filhos e ganha a vida transportando suprimentos, via balsa, para diferentes localidades no estado. Sua filha adora acompanhar o pai, mas seu filho não vê a hora de ir embora. Porém, eles se unem quando descobrem sobre o desaparecimento do pai, depois de um acidente de avião. O serviço de busca é cancelado e Jake é considerado como morto. Mas seus filhos não aceitam a situação e saem em busca do pai pelo Alasca.",
-    "thumb": "https://image.tmdb.org/t/p/w500/qInhNnU2siIX4vJudzm0fwzS99O.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/gTodo59kxoc1siYPVmSOhVTEYsi.jpg",
-    "logo": "",
-    "bannerlogo": "",
-    "year": "2015",
-    "genre": "Família, Drama, Aventura",
-    "genres": [
-      "Família",
-      "Drama",
-      "Aventura"
-    ],
-    "rating": "6.8",
-    "age": "",
-    "popularity": 1,
-    "fontes": [
-      {
-        "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2763903.mp4",
-        "idioma": "dublado"
-      },
-      {
-        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/23428.mp4",
-        "idioma": "dublado"
-      },
-      {
-        "url": "https://nixplay.lat/movie/saimo-vods/221097/949884.mp4",
-        "idioma": "dublado"
-      }
-    ],
-    "tmdbId": 36344,
-    "tmdbTipo": "movie"
-  },
-  {
-    "cat": "Filmes",
     "title": "Albert",
     "desc": "Albert está sempre se metendo em confusão na pequena cidade onde mora. Mas quando ele acidentalmente quebra uma estátua querida de um famoso capitão de balão de ar quente, os habitantes locais se cansam. Para fazer as pazes, Albert decide se tornar capitão de um balão de ar quente. Acompanhado por seu amigo aspirante a pirata, Egon, Albert embarca em uma aventura no grande mundo. Ao longo do caminho eles acabam caindo nas garras de um ladrão de joias.",
     "thumb": "https://image.tmdb.org/t/p/w500/6qkRhSuCTaKUbxi7MUYcAceavoL.jpg",
@@ -12029,7 +11994,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 10,
+    "popularity": 8,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/717235.mp4",
@@ -12186,7 +12151,7 @@
     ],
     "rating": "5.8",
     "age": "L",
-    "popularity": 13,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766335.mp4",
@@ -13189,7 +13154,7 @@
     ],
     "rating": "7.2",
     "age": "12",
-    "popularity": 5,
+    "popularity": 4,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766303.mp4",
@@ -13756,9 +13721,9 @@
       "Fantasia",
       "Aventura"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "10",
-    "popularity": 4,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/8666.mp4",
@@ -14393,7 +14358,7 @@
     ],
     "rating": "6.2",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766614.mp4",
@@ -16188,7 +16153,7 @@
     ],
     "rating": "6.8",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766283.mp4",
@@ -16529,7 +16494,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/37267.mp4",
@@ -16983,7 +16948,7 @@
     ],
     "rating": "5.1",
     "age": "",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2768280.mp4",
@@ -17396,7 +17361,7 @@
     ],
     "rating": "7.9",
     "age": "",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2750772.mp4",
@@ -17948,9 +17913,9 @@
       "Drama",
       "Família"
     ],
-    "rating": "6.2",
+    "rating": "6.3",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/289919.mp4",
@@ -18203,7 +18168,7 @@
     ],
     "rating": "5.9",
     "age": "L",
-    "popularity": 2,
+    "popularity": 4,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/65549.mp4",
@@ -18236,7 +18201,7 @@
     ],
     "rating": "5.9",
     "age": "L",
-    "popularity": 2,
+    "popularity": 4,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2754908.mp4",
@@ -18406,7 +18371,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 2,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/250901.mp4",
@@ -19862,7 +19827,7 @@
       "Família",
       "Romance"
     ],
-    "rating": "7.2",
+    "rating": "7.3",
     "age": "",
     "popularity": 4,
     "fontes": [
@@ -20800,7 +20765,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2751357.mp4",
@@ -20960,7 +20925,7 @@
     ],
     "rating": "7.3",
     "age": "12",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765118.mp4",
@@ -21300,7 +21265,7 @@
     ],
     "rating": "5.9",
     "age": "12",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/253774.mp4",
@@ -25397,7 +25362,7 @@
       "Família",
       "Comédia"
     ],
-    "rating": "6.6",
+    "rating": "6.5",
     "age": "L",
     "popularity": 3,
     "fontes": [
@@ -28435,7 +28400,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2767388.mp4",
@@ -30042,7 +30007,7 @@
     ],
     "rating": "6.3",
     "age": "L",
-    "popularity": 2,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2757493.mp4",
@@ -31446,7 +31411,7 @@
     ],
     "rating": "8.0",
     "age": "12",
-    "popularity": 11,
+    "popularity": 10,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/55363.mp4",
@@ -34240,7 +34205,7 @@
     ],
     "rating": "6.3",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766994.mp4",
@@ -34847,7 +34812,7 @@
     ],
     "rating": "8.1",
     "age": "",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766051.mp4",
@@ -36584,7 +36549,7 @@
     ],
     "rating": "6.9",
     "age": "10",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/300890.mp4",
@@ -37979,7 +37944,7 @@
     ],
     "rating": "6.6",
     "age": "L",
-    "popularity": 7,
+    "popularity": 6,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/55647.mp4",
@@ -38027,7 +37992,7 @@
     ],
     "rating": "6.6",
     "age": "L",
-    "popularity": 7,
+    "popularity": 6,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/329996.mp4",
@@ -38054,7 +38019,7 @@
     ],
     "rating": "6.6",
     "age": "L",
-    "popularity": 7,
+    "popularity": 6,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/70749.mp4",
@@ -42298,7 +42263,7 @@
     ],
     "rating": "7.4",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766233.mp4",
@@ -42329,7 +42294,7 @@
     ],
     "rating": "7.4",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766551.mp4",
@@ -42901,7 +42866,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/9510.mp4",
@@ -43692,7 +43657,7 @@
       "Drama",
       "Família"
     ],
-    "rating": "7.7",
+    "rating": "7.6",
     "age": "10",
     "popularity": 2,
     "fontes": [
@@ -45753,7 +45718,7 @@
     ],
     "rating": "6.4",
     "age": "L",
-    "popularity": 9,
+    "popularity": 6,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765174.mp4",
@@ -48784,7 +48749,7 @@
     ],
     "rating": "7.6",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766254.mp4",
@@ -49396,7 +49361,7 @@
     ],
     "rating": "6.5",
     "age": "L",
-    "popularity": 8,
+    "popularity": 6,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766413.mp4",
@@ -49520,7 +49485,7 @@
     ],
     "rating": "6.8",
     "age": "L",
-    "popularity": 10,
+    "popularity": 7,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2769068.mp4",
@@ -50870,7 +50835,7 @@
     ],
     "rating": "7.4",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/9686.mp4",
@@ -53918,7 +53883,7 @@
     ],
     "rating": "6.2",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2757521.mp4",
@@ -53991,7 +53956,7 @@
     ],
     "rating": "6.2",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766332.mp4",
@@ -54604,7 +54569,7 @@
     ],
     "rating": "6.2",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766658.mp4",
@@ -54637,7 +54602,7 @@
     ],
     "rating": "6.2",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/9935.mp4",
@@ -58335,7 +58300,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 2,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/97400.mp4",
@@ -64836,7 +64801,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766564.mp4",
@@ -64872,7 +64837,7 @@
     ],
     "rating": "7.2",
     "age": "14",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766188.mp4",
@@ -66568,7 +66533,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 11,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2755580.mp4",
@@ -66760,7 +66725,7 @@
     ],
     "rating": "7.6",
     "age": "12",
-    "popularity": 4,
+    "popularity": 3,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/768744.mp4",
@@ -67346,7 +67311,7 @@
     ],
     "rating": "6.3",
     "age": "10",
-    "popularity": 8,
+    "popularity": 7,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2763814.mp4",
@@ -67444,9 +67409,9 @@
       "Família",
       "Mistério"
     ],
-    "rating": "6.4",
+    "rating": "6.3",
     "age": "12",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2767754.mp4",
@@ -68243,7 +68208,7 @@
     ],
     "rating": "7.9",
     "age": "12",
-    "popularity": 13,
+    "popularity": 20,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/81.mp4",
@@ -68503,7 +68468,7 @@
     ],
     "rating": "8.0",
     "age": "12",
-    "popularity": 4,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/10208.mp4",
@@ -68598,7 +68563,7 @@
     ],
     "rating": "8.0",
     "age": "12",
-    "popularity": 4,
+    "popularity": 5,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/663558.mp4",
@@ -71946,7 +71911,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 8,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/17525.mp4",
@@ -72054,7 +72019,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 8,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/57382.mp4",
@@ -72102,7 +72067,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 8,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2768517.mp4",
@@ -72662,7 +72627,7 @@
     ],
     "rating": "7.8",
     "age": "10",
-    "popularity": 9,
+    "popularity": 8,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/12046.mp4",
@@ -76180,7 +76145,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 7,
+    "popularity": 12,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2756218.mp4",
@@ -76250,7 +76215,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 14,
+    "popularity": 12,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765406.mp4",
@@ -79120,7 +79085,7 @@
     ],
     "rating": "6.7",
     "age": "",
-    "popularity": 2,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766862.mp4",
@@ -82017,7 +81982,7 @@
     ],
     "rating": "7.2",
     "age": "",
-    "popularity": 2,
+    "popularity": 3,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766678.mp4",
@@ -82917,7 +82882,7 @@
     ],
     "rating": "7.5",
     "age": "L",
-    "popularity": 11,
+    "popularity": 8,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2754875.mp4",
@@ -85553,7 +85518,7 @@
     ],
     "rating": "5.8",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/10707.mp4",
@@ -86776,7 +86741,7 @@
     ],
     "rating": "6.4",
     "age": "L",
-    "popularity": 9,
+    "popularity": 6,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/34328.mp4",
@@ -87459,7 +87424,7 @@
     ],
     "rating": "7.5",
     "age": "L",
-    "popularity": 0,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2767406.mp4",
@@ -91058,7 +91023,7 @@
     ],
     "rating": "2.8",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2756081.mp4",
@@ -91981,7 +91946,7 @@
     ],
     "rating": "6.5",
     "age": "",
-    "popularity": 2,
+    "popularity": 4,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766501.mp4",
@@ -94204,7 +94169,7 @@
     ],
     "rating": "7.8",
     "age": "L",
-    "popularity": 23,
+    "popularity": 18,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766409.mp4",
@@ -94397,9 +94362,9 @@
       "Drama",
       "Família"
     ],
-    "rating": "6.2",
+    "rating": "6.3",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/289527.mp4",
@@ -95654,7 +95619,7 @@
     ],
     "rating": "6.9",
     "age": "10",
-    "popularity": 11,
+    "popularity": 9,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766151.mp4",
@@ -97895,7 +97860,7 @@
     ],
     "rating": "5.8",
     "age": "",
-    "popularity": 4,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/11119.mp4",
@@ -98983,7 +98948,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766536.mp4",
@@ -100602,7 +100567,7 @@
     ],
     "rating": "7.3",
     "age": "L",
-    "popularity": 15,
+    "popularity": 14,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766286.mp4",
@@ -101767,7 +101732,7 @@
     ],
     "rating": "8.0",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/58541.mp4",
@@ -102531,7 +102496,7 @@
     ],
     "rating": "8.1",
     "age": "L",
-    "popularity": 15,
+    "popularity": 13,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766145.mp4",
@@ -106036,7 +106001,7 @@
     ],
     "rating": "7.4",
     "age": "",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/11458.mp4",
@@ -106136,7 +106101,7 @@
     ],
     "rating": "7.4",
     "age": "",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766392.mp4",
@@ -106163,7 +106128,7 @@
     ],
     "rating": "7.4",
     "age": "",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2750495.mp4",
@@ -107442,7 +107407,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 5,
+    "popularity": 4,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/11510.mp4",
@@ -109088,7 +109053,7 @@
     ],
     "rating": "6.3",
     "age": "10",
-    "popularity": 8,
+    "popularity": 7,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765650.mp4",
@@ -109149,43 +109114,6 @@
       }
     ],
     "tmdbId": 36278,
-    "tmdbTipo": "movie"
-  },
-  {
-    "cat": "Filmes",
-    "title": "Totem",
-    "desc": "",
-    "thumb": "https://image.tmdb.org/t/p/w500/ruIJxmaAhV2ljyCbpi6LhGFVsFe.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/fvOXjC4EY65olgML8bcfD0JgXbR.jpg",
-    "logo": "",
-    "bannerlogo": "",
-    "year": "2017",
-    "genre": "Família",
-    "genres": [
-      "Família"
-    ],
-    "rating": "5.2",
-    "age": "",
-    "popularity": 0,
-    "fontes": [
-      {
-        "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2755304.mp4",
-        "idioma": "dublado"
-      },
-      {
-        "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/93095.mp4",
-        "idioma": "legendado"
-      },
-      {
-        "url": "https://nixplay.lat/movie/saimo-vods/221097/958186.mp4",
-        "idioma": "dublado"
-      },
-      {
-        "url": "https://nixplay.lat/movie/saimo-vods/221097/958186.mp4?lang=leg",
-        "idioma": "legendado"
-      }
-    ],
-    "tmdbId": 1029864,
     "tmdbTipo": "movie"
   },
   {
@@ -110197,7 +110125,7 @@
     ],
     "rating": "7.0",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2767175.mp4",
@@ -112321,7 +112249,7 @@
     ],
     "rating": "7.9",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2753750.mp4",
@@ -113840,7 +113768,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 0,
+    "popularity": 1,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2768296.mp4",
@@ -116984,7 +116912,7 @@
     ],
     "rating": "7.7",
     "age": "",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/98039.mp4",
@@ -117307,7 +117235,7 @@
     ],
     "rating": "6.1",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2760253.mp4",
@@ -117336,7 +117264,7 @@
     ],
     "rating": "6.1",
     "age": "L",
-    "popularity": 6,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765884.mp4",
@@ -117617,7 +117545,7 @@
     ],
     "rating": "8.2",
     "age": "L",
-    "popularity": 253,
+    "popularity": 74,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2765661.mp4",
@@ -117801,7 +117729,7 @@
     ],
     "rating": "6.2",
     "age": "",
-    "popularity": 3,
+    "popularity": 2,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2758154.mp4",
@@ -118136,7 +118064,7 @@
     ],
     "rating": "8.2",
     "age": "L",
-    "popularity": 253,
+    "popularity": 74,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2766255.mp4",
@@ -118176,7 +118104,7 @@
     ],
     "rating": "6.8",
     "age": "12",
-    "popularity": 253,
+    "popularity": 74,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2758007.mp4",
@@ -120047,7 +119975,7 @@
     ],
     "rating": "8.5",
     "age": "L",
-    "popularity": 25,
+    "popularity": 33,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/372058.mp4",
@@ -120276,7 +120204,7 @@
     ],
     "rating": "7.1",
     "age": "L",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/59396.mp4",
@@ -120599,7 +120527,7 @@
     ],
     "rating": "5.2",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "fontes": [
       {
         "url": "http://acaidopt.org:80/movie/3llohwk4g9/kwf099q30o/2753627.mp4",
@@ -120786,7 +120714,7 @@
     ],
     "rating": "7.1",
     "age": "L",
-    "popularity": 3,
+    "popularity": 5,
     "fontes": [
       {
         "url": "https://nixplay.lat/movie/saimo-vods/221097/1243341.mp4",
@@ -124366,7 +124294,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 208427,
     "tmdbTipo": "tv",
     "seasons": [
@@ -136728,7 +136656,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 25,
+    "popularity": 27,
     "tmdbId": 72027,
     "tmdbTipo": "tv",
     "seasons": [
@@ -150527,7 +150455,7 @@
     ],
     "rating": "",
     "age": "12",
-    "popularity": 5,
+    "popularity": 11,
     "tmdbId": 283704,
     "tmdbTipo": "tv",
     "seasons": [
@@ -196862,7 +196790,7 @@
     ],
     "rating": "7.7",
     "age": "",
-    "popularity": 13,
+    "popularity": 16,
     "tmdbId": 34852,
     "tmdbTipo": "tv",
     "seasons": [
@@ -226515,9 +226443,9 @@
       "Ficção e fantasia",
       "Ação e aventura"
     ],
-    "rating": "7.1",
+    "rating": "7.2",
     "age": "14",
-    "popularity": 9,
+    "popularity": 11,
     "tmdbId": 230050,
     "tmdbTipo": "tv",
     "seasons": [
@@ -246669,7 +246597,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 213233,
     "tmdbTipo": "tv",
     "seasons": [
@@ -267666,7 +267594,7 @@
       "Mistério",
       "Crime"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "14",
     "popularity": 6,
     "tmdbId": 120241,
@@ -268069,7 +267997,7 @@
     ],
     "rating": "7.5",
     "age": "12",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 135334,
     "tmdbTipo": "tv",
     "seasons": [
@@ -304255,7 +304183,7 @@
     ],
     "rating": "6.9",
     "age": "",
-    "popularity": 5,
+    "popularity": 6,
     "tmdbId": 82574,
     "tmdbTipo": "tv",
     "seasons": [
@@ -322447,7 +322375,7 @@
     ],
     "rating": "7.0",
     "age": "",
-    "popularity": 27,
+    "popularity": 21,
     "tmdbId": 197368,
     "tmdbTipo": "tv",
     "seasons": [
@@ -351100,7 +351028,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 106067,
     "tmdbTipo": "tv",
     "seasons": [
@@ -367926,7 +367854,7 @@
     ],
     "rating": "7.9",
     "age": "L",
-    "popularity": 28,
+    "popularity": 30,
     "tmdbId": 2284,
     "tmdbTipo": "tv",
     "seasons": [
@@ -380915,7 +380843,7 @@
     ],
     "rating": "7.8",
     "age": "L",
-    "popularity": 16,
+    "popularity": 17,
     "tmdbId": 35279,
     "tmdbTipo": "tv",
     "seasons": [
@@ -411298,7 +411226,7 @@
     ],
     "rating": "7.3",
     "age": "12",
-    "popularity": 21,
+    "popularity": 15,
     "tmdbId": 125909,
     "tmdbTipo": "tv",
     "seasons": [
@@ -511929,7 +511857,7 @@
     ],
     "rating": "7.7",
     "age": "14",
-    "popularity": 20,
+    "popularity": 14,
     "tmdbId": 280110,
     "tmdbTipo": "tv",
     "seasons": [
@@ -551606,7 +551534,7 @@
     ],
     "rating": "6.0",
     "age": "14",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 82257,
     "tmdbTipo": "tv",
     "seasons": [
@@ -587212,7 +587140,7 @@
     ],
     "rating": "8.0",
     "age": "14",
-    "popularity": 30,
+    "popularity": 26,
     "tmdbId": 80671,
     "tmdbTipo": "tv",
     "seasons": [
@@ -636946,7 +636874,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 8,
+    "popularity": 10,
     "tmdbId": 70787,
     "tmdbTipo": "tv",
     "seasons": [
@@ -651970,7 +651898,7 @@
     ],
     "rating": "8.0",
     "age": "10",
-    "popularity": 12,
+    "popularity": 13,
     "tmdbId": 103786,
     "tmdbTipo": "tv",
     "seasons": [
@@ -653422,7 +653350,7 @@
     ],
     "rating": "8.2",
     "age": "14",
-    "popularity": 7,
+    "popularity": 9,
     "tmdbId": 112162,
     "tmdbTipo": "tv",
     "seasons": [
@@ -700406,7 +700334,7 @@
     ],
     "rating": "7.4",
     "age": "12",
-    "popularity": 17,
+    "popularity": 15,
     "tmdbId": 65294,
     "tmdbTipo": "tv",
     "seasons": [
@@ -818213,7 +818141,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 257609,
     "tmdbTipo": "tv",
     "seasons": [
@@ -818968,7 +818896,7 @@
     ],
     "rating": "7.9",
     "age": "14",
-    "popularity": 32,
+    "popularity": 31,
     "tmdbId": 46261,
     "tmdbTipo": "tv",
     "seasons": [
@@ -834009,7 +833937,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 9,
+    "popularity": 8,
     "tmdbId": 223780,
     "tmdbTipo": "tv",
     "seasons": [
@@ -876788,7 +876716,7 @@
     ],
     "rating": "8.1",
     "age": "12",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 114500,
     "tmdbTipo": "tv",
     "seasons": [
@@ -881547,7 +881475,7 @@
     ],
     "rating": "7.4",
     "age": "L",
-    "popularity": 19,
+    "popularity": 18,
     "tmdbId": 92788,
     "tmdbTipo": "tv",
     "seasons": [
@@ -905220,7 +905148,7 @@
     ],
     "rating": "7.3",
     "age": "14",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 62773,
     "tmdbTipo": "tv",
     "seasons": [
@@ -923547,7 +923475,7 @@
     ],
     "rating": "6.9",
     "age": "",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 62171,
     "tmdbTipo": "tv",
     "seasons": [
@@ -934863,7 +934791,7 @@
       "Drama",
       "Comédia"
     ],
-    "rating": "8.3",
+    "rating": "8.2",
     "age": "12",
     "popularity": 51,
     "tmdbId": 14929,
@@ -985417,7 +985345,7 @@
     ],
     "rating": "7.5",
     "age": "12",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 135334,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1032135,7 +1032063,7 @@
     ],
     "rating": "7.5",
     "age": "14",
-    "popularity": 9,
+    "popularity": 8,
     "tmdbId": 203040,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1059321,7 +1059249,7 @@
     ],
     "rating": "7.5",
     "age": "14",
-    "popularity": 9,
+    "popularity": 8,
     "tmdbId": 203040,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1061217,7 +1061145,7 @@
     ],
     "rating": "7.4",
     "age": "L",
-    "popularity": 25,
+    "popularity": 23,
     "tmdbId": 39898,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1065171,7 +1065099,7 @@
     ],
     "rating": "6.3",
     "age": "12",
-    "popularity": 9,
+    "popularity": 8,
     "tmdbId": 138180,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1085569,9 +1085497,9 @@
       "Família",
       "Ação e aventura"
     ],
-    "rating": "8.5",
+    "rating": "8.7",
     "age": "14",
-    "popularity": 47,
+    "popularity": 54,
     "tmdbId": 274556,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1165035,7 +1164963,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 76219,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1169361,7 +1169289,7 @@
     ],
     "rating": "7.5",
     "age": "14",
-    "popularity": 25,
+    "popularity": 28,
     "tmdbId": 196400,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1192767,7 +1192695,7 @@
     ],
     "rating": "8.0",
     "age": "L",
-    "popularity": 15,
+    "popularity": 16,
     "tmdbId": 4459,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1199894,7 +1199822,7 @@
     ],
     "rating": "7.7",
     "age": "14",
-    "popularity": 20,
+    "popularity": 14,
     "tmdbId": 280110,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1244115,7 +1244043,7 @@
     ],
     "rating": "6.8",
     "age": "",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 285070,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1244431,7 +1244359,7 @@
     ],
     "rating": "8.1",
     "age": "L",
-    "popularity": 62,
+    "popularity": 66,
     "tmdbId": 212989,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1249193,7 +1249121,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 4,
+    "popularity": 6,
     "tmdbId": 65615,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1302193,7 +1302121,7 @@
     ],
     "rating": "8.1",
     "age": "L",
-    "popularity": 41,
+    "popularity": 40,
     "tmdbId": 79061,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1394522,7 +1394450,7 @@
     ],
     "rating": "8.1",
     "age": "L",
-    "popularity": 15,
+    "popularity": 18,
     "tmdbId": 1072,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1404920,7 +1404848,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 0,
+    "popularity": 1,
     "tmdbId": 202121,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1418970,7 +1418898,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 20113,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1439239,7 +1439167,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 45,
+    "popularity": 48,
     "tmdbId": 5687,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1450962,7 +1450890,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 39914,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1454154,9 +1454082,9 @@
       "Ação e aventura",
       "Ficção e fantasia"
     ],
-    "rating": "8.1",
+    "rating": "8.0",
     "age": "14",
-    "popularity": 36,
+    "popularity": 22,
     "tmdbId": 112613,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1461853,9 +1461781,9 @@
       "Animação",
       "Drama"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 36157,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1464976,7 +1464904,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 12,
+    "popularity": 14,
     "tmdbId": 31628,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1484247,7 +1484175,7 @@
     ],
     "rating": "9.0",
     "age": "12",
-    "popularity": 21,
+    "popularity": 11,
     "tmdbId": 306762,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1504510,7 +1504438,7 @@
     ],
     "rating": "6.3",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 7407,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1572432,7 +1572360,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 29,
+    "popularity": 28,
     "tmdbId": 46928,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1576680,7 +1576608,7 @@
     ],
     "rating": "9.0",
     "age": "12",
-    "popularity": 21,
+    "popularity": 11,
     "tmdbId": 306762,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1587487,7 +1587415,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 7,
+    "popularity": 5,
     "tmdbId": 114199,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1614733,7 +1614661,7 @@
     ],
     "rating": "6.3",
     "age": "14",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 206748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1614928,7 +1614856,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 205504,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1619229,7 +1619157,7 @@
     ],
     "rating": "8.3",
     "age": "14",
-    "popularity": 34,
+    "popularity": 29,
     "tmdbId": 210879,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1652993,7 +1652921,7 @@
     ],
     "rating": "7.0",
     "age": "14",
-    "popularity": 9,
+    "popularity": 11,
     "tmdbId": 206630,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1653530,7 +1653458,7 @@
     ],
     "rating": "6.3",
     "age": "14",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 206748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1678781,7 +1678709,7 @@
     ],
     "rating": "8.5",
     "age": "L",
-    "popularity": 16,
+    "popularity": 17,
     "tmdbId": 79732,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1696492,7 +1696420,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 11,
+    "popularity": 14,
     "tmdbId": 42419,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1702699,7 +1702627,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 320619,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1706943,7 +1706871,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 7,
+    "popularity": 9,
     "tmdbId": 37613,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1733122,7 +1733050,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 293125,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1755433,9 +1755361,9 @@
       "Animação",
       "Drama"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 36157,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1805961,7 +1805889,7 @@
     ],
     "rating": "8.0",
     "age": "14",
-    "popularity": 19,
+    "popularity": 16,
     "tmdbId": 208891,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1819713,7 +1819641,7 @@
     ],
     "rating": "8.4",
     "age": "14",
-    "popularity": 34,
+    "popularity": 32,
     "tmdbId": 82684,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1825961,11 +1825889,11 @@
   {
     "cat": "Séries",
     "title": "The Chosen Os Escolhidos",
-    "desc": "Aprofundando-se nas histórias de fundo e no contexto das pessoas e eventos dos evangelhos, a Primeira Temporada do projeto de mídia de maior financiamento coletivo pelo público de todos os tempos apresenta pessoas como Simão Pedro, Nicodemos, Maria Madalena, Mateus e, claro, Jesus de uma forma nunca antes vista em filme.",
+    "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/5xeRFCX5j5oNAudvR5GhN664ejC.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/5xeRFCX5j5oNAudvR5GhN664ejC.png",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg",
+    "logo": "",
+    "bannerlogo": "",
     "year": "2019",
     "genre": "Ação e aventura, Família, Drama",
     "genres": [
@@ -1825976,8 +1825904,6 @@
     "rating": "8.8",
     "age": "12",
     "popularity": 65,
-    "tmdbId": 85077,
-    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -1831839,7 +1831765,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 31441,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1839656,7 +1839582,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "tmdbId": 259337,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1867536,7 +1867462,7 @@
     ],
     "rating": "7.2",
     "age": "14",
-    "popularity": 35,
+    "popularity": 3,
     "tmdbId": 256324,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1897973,7 +1897899,7 @@
     ],
     "rating": "8.7",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 157485,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1905631,7 +1905557,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 12,
+    "popularity": 15,
     "tmdbId": 281777,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1912500,7 +1912426,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 7,
+    "popularity": 12,
     "tmdbId": 283818,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1916776,7 +1916702,7 @@
     ],
     "rating": "6.2",
     "age": "L",
-    "popularity": 17,
+    "popularity": 19,
     "tmdbId": 74739,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1940447,7 +1940373,7 @@
     ],
     "rating": "8.2",
     "age": "L",
-    "popularity": 19,
+    "popularity": 18,
     "tmdbId": 61720,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1964115,7 +1964041,7 @@
     ],
     "rating": "8.1",
     "age": "14",
-    "popularity": 21,
+    "popularity": 23,
     "tmdbId": 223500,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2022040,7 +2021966,7 @@
     ],
     "rating": "8.0",
     "age": "10",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 72462,
     "tmdbTipo": "tv",
     "seasons": [

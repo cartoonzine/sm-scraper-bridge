@@ -50077,7 +50077,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 129479,
     "tmdbTipo": "tv",
     "seasons": [
@@ -76945,7 +76945,7 @@
     ],
     "rating": "7.8",
     "age": "14",
-    "popularity": 25,
+    "popularity": 22,
     "tmdbId": 56296,
     "tmdbTipo": "tv",
     "seasons": [
@@ -122473,7 +122473,7 @@
     ],
     "rating": "5.4",
     "age": "",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 210318,
     "tmdbTipo": "tv",
     "seasons": [
@@ -129416,7 +129416,7 @@
     ],
     "rating": "8.1",
     "age": "L",
-    "popularity": 15,
+    "popularity": 18,
     "tmdbId": 1072,
     "tmdbTipo": "tv",
     "seasons": [
@@ -144140,7 +144140,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 0,
+    "popularity": 1,
     "tmdbId": 202121,
     "tmdbTipo": "tv",
     "seasons": [
@@ -167774,7 +167774,7 @@
     ],
     "rating": "7.7",
     "age": "16",
-    "popularity": 7,
+    "popularity": 8,
     "tmdbId": 33234,
     "tmdbTipo": "tv",
     "seasons": [
@@ -178761,7 +178761,7 @@
     ],
     "rating": "8.7",
     "age": "16",
-    "popularity": 14,
+    "popularity": 12,
     "tmdbId": 259837,
     "tmdbTipo": "tv",
     "seasons": [
@@ -181016,7 +181016,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 20113,
     "tmdbTipo": "tv",
     "seasons": [
@@ -202779,7 +202779,7 @@
     ],
     "rating": "7.0",
     "age": "L",
-    "popularity": 45,
+    "popularity": 48,
     "tmdbId": 5687,
     "tmdbTipo": "tv",
     "seasons": [
@@ -221842,7 +221842,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 39914,
     "tmdbTipo": "tv",
     "seasons": [
@@ -227369,7 +227369,7 @@
       "Crime",
       "Drama"
     ],
-    "rating": "8.0",
+    "rating": "7.9",
     "age": "16",
     "popularity": 3,
     "tmdbId": 64379,
@@ -231969,9 +231969,9 @@
       "Ação e aventura",
       "Ficção e fantasia"
     ],
-    "rating": "8.1",
+    "rating": "8.0",
     "age": "14",
-    "popularity": 36,
+    "popularity": 22,
     "tmdbId": 112613,
     "tmdbTipo": "tv",
     "seasons": [
@@ -233612,7 +233612,7 @@
     ],
     "rating": "8.2",
     "age": "16",
-    "popularity": 36,
+    "popularity": 35,
     "tmdbId": 100757,
     "tmdbTipo": "tv",
     "seasons": [
@@ -237114,11 +237114,11 @@
   {
     "cat": "Séries",
     "title": "Outlander Blood of My Blood",
-    "desc": "",
+    "desc": "Dos campos de batalha da Primeira Guerra Mundial às montanhas acidentadas da Escócia do século XVIII, dois casais destinados a ficar juntos devem desafiar as forças que procuram separá-los, em uma saga romântica que se desenrola de maneiras surpreendentes e inesperadas ao longo do tempo.",
     "thumb": "https://image.tmdb.org/t/p/w500/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg",
-    "logo": "",
-    "bannerlogo": "",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/6eECm9N8strXVkOgT7f3Pd6n3p0.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/6eECm9N8strXVkOgT7f3Pd6n3p0.png",
     "year": "2025",
     "genre": "Drama",
     "genres": [
@@ -237127,6 +237127,8 @@
     "rating": "8.7",
     "age": "16",
     "popularity": 24,
+    "tmdbId": 207484,
+    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -239583,7 +239585,7 @@
     ],
     "rating": "8.4",
     "age": "16",
-    "popularity": 32,
+    "popularity": 37,
     "tmdbId": 64196,
     "tmdbTipo": "tv",
     "seasons": [
@@ -266842,7 +266844,7 @@
     ],
     "rating": "7.6",
     "age": "12",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 292625,
     "tmdbTipo": "tv",
     "seasons": [
@@ -273531,7 +273533,7 @@
     ],
     "rating": "6.2",
     "age": "16",
-    "popularity": 11,
+    "popularity": 10,
     "tmdbId": 157367,
     "tmdbTipo": "tv",
     "seasons": [
@@ -276735,9 +276737,9 @@
       "Animação",
       "Drama"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 36157,
     "tmdbTipo": "tv",
     "seasons": [
@@ -284298,7 +284300,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 12,
+    "popularity": 14,
     "tmdbId": 31628,
     "tmdbTipo": "tv",
     "seasons": [
@@ -294455,7 +294457,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 318419,
     "tmdbTipo": "tv",
     "seasons": [
@@ -305374,7 +305376,7 @@
     ],
     "rating": "6.7",
     "age": "16",
-    "popularity": 12,
+    "popularity": 11,
     "tmdbId": 241882,
     "tmdbTipo": "tv",
     "seasons": [
@@ -354874,7 +354876,7 @@
     ],
     "rating": "9.0",
     "age": "12",
-    "popularity": 21,
+    "popularity": 11,
     "tmdbId": 306762,
     "tmdbTipo": "tv",
     "seasons": [
@@ -390500,7 +390502,7 @@
     ],
     "rating": "7.4",
     "age": "14",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 154822,
     "tmdbTipo": "tv",
     "seasons": [
@@ -394234,7 +394236,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 86152,
     "tmdbTipo": "tv",
     "seasons": [
@@ -406911,7 +406913,7 @@
     ],
     "rating": "6.3",
     "age": "L",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 7407,
     "tmdbTipo": "tv",
     "seasons": [
@@ -433553,7 +433555,7 @@
     ],
     "rating": "7.7",
     "age": "12",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 61350,
     "tmdbTipo": "tv",
     "seasons": [
@@ -493691,7 +493693,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 105445,
     "tmdbTipo": "tv",
     "seasons": [
@@ -543419,7 +543421,7 @@
     ],
     "rating": "7.5",
     "age": "16",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 35519,
     "tmdbTipo": "tv",
     "seasons": [
@@ -543902,9 +543904,9 @@
       "Animação",
       "Comédia"
     ],
-    "rating": "6.8",
+    "rating": "6.9",
     "age": "16",
-    "popularity": 11,
+    "popularity": 10,
     "tmdbId": 296756,
     "tmdbTipo": "tv",
     "seasons": [
@@ -556435,7 +556437,7 @@
     ],
     "rating": "7.2",
     "age": "L",
-    "popularity": 29,
+    "popularity": 28,
     "tmdbId": 46928,
     "tmdbTipo": "tv",
     "seasons": [
@@ -561029,7 +561031,7 @@
     ],
     "rating": "5.7",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 306502,
     "tmdbTipo": "tv",
     "seasons": [
@@ -561350,7 +561352,7 @@
     ],
     "rating": "9.0",
     "age": "12",
-    "popularity": 21,
+    "popularity": 11,
     "tmdbId": 306762,
     "tmdbTipo": "tv",
     "seasons": [
@@ -561554,7 +561556,7 @@
     ],
     "rating": "8.1",
     "age": "16",
-    "popularity": 101,
+    "popularity": 91,
     "tmdbId": 2288,
     "tmdbTipo": "tv",
     "seasons": [
@@ -563124,7 +563126,7 @@
     ],
     "rating": "8.1",
     "age": "16",
-    "popularity": 101,
+    "popularity": 91,
     "tmdbId": 2288,
     "tmdbTipo": "tv",
     "seasons": [
@@ -564575,7 +564577,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 65989,
     "tmdbTipo": "tv",
     "seasons": [
@@ -566228,7 +566230,7 @@
     ],
     "rating": "7.3",
     "age": "12",
-    "popularity": 28,
+    "popularity": 22,
     "tmdbId": 66599,
     "tmdbTipo": "tv",
     "seasons": [
@@ -598928,7 +598930,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 7,
+    "popularity": 5,
     "tmdbId": 114199,
     "tmdbTipo": "tv",
     "seasons": [
@@ -636018,7 +636020,7 @@
     ],
     "rating": "9.2",
     "age": "",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 305644,
     "tmdbTipo": "tv",
     "seasons": [
@@ -664690,7 +664692,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 130048,
     "tmdbTipo": "tv",
     "seasons": [
@@ -667470,7 +667472,7 @@
     ],
     "rating": "8.3",
     "age": "18",
-    "popularity": 25,
+    "popularity": 28,
     "tmdbId": 2902,
     "tmdbTipo": "tv",
     "seasons": [
@@ -686346,9 +686348,9 @@
       "Crime",
       "Mistério"
     ],
-    "rating": "7.5",
+    "rating": "7.4",
     "age": "14",
-    "popularity": 31,
+    "popularity": 17,
     "tmdbId": 302074,
     "tmdbTipo": "tv",
     "seasons": [
@@ -688086,9 +688088,9 @@
       "Crime",
       "Mistério"
     ],
-    "rating": "7.5",
+    "rating": "7.4",
     "age": "14",
-    "popularity": 31,
+    "popularity": 17,
     "tmdbId": 302074,
     "tmdbTipo": "tv",
     "seasons": [
@@ -707826,7 +707828,7 @@
     ],
     "rating": "9.1",
     "age": "16",
-    "popularity": 31,
+    "popularity": 28,
     "seasons": [
       {
         "season": 1,
@@ -712635,7 +712637,7 @@
     ],
     "rating": "7.1",
     "age": "",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 20056,
     "tmdbTipo": "tv",
     "seasons": [
@@ -721104,11 +721106,11 @@
   {
     "cat": "Séries",
     "title": "Reacher",
-    "desc": "",
+    "desc": "Quando o policial militar aposentado Jack Reacher é preso por um assassinato que não cometeu, ele se vê no meio de uma trama mortal cheia de policiais corruptos, empresários obscuros e políticos conspiradores. Só com sua inteligência, ele precisa descobrir o que está havendo em Margrave, Geórgia.",
     "thumb": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-    "logo": "",
-    "bannerlogo": "",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/2YkCVT6opPxKh2ogEqxVrCiFgsr.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/2YkCVT6opPxKh2ogEqxVrCiFgsr.png",
     "year": "2022",
     "genre": "Ação e aventura, Crime",
     "genres": [
@@ -721118,6 +721120,8 @@
     "rating": "8.1",
     "age": "16",
     "popularity": 175,
+    "tmdbId": 108978,
+    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -754902,7 +754906,7 @@
     ],
     "rating": "7.6",
     "age": "14",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 74064,
     "tmdbTipo": "tv",
     "seasons": [
@@ -764355,7 +764359,7 @@
     ],
     "rating": "7.6",
     "age": "16",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 208533,
     "tmdbTipo": "tv",
     "seasons": [
@@ -769165,7 +769169,7 @@
     ],
     "rating": "7.7",
     "age": "",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 233205,
     "tmdbTipo": "tv",
     "seasons": [
@@ -824754,7 +824758,7 @@
     "genres": [
       "Drama"
     ],
-    "rating": "7.2",
+    "rating": "7.0",
     "age": "",
     "popularity": 1,
     "tmdbId": 156135,
@@ -842306,7 +842310,7 @@
     ],
     "rating": "",
     "age": "12",
-    "popularity": 13,
+    "popularity": 14,
     "tmdbId": 123331,
     "tmdbTipo": "tv",
     "seasons": [
@@ -879599,7 +879603,7 @@
     ],
     "rating": "6.3",
     "age": "14",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 206748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -882304,7 +882308,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 205504,
     "tmdbTipo": "tv",
     "seasons": [
@@ -908007,7 +908011,7 @@
     ],
     "rating": "8.3",
     "age": "14",
-    "popularity": 34,
+    "popularity": 29,
     "tmdbId": 210879,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1003657,7 +1003661,7 @@
     ],
     "rating": "8.3",
     "age": "",
-    "popularity": 12,
+    "popularity": 13,
     "tmdbId": 195518,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1004851,7 +1004855,7 @@
     ],
     "rating": "7.0",
     "age": "14",
-    "popularity": 9,
+    "popularity": 11,
     "tmdbId": 206630,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1008747,7 +1008751,7 @@
     ],
     "rating": "6.3",
     "age": "14",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 206748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1029560,7 +1029564,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 207862,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1046548,9 +1046552,9 @@
     "genres": [
       "Documentário"
     ],
-    "rating": "8.3",
+    "rating": "8.4",
     "age": "14",
-    "popularity": 11,
+    "popularity": 14,
     "tmdbId": 316992,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1065635,7 +1065639,7 @@
     ],
     "rating": "7.6",
     "age": "",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 278882,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1065759,7 +1065763,7 @@
     ],
     "rating": "7.1",
     "age": "14",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 222288,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1066909,7 +1066913,7 @@
       "Documentário",
       "Ação e aventura"
     ],
-    "rating": "8.1",
+    "rating": "8.0",
     "age": "14",
     "popularity": 4,
     "tmdbId": 115996,
@@ -1104036,7 +1104040,7 @@
     ],
     "rating": "7.5",
     "age": "16",
-    "popularity": 15,
+    "popularity": 16,
     "tmdbId": 88055,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1146839,7 +1146843,7 @@
     ],
     "rating": "8.5",
     "age": "L",
-    "popularity": 16,
+    "popularity": 17,
     "tmdbId": 79732,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1159756,7 +1159760,7 @@
     ],
     "rating": "7.6",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 252376,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1189645,7 +1189649,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 11,
+    "popularity": 14,
     "tmdbId": 42419,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1197027,11 +1197031,11 @@
   {
     "cat": "Séries",
     "title": "Slow Horses",
-    "desc": "",
+    "desc": "Este drama perspicaz acompanha uma equipe disfuncional de agentes da MI5 – e seu chefe arrogante, o notório Jackson Lamb – enquanto navegam os mistérios e ilusões do mundo da espionagem para proteger a Inglaterra de forças sinistras.",
     "thumb": "https://image.tmdb.org/t/p/w500/rdNvIaPXpkUZl5tQLsTP15osfu2.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/rdNvIaPXpkUZl5tQLsTP15osfu2.jpg",
-    "logo": "",
-    "bannerlogo": "",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/peE0Gab2MWjXPlAYhakxjHciNPr.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/peE0Gab2MWjXPlAYhakxjHciNPr.png",
     "year": "2022",
     "genre": "Crime, Drama, Mistério",
     "genres": [
@@ -1197042,6 +1197046,8 @@
     "rating": "8.1",
     "age": "16",
     "popularity": 129,
+    "tmdbId": 95480,
+    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -1204407,7 +1204413,7 @@
     ],
     "rating": "",
     "age": "12",
-    "popularity": 2,
+    "popularity": 3,
     "tmdbId": 224382,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1205272,7 +1205278,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 7,
+    "popularity": 9,
     "tmdbId": 26338,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1208982,7 +1208988,7 @@
     ],
     "rating": "8.5",
     "age": "14",
-    "popularity": 10,
+    "popularity": 8,
     "tmdbId": 108291,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1226710,7 +1226716,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 65859,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1229014,7 +1229020,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 320619,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1256921,7 +1256927,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 7,
+    "popularity": 9,
     "tmdbId": 37613,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1303465,7 +1303471,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 293125,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1336974,7 +1336980,7 @@
     ],
     "rating": "6.6",
     "age": "14",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 93288,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1349313,9 +1349319,9 @@
       "Animação",
       "Drama"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 36157,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1356224,7 +1356230,7 @@
     ],
     "rating": "5.4",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 133431,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1399182,7 +1399188,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 13,
+    "popularity": 14,
     "tmdbId": 69555,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1445835,7 +1445841,7 @@
     ],
     "rating": "6.5",
     "age": "14",
-    "popularity": 16,
+    "popularity": 14,
     "tmdbId": 68006,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1491098,7 +1491104,7 @@
     ],
     "rating": "8.0",
     "age": "14",
-    "popularity": 19,
+    "popularity": 16,
     "tmdbId": 208891,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1493792,7 +1493798,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 91820,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1515600,9 +1515606,9 @@
       "Mistério",
       "Ação e aventura"
     ],
-    "rating": "6.7",
+    "rating": "6.8",
     "age": "14",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 32754,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1518516,7 +1518522,7 @@
     ],
     "rating": "6.4",
     "age": "14",
-    "popularity": 23,
+    "popularity": 22,
     "tmdbId": 209265,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1529309,7 +1529315,7 @@
     ],
     "rating": "8.4",
     "age": "14",
-    "popularity": 34,
+    "popularity": 32,
     "tmdbId": 82684,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1542840,9 +1542846,9 @@
     "genres": [
       "Drama"
     ],
-    "rating": "5.3",
+    "rating": "5.1",
     "age": "16",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 197124,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1547537,7 +1547543,7 @@
     ],
     "rating": "8.4",
     "age": "18",
-    "popularity": 88,
+    "popularity": 89,
     "tmdbId": 76479,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1553914,11 +1553920,11 @@
   {
     "cat": "Séries",
     "title": "The Chosen Os Escolhidos",
-    "desc": "Aprofundando-se nas histórias de fundo e no contexto das pessoas e eventos dos evangelhos, a Primeira Temporada do projeto de mídia de maior financiamento coletivo pelo público de todos os tempos apresenta pessoas como Simão Pedro, Nicodemos, Maria Madalena, Mateus e, claro, Jesus de uma forma nunca antes vista em filme.",
+    "desc": "",
     "thumb": "https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/5xeRFCX5j5oNAudvR5GhN664ejC.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/5xeRFCX5j5oNAudvR5GhN664ejC.png",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg",
+    "logo": "",
+    "bannerlogo": "",
     "year": "2019",
     "genre": "Ação e aventura, Família, Drama",
     "genres": [
@@ -1553929,8 +1553935,6 @@
     "rating": "8.8",
     "age": "12",
     "popularity": 65,
-    "tmdbId": 85077,
-    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -1580036,7 +1580040,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 31441,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1628886,7 +1628890,7 @@
     ],
     "rating": "7.8",
     "age": "",
-    "popularity": 5,
+    "popularity": 6,
     "tmdbId": 134679,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1629700,7 +1629704,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "tmdbId": 259337,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1635733,7 +1635737,7 @@
     ],
     "rating": "7.6",
     "age": "16",
-    "popularity": 252,
+    "popularity": 137,
     "tmdbId": 64432,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1640504,7 +1640508,7 @@
     ],
     "rating": "7.6",
     "age": "12",
-    "popularity": 61,
+    "popularity": 62,
     "tmdbId": 1422,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1711632,7 +1711636,7 @@
     ],
     "rating": "8.0",
     "age": "16",
-    "popularity": 25,
+    "popularity": 22,
     "tmdbId": 211684,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1739137,7 +1739141,7 @@
     ],
     "rating": "7.6",
     "age": "16",
-    "popularity": 18,
+    "popularity": 13,
     "tmdbId": 126116,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1764492,7 +1764496,7 @@
     ],
     "rating": "7.2",
     "age": "14",
-    "popularity": 35,
+    "popularity": 3,
     "tmdbId": 256324,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1769856,7 +1769860,7 @@
     ],
     "rating": "6.5",
     "age": "16",
-    "popularity": 47,
+    "popularity": 10,
     "tmdbId": 117830,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1798216,7 +1798220,7 @@
     ],
     "rating": "6.1",
     "age": "",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 245773,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1881183,7 +1881187,7 @@
     ],
     "rating": "7.0",
     "age": "14",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 223329,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1886009,7 +1886013,7 @@
     ],
     "rating": "8.7",
     "age": "L",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 157485,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1890153,7 +1890157,7 @@
     ],
     "rating": "7.7",
     "age": "16",
-    "popularity": 12,
+    "popularity": 11,
     "tmdbId": 133748,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1905064,7 +1905068,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 16,
+    "popularity": 19,
     "tmdbId": 42679,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1934983,7 +1934987,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 12,
+    "popularity": 15,
     "tmdbId": 281777,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1973613,7 +1973617,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 7,
+    "popularity": 12,
     "tmdbId": 283818,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2006508,7 +2006512,7 @@
     ],
     "rating": "7.1",
     "age": "14",
-    "popularity": 22,
+    "popularity": 20,
     "tmdbId": 61671,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2010684,7 +2010688,7 @@
     ],
     "rating": "7.2",
     "age": "16",
-    "popularity": 48,
+    "popularity": 40,
     "tmdbId": 39276,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2015668,7 +2015672,7 @@
     ],
     "rating": "6.2",
     "age": "L",
-    "popularity": 17,
+    "popularity": 19,
     "tmdbId": 74739,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2018266,7 +2018270,7 @@
     ],
     "rating": "6.9",
     "age": "",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 99517,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2056002,7 +2056006,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 259902,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2143183,7 +2143187,7 @@
     ],
     "rating": "8.5",
     "age": "16",
-    "popularity": 16,
+    "popularity": 11,
     "tmdbId": 88803,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2145959,7 +2145963,7 @@
     ],
     "rating": "8.2",
     "age": "L",
-    "popularity": 19,
+    "popularity": 18,
     "tmdbId": 61720,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2164049,7 +2164053,7 @@
     ],
     "rating": "6.0",
     "age": "",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 291470,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2216626,9 +2216630,9 @@
       "Ficção e fantasia",
       "Mistério"
     ],
-    "rating": "7.3",
+    "rating": "7.2",
     "age": "",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 86449,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2232961,7 +2232965,7 @@
     ],
     "rating": "8.1",
     "age": "14",
-    "popularity": 21,
+    "popularity": 23,
     "tmdbId": 223500,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2242061,7 +2242065,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 13,
+    "popularity": 14,
     "tmdbId": 69555,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2256634,7 +2256638,7 @@
     ],
     "rating": "7.9",
     "age": "16",
-    "popularity": 16,
+    "popularity": 20,
     "tmdbId": 46143,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2290655,11 +2290659,11 @@
   {
     "cat": "Séries",
     "title": "Yellowjackets",
-    "desc": "",
+    "desc": "A trama foca em um time de talentosas jogadoras de futebol do ensino médio de Nova Jersey, que viaja para Seattle por conta de um torneio nacional. No entanto, o avião que levava o grupo de atletas cai no distante deserto de Ontário, no Canadá. As jovens sobrevivem ao acidente, mas acabam presas em uma região inóspita, onde são obrigadas a se transformar em um clã selvagem se quiserem sobreviver. Com duas linhas temporais, a série salta para 2021, onde apresenta as personagens adultas tentando reconstruir suas vidas, apesar de o passado ser difícil de ignorar.",
     "thumb": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-    "logo": "",
-    "bannerlogo": "",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png",
     "year": "2021",
     "genre": "Drama, Mistério",
     "genres": [
@@ -2290669,6 +2290673,8 @@
     "rating": "7.4",
     "age": "16",
     "popularity": 31,
+    "tmdbId": 117488,
+    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -2326091,7 +2326097,7 @@
     ],
     "rating": "8.7",
     "age": "",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 67144,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2339870,7 +2339876,7 @@
     ],
     "rating": "7.8",
     "age": "16",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 92137,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2342231,7 +2342237,7 @@
     ],
     "rating": "8.0",
     "age": "10",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 72462,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2344210,7 +2344216,7 @@
     ],
     "rating": "",
     "age": "16",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 46314,
     "tmdbTipo": "tv",
     "seasons": [

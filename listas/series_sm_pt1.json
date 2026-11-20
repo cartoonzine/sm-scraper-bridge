@@ -16546,7 +16546,7 @@
     ],
     "rating": "",
     "age": "16",
-    "popularity": 0,
+    "popularity": 1,
     "tmdbId": 296219,
     "tmdbTipo": "tv",
     "seasons": [
@@ -33628,7 +33628,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 208427,
     "tmdbTipo": "tv",
     "seasons": [
@@ -47260,7 +47260,7 @@
     ],
     "rating": "8.0",
     "age": "L",
-    "popularity": 39,
+    "popularity": 43,
     "tmdbId": 4455,
     "tmdbTipo": "tv",
     "seasons": [
@@ -56853,7 +56853,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 3,
     "tmdbId": 205154,
     "tmdbTipo": "tv",
     "seasons": [
@@ -84113,7 +84113,7 @@
     "genres": [
       "Reality"
     ],
-    "rating": "7.7",
+    "rating": "7.8",
     "age": "12",
     "popularity": 3,
     "tmdbId": 293613,
@@ -111787,7 +111787,7 @@
     ],
     "rating": "7.7",
     "age": "L",
-    "popularity": 25,
+    "popularity": 27,
     "tmdbId": 72027,
     "tmdbTipo": "tv",
     "seasons": [
@@ -137746,7 +137746,7 @@
     ],
     "rating": "",
     "age": "12",
-    "popularity": 5,
+    "popularity": 11,
     "tmdbId": 283704,
     "tmdbTipo": "tv",
     "seasons": [
@@ -139236,6 +139236,90 @@
   },
   {
     "cat": "Séries",
+    "title": "A Culinária Caseira de Duff",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/txmSBp6ZIzXJEnxij1dRjqyF12x.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/txmSBp6ZIzXJEnxij1dRjqyF12x.jpg",
+    "logo": "",
+    "bannerlogo": "",
+    "year": "",
+    "genre": "Série",
+    "genres": [
+      "Série"
+    ],
+    "rating": "",
+    "age": "",
+    "popularity": 0,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/1.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/2.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/3.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/4.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/5.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "fontes": [
+              {
+                "url": "https://nixplay.lat/series/saimo-vods/221097/200742/1/6.mp4",
+                "idioma": "dublado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cat": "Séries",
     "title": "A Culpa é Da Carlota",
     "desc": "Primeiro show de humor totalmente conduzido por mulheres brasileiras de diferentes regiões do país para discutir problemas,  particularidades e características marcantes de forma sarcástica e até feminista, mas sempre priorizando a piada.",
     "thumb": "https://image.tmdb.org/t/p/w500/cAvJIaq2fMQKGB0vWYHv9NxpTso.jpg",
@@ -139683,7 +139767,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 4,
+    "popularity": 5,
     "tmdbId": 89214,
     "tmdbTipo": "tv",
     "seasons": [
@@ -166621,7 +166705,7 @@
     ],
     "rating": "",
     "age": "10",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 97293,
     "tmdbTipo": "tv",
     "seasons": [
@@ -167325,7 +167409,7 @@
     ],
     "rating": "",
     "age": "10",
-    "popularity": 3,
+    "popularity": 2,
     "tmdbId": 97293,
     "tmdbTipo": "tv",
     "seasons": [
@@ -208732,7 +208816,7 @@
     ],
     "rating": "7.9",
     "age": "",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 96305,
     "tmdbTipo": "tv",
     "seasons": [
@@ -280907,11 +280991,11 @@
   {
     "cat": "Séries",
     "title": "A Idade Dourada",
-    "desc": "Após a morte do pai, a jovem Marian Brook se muda para a Nova York de 1882 - uma cidade à beira da modernidade, onde velho e novo se chocam.",
-    "thumb": "https://image.tmdb.org/t/p/w500/agrNZZDXsOThmNFB0cjXeb35BvQ.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/afUVsProh46h31w2EvL7qyHXrqj.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/tNHLd3nm9ZgxxI2C0tmwrIOZUPj.png",
-    "bannerlogo": "https://image.tmdb.org/t/p/w500/tNHLd3nm9ZgxxI2C0tmwrIOZUPj.png",
+    "desc": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/9o2AsYUGahwHFrler8NGEwFBiBj.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/9o2AsYUGahwHFrler8NGEwFBiBj.jpg",
+    "logo": "",
+    "bannerlogo": "",
     "year": "2022",
     "genre": "Drama",
     "genres": [
@@ -280920,8 +281004,6 @@
     "rating": "7.7",
     "age": "16",
     "popularity": 47,
-    "tmdbId": 81723,
-    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -308788,7 +308870,7 @@
     ],
     "rating": "7.7",
     "age": "",
-    "popularity": 13,
+    "popularity": 16,
     "tmdbId": 34852,
     "tmdbTipo": "tv",
     "seasons": [
@@ -329980,7 +330062,7 @@
     ],
     "rating": "7.5",
     "age": "16",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 109958,
     "tmdbTipo": "tv",
     "seasons": [
@@ -343234,7 +343316,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 330129,
     "tmdbTipo": "tv",
     "seasons": [
@@ -454153,9 +454235,9 @@
       "Ficção e fantasia",
       "Ação e aventura"
     ],
-    "rating": "7.1",
+    "rating": "7.2",
     "age": "14",
-    "popularity": 9,
+    "popularity": 11,
     "tmdbId": 230050,
     "tmdbTipo": "tv",
     "seasons": [
@@ -485859,7 +485941,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 1,
+    "popularity": 0,
     "tmdbId": 220674,
     "tmdbTipo": "tv",
     "seasons": [
@@ -503059,7 +503141,7 @@
     ],
     "rating": "7.5",
     "age": "",
-    "popularity": 5,
+    "popularity": 6,
     "tmdbId": 88783,
     "tmdbTipo": "tv",
     "seasons": [
@@ -523616,7 +523698,7 @@
     ],
     "rating": "8.5",
     "age": "",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 319037,
     "tmdbTipo": "tv",
     "seasons": [
@@ -523656,7 +523738,7 @@
     ],
     "rating": "7.8",
     "age": "",
-    "popularity": 15,
+    "popularity": 10,
     "tmdbId": 295170,
     "tmdbTipo": "tv",
     "seasons": [
@@ -532582,7 +532664,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 213233,
     "tmdbTipo": "tv",
     "seasons": [
@@ -541928,7 +542010,7 @@
     ],
     "rating": "7.3",
     "age": "16",
-    "popularity": 17,
+    "popularity": 15,
     "tmdbId": 72755,
     "tmdbTipo": "tv",
     "seasons": [
@@ -553827,7 +553909,7 @@
     ],
     "rating": "8.6",
     "age": "",
-    "popularity": 7,
+    "popularity": 17,
     "tmdbId": 226102,
     "tmdbTipo": "tv",
     "seasons": [
@@ -575257,7 +575339,7 @@
     ],
     "rating": "7.4",
     "age": "14",
-    "popularity": 19,
+    "popularity": 28,
     "tmdbId": 138501,
     "tmdbTipo": "tv",
     "seasons": [
@@ -576245,7 +576327,7 @@
     ],
     "rating": "8.0",
     "age": "L",
-    "popularity": 39,
+    "popularity": 43,
     "tmdbId": 4455,
     "tmdbTipo": "tv",
     "seasons": [
@@ -593210,7 +593292,7 @@
     ],
     "rating": "7.3",
     "age": "16",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 235356,
     "tmdbTipo": "tv",
     "seasons": [
@@ -595372,8 +595454,8 @@
       "Drama"
     ],
     "rating": "7.7",
-    "age": "",
-    "popularity": 8,
+    "age": "12",
+    "popularity": 7,
     "tmdbId": 219446,
     "tmdbTipo": "tv",
     "seasons": [
@@ -602998,7 +603080,7 @@
     ],
     "rating": "7.5",
     "age": "16",
-    "popularity": 11,
+    "popularity": 9,
     "tmdbId": 100436,
     "tmdbTipo": "tv",
     "seasons": [
@@ -603193,7 +603275,7 @@
       "Mistério",
       "Crime"
     ],
-    "rating": "7.2",
+    "rating": "7.1",
     "age": "14",
     "popularity": 6,
     "tmdbId": 120241,
@@ -603596,7 +603678,7 @@
     ],
     "rating": "7.5",
     "age": "12",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 135334,
     "tmdbTipo": "tv",
     "seasons": [
@@ -613536,7 +613618,7 @@
     ],
     "rating": "7.4",
     "age": "14",
-    "popularity": 13,
+    "popularity": 12,
     "tmdbId": 202308,
     "tmdbTipo": "tv",
     "seasons": [
@@ -614209,7 +614291,7 @@
     ],
     "rating": "7.4",
     "age": "14",
-    "popularity": 13,
+    "popularity": 12,
     "tmdbId": 202308,
     "tmdbTipo": "tv",
     "seasons": [
@@ -622382,7 +622464,7 @@
     ],
     "rating": "8.1",
     "age": "16",
-    "popularity": 39,
+    "popularity": 29,
     "tmdbId": 110316,
     "tmdbTipo": "tv",
     "seasons": [
@@ -641691,7 +641773,7 @@
     ],
     "rating": "7.2",
     "age": "14",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 100383,
     "tmdbTipo": "tv",
     "seasons": [
@@ -674551,7 +674633,7 @@
     ],
     "rating": "7.6",
     "age": "14",
-    "popularity": 21,
+    "popularity": 22,
     "tmdbId": 64513,
     "tmdbTipo": "tv",
     "seasons": [
@@ -795460,7 +795542,7 @@
     ],
     "rating": "6.9",
     "age": "",
-    "popularity": 5,
+    "popularity": 6,
     "tmdbId": 82574,
     "tmdbTipo": "tv",
     "seasons": [
@@ -798349,7 +798431,7 @@
     ],
     "rating": "8.3",
     "age": "12",
-    "popularity": 36,
+    "popularity": 29,
     "tmdbId": 80350,
     "tmdbTipo": "tv",
     "seasons": [
@@ -833389,7 +833471,7 @@
     ],
     "rating": "7.6",
     "age": "14",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 11245,
     "tmdbTipo": "tv",
     "seasons": [
@@ -844793,7 +844875,7 @@
     ],
     "rating": "7.0",
     "age": "",
-    "popularity": 27,
+    "popularity": 21,
     "tmdbId": 197368,
     "tmdbTipo": "tv",
     "seasons": [
@@ -880995,7 +881077,7 @@
     ],
     "rating": "8.7",
     "age": "16",
-    "popularity": 43,
+    "popularity": 42,
     "tmdbId": 94605,
     "tmdbTipo": "tv",
     "seasons": [
@@ -946268,7 +946350,7 @@
     ],
     "rating": "",
     "age": "L",
-    "popularity": 3,
+    "popularity": 4,
     "tmdbId": 106067,
     "tmdbTipo": "tv",
     "seasons": [
@@ -954218,7 +954300,7 @@
     ],
     "rating": "8.1",
     "age": "",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 128995,
     "tmdbTipo": "tv",
     "seasons": [
@@ -985559,7 +985641,7 @@
     ],
     "rating": "7.9",
     "age": "L",
-    "popularity": 28,
+    "popularity": 30,
     "tmdbId": 2284,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1008569,7 +1008651,7 @@
     ],
     "rating": "6.9",
     "age": "",
-    "popularity": 5,
+    "popularity": 3,
     "tmdbId": 99517,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1029027,7 +1029109,7 @@
     ],
     "rating": "7.8",
     "age": "16",
-    "popularity": 8,
+    "popularity": 6,
     "tmdbId": 252193,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1030460,7 +1030542,7 @@
     ],
     "rating": "7.8",
     "age": "L",
-    "popularity": 16,
+    "popularity": 17,
     "tmdbId": 35279,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1112605,7 +1112687,7 @@
     ],
     "rating": "6.8",
     "age": "16",
-    "popularity": 2,
+    "popularity": 3,
     "tmdbId": 132158,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1140840,7 +1140922,7 @@
     ],
     "rating": "7.3",
     "age": "12",
-    "popularity": 21,
+    "popularity": 15,
     "tmdbId": 125909,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1203469,7 +1203551,7 @@
     ],
     "rating": "7.6",
     "age": "14",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 230424,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1341782,7 +1341864,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 0,
+    "popularity": 1,
     "tmdbId": 274450,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1343347,7 +1343429,7 @@
     ],
     "rating": "7.7",
     "age": "14",
-    "popularity": 20,
+    "popularity": 14,
     "tmdbId": 280110,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1393154,7 +1393236,7 @@
     ],
     "rating": "",
     "age": "14",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 113963,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1436822,7 +1436904,7 @@
     ],
     "rating": "6.5",
     "age": "14",
-    "popularity": 16,
+    "popularity": 14,
     "tmdbId": 68006,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1510341,9 +1510423,9 @@
       "Drama",
       "Crime"
     ],
-    "rating": "7.7",
+    "rating": "7.6",
     "age": "16",
-    "popularity": 4,
+    "popularity": 3,
     "tmdbId": 137883,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1511271,7 +1511353,7 @@
     ],
     "rating": "6.0",
     "age": "14",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 82257,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1523964,7 +1524046,7 @@
     ],
     "rating": "5.5",
     "age": "12",
-    "popularity": 13,
+    "popularity": 14,
     "tmdbId": 197189,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1592052,7 +1592134,7 @@
     ],
     "rating": "7.3",
     "age": "18",
-    "popularity": 3,
+    "popularity": 1,
     "tmdbId": 274820,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1592133,7 +1592215,7 @@
     ],
     "rating": "6.8",
     "age": "16",
-    "popularity": 1,
+    "popularity": 2,
     "tmdbId": 289486,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1615627,7 +1615709,7 @@
     ],
     "rating": "7.1",
     "age": "18",
-    "popularity": 15,
+    "popularity": 17,
     "tmdbId": 79622,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1626291,7 +1626373,7 @@
     ],
     "rating": "8.0",
     "age": "14",
-    "popularity": 30,
+    "popularity": 26,
     "tmdbId": 80671,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1681227,7 +1681309,7 @@
     ],
     "rating": "8.2",
     "age": "",
-    "popularity": 9,
+    "popularity": 8,
     "tmdbId": 64570,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1700609,7 +1700691,7 @@
     ],
     "rating": "8.4",
     "age": "14",
-    "popularity": 139,
+    "popularity": 117,
     "tmdbId": 58841,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1706414,7 +1706496,7 @@
     ],
     "rating": "8.4",
     "age": "14",
-    "popularity": 139,
+    "popularity": 117,
     "tmdbId": 58841,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1757770,7 +1757852,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 240105,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1771718,7 +1771800,7 @@
     ],
     "rating": "8.2",
     "age": "16",
-    "popularity": 17,
+    "popularity": 14,
     "tmdbId": 34791,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1812704,7 +1812786,7 @@
     ],
     "rating": "7.6",
     "age": "L",
-    "popularity": 8,
+    "popularity": 10,
     "tmdbId": 70787,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1849872,7 +1849954,7 @@
     ],
     "rating": "",
     "age": "10",
-    "popularity": 2,
+    "popularity": 3,
     "tmdbId": 82204,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1856898,212 +1856980,6 @@
               {
                 "url": "https://nixplay.lat/series/saimo-vods/221097/213359/1/7.mp4",
                 "idioma": "dublado"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "cat": "Séries",
-    "title": "Contos da Noite",
-    "desc": "Depois de ser traída por seu amante e mentor, um enóloga talentosa assume a identidade de uma herdeira ilegítima para se infiltrar em uma família poderosa. À medida que seus planos cuidadosamente estabelecidos se desenrolam, agendas ocultas ameaçam destruir todos os envolvidos.",
-    "thumb": "https://image.tmdb.org/t/p/w500/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
-    "logo": "",
-    "bannerlogo": "",
-    "year": "2026",
-    "genre": "Drama",
-    "genres": [
-      "Drama"
-    ],
-    "rating": "",
-    "age": "",
-    "popularity": 1,
-    "tmdbId": 330440,
-    "tmdbTipo": "tv",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/1.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/2.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/3.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/4.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/5.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/6.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/7.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/8.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/9.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/10.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/11.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 12,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/12.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/13.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/14.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/15.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/16.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/17.mp4?lang=leg",
-                "idioma": "legendado"
-              }
-            ]
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "fontes": [
-              {
-                "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/18.mp4?lang=leg",
-                "idioma": "legendado"
               }
             ]
           }
@@ -1950262,7 +1950138,7 @@
     ],
     "rating": "8.0",
     "age": "10",
-    "popularity": 12,
+    "popularity": 13,
     "tmdbId": 103786,
     "tmdbTipo": "tv",
     "seasons": [
@@ -1963334,8 +1963210,8 @@
     "cat": "Séries",
     "title": "Cyberpunk: Edgerunners",
     "desc": "",
-    "thumb": "",
-    "bannerThumb": "",
+    "thumb": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
     "logo": "",
     "bannerlogo": "",
     "year": "",
@@ -1963562,11 +1963438,11 @@
   {
     "cat": "Séries",
     "title": "Cyberpunk: Mercenários",
-    "desc": "",
+    "desc": "Para sobreviver em uma realidade distópica na qual a corrupção e os implantes cibernéticos controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.",
     "thumb": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
-    "logo": "",
-    "bannerlogo": "",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/bknKZO7DWVYKeByuJMnGI46PFZg.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/s8xy1nl0uqF6b21fhyi4FQMa6f1.png",
+    "bannerlogo": "https://image.tmdb.org/t/p/w500/s8xy1nl0uqF6b21fhyi4FQMa6f1.png",
     "year": "2022",
     "genre": "Animação, Ação e aventura, Ficção e fantasia, Crime",
     "genres": [
@@ -1963578,6 +1963454,8 @@
     "rating": "8.5",
     "age": "16",
     "popularity": 55,
+    "tmdbId": 105248,
+    "tmdbTipo": "tv",
     "seasons": [
       {
         "season": 1,
@@ -1965414,7 +1965292,7 @@
     ],
     "rating": "8.2",
     "age": "14",
-    "popularity": 7,
+    "popularity": 9,
     "tmdbId": 112162,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2022452,7 +2022330,7 @@
     ],
     "rating": "",
     "age": "18",
-    "popularity": 8,
+    "popularity": 7,
     "tmdbId": 312507,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2034637,7 +2034515,7 @@
       "Comédia",
       "Drama"
     ],
-    "rating": "7.1",
+    "rating": "7.0",
     "age": "16",
     "popularity": 5,
     "tmdbId": 233079,
@@ -2086053,7 +2085931,7 @@
     ],
     "rating": "",
     "age": "10",
-    "popularity": 1,
+    "popularity": 0,
     "tmdbId": 107413,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2124178,7 +2124056,7 @@
     ],
     "rating": "7.4",
     "age": "12",
-    "popularity": 17,
+    "popularity": 15,
     "tmdbId": 65294,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2125852,7 +2125730,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 4,
     "tmdbId": 116106,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2205948,7 +2205826,7 @@
     ],
     "rating": "7.7",
     "age": "14",
-    "popularity": 14,
+    "popularity": 13,
     "tmdbId": 102904,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2228701,9 +2228579,9 @@
     "genres": [
       "Drama"
     ],
-    "rating": "6.8",
+    "rating": "6.7",
     "age": "",
-    "popularity": 7,
+    "popularity": 8,
     "tmdbId": 106734,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2323490,7 +2323368,7 @@
     ],
     "rating": "9.2",
     "age": "",
-    "popularity": 10,
+    "popularity": 9,
     "tmdbId": 305644,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2335869,7 +2335747,7 @@
     ],
     "rating": "6.5",
     "age": "16",
-    "popularity": 6,
+    "popularity": 5,
     "tmdbId": 113959,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2338211,9 +2338089,9 @@
       "Animação",
       "Comédia"
     ],
-    "rating": "7.7",
+    "rating": "7.6",
     "age": "16",
-    "popularity": 6,
+    "popularity": 7,
     "tmdbId": 300480,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2338813,9 +2338691,9 @@
     "genres": [
       "Drama"
     ],
-    "rating": "8.5",
+    "rating": "8.6",
     "age": "",
-    "popularity": 37,
+    "popularity": 27,
     "tmdbId": 278577,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2363518,7 +2363396,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 101505,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2366522,7 +2366400,7 @@
     ],
     "rating": "7.5",
     "age": "16",
-    "popularity": 5,
+    "popularity": 4,
     "tmdbId": 220377,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2383297,7 +2383175,7 @@
     ],
     "rating": "6.7",
     "age": "",
-    "popularity": 40,
+    "popularity": 34,
     "tmdbId": 226285,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2413720,7 +2413598,7 @@
     ],
     "rating": "7.6",
     "age": "16",
-    "popularity": 10,
+    "popularity": 12,
     "tmdbId": 77341,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2420268,7 +2420146,7 @@
     ],
     "rating": "7.3",
     "age": "",
-    "popularity": 7,
+    "popularity": 5,
     "tmdbId": 122579,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2420965,7 +2420843,7 @@
     ],
     "rating": "8.4",
     "age": "",
-    "popularity": 7,
+    "popularity": 6,
     "tmdbId": 226529,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2444749,7 +2444627,7 @@
     ],
     "rating": "7.6",
     "age": "16",
-    "popularity": 252,
+    "popularity": 137,
     "tmdbId": 64432,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2448681,7 +2448559,7 @@
     ],
     "rating": "",
     "age": "",
-    "popularity": 12,
+    "popularity": 10,
     "tmdbId": 116407,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2455420,9 +2455298,9 @@
       "Drama",
       "Novela"
     ],
-    "rating": "7.3",
+    "rating": "7.4",
     "age": "",
-    "popularity": 11,
+    "popularity": 12,
     "tmdbId": 16169,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2490156,7 +2490034,7 @@
     ],
     "rating": "6.2",
     "age": "",
-    "popularity": 2,
+    "popularity": 1,
     "tmdbId": 214258,
     "tmdbTipo": "tv",
     "seasons": [
@@ -2511556,7 +2511434,7 @@
     ],
     "rating": "8.0",
     "age": "14",
-    "popularity": 20,
+    "popularity": 22,
     "tmdbId": 100883,
     "tmdbTipo": "tv",
     "seasons": [
