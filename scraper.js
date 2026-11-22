@@ -170,6 +170,38 @@ function pontosQualidade(qStr, url = '') {
   return 250;
 }
 
+function detectarEtiquetaQualidade(qStr, url = '') {
+  const pts = pontosQualidade(qStr, url);
+  if (pts >= 400) return '4K';
+  if (pts >= 300) return 'FHD';
+  if (pts >= 200) return 'HD';
+  return 'SD';
+}
+
+function calcularQualidadeMax(listaFontes) {
+  const rank = { '4K': 4, FHD: 3, HD: 2, SD: 1 };
+  let melhor = 'HD';
+  let melhorRank = 0;
+
+  for (const f of listaFontes || []) {
+    if (!f) continue;
+    const label = detectarEtiquetaQualidade(f.qualidade, f.url);
+    if (rank[label] > melhorRank) {
+      melhorRank = rank[label];
+      melhor = label;
+    }
+  }
+  return melhor;
+}
+
+function extrairAudiosUnicos(listaFontes) {
+  const set = new Set();
+  for (const f of listaFontes || []) {
+    if (f && f.idioma) set.add(f.idioma);
+  }
+  return set.size > 0 ? Array.from(set) : ['dublado'];
+}
+
 function calcularScoreFonte(fonteObj, latenciasHost) {
   const url = fonteObj.url || '';
   if (isSaimoApiStreamUrl(url)) return -5000;
@@ -275,7 +307,7 @@ function saveTmdbCache(cacheObj) {
 }
 
 async function fetchTmdbDetails(tmdbId, tipo) {
-  const url = `${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=pt-BR&append_to_response=images&include_image_language=pt,en,null`;
+  const url = `${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=pt-BR&append_to_response=images,external_ids&include_image_language=pt,en,null`;
   try {
     const res = await http.get(url, { timeout: 10000 });
     if (res.status !== 200 || !res.data) return null;
@@ -285,6 +317,9 @@ async function fetchTmdbDetails(tmdbId, tipo) {
     const releaseYear = String(d.release_date || d.first_air_date || '').slice(0, 4);
     const genres = (d.genres || []).map((g) => g.name).filter(Boolean);
     const rating = d.vote_average ? Number(d.vote_average).toFixed(1) : '';
+    const imdbId = d.imdb_id || (d.external_ids && d.external_ids.imdb_id) || '';
+    const runtime = Number(d.runtime || (Array.isArray(d.episode_run_time) && d.episode_run_time[0]) || 0) || 0;
+
     return {
       logo: logo && logo.file_path ? `${TMDB_IMG_LOGO}${logo.file_path}` : '',
       backdrop: d.backdrop_path ? `${TMDB_IMG_BACKDROP}${d.backdrop_path}` : '',
@@ -293,7 +328,9 @@ async function fetchTmdbDetails(tmdbId, tipo) {
       year: releaseYear,
       genres,
       genre: genres.join(', '),
-      rating
+      rating,
+      imdbId,
+      runtime
     };
   } catch (_) {
     return null;
@@ -312,7 +349,7 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
   const unicos = Array.from(new Map(fila.map((x) => [x.key, x])).values()).slice(0, MAX_TMDB_FETCH_PER_RUN);
 
   if (unicos.length > 0) {
-    console.log(`\n🎨 Buscando Capas, Logos PNG e Backdrops no TMDB para ${unicos.length} títulos...`);
+    console.log(`\n🎨 Buscando Capas, Logos PNG, Backdrops, IMDb e Runtime no TMDB para ${unicos.length} títulos...`);
     for (let i = 0; i < unicos.length; i += TMDB_CONCURRENCY) {
       const lote = unicos.slice(i, i + TMDB_CONCURRENCY);
       await Promise.all(lote.map(async (q) => {
@@ -327,7 +364,6 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
     const cached = it.tmdbId ? tmdbCache[`${it.tmdbTipo}_${it.tmdbId}`] : null;
     const logoUrl = (cached && cached.logo) || '';
     it.logo = logoUrl;
-    it.bannerlogo = logoUrl;
     if (cached) {
       if (cached.backdrop) it.bannerThumb = cached.backdrop;
       if (!it.thumb && cached.poster) it.thumb = cached.poster;
@@ -335,12 +371,95 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
       if (cached.desc) it.desc = cached.desc;
       if (!it.year && cached.year) it.year = cached.year;
       if (!it.rating && cached.rating && cached.rating !== '0.0') it.rating = cached.rating;
+      if (cached.imdbId) it.imdbId = cached.imdbId;
+      if (cached.runtime) it.runtime = cached.runtime;
       if ((!it.genres || it.genres.length === 0 || (it.genres.length === 1 && ['Filme', 'Série'].includes(it.genres[0]))) && cached.genres && cached.genres.length > 0) {
         it.genres = cached.genres;
         it.genre = cached.genres.join(', ');
       }
     }
   }
+}
+
+/**
+ * FORMATA CADA ITEM PARA O PADRÃO OFICIAL DE DB
+ */
+function formatarItemParaDbOficial(it) {
+  const yearNum = parseInt(it.year, 10);
+  const ratingNum = parseFloat(it.rating);
+  const genresArr = Array.isArray(it.genres) && it.genres.length > 0
+    ? it.genres
+    : parseGenerosLista(it.genre, it.cat || 'Geral');
+
+  const bannerFinal = it.bannerThumb || it.thumb || '';
+  const categoria = it.cat || 'Filmes';
+  const generoPrincipal = genresArr[0] || categoria;
+
+  const baseObj = {
+    title: it.title || '',
+    year: Number.isFinite(yearNum) ? yearNum : null
+  };
+
+  if (Array.isArray(it.fontes)) {
+    const fontes = it.fontes.filter((f) => f && f.url);
+    baseObj.url = fontes[0] ? fontes[0].url : '';
+    baseObj.mirrors = fontes.slice(1).map((f) => f.url);
+    baseObj.tmdbId = it.tmdbId || null;
+    baseObj.tmdbTipo = it.tmdbTipo || 'movie';
+    baseObj.imdbId = it.imdbId || '';
+    baseObj.thumb = it.thumb || '';
+    baseObj.bannerThumb = bannerFinal;
+    baseObj.previewThumb = bannerFinal;
+    baseObj.logo = it.logo || '';
+    baseObj.desc = it.desc || '';
+    baseObj.genre = genresArr;
+    baseObj.age = it.age || '';
+    baseObj.runtime = Number(it.runtime) || 0;
+    baseObj.rating = Number.isFinite(ratingNum) ? Number(ratingNum.toFixed(1)) : 0;
+    baseObj.audios = extrairAudiosUnicos(fontes);
+    baseObj.qualidadeMax = calcularQualidadeMax(fontes);
+    baseObj.group = `${categoria} | ${generoPrincipal}`;
+    return baseObj;
+  }
+
+  // Séries, Animes, Doramas, Novelinhas
+  const todasFontesSerie = [];
+  const seasonsFormatadas = (it.seasons || []).map((s) => ({
+    season: s.season,
+    episodes: (s.episodes || []).map((ep) => {
+      const fList = (ep.fontes || []).filter((f) => f && f.url);
+      todasFontesSerie.push(...fList);
+      return {
+        season: ep.season,
+        episode: ep.episode,
+        url: fList[0] ? fList[0].url : '',
+        mirrors: fList.slice(1).map((f) => f.url),
+        audios: extrairAudiosUnicos(fList),
+        qualidadeMax: calcularQualidadeMax(fList)
+      };
+    })
+  }));
+
+  baseObj.tmdbId = it.tmdbId || null;
+  baseObj.tmdbTipo = it.tmdbTipo || 'tv';
+  baseObj.imdbId = it.imdbId || '';
+  baseObj.thumb = it.thumb || '';
+  baseObj.bannerThumb = bannerFinal;
+  baseObj.previewThumb = bannerFinal;
+  baseObj.logo = it.logo || '';
+  baseObj.desc = it.desc || '';
+  baseObj.genre = genresArr;
+  baseObj.age = it.age || '';
+  baseObj.runtime = Number(it.runtime) || 0;
+  baseObj.rating = Number.isFinite(ratingNum) ? Number(ratingNum.toFixed(1)) : 0;
+  baseObj.audios = extrairAudiosUnicos(todasFontesSerie);
+  baseObj.qualidadeMax = calcularQualidadeMax(todasFontesSerie);
+  baseObj.group = `${categoria} | ${generoPrincipal}`;
+  if (it.vertical) baseObj.vertical = true;
+  if (it.anime) baseObj.anime = true;
+  baseObj.seasons = seasonsFormatadas;
+
+  return baseObj;
 }
 
 function classificarCanal(nome) {
@@ -450,9 +569,6 @@ async function processarCanais() {
   saveJsonFile('canais_sm.json', out);
 }
 
-/**
- * 2. CARREGA METADADOS COMPLETOS (Ano, Todos os Gêneros, Rating IMDb, Classificação Etária e Popularidade)
- */
 async function carregarMetadadosVOD() {
   console.log('\n🎬 2. Carregando índice, fichas, destaques, detalhes (ano/nota/idade/pop) e marcas.txt...');
   const [indiceTxt, fichasTxt, generosTxt, detalhesTxt, marcasTxt, destaquesTxt] = await Promise.all([
@@ -634,9 +750,6 @@ async function carregarMetadadosVOD() {
   return { bases, gavetas, buscarMeta, marcasMap, latenciasHost };
 }
 
-/**
- * 3. COLETA TODOS OS FILMES + RESERVADOS E TODAS AS SÉRIES
- */
 async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) {
   const filmesCartoonzine = [];
   const seriesCartoonzine = [];
@@ -683,13 +796,13 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
             thumb: meta.thumb || '',
             bannerThumb: meta.bannerThumb || '',
             logo: '',
-            bannerlogo: '',
             year: anoExtraido || meta.year || '',
             genre: genresArr.join(', '),
             genres: genresArr,
             rating: meta.rating || '',
             age: meta.age || (generoPadrao === 'Adulto' ? '18' : ''),
-            popularity: meta.popularity || 0,
+            imdbId: '',
+            runtime: 0,
             fontes
           };
           if (finalTmdbId) {
@@ -760,13 +873,13 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
             thumb: meta.thumb || '',
             bannerThumb: meta.bannerThumb || '',
             logo: '',
-            bannerlogo: '',
             year: anoS || meta.year || '',
             genre: genresArr.join(', '),
             genres: genresArr,
             rating: meta.rating || '',
             age: meta.age || '',
-            popularity: meta.popularity || 0,
+            imdbId: '',
+            runtime: 0,
             seasonsMap: {}
           };
           if (meta.tmdbId) {
@@ -837,13 +950,13 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, buscarMeta, m
         thumb: meta.thumb || '',
         bannerThumb: meta.bannerThumb || '',
         logo: '',
-        bannerlogo: '',
         year: anoItem || meta.year || '',
         genre: genresArr.join(', '),
         genres: genresArr,
         rating: meta.rating || '',
         age: meta.age || '',
-        popularity: meta.popularity || 0,
+        imdbId: '',
+        runtime: 0,
         seasonsMap: {}
       };
       if (catLabel === 'Animes') atual.anime = true;
@@ -869,11 +982,6 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, buscarMeta, m
   return listaFinal;
 }
 
-/**
- * 5. COLETA NOVELINHAS (Minisséries verticais 720x1280 de novelinhas.txt)
- * Formato: id \t título \t pasta \t episódios \t áudio (dub|leg) \t capa \t gêneros \t sinopse
- * Episódio: base + pasta + /episode-NNN.mp4 (três dígitos)
- */
 async function coletarNovelinhas() {
   console.log('\n📱 Extraindo Novelinhas (minisséries verticais de novelinhas.txt)...');
   const txt = await fetchText(`${FILMES_BASE_URL}/novelinhas.txt`);
@@ -895,7 +1003,6 @@ async function coletarNovelinhas() {
     const c = l.split('\t');
     if (c.length < 6) continue;
 
-    const id = (c[0] || '').trim();
     const titulo = limparTituloExibicao(c[1] || '');
     const pasta = (c[2] || '').trim();
     const totalEps = parseInt(c[3] || '0', 10) || 0;
@@ -923,7 +1030,6 @@ async function coletarNovelinhas() {
     }
 
     lista.push({
-      id,
       cat: 'Novelinhas',
       vertical: true,
       title: titulo,
@@ -931,13 +1037,13 @@ async function coletarNovelinhas() {
       thumb: capa,
       bannerThumb: capa,
       logo: '',
-      bannerlogo: '',
       year: '',
       genre: genresArr.join(', '),
       genres: genresArr,
       rating: '',
       age: '',
-      popularity: 0,
+      imdbId: '',
+      runtime: 0,
       seasons: [{ season: 1, episodes }]
     });
   }
@@ -945,17 +1051,14 @@ async function coletarNovelinhas() {
   return lista;
 }
 
-/**
- * 6. FILTRA NOVELAS E KIDS A PARTIR DO CATÁLOGO JÁ EXTRAÍDO (sem remover das listas originais)
- */
 function extrairNovelasEKids(filmes, series) {
   const novelas = series.filter((s) => {
-    const gStr = String(s.genre || '').toLowerCase();
+    const gStr = Array.isArray(s.genre) ? s.genre.join(', ') : String(s.genre || '');
     return /\b(novela|soap|telenovela)\b/i.test(gStr);
   });
 
   const kids = [...filmes, ...series].filter((item) => {
-    const gStr = String(item.genre || '').toLowerCase();
+    const gStr = Array.isArray(item.genre) ? item.genre.join(', ') : String(item.genre || '');
     const idade = String(item.age || '').trim();
     if (idade === '18' || idade === '16' || /\badulto\b/i.test(gStr)) return false;
     return /\b(kids|infantil|animação|animacao|família|familia)\b/i.test(gStr);
@@ -982,20 +1085,27 @@ function saveJsonFile(filename, items) {
     const tmdbCache = loadTmdbCache();
     await enrichItemsWithTmdbLogos([...doramas, ...animes, ...seriesCartoonzine, ...filmesCartoonzine], tmdbCache);
 
-    const { novelas, kids } = extrairNovelasEKids(filmesCartoonzine, seriesCartoonzine);
+    // Converte todos os catálogos para o padrão oficial de DB
+    const filmesOficial = filmesCartoonzine.map(formatarItemParaDbOficial);
+    const seriesOficial = seriesCartoonzine.map(formatarItemParaDbOficial);
+    const animesOficial = animes.map(formatarItemParaDbOficial);
+    const doramasOficial = doramas.map(formatarItemParaDbOficial);
+    const novelinhasOficial = novelinhas.map(formatarItemParaDbOficial);
 
-    saveJsonFile('filmes_sm.json', filmesCartoonzine);
-    const tam = Math.ceil(seriesCartoonzine.length / 3) || 0;
-    saveJsonFile('series_sm_pt1.json', seriesCartoonzine.slice(0, tam));
-    saveJsonFile('series_sm_pt2.json', seriesCartoonzine.slice(tam, tam * 2));
-    saveJsonFile('series_sm_pt3.json', seriesCartoonzine.slice(tam * 2));
-    saveJsonFile('animes_sm.json', animes);
-    saveJsonFile('doramas_sm.json', doramas);
-    saveJsonFile('novelinhas_sm.json', novelinhas);
+    const { novelas, kids } = extrairNovelasEKids(filmesOficial, seriesOficial);
+
+    saveJsonFile('filmes_sm.json', filmesOficial);
+    const tam = Math.ceil(seriesOficial.length / 3) || 0;
+    saveJsonFile('series_sm_pt1.json', seriesOficial.slice(0, tam));
+    saveJsonFile('series_sm_pt2.json', seriesOficial.slice(tam, tam * 2));
+    saveJsonFile('series_sm_pt3.json', seriesOficial.slice(tam * 2));
+    saveJsonFile('animes_sm.json', animesOficial);
+    saveJsonFile('doramas_sm.json', doramasOficial);
+    saveJsonFile('novelinhas_sm.json', novelinhasOficial);
     saveJsonFile('novelas_sm.json', novelas);
     saveJsonFile('kids_sm.json', kids);
 
-    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO!');
+    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO NO PADRÃO DB OFICIAL!');
   } catch (err) {
     console.error('❌ Erro fatal:', err);
     process.exit(1);
