@@ -13,10 +13,12 @@ const TMDB_API = 'https://api.themoviedb.org/3';
 const TMDB_IMG_POSTER = 'https://image.tmdb.org/t/p/w500';
 const TMDB_IMG_BACKDROP = 'https://image.tmdb.org/t/p/w1280';
 const TMDB_IMG_LOGO = 'https://image.tmdb.org/t/p/w500';
+const TMDB_IMG_ORIGINAL = 'https://image.tmdb.org/t/p/original';
 
 const DEFAULT_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
 const MAX_TMDB_FETCH_PER_RUN = 5500;
 const TMDB_CONCURRENCY = 25;
+const VALID_BR_AGES = new Set(['L', '10', '12', '14', '16', '18']);
 
 const http = axios.create({
   timeout: 30000,
@@ -96,6 +98,12 @@ function parseGenerosLista(strGeneros, fallback = '') {
   return Array.from(new Set(brutos));
 }
 
+function normalizarIdadeBR(raw) {
+  const s = String(raw || '').trim().toUpperCase().replace(/^BR[- ]?/, '');
+  if (s === 'LIVRE' || s === '0') return 'L';
+  return VALID_BR_AGES.has(s) ? s : '';
+}
+
 function isSaimoApiStreamUrl(url) {
   const low = String(url || '').toLowerCase();
   return low.includes('/api/stream');
@@ -170,36 +178,19 @@ function pontosQualidade(qStr, url = '') {
   return 250;
 }
 
-function detectarEtiquetaQualidade(qStr, url = '') {
-  const pts = pontosQualidade(qStr, url);
-  if (pts >= 400) return '4K';
-  if (pts >= 300) return 'FHD';
-  if (pts >= 200) return 'HD';
-  return 'SD';
-}
-
-function calcularQualidadeMax(listaFontes) {
-  const rank = { '4K': 4, FHD: 3, HD: 2, SD: 1 };
-  let melhor = 'HD';
-  let melhorRank = 0;
-
-  for (const f of listaFontes || []) {
-    if (!f) continue;
-    const label = detectarEtiquetaQualidade(f.qualidade, f.url);
-    if (rank[label] > melhorRank) {
-      melhorRank = rank[label];
-      melhor = label;
-    }
-  }
-  return melhor;
-}
-
-function extrairAudiosUnicos(listaFontes) {
-  const set = new Set();
-  for (const f of listaFontes || []) {
-    if (f && f.idioma) set.add(f.idioma);
-  }
-  return set.size > 0 ? Array.from(set) : ['dublado'];
+function detectarQualidadeLabel(qStr, url = '') {
+  const q = String(qStr || '').toUpperCase();
+  if (['4K', 'FHD', 'HD', 'SD'].includes(q)) return q;
+  if (q === 'UHD' || q === '2160P') return '4K';
+  if (q === '1080P') return 'FHD';
+  if (q === '720P') return 'HD';
+  if (q === '480P') return 'SD';
+  const u = String(url || '').toLowerCase();
+  if (/\b(4k|2160p|uhd)\b/.test(u)) return '4K';
+  if (/\b(fhd|1080p)\b/.test(u)) return 'FHD';
+  if (/\b(720p|hd)\b/.test(u)) return 'HD';
+  if (/\b(480p|sd)\b/.test(u)) return 'SD';
+  return '';
 }
 
 function calcularScoreFonte(fonteObj, latenciasHost) {
@@ -306,29 +297,100 @@ function saveTmdbCache(cacheObj) {
   } catch (_) {}
 }
 
+/**
+ * BUSCA DETALHES NO TMDB SEGUINDO EXATAMENTE O GUIA CARTOONZINE
+ */
 async function fetchTmdbDetails(tmdbId, tipo) {
-  const url = `${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=pt-BR&append_to_response=images,external_ids&include_image_language=pt,en,null`;
+  const extra = tipo === 'movie'
+    ? 'images,external_ids,release_dates'
+    : 'images,external_ids,content_ratings';
+  const url = `${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=pt-BR&append_to_response=${extra}&include_image_language=pt,en,null`;
+
   try {
     const res = await http.get(url, { timeout: 10000 });
     if (res.status !== 200 || !res.data) return null;
     const d = JSON.parse(res.data);
-    const logos = (d.images && d.images.logos) || [];
-    const logo = logos.find((l) => l.iso_639_1 === 'pt') || logos.find((l) => l.iso_639_1 === 'en') || logos[0];
+
+    // Logo: pt -> en -> qualquer; PNG antes de SVG; mais votado
+    const logos = ((d.images && d.images.logos) || []).filter((l) => l && l.file_path);
+    const langRank = (iso) => (iso === 'pt' ? 0 : iso === 'en' ? 1 : 2);
+    logos.sort((a, b) => {
+      const lr = langRank(a.iso_639_1) - langRank(b.iso_639_1);
+      if (lr !== 0) return lr;
+      const aSvg = a.file_path.toLowerCase().endsWith('.svg') ? 1 : 0;
+      const bSvg = b.file_path.toLowerCase().endsWith('.svg') ? 1 : 0;
+      if (aSvg !== bSvg) return aSvg - bSvg;
+      return (b.vote_average || 0) - (a.vote_average || 0);
+    });
+    const bestLogo = logos[0];
+    const logoUrl = bestLogo
+      ? `${bestLogo.file_path.toLowerCase().endsWith('.svg') ? TMDB_IMG_ORIGINAL : TMDB_IMG_LOGO}${bestLogo.file_path}`
+      : '';
+
+    // Backdrop principal e previewThumb (OUTRO backdrop diferente do bannerThumb, preferindo sem texto e mais votado)
+    const mainBackdropPath = d.backdrop_path || '';
+    const backdropUrl = mainBackdropPath ? `${TMDB_IMG_BACKDROP}${mainBackdropPath}` : '';
+
+    const altBackdrops = ((d.images && d.images.backdrops) || [])
+      .filter((b) => b && b.file_path && b.file_path !== mainBackdropPath);
+    altBackdrops.sort((a, b) => {
+      const aNoText = a.iso_639_1 === null ? 0 : 1;
+      const bNoText = b.iso_639_1 === null ? 0 : 1;
+      if (aNoText !== bNoText) return aNoText - bNoText;
+      return (b.vote_average || 0) - (a.vote_average || 0);
+    });
+    const previewUrl = altBackdrops[0] ? `${TMDB_IMG_BACKDROP}${altBackdrops[0].file_path}` : '';
+
+    // Sinopse em pt-BR; se vazia, fallback em en-US
+    let desc = (d.overview || '').trim();
+    if (!desc) {
+      try {
+        const resEn = await http.get(`${TMDB_API}/${tipo}/${tmdbId}?api_key=${TMDB_KEY}&language=en-US`, { timeout: 8000 });
+        if (resEn.status === 200 && resEn.data) {
+          const dEn = JSON.parse(resEn.data);
+          desc = (dEn.overview || '').trim();
+        }
+      } catch (_) {}
+    }
+
+    // Classificação indicativa oficial do Brasil (L, 10, 12, 14, 16, 18)
+    let ageBR = '';
+    if (tipo === 'movie' && d.release_dates && Array.isArray(d.release_dates.results)) {
+      const br = d.release_dates.results.find((r) => r.iso_3166_1 === 'BR');
+      if (br && Array.isArray(br.release_dates)) {
+        for (const rd of br.release_dates) {
+          const norm = normalizarIdadeBR(rd.certification);
+          if (norm) { ageBR = norm; break; }
+        }
+      }
+    } else if (tipo === 'tv' && d.content_ratings && Array.isArray(d.content_ratings.results)) {
+      const br = d.content_ratings.results.find((r) => r.iso_3166_1 === 'BR');
+      if (br) ageBR = normalizarIdadeBR(br.rating);
+    }
+
     const releaseYear = String(d.release_date || d.first_air_date || '').slice(0, 4);
     const genres = (d.genres || []).map((g) => g.name).filter(Boolean);
-    const rating = d.vote_average ? Number(d.vote_average).toFixed(1) : '';
+    const rating = (d.vote_count > 0 && d.vote_average > 0) ? Number(Number(d.vote_average).toFixed(1)) : null;
+    const popularity = d.popularity > 0 ? Number(Number(d.popularity).toFixed(1)) : null;
     const imdbId = d.imdb_id || (d.external_ids && d.external_ids.imdb_id) || '';
-    const runtime = Number(d.runtime || (Array.isArray(d.episode_run_time) && d.episode_run_time[0]) || 0) || 0;
+    const runtimeRaw = tipo === 'movie'
+      ? d.runtime
+      : (Array.isArray(d.episode_run_time) && d.episode_run_time.length > 0 ? d.episode_run_time[0] : null);
+    const runtime = Number.isFinite(Number(runtimeRaw)) && Number(runtimeRaw) > 0 ? Number(runtimeRaw) : null;
 
     return {
-      logo: logo && logo.file_path ? `${TMDB_IMG_LOGO}${logo.file_path}` : '',
-      backdrop: d.backdrop_path ? `${TMDB_IMG_BACKDROP}${d.backdrop_path}` : '',
+      v: 2,
+      titlePt: (d.title || d.name || '').trim(),
+      logo: logoUrl,
+      backdrop: backdropUrl,
+      previewThumb: previewUrl,
       poster: d.poster_path ? `${TMDB_IMG_POSTER}${d.poster_path}` : '',
-      desc: (d.overview || '').trim(),
+      desc,
       year: releaseYear,
       genres,
-      genre: genres.join(', '),
       rating,
+      popularity,
+      age: ageBR,
       imdbId,
       runtime
     };
@@ -344,12 +406,15 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
   for (const it of itensOrdenadosPorAno) {
     if (!it.tmdbId || !it.tmdbTipo) continue;
     const k = `${it.tmdbTipo}_${it.tmdbId}`;
-    if (!tmdbCache[k]) fila.push({ key: k, tmdbId: it.tmdbId, tmdbTipo: it.tmdbTipo });
+    // Busca se não existir no cache OU se for do cache antigo (sem v: 2)
+    if (!tmdbCache[k] || tmdbCache[k].v !== 2) {
+      fila.push({ key: k, tmdbId: it.tmdbId, tmdbTipo: it.tmdbTipo });
+    }
   }
   const unicos = Array.from(new Map(fila.map((x) => [x.key, x])).values()).slice(0, MAX_TMDB_FETCH_PER_RUN);
 
   if (unicos.length > 0) {
-    console.log(`\n🎨 Buscando Capas, Logos PNG, Backdrops, IMDb e Runtime no TMDB para ${unicos.length} títulos...`);
+    console.log(`\n🎨 Buscando/atualizando TMDB (v2: capas, backdrops, previewThumb, logos, BR age, IMDb) para ${unicos.length} títulos...`);
     for (let i = 0; i < unicos.length; i += TMDB_CONCURRENCY) {
       const lote = unicos.slice(i, i + TMDB_CONCURRENCY);
       await Promise.all(lote.map(async (q) => {
@@ -362,104 +427,115 @@ async function enrichItemsWithTmdbLogos(allItems, tmdbCache) {
 
   for (const it of allItems) {
     const cached = it.tmdbId ? tmdbCache[`${it.tmdbTipo}_${it.tmdbId}`] : null;
-    const logoUrl = (cached && cached.logo) || '';
-    it.logo = logoUrl;
-    if (cached) {
-      if (cached.backdrop) it.bannerThumb = cached.backdrop;
-      if (!it.thumb && cached.poster) it.thumb = cached.poster;
-      if (!it.bannerThumb && it.thumb) it.bannerThumb = it.thumb;
-      if (cached.desc) it.desc = cached.desc;
-      if (!it.year && cached.year) it.year = cached.year;
-      if (!it.rating && cached.rating && cached.rating !== '0.0') it.rating = cached.rating;
-      if (cached.imdbId) it.imdbId = cached.imdbId;
-      if (cached.runtime) it.runtime = cached.runtime;
-      if ((!it.genres || it.genres.length === 0 || (it.genres.length === 1 && ['Filme', 'Série'].includes(it.genres[0]))) && cached.genres && cached.genres.length > 0) {
-        it.genres = cached.genres;
-        it.genre = cached.genres.join(', ');
-      }
+    if (!cached) continue;
+
+    // TMDB SEMPRE prevalece sobre fichas.txt para evitar capas erradas
+    if (cached.poster) it.thumb = cached.poster;
+    if (cached.backdrop) it.bannerThumb = cached.backdrop;
+    if (cached.previewThumb) it.previewThumb = cached.previewThumb;
+    if (cached.logo) it.logo = cached.logo;
+    if (cached.desc) it.desc = cached.desc;
+    if (cached.year) it.year = cached.year;
+    if (cached.rating != null && cached.rating !== '' && Number(cached.rating) > 0) it.rating = cached.rating;
+    if (cached.popularity != null && Number(cached.popularity) > 0) it.popularity = cached.popularity;
+    if (cached.age) it.age = cached.age;
+    if (cached.imdbId) it.imdbId = cached.imdbId;
+    if (cached.runtime) it.runtime = cached.runtime;
+    if (Array.isArray(cached.genres) && cached.genres.length > 0) {
+      it.genres = cached.genres;
+      it.genre = cached.genres.join(', ');
     }
   }
 }
 
 /**
- * FORMATA CADA ITEM PARA O PADRÃO OFICIAL DE DB
+ * CONVERTE CADA ITEM PARA O PADRÃO CARTOONZINE (OMITE CAMPOS VAZIOS / NULL)
  */
-function formatarItemParaDbOficial(it) {
-  const yearNum = parseInt(it.year, 10);
-  const ratingNum = parseFloat(it.rating);
-  const genresArr = Array.isArray(it.genres) && it.genres.length > 0
-    ? it.genres
-    : parseGenerosLista(it.genre, it.cat || 'Geral');
+function formatarParaDbOficial(item, catOverride = null) {
+  const cat = catOverride || item.cat || 'Filmes';
+  const genresArr = (Array.isArray(item.genres) && item.genres.length > 0
+    ? item.genres
+    : parseGenerosLista(item.genre, '')
+  ).filter((g) => g && !['Filme', 'Série'].includes(g));
 
-  const bannerFinal = it.bannerThumb || it.thumb || '';
-  const categoria = it.cat || 'Filmes';
-  const generoPrincipal = genresArr[0] || categoria;
+  const audiosSet = new Set();
+  const rankQual = { '4K': 4, FHD: 3, HD: 2, SD: 1, '': 0 };
+  let qualidadeMax = '';
 
-  const baseObj = {
-    title: it.title || '',
-    year: Number.isFinite(yearNum) ? yearNum : null
+  const inspecionarFonte = (f) => {
+    if (!f) return;
+    if (f.idioma) audiosSet.add(f.idioma);
+    const q = detectarQualidadeLabel(f.qualidade, f.url);
+    if (rankQual[q] > rankQual[qualidadeMax]) qualidadeMax = q;
   };
 
-  if (Array.isArray(it.fontes)) {
-    const fontes = it.fontes.filter((f) => f && f.url);
-    baseObj.url = fontes[0] ? fontes[0].url : '';
-    baseObj.mirrors = fontes.slice(1).map((f) => f.url);
-    baseObj.tmdbId = it.tmdbId || null;
-    baseObj.tmdbTipo = it.tmdbTipo || 'movie';
-    baseObj.imdbId = it.imdbId || '';
-    baseObj.thumb = it.thumb || '';
-    baseObj.bannerThumb = bannerFinal;
-    baseObj.previewThumb = bannerFinal;
-    baseObj.logo = it.logo || '';
-    baseObj.desc = it.desc || '';
-    baseObj.genre = genresArr;
-    baseObj.age = it.age || '';
-    baseObj.runtime = Number(it.runtime) || 0;
-    baseObj.rating = Number.isFinite(ratingNum) ? Number(ratingNum.toFixed(1)) : 0;
-    baseObj.audios = extrairAudiosUnicos(fontes);
-    baseObj.qualidadeMax = calcularQualidadeMax(fontes);
-    baseObj.group = `${categoria} | ${generoPrincipal}`;
-    return baseObj;
+  if (Array.isArray(item.fontes)) {
+    item.fontes.forEach(inspecionarFonte);
+  } else if (Array.isArray(item.seasons)) {
+    item.seasons.forEach((s) => (s.episodes || []).forEach((ep) => (ep.fontes || []).forEach(inspecionarFonte)));
   }
 
-  // Séries, Animes, Doramas, Novelinhas
-  const todasFontesSerie = [];
-  const seasonsFormatadas = (it.seasons || []).map((s) => ({
-    season: s.season,
-    episodes: (s.episodes || []).map((ep) => {
-      const fList = (ep.fontes || []).filter((f) => f && f.url);
-      todasFontesSerie.push(...fList);
-      return {
-        season: ep.season,
-        episode: ep.episode,
-        url: fList[0] ? fList[0].url : '',
-        mirrors: fList.slice(1).map((f) => f.url),
-        audios: extrairAudiosUnicos(fList),
-        qualidadeMax: calcularQualidadeMax(fList)
-      };
-    })
-  }));
+  const out = { title: item.title };
 
-  baseObj.tmdbId = it.tmdbId || null;
-  baseObj.tmdbTipo = it.tmdbTipo || 'tv';
-  baseObj.imdbId = it.imdbId || '';
-  baseObj.thumb = it.thumb || '';
-  baseObj.bannerThumb = bannerFinal;
-  baseObj.previewThumb = bannerFinal;
-  baseObj.logo = it.logo || '';
-  baseObj.desc = it.desc || '';
-  baseObj.genre = genresArr;
-  baseObj.age = it.age || '';
-  baseObj.runtime = Number(it.runtime) || 0;
-  baseObj.rating = Number.isFinite(ratingNum) ? Number(ratingNum.toFixed(1)) : 0;
-  baseObj.audios = extrairAudiosUnicos(todasFontesSerie);
-  baseObj.qualidadeMax = calcularQualidadeMax(todasFontesSerie);
-  baseObj.group = `${categoria} | ${generoPrincipal}`;
-  if (it.vertical) baseObj.vertical = true;
-  if (it.anime) baseObj.anime = true;
-  baseObj.seasons = seasonsFormatadas;
+  if (/^\d{4}$/.test(String(item.year || ''))) out.year = Number(item.year);
 
-  return baseObj;
+  if (Array.isArray(item.fontes) && item.fontes.length > 0) {
+    out.url = item.fontes[0].url;
+    const mirrors = item.fontes.slice(1).map((f) => f.url).filter(Boolean);
+    if (mirrors.length > 0) out.mirrors = mirrors;
+  }
+
+  if (item.tmdbId) {
+    out.tmdbId = Number(item.tmdbId);
+    out.tmdbTipo = item.tmdbTipo || (Array.isArray(item.seasons) ? 'tv' : 'movie');
+  }
+  if (item.imdbId && /^tt\d+$/i.test(item.imdbId)) out.imdbId = item.imdbId;
+  if (item.thumb) out.thumb = item.thumb;
+  if (item.bannerThumb) out.bannerThumb = item.bannerThumb;
+  if (item.previewThumb && item.previewThumb !== item.bannerThumb) out.previewThumb = item.previewThumb;
+  if (item.logo) out.logo = item.logo;
+  if (item.desc) out.desc = item.desc;
+  if (genresArr.length > 0) out.genre = genresArr;
+
+  const ageNorm = normalizarIdadeBR(item.age);
+  if (ageNorm) out.age = ageNorm;
+
+  if (Number.isFinite(Number(item.runtime)) && Number(item.runtime) > 0) {
+    out.runtime = Number(item.runtime);
+  }
+  if (item.rating !== '' && item.rating != null && !Number.isNaN(Number(item.rating)) && Number(item.rating) > 0) {
+    out.rating = Number(parseFloat(item.rating).toFixed(1));
+  }
+  if (item.popularity != null && !Number.isNaN(Number(item.popularity)) && Number(item.popularity) > 0) {
+    out.popularity = Number(parseFloat(item.popularity).toFixed(1));
+  }
+
+  const audiosArr = Array.from(audiosSet);
+  if (audiosArr.length > 0) out.audios = audiosArr;
+  if (qualidadeMax) out.qualidadeMax = qualidadeMax;
+
+  out.group = genresArr.length > 0 ? `${cat} | ${genresArr[0]}` : cat;
+
+  if (item.vertical) out.vertical = true;
+  if (item.anime) out.anime = true;
+
+  if (Array.isArray(item.seasons)) {
+    out.seasons = item.seasons.map((s) => ({
+      season: s.season,
+      episodes: (s.episodes || []).map((ep) => {
+        const epOut = {
+          season: ep.season,
+          episode: ep.episode,
+          url: ep.fontes && ep.fontes[0] ? ep.fontes[0].url : ''
+        };
+        const m = ep.fontes ? ep.fontes.slice(1).map((f) => f.url).filter(Boolean) : [];
+        if (m.length > 0) epOut.mirrors = m;
+        return epOut;
+      }).filter((ep) => ep.url)
+    })).filter((s) => s.episodes.length > 0);
+  }
+
+  return out;
 }
 
 function classificarCanal(nome) {
@@ -570,7 +646,7 @@ async function processarCanais() {
 }
 
 async function carregarMetadadosVOD() {
-  console.log('\n🎬 2. Carregando índice, fichas, destaques, detalhes (ano/nota/idade/pop) e marcas.txt...');
+  console.log('\n🎬 2. Carregando índice, fichas, destaques, detalhes e marcas.txt...');
   const [indiceTxt, fichasTxt, generosTxt, detalhesTxt, marcasTxt, destaquesTxt] = await Promise.all([
     fetchText(`${FILMES_BASE_URL}/indice.txt`),
     fetchText(`${FILMES_BASE_URL}/fichas.txt`),
@@ -630,9 +706,7 @@ async function carregarMetadadosVOD() {
         desc: ''
       };
       metaMap.set(kComAno, novo);
-      if (!metaMap.has(kSemAno)) {
-        metaMap.set(kSemAno, novo);
-      }
+      if (!metaMap.has(kSemAno)) metaMap.set(kSemAno, novo);
     }
     return metaMap.get(kComAno);
   };
@@ -658,7 +732,6 @@ async function carregarMetadadosVOD() {
       if (c[3]) {
         const img = c[3].startsWith('http') ? c[3] : `${TMDB_IMG_POSTER}${c[3].startsWith('/') ? '' : '/'}${c[3]}`;
         m.thumb = img;
-        m.bannerThumb = img;
       }
       if (c[4]) {
         const gList = parseGenerosLista(c[4]);
@@ -681,7 +754,6 @@ async function carregarMetadadosVOD() {
       if (c[4] && !m.thumb) {
         const img = c[4].startsWith('http') ? c[4] : `${TMDB_IMG_POSTER}${c[4].startsWith('/') ? '' : '/'}${c[4]}`;
         m.thumb = img;
-        m.bannerThumb = img;
       }
       if (anoDest && !m.year) m.year = anoDest;
       sincronizarSemAno(c[0], c[1], m);
@@ -721,7 +793,7 @@ async function carregarMetadadosVOD() {
         if (notaDet && !mComAno.rating) mComAno.rating = notaDet;
         if (idadeDet && !mComAno.age) mComAno.age = idadeDet;
         if (popDet > mComAno.popularity) mComAno.popularity = popDet;
-        if (!mComAno.thumb && m.thumb) { mComAno.thumb = m.thumb; mComAno.bannerThumb = m.bannerThumb; }
+        if (!mComAno.thumb && m.thumb) mComAno.thumb = m.thumb;
         if (!mComAno.tmdbId && m.tmdbId) mComAno.tmdbId = m.tmdbId;
         if ((!mComAno.genres || mComAno.genres.length === 0) && m.genres.length > 0) {
           mComAno.genres = m.genres;
@@ -734,16 +806,20 @@ async function carregarMetadadosVOD() {
     }
   }
 
+  // Sem cruzamento entre filme ('f') e série ('s') para não trocar capas/TMDB IDs
   const buscarMeta = (tipo, tituloBruto, anoExtraido = '', tmdbIdLinha = null) => {
     const t = tipo.toLowerCase();
-    return (
-      (tmdbIdLinha && metaPorTmdbId.get(`${t}_${tmdbIdLinha}`)) ||
-      metaMap.get(normKey(t, tituloBruto, anoExtraido)) ||
-      metaMap.get(normKey(t, tituloBruto, '')) ||
-      metaMap.get(`${t}|${normalizarTituloChave(limparTituloExibicao(tituloBruto), '')}`) ||
-      metaMap.get(`s|${normalizarTituloChave(limparTituloExibicao(tituloBruto), '')}`) ||
-      {}
-    );
+    const m = (tmdbIdLinha && metaPorTmdbId.get(`${t}_${tmdbIdLinha}`))
+      || metaMap.get(normKey(t, tituloBruto, anoExtraido))
+      || metaMap.get(normKey(t, tituloBruto, ''))
+      || metaMap.get(`${t}|${normalizarTituloChave(limparTituloExibicao(tituloBruto), '')}`);
+    if (m) return m;
+    if (t === 'a' || t === 'd') {
+      return metaMap.get(`s|${normalizarTituloChave(limparTituloExibicao(tituloBruto), anoExtraido)}`)
+        || metaMap.get(`s|${normalizarTituloChave(limparTituloExibicao(tituloBruto), '')}`)
+        || {};
+    }
+    return {};
   };
 
   const latenciasHost = await medirVelocidadeBases(bases);
@@ -771,7 +847,7 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
     );
 
     for (const { fTxt, rTxt } of lote) {
-      for (const [blocoTxt, generoPadrao] of [[fTxt, 'Filme'], [rTxt, 'Adulto']]) {
+      for (const [blocoTxt, generoPadrao] of [[fTxt, ''], [rTxt, 'Adulto']]) {
         for (let l of (blocoTxt || '').split(/\r?\n/)) {
           l = l.trim();
           if (!l || isCommentLine(l)) continue;
@@ -787,22 +863,24 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
 
           const meta = buscarMeta('f', tituloBruto, anoExtraido, tmdbIdNaLinha);
           const finalTmdbId = tmdbIdNaLinha || meta.tmdbId || null;
-          const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : [generoPadrao];
+          const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : (generoPadrao ? [generoPadrao] : []);
 
           const obj = {
             cat: 'Filmes',
             title: limparTituloExibicao(tituloBruto),
             desc: meta.desc || '',
             thumb: meta.thumb || '',
-            bannerThumb: meta.bannerThumb || '',
+            bannerThumb: '',
+            previewThumb: '',
             logo: '',
             year: anoExtraido || meta.year || '',
             genre: genresArr.join(', '),
             genres: genresArr,
             rating: meta.rating || '',
             age: meta.age || (generoPadrao === 'Adulto' ? '18' : ''),
+            popularity: meta.popularity || 0,
             imdbId: '',
-            runtime: 0,
+            runtime: null,
             fontes
           };
           if (finalTmdbId) {
@@ -864,22 +942,24 @@ async function coletarVOD(bases, gavetas, buscarMeta, marcasMap, latenciasHost) 
           const titLimpo = limparTituloExibicao(titBruto);
           const anoS = (c[1] || '').trim() || extrairAnoDoTitulo(titBruto);
           const meta = buscarMeta('s', titBruto, anoS);
-          const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : ['Série'];
+          const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : [];
 
           atual = {
             cat: 'Séries',
             title: titLimpo,
             desc: meta.desc || '',
             thumb: meta.thumb || '',
-            bannerThumb: meta.bannerThumb || '',
+            bannerThumb: '',
+            previewThumb: '',
             logo: '',
             year: anoS || meta.year || '',
             genre: genresArr.join(', '),
             genres: genresArr,
             rating: meta.rating || '',
             age: meta.age || '',
+            popularity: meta.popularity || 0,
             imdbId: '',
-            runtime: 0,
+            runtime: null,
             seasonsMap: {}
           };
           if (meta.tmdbId) {
@@ -941,22 +1021,24 @@ async function coletarRedeFlix(caminho, catLabel, tipoMeta, bases, buscarMeta, m
       const anoItem = (c[1] || '').trim() || extrairAnoDoTitulo(titBruto);
       const tidCab = (/^\d+$/.test((c[2] || '').trim()) ? Number(c[2].trim()) : null);
       const meta = buscarMeta(tipoMeta, titBruto, anoItem, tidCab);
-      const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : [catLabel];
+      const genresArr = (meta.genres && meta.genres.length > 0) ? meta.genres : [];
 
       atual = {
         cat: catLabel,
         title: titLimpo,
         desc: meta.desc || '',
         thumb: meta.thumb || '',
-        bannerThumb: meta.bannerThumb || '',
+        bannerThumb: '',
+        previewThumb: '',
         logo: '',
         year: anoItem || meta.year || '',
         genre: genresArr.join(', '),
         genres: genresArr,
         rating: meta.rating || '',
         age: meta.age || '',
+        popularity: meta.popularity || 0,
         imdbId: '',
-        runtime: 0,
+        runtime: null,
         seasonsMap: {}
       };
       if (catLabel === 'Animes') atual.anime = true;
@@ -1035,15 +1117,17 @@ async function coletarNovelinhas() {
       title: titulo,
       desc: sinopse,
       thumb: capa,
-      bannerThumb: capa,
+      bannerThumb: '',
+      previewThumb: '',
       logo: '',
       year: '',
       genre: genresArr.join(', '),
       genres: genresArr,
       rating: '',
       age: '',
+      popularity: 0,
       imdbId: '',
-      runtime: 0,
+      runtime: null,
       seasons: [{ season: 1, episodes }]
     });
   }
@@ -1053,12 +1137,12 @@ async function coletarNovelinhas() {
 
 function extrairNovelasEKids(filmes, series) {
   const novelas = series.filter((s) => {
-    const gStr = Array.isArray(s.genre) ? s.genre.join(', ') : String(s.genre || '');
+    const gStr = String(s.genre || '').toLowerCase();
     return /\b(novela|soap|telenovela)\b/i.test(gStr);
   });
 
   const kids = [...filmes, ...series].filter((item) => {
-    const gStr = Array.isArray(item.genre) ? item.genre.join(', ') : String(item.genre || '');
+    const gStr = String(item.genre || '').toLowerCase();
     const idade = String(item.age || '').trim();
     if (idade === '18' || idade === '16' || /\badulto\b/i.test(gStr)) return false;
     return /\b(kids|infantil|animação|animacao|família|familia)\b/i.test(gStr);
@@ -1085,27 +1169,28 @@ function saveJsonFile(filename, items) {
     const tmdbCache = loadTmdbCache();
     await enrichItemsWithTmdbLogos([...doramas, ...animes, ...seriesCartoonzine, ...filmesCartoonzine], tmdbCache);
 
-    // Converte todos os catálogos para o padrão oficial de DB
-    const filmesOficial = filmesCartoonzine.map(formatarItemParaDbOficial);
-    const seriesOficial = seriesCartoonzine.map(formatarItemParaDbOficial);
-    const animesOficial = animes.map(formatarItemParaDbOficial);
-    const doramasOficial = doramas.map(formatarItemParaDbOficial);
-    const novelinhasOficial = novelinhas.map(formatarItemParaDbOficial);
+    const { novelas, kids } = extrairNovelasEKids(filmesCartoonzine, seriesCartoonzine);
 
-    const { novelas, kids } = extrairNovelasEKids(filmesOficial, seriesOficial);
+    const filmesOut = filmesCartoonzine.map((it) => formatarParaDbOficial(it, 'Filmes'));
+    const seriesOut = seriesCartoonzine.map((it) => formatarParaDbOficial(it, 'Séries'));
+    const animesOut = animes.map((it) => formatarParaDbOficial(it, 'Animes'));
+    const doramasOut = doramas.map((it) => formatarParaDbOficial(it, 'Doramas'));
+    const novelinhasOut = novelinhas.map((it) => formatarParaDbOficial(it, 'Novelinhas'));
+    const novelasOut = novelas.map((it) => formatarParaDbOficial(it, 'Novelas'));
+    const kidsOut = kids.map((it) => formatarParaDbOficial(it, 'Kids'));
 
-    saveJsonFile('filmes_sm.json', filmesOficial);
-    const tam = Math.ceil(seriesOficial.length / 3) || 0;
-    saveJsonFile('series_sm_pt1.json', seriesOficial.slice(0, tam));
-    saveJsonFile('series_sm_pt2.json', seriesOficial.slice(tam, tam * 2));
-    saveJsonFile('series_sm_pt3.json', seriesOficial.slice(tam * 2));
-    saveJsonFile('animes_sm.json', animesOficial);
-    saveJsonFile('doramas_sm.json', doramasOficial);
-    saveJsonFile('novelinhas_sm.json', novelinhasOficial);
-    saveJsonFile('novelas_sm.json', novelas);
-    saveJsonFile('kids_sm.json', kids);
+    saveJsonFile('filmes_sm.json', filmesOut);
+    const tam = Math.ceil(seriesOut.length / 3) || 0;
+    saveJsonFile('series_sm_pt1.json', seriesOut.slice(0, tam));
+    saveJsonFile('series_sm_pt2.json', seriesOut.slice(tam, tam * 2));
+    saveJsonFile('series_sm_pt3.json', seriesOut.slice(tam * 2));
+    saveJsonFile('animes_sm.json', animesOut);
+    saveJsonFile('doramas_sm.json', doramasOut);
+    saveJsonFile('novelinhas_sm.json', novelinhasOut);
+    saveJsonFile('novelas_sm.json', novelasOut);
+    saveJsonFile('kids_sm.json', kidsOut);
 
-    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO NO PADRÃO DB OFICIAL!');
+    console.log('\n✅ TUDO CONCLUÍDO COM SUCESSO (PADRÃO CARTOONZINE v2)!');
   } catch (err) {
     console.error('❌ Erro fatal:', err);
     process.exit(1);
