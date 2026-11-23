@@ -30893,6 +30893,7 @@
     "year": 2022,
     "tmdbId": 155499,
     "tmdbTipo": "tv",
+    "imdbId": "tt17319764",
     "thumb": "https://image.tmdb.org/t/p/w500/tCJAPtPg6b2JckKbbIeeOiFPTdD.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/uJbXMPR1zpdhB7uH3iNN145f6Ov.jpg",
     "desc": "Ao som da música popular colombiana, este drama inspirado na vida de Arelys Henao, traz a jovem cantora lutando contra tudo e contra todos para seguir a carreira musical.",
@@ -30900,8 +30901,9 @@
       "Drama",
       "Soap"
     ],
+    "runtime": 50,
     "rating": 8.3,
-    "popularity": 8,
+    "popularity": 7.6,
     "audios": [
       "dublado",
       "legendado"
@@ -47069,24 +47071,26 @@
     "year": 2021,
     "tmdbId": 115304,
     "tmdbTipo": "tv",
+    "imdbId": "tt13891870",
     "thumb": "https://image.tmdb.org/t/p/w500/9PWWD5lB3KC4qGyhPc8ROehQp1E.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/mxC5PhhrfSkKkpyEY08etSFtysU.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/jXgWvFol8stimn1vbsnZSPr2LjW.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/9vRo5fgbJVQrfJLprqa0NWVdAHf.png",
     "desc": "Allegra sonha em fazer parte da companhia de teatro musical Eleven O'clock. Sua avó, Cacau, tem um relacionamento complicado com sua filha Caterina, a mãe de Allegra. A vida de Allegra muda completamente quando ela encontra uma misteriosa pulseira que a envia para 1994, ano em que Caterina tinha sua idade e dava seus primeiros passos na Eleven O'clock. Será que Allegra consegue mudar o passado?",
     "genre": [
-      "Ficção e fantasia",
+      "Sci-Fi & Fantasy",
       "Comédia",
       "Família",
       "Drama",
-      "Novela"
+      "Soap"
     ],
     "age": "12",
     "rating": 7.7,
-    "popularity": 3,
+    "popularity": 3.9,
     "audios": [
       "dublado"
     ],
-    "group": "Novelas | Ficção e fantasia",
+    "group": "Novelas | Sci-Fi & Fantasy",
     "seasons": [
       {
         "season": 1,
@@ -63049,21 +63053,23 @@
     "year": 2021,
     "tmdbId": 115645,
     "tmdbTipo": "tv",
+    "imdbId": "tt11737102",
     "thumb": "https://image.tmdb.org/t/p/w500/7xc7FI44QTp94oQk6pBjB4NkMN0.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/k8rqfo7RWsaILRdXIfpEJcuG1lT.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/y697MInd5ZVXVfLFSNfwqtAoCp3.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/e1cdDUNMPYsRK4p1Ugbi6L16Q1.png",
     "desc": "A história de grandes eventos dos primeiros da humanidade. A criação do mundo, Adão e Eva, o Grande Dilúvio, a Torre de Babel e a jornada de Abraão, chegando até o período de escravidão do povo hebreu no Egito. A origem de todos os problemas sociais e raciais está lá no início de tudo, quando através de uma decisão o ser humano, que só conhecia o bem e desfrutava tanto dele, escolheu também conhecer o mal.",
     "genre": [
-      "Novela",
+      "Soap",
       "Drama"
     ],
     "age": "14",
     "rating": 8.1,
-    "popularity": 35,
+    "popularity": 32.6,
     "audios": [
       "dublado"
     ],
-    "group": "Novelas | Novela",
+    "group": "Novelas | Soap",
     "seasons": [
       {
         "season": 1,
@@ -64883,14 +64889,17 @@
     "year": 2022,
     "tmdbId": 196614,
     "tmdbTipo": "tv",
+    "imdbId": "tt17640966",
     "thumb": "https://image.tmdb.org/t/p/w500/wWlPY4zmuJDelcOwb4ph9lGo5Ew.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/k5cf0dZsmsXYeoBshOmINK62jKb.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/zzTS44jYNh1CCmejxd2HpSo25Nw.jpg",
+    "desc": "Alejandra and Rafael come from completely different worlds, but a life-changing accident brings them together. A massive debt forces them to stay close, sparking a relationship full of tension, passion, and unexpected emotions. Between jealousy, heartbreak, and fate’s twists, their story takes unpredictable turns that will test their connection.",
     "genre": [
       "Soap",
       "Drama"
     ],
     "rating": 8.2,
-    "popularity": 6,
+    "popularity": 8.3,
     "audios": [
       "dublado",
       "legendado"
@@ -65436,18 +65445,21 @@
     "year": 2020,
     "tmdbId": 109470,
     "tmdbTipo": "tv",
+    "imdbId": "tt12443806",
     "thumb": "https://image.tmdb.org/t/p/w500/fNAhBhWxEB6ZIPx4wSB9Ke2B1bP.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/q2na8PTaxH2csJUM035M2Zoj90q.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/fwza5YnMpn6C4hdK2N95d0X361Z.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/d86TotKZ1dl8BIzNMSzBJ8JXvSH.png",
     "desc": "A história é centrada em um policial humilde e honesto e uma jovem de família rica que se aventuram em uma paixão tão incontrolável quanto proibida. Depois que seu pai e a namorada do ex-policial são assassinados em circunstâncias estranhas, o casal investiga as misteriosas mortes para descobrir a verdade. Juntos, eles descobrem segredos poderosos de um mundo de corrupção que eles não conheciam, tudo isso enquanto lutam para defender seu amor e aprender a confiar um no outro.",
     "genre": [
       "Drama",
-      "Ação e aventura",
-      "Novela"
+      "Action & Adventure",
+      "Soap"
     ],
     "age": "14",
+    "runtime": 50,
     "rating": 7.5,
-    "popularity": 8,
+    "popularity": 9.6,
     "audios": [
       "dublado"
     ],
@@ -83315,21 +83327,24 @@
     "year": 2022,
     "tmdbId": 204095,
     "tmdbTipo": "tv",
+    "imdbId": "tt21359746",
     "thumb": "https://image.tmdb.org/t/p/w500/ixgnqO8xhFMb1zr8RRFsyeZ9CdD.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/5WELOEOtGukFX25UZI01f0fA6lz.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/o8zk3QmHYMSC7UiJgFk81OFF1sc.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/f4LpFGK9lpDbjt4Nx4oqVd3MKb6.png",
     "desc": "Na pequena Canta Pedra, o amor de Candoca e Zé Paulino é interrompido quando ele sofre um acidente e é dado como morto. Anos depois, ele volta em busca de justiça e antes do casamento de sua ex-noiva com Tertulinho.",
     "genre": [
-      "Novela",
+      "Soap",
       "Drama"
     ],
     "age": "12",
+    "runtime": 36,
     "rating": 5.2,
-    "popularity": 12,
+    "popularity": 14.3,
     "audios": [
       "dublado"
     ],
-    "group": "Novelas | Novela",
+    "group": "Novelas | Soap",
     "seasons": [
       {
         "season": 1,
@@ -102184,23 +102199,25 @@
     "year": 2022,
     "tmdbId": 157059,
     "tmdbTipo": "tv",
+    "imdbId": "tt19174300",
     "thumb": "https://image.tmdb.org/t/p/w500/sSRFeVwpyUffmqvreVbbNILHYbY.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/THHSvcpSeJCjq7WUUGNaGt3x31.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/zJNEXWx3YyWGQioCbutFd5dcNYS.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/yY118fORcnO4df5gGjCqFvMxGIx.png",
     "desc": "Poliana completará 15 anos e se prepara para enfrentar novos desafios. Mas existem coisas que não mudam, ela não está sozinha e sempre busca ver o lado bom das coisas!",
     "genre": [
-      "Novela",
-      "Ação e aventura",
+      "Soap",
+      "Action & Adventure",
       "Família",
       "Drama"
     ],
     "age": "10",
     "rating": 6.4,
-    "popularity": 13,
+    "popularity": 13.1,
     "audios": [
       "dublado"
     ],
-    "group": "Novelas | Novela",
+    "group": "Novelas | Soap",
     "seasons": [
       {
         "season": 1,
@@ -125869,21 +125886,24 @@
     "year": 2021,
     "tmdbId": 132375,
     "tmdbTipo": "tv",
+    "imdbId": "tt15925496",
     "thumb": "https://image.tmdb.org/t/p/w500/iiE0VMpvfggfBy0xXPPLAY9SDPu.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/8lBlBItnehgOAwFt0ezxlXuWeIO.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/kj4IAjd3Dp8xnOmYpHmzJfaCljC.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/hk2m7G7lNpWkUqn6zqvj0N8hFSs.png",
     "desc": "Separados desde pequenos, os gêmeos Christian e Renato crescem em realidades opostas. Quando finalmente se encontram, uma reviravolta muda a vida de Christian e de todos ao seu redor.",
     "genre": [
-      "Novela",
+      "Soap",
       "Drama"
     ],
     "age": "14",
+    "runtime": 45,
     "rating": 5.8,
-    "popularity": 5,
+    "popularity": 5.7,
     "audios": [
       "dublado"
     ],
-    "group": "Novelas | Novela",
+    "group": "Novelas | Soap",
     "seasons": [
       {
         "season": 1,
@@ -131722,6 +131742,67 @@
             "season": 1,
             "episode": 231,
             "url": "https://nixplay.lat/series/saimo-vods/221097/46143/1/231.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Young Royals",
+    "year": 2021,
+    "tmdbId": 125910,
+    "tmdbTipo": "tv",
+    "imdbId": "tt14664414",
+    "thumb": "https://image.tmdb.org/t/p/w500/sGqOIF4YHW2sxyCZ8sLgqxPdTs1.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/lWkS3ygISl4tRHpcvWHWySG1Uxz.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/ftvyFJwDqhALsLsIabZNLiNNlAp.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/iOulRjRe1XSiVlzw073SRyui9kP.png",
+    "desc": "O príncipe Wilhelm está se acostumando à vida no colégio novo, mas seguir o coração é mais difícil do que parece.",
+    "genre": [
+      "Drama",
+      "Soap"
+    ],
+    "age": "16",
+    "runtime": 45,
+    "rating": 8.5,
+    "popularity": 11.3,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Novelas | Drama",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/1.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/2.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/3.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/4.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/5.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/125910/1/6.mp4"
           }
         ]
       }
