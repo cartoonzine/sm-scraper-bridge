@@ -5375,8 +5375,10 @@
     "year": 2019,
     "tmdbId": 87187,
     "tmdbTipo": "tv",
+    "imdbId": "tt9863766",
     "thumb": "https://image.tmdb.org/t/p/w500/67FLhynveUGytuBetOQANZRmNKQ.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/2Lpea6Mx3cvNPhvQrKY9DQDw4G0.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/bierz0xieZ5A7e2f0p0JAydt0nC.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/tXxqG7enmpPVXetUsJyfNU6khUF.png",
     "desc": "Um grande médico em um hospital universitário é injustamente acusado de um incidente de negligência médica e é expulso do hospital. Ele então se candidata a trabalhar em uma prisão, onde planeja fazer contatos pessoais com todos os figurões da prisão com o objetivo final de se vingar do hospital que o expulsou.",
     "genre": [
@@ -5384,8 +5386,9 @@
       "Crime"
     ],
     "age": "16",
+    "runtime": 35,
     "rating": 7.3,
-    "popularity": 6,
+    "popularity": 7.3,
     "audios": [
       "legendado"
     ],
@@ -5920,121 +5923,6 @@
             "season": 1,
             "episode": 9,
             "url": "https://nixplay.lat/series/saimo-vods/221097/98772/1/9.mp4"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Contos da Noite",
-    "year": 2026,
-    "tmdbId": 330440,
-    "tmdbTipo": "tv",
-    "thumb": "https://image.tmdb.org/t/p/w500/2ah8irNR08fONfeQkMlvnc3143w.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/xjReW7kiCuMZpYyGjOr1PDZcfFE.jpg",
-    "previewThumb": "https://image.tmdb.org/t/p/w1280/3nInl1iUyGwBEP9UG7oHslhCY7C.jpg",
-    "desc": "Depois de ser traída por seu amante e mentor, um enóloga talentosa assume a identidade de uma herdeira ilegítima para se infiltrar em uma família poderosa. À medida que seus planos cuidadosamente estabelecidos se desenrolam, agendas ocultas ameaçam destruir todos os envolvidos.",
-    "genre": [
-      "Drama"
-    ],
-    "popularity": 0.9,
-    "audios": [
-      "legendado"
-    ],
-    "group": "Doramas | Drama",
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "season": 1,
-            "episode": 1,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/1.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 2,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/2.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 3,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/3.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 4,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/4.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 5,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/5.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 6,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/6.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 7,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/7.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 8,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/8.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 9,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/9.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 10,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/10.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 11,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/11.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 12,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/12.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 13,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/13.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 14,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/14.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 15,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/15.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 16,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/16.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 17,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/17.mp4?lang=leg"
-          },
-          {
-            "season": 1,
-            "episode": 18,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/330440/1/18.mp4?lang=leg"
           }
         ]
       }
@@ -8329,7 +8217,7 @@
       "Reality"
     ],
     "rating": 5.5,
-    "popularity": 125,
+    "popularity": 101,
     "audios": [
       "dublado"
     ],
@@ -8467,8 +8355,10 @@
     "year": 2019,
     "tmdbId": 85529,
     "tmdbTipo": "tv",
+    "imdbId": "tt9899068",
     "thumb": "https://image.tmdb.org/t/p/w500/ggmfQz1r0uVxLCqEN6TcjOVWMg9.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/iwEI1YXElgLWFOyIx6blkoQ84VO.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/2SR7rnQDnuQ1vhQ68acNGJVRCPE.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/AiBjMTlLFj2WQBqRmsDTtAZx3Xq.png",
     "desc": "A 10 dias da formatura, o professor de sala de aula Hiiragi, fica na frente de seus alunos e diz que eles agora se tornaram seus reféns. Ele diz que ninguém pode sair a menos que alguém lhe diga o motivo do suicídio de um ex-aluno.",
     "genre": [
@@ -8476,8 +8366,9 @@
       "Drama",
       "Mistério"
     ],
+    "runtime": 45,
     "rating": 8.1,
-    "popularity": 5,
+    "popularity": 5.5,
     "audios": [
       "dublado",
       "legendado"
@@ -12282,7 +12173,7 @@
       "Drama"
     ],
     "rating": 8.1,
-    "popularity": 9,
+    "popularity": 11,
     "audios": [
       "dublado",
       "legendado"
@@ -15590,7 +15481,7 @@
     ],
     "age": "12",
     "rating": 8.5,
-    "popularity": 10,
+    "popularity": 9,
     "audios": [
       "legendado",
       "dublado"
@@ -16177,8 +16068,10 @@
     "year": 2019,
     "tmdbId": 88328,
     "tmdbTipo": "tv",
+    "imdbId": "tt10055734",
     "thumb": "https://image.tmdb.org/t/p/w500/bcDA8EChVVBINpDxYv6RveMTlFP.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/6W1dWcoqpl2NrgqkAXWa0aTTBBK.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/k7if58AYhpJcTBfM5x3D056JNmC.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/snjXYBHeEKeWuaVYaemyrnkLhRQ.png",
     "desc": "Após morrerem em um acidente, a promotora Go Se-yeon e o funcionário de uma empresa de cosméticos Cha Min são revividos no corpo de outras pessoas através de um misterioso abismo.",
     "genre": [
@@ -16187,8 +16080,9 @@
       "Mistério",
       "Drama"
     ],
+    "runtime": 64,
     "rating": 8,
-    "popularity": 6,
+    "popularity": 5.8,
     "audios": [
       "dublado"
     ],
@@ -21858,7 +21752,7 @@
       "Drama"
     ],
     "rating": 8.3,
-    "popularity": 10,
+    "popularity": 9,
     "audios": [
       "dublado",
       "legendado"

@@ -5,10 +5,10 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/ae.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faee%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Faee%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event60/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://video39.mais.uol.com.br/live/267.mpd",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7050d201c727e9634eefc082b0a67d64/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/A%26E%20TV/index.m3u8"
     ]
   },
   {
@@ -17,9 +17,9 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/adultswim.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fadultswim%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fadultswim%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event48/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/71663e793f356d347ec45793f1e5e77a/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/Adult%20Swim%20TV/index.m3u8"
     ]
   },
   {
@@ -28,9 +28,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/amc.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Famc%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Famc%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event144/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/188ebe69dfdab6b78ebcb1d8d5546d99/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/AMC%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -39,9 +39,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/animalplanet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fanimalplanet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fanimalplanet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event34/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/119b16f72832e112dd1a9fba8ad50554/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/Animal%20Planet%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -62,9 +62,8 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonnetwork.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event44/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8e6ff90bd3d9d0f696160b76a7e0bb77/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcartoonnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event44/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -73,11 +72,11 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/cnnbrasil.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcnnbrasil%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcnnbrasil%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event110/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
       "https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/3ebb362d9a6766671d504655984e3173/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g3/CNN%20Brasil%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -95,12 +94,12 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/ge-tv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist1080p.m3u8",
       "https://proxylinkurl.wored85282.workers.dev/https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/de6fd7ff207dc56047dbd5c9cff9c795/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/ge%20tv%20TV/index.m3u8"
     ]
   },
   {
@@ -109,8 +108,8 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/globonews.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobonews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/289170384885dcbab6589cb5ac2288f6/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fglobonews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g6/GLOBO%20News%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -119,8 +118,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/globonovelas.prev.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloboplaynovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d381112bcc153d3899c6ad52cfba9f29/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgloboplaynovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g1/Globoplay%20Novelas%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -129,8 +128,8 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/gnt.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/892cdde5630561804460a4790534cc37/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/GNT%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -139,11 +138,11 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/history.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhistory%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhistory%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event35/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/HISTORY/index.m3u8",
       "https://video46.mais.uol.com.br/live/281.mpd",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8f8672e7b1cb035a7fcf62d7e1101ee7/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/History%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -152,9 +151,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/history2.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhistory2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event39/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/75894f29cc5bac6cfe19dd525ad36329/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhistory2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event39/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -163,11 +161,12 @@
     "categoria": "Notícias",
     "logo": "https://www.tvlogo.org/brazil/jovem-pan-news-br.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fjovempannews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fjovempannews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event119/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://amg01391-sbtinfast-amg01391c3-lg-us-8995.playouts.now.amagi.tv/playlist/amg01391-addigital-jovempan-lgus/playlist.m3u8",
       "https://amg01391-amg01391c3-tcl-spain-5038.playouts.now.amagi.tv/playlist1080-p.m3u8",
-      "http://186.219.52.187/jp_news/index.m3u8"
+      "http://186.219.52.187/jp_news/index.m3u8",
+      "https://live.lixe.net/hls/g5/Jovem%20Pan%20News%20TV/index.m3u8"
     ]
   },
   {
@@ -176,8 +175,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/megapix.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fmegapix%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6990ddc99d0e41e833b7ea47de61cb26/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fmegapix%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/MEGAPIX%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -186,8 +185,8 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/multishow.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fmultishow%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6ea0ae97161d67b88c22ca0166820de3/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fmultishow%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g2/MULTISHOW%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -196,8 +195,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4e8439a79473da73385b6343ad4d49f4/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/PREMIERE%202%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -206,8 +205,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ca64af9c08da491068dae0e4060ac6e0/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g8/PREMIERE%203%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -216,8 +215,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/5e142d33eb474a862aa133002cef33f0/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/PREMIERE%204%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -226,8 +225,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere5%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/b65103bc85c1778e36ee6b27a99cbe44/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere5%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/PREMIERE%205%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -236,7 +235,8 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/PREMIERE%206%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -245,7 +245,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere7%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere7%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/PREMIERE%207%20TV/index.m3u8"
     ]
   },
   {
@@ -254,7 +255,8 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere8%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiere8%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g3/PREMIERE%208%20TV/index.m3u8"
     ]
   },
   {
@@ -263,8 +265,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiereclubes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/1614d3163ba74a98d969772a86bd3140/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpremiereclubes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -275,7 +276,8 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event2/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://aovivo.maissbt.com/indexMobile.m3u8",
-      "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8"
+      "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
+      "https://live.lixe.net/hls/g1/SBT%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -286,7 +288,8 @@
     "urls": [
       "https://sbtnews.maissbt.com/index.m3u8",
       "https://sbtnews.maissbt.com/3.m3u8",
-      "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8"
+      "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8",
+      "https://live.lixe.net/hls/g2/SBT%20NEWS%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -295,11 +298,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/sonychannel.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsonychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsonychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event57/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
-      "https://video37.mais.uol.com.br/live/279.mpd",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8509f894f3a88e431c107c65f8a5985e/error.txt?format=m3u8"
+      "https://video37.mais.uol.com.br/live/279.mpd"
     ]
   },
   {
@@ -308,8 +310,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/0fbe4bd9477d0388b391941363ba177e/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g8/SporTV%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -318,8 +320,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv2.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/9107c97b50e4075e197568790259eaa0/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g6/SporTV2%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -328,8 +330,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportv3.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f37cfd3364b4b6fa611c81dafc430a4a/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/SporTV3%20TV/index.m3u8"
     ]
   },
   {
@@ -338,8 +340,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/off.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcanaloff%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4c52d68e75af85a972dbf08f673b6738/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcanaloff%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -348,8 +349,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecineaction.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcaction%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/adad5be0b40e0b981eae83eef90c4fba/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftcaction%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/Telecine%20Action%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -358,8 +359,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinepipoca.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcpipoca%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/3d45ba9b88ce104b9621e70cc6aa753c/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftcpipoca%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g2/Telecine%20Pipoca%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -368,8 +369,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinepremium.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcpremium%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/e8a4234e0fe8b4a7130e1891102d9570/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftcpremium%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g1/Telecine%20Premium%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -387,11 +388,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/warnerchannel.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fwarner%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fwarner%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event56/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/WARNER_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
       "https://video45.mais.uol.com.br/live/277.mpd",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/a1b42cd4b1118fb5b6c403beefff89e9/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/Warner%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -400,7 +401,8 @@
     "categoria": "Variedades",
     "logo": "https://d5pgibznjcs0s.cloudfront.net/46d92cf6-4807-45c6-9bfd-b38f80288c86/en/images/logo_full.png",
     "urls": [
-      "https://igrejamundial.nuvemplay.live/hls/stream.m3u8"
+      "https://igrejamundial.nuvemplay.live/hls/stream.m3u8",
+      "https://live.lixe.net/hls/g4/IMPD%20TV%20TV/index.m3u8"
     ]
   },
   {
@@ -409,10 +411,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobosp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fglobosp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event4/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/GLOBO_SP/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/5bcc31ae56cae9054421130b4602480a/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/GLOBO%20SP%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -421,9 +423,9 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/cartoonito.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonito%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcartoonito%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event46/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f02902e07f7073c5f70a350b576f30f6/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/Cartoonito%20TV/index.m3u8"
     ]
   },
   {
@@ -432,10 +434,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/cinemax.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcinemax%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcinemax%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event95/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/CINEMAX/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f12a4cb8bf6f0d56377c21a63b9f9b18/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/CineMax%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -444,9 +446,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverychannel.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event33/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/43eab71e8e14e9ad5b51d994ba46da9b/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoverychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event33/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -455,9 +456,9 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/discoverykids.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverykids%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoverykids%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event42/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/22b81a5a01a613b4d2375fc6dbc479b8/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/DISCOVERY%20KIDS%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -466,9 +467,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoverytheater.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverytheater%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoverytheater%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event40/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/cacc021ce20d8bff81fac135d7f1fb9f/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/DISCOVERY%20THEATER%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -477,10 +478,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fespn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event24/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a07z/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/65835837a8deb4e847d1facb7b3a7a0a/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/VIVO%205%20TV/index.m3u8"
     ]
   },
   {
@@ -489,9 +490,9 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn2.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fespn2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event25/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/59cfe08ace0f3a7b7fd4c856cc40980f/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/VIVO%206%20TV/index.m3u8"
     ]
   },
   {
@@ -500,10 +501,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn4.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fespn4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event27/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a07n/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d9f21eee67a1eea6021e8e6c393bc430/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g8/VIVO%208%20TV/index.m3u8"
     ]
   },
   {
@@ -512,8 +513,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn5.png",
     "urls": [
-      "https://eitvplay.appmembers.com.br/event28/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/64cf4214fb9fdf15605a81bbe631c748/error.txt?format=m3u8"
+      "https://eitvplay.appmembers.com.br/event28/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -522,9 +522,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn6.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event23/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/15cfa37867dba7d7bb4749e0bf087f4e/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fespn6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event23/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -533,9 +532,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event87/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/b6eb3545a753f79169260db86809abd1/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event87/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -544,10 +542,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbo2.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbo2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event88/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://gigalinks.sattvgo.com.br/HBO2/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/65d395b516e06e0a16807c61af674769/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/HBO%202%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -556,10 +554,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbofamily.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbofamily%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbofamily%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event90/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/HBO_FAMILY/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/097c6e5557d65c6ce40dcbfb2ac91bd2/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g8/HBO%20FAMILY%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -568,10 +566,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbomundi.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbomundi%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbomundi%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event93/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://cdn-rs1.satlabscloud.com.br/HBO_MUNDI_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4b394cb786a5ff45c70fd28babfcfc0b/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/HBO%20MUNDI%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -580,10 +578,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hboplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhboplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event89/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://grupoa.satlabscloud.com.br/HBO_PLUS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f6ee9623af8a3e93a9e9a9975a73002f/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g3/HBO%20PLUS%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -592,10 +590,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/hbopop.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbopop%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbopop%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event92/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://gvtelecom.satlabscloud.com.br/HBO_POP_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6e767ccc9bf6d3263d7947cc1d902087/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/HBO%20POP%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -604,9 +602,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-signature.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbosignature%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhbosignature%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event91/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://net11.sattvgo.com.br/HBO_SIGNATURE/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+      "https://net11.sattvgo.com.br/HBO_SIGNATURE/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://live.lixe.net/hls/g8/HBO%20SIGNATURE%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -615,9 +614,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/hbo-xtreme.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboxtreme%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fhboxtreme%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event94/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/625e7db3331e9fec003e8d35a4484f77/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g0/HBO%20XTREME%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -626,9 +625,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/space.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fspace%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fspace%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event65/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4696211a83dae8142a28f7c5550f36c9/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/SPACE%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -637,10 +636,10 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tnt.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event64/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/TNT/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/98f43d4c41b59697a3b5468f32611659/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g3/TNT%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -649,9 +648,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tntseries.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftntseries%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftntseries%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event63/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/1726af9fe9a0f8cf60242b34854ca016/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/TNT%20SERIES%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -660,8 +659,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/universaltv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Funiversaltv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/356a2692a9a7ed7f6d8ffe5a5be4594a/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Funiversaltv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/Universal%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -670,9 +669,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryturbo.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryturbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoveryturbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event36/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8cce6691f2e8760263ef8ad8b5311052/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/DISCOVERY%20TURBO%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -681,7 +680,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://mondrian.claro.com.br/channels/inverse/usa.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fusa%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fusa%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g3/USA%20Network%20TV/index.m3u8"
     ]
   },
   {
@@ -690,8 +690,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinefun.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcfun%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/bd93e8fc48c2a843945a5261dd50be99/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftcfun%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g6/Telecine%20FUN%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -700,8 +700,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinecult.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftccult%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/3e29b4e75a2ee5db9dc58d1aee56d9c7/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftccult%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/Telecine%20Cult%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -710,8 +710,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/telecinetouch.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftctouch%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/21c36edbe7af7462d51321c1942f43b3/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftctouch%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g8/Telecine%20Touch%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -721,7 +721,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/tooncast.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event49/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50:80/TOONCAST/index.m3u8"
+      "http://170.83.16.50:80/TOONCAST/index.m3u8",
+      "https://live.lixe.net/hls/g8/Tooncast%20TV/index.m3u8"
     ]
   },
   {
@@ -730,9 +731,9 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/tntnovelas.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftntnovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftntnovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event157/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d2c3a6c76e352e1cae5cb2cff7953761/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g3/TNT%20Novelas%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -741,9 +742,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryscience.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryscience%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoveryscience%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event37/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/97b63d18741f0cb70838eeb0690474b6/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/DISCOVERY%20SCIENCE%20TV/index.m3u8"
     ]
   },
   {
@@ -752,11 +753,11 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/axn.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faxn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Faxn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event59/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.49.66:8083/AXNHD/index.m3u8",
       "http://170.83.16.50/AXN/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2d9d99af2dc5e65b5f8561b70eca3fc9/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g1/AXN%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -765,9 +766,9 @@
     "categoria": "Notícias",
     "logo": "https://img.faz-o-eli.online/bandnews.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fbandnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event31/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/e11248ac13228c8ac2174958bcb2bb73/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g4/BAND%20NEWS%20UHD%20TV/index.m3u8"
     ]
   },
   {
@@ -776,12 +777,12 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/bandsports.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fbandsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event29/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8",
       "http://170.83.16.50/BAND_SPORTS/index.m3u8",
       "https://video41.mais.uol.com.br/live/290.mpd",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4ad1bc8d6028abe14530f9251aa25d16/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g1/BAND%20Sports%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -790,11 +791,10 @@
     "categoria": "TV Aberta",
     "logo": "https://www.tvlogo.org/brazil/rede-tv-br.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event13/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
       "http://170.83.16.50/REDE_TV/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/670eb88bf0d6f10279e63114f2972174/error.txt?format=m3u8"
+      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8"
     ]
   },
   {
@@ -803,12 +803,11 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cultura.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvcultura%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftvcultura%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://grupoa.satlabscloud.com.br/TV_CULTURA_HD/index.m3u8?token=WdS7zWq3VkMZEiAMjl4J4FqMFjkNjpkV",
       "https://eitvplay.appmembers.com.br/event1/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
       "https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/c979ddf0bb3e0a6344763af0cad9c482/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/TV%20Cultura%20Mob/index.m3u8"
     ]
   },
   {
@@ -818,7 +817,8 @@
     "logo": "https://www.tvlogo.org/brazil/terraviva-br.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event72/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://9ada494d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVXBseW5rLU5ld2NvX0hMUw/playlist.m3u8"
+      "https://9ada494d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVXBseW5rLU5ld2NvX0hMUw/playlist.m3u8",
+      "https://live.lixe.net/hls/g2/Terra%20Viva%20TV/index.m3u8"
     ]
   },
   {
@@ -828,7 +828,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/woohoo.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event22/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/WOOHOO/index.m3u8"
+      "http://170.83.16.50/WOOHOO/index.m3u8",
+      "https://live.lixe.net/hls/g4/Woohoo%20TV/index.m3u8"
     ]
   },
   {
@@ -837,10 +838,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/espn3.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fespn3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event26/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a081/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/779e4195963ce22b553b06af1f579366/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/VIVO%207%20TV/index.m3u8"
     ]
   },
   {
@@ -849,7 +850,8 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-gazeta.png",
     "urls": [
-      "https://video08.logicahost.com.br/tvc21/tvc21/chunklist_w930922724.m3u8"
+      "https://video08.logicahost.com.br/tvc21/tvc21/chunklist_w930922724.m3u8",
+      "https://live.lixe.net/hls/g6/Gazeta%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -858,14 +860,14 @@
     "categoria": "Notícias",
     "logo": "https://mondrian.claro.com.br/channels/inverse/recordnews.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecordnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event108/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431",
       "https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/522d849017a9699e21b6e7293df8108a/error.txt?format=m3u8"
+      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431",
+      "https://live.lixe.net/hls/g1/Record%20News%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -874,8 +876,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/cancaonova.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcancaonova%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcancaonova%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event81/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://live.lixe.net/hls/g8/Cancao%20Nova%20TV/index.m3u8",
       "https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8"
     ]
   },
@@ -885,9 +888,9 @@
     "categoria": "TV Aberta",
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-aparecida.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvaparecida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftvaparecida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event77/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/954cb51b5fec617f00f6287e8f08953c/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g3/TV%20Aparecida%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -896,11 +899,11 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/redevida.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredevida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fredevida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "http://186.219.52.187/rede_vida/index.m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8",
-      "http://186.219.52.187/rede_vida/index.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7b3ff9ca9eb434378b0742448a1a5d7b/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/Rede%20Vida%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -909,9 +912,8 @@
     "categoria": "Documentários",
     "logo": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryid%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event61/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/cab948e224bde95c82e5a81b2381d65a/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoveryid%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event61/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -921,7 +923,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/fish-tv.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event71/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/FISH_TV/index.m3u8"
+      "http://170.83.16.50/FISH_TV/index.m3u8",
+      "https://live.lixe.net/hls/g7/FISH%20TV%20TV/index.m3u8"
     ]
   },
   {
@@ -930,8 +933,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/xsports.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fxsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6cd508a5d411058fbbbc3ccca9755c61/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fxsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g2/VIVO%209%20TV/index.m3u8"
     ]
   },
   {
@@ -940,7 +943,7 @@
     "categoria": "Esportes",
     "logo": "https://mondrian.claro.com.br/channels/inverse/nsports.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fnsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fnsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -949,9 +952,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event3/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/639ae0b4d0d6252b7c8981410bccb5c8/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fbandsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event3/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -960,9 +962,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsbtsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event2/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f4169236407856f0c79b49dbccf347bc/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsbtsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event2/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -971,10 +972,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecordsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event96/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/RECORD_SP/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/afbf36842d36e08b3d51922b911bb854/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/Record%20TV%20SP%20TV/index.m3u8"
     ]
   },
   {
@@ -983,7 +984,8 @@
     "categoria": "Variedades",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/canal-rural-br.png",
     "urls": [
-      "http://186.219.52.187/canal_rural/index.m3u8"
+      "http://186.219.52.187/canal_rural/index.m3u8",
+      "https://live.lixe.net/hls/g3/Canal%20Rural%20TV/index.m3u8"
     ]
   },
   {
@@ -992,11 +994,11 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/tvpaieterno.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpaieterno%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fpaieterno%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event142/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8",
       "https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1610240856.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2db5e8c4f37f4f2550bf333077917e56/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/TV%20Pai%20Eterno%20TV/index.m3u8"
     ]
   },
   {
@@ -1016,7 +1018,8 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event15/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
-      "https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8"
+      "https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8",
+      "https://live.lixe.net/hls/g2/Rede%20Brasil%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1025,8 +1028,9 @@
     "categoria": "Variedades",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/rede-gospel-br.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredegospel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fredegospel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8",
+      "https://live.lixe.net/hls/g7/TV%20Rede%20Gospel%20TV/index.m3u8"
     ]
   },
   {
@@ -1046,9 +1050,10 @@
     "categoria": "Variedades",
     "logo": "https://i.imgur.com/IrYR7Kp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvevangelizar%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftvevangelizar%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event180/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8"
+      "http://170.83.16.50/TV_EVANGELIZAR/index.m3u8",
+      "https://live.lixe.net/hls/g6/TV%20EVANGELIZAR%20TV/index.m3u8"
     ]
   },
   {
@@ -1058,7 +1063,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/tv-justica.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event7/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/TV_JUSTICA/index.m3u8"
+      "http://170.83.16.50/TV_JUSTICA/index.m3u8",
+      "https://live.lixe.net/hls/g5/TV%20Justica%20TV/index.m3u8"
     ]
   },
   {
@@ -1067,9 +1073,10 @@
     "categoria": "Variedades",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/novo-tempo-br.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fnovotempo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fnovotempo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event79/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8"
+      "https://streamtv.novotempo.com/CDN-TV-PT/smil:tvnovotempo.smil/playlist.m3u8",
+      "https://live.lixe.net/hls/g8/Novo%20Tempo%20TV/index.m3u8"
     ]
   },
   {
@@ -1079,7 +1086,8 @@
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/tv-senado-br.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event11/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/TV_SENADO/index.m3u8"
+      "http://170.83.16.50/TV_SENADO/index.m3u8",
+      "https://live.lixe.net/hls/g6/TV%20Senado%20TV/index.m3u8"
     ]
   },
   {
@@ -1090,7 +1098,8 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event139/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://acesso.ecast.site:3648/live/ritlive.m3u8",
-      "https://stream.ecast.com.br/rit-tv/tracks-v1a1/mono.m3u8"
+      "https://stream.ecast.com.br/rit-tv/tracks-v1a1/mono.m3u8",
+      "https://live.lixe.net/hls/g6/RIT%20TV/index.m3u8"
     ]
   },
   {
@@ -1099,9 +1108,8 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryhh.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryhh%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event18/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7024e616307119a09ee34afa1de1e7ba/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoveryhh%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event18/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
     ]
   },
   {
@@ -1141,7 +1149,8 @@
     "logo": "https://i.imgur.com/OOB7nrS.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event8/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://canaleducacao-stream.ebc.com.br/index.m3u8"
+      "https://canaleducacao-stream.ebc.com.br/index.m3u8",
+      "https://live.lixe.net/hls/g1/Canal%20Educacao%20TV/index.m3u8"
     ]
   },
   {
@@ -1182,7 +1191,8 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event70/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://eitvplay.appmembers.com.br/event160/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://170.83.16.50/CANAL_DO_BOI/index.m3u8"
+      "http://170.83.16.50/CANAL_DO_BOI/index.m3u8",
+      "https://live.lixe.net/hls/g2/Canal%20do%20Boi%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1191,7 +1201,8 @@
     "categoria": "Infantil",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/DumDum_logo.svg",
     "urls": [
-      "http://186.219.52.187/zoomoo/index.m3u8"
+      "http://186.219.52.187/zoomoo/index.m3u8",
+      "https://live.lixe.net/hls/g1/Dum%20dum%20TV/index.m3u8"
     ]
   },
   {
@@ -1249,7 +1260,8 @@
       "https://eitvplay.appmembers.com.br/event13/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
       "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
-      "http://170.83.16.50/REDE_TV/index.m3u8"
+      "http://170.83.16.50/REDE_TV/index.m3u8",
+      "https://live.lixe.net/hls/g5/Rede%20TV%21%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1267,8 +1279,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/combate.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcombate%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/53c049962a6fea22ee4e89c16e063b93/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcombate%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/COMBATE%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1277,7 +1289,7 @@
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1286,7 +1298,7 @@
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1295,8 +1307,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6529f1db33657fc4ac817bc164dd6d4e/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fparamountplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1305,7 +1316,7 @@
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fparamountplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1314,7 +1325,7 @@
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus03%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fparamountplus03%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1323,8 +1334,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://img.faz-o-eli.online/studiouniversal.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fstudiouniversal%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/e5d33972fc96c6dcfa331f0bbacb6455/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fstudiouniversal%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g8/STUDIO%20UNIVERSAL%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1333,8 +1344,8 @@
     "categoria": "Infantil",
     "logo": "https://img.faz-o-eli.online/gloob.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloob%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7fb82c5337b8f0a3c162422000fc3def/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgloob%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g7/GLOOB%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1343,7 +1354,8 @@
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/GLOBINHO.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloobinho%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgloobinho%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g8/GLOOBINHO%20TV/index.m3u8"
     ]
   },
   {
@@ -1352,8 +1364,9 @@
     "categoria": "Infantil",
     "logo": "https://logos.imperioapps.top/TV_RA_TIM_BUM.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvratimbum%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event47/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ftvratimbum%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://eitvplay.appmembers.com.br/event47/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://live.lixe.net/hls/g7/Ra%20Tim%20Bum%20TV/index.m3u8"
     ]
   },
   {
@@ -1363,7 +1376,8 @@
     "logo": "http://i.imgur.com/IWGyp65.jpeg",
     "urls": [
       "https://eitvplay.appmembers.com.br/event116/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8"
+      "http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8",
+      "https://live.lixe.net/hls/g8/TVE%20Bahia%20Mob/index.m3u8"
     ]
   },
   {
@@ -1372,9 +1386,9 @@
     "categoria": "Variedades",
     "logo": "https://img.faz-o-eli.online/foodnetwork.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ffoodnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Ffoodnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event53/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/3a9e0862dcb33be5e687f910c1953f5a/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g8/Food%20Network%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1383,8 +1397,7 @@
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
-      "https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f75e70f7518e23fc49dc932e49165bc0/error.txt?format=m3u8"
+      "https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8"
     ]
   },
   {
@@ -1393,9 +1406,9 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/discoveryworld.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryworld%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdiscoveryworld%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event41/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d908acf43df6cb55ab59b08c8537acad/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/DISCOVERY%20WORLD%20TV/index.m3u8"
     ]
   },
   {
@@ -1404,10 +1417,9 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcazetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event55/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6fd5b6517882006b3c0f563fc7565053/error.txt?format=m3u8"
+      "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8"
     ]
   },
   {
@@ -1416,8 +1428,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/68be83183d96bf9b4fa788b1ac2e208c/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcazetv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g3/CazeTV%202%20TV/index.m3u8"
     ]
   },
   {
@@ -1426,8 +1438,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet1%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/9dddc2b4b3dedaf95acb0e4a30aa0fa5/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportynet1%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1436,8 +1447,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/cde54eef1477896bad7d041380c164b5/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportynet2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1446,8 +1456,7 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2e1531880f9113bf66d36d6417224c25/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportynet3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1456,8 +1465,7 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://net11.sattvgo.com.br/GLOBO_ES/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/0f25721f69867f271824ff016a783641/error.txt?format=m3u8"
+      "https://net11.sattvgo.com.br/GLOBO_ES/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
   {
@@ -1466,9 +1474,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globorj.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloborj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fgloborj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://net11.sattvgo.com.br/GLOBO_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/5d2999295551c305994fb74f7b727ed5/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/GLOBO%20RJ%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1477,8 +1485,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobors%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6a22defec5b57309eaf99ede07046f8e/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fglobors%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g5/GLOBO%20RS%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1487,8 +1495,7 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordmg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/e677eac61d708e8b5f9fb87d9292d5fb/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecordmg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1497,9 +1504,8 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordrj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://gvtelecom.satlabscloud.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/46e1b9ada22cc9a477a72008ecc79f03/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecordrj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://gvtelecom.satlabscloud.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
   {
@@ -1508,7 +1514,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcazetv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g3/CazeTV%203%20TV/index.m3u8"
     ]
   },
   {
@@ -1517,8 +1524,7 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobodf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/bd4311b47ade1a2eff3495383294dcdf/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fglobodf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1527,8 +1533,7 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobomg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/3bee429f73297760f5ba342bf9665d78/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fglobomg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1537,8 +1542,8 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/83c6946514f2ec7ea300b8a7b2f8fac7/error.txt?format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fsportynet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g6/Sportynet%20TV/index.m3u8"
     ]
   },
   {
@@ -1547,7 +1552,8 @@
     "categoria": "Variedades",
     "logo": "https://vipcanais.net/images/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus04%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fparamountplus04%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://live.lixe.net/hls/g1/Paramount%2B%204%20TV/index.m3u8"
     ]
   },
   {
@@ -1685,7 +1691,6 @@
     "categoria": "Músicas",
     "logo": "https://i.imgur.com/DLIbUMx.png",
     "urls": [
-      "https://eitvplay.appmembers.com.br/event126/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://amg01076-lightningintern-traceurban-xiaomi-m78n3.amagi.tv/playlist/amg01076-lightningintern-traceurban-xiaomi/playlist.m3u8"
     ]
   },
@@ -1758,7 +1763,7 @@
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/cazetv.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fcazetv4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1767,7 +1772,7 @@
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus07%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus07%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1776,7 +1781,7 @@
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus08%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus08%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1785,7 +1790,7 @@
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus03%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus03%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1794,7 +1799,7 @@
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus05%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus05%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1803,7 +1808,7 @@
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus06%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus06%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1812,7 +1817,7 @@
     "categoria": "Filmes e Séries",
     "logo": "https://vipcanais.net/images/amcseries.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Famcseries%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Famcseries%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1821,7 +1826,7 @@
     "categoria": "TV Aberta",
     "logo": "https://1.embedcanaisdetv.com/images/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecorddf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecorddf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://net11.sattvgo.com.br/RECORD_DF/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
@@ -1831,7 +1836,7 @@
     "categoria": "TV Aberta",
     "logo": "https://1.embedcanaisdetv.com/images/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Frecordes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1840,7 +1845,7 @@
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus04%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth2311oq80soveui6lkbi2iza2zf.cdn12embed.xyz%2Fdisneyplus04%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
     ]
   },
   {
@@ -1860,7 +1865,7 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event20/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://video37.mais.uol.com.br/live/292.m3u8",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/e62b85e8514b87901998bca58e598165/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g8/Arte%201%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1870,7 +1875,7 @@
     "logo": "https://img.faz-o-eli.online/hgtv.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event38/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ba284338ef09bd0bc71963702b8c914e/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g7/HGTV%20HD%2B%20TV/index.m3u8"
     ]
   },
   {
@@ -1880,7 +1885,7 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event96/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/405d1891d78059355ac3edcfdca8e3c7/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/Record%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1890,7 +1895,7 @@
     "logo": "https://img.faz-o-eli.online/tcm.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event73/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/16d597b5469f58ee2b5f34087e43e95f/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g1/TCM%20TV/index.m3u8"
     ]
   },
   {
@@ -1900,7 +1905,7 @@
     "logo": "https://img.faz-o-eli.online/tlc.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event19/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/1ce1fe0f96d52419743e710561f8d12c/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/TLC%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -1909,7 +1914,8 @@
     "categoria": "Variedades",
     "logo": "https://mondrian.claro.com.br/channels/inverse/e!.png",
     "urls": [
-      "https://video49.mais.uol.com.br/live/4503.mpd"
+      "https://video49.mais.uol.com.br/live/4503.mpd",
+      "https://live.lixe.net/hls/g5/E%21%20TV/index.m3u8"
     ]
   },
   {
@@ -1919,7 +1925,8 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/sabor-e-arte.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event118/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
-      "https://video37.mais.uol.com.br/live/3066.m3u8"
+      "https://video37.mais.uol.com.br/live/3066.m3u8",
+      "https://live.lixe.net/hls/g5/Sabor%20%26%20Arte%20TV/index.m3u8"
     ]
   },
   {
@@ -1964,7 +1971,8 @@
     "categoria": "Variedades",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYNcM2WEol3BCV29O2ecQ4rbPC6pgSDwmIT7Q3ySajjHDA3oHRfh0ikOez&s=10",
     "urls": [
-      "https://eitvplay.appmembers.com.br/event52/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event52/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://live.lixe.net/hls/g6/Fashion%20TV%20TV/index.m3u8"
     ]
   },
   {
@@ -1973,7 +1981,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://static.guiadetv.com/channel/fiUIa3E6ZmxBMqxMjafkkZKkqzoZX83NOgeEZ9BR.png",
     "urls": [
-      "https://eitvplay.appmembers.com.br/event143/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event143/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://live.lixe.net/hls/g7/Film%20%26%20Arts%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -2036,7 +2045,8 @@
     "categoria": "Filmes e Séries",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgSpdXfXMnvjc83HGXzceyxQxaH7P3ZSaJXZBQdhW8GcsEjkS7MEPDdGU&s=10",
     "urls": [
-      "https://eitvplay.appmembers.com.br/event62/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event62/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://live.lixe.net/hls/g1/LIFE%20TIME%20TV/index.m3u8"
     ]
   },
   {
@@ -2050,366 +2060,51 @@
   },
   {
     "id": "201",
-    "nome": "24H Chaves",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d37e9c961a101d42491bb2d54d4a4688/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "202",
-    "nome": "24H Dragon Ball Z",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/dc3cc5afeb990025fdf1eb468f8dba4a/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "203",
-    "nome": "24H Friends",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/15afb510c617e8bcb8e6b144847ed1fe/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "204",
-    "nome": "24H Os Simpsons",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8cec7b892c3b05ec1f07970433c7d805/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "205",
-    "nome": "24H Pica Pau",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2ab8ac6b0003af5cd88389852c4c3c18/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "206",
-    "nome": "24H Todo Mundo Odeia o Cris",
-    "categoria": "24 Horas",
-    "logo": "https://img.faz-o-eli.online/24h.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/74c2e1cc9ea1ad361beb7b30baf49373/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "207",
-    "nome": "A Fazenda 18 1",
-    "categoria": "PPV",
-    "logo": "https://img.faz-o-eli.online/afazenda2.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2625fa2b32887cfd1f619f088ac0be46/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "208",
-    "nome": "A Fazenda 18 2",
-    "categoria": "PPV",
-    "logo": "https://img.faz-o-eli.online/afazenda2.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/582aa082de7d5cca4d22d49bc4f153a9/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "209",
-    "nome": "A Fazenda 18 3",
-    "categoria": "PPV",
-    "logo": "https://img.faz-o-eli.online/afazenda2.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/c1e158b92a22aa77c47955a7c66da961/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "210",
-    "nome": "A Fazenda 18 4",
-    "categoria": "PPV",
-    "logo": "https://img.faz-o-eli.online/afazenda2.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6a6251e8ab737c641e3bdae5c3ac2943/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "211",
-    "nome": "A Fazenda 18 5",
-    "categoria": "PPV",
-    "logo": "https://img.faz-o-eli.online/afazenda2.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/2eaadd1a7de406f9644d154935e0840c/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "212",
     "nome": "BIS",
     "categoria": "Variedades",
     "logo": "http://www.fontedecanais.me/logos/canais/bis.png",
     "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4355b9da3ab4f99e2ab7bcf2dd9fb20c/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g6/BIS%20HD%20TV/index.m3u8"
     ]
   },
   {
-    "id": "213",
+    "id": "202",
     "nome": "Band RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
     "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/97230a7512ac33e16921ef014a3f6aca/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g1/BAND%20RJ%20TV/index.m3u8"
     ]
   },
   {
-    "id": "214",
+    "id": "203",
     "nome": "Curta",
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/curta.png",
     "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/b0a39adf4300a287b512e9d4b79b9f98/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/Curta%20HD%20TV/index.m3u8"
     ]
   },
   {
-    "id": "215",
-    "nome": "Disney Plus 1",
-    "categoria": "Filmes e Séries",
-    "logo": "https://vipcanais.net/images/disneyplus.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ba18331a0b260d12ec5fcaf8b5d02f9a/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "216",
-    "nome": "Globo AM",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/globosp.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/adffe7cbcfcb8689d76fc9b952c83e30/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "217",
-    "nome": "Globo CE",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/globosp.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/fb7869f2fab2625c81c56821c94ff145/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "218",
-    "nome": "Globo GO",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/globosp.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/b761f366439dc87edd82bc67953fd5c0/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "219",
-    "nome": "Globo PB",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/globosp.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/feb3b1e66fdf84a716b0297d58b84edf/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "220",
-    "nome": "Globo PE",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/globosp.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/0be661fdc2f486e29da07312e7487eaf/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "221",
-    "nome": "MAX 01",
-    "categoria": "Filmes e Séries",
-    "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/18d4bd525e632593d5bd478cb2c306d3/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "222",
-    "nome": "MAX 02",
-    "categoria": "Filmes e Séries",
-    "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/74c7cfbeb401834058339a05cb945730/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "223",
-    "nome": "MAX 03",
-    "categoria": "Filmes e Séries",
-    "logo": "https://img.faz-o-eli.online/max.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ddba767899a73886d30075a3a29a6100/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "224",
-    "nome": "PT - A Bola",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_abola.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4a01422389f8c65b01c563c3c42a4e2a/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "225",
-    "nome": "PT - Benfica TV",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ca1378a7ab1a314604f8732b980a0539/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "226",
-    "nome": "PT - Canal 11",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_canal11.prev.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/36cafb1fd3838de79c57b9b03818706b/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "227",
-    "nome": "PT - Eleven 1",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/d07588aab84bc04f31cff2c36d78f679/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "228",
-    "nome": "PT - Eleven 2",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/480950244f6fa384be38a881fa29f989/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "229",
-    "nome": "PT - Eleven 3",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/f80ef3be33640a19d07c4973a8a826f1/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "230",
-    "nome": "PT - Sporttv 1",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7bd77006f0c7ac6c69f8b9de2ce0e0cf/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "231",
-    "nome": "PT - Sporttv 2",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/4508652991865612130148eaf878d8f6/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "232",
-    "nome": "PT - Sporttv 3",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ee92039bbeb37d4a01f19700882378f6/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "233",
-    "nome": "PT - Sporttv 4",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/bfe5e5522bd365107462b61114b56b6b/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "234",
-    "nome": "PT - Sporttv 5",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ed0e8189bd1cbffd8d55d0e4c95406aa/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "235",
-    "nome": "PT - Sporttv 6",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/ceca787edbf5ecc7874f52835139107c/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "236",
-    "nome": "PT - Sporttv 7",
-    "categoria": "Esportes",
-    "logo": "https://img.faz-o-eli.online/sportv.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/af4ca2fa9f7f236681bf519237fcb992/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "237",
-    "nome": "Paramount Plus 1",
-    "categoria": "Filmes e Séries",
-    "logo": "https://vipcanais.net/images/paramountplus.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/6529f1db33657fc4ac817bc164dd6d4e/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "238",
-    "nome": "Record GO",
-    "categoria": "TV Aberta",
-    "logo": "https://img.faz-o-eli.online/record.png",
-    "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/7d046feb721adc668a2c397b3bb23364/error.txt?format=m3u8"
-    ]
-  },
-  {
-    "id": "239",
+    "id": "204",
     "nome": "SBT RJ",
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/8303515c944945a7def1e4cd37abdc74/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g5/SBT%20RJ%20TV/index.m3u8"
     ]
   },
   {
-    "id": "240",
+    "id": "205",
     "nome": "UFC Fight Pass",
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/ufcfightpass.png",
     "urls": [
-      "https://45ea5aa4b933eece04c04cef9780baab.sv-nl-02-cloudfront-net.lat/stream/c02c17b1eba784e7603c6d1beebb486c/error.txt?format=m3u8"
+      "https://live.lixe.net/hls/g2/UFC%20Fight%20Pass%20TV/index.m3u8"
     ]
   },
   {
-    "id": "241",
+    "id": "206",
     "nome": "A&E (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://www.tvlogo.org/brazil/a-and-e-br.png",
@@ -2418,7 +2113,7 @@
     ]
   },
   {
-    "id": "242",
+    "id": "207",
     "nome": "AXN (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/axn.png",
@@ -2427,7 +2122,7 @@
     ]
   },
   {
-    "id": "243",
+    "id": "208",
     "nome": "CAZE TV (ST)",
     "categoria": "ESPORTES",
     "logo": "https://commons.wikimedia.org/wiki/Special:FilePath/Caz%C3%A9TV_wordmark.svg?width=300",
@@ -2436,7 +2131,7 @@
     ]
   },
   {
-    "id": "244",
+    "id": "209",
     "nome": "COMBATE (S46)",
     "categoria": "ESPORTES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/combate.png",
@@ -2445,7 +2140,7 @@
     ]
   },
   {
-    "id": "245",
+    "id": "210",
     "nome": "ESPN 2 (S46)",
     "categoria": "ESPN",
     "logo": "https://i.imgur.com/ZAHnoPh.png",
@@ -2454,7 +2149,7 @@
     ]
   },
   {
-    "id": "246",
+    "id": "211",
     "nome": "WARNER CHANNEL (S79)",
     "categoria": "FILMES E SÉRIES",
     "logo": "https://mondrian.claro.com.br/channels/inverse/warner-channel.png",
