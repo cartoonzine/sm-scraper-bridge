@@ -1168,22 +1168,25 @@
     "year": 2014,
     "tmdbId": 61700,
     "tmdbTipo": "tv",
+    "imdbId": "tt3914520",
     "thumb": "https://image.tmdb.org/t/p/w500/dRIMX2AKSgeBmykrtOkkB6mLlqb.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/2vMwcaFqcaEseNBsOpjgAnw7J2g.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/gDPoUx97YV2JZ41ljaqoCFPUxxE.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/3WsEhMRZhBjjZ26mcUYjbGX0RyU.png",
     "desc": "Para combater o aumento de crimes violentos, o chefe da polícia pede para o Detetive Oh Goo Tak (Kim Sang Joong) para que ele forme uma equipe para combater esses crimes, mesmo ele estando suspenso da polícia devido o uso excessivo de violência contra os criminosos. Mas, o Detetive Oh reúne em sua equipe criminosos como Park Woong Cul (Ma Dong Seok), que é um gangster, Lee Jung Moon (Park Hae Jin), que é muito inteligente e é o assassino em série mais novo, e Jung Tae Soo (Jo Dong Hyuk), que é um assassino de aluguel. Além deles, tem a Inspetora Yoo Mi Yang (Kang Ye Won) que se junta à equipe. Será que as mentes criminosas mais brilhantes da Coreia conseguirão ajudar a combater o aumento dos crimes, ou será que o plano do Detetive sairá pela culatra?",
     "genre": [
-      "Ação e aventura",
+      "Action & Adventure",
       "Crime",
       "Drama"
     ],
+    "runtime": 60,
     "rating": 7.7,
-    "popularity": 5,
+    "popularity": 5.5,
     "audios": [
       "dublado",
       "legendado"
     ],
-    "group": "Doramas | Ação e aventura",
+    "group": "Doramas | Action & Adventure",
     "seasons": [
       {
         "season": 1,
@@ -8213,14 +8216,16 @@
     "year": 2011,
     "tmdbId": 52910,
     "tmdbTipo": "tv",
+    "imdbId": "tt4938990",
     "thumb": "https://image.tmdb.org/t/p/w500/qG2JpIDuYhuQOMSLqmMtHBBbfx5.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/sgE2evtpaP5b9tavrgYCy2nKYLT.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/7goeSggajsAa96CHG48vWrJz2o2.jpg",
     "desc": "Lei da selva é um reality show híbrido que combina elementos de drama e documentário. O programa apresenta aos espectadores locais exóticos onde as celebridades devem trabalhar juntas para completar desafios e sobreviver.",
     "genre": [
       "Reality"
     ],
     "rating": 5.5,
-    "popularity": 101,
+    "popularity": 149.2,
     "audios": [
       "dublado"
     ],
@@ -14920,6 +14925,26 @@
             "season": 3,
             "episode": 10,
             "url": "https://nixplay.lat/series/saimo-vods/221097/214582/3/10.mp4"
+          },
+          {
+            "season": 3,
+            "episode": 11,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/214582/3/11.mp4"
+          },
+          {
+            "season": 3,
+            "episode": 12,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/214582/3/12.mp4"
+          },
+          {
+            "season": 3,
+            "episode": 13,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/214582/3/13.mp4"
+          },
+          {
+            "season": 3,
+            "episode": 14,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/214582/3/14.mp4"
           }
         ]
       }
@@ -21587,16 +21612,19 @@
     "year": 2013,
     "tmdbId": 60957,
     "tmdbTipo": "tv",
+    "imdbId": "tt3469052",
     "thumb": "https://image.tmdb.org/t/p/w500/9Rgz3yyOcj41rlnPLYv2iiADmZi.jpg",
     "bannerThumb": "https://image.tmdb.org/t/p/w1280/ayOqM9CJxqB3ChvR6pNSYqe02Sn.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/3itDJyYyEtMwIMiSm4RJ3sdh7Ey.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/qNekqgLeiCtzsIGIz4Sssxmbrqn.png",
     "desc": "Do Minjun, um extraterrestre preso na Terra há 400 anos, descobre que um cometa pode ser sua chance de voltar à casa, mas enquanto se prepara para o retorno, ele se apaixona por sua vizinha Cheon Songyi, uma famosa atriz.",
     "genre": [
       "Comédia",
       "Drama"
     ],
+    "runtime": 60,
     "rating": 8.3,
-    "popularity": 12,
+    "popularity": 12.1,
     "audios": [
       "dublado",
       "legendado"
