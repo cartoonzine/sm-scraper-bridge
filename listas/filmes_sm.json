@@ -54121,6 +54121,15 @@
     "group": "Filmes | Thriller"
   },
   {
+    "title": "A Pescadora Solitária",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1195803.mp4?lang=leg",
+    "thumb": "https://image.tmdb.org/t/p/w500/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+    "audios": [
+      "legendado"
+    ],
+    "group": "Filmes"
+  },
+  {
     "title": "A Peça de Natal",
     "url": "https://nixplay.lat/movie/saimo-vods/221097/475833.mp4",
     "thumb": "https://image.tmdb.org/t/p/w500/loCbXcm9zq2pmScYGnzD3dxpOmX.jpg",
@@ -477230,6 +477239,15 @@
     "group": "Filmes | Comédia"
   },
   {
+    "title": "O Pequeno Guerreiro",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1280115.mp4",
+    "thumb": "https://image.tmdb.org/t/p/w500/79VKzdDYRCvfZWNAEYBoPxeEHm6.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
+  },
+  {
     "title": "O Pequeno Gângster",
     "year": 2015,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/332349.mp4",
@@ -533986,7 +534004,8 @@
     "year": 2024,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/39071.mp4",
     "mirrors": [
-      "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/85962.mp4"
+      "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/85962.mp4",
+      "https://nixplay.lat/movie/saimo-vods/221097/1283655.mp4"
     ],
     "tmdbId": 1283655,
     "tmdbTipo": "movie",
@@ -601512,6 +601531,9 @@
     "title": "Senhores do Crime",
     "year": 2007,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/2252.mp4",
+    "mirrors": [
+      "https://nixplay.lat/movie/saimo-vods/221097/2252.mp4?lang=leg"
+    ],
     "tmdbId": 2252,
     "tmdbTipo": "movie",
     "imdbId": "tt0765443",
@@ -601529,7 +601551,8 @@
     "rating": 7.3,
     "popularity": 5.3,
     "audios": [
-      "dublado"
+      "dublado",
+      "legendado"
     ],
     "group": "Filmes | Thriller"
   },
@@ -643356,6 +643379,7 @@
     "tmdbId": 880557,
     "tmdbTipo": "movie",
     "imdbId": "tt11858526",
+    "thumb": "https://image.tmdb.org/t/p/w500/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg",
     "desc": "A short comedy film following a vampire who needs to take a shit.",
     "genre": [
       "Comédia",
@@ -655663,30 +655687,6 @@
     "group": "Filmes | Ação"
   },
   {
-    "title": "Top Love - Só e Bem Acompanhado!",
-    "year": 2024,
-    "url": "https://nixplay.lat/movie/saimo-vods/221097/1283655.mp4",
-    "tmdbId": 1283655,
-    "tmdbTipo": "movie",
-    "imdbId": "tt32263211",
-    "thumb": "https://image.tmdb.org/t/p/w500/dnEDznGf2ATL0onIlDcGFSJcnEb.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/lYILtcQ7SWmpJONbmzQE4gkvA7E.jpg",
-    "previewThumb": "https://image.tmdb.org/t/p/w1280/mi6Xzmv2bDHl7X0KlHdmZD3hros.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/9rpeetquGZEyyglCTfQjb84X9kR.png",
-    "desc": "Tudo ia bem na vida de Paulinho Gogó, mas isso muda quando Nêga Juju, sua amada, o abandona. Já diz o ditado: azar no amor, sorte no jogo. Paulinho e seus amigos fazem fortunas apostando, mas nada o satisfaz por dentro. Depois de muitas reviravoltas Paulinho percebe que para ser feliz só precisa seguir seu sonho e tocar samba com seus amigos no seu bar favorito, e lá ele encontra seu novo amor.",
-    "genre": [
-      "Comédia"
-    ],
-    "age": "12",
-    "runtime": 100,
-    "rating": 5.8,
-    "popularity": 0.4,
-    "audios": [
-      "dublado"
-    ],
-    "group": "Filmes | Comédia"
-  },
-  {
     "title": "Top Secret! Superconfidencial",
     "year": 1984,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/19995.mp4",
@@ -663868,6 +663868,15 @@
       "dublado"
     ],
     "group": "Filmes | Drama"
+  },
+  {
+    "title": "Tudo Pode Ser Visto",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1765072.mp4?lang=leg",
+    "thumb": "https://image.tmdb.org/t/p/w500/mnu5cNfijdbuU4iWrV2Lg7AfM0J.jpg",
+    "audios": [
+      "legendado"
+    ],
+    "group": "Filmes"
   },
   {
     "title": "Tudo Pode dar Certo",
