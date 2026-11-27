@@ -534013,7 +534013,8 @@
     "year": 2024,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/39071.mp4",
     "mirrors": [
-      "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/85962.mp4"
+      "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/85962.mp4",
+      "https://nixplay.lat/movie/saimo-vods/221097/1283655.mp4"
     ],
     "tmdbId": 1283655,
     "tmdbTipo": "movie",
@@ -643387,6 +643388,7 @@
     "tmdbId": 880557,
     "tmdbTipo": "movie",
     "imdbId": "tt11858526",
+    "thumb": "https://image.tmdb.org/t/p/w500/yXLx87GoPrM1ofZyIdFJOaqCjKP.jpg",
     "desc": "A short comedy film following a vampire who needs to take a shit.",
     "genre": [
       "Comédia",
@@ -655701,30 +655703,6 @@
     ],
     "qualidadeMax": "4K",
     "group": "Filmes | Ação"
-  },
-  {
-    "title": "Top Love - Só e Bem Acompanhado!",
-    "year": 2024,
-    "url": "https://nixplay.lat/movie/saimo-vods/221097/1283655.mp4",
-    "tmdbId": 1283655,
-    "tmdbTipo": "movie",
-    "imdbId": "tt32263211",
-    "thumb": "https://image.tmdb.org/t/p/w500/dnEDznGf2ATL0onIlDcGFSJcnEb.jpg",
-    "bannerThumb": "https://image.tmdb.org/t/p/w1280/lYILtcQ7SWmpJONbmzQE4gkvA7E.jpg",
-    "previewThumb": "https://image.tmdb.org/t/p/w1280/mi6Xzmv2bDHl7X0KlHdmZD3hros.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/9rpeetquGZEyyglCTfQjb84X9kR.png",
-    "desc": "Tudo ia bem na vida de Paulinho Gogó, mas isso muda quando Nêga Juju, sua amada, o abandona. Já diz o ditado: azar no amor, sorte no jogo. Paulinho e seus amigos fazem fortunas apostando, mas nada o satisfaz por dentro. Depois de muitas reviravoltas Paulinho percebe que para ser feliz só precisa seguir seu sonho e tocar samba com seus amigos no seu bar favorito, e lá ele encontra seu novo amor.",
-    "genre": [
-      "Comédia"
-    ],
-    "age": "12",
-    "runtime": 100,
-    "rating": 5.8,
-    "popularity": 0.4,
-    "audios": [
-      "dublado"
-    ],
-    "group": "Filmes | Comédia"
   },
   {
     "title": "Top Secret! Superconfidencial",

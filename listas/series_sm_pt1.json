@@ -8929,7 +8929,10 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26519.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26519.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/1.mp4"
+            ]
           },
           {
             "season": 1,
@@ -8939,32 +8942,50 @@
           {
             "season": 1,
             "episode": 3,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26521.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26521.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/3.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26523.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26523.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/4.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26524.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26524.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/5.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26525.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26525.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/6.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26527.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26527.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/7.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26528.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/26528.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/124339/1/8.mp4"
+            ]
           }
         ]
       }
@@ -280015,7 +280036,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5621796.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132200.mp4",
-              "https://embedplayer2.xyz/cdn/hls/6761a531ec44be4f26079ad5d5686edd/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/6761a531ec44be4f26079ad5d5686edd/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/214088/1/1.mp4"
             ]
           },
           {
@@ -280031,7 +280053,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5621798.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132202.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132202.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/214088/1/3.mp4"
             ]
           },
           {
@@ -280039,7 +280062,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5621799.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132203.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132203.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/214088/1/4.mp4"
             ]
           },
           {
@@ -280047,7 +280071,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5621800.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132204.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132204.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/214088/1/5.mp4"
             ]
           },
           {
@@ -280055,7 +280080,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5621801.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132205.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132205.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/214088/1/6.mp4"
             ]
           }
         ]
@@ -310891,7 +310917,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615042.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115508.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115516.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115516.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/1.mp4"
             ]
           },
           {
@@ -310900,7 +310927,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615043.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115509.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115517.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115517.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/2.mp4"
             ]
           },
           {
@@ -310909,7 +310937,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615044.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115510.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115518.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115518.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/3.mp4"
             ]
           },
           {
@@ -310918,7 +310947,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615045.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115511.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115519.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115519.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/4.mp4"
             ]
           },
           {
@@ -310927,7 +310957,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615046.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115512.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115520.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115520.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/5.mp4"
             ]
           },
           {
@@ -310936,7 +310967,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615047.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115513.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115521.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115521.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/6.mp4"
             ]
           },
           {
@@ -310945,7 +310977,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615048.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115514.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115522.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115522.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/7.mp4"
             ]
           },
           {
@@ -310954,7 +310987,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5615049.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115515.mp4",
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115523.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/115523.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/202429/1/8.mp4"
             ]
           }
         ]
@@ -346856,7 +346890,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613131.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132467.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132467.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/1.mp4"
             ]
           },
           {
@@ -346864,7 +346899,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613132.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132468.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132468.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/2.mp4"
             ]
           },
           {
@@ -346872,7 +346908,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613133.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132469.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132469.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/3.mp4"
             ]
           },
           {
@@ -346880,7 +346917,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613134.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132470.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132470.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/4.mp4"
             ]
           },
           {
@@ -346888,7 +346926,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613135.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132471.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132471.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/5.mp4"
             ]
           },
           {
@@ -346896,7 +346935,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613136.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132472.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132472.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/6.mp4"
             ]
           },
           {
@@ -346904,7 +346944,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613137.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132473.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132473.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/7.mp4"
             ]
           },
           {
@@ -346912,7 +346953,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613138.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132474.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132474.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/8.mp4"
             ]
           },
           {
@@ -346920,7 +346962,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613139.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132475.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132475.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/9.mp4"
             ]
           },
           {
@@ -346928,7 +346971,8 @@
             "episode": 10,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613140.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132476.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/132476.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158296/2/10.mp4"
             ]
           }
         ]
@@ -419837,7 +419881,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587020.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58211.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58211.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/1.mp4"
             ]
           },
           {
@@ -419845,7 +419890,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587021.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58212.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58212.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/2.mp4"
             ]
           },
           {
@@ -419853,7 +419899,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587022.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58213.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58213.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/3.mp4"
             ]
           },
           {
@@ -419861,7 +419908,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587023.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58215.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58215.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/4.mp4"
             ]
           },
           {
@@ -419869,7 +419917,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587024.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58216.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58216.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/5.mp4"
             ]
           },
           {
@@ -419877,7 +419926,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587025.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58217.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58217.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/6.mp4"
             ]
           },
           {
@@ -419885,7 +419935,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587026.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58219.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58219.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/7.mp4"
             ]
           },
           {
@@ -419893,7 +419944,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5587027.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58220.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/58220.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/104521/2/8.mp4"
             ]
           }
         ]
@@ -494903,7 +494955,8 @@
             "episode": 1,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260874.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260904.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260904.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/1.mp4"
             ]
           },
           {
@@ -494911,7 +494964,8 @@
             "episode": 2,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260875.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260905.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260905.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/2.mp4"
             ]
           },
           {
@@ -494919,7 +494973,8 @@
             "episode": 3,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260876.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260906.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260906.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/3.mp4"
             ]
           },
           {
@@ -494927,7 +494982,8 @@
             "episode": 4,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260877.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260907.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260907.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/4.mp4"
             ]
           },
           {
@@ -494935,7 +494991,8 @@
             "episode": 5,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260878.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260908.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260908.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/5.mp4"
             ]
           },
           {
@@ -494943,7 +495000,8 @@
             "episode": 6,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260879.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260909.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260909.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/6.mp4"
             ]
           },
           {
@@ -494951,7 +495009,8 @@
             "episode": 7,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260880.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260910.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260910.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/7.mp4"
             ]
           },
           {
@@ -494959,7 +495018,8 @@
             "episode": 8,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260881.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260911.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260911.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/8.mp4"
             ]
           },
           {
@@ -494967,113 +495027,177 @@
             "episode": 9,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260882.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260912.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260912.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/9.mp4"
             ]
           },
           {
             "season": 1,
             "episode": 10,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260883.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260883.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/10.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 11,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260884.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260884.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/11.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 12,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260885.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260885.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/12.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 13,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260886.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260886.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/13.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 14,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260887.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260887.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/14.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 15,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260888.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260888.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/15.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 16,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260889.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260889.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/16.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 17,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260890.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260890.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/17.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 18,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260891.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260891.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/18.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 19,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260892.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260892.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/19.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 20,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260893.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260893.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/20.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 21,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260894.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260894.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/21.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 22,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260895.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260895.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/22.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 23,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260896.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260896.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/23.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 24,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260897.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260897.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/24.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 25,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260898.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260898.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/25.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 26,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260899.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260899.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/26.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 27,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260900.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260900.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/27.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 28,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260901.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260901.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/28.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 29,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260902.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260902.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/29.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 30,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260903.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/260903.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/88521/1/30.mp4"
+            ]
           }
         ]
       }
@@ -571490,7 +571614,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563901.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117184.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117184.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/1.mp4"
             ]
           },
           {
@@ -571499,7 +571624,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563902.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117185.mp4",
-              "https://embedplayer2.xyz/cdn/hls/5c8e4396ac6885e9f52e4043953f1213/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/5c8e4396ac6885e9f52e4043953f1213/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/2.mp4"
             ]
           },
           {
@@ -571508,7 +571634,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563903.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117186.mp4",
-              "https://embedplayer2.xyz/cdn/hls/2586aca22c6ba2cc8b0098fc936362bd/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/2586aca22c6ba2cc8b0098fc936362bd/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/3.mp4"
             ]
           },
           {
@@ -571516,7 +571643,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563904.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117187.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117187.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/4.mp4"
             ]
           },
           {
@@ -571524,7 +571652,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563905.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117188.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117188.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/5.mp4"
             ]
           },
           {
@@ -571533,7 +571662,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563906.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117189.mp4",
-              "https://embedplayer2.xyz/cdn/hls/71d8806684be9bec374f7d80e9c56720/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/71d8806684be9bec374f7d80e9c56720/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/6.mp4"
             ]
           },
           {
@@ -571541,7 +571671,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563907.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117190.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117190.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/7.mp4"
             ]
           },
           {
@@ -571549,7 +571680,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563908.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117191.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117191.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/1/8.mp4"
             ]
           }
         ]
@@ -571562,7 +571694,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563909.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117192.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117192.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/1.mp4"
             ]
           },
           {
@@ -571570,7 +571703,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563910.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117193.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117193.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/2.mp4"
             ]
           },
           {
@@ -571578,7 +571712,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563911.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117194.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117194.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/3.mp4"
             ]
           },
           {
@@ -571587,7 +571722,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563912.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117195.mp4",
-              "https://embedplayer2.xyz/cdn/hls/77ef01b4706d2747f7f216be43ae36a4/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/77ef01b4706d2747f7f216be43ae36a4/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/4.mp4"
             ]
           },
           {
@@ -571596,7 +571732,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563913.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117196.mp4",
-              "https://embedplayer2.xyz/cdn/hls/5e2416755a454d20687d8f78a030cc52/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/5e2416755a454d20687d8f78a030cc52/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/5.mp4"
             ]
           },
           {
@@ -571604,7 +571741,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563914.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117197.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117197.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/6.mp4"
             ]
           },
           {
@@ -571612,7 +571750,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563915.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117198.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117198.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/2/7.mp4"
             ]
           },
           {
@@ -571633,7 +571772,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563917.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117200.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117200.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/1.mp4"
             ]
           },
           {
@@ -571641,7 +571781,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563918.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117201.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117201.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/2.mp4"
             ]
           },
           {
@@ -571649,7 +571790,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563919.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117202.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117202.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/3.mp4"
             ]
           },
           {
@@ -571658,7 +571800,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563920.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117203.mp4",
-              "https://embedplayer2.xyz/cdn/hls/07005e1d1258c29c025bff0216db62cf/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/07005e1d1258c29c025bff0216db62cf/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/4.mp4"
             ]
           },
           {
@@ -571666,7 +571809,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563921.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117204.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117204.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/5.mp4"
             ]
           },
           {
@@ -571675,7 +571819,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563922.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117205.mp4",
-              "https://embedplayer2.xyz/cdn/hls/7d5edc64703a4defe85d9d9bfc398a75/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/7d5edc64703a4defe85d9d9bfc398a75/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/6.mp4"
             ]
           },
           {
@@ -571683,7 +571828,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563923.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117206.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117206.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/7.mp4"
             ]
           },
           {
@@ -571691,7 +571837,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563924.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117207.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117207.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/3/8.mp4"
             ]
           }
         ]
@@ -571704,7 +571851,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563925.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117208.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117208.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/1.mp4"
             ]
           },
           {
@@ -571712,7 +571860,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563926.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117209.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117209.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/2.mp4"
             ]
           },
           {
@@ -571720,7 +571869,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563927.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117210.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117210.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/3.mp4"
             ]
           },
           {
@@ -571728,7 +571878,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563928.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117211.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117211.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/4.mp4"
             ]
           },
           {
@@ -571745,7 +571896,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563930.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117213.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117213.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/6.mp4"
             ]
           },
           {
@@ -571753,7 +571905,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563931.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117214.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117214.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/7.mp4"
             ]
           },
           {
@@ -571761,7 +571914,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5563932.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117215.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/117215.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/73107/4/8.mp4"
             ]
           }
         ]
@@ -574330,6 +574484,86 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/3666.mp4"
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Batalha dos Confeiteiros: América Latina",
+    "thumb": "https://image.tmdb.org/t/p/w500/e5fL6kuVjBRMnnXDIsV6O99yXet.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Séries",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/1.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/2.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/3.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/4.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/5.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/1/6.mp4"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "season": 2,
+            "episode": 1,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/1.mp4"
+          },
+          {
+            "season": 2,
+            "episode": 2,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/2.mp4"
+          },
+          {
+            "season": 2,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/3.mp4"
+          },
+          {
+            "season": 2,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/4.mp4"
+          },
+          {
+            "season": 2,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/5.mp4"
+          },
+          {
+            "season": 2,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/222268/2/6.mp4"
           }
         ]
       }
@@ -720394,7 +720628,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628508.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118704.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118704.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/1.mp4"
             ]
           },
           {
@@ -720402,7 +720637,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628509.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118705.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118705.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/2.mp4"
             ]
           },
           {
@@ -720410,7 +720646,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628510.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118706.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118706.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/3.mp4"
             ]
           },
           {
@@ -720418,7 +720655,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628511.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118707.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118707.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/4.mp4"
             ]
           },
           {
@@ -720426,7 +720664,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628512.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118708.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118708.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/5.mp4"
             ]
           },
           {
@@ -720434,7 +720673,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628513.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118709.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/118709.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/222892/1/6.mp4"
             ]
           }
         ]
@@ -783914,7 +784154,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628483.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4913.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4913.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/1.mp4"
             ]
           },
           {
@@ -783922,7 +784163,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628484.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4914.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4914.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/2.mp4"
             ]
           },
           {
@@ -783930,7 +784172,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628485.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4916.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4916.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/3.mp4"
             ]
           },
           {
@@ -783938,7 +784181,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628486.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4917.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4917.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/4.mp4"
             ]
           },
           {
@@ -783946,7 +784190,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628487.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4918.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4918.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/5.mp4"
             ]
           },
           {
@@ -783954,7 +784199,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628488.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4920.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4920.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/6.mp4"
             ]
           },
           {
@@ -783962,7 +784208,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628489.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4921.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4921.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/7.mp4"
             ]
           },
           {
@@ -783970,7 +784217,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628490.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4922.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4922.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/8.mp4"
             ]
           },
           {
@@ -783978,7 +784226,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628491.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4924.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/4924.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/135865/1/9.mp4"
             ]
           }
         ]
@@ -793564,8 +793813,8 @@
       "Ficção e fantasia"
     ],
     "age": "18",
-    "rating": 8.3,
-    "popularity": 55,
+    "rating": 8.2,
+    "popularity": 37,
     "audios": [
       "dublado"
     ],
@@ -882085,7 +882334,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627671.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99524.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99524.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/1.mp4"
             ]
           },
           {
@@ -882093,7 +882343,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627672.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99525.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99525.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/2.mp4"
             ]
           },
           {
@@ -882101,7 +882352,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627673.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99526.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99526.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/3.mp4"
             ]
           },
           {
@@ -882109,7 +882361,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627674.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99527.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99527.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/4.mp4"
             ]
           },
           {
@@ -882117,7 +882370,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627675.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99529.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99529.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/5.mp4"
             ]
           },
           {
@@ -882125,7 +882379,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627676.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99530.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99530.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/6.mp4"
             ]
           },
           {
@@ -882133,7 +882388,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627677.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99531.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99531.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/7.mp4"
             ]
           },
           {
@@ -882141,7 +882397,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627678.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99532.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99532.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/8.mp4"
             ]
           },
           {
@@ -882149,7 +882406,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627679.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99534.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99534.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/9.mp4"
             ]
           },
           {
@@ -882157,7 +882415,8 @@
             "episode": 10,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5627680.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99535.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/99535.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/221189/1/10.mp4"
             ]
           }
         ]
@@ -892182,7 +892441,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628777.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5670.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5670.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/1.mp4"
             ]
           },
           {
@@ -892190,7 +892450,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628778.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5671.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5671.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/2.mp4"
             ]
           },
           {
@@ -892199,7 +892460,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628779.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5673.mp4",
-              "https://embedplayer2.xyz/cdn/hls/954fbea28fd0006d320cb4882e859c2b/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/954fbea28fd0006d320cb4882e859c2b/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/3.mp4"
             ]
           },
           {
@@ -892207,7 +892469,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628780.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5674.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5674.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/4.mp4"
             ]
           },
           {
@@ -892216,7 +892479,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628781.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5675.mp4",
-              "https://embedplayer2.xyz/cdn/hls/518816c86fa08d7b0d3dd9b899a3d32d/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/518816c86fa08d7b0d3dd9b899a3d32d/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/5.mp4"
             ]
           },
           {
@@ -892225,7 +892489,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628782.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/5677.mp4",
-              "https://embedplayer2.xyz/cdn/hls/5b8f1b7b384c4ec2fe7523210b52da12/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/5b8f1b7b384c4ec2fe7523210b52da12/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/1/6.mp4"
             ]
           }
         ]
@@ -892238,7 +892503,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628783.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254032.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254032.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/1.mp4"
             ]
           },
           {
@@ -892254,7 +892520,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628785.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254034.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254034.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/3.mp4"
             ]
           },
           {
@@ -892262,7 +892529,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628786.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254035.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254035.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/4.mp4"
             ]
           },
           {
@@ -892270,7 +892538,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628787.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254036.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254036.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/5.mp4"
             ]
           },
           {
@@ -892278,7 +892547,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628788.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254037.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254037.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/6.mp4"
             ]
           },
           {
@@ -892286,7 +892556,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628789.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254038.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/254038.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/114922/2/7.mp4"
             ]
           }
         ]
@@ -922224,42 +922495,66 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137390.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137390.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/1.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137391.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137391.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/2.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137392.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137392.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/3.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137393.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137393.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/4.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137394.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137394.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/5.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137395.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137395.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/6.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137396.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137396.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/7.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137397.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137397.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/222839/1/8.mp4"
+            ]
           }
         ]
       }
@@ -939662,7 +939957,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613395.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137487.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137487.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/197248/1/1.mp4"
             ]
           },
           {
@@ -939670,7 +939966,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613396.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137488.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137488.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/197248/1/2.mp4"
             ]
           },
           {
@@ -939678,7 +939975,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613397.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137489.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137489.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/197248/1/3.mp4"
             ]
           }
         ]
@@ -940879,7 +941177,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624691.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137490.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137490.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/1.mp4"
             ]
           },
           {
@@ -940887,7 +941186,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624692.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137491.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137491.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/2.mp4"
             ]
           },
           {
@@ -940895,7 +941195,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624693.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137492.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137492.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/3.mp4"
             ]
           },
           {
@@ -940903,7 +941204,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624694.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137493.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137493.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/4.mp4"
             ]
           },
           {
@@ -940911,7 +941213,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624695.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137494.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137494.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/5.mp4"
             ]
           },
           {
@@ -940919,7 +941222,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5624696.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137495.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137495.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/206510/1/6.mp4"
             ]
           }
         ]
@@ -949139,7 +949443,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613348.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137512.mp4",
-              "https://embedplayer2.xyz/cdn/hls/c2873181566289a8c5fa1b4b96fc0ef7/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/c2873181566289a8c5fa1b4b96fc0ef7/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/1.mp4"
             ]
           },
           {
@@ -949148,7 +949453,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613349.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137513.mp4",
-              "https://embedplayer2.xyz/cdn/hls/68ea52e4f51c62a4de6d7dbaecb6228f/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/68ea52e4f51c62a4de6d7dbaecb6228f/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/2.mp4"
             ]
           },
           {
@@ -949157,7 +949463,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613350.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137514.mp4",
-              "https://embedplayer2.xyz/cdn/hls/2d90d78ea93e732e2196e404e030a983/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/2d90d78ea93e732e2196e404e030a983/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/3.mp4"
             ]
           },
           {
@@ -949166,7 +949473,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613351.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137515.mp4",
-              "https://embedplayer2.xyz/cdn/hls/6a51d0da0c7ec95b0e47f4b7aecdf93d/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/6a51d0da0c7ec95b0e47f4b7aecdf93d/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/4.mp4"
             ]
           },
           {
@@ -949175,7 +949483,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613352.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137516.mp4",
-              "https://embedplayer2.xyz/cdn/hls/36ffd4eb4713e91eb0f3e5b6093c7e75/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/36ffd4eb4713e91eb0f3e5b6093c7e75/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/5.mp4"
             ]
           },
           {
@@ -949184,7 +949493,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613353.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137517.mp4",
-              "https://embedplayer2.xyz/cdn/hls/8487c64e74af8012ed4f251f54480980/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/8487c64e74af8012ed4f251f54480980/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/6.mp4"
             ]
           },
           {
@@ -949193,7 +949503,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613354.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137518.mp4",
-              "https://embedplayer2.xyz/cdn/hls/58f2b7400017eebb600fe830a7ad8f0b/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/58f2b7400017eebb600fe830a7ad8f0b/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/7.mp4"
             ]
           },
           {
@@ -949202,7 +949513,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613355.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137519.mp4",
-              "https://embedplayer2.xyz/cdn/hls/2747c75358155b8debc488883ae15cab/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/2747c75358155b8debc488883ae15cab/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/8.mp4"
             ]
           },
           {
@@ -949210,7 +949522,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613356.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137520.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137520.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/9.mp4"
             ]
           },
           {
@@ -949219,7 +949532,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613357.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137521.mp4",
-              "https://embedplayer2.xyz/cdn/hls/8aa92aa103a18b56cbd405e3cade8da2/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/8aa92aa103a18b56cbd405e3cade8da2/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/10.mp4"
             ]
           },
           {
@@ -949237,7 +949551,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613359.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137523.mp4",
-              "https://embedplayer2.xyz/cdn/hls/94383ab5ee1c7f3650b0c8904a567384/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/94383ab5ee1c7f3650b0c8904a567384/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/12.mp4"
             ]
           },
           {
@@ -949246,7 +949561,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613360.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137524.mp4",
-              "https://embedplayer2.xyz/cdn/hls/ee97780b260c754c2549c1a2caf4580c/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/ee97780b260c754c2549c1a2caf4580c/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/1/13.mp4"
             ]
           },
           {
@@ -949269,7 +949585,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613362.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137526.mp4",
-              "https://embedplayer2.xyz/cdn/hls/7b887d61c96ea409009f75e5aef9134f/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/7b887d61c96ea409009f75e5aef9134f/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/1.mp4"
             ]
           },
           {
@@ -949277,7 +949594,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613363.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137527.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137527.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/2.mp4"
             ]
           },
           {
@@ -949286,7 +949604,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613364.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137528.mp4",
-              "https://embedplayer2.xyz/cdn/hls/e7c389cf332e345c7aa0caf2c8d6ed50/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/e7c389cf332e345c7aa0caf2c8d6ed50/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/3.mp4"
             ]
           },
           {
@@ -949295,7 +949614,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613365.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137529.mp4",
-              "https://embedplayer2.xyz/cdn/hls/2ff4be1c43b78ed367ddc1afedaad58c/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/2ff4be1c43b78ed367ddc1afedaad58c/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/4.mp4"
             ]
           },
           {
@@ -949303,7 +949623,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613366.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137530.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137530.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/5.mp4"
             ]
           },
           {
@@ -949311,7 +949632,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613367.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137531.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137531.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/6.mp4"
             ]
           },
           {
@@ -949320,7 +949642,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613368.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137532.mp4",
-              "https://embedplayer2.xyz/cdn/hls/65ae59002c0af2d956491a7de74af055/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/65ae59002c0af2d956491a7de74af055/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/7.mp4"
             ]
           },
           {
@@ -949329,7 +949652,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613369.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137533.mp4",
-              "https://embedplayer2.xyz/cdn/hls/208bfa2765c952d4b8d574d65539a6bc/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/208bfa2765c952d4b8d574d65539a6bc/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/8.mp4"
             ]
           },
           {
@@ -949337,7 +949661,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613370.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137534.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137534.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/9.mp4"
             ]
           },
           {
@@ -949346,7 +949671,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5613371.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/137535.mp4",
-              "https://embedplayer2.xyz/cdn/hls/f03d3a2651beb7a7605d9f1367e0782e/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/f03d3a2651beb7a7605d9f1367e0782e/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/158916/2/10.mp4"
             ]
           }
         ]
@@ -973993,7 +974319,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471752.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67789.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67789.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/1/21.mp4"
             ]
           },
           {
@@ -974114,7 +974441,8 @@
             "episode": 12,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471765.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67806.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67806.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/2/12.mp4"
             ]
           },
           {
@@ -974158,7 +974486,8 @@
             "episode": 17,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471770.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67812.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67812.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/2/17.mp4"
             ]
           },
           {
@@ -974356,7 +974685,8 @@
             "episode": 16,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471791.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67838.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67838.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/3/16.mp4"
             ]
           },
           {
@@ -974364,7 +974694,8 @@
             "episode": 17,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471792.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67839.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67839.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/3/17.mp4"
             ]
           },
           {
@@ -974390,7 +974721,8 @@
             "episode": 20,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471795.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67843.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67843.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/3/20.mp4"
             ]
           }
         ]
@@ -974448,7 +974780,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471801.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67850.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67850.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/6.mp4"
             ]
           },
           {
@@ -974474,7 +974807,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471804.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67854.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67854.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/9.mp4"
             ]
           },
           {
@@ -974482,7 +974816,8 @@
             "episode": 10,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471805.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67855.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67855.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/10.mp4"
             ]
           },
           {
@@ -974490,7 +974825,8 @@
             "episode": 11,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471806.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67856.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67856.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/11.mp4"
             ]
           },
           {
@@ -974498,7 +974834,8 @@
             "episode": 12,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471807.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67858.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67858.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/12.mp4"
             ]
           },
           {
@@ -974551,7 +974888,8 @@
             "episode": 18,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471813.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67865.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67865.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/18.mp4"
             ]
           },
           {
@@ -974568,7 +974906,8 @@
             "episode": 20,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471815.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67868.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67868.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/4/20.mp4"
             ]
           },
           {
@@ -974635,7 +974974,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471822.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67876.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67876.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/1.mp4"
             ]
           },
           {
@@ -974733,7 +975073,8 @@
             "episode": 12,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471833.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67890.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67890.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/12.mp4"
             ]
           },
           {
@@ -974758,7 +975099,8 @@
             "episode": 15,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471836.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67894.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67894.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/15.mp4"
             ]
           },
           {
@@ -974766,7 +975108,8 @@
             "episode": 16,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471837.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67895.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67895.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/16.mp4"
             ]
           },
           {
@@ -974783,7 +975126,8 @@
             "episode": 18,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471839.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67898.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67898.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/18.mp4"
             ]
           },
           {
@@ -974809,7 +975153,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471842.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67901.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67901.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/21.mp4"
             ]
           },
           {
@@ -974826,7 +975171,8 @@
             "episode": 23,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471844.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67904.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67904.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/5/23.mp4"
             ]
           }
         ]
@@ -974884,7 +975230,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471850.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67911.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67911.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/6.mp4"
             ]
           },
           {
@@ -974937,7 +975284,8 @@
             "episode": 12,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471856.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67919.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67919.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/12.mp4"
             ]
           },
           {
@@ -974980,7 +975328,8 @@
             "episode": 17,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471861.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67925.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67925.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/17.mp4"
             ]
           },
           {
@@ -974997,7 +975346,8 @@
             "episode": 19,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471863.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67927.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67927.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/19.mp4"
             ]
           },
           {
@@ -975005,7 +975355,8 @@
             "episode": 20,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471864.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67929.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67929.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/20.mp4"
             ]
           },
           {
@@ -975013,7 +975364,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471865.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67930.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67930.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/21.mp4"
             ]
           },
           {
@@ -975030,7 +975382,8 @@
             "episode": 23,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471867.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67932.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67932.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/6/23.mp4"
             ]
           },
           {
@@ -975052,7 +975405,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471869.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67935.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67935.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/1.mp4"
             ]
           },
           {
@@ -975096,7 +975450,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471874.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67941.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67941.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/6.mp4"
             ]
           },
           {
@@ -975104,7 +975459,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471875.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67942.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67942.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/7.mp4"
             ]
           },
           {
@@ -975112,7 +975468,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471876.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67944.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67944.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/8.mp4"
             ]
           },
           {
@@ -975120,7 +975477,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471877.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67945.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67945.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/9.mp4"
             ]
           },
           {
@@ -975137,7 +975495,8 @@
             "episode": 11,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471879.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67947.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67947.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/11.mp4"
             ]
           },
           {
@@ -975154,7 +975513,8 @@
             "episode": 13,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471881.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67950.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67950.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/13.mp4"
             ]
           },
           {
@@ -975225,7 +975585,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471889.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67960.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67960.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/21.mp4"
             ]
           },
           {
@@ -975233,7 +975594,8 @@
             "episode": 22,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471890.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67961.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67961.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/7/22.mp4"
             ]
           },
           {
@@ -975255,7 +975617,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471892.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67964.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67964.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/8/1.mp4"
             ]
           },
           {
@@ -975263,7 +975626,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471893.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67965.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67965.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/8/2.mp4"
             ]
           },
           {
@@ -975352,7 +975716,8 @@
             "episode": 12,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471903.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67977.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67977.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/8/12.mp4"
             ]
           },
           {
@@ -975405,7 +975770,8 @@
             "episode": 18,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471909.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67985.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67985.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/8/18.mp4"
             ]
           },
           {
@@ -975422,7 +975788,8 @@
             "episode": 20,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471911.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67987.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67987.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/8/20.mp4"
             ]
           },
           {
@@ -975462,7 +975829,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471915.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67992.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/67992.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/9/1.mp4"
             ]
           },
           {
@@ -975650,7 +976018,8 @@
             "episode": 22,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471936.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68018.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68018.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/9/22.mp4"
             ]
           },
           {
@@ -975699,7 +976068,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471941.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68024.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68024.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/3.mp4"
             ]
           },
           {
@@ -975707,7 +976077,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471942.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68026.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68026.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/4.mp4"
             ]
           },
           {
@@ -975724,7 +976095,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471944.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68028.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68028.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/6.mp4"
             ]
           },
           {
@@ -975732,7 +976104,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471945.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68029.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68029.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/7.mp4"
             ]
           },
           {
@@ -975785,7 +976158,8 @@
             "episode": 13,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471951.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68037.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68037.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/13.mp4"
             ]
           },
           {
@@ -975802,7 +976176,8 @@
             "episode": 15,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471953.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68039.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68039.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/15.mp4"
             ]
           },
           {
@@ -975828,7 +976203,8 @@
             "episode": 18,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471956.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68043.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68043.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/18.mp4"
             ]
           },
           {
@@ -975854,7 +976230,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471959.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68047.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68047.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/21.mp4"
             ]
           },
           {
@@ -975862,7 +976239,8 @@
             "episode": 22,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471960.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68048.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68048.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/10/22.mp4"
             ]
           },
           {
@@ -975911,7 +976289,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471965.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68054.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68054.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/4.mp4"
             ]
           },
           {
@@ -975919,7 +976298,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471966.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68055.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68055.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/5.mp4"
             ]
           },
           {
@@ -975945,7 +976325,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471969.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68059.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68059.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/8.mp4"
             ]
           },
           {
@@ -975953,7 +976334,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471970.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68060.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68060.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/9.mp4"
             ]
           },
           {
@@ -976005,7 +976387,8 @@
             "episode": 15,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471976.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68068.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68068.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/15.mp4"
             ]
           },
           {
@@ -976013,7 +976396,8 @@
             "episode": 16,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471977.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68069.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68069.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/16.mp4"
             ]
           },
           {
@@ -976021,7 +976405,8 @@
             "episode": 17,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471978.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68070.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68070.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/17.mp4"
             ]
           },
           {
@@ -976065,7 +976450,8 @@
             "episode": 22,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471983.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68076.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68076.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/11/22.mp4"
             ]
           }
         ]
@@ -976105,7 +976491,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471987.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68081.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68081.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/4.mp4"
             ]
           },
           {
@@ -976122,7 +976509,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471989.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68084.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68084.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/6.mp4"
             ]
           },
           {
@@ -976148,7 +976536,8 @@
             "episode": 9,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471992.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68088.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68088.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/9.mp4"
             ]
           },
           {
@@ -976165,7 +976554,8 @@
             "episode": 11,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471994.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68090.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68090.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/11.mp4"
             ]
           },
           {
@@ -976182,7 +976572,8 @@
             "episode": 13,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5471996.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68093.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68093.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/13.mp4"
             ]
           },
           {
@@ -976217,7 +976608,8 @@
             "episode": 17,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472000.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68098.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68098.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/17.mp4"
             ]
           },
           {
@@ -976234,7 +976626,8 @@
             "episode": 19,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472002.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68100.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68100.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/19.mp4"
             ]
           },
           {
@@ -976251,7 +976644,8 @@
             "episode": 21,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472004.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68103.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68103.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/21.mp4"
             ]
           },
           {
@@ -976259,7 +976653,8 @@
             "episode": 22,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472005.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68104.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68104.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/12/22.mp4"
             ]
           }
         ]
@@ -976272,7 +976667,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472006.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68105.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68105.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/1.mp4"
             ]
           },
           {
@@ -976289,7 +976685,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472008.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68108.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68108.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/3.mp4"
             ]
           },
           {
@@ -976297,7 +976694,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472009.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68109.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68109.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/4.mp4"
             ]
           },
           {
@@ -976305,7 +976703,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472010.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68110.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68110.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/5.mp4"
             ]
           },
           {
@@ -976313,7 +976712,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472011.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68111.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68111.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/6.mp4"
             ]
           },
           {
@@ -976357,7 +976757,8 @@
             "episode": 11,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472016.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68117.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68117.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/13/11.mp4"
             ]
           },
           {
@@ -976514,7 +976915,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472033.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68139.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68139.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/14/6.mp4"
             ]
           },
           {
@@ -976522,7 +976924,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472034.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68140.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68140.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/14/7.mp4"
             ]
           },
           {
@@ -976661,7 +977064,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472049.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68158.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68158.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/15/7.mp4"
             ]
           },
           {
@@ -976721,7 +977125,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472055.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68166.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68166.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/16/3.mp4"
             ]
           },
           {
@@ -976756,7 +977161,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472059.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68171.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68171.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/16/7.mp4"
             ]
           },
           {
@@ -976823,7 +977229,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472066.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68180.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68180.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/17/4.mp4"
             ]
           },
           {
@@ -976831,7 +977238,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472067.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68181.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68181.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/17/5.mp4"
             ]
           },
           {
@@ -976839,7 +977247,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472068.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68182.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68182.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/17/6.mp4"
             ]
           },
           {
@@ -976906,7 +977315,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472075.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68191.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68191.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/18/3.mp4"
             ]
           },
           {
@@ -976914,7 +977324,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472076.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68192.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/68192.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/18/4.mp4"
             ]
           },
           {
@@ -977010,7 +977421,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472086.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/300789.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/300789.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/19/4.mp4"
             ]
           },
           {
@@ -977019,7 +977431,8 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472087.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/306933.mp4",
-              "https://embedplayer2.xyz/cdn/hls/a4c1eb61040364381abde31bc1b8ff44/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/a4c1eb61040364381abde31bc1b8ff44/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/19/5.mp4"
             ]
           },
           {
@@ -977045,7 +977458,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472090.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/308615.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/308615.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/19/8.mp4"
             ]
           },
           {
@@ -977054,13 +977468,17 @@
             "url": "http://64.31.23.207:80/series/96795792/50165825/5472091.mp4",
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/309168.mp4",
-              "https://embedplayer2.xyz/cdn/hls/1b5d78ed3a7761eaf56b6abbd75c7f28/master.txt?format=m3u8"
+              "https://embedplayer2.xyz/cdn/hls/1b5d78ed3a7761eaf56b6abbd75c7f28/master.txt?format=m3u8",
+              "https://nixplay.lat/series/saimo-vods/221097/4057/19/9.mp4"
             ]
           },
           {
             "season": 19,
             "episode": 10,
-            "url": "http://64.31.23.207:80/series/96795792/50165825/5472092.mp4"
+            "url": "http://64.31.23.207:80/series/96795792/50165825/5472092.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/4057/19/10.mp4"
+            ]
           }
         ]
       }
@@ -986200,6 +986618,7 @@
   },
   {
     "title": "Cyberpunk: Edgerunners",
+    "thumb": "https://image.tmdb.org/t/p/w500/nWvAY8yHE873adMws83XqBPf7W2.jpg",
     "audios": [
       "dublado"
     ],
@@ -1048122,7 +1048541,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628499.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138455.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138455.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/223313/1/1.mp4"
             ]
           },
           {
@@ -1048130,7 +1048550,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628500.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138456.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138456.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/223313/1/2.mp4"
             ]
           },
           {
@@ -1048138,7 +1048559,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628501.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138457.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138457.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/223313/1/3.mp4"
             ]
           },
           {
@@ -1048146,7 +1048568,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5628502.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138458.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138458.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/223313/1/4.mp4"
             ]
           }
         ]
@@ -1234375,7 +1234798,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602480.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139625.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139625.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/1.mp4"
             ]
           },
           {
@@ -1234383,7 +1234807,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602481.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139626.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139626.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/2.mp4"
             ]
           },
           {
@@ -1234391,7 +1234816,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602482.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139627.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139627.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/3.mp4"
             ]
           },
           {
@@ -1234399,7 +1234825,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602483.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139628.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139628.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/4.mp4"
             ]
           },
           {
@@ -1234407,7 +1234834,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602484.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139629.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139629.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/5.mp4"
             ]
           },
           {
@@ -1234415,7 +1234843,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602485.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139630.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139630.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/6.mp4"
             ]
           },
           {
@@ -1234423,7 +1234852,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602486.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139631.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139631.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/7.mp4"
             ]
           },
           {
@@ -1234431,7 +1234861,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602487.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139632.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139632.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/1/8.mp4"
             ]
           }
         ]
@@ -1234444,7 +1234875,8 @@
             "episode": 1,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602488.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139633.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139633.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/1.mp4"
             ]
           },
           {
@@ -1234452,7 +1234884,8 @@
             "episode": 2,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602489.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139634.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139634.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/2.mp4"
             ]
           },
           {
@@ -1234460,7 +1234893,8 @@
             "episode": 3,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602490.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139635.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139635.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/3.mp4"
             ]
           },
           {
@@ -1234468,7 +1234902,8 @@
             "episode": 4,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602491.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139636.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139636.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/4.mp4"
             ]
           },
           {
@@ -1234476,7 +1234911,8 @@
             "episode": 5,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602492.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139637.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139637.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/5.mp4"
             ]
           },
           {
@@ -1234484,7 +1234920,8 @@
             "episode": 6,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602493.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139638.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139638.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/6.mp4"
             ]
           },
           {
@@ -1234492,7 +1234929,8 @@
             "episode": 7,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602494.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139639.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139639.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/7.mp4"
             ]
           },
           {
@@ -1234500,7 +1234938,8 @@
             "episode": 8,
             "url": "http://64.31.23.207:80/series/96795792/50165825/5602495.mp4",
             "mirrors": [
-              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139640.mp4"
+              "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/139640.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/129674/2/8.mp4"
             ]
           }
         ]
@@ -1251298,6 +1251737,114 @@
             "season": 1,
             "episode": 13,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/266136.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Eu Preciso de Romance",
+    "year": 2021,
+    "tmdbId": 128424,
+    "tmdbTipo": "tv",
+    "imdbId": "tt16077338",
+    "thumb": "https://image.tmdb.org/t/p/w500/oA7RbKKRxNX6sJpOvlzJnnbTzGc.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/1Xwycy7U1fomHD8dwrHzisFx1EW.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/8sUlVoCOiKnVg2AXCajNgddSRWN.png",
+    "desc": "Uma workaholic que não quer saber de namoro se reencontra com um velho amigo, que é um talentoso compositor. Será que ele vai conseguir resgatar a fé dela no amor?",
+    "genre": [
+      "Drama"
+    ],
+    "runtime": 46,
+    "rating": 5.8,
+    "popularity": 1.6,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Séries | Drama",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "season": 1,
+            "episode": 1,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/1.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/2.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/3.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/4.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/5.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/6.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/7.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/8.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/9.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/10.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/11.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/12.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 13,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/13.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 14,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/14.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 15,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/15.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 16,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/128424/1/16.mp4"
           }
         ]
       }
