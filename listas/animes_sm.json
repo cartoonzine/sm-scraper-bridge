@@ -19056,37 +19056,58 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/4718/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4718/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43249/1/7.mp4?lang=leg"
+            ]
           }
         ]
       }
@@ -114994,6 +115015,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36759.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620309.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/01.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/1.mp4",
               "https://embedplayer2.xyz/cdn/hls/3e49964f159d0c767daa21e77eade6c6/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/1.mp4"
@@ -115006,6 +115028,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36760.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620310.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/02.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/2.mp4",
               "https://embedplayer2.xyz/cdn/hls/f64125d0f6a47d94e03a5290c7d91a12/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/2.mp4"
@@ -115018,6 +115041,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36761.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620311.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/03.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/3.mp4",
               "https://embedplayer2.xyz/cdn/hls/054651f0ad75ef13a79e3816be2f2d8b/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/3.mp4"
@@ -115030,6 +115054,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36763.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620312.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/04.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/4.mp4",
               "https://embedplayer2.xyz/cdn/hls/8f307f4b08633da93e2c0064434d6717/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/4.mp4"
@@ -115042,6 +115067,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36764.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620313.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/05.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/5.mp4",
               "https://embedplayer2.xyz/cdn/hls/b982f62f796d85412b568bda36ec66c2/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/5.mp4"
@@ -115054,6 +115080,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36765.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620314.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/06.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/6.mp4",
               "https://embedplayer2.xyz/cdn/hls/e6d982f6002798f459d98d8aded5fbc6/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/6.mp4"
@@ -115066,6 +115093,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36767.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620315.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/07.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/7.mp4",
               "https://embedplayer2.xyz/cdn/hls/cfe7a8439f2d0cf71d3e0f98b3a54a7c/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/7.mp4"
@@ -115078,6 +115106,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36768.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620316.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/08.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/8.mp4",
               "https://embedplayer2.xyz/cdn/hls/0f27b6072b67145ec556a5774c11df02/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/8.mp4"
@@ -115090,6 +115119,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36769.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620317.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/09.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/9.mp4",
               "https://embedplayer2.xyz/cdn/hls/2b783a978b1db6e14c01e06fe42f32eb/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/9.mp4"
@@ -115102,6 +115132,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36770.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620318.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/10.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/10.mp4",
               "https://embedplayer2.xyz/cdn/hls/dff5929cd19aeb2b2dee5e4f2f336f4c/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/10.mp4"
@@ -115114,6 +115145,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36772.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620319.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/11.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/11.mp4",
               "https://embedplayer2.xyz/cdn/hls/6ac1f4497de09942114bb85a6e5e88aa/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/11.mp4"
@@ -115126,6 +115158,7 @@
             "mirrors": [
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/36773.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5620320.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/c/chainsaw-man-dublado/12.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1877/12.mp4",
               "https://embedplayer2.xyz/cdn/hls/137e5f61837d6baba11bcb0d4abf7833/master.txt?format=m3u8",
               "https://nixplay.lat/series/saimo-vods/221097/114410/1/12.mp4"
@@ -130694,7 +130727,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574692.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138320.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/01.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/1.mp4",
               "https://embedplayer2.xyz/cdn/hls/f78b4795724f5f66a2cd1acf1df22828/master.txt?format=m3u8"
             ]
@@ -130706,7 +130738,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574693.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138321.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/02.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/2.mp4",
               "https://embedplayer2.xyz/cdn/hls/7f4892b76b28f3eea4131507f12a6680/master.txt?format=m3u8"
             ]
@@ -130718,7 +130749,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574694.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138322.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/03.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/3.mp4",
               "https://embedplayer2.xyz/cdn/hls/f0a7242c8cbe02d98462669ee58d8aed/master.txt?format=m3u8"
             ]
@@ -130730,7 +130760,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574695.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138323.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/04.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/4.mp4",
               "https://embedplayer2.xyz/cdn/hls/adcec32d67f1f78d5f4106dd4abd93c9/master.txt?format=m3u8"
             ]
@@ -130742,7 +130771,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574696.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138324.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/05.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/5.mp4",
               "https://embedplayer2.xyz/cdn/hls/0a3a313de9c657ac725fe91a214c94eb/master.txt?format=m3u8"
             ]
@@ -130754,7 +130782,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574697.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138325.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/06.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/6.mp4",
               "https://embedplayer2.xyz/cdn/hls/1d48ebd0329c1fdb27ad2e6e382173a4/master.txt?format=m3u8"
             ]
@@ -130766,7 +130793,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574698.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138326.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/07.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/7.mp4",
               "https://embedplayer2.xyz/cdn/hls/358d862edfe150cc9238a5e333c78a22/master.txt?format=m3u8"
             ]
@@ -130778,7 +130804,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574699.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138327.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/08.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/8.mp4",
               "https://embedplayer2.xyz/cdn/hls/740744a8bf690ca2b6043185bd9d767f/master.txt?format=m3u8"
             ]
@@ -130790,7 +130815,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574700.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138328.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/09.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/9.mp4",
               "https://embedplayer2.xyz/cdn/hls/f901cb7fca44f8546df5677b6eabbbc9/master.txt?format=m3u8"
             ]
@@ -130802,7 +130826,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574701.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138329.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/10.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/10.mp4",
               "https://embedplayer2.xyz/cdn/hls/21b479fb098ab8269b4259f62fafb56b/master.txt?format=m3u8"
             ]
@@ -130814,7 +130837,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574702.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138330.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/11.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/11.mp4",
               "https://embedplayer2.xyz/cdn/hls/04775a4a6895ff83f5bee0ace4de97c4/master.txt?format=m3u8"
             ]
@@ -130826,7 +130848,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574703.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138331.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/12.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/12.mp4",
               "https://embedplayer2.xyz/cdn/hls/2851cd076fc6b172b27e480812386d2f/master.txt?format=m3u8"
             ]
@@ -130839,7 +130860,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E01.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574704.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138332.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/13.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/13.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/1.mp4",
               "https://embedplayer2.xyz/cdn/hls/12d3ca1b482afa169e5b61f617e9d641/master.txt?format=m3u8"
@@ -130853,7 +130873,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E02.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574705.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138333.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/14.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/14.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/2.mp4",
               "https://embedplayer2.xyz/cdn/hls/a181c3acb5ebc82d38ec9c128e222436/master.txt?format=m3u8"
@@ -130867,7 +130886,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E03.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574706.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138334.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/15.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/15.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/3.mp4",
               "https://embedplayer2.xyz/cdn/hls/2684f05220ae7070334388c19e2d2563/master.txt?format=m3u8"
@@ -130881,7 +130899,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E04.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574707.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138335.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/16.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/16.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/4.mp4",
               "https://embedplayer2.xyz/cdn/hls/303d843fdab4ea92f7bb7297920b8231/master.txt?format=m3u8"
@@ -130895,7 +130912,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E05.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574708.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138336.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/17.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/17.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/5.mp4",
               "https://embedplayer2.xyz/cdn/hls/1767de18d26e90a03dc104f3cc6ef625/master.txt?format=m3u8"
@@ -130909,7 +130925,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E06.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574709.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138337.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/18.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/18.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/6.mp4",
               "https://embedplayer2.xyz/cdn/hls/8b283eafbb44a5ed7ad919d7cd538d4a/master.txt?format=m3u8"
@@ -130923,7 +130938,6 @@
               "https://nsrv.classotaku.app/file/classgg/1904/S02E07.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5574710.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138338.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/19.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/19.mp4",
               "https://nsrv.classotaku.app/file/classgg/546/7.mp4",
               "https://embedplayer2.xyz/cdn/hls/5d48541853706a143eed7e8ba7af4e49/master.txt?format=m3u8"
@@ -130936,7 +130950,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574711.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138339.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/20.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/20.mp4",
               "https://embedplayer2.xyz/cdn/hls/b5c34e6420dbf6cbebdbd098ac40ef93/master.txt?format=m3u8"
             ]
@@ -130948,7 +130961,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574712.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138340.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/21.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/21.mp4",
               "https://embedplayer2.xyz/cdn/hls/c699f2624580edc87535b4f2c41aaab7/master.txt?format=m3u8"
             ]
@@ -130960,7 +130972,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574713.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138341.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/22.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/22.mp4",
               "https://embedplayer2.xyz/cdn/hls/ed47ddde55d91220171a1d92ddf87c44/master.txt?format=m3u8"
             ]
@@ -130972,7 +130983,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574714.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138342.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/23.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/23.mp4",
               "https://embedplayer2.xyz/cdn/hls/a514f63c3c775024ecb926fce61d5f6d/master.txt?format=m3u8"
             ]
@@ -130984,7 +130994,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574715.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138343.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/24.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/24.mp4",
               "https://embedplayer2.xyz/cdn/hls/1a20193cf1fadea40cb5dea73dc74988/master.txt?format=m3u8"
             ]
@@ -130996,7 +131005,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574716.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138344.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/25.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/25.mp4",
               "https://embedplayer2.xyz/cdn/hls/1dcea6052b968f4246f3496383a0406d/master.txt?format=m3u8"
             ]
@@ -131008,7 +131016,6 @@
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5574717.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/138345.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/k/kimetsu-no-yaiba-dublado/26.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/544/26.mp4",
               "https://embedplayer2.xyz/cdn/hls/954357110d5b2fb3d001351055af448f/master.txt?format=m3u8"
             ]
@@ -132953,257 +132960,410 @@
           {
             "season": 2,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 13,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/13.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/13.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/13.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 14,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/14.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/14.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/14.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 15,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/15.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/15.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/15.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 16,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/16.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/16.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/16.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 17,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/17.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/17.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/17.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 18,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/18.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/18.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/18.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 19,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/19.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/19.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/19.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 20,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/20.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/20.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/20.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 21,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/21.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/21.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/21.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 22,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/22.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/22.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/22.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 23,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/23.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/23.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/23.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 24,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/24.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/24.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/24.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 25,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/25.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/25.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/25.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 26,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/26.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/26.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/26.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 27,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/27.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/27.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/27.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 28,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/28.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/28.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/28.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 29,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/29.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/29.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/29.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 30,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/30.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/30.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/30.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 31,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/31.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/31.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/31.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 32,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/32.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/32.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/32.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 33,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/33.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/33.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/33.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 34,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/34.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/34.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/34.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 35,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/35.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/35.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/35.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 36,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/36.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/36.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/36.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 37,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/37.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/37.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/37.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 38,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/38.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/38.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/38.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 39,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/39.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/39.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/39.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 40,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/40.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/40.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/40.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 41,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/41.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/41.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/41.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 42,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/42.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/42.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/42.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 43,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/43.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/43.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/43.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 44,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/44.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/44.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/44.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 45,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/45.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/45.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/45.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 46,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/46.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/46.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/46.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 47,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/47.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/47.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/47.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 48,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/48.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/48.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/48.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 49,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/49.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/49.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/49.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 50,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/50.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/50.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/50.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 51,
-            "url": "https://nsrv.classotaku.app/file/classgg/2052/51.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2052/51.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/2/51.mp4?lang=leg"
+            ]
           }
         ]
       },
@@ -133213,262 +133373,418 @@
           {
             "season": 3,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 13,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/13.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/13.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/13.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 14,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/14.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/14.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/14.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 15,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/15.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/15.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/15.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 16,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/16.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/16.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/16.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 17,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/17.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/17.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/17.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 18,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/18.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/18.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/18.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 19,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/19.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/19.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/19.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 20,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/20.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/20.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/20.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 21,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/21.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/21.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/21.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 22,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/22.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/22.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/22.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 23,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/23.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/23.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/23.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 24,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/24.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/24.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/24.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 25,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/25.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/25.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/25.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 26,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/26.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/26.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/26.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 27,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/27.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/27.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/27.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 28,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/28.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/28.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/28.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 29,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/29.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/29.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/29.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 30,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/30.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/30.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/30.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 31,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/31.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/31.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/31.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 32,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/32.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/32.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/32.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 33,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/33.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/33.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/33.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 34,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/34.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/34.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/34.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 35,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/35.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/35.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/35.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 36,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/36.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/36.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/36.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 37,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/37.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/37.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/37.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 38,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/38.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/38.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/38.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 39,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/39.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/39.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/39.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 40,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/40.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/40.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/40.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 41,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/41.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/41.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/41.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 42,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/42.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/42.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/42.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 43,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/43.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/43.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/43.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 44,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/44.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/44.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/44.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 45,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/45.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/45.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/45.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 46,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/46.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/46.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/46.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 47,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/47.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/47.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/47.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 48,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/48.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/48.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/48.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 49,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/49.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/49.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/49.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 50,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/50.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/50.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/50.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 51,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/51.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/51.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/51.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 52,
-            "url": "https://nsrv.classotaku.app/file/classgg/2285/52.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/2285/52.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/3/52.mp4?lang=leg"
+            ]
           }
         ]
       },
@@ -133478,87 +133794,159 @@
           {
             "season": 4,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217582.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217582.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217791.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217791.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217919.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/217919.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218029.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218029.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218142.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218142.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218254.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218254.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218367.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218367.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218475.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218475.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218598.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218598.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218710.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218710.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218799.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218799.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218906.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/218906.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 13,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/219000.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/219000.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/13.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 14,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/220873.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/220873.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/14.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 15,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/220970.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/220970.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/15.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 16,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221113.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221113.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/16.mp4?lang=leg"
+            ]
           },
           {
             "season": 4,
             "episode": 17,
-            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221212.mp4"
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221212.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/17.mp4?lang=leg"
+            ]
+          },
+          {
+            "season": 4,
+            "episode": 18,
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221332.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/18.mp4?lang=leg"
+            ]
+          },
+          {
+            "season": 4,
+            "episode": 19,
+            "url": "https://nsrv.classotaku.app/file/classtaku/00_lanc/221448.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/60761/4/19.mp4?lang=leg"
+            ]
+          },
+          {
+            "season": 4,
+            "episode": 20,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/60761/4/20.mp4?lang=leg"
           }
         ]
       }
@@ -227747,8 +228135,7 @@
     "rating": 8.3,
     "popularity": 17.6,
     "audios": [
-      "dublado",
-      "legendado"
+      "dublado"
     ],
     "group": "Animes | Animação",
     "anime": true,
@@ -227759,52 +228146,82 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145262.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145262.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/1.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145263.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145263.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/2.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145264.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145264.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/3.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145265.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145265.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/4.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145266.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145266.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/5.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145267.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145267.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/6.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145268.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145268.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/7.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145269.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145269.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/8.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 9,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145270.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145270.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/9.mp4"
+            ]
           },
           {
             "season": 1,
             "episode": 10,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145271.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145271.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/1/10.mp4"
+            ]
           }
         ]
       },
@@ -227814,52 +228231,82 @@
           {
             "season": 2,
             "episode": 1,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145272.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145272.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/1.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 2,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145273.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145273.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/2.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 3,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145274.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145274.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/3.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 4,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145275.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145275.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/4.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 5,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145276.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145276.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/5.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 6,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145277.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145277.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/6.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 7,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145278.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145278.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/7.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 8,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145279.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145279.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/8.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 9,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145280.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145280.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/9.mp4"
+            ]
           },
           {
             "season": 2,
             "episode": 10,
-            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145281.mp4"
+            "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/145281.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/237512/2/10.mp4"
+            ]
           }
         ]
       },
@@ -227869,82 +228316,52 @@
           {
             "season": 3,
             "episode": 1,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=1&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=1&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/1.mp4"
           },
           {
             "season": 3,
             "episode": 2,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=2&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=2&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/2.mp4"
           },
           {
             "season": 3,
             "episode": 3,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=3&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=3&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/3.mp4"
           },
           {
             "season": 3,
             "episode": 4,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=4&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=4&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/4.mp4"
           },
           {
             "season": 3,
             "episode": 5,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=5&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=5&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/5.mp4"
           },
           {
             "season": 3,
             "episode": 6,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=6&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=6&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/6.mp4"
           },
           {
             "season": 3,
             "episode": 7,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=7&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=7&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/7.mp4"
           },
           {
             "season": 3,
             "episode": 8,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=8&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=8&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/8.mp4"
           },
           {
             "season": 3,
             "episode": 9,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=9&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=9&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/9.mp4"
           },
           {
             "season": 3,
             "episode": 10,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=10&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=3&e=10&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/3/10.mp4"
           }
         ]
       },
@@ -227954,74 +228371,47 @@
           {
             "season": 4,
             "episode": 1,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=1&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=1&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/1.mp4"
           },
           {
             "season": 4,
             "episode": 2,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=2&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=2&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/2.mp4"
           },
           {
             "season": 4,
             "episode": 3,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=3&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=3&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/3.mp4"
           },
           {
             "season": 4,
             "episode": 4,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=4&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=4&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/4.mp4"
           },
           {
             "season": 4,
             "episode": 5,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=5&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=5&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/5.mp4"
           },
           {
             "season": 4,
             "episode": 6,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=6&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=6&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/6.mp4"
           },
           {
             "season": 4,
             "episode": 7,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=7&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=7&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/7.mp4"
           },
           {
             "season": 4,
             "episode": 8,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=8&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=8&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/8.mp4"
           },
           {
             "season": 4,
             "episode": 9,
-            "url": "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=9&versao=dub",
-            "mirrors": [
-              "https://saimo-tv.pages.dev/api/stream?tipo=series&id=237512&s=4&e=9&versao=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/237512/4/9.mp4"
           }
         ]
       }
@@ -228779,69 +229169,106 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/5206/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/5206/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 13,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/13.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/1.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/1.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/13.mp4?lang=leg"
             ]
           },
           {
@@ -228849,7 +229276,8 @@
             "episode": 14,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/14.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/2.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/2.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/14.mp4?lang=leg"
             ]
           },
           {
@@ -228857,7 +229285,8 @@
             "episode": 15,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/15.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/3.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/3.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/15.mp4?lang=leg"
             ]
           },
           {
@@ -228865,7 +229294,8 @@
             "episode": 16,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/16.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/4.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/4.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/16.mp4?lang=leg"
             ]
           },
           {
@@ -228873,7 +229303,8 @@
             "episode": 17,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/17.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/5.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/5.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/17.mp4?lang=leg"
             ]
           },
           {
@@ -228881,7 +229312,8 @@
             "episode": 18,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/18.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/6.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/6.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/18.mp4?lang=leg"
             ]
           },
           {
@@ -228889,7 +229321,8 @@
             "episode": 19,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/19.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/7.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/7.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/19.mp4?lang=leg"
             ]
           },
           {
@@ -228897,7 +229330,8 @@
             "episode": 20,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/20.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/8.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/8.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/20.mp4?lang=leg"
             ]
           },
           {
@@ -228905,7 +229339,8 @@
             "episode": 21,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/21.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/9.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/9.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/21.mp4?lang=leg"
             ]
           },
           {
@@ -228913,7 +229348,8 @@
             "episode": 22,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/22.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/10.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/10.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/22.mp4?lang=leg"
             ]
           },
           {
@@ -228921,7 +229357,8 @@
             "episode": 23,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/23.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/11.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/11.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/23.mp4?lang=leg"
             ]
           },
           {
@@ -228929,7 +229366,8 @@
             "episode": 24,
             "url": "https://nsrv.classotaku.app/file/classgg/5206/24.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/5207/12.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/12.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/24.mp4?lang=leg"
             ]
           },
           {
@@ -228938,7 +229376,8 @@
             "url": "https://nsrv.classotaku.app/file/classgg/5207/25.mp4",
             "mirrors": [
               "https://nsrv.classotaku.app/file/classgg/5206/25.mp4",
-              "https://nsrv.classotaku.app/file/classgg/5207/13.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/13.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/25.mp4?lang=leg"
             ]
           },
           {
@@ -228947,7 +229386,8 @@
             "url": "https://nsrv.classotaku.app/file/classgg/5207/26.mp4",
             "mirrors": [
               "https://nsrv.classotaku.app/file/classgg/5206/26.mp4",
-              "https://nsrv.classotaku.app/file/classgg/5207/14.mp4"
+              "https://nsrv.classotaku.app/file/classgg/5207/14.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/42951/1/26.mp4?lang=leg"
             ]
           }
         ]
@@ -257481,7 +257921,8 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38901.mp4",
             "mirrors": [
               "http://fenixflix.fenixhub.online/r/FsEsAcTqhkSH3NjyPIwJUrwndCbtrNsA_Zbw5PZscfc0RIvQc_8SvgEJSko1KFzbWhf9cvq9YRXsdPKlF1H86pfvZVn3CfVHSwASQ6asHyI1/video.mp4",
-              "http://64.31.23.207:80/series/96795792/50165825/5628305.mp4"
+              "http://64.31.23.207:80/series/96795792/50165825/5628305.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/01.mp4/index.m3u8"
             ]
           },
           {
@@ -257490,6 +257931,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38903.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628306.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/02.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/5bb3ca2005afcf48f33260d192557e70/master.txt?format=m3u8"
             ]
           },
@@ -257498,7 +257940,8 @@
             "episode": 3,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38904.mp4",
             "mirrors": [
-              "http://64.31.23.207:80/series/96795792/50165825/5628307.mp4"
+              "http://64.31.23.207:80/series/96795792/50165825/5628307.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/03.mp4/index.m3u8"
             ]
           },
           {
@@ -257507,6 +257950,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38905.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628308.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/04.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/be9039e47afa3127b933ca6def0a0f8d/master.txt?format=m3u8"
             ]
           },
@@ -257516,6 +257960,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38906.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628309.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/05.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/c89ab37d145839baae58bbd00fffb735/master.txt?format=m3u8"
             ]
           },
@@ -257525,6 +257970,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38908.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628310.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/06.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/4f46d78ee009cf694eb109c7030c6098/master.txt?format=m3u8"
             ]
           },
@@ -257534,6 +257980,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38909.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628311.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/07.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/249c2e872952fa9e9c43984e6c59c5e5/master.txt?format=m3u8"
             ]
           },
@@ -257543,6 +257990,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38910.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628312.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/08.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/338348712edd79328ef417ff44ad5ba8/master.txt?format=m3u8"
             ]
           },
@@ -257551,7 +257999,8 @@
             "episode": 9,
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38911.mp4",
             "mirrors": [
-              "http://64.31.23.207:80/series/96795792/50165825/5628313.mp4"
+              "http://64.31.23.207:80/series/96795792/50165825/5628313.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/09.mp4/index.m3u8"
             ]
           },
           {
@@ -257560,6 +258009,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38913.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628314.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/10.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/e52cca9dee9f324aca52dc134ecd0e9e/master.txt?format=m3u8"
             ]
           },
@@ -257569,6 +258019,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38914.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628315.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/11.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/12521558040fc4adbf324825b9973eda/master.txt?format=m3u8"
             ]
           },
@@ -257578,6 +258029,7 @@
             "url": "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/38915.mp4",
             "mirrors": [
               "http://64.31.23.207:80/series/96795792/50165825/5628316.mp4",
+              "https://cdn-sv01.maximaimg.online/stream/m/mashle-dublado/12.mp4/index.m3u8",
               "https://embedplayer2.xyz/cdn/hls/7459666c6273ac536f3d188df847fe12/master.txt?format=m3u8"
             ]
           },
@@ -278269,7 +278721,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92251.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39271.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651874.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/01.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/1.mp4"
             ]
           },
@@ -278281,7 +278732,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92253.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39272.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651875.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/02.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/2.mp4"
             ]
           },
@@ -278293,7 +278743,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92254.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39273.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651876.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/03.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/3.mp4"
             ]
           },
@@ -278305,7 +278754,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92255.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39275.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651877.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/04.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/4.mp4"
             ]
           },
@@ -278317,7 +278765,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92256.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39276.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651878.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/05.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/5.mp4"
             ]
           },
@@ -278329,7 +278776,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92258.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39277.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651879.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/06.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/6.mp4"
             ]
           },
@@ -278341,7 +278787,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92259.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39278.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651880.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/07.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/7.mp4"
             ]
           },
@@ -278353,7 +278798,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92260.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39280.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651881.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/08.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/8.mp4"
             ]
           },
@@ -278365,7 +278809,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92261.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39281.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651882.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/09.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/9.mp4"
             ]
           },
@@ -278377,7 +278820,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92262.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39282.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651883.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/10.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/10.mp4"
             ]
           },
@@ -278389,7 +278831,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92264.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39284.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651884.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/11.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/11.mp4"
             ]
           },
@@ -278401,7 +278842,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92265.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39285.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651885.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/12.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/12.mp4"
             ]
           },
@@ -278413,7 +278853,6 @@
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/92266.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/39286.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5651886.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/b/boku-no-hero-academia-dublado/13.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/96/13.mp4"
             ]
           },
@@ -480919,69 +481358,106 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/3354/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3354/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 13,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/13.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/1.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/1.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/13.mp4?lang=leg"
             ]
           },
           {
@@ -480989,7 +481465,8 @@
             "episode": 14,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/14.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/2.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/2.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/14.mp4?lang=leg"
             ]
           },
           {
@@ -480997,7 +481474,8 @@
             "episode": 15,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/15.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/3.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/3.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/15.mp4?lang=leg"
             ]
           },
           {
@@ -481005,7 +481483,8 @@
             "episode": 16,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/16.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/4.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/4.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/16.mp4?lang=leg"
             ]
           },
           {
@@ -481013,7 +481492,8 @@
             "episode": 17,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/17.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/5.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/5.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/17.mp4?lang=leg"
             ]
           },
           {
@@ -481021,7 +481501,8 @@
             "episode": 18,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/18.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/6.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/6.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/18.mp4?lang=leg"
             ]
           },
           {
@@ -481029,7 +481510,8 @@
             "episode": 19,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/19.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/7.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/7.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/19.mp4?lang=leg"
             ]
           },
           {
@@ -481037,7 +481519,8 @@
             "episode": 20,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/20.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/8.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/8.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/20.mp4?lang=leg"
             ]
           },
           {
@@ -481045,7 +481528,8 @@
             "episode": 21,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/21.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/9.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/9.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/21.mp4?lang=leg"
             ]
           },
           {
@@ -481053,7 +481537,8 @@
             "episode": 22,
             "url": "https://nsrv.classotaku.app/file/classgg/3354/22.mp4",
             "mirrors": [
-              "https://nsrv.classotaku.app/file/classgg/3355/10.mp4"
+              "https://nsrv.classotaku.app/file/classgg/3355/10.mp4",
+              "https://nixplay.lat/series/saimo-vods/221097/43865/1/22.mp4?lang=leg"
             ]
           }
         ]
@@ -481064,37 +481549,58 @@
           {
             "season": 2,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/3355/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3355/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/2/10.mp4?lang=leg"
+            ]
           }
         ]
       },
@@ -481104,42 +481610,66 @@
           {
             "season": 3,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 3,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/3356/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/3356/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/43865/3/8.mp4?lang=leg"
+            ]
           }
         ]
       }
@@ -531333,7 +531863,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612989.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41400.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612915.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/01.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/1.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/1.mp4",
               "https://embedplayer2.xyz/cdn/hls/efc99db16a7ee7032efe419843d7ec4d/master.txt?format=m3u8",
@@ -531349,7 +531878,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612990.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41401.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612916.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/02.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/2.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/2.mp4",
               "https://embedplayer2.xyz/cdn/hls/35e584eca51b45d4270d7dc0c36b4e09/master.txt?format=m3u8",
@@ -531365,7 +531893,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612991.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41402.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612917.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/03.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/3.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/3.mp4",
               "https://embedplayer2.xyz/cdn/hls/5e9c36a0918a8427004944e3a5c37e12/master.txt?format=m3u8",
@@ -531381,7 +531908,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612992.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41404.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612918.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/04.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/4.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/4.mp4",
               "https://embedplayer2.xyz/cdn/hls/b5a6ebd24e2d18df555059e93ff4a8f6/master.txt?format=m3u8",
@@ -531397,7 +531923,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612993.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41405.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612919.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/05.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/5.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/5.mp4",
               "https://embedplayer2.xyz/cdn/hls/1d44ac7cf04b54bf9487bfc17f007685/master.txt?format=m3u8",
@@ -531413,7 +531938,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612994.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41406.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612920.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/06.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/6.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/6.mp4",
               "https://embedplayer2.xyz/cdn/hls/7b5f4de640924d59b73a301d059ef772/master.txt?format=m3u8",
@@ -531429,7 +531953,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612995.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41407.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612921.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/07.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/7.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/7.mp4",
               "https://embedplayer2.xyz/cdn/hls/ed7aae0dce39de343cc276a73ce0e612/master.txt?format=m3u8",
@@ -531445,7 +531968,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612996.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41409.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612922.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/08.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/8.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/8.mp4",
               "https://embedplayer2.xyz/cdn/hls/442b5445027a8510479e1b0da1a719a9/master.txt?format=m3u8",
@@ -531461,7 +531983,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612997.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41410.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612923.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/09.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/9.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/9.mp4",
               "https://embedplayer2.xyz/cdn/hls/bbc6efe99ad88e53cd09ccfedb223387/master.txt?format=m3u8",
@@ -531477,7 +531998,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612998.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41411.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612924.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/10.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/10.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/10.mp4",
               "https://embedplayer2.xyz/cdn/hls/d0fea8426c986f31b050a0ef1676fbe1/master.txt?format=m3u8",
@@ -531493,7 +532013,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5612999.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41412.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612925.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/11.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/11.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/11.mp4",
               "https://embedplayer2.xyz/cdn/hls/e8b3a04269e6dd00db367f67196b80ce/master.txt?format=m3u8",
@@ -531509,7 +532028,6 @@
               "http://64.31.23.207:80/series/96795792/50165825/5613000.mp4",
               "http://dbonline.tech-cdn.top:80/series/ke-vin-0928392083/PZjF6XATTZ/41414.mp4",
               "http://64.31.23.207:80/series/96795792/50165825/5612926.mp4",
-              "https://cdn-sv01.maximaimg.online/stream/s/spy-family-dublado/12.mp4/index.m3u8",
               "https://nsrv.classotaku.app/file/classgg/1638/12.mp4",
               "https://nsrv.classotaku.app/file/classgg/1640/12.mp4",
               "https://embedplayer2.xyz/cdn/hls/b813bf4ed4a63bda73f503bc98957fc4/master.txt?format=m3u8",
@@ -546062,8 +546580,7 @@
     "rating": 6.3,
     "popularity": 6.4,
     "audios": [
-      "legendado",
-      "dublado"
+      "legendado"
     ],
     "group": "Animes | Animação",
     "anime": true,
@@ -546079,10 +546596,7 @@
           {
             "season": 1,
             "episode": 2,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/271026/1/2.mp4",
-            "mirrors": [
-              "https://nixplay.lat/series/saimo-vods/221097/271026/1/2.mp4?lang=leg"
-            ]
+            "url": "https://nixplay.lat/series/saimo-vods/221097/271026/1/2.mp4?lang=leg"
           },
           {
             "season": 1,
@@ -592768,67 +593282,106 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 2,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/2.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/2.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/2.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 3,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/3.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/3.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/3.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 13,
-            "url": "https://nsrv.classotaku.app/file/classgg/4934/13.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4934/13.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/1/13.mp4?lang=leg"
+            ]
           }
         ]
       },
@@ -592838,57 +593391,90 @@
           {
             "season": 2,
             "episode": 1,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/1.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/1.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 4,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/4.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/4.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/4.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 5,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/5.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/5.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/5.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 6,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/6.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/6.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/6.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 7,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/7.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/7.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/7.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 8,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/8.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/8.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/8.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 9,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/9.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/9.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/9.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 10,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/10.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/10.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/10.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 11,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/11.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 12,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/12.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/12.mp4?lang=leg"
+            ]
           },
           {
             "season": 2,
             "episode": 13,
-            "url": "https://nsrv.classotaku.app/file/classgg/4935/13.mp4"
+            "url": "https://nsrv.classotaku.app/file/classgg/4935/13.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/17149/2/13.mp4?lang=leg"
+            ]
           }
         ]
       }
