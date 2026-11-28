@@ -25183,6 +25183,15 @@
     "group": "Filmes | Ação"
   },
   {
+    "title": "A Espada da Vingança",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/687238.mp4",
+    "thumb": "https://image.tmdb.org/t/p/w500/pgQoNCKiXu63iiSzQVG7EtsTjCi.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
+  },
+  {
     "title": "A Espada do Imortal",
     "year": 2017,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/1559.mp4",
@@ -119515,6 +119524,33 @@
     "group": "Filmes | Animação"
   },
   {
+    "title": "Attack on Titan: O Arco e Flecha Escarlate",
+    "year": 2014,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=379088&versao=dub",
+    "tmdbId": 379088,
+    "tmdbTipo": "movie",
+    "imdbId": "tt3646944",
+    "thumb": "https://image.tmdb.org/t/p/w500/8jWaFLQAjdlVKoMpTHIidwYVDWO.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/sUnJT97Fp9uHkwwhuIzAxtxs3wO.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/7qVSrvfvOpj39SWdw2Nnsqx4HUD.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/kQgibMfJHL27KRXrQuBYl7hLFmK.png",
+    "desc": "Uma história de coragem e vingança. E a única oportunidade que a humanidade para recuperar sua liberdade. À beira da extinção, os poucos sobreviventes vivem em pequenas cidades dentro das muralhas que os protegem dos Titãs: seres gigantes que devoram humanos. Depois de 100 anos de paz, aparecem o Titã Colossal e o Titã Blindado. Os Titãs conseguem entrar na cidade e promover um massacre.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "Fantasia"
+    ],
+    "age": "14",
+    "runtime": 118,
+    "rating": 8.1,
+    "popularity": 4.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Attack on Titan: O ÚLTIMO ATAQUE",
     "year": 2024,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/8784.mp4",
@@ -137545,6 +137581,60 @@
     "group": "Filmes | Música"
   },
   {
+    "title": "Beyond the Boundary: I'll Be Here – Future LEG",
+    "year": 2015,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=333622&versao=dub",
+    "tmdbId": 333622,
+    "tmdbTipo": "movie",
+    "imdbId": "tt4539114",
+    "thumb": "https://image.tmdb.org/t/p/w500/3qiVGW3Nsk4EUIFVcbGuB36rvMZ.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/cRtFsijFloplP2tjvP8ndlqFiqC.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/l30wbnMO8ou8hH86XOEzGeZu9pa.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/4F5rRGppuuiwzIZAj9mEVkGDMTv.png",
+    "desc": "A segunda parte de um filme dividido em duas partes. A história se passa um ano após os eventos da série de TV e do primeiro filme.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Fantasia",
+      "Drama",
+      "Comédia"
+    ],
+    "runtime": 90,
+    "rating": 7.5,
+    "popularity": 2.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Beyond the Boundary: I'll Be Here – Past",
+    "year": 2015,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=311056&versao=dub",
+    "tmdbId": 311056,
+    "tmdbTipo": "movie",
+    "imdbId": "tt4531412",
+    "thumb": "https://image.tmdb.org/t/p/w500/az9l2WrzS79Ga6v6zK9TBsgeaWf.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/eST8x9SrX3UyPycTDzh3CE0TIj1.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/sPGq7DTHXoTD5U1GODKl2cWIlPb.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/6sqy5D4FnZEVflsgXUQr8UgrCgP.png",
+    "desc": "A primeira parte de um filme dividido em duas partes. A história é uma recapitulação da série de TV.",
+    "genre": [
+      "Animação",
+      "Fantasia",
+      "Ação",
+      "Drama",
+      "Comédia"
+    ],
+    "runtime": 82,
+    "rating": 6.9,
+    "popularity": 2,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Beyond the Neon",
     "year": 2022,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/1031918.mp4",
@@ -154766,6 +154856,15 @@
       "dublado"
     ],
     "group": "Filmes | Ação"
+  },
+  {
+    "title": "Caminhos do Coração S01E",
+    "year": 2010,
+    "url": "http://64.31.23.207:80/series/96795792/50165825/5480514.mp4",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
   },
   {
     "title": "Caminhos do Crime",
@@ -206781,6 +206880,32 @@
     "group": "Filmes | Animação"
   },
   {
+    "title": "Demon Slayer Kimetsu no Yaiba Castelo Infinito - 2",
+    "year": 2025,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=1311031&versao=dub",
+    "tmdbId": 1311031,
+    "tmdbTipo": "movie",
+    "imdbId": "tt32820897",
+    "thumb": "https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/j7MKdRIwfJejNlJQG1hzjFJmtlH.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/t9vUVFG2W3XkXjvDOL6eHaGj77V.png",
+    "desc": "Enquanto os membros dos caçadores e os Hashira participavam de um rigoroso programa de fortalecimento coletivo, conhecido como Treinamento dos Hashira, em preparação para a batalha final contra os demônios, Muzan Kibutsuji aparece na Mansão Ubuyashiki. Com a vida do líder da organização em risco, Tanjiro e os Hashira correm até o quartel-general, mas acabam sendo lançados, pelas mãos de Muzan, em uma queda profunda rumo a um espaço misterioso para um confronto final, o Castelo Infinito.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Fantasia"
+    ],
+    "age": "18",
+    "runtime": 155,
+    "rating": 8.8,
+    "popularity": 41.3,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Demon Slayer: Kimetsu no Yaiba Castelo Infinito",
     "year": 2025,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/310332.mp4",
@@ -227469,6 +227594,31 @@
     "group": "Filmes | Ação"
   },
   {
+    "title": "Dragon Ball: Em Busca do Poder",
+    "year": 1996,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=39148&versao=dub",
+    "tmdbId": 39148,
+    "tmdbTipo": "movie",
+    "imdbId": "tt0142250",
+    "thumb": "https://image.tmdb.org/t/p/w500/oJ9vh64p6DQDi00XDvHsp4tJSyx.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/cJ2CNxc1AQh5raZgxeQreGKxale.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/gEIeOaesnQWE7WNWQVryJkRLbt5.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/xKvCdmTANJyE1Zm68tSIUhLeUzl.png",
+    "desc": "Uma releitura da origem de Dragon Ball com uma visão diferente do encontro de Goku, Bulma e Mestre Kame. A história do Exército Red Ribbon também é recontada, mas dessa vez eles encontram Goku, e não o contrário.",
+    "genre": [
+      "Animação",
+      "Aventura",
+      "Fantasia"
+    ],
+    "runtime": 80,
+    "rating": 7.4,
+    "popularity": 3.4,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Dragon Ball: Episódio de Bardock",
     "year": 2011,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/120475.mp4",
@@ -243120,6 +243270,15 @@
       "dublado"
     ],
     "group": "Filmes | Drama"
+  },
+  {
+    "title": "Enfeitiçadas: Bem-vindos a Hexe",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1538497.mp4",
+    "thumb": "https://image.tmdb.org/t/p/w500/lhDdE2Uvis4Khtr1o366cAbnb57.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
   },
   {
     "title": "Enfeitiçados",
@@ -264394,6 +264553,62 @@
       "dublado"
     ],
     "group": "Filmes | Comédia"
+  },
+  {
+    "title": "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 1 - Wandering; Agateram",
+    "year": 2020,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=637202&versao=dub",
+    "tmdbId": 637202,
+    "tmdbTipo": "movie",
+    "imdbId": "tt9534948",
+    "thumb": "https://image.tmdb.org/t/p/w500/uReEyxkxzqS4Dq9vty5z47x8W4c.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/hVCkzBOk8vKr0AklqSxcoZk2eGS.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/tAWhfhc7rHGw5pRDxkx441PPIOr.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/8krTZT0g0tZ5gnMpzUBWXcovaf1.png",
+    "desc": "No ano de 1273 d.C., Jerusalém foi transformada em um deserto devastado, onde três grandes forças disputam o controle da Terra Santa. Enquanto os Cavaleiros da Távola Redonda defendem a Cidade Santa sob o comando do Rei Leão e Ozymandias planeja derrubar esse domínio, o cavaleiro Bedivere parte em uma missão que o leva a encontrar Ritsuka Fujimaru e Mash Kyrielight. Unidos, eles embarcam em uma jornada para restaurar a história da humanidade.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "História",
+      "Drama",
+      "Fantasia"
+    ],
+    "runtime": 90,
+    "rating": 7,
+    "popularity": 3.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Fate/Grand Order: Shinsei Entaku Ryouiki Camelot 2 - Paladin; Agateram",
+    "year": 2020,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=637202&versao=dub",
+    "tmdbId": 637202,
+    "tmdbTipo": "movie",
+    "imdbId": "tt9534948",
+    "thumb": "https://image.tmdb.org/t/p/w500/uReEyxkxzqS4Dq9vty5z47x8W4c.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/hVCkzBOk8vKr0AklqSxcoZk2eGS.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/tAWhfhc7rHGw5pRDxkx441PPIOr.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/8krTZT0g0tZ5gnMpzUBWXcovaf1.png",
+    "desc": "No ano de 1273 d.C., Jerusalém foi transformada em um deserto devastado, onde três grandes forças disputam o controle da Terra Santa. Enquanto os Cavaleiros da Távola Redonda defendem a Cidade Santa sob o comando do Rei Leão e Ozymandias planeja derrubar esse domínio, o cavaleiro Bedivere parte em uma missão que o leva a encontrar Ritsuka Fujimaru e Mash Kyrielight. Unidos, eles embarcam em uma jornada para restaurar a história da humanidade.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "História",
+      "Drama",
+      "Fantasia"
+    ],
+    "runtime": 90,
+    "rating": 7,
+    "popularity": 3.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
   },
   {
     "title": "Fathima",
@@ -290951,6 +291166,54 @@
       "legendado"
     ],
     "group": "Filmes | Comédia"
+  },
+  {
+    "title": "Grisaia: Phantom Trigger The Animation",
+    "year": 2019,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=601980&versao=dub",
+    "tmdbId": 601980,
+    "tmdbTipo": "movie",
+    "thumb": "https://image.tmdb.org/t/p/w500/yEtlPrsyC2Ge3EYKvSXxyAouCzT.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/qvUiNH0VwtIfGNXCBgmWsh22aWb.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/dQp6yyF3AlWzPC9ZtRTQraWvhmU.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/y2qMsS35ar52CrA47KSmziMbZJG.png",
+    "desc": "Após o incidente com a Heath Oslo, a existência da organização anti-terrorista CIRS, dos EUA e do Japão, tornou-se uma questão de conhecimento público. O CIRS foi reconstruído a partir do zero e suas funções mais secretas se transformaram em uma nova agência: a SORD (Social Ops, Research & Development). O objetivo da SORD é treinar uma nova geração de agentes para defender o país contra futuras ameaças. Para esse fim, a organização estabeleceu uma série de escolas em todo o país. A Academia Mihama, mais ou menos deixada para apodrecer após o seu abrupto fechamento, recebeu um novo propósito como uma dessas \"escolas especializadas em treinamento\". Esta nova encarnação da Academia Mihama é o lar de um grupo diversificado de estudantes, que todos os dias trabalham para aperfeiçoar suas habilidades incomuns - às vezes no trabalho.",
+    "genre": [
+      "Ação",
+      "Animação"
+    ],
+    "age": "16",
+    "runtime": 53,
+    "rating": 5.9,
+    "popularity": 1.6,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Ação"
+  },
+  {
+    "title": "Grisaia: Phantom Trigger The Animation - Stargazer",
+    "year": 2019,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=601980&versao=dub",
+    "tmdbId": 601980,
+    "tmdbTipo": "movie",
+    "thumb": "https://image.tmdb.org/t/p/w500/yEtlPrsyC2Ge3EYKvSXxyAouCzT.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/qvUiNH0VwtIfGNXCBgmWsh22aWb.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/dQp6yyF3AlWzPC9ZtRTQraWvhmU.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/y2qMsS35ar52CrA47KSmziMbZJG.png",
+    "desc": "Após o incidente com a Heath Oslo, a existência da organização anti-terrorista CIRS, dos EUA e do Japão, tornou-se uma questão de conhecimento público. O CIRS foi reconstruído a partir do zero e suas funções mais secretas se transformaram em uma nova agência: a SORD (Social Ops, Research & Development). O objetivo da SORD é treinar uma nova geração de agentes para defender o país contra futuras ameaças. Para esse fim, a organização estabeleceu uma série de escolas em todo o país. A Academia Mihama, mais ou menos deixada para apodrecer após o seu abrupto fechamento, recebeu um novo propósito como uma dessas \"escolas especializadas em treinamento\". Esta nova encarnação da Academia Mihama é o lar de um grupo diversificado de estudantes, que todos os dias trabalham para aperfeiçoar suas habilidades incomuns - às vezes no trabalho.",
+    "genre": [
+      "Ação",
+      "Animação"
+    ],
+    "age": "16",
+    "runtime": 53,
+    "rating": 5.9,
+    "popularity": 1.6,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Ação"
   },
   {
     "title": "Grite, Grite Outra Vez",
@@ -355772,6 +356035,34 @@
     "group": "Filmes | Drama"
   },
   {
+    "title": "Lu Está Livre",
+    "year": 2017,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=436120&versao=dub",
+    "tmdbId": 436120,
+    "tmdbTipo": "movie",
+    "imdbId": "tt6452332",
+    "thumb": "https://image.tmdb.org/t/p/w500/9Y4tUabjr4uftipKKwu6wOQQBOU.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/6s1ONEuRCcMTvptATfA5Y5WVHEw.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/jv8KrSioSQxZGFdcO0RIMJhdp5r.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/wXk5If9zrcvp0zBvQp84DwiuoPO.png",
+    "desc": "Kai se muda com seu pai de Tóquio para Hinashi, uma cidade pesqueira em declinio, para viver com seu avô após o divórcio de seus pais. Kai é incapaz expressar seus complexos sentimentos sobre seus pais, assim ele passa sua vida escolar no ensino médio de forma melancólica. Sua única alegria é fazer o upload de suas composições musicais para a internet. Um dia, seus colegas Kunio e Yuuho convidá-o para se juntar à sua banda, e quando ele relutantemente os acompanha para praticar na Ilha da Sereia, os três encontram uma sereia chamada Lu. Através de seu alegre canto e dança, Kai lentamente é capaz de se abrir sobre seus sentimentos. No entanto, uma calamidade chega e Kai deve gritar do fundo do seu coração, para salvar a cidade.",
+    "genre": [
+      "Animação",
+      "Aventura",
+      "Música",
+      "Fantasia",
+      "Família"
+    ],
+    "age": "10",
+    "runtime": 117,
+    "rating": 6.9,
+    "popularity": 3.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Lua Cambará - Nas Escadarias do Palácio",
     "year": 2002,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/254283.mp4",
@@ -399631,6 +399922,15 @@
     "group": "Filmes | Romance"
   },
   {
+    "title": "Muito Prazer",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1249562.mp4",
+    "thumb": "https://image.tmdb.org/t/p/w500/xGFpTUCaf0N3eyLnvDsLptGwxR3.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
+  },
+  {
     "title": "Muito Ralph: Vida e Obra de Ralph Lauren",
     "year": 2019,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/618597.mp4",
@@ -408521,6 +408821,32 @@
     "group": "Filmes | Documentário"
   },
   {
+    "title": "Naruto Shippuden O Filme: Caminho do Ninja",
+    "year": 2012,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=118406&versao=dub",
+    "tmdbId": 118406,
+    "tmdbTipo": "movie",
+    "imdbId": "tt2290828",
+    "thumb": "https://image.tmdb.org/t/p/w500/hyv75xNqvpPqoIBQFyBCoLOJmvh.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/hBIZ6RiaCWszRbdvHAy6RWHyT3c.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/4DLso4rc5oR7S8X52UV1SabTRrY.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/6oaMq6ioZn0AQuS4SlZkoYFBhdo.png",
+    "desc": "O Homem Mascarado envia Naruto e Sakura para uma realidade alternativa onde os pais dele estão vivos e os dela, mortos. Agora, eles precisam descobrir como voltar.",
+    "genre": [
+      "Animação",
+      "Fantasia",
+      "Ação"
+    ],
+    "age": "12",
+    "runtime": 109,
+    "rating": 7.4,
+    "popularity": 5.7,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Naruto Shippuden the Movie Blood Prison",
     "url": "https://nixplay.lat/movie/saimo-vods/221097/75624.mp4",
     "thumb": "https://image.tmdb.org/t/p/w500/4WT7zYFpe0fsbg6TitppiHddWAh.jpg",
@@ -408580,6 +408906,32 @@
       "dublado"
     ],
     "group": "Filmes | Animação"
+  },
+  {
+    "title": "Naruto: Guardiões do Reino da Lua Crescente",
+    "year": 2006,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=18861&versao=dub",
+    "tmdbId": 18861,
+    "tmdbTipo": "movie",
+    "imdbId": "tt1071815",
+    "thumb": "https://image.tmdb.org/t/p/w500/2wwVFqDULo63dxQGp4jOKzClIGt.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/j2oX7UeZJJD6tUczrVECcJCdLaG.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/m1UkYQgFV8nDgpJ7tQSSlCZSTF5.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/92CK7r1sarCmW3GB0A8RRSkY1Gp.png",
+    "desc": "Naruto Uzumaki, Sakura Haruno, Rock Lee e Kakashi Hatake foram enviados para proteger um príncipe durante sua viagem ao redor do mundo e garantir que ele volte com segurança para sua casa no País da Lua. O País da Lua por ser muito rico possibilita que o Príncipe compre tudo que deseja. Durante sua viagem, o Príncipe encontra um grupo circense que possui um raro tigre dente-de-sabre que ele deseja ter, então ele compra o grupo todo. De repente a missão de proteger o príncipe que difícilmente escuta o que lhe é dito, se torna em uma missão para proteger não só ele, mas também outros animais, e tentar levá-los de alguma forma salvos para suas casas. O problema surge quando três ninjas que manipulam jutsus amedrontadores estão a espera deles.",
+    "genre": [
+      "Aventura",
+      "Animação",
+      "Ação"
+    ],
+    "age": "12",
+    "runtime": 95,
+    "rating": 7.1,
+    "popularity": 4.1,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Aventura"
   },
   {
     "title": "Naruto: O Confronto Ninja no País da Neve",
@@ -499489,6 +499841,15 @@
     "group": "Filmes | Documentário"
   },
   {
+    "title": "O menino",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/1506401.mp4",
+    "thumb": "https://image.tmdb.org/t/p/w500/6wLVChqjN2qsZ3uolEmetkCuzeO.jpg",
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes"
+  },
+  {
     "title": "O natal caubói da Sandy e Bob Esponja",
     "url": "https://nixplay.lat/movie/saimo-vods/221097/1608833.mp4",
     "thumb": "https://image.tmdb.org/t/p/w500/aTX4fXsqK8ZB4NpRY3yzsjEXGBU.jpg",
@@ -506043,6 +506404,58 @@
     "group": "Filmes | Ação"
   },
   {
+    "title": "One Piece: Aventura na Ilha Nejimaki",
+    "year": 2001,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=23446&versao=dub",
+    "tmdbId": 23446,
+    "tmdbTipo": "movie",
+    "imdbId": "tt0832449",
+    "thumb": "https://image.tmdb.org/t/p/w500/fDbaWhJd1H3WTlScidizriOm2hk.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/pmMdke4HG8xq6Tu4gfE4QFM7OQp.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/efC1n5QU7newjfgqyOPmsnwSky3.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/uUymkTTEGELEzkPBFbHPeIydCV.png",
+    "desc": "Luffy e sua tripulação têm o Going Merry roubado e acabam envolvidos em uma disputa pelo Relógio de Diamante, cobiçado por diferentes grupos de piratas. Quando Nami é sequestrada e forçada a se casar com o temido Rei Urso, os Chapéus de Palha se unem aos Irmãos Ladrões para enfrentá-los, resgatar Nami e libertar a Ilha do Relógio da tirania.",
+    "genre": [
+      "Ação",
+      "Animação",
+      "Aventura"
+    ],
+    "runtime": 55,
+    "rating": 6.9,
+    "popularity": 3.8,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Ação"
+  },
+  {
+    "title": "One Piece: Baron Omatsuri and the Secret Island",
+    "year": 2005,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=44729&versao=dub",
+    "tmdbId": 44729,
+    "tmdbTipo": "movie",
+    "imdbId": "tt1018764",
+    "thumb": "https://image.tmdb.org/t/p/w500/6yB29qd0zjQJE42u6iUKufxMVUk.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/xGJBLsiY0quc2pOcCH1MdnF5P8.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/Aqsjzy5lZsOIIj0nmdDJ3woqeKe.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/xEoLOfdNZNbcL6YA4geOiV79mZX.png",
+    "desc": "A tripulação do Chapéu de Palha recebe um convite para uma ilha resort na Grand Line, administrada pelo Barão Omatsuri. Luffy decide aproveitar a oportunidade para descansar e relaxar. No entanto, ao chegarem à ilha, eles são obrigados a participar de competições que exigem a união do bando. Porém, há algo misterioso no ar, todos começam a brigar entre si. Robin, Chopper e Luffy investigam separadamente o segredo por trás da ilha do Barão Omatsuri.",
+    "genre": [
+      "Ação",
+      "Animação",
+      "Comédia",
+      "Aventura",
+      "Fantasia"
+    ],
+    "runtime": 88,
+    "rating": 7.2,
+    "popularity": 3.7,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Ação"
+  },
+  {
     "title": "One Piece: Coração de Ouro",
     "year": 2016,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/433157.mp4",
@@ -511572,6 +511985,30 @@
       "dublado"
     ],
     "group": "Filmes | Ação"
+  },
+  {
+    "title": "Os Cavaleiros do Zodíaco: Prólogo do Céu",
+    "year": 2004,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=50253&versao=dub",
+    "tmdbId": 50253,
+    "tmdbTipo": "movie",
+    "imdbId": "tt0805605",
+    "thumb": "https://image.tmdb.org/t/p/w500/kslCOlg1trlqry0XF3kCqdwh3ZP.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/3tbyb1ZZAoFl7TiufWX15hQBYTs.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/afMyocyc9QHdksy5EAJW6Mm2rt4.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/77mFJI3Dbd8jcGuIDjI30FUslqe.png",
+    "desc": "Os defensores da deusa Atena ainda estão se recuperando de uma batalha contra Hades quando são obrigados a enfrentar um novo inimigo: Apolo, que lidera os cavaleiros celestiais e quer tomar o controle do santuário. Sem poder contar com a ajuda dos cavaleiros de ouro, cujas almas foram seladas para sempre pelos deuses, Seiya e os demais cavaleiros de bronze precisarão enfrentar sozinhos este desafio.",
+    "genre": [
+      "Animação",
+      "Fantasia"
+    ],
+    "runtime": 84,
+    "rating": 7.8,
+    "popularity": 2.9,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
   },
   {
     "title": "Os Caça-Noivas",
@@ -523617,6 +524054,58 @@
     ],
     "qualidadeMax": "4K",
     "group": "Filmes | Ação"
+  },
+  {
+    "title": "Overlord: O Herói Sombrio",
+    "year": 2017,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=477449&versao=dub",
+    "tmdbId": 477449,
+    "tmdbTipo": "movie",
+    "imdbId": "tt6634910",
+    "thumb": "https://image.tmdb.org/t/p/w500/f6uP4mK2smW7A6xTRMzq15n91je.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/7ppe5S9RJKBaIjliCFWOqwTiUaP.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/zkuanCopYUD5N0o8Wu7ORO4KrBK.jpg",
+    "desc": "Momonga mudou seu nome para Ainz Ooal Gown, nome da poderosa guilda que fundou com seus companheiros de jogo, para ser mais facilmente reconhecido por eventuais outros jogadores que tenham sido transportados para este novo mundo. Um rapaz chamado Nphirea, capaz de usar qualquer item mágico, chamou a atenção do feiticeiro, mas Clementine e Khajit, uma perigosa assassina e um necromante da ordem de Zuranon, já tinham planos nefastos para ele. Agora, cabe a Ainz resolver o problema em que se envolveu por acidente, mas enquanto o faz, um de seus NPCs pode ser alvo de algo que nem mesmo Momonga imaginaria existir nesse mundo...",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "Fantasia"
+    ],
+    "age": "16",
+    "runtime": 94,
+    "rating": 7.1,
+    "popularity": 2.6,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Overlord: O Rei Zumbi",
+    "year": 2017,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=477447&versao=dub",
+    "tmdbId": 477447,
+    "tmdbTipo": "movie",
+    "imdbId": "tt6634906",
+    "thumb": "https://image.tmdb.org/t/p/w500/tSPeMmbpIRT5MfPMGdU6qzvb9jW.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/3U4Vgcd5BwrvnV9C0TKbcl9A9IL.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/2zsb9h0NuO7Ijvtu8wlAEtGynpw.jpg",
+    "desc": "A hora final do popular jogo de realidade virtual Yggdrasil chegou. No entanto, Momonga, um poderoso mago e mestre da guilda negra Ainz Ooal Gown, decide passar seus últimos momentos no jogo quando os servidores começam a desligar. Para sua surpresa, apesar do relógio ter atingido a meia-noite, Momonga ainda está totalmente consciente como seu personagem e, além disso, os NPCs parecem ter desenvolvido personalidades próprias!  Confrontado com esta situação anormal, Momonga comanda seus leais servos para ajudá-lo a investigar e assumir o controle desse novo mundo, com a esperança de descobrir o que causou esse desenvolvimento e se há outros na mesma situação.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "Fantasia"
+    ],
+    "age": "16",
+    "runtime": 103,
+    "rating": 7.1,
+    "popularity": 2.7,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
   },
   {
     "title": "Own The Room",
@@ -552638,6 +553127,33 @@
     "mirrors": [
       "https://nixplay.lat/movie/saimo-vods/221097/968870.mp4"
     ],
+    "tmdbId": 968870,
+    "tmdbTipo": "movie",
+    "imdbId": "tt28284638",
+    "thumb": "https://image.tmdb.org/t/p/w500/lL9jfesH12upoi0mXVqJgTSESOg.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/fXuFJB4UJ2HmEi42aF23S7OvSoH.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/zUrF86yNCi4a8r0FWpaEqycErUh.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/iDY6fdodd5Urxq8goEPScTMYWfD.png",
+    "desc": "Depois de perdas devastadoras, Sailor Moon resiste em sua batalha contra a Shadow Galactica. Será que o desespero vai falar mais alto ou ela encontrará luz na escuridão?",
+    "genre": [
+      "Animação",
+      "Aventura",
+      "Fantasia",
+      "Romance"
+    ],
+    "age": "12",
+    "runtime": 82,
+    "rating": 8,
+    "popularity": 2.2,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Pretty Guardian Sailor Moon Cosmos: O Filme – Parte 2",
+    "year": 2023,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=968870&versao=dub",
     "tmdbId": 968870,
     "tmdbTipo": "movie",
     "imdbId": "tt28284638",
@@ -617692,6 +618208,30 @@
     "group": "Filmes | Terror"
   },
   {
+    "title": "Sound! Euphonium: Ensemble Contest",
+    "year": 2023,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=1108306&versao=dub",
+    "tmdbId": 1108306,
+    "tmdbTipo": "movie",
+    "imdbId": "tt20860298",
+    "thumb": "https://image.tmdb.org/t/p/w500/8XXCFL95E0B2yJ9uhOxIODNsie8.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/dNW8mR87Z85U5c6v264ciFv0Ilj.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/xHx4rT1V9O1DyIe8NB4B4QsJNyM.jpg",
+    "desc": "Aguardando o novo líder do clube, Kumiko, está o Ensemble Contest - também conhecido como \"EnCon\" - e a competição preliminar da escola para determinar a equipe representativa a participar. Kumiko faz o possível para chegar às preliminares sem incidentes, mas o clube da banda de concerto é tão grande que parece não haver fim para os problemas... E como líder do clube, ela se encontra ocupada prestando consultoria em todos os tipos de assuntos. . Enquanto os membros do clube decidem seus times, a própria Kumiko ainda nem decidiu em qual deles irá ingressar...",
+    "genre": [
+      "Animação",
+      "Drama",
+      "Música"
+    ],
+    "runtime": 58,
+    "rating": 7.6,
+    "popularity": 1.4,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Sour",
     "year": 2021,
     "url": "https://nixplay.lat/movie/saimo-vods/221097/804261.mp4",
@@ -624452,6 +624992,32 @@
     "group": "Filmes | Drama"
   },
   {
+    "title": "Summer Ghost",
+    "year": 2021,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=798544&versao=dub",
+    "tmdbId": 798544,
+    "tmdbTipo": "movie",
+    "imdbId": "tt15052770",
+    "thumb": "https://image.tmdb.org/t/p/w500/1XYMO8HHdmyvzJsBxkpNXXslTyw.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/xXliNn9WUSqv5MkjrwD3cp1xXNr.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/2KudiO1hPYRkzgl50339u0vKabx.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/jtPCxah6yaeuzKd2gWiphqYQx6O.png",
+    "desc": "Tomoya, Aoi e Ryo são estudantes do colegial que se conheceram pela internet. A lenda urbana da Fantasma do Verão diz que o fantasma de uma moça aparece quando acendem fogos de artifício. Tomoya é incapaz de dar um passo adiante para a vida que ele quer, Aoi é incapaz de encontrar seu lugar no mundo e o futuro brilhante que Ryo almejava de repente se fechou para ele. Cada um tem seus motivos para se encontrar com a Fantasma do Verão. Em uma certa noite de verão, quando o horizonte da vida com a morte se cruza, onde será que os pensamentos de cada um os levarão?",
+    "genre": [
+      "Animação",
+      "Drama",
+      "Mistério",
+      "Fantasia"
+    ],
+    "runtime": 40,
+    "rating": 7.3,
+    "popularity": 2.8,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Summer Of 85",
     "year": 1985,
     "url": "http://dbonline.tech-cdn.top:80/movie/ke-vin-0928392083/PZjF6XATTZ/90454.mp4",
@@ -627685,6 +628251,33 @@
     "runtime": 97,
     "rating": 7.9,
     "popularity": 4.3,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Sword Art Online: Ordinal Scale",
+    "year": 2017,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=413594&versao=dub",
+    "tmdbId": 413594,
+    "tmdbTipo": "movie",
+    "imdbId": "tt5544384",
+    "thumb": "https://image.tmdb.org/t/p/w500/d4eGqZiYPtTBthXH5Q7jjVXVbAC.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/yFZG86Zvdy6JuIlMW9eHxlVkct5.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/vIn6vb9RVVyWeL7NtIfUnwgRMJa.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/g6yKr3mQbnJU9VimkQWFQlH62vE.png",
+    "desc": "Quatro anos após o incidente de SAO, um novo jogo de realidade aumentada chamado Ordinal Scale se torna um enorme sucesso entre os jogadores. Porém, acontecimentos estranhos começam a surgir dentro do jogo e Kirito, Asuna e seus amigos acabam envolvidos em uma nova e perigosa ameaça.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Aventura",
+      "Fantasia",
+      "Ficção científica"
+    ],
+    "runtime": 119,
+    "rating": 7.7,
+    "popularity": 4.6,
     "audios": [
       "dublado"
     ],
@@ -631262,6 +631855,31 @@
     "runtime": 45,
     "rating": 8.2,
     "popularity": 1.5,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Teasing Master Takagi-san: The Movie",
+    "year": 2022,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=938567&versao=dub",
+    "tmdbId": 938567,
+    "tmdbTipo": "movie",
+    "imdbId": "tt15313532",
+    "thumb": "https://image.tmdb.org/t/p/w500/x78DgjTLhf483UA7xF5u7Yt7J9k.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/t0voVZuqvQ0VlM2m45rVWZO5R52.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/tSVfhT377oJAqz5gMDsIwQ2YzGc.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/7kUFLMkP093zcfbPaDFeE6uQXS1.png",
+    "desc": "O último verão de Takagi e Nishikata no ensino fundamental está prestes a começar, e já teve um começo emocionante! Quando a dupla encontra um gatinho abandonado, eles decidem trabalhar juntos e cuidar de seu adorável novo companheiro até que possam localizar sua mãe desaparecida.",
+    "genre": [
+      "Animação",
+      "Comédia",
+      "Romance"
+    ],
+    "runtime": 73,
+    "rating": 8.4,
+    "popularity": 2.9,
     "audios": [
       "dublado"
     ],
@@ -650045,6 +650663,56 @@
       "dublado"
     ],
     "group": "Filmes | Drama"
+  },
+  {
+    "title": "Tiger & Bunny Movie 1: The Beginning",
+    "year": 2012,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=178592&versao=dub",
+    "tmdbId": 178592,
+    "tmdbTipo": "movie",
+    "imdbId": "tt2507174",
+    "thumb": "https://image.tmdb.org/t/p/w500/jZ4vRNIlXwXwEJTsHgy6j29DCU4.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/gzBVylQP2AbjacSj1oHeZR08u2g.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/sgKzA00axTbghTFidDSI5SVqZyn.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/ksteNoPpi71J2uqfLtPrcU6pFTx.png",
+    "desc": "Baseado na série de TV, com cenas extras.",
+    "genre": [
+      "Animação",
+      "Ação",
+      "Ficção científica"
+    ],
+    "runtime": 88,
+    "rating": 6.4,
+    "popularity": 1.7,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
+    "title": "Tiger & Bunny Movie 2: The Rising",
+    "year": 2014,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=258807&versao=dub",
+    "tmdbId": 258807,
+    "tmdbTipo": "movie",
+    "imdbId": "tt3204012",
+    "thumb": "https://image.tmdb.org/t/p/w500/gem98F4dwAtcLvn755J4utAywtB.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/6tdr4b6N831sonGMaxiyAugfPc3.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/9UdrQiYscbnr2BkUUzAefMz5No1.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/yjcl1EWkzEZRlMJUNS2PBPHWAae.png",
+    "desc": "O filme vai girar em torno de um mistério que acontece no dia do festival \"Dia da Justiça\", que celebra a lendária deusa de Sternbild.",
+    "genre": [
+      "Ação",
+      "Animação",
+      "Ficção científica"
+    ],
+    "runtime": 108,
+    "rating": 6.2,
+    "popularity": 1.7,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Ação"
   },
   {
     "title": "Tigerland - A Caminho da Guerra",
@@ -686029,6 +686697,32 @@
     "group": "Filmes | Drama"
   },
   {
+    "title": "Uma Dragão Carente",
+    "year": 2025,
+    "url": "https://saimo-tv.pages.dev/api/stream?tipo=movie&id=1359607&versao=dub",
+    "tmdbId": 1359607,
+    "tmdbTipo": "movie",
+    "imdbId": "tt36592985",
+    "thumb": "https://image.tmdb.org/t/p/w500/pqVtCXwhTUyH3U6h4Su56FTTPgQ.jpg",
+    "bannerThumb": "https://image.tmdb.org/t/p/w1280/nBKrBDxNx10SuAKPLRtBXoRku5y.jpg",
+    "previewThumb": "https://image.tmdb.org/t/p/w1280/ap3OGdodcULDqqvt0Z2HI46x1n6.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/uFaGlMBE7oGbAdTpMQI1Wgtfxoq.png",
+    "desc": "Quando o pai de Kanna retorna para levá-la ao Mundo dos Dragões em face de uma guerra iminente, ela fica dividida entre seu dever e seus amigos, enquanto uma força oculta ameaça destruir os dois mundos.",
+    "genre": [
+      "Animação",
+      "Comédia",
+      "Fantasia"
+    ],
+    "age": "14",
+    "runtime": 104,
+    "rating": 8.8,
+    "popularity": 4.3,
+    "audios": [
+      "dublado"
+    ],
+    "group": "Filmes | Animação"
+  },
+  {
     "title": "Uma Dupla Genial",
     "url": "https://nixplay.lat/movie/saimo-vods/221097/239056.mp4",
     "thumb": "https://image.tmdb.org/t/p/w500/ifLjWZ40nf5urj5socB2OMOZglE.jpg",
@@ -718719,9 +719413,9 @@
   {
     "title": "Yu Yu Hakusho: Invasores do Inferno",
     "year": 1994,
-    "url": "https://cdn-sv01.maximaimg.online/stream/y/yu-yu-hakusho-the-movie-poltergeist-report/01.mp4/index.m3u8",
+    "url": "https://nixplay.lat/movie/saimo-vods/221097/45279.mp4",
     "mirrors": [
-      "https://nixplay.lat/movie/saimo-vods/221097/45279.mp4",
+      "https://cdn-sv01.maximaimg.online/stream/y/yu-yu-hakusho-the-movie-poltergeist-report/01.mp4/index.m3u8",
       "https://embedplayer2.xyz/cdn/hls/449c8690f4e664a45c53a0fdecddac5a/master.txt?format=m3u8",
       "https://embedplayer2.xyz/cdn/hls/468d27954cd8f688dcb1a62980bfce93/master.txt?format=m3u8"
     ],
@@ -718742,8 +719436,8 @@
     "rating": 7.6,
     "popularity": 2.3,
     "audios": [
-      "legendado",
-      "dublado"
+      "dublado",
+      "legendado"
     ],
     "group": "Filmes | Animação"
   },

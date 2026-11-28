@@ -8,6 +8,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faee%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event60/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://video39.mais.uol.com.br/live/267.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/42860da57aeafee8424d62c416789065/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0d497a5b7dd8eb77bc874386523c5dc7/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/A%26E%20TV/index.m3u8"
     ]
   },
@@ -19,6 +21,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fadultswim%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event48/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/de632668e5f8e80c4509a50b0d60b3df/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9ccab8164cde90e4edd12cc386c422ae/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c813c5a0524d02ef36dd6f3c2dbae465/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/Adult%20Swim%20TV/index.m3u8"
     ]
   },
@@ -30,6 +35,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Famc%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event144/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/42db8d88cec567cef3bd159963a7ca3d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/bf2ee9ca6683d0d56830244c41eb89c8/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/AMC%20HD%20TV/index.m3u8"
     ]
   },
@@ -41,6 +48,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fanimalplanet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event34/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3085304b65801609ea7f61fff5421f81/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ad18275d43b1030a08428b213eecedf7/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/Animal%20Planet%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ANIMAL_PLANET_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -65,6 +74,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event44/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/281a89b2bebfbd920d6d664d9dba3c0d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e877139cda9e812b570a3d0884410d17/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/237a1c274b16284a66ed585119080469/error.txt?format=m3u8",
       "https://grupoa.satlabscloud.com.br/CARTOON_HD/index.m3u8?token=hxsEyiyJrF4goGNLlASmNrZHl3h0BVsGPcR8"
     ]
   },
@@ -78,6 +90,8 @@
       "https://eitvplay.appmembers.com.br/event110/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://amg01391-sbtinfast-amg01391c4-lg-br-4597.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnbrasil-lgbr/playlist.m3u8",
       "https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4d7801d66a361a4d230f74d9825444b3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/321e79a23515d1a54dd3a217560d41e7/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/CNN%20Brasil%20HD%20TV/index.m3u8"
     ]
   },
@@ -101,6 +115,7 @@
       "https://proxylinkurl.wored85282.workers.dev/https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/27e0e1dbd10aefc1764b70e41bcf2928/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/ge%20tv%20TV/index.m3u8"
     ]
   },
@@ -112,6 +127,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobonews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsfrp5mjrb/out/v1/9fa07e663bc94e9f93c53726a558478a/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/58b6d3c3782eed0d5d793bb7f6a411a8/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/GLOBO%20News%20UHD%20TV/index.m3u8"
     ]
   },
@@ -123,6 +139,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloboplaynovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ds9ertnhrl/out/v1/cb791b7362754ba1b87d9474ccd95fa3/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/04288a4f041aa182d92400ca92ec65ce/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b7cf5a4ff721cd076fa1da5ff7317722/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/Globoplay%20Novelas%20HD%20TV/index.m3u8"
     ]
   },
@@ -134,6 +152,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/h9c8z9m1dq/out/v1/9b1b1aa15b4f471ea19674290554499e/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/bded043d0fb184447fb5df90f26fc619/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/45e13ec38689754e385f2084626724a0/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/GNT%20HD%20TV/index.m3u8"
     ]
   },
@@ -147,6 +167,8 @@
       "https://eitvplay.appmembers.com.br/event35/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/HISTORY/index.m3u8",
       "https://video46.mais.uol.com.br/live/281.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e99f3d63cecc51177c6ddd6a7e4d563a/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/190d0c0678d3330113e2ef9320b3c400/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/History%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/HISTORY_HD/index.m3u8?token=WdS7zWq3VkMZEiAMjl4J4FqMFjkNjpkV"
     ]
@@ -158,7 +180,10 @@
     "logo": "https://img.faz-o-eli.online/history2.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhistory2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event39/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event39/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2f458a449c6d1f8cb57d2ac40030a05c/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7e15cba026e20bbe1067c3b77e51b693/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4880595a475cbd6410b8956b0bef61a5/error.txt?format=m3u8"
     ]
   },
   {
@@ -183,6 +208,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fmegapix%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/21ilsertww/out/v1/124c84cbafc745b6b2c47fc9be606727/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4fedcf1c1e235147a435790ec97128f7/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b5107422c6650f2680acf4e12ed45309/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e6793e9a72b57f090f5a4fb079effbc6/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/MEGAPIX%20UHD%20TV/index.m3u8"
     ]
   },
@@ -194,6 +222,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fmultishow%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/x7aaupxajb/out/v1/49d602c6294147a18d798ce6abbb6957/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f98f71275fa5064e296f2a39e5d0101e/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/MULTISHOW%20HD%20TV/index.m3u8"
     ]
   },
@@ -205,6 +234,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2d3be56dbf9be044a9a43eafdd688881/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/6b8c6f9dd22ca81bebdb1cceb92d7e7c/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/PREMIERE%202%20HD%20TV/index.m3u8"
     ]
   },
@@ -216,6 +247,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/17af452471eac7bc542628fbe39ef556/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/PREMIERE%203%20HD%20TV/index.m3u8"
     ]
   },
@@ -227,6 +259,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/610c3af6428a87e23ccfaf084c5ea0df/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/PREMIERE%204%20HD%20TV/index.m3u8"
     ]
   },
@@ -238,6 +271,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere5%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/eb88d2c22f99ed94a043853e857a37ae/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/26038e9a8c64b363ee5b2d48ec073468/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/PREMIERE%205%20HD%20TV/index.m3u8"
     ]
   },
@@ -249,6 +284,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiere6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/0bmtb2fxcj/out/v1/b5f50c3632264d32bf857652f631b0fb/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f6d08d744262d7328d6f59c886d8e39e/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/PREMIERE%206%20HD%20TV/index.m3u8"
     ]
   },
@@ -281,7 +317,10 @@
     "logo": "https://img.faz-o-eli.online/premiere.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpremiereclubes%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd"
+      "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1142cdf115f3b713cee46ed091447187/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2dc62a06e10d14e07dc13297f7abed6e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/748a321710fea4885a111bdf86b2e52d/error.txt?format=m3u8"
     ]
   },
   {
@@ -322,7 +361,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsonychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event57/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/SONY_CHANNEL/index.m3u8",
-      "https://video37.mais.uol.com.br/live/279.mpd"
+      "https://video37.mais.uol.com.br/live/279.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9a9aa9093625e74670354b9224cf8265/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f62c353d32a3ae63af66299409d037e8/error.txt?format=m3u8"
     ]
   },
   {
@@ -332,6 +373,9 @@
     "logo": "https://img.faz-o-eli.online/sportv.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4f3221fc66fbc6a0a3a9f6b8fcdd74ad/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3e37d5b0b3cc286e8fb26496fd72d1e9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/83841ba2503edd2ad89b8a52b4fa16c6/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/SporTV%20HD%20TV/index.m3u8"
     ]
   },
@@ -343,6 +387,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0cb4799702bebef56b6f859a9048f495/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/SporTV2%20HD%20TV/index.m3u8"
     ]
   },
@@ -354,6 +399,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportv3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c1d4b55ae2d604b1a6fc0d83ea6fb8ce/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ca922faf63832e7b11fef62f5746e4e7/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d4363383d21ba619e35e4befac91b4a9/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/SporTV3%20TV/index.m3u8"
     ]
   },
@@ -363,7 +411,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/off.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcanaloff%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcanaloff%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4fcacae7c9828b58889d1009b2f020cc/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5987ff73a324046e41dcd59ce85ea9b0/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c283f50216bfdff070d5aab2330c08ea/error.txt?format=m3u8"
     ]
   },
   {
@@ -373,6 +424,8 @@
     "logo": "https://img.faz-o-eli.online/telecineaction.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcaction%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/060d2247092d6a9461a25aae11812572/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a6018fae0fd864c9c4bfa92e2bfd635a/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/Telecine%20Action%20UHD%20TV/index.m3u8"
     ]
   },
@@ -383,6 +436,8 @@
     "logo": "https://img.faz-o-eli.online/telecinepipoca.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcpipoca%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f640361dd422ead6465f9cefa9f37a2a/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/48743fcf751d4c0da8ea707772e7b903/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/Telecine%20Pipoca%20UHD%20TV/index.m3u8"
     ]
   },
@@ -393,6 +448,9 @@
     "logo": "https://img.faz-o-eli.online/telecinepremium.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcpremium%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f83aef1060170ec0f0785a29c2191877/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7a77070b5850e8f1010de458a8866c92/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c6b97c3ecc2467d6d22e3cda9dbe32d7/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/Telecine%20Premium%20UHD%20TV/index.m3u8"
     ]
   },
@@ -416,6 +474,9 @@
       "https://eitvplay.appmembers.com.br/event56/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/WARNER_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
       "https://video45.mais.uol.com.br/live/277.mpd",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/542f3e1f6c380f196f1d47c6ce5d4bf3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4c2ef00dac807d28dc771c7d6be95d1d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9d1386b4f5eff7c081ee982d5ba531c2/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/Warner%20UHD%20TV/index.m3u8"
     ]
   },
@@ -438,6 +499,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobosp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event4/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/GLOBO_SP/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/221056392a17e0d69a8f0b25f673e038/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ad4677022e51704bdbac8f519669c336/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/424c21b08917a3b27b42e39894bea90d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/GLOBO%20SP%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/GLOBO_SP/tracks-v1a1/mono.ts.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -450,6 +514,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcartoonito%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event46/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8078ff0b1f9be0fecd78477351dfa374/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3b0b07790b01973504eccba05e0e8647/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3f20788d3f030b18c243d8dfc35f606d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/Cartoonito%20TV/index.m3u8"
     ]
   },
@@ -462,6 +529,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcinemax%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event95/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/CINEMAX/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5958178bc1503b737921524b55f1cfec/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a0042b692bc837a016ef8a12edb84ad8/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/CineMax%20UHD%20TV/index.m3u8"
     ]
   },
@@ -473,6 +542,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverychannel%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event33/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/533f08dec0dff92d43f5c27908027922/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/04002f2a152f97fd9126188e555ff5ce/error.txt?format=m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
@@ -484,6 +555,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverykids%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event42/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0c50dc4da923a7eb7a0b052586aec8b8/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/DISCOVERY%20KIDS%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_KIDS_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -496,6 +568,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoverytheater%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event40/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d803880abfb0f50a3cba99a4f15e85ef/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/DISCOVERY%20THEATER%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_THEATER_HD/index.m3u8?token=WdS7zWq3VkMZEiAMjl4J4FqMFjkNjpkV"
     ]
@@ -509,6 +582,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event24/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a07z/index.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/912fbbad1c2a55ea61f84b6aec3f9d57/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/bb35812ae3a2df988dd7c8e47dfa8209/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5ce8f1a07aed001bf43e6a87763f9874/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/VIVO%205%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ESPN1/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -521,6 +597,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event25/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/18a9f24bf2659f65740d0906cf69c2b0/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/VIVO%206%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ESPN2/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -534,6 +611,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn4%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event27/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a07n/index.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8163f88be44278d5d4f11080c256de23/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/923073e7189f610ea28f7fcd9b80d429/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8d913ac68c76b930fd61baeaa0d52e23/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/VIVO%208%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ESPN4/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -545,7 +625,9 @@
     "logo": "https://img.faz-o-eli.online/espn5.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn5%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event28/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event28/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8efe35fcf64e88777b74736aa446e87d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e22059de8071a642a9e1c37387569519/error.txt?format=m3u8"
     ]
   },
   {
@@ -556,6 +638,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn6%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event23/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8f8275efb16189e7c159281dbe06055f/error.txt?format=m3u8",
       "https://grupoa.satlabscloud.com.br/ESPN6/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
@@ -566,7 +649,10 @@
     "logo": "https://img.faz-o-eli.online/hbo.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event87/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event87/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/87d897e190dffe19bb74e797137193db/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/51e0e49bf96fd325efc5ebff4a0cb264/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d245672460994d5a33c5fefc35b67f3a/error.txt?format=m3u8"
     ]
   },
   {
@@ -578,6 +664,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbo2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event88/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://gigalinks.sattvgo.com.br/HBO2/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8259640840b1421f136130aaea5822e9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fe088c73bdca4808cba92c716e4d1b35/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/HBO%202%20UHD%20TV/index.m3u8"
     ]
   },
@@ -590,6 +678,7 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbofamily%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event90/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/HBO_FAMILY/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/65f6384a002f352b029c907ad3fb4932/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/HBO%20FAMILY%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/HBO_FAMILY/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -603,6 +692,7 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbomundi%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event93/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://cdn-rs1.satlabscloud.com.br/HBO_MUNDI_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4436383f837130c8216f3c628f7d450d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/HBO%20MUNDI%20UHD%20TV/index.m3u8"
     ]
   },
@@ -615,6 +705,7 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event89/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://grupoa.satlabscloud.com.br/HBO_PLUS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f4abc58bd272baa3177819a61dac5cdf/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/HBO%20PLUS%20UHD%20TV/index.m3u8"
     ]
   },
@@ -627,6 +718,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhbopop%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event92/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://gvtelecom.satlabscloud.com.br/HBO_POP_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fde86a7090c498c133ab2f637bb46ee8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c27a1bf965f31f041ca7b346cb7241d5/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/HBO%20POP%20UHD%20TV/index.m3u8"
     ]
   },
@@ -651,6 +744,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fhboxtreme%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event94/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e646a6ced3f8862d1a5cf63724463b4e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/685b7f8bd39654c8ba582df3942144b9/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g0/HBO%20XTREME%20UHD%20TV/index.m3u8"
     ]
   },
@@ -662,6 +757,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fspace%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event65/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/795589c6ce516eb561a390deb23b9bdc/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/SPACE%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/SPACE_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -675,6 +771,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftnt%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event64/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/TNT/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/120b5d3c250b353fd29d39519f944e22/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/88a44f3e6d021cca77e1d41981a7e497/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3736dffe0c741e1e6808b4a4a71f6a3f/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/TNT%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/TNT/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -687,6 +786,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftntseries%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event63/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/453877684d108e72e3a160fc1862a770/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/TNT%20SERIES%20UHD%20TV/index.m3u8"
     ]
   },
@@ -697,6 +797,8 @@
     "logo": "https://img.faz-o-eli.online/universaltv.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Funiversaltv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8e30a2b2a952dcf300792375d8632ed9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8e3ceb3732f283b3beb7a45e29aecf3f/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/Universal%20UHD%20TV/index.m3u8"
     ]
   },
@@ -708,6 +810,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryturbo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event36/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4689e902efed8efd30c7c5bab7d179fa/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/DISCOVERY%20TURBO%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_TURBO_HD/index.m3u8?token=hxsEyiyJrF4goGNLlASmNrZHl3h0BVsGPcR8"
     ]
@@ -729,6 +832,9 @@
     "logo": "https://img.faz-o-eli.online/telecinefun.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftcfun%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/602d4cf09109374c82a104048570b3f7/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/06f3ad9cb59ce52bae44cec38d0ec16c/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ea77ea873b38166e4a02c7fbf75c8e8a/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/Telecine%20FUN%20UHD%20TV/index.m3u8"
     ]
   },
@@ -739,6 +845,8 @@
     "logo": "https://img.faz-o-eli.online/telecinecult.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftccult%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2cf0cf53339fdae55733ea678bdd8141/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f9b9a77f28a75816a0ab4c69c556ce08/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/Telecine%20Cult%20UHD%20TV/index.m3u8"
     ]
   },
@@ -749,6 +857,9 @@
     "logo": "https://img.faz-o-eli.online/telecinetouch.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftctouch%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e1d210f65dd104c9b1d07893b6214548/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/6d882f4115dc5260d9fc40893572652f/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/90d1b5dd111995f52a805dab6dcfffca/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/Telecine%20Touch%20UHD%20TV/index.m3u8"
     ]
   },
@@ -771,6 +882,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftntnovelas%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event157/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4372d4064294ea1b419d2e988153e3aa/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/336bccf583196a9302415cfdd28f5e2a/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/TNT%20Novelas%20HD%20TV/index.m3u8"
     ]
   },
@@ -782,6 +895,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryscience%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event37/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/449f4cfffddead331e12b486cb123bd8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/db965e259aeb2c712d54b1f0aea7eb2b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0ec822b8f17355fc3348bd96b5ce7204/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/DISCOVERY%20SCIENCE%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_SCIENCE_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -795,6 +911,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Faxn%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event59/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/AXN/index.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/01da478d0a8ddbf58e0d8fa40c2702cb/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/16a680a02536e59100355e5de3194f33/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/AXN%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/AXN_HD/index.m3u8?token=hxsEyiyJrF4goGNLlASmNrZHl3h0BVsGPcR8"
     ]
@@ -807,6 +925,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandnews%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event31/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8ab5d02adb496f90b311b0dc7f71cea9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f59c3e8461694bf1f42e2a1b57aeb60a/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5481d12dff7ac1d47d9f031c7175d49a/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g4/BAND%20NEWS%20UHD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/BAND_NEWS_HD/index.m3u8?token=WdS7zWq3VkMZEiAMjl4J4FqMFjkNjpkV"
     ]
@@ -821,8 +942,10 @@
       "https://eitvplay.appmembers.com.br/event29/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/BAND_SPORTS/index.m3u8",
       "https://video41.mais.uol.com.br/live/290.mpd",
-      "https://live.lixe.net/hls/g1/BAND%20Sports%20HD%20TV/index.m3u8",
-      "https://grupoa.satlabscloud.com.br/BAND_SPORTS_HD/index.m3u8?token=WdS7zWq3VkMZEiAMjl4J4FqMFjkNjpkV"
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/78b281be24d48ea7c35380f8bb909076/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/913705473a8ca533bf6679a59969bc78/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/84e94122326fa66e0620604d14573638/error.txt?format=m3u8",
+      "https://live.lixe.net/hls/g1/BAND%20Sports%20HD%20TV/index.m3u8"
     ]
   },
   {
@@ -834,8 +957,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fredetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event13/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://170.83.16.50/REDE_TV/index.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1efe5dd1346805ca5cedafbdb54c54df/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d5b38b41813b15dd4219871b13c97ed7/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/Rede%20TV%21%20HD%20TV/index.m3u8",
       "https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/chunklist.m3u8"
     ]
@@ -850,6 +973,8 @@
       "https://grupoa.satlabscloud.com.br/TV_CULTURA_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
       "https://eitvplay.appmembers.com.br/event1/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://5b33b873179a2.streamlock.net:1443/live/livestream/playlist.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3de4e4e5c00e48729d879fb0d4f9573d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/af41dd1408fa7bdc0f07ffe965f9bc55/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/TV%20Cultura%20Mob/index.m3u8",
       "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8"
     ]
@@ -884,6 +1009,7 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fespn3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event26/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "http://181.78.197.59:8000/play/a081/index.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/3731229b28e4499f20509742130e36ec/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/VIVO%207%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ESPN3/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -896,8 +1022,7 @@
     "urls": [
       "https://video08.logicahost.com.br/tvc21/tvc21/chunklist_w930922724.m3u8",
       "https://live.lixe.net/hls/g6/Gazeta%20HD%20TV/index.m3u8",
-      "https://grupoa.satlabscloud.com.br/GAZETA_HD/index.m3u8?token=hxsEyiyJrF4goGNLlASmNrZHl3h0BVsGPcR8",
-      "https://painel.redegazetabrasil.com.br/hls/canal1/index.m3u8"
+      "https://grupoa.satlabscloud.com.br/GAZETA_HD/index.m3u8?token=hxsEyiyJrF4goGNLlASmNrZHl3h0BVsGPcR8"
     ]
   },
   {
@@ -913,6 +1038,7 @@
       "https://rnw-rn-soultv.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8",
       "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7e89d2a6fa54fe88a1fc0941661526e6/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/Record%20News%20HD%20TV/index.m3u8"
     ]
   },
@@ -936,6 +1062,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ftvaparecida%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event77/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/021ec73551cf1a10e14a194aed8f2117/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c4f7c470f47ed423eb170934e4fc4cb3/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/TV%20Aparecida%20HD%20TV/index.m3u8"
     ]
   },
@@ -949,6 +1077,7 @@
       "http://186.219.52.187/rede_vida/index.m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8",
       "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index_1.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ece8ff546182511f53173969a87645c8/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/Rede%20Vida%20HD%20TV/index.m3u8"
     ]
   },
@@ -959,7 +1088,10 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/investigacao-discovery.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryid%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event61/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event61/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5fb5ad77e21be37fcfab849096650713/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5004d338bc382d8d7501295d0bfab3f3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/45808af4284e0667b5a684e5ba8b1652/error.txt?format=m3u8"
     ]
   },
   {
@@ -980,6 +1112,9 @@
     "logo": "https://img.faz-o-eli.online/xsports.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fxsports%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1424a82a0a347dd3f7962e3983943323/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/abee841d623b5fb315dba74c647bb1c2/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c552299c522a2cee6eefb0e0812afaed/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/VIVO%209%20TV/index.m3u8"
     ]
   },
@@ -991,6 +1126,9 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fbandsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event3/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8a6c7a7085b97d8955a03737799c51c6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/20f340aa05773b48a9dea38bd0899970/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/73b65ae4194dbc5ee84b438eba51fb52/error.txt?format=m3u8",
       "https://grupoa.satlabscloud.com.br/BAND_SP/tracks-v1a1/mono.ts.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
@@ -1001,7 +1139,9 @@
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsbtsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event2/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event2/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/198537ddd507f2502653e83612f9074f/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2eddd4ea2fc8d4345a4eafd331433f9f/error.txt?format=m3u8"
     ]
   },
   {
@@ -1013,6 +1153,8 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordsp%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event96/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://net11.sattvgo.com.br/RECORD_SP/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2fce0400fa1574481ac8c7c330edf353/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/355e67ed1e81ad67a4ca4e7a8f92ae82/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/Record%20TV%20SP%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/RECORD_SP/tracks-v1a1/mono.ts.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -1035,6 +1177,7 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fpaieterno%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event142/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d0b6c47a2c071dc41e7f2fdbbf33fc17/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/TV%20Pai%20Eterno%20TV/index.m3u8"
     ]
   },
@@ -1150,7 +1293,10 @@
     "logo": "https://img.faz-o-eli.online/discoveryhh.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryhh%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://eitvplay.appmembers.com.br/event18/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+      "https://eitvplay.appmembers.com.br/event18/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/400b46b8cf96e20c8c78c8bceb40b0c6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8bedf2d1127bcd5e789b6d0f1b1d5201/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/72a952eee88723f39767d82a38b1c8de/error.txt?format=m3u8"
     ]
   },
   {
@@ -1307,6 +1453,9 @@
     "logo": "https://img.faz-o-eli.online/combate.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcombate%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/176d89a2e6cdecf5edebb6d7dd66b200/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/54e7d6de0b232dfd5ce5b0a347d58486/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4bfb237e57ee0dd326657a5afbe1c231/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/COMBATE%20HD%20TV/index.m3u8"
     ]
   },
@@ -1316,7 +1465,10 @@
     "categoria": "Esportes",
     "logo": "http://www.fontedecanais.me/logos/canais/disneyplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdisneyplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/20708207bf97be0fd09a6170ec33f66d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fc3302b9f54b58a147505960db8755d0/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2f8b3d17819ace56cb13d0617990a7d9/error.txt?format=m3u8"
     ]
   },
   {
@@ -1326,6 +1478,8 @@
     "logo": "https://pub.itheone.org/epg-logos/2026-10-20-v2/amazon-prime-video.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Famazonprimevideo%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/641c265b89bc3f9f16d7dc64ec52a163/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ebc6c235b88d0dc209e66568f529c17d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/Amazon%20Prime%20Video%20TV/index.m3u8"
     ]
   },
@@ -1373,7 +1527,9 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7be392e274f90550e804e07db92a5f39/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b2321ca142cc34bd99f957d403ccc04b/error.txt?format=m3u8"
     ]
   },
   {
@@ -1382,7 +1538,9 @@
     "categoria": "Esportes",
     "logo": "https://www.fontedecanais.gs/logos/canais/paramountplus.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fparamountplus02%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fe24a65cf0397344abf950fdf6edfbb6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/48b8d0dd06814bb814aa95c81df052df/error.txt?format=m3u8"
     ]
   },
   {
@@ -1392,6 +1550,9 @@
     "logo": "https://img.faz-o-eli.online/studiouniversal.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fstudiouniversal%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b80b27950a8229b02538361f31d5fecd/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/beca3df4e13b517a6b31992d31261919/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/babd5554ee73a995a9ea41d6bf52de7d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/STUDIO%20UNIVERSAL%20HD%20TV/index.m3u8"
     ]
   },
@@ -1402,6 +1563,9 @@
     "logo": "https://img.faz-o-eli.online/gloob.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloob%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b0823162d03dbc0f662f5de09c3d4e7e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/33783ff53e01fd7fe86dacea10a6fabb/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b3c9032107bcae5cb4512c99e60cdf0f/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/GLOOB%20HD%20TV/index.m3u8"
     ]
   },
@@ -1444,6 +1608,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Ffoodnetwork%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event53/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/59597d81255834843409a80530647414/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2e49e5a3558651a466392e068742673b/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/Food%20Network%20HD%20TV/index.m3u8"
     ]
   },
@@ -1453,7 +1619,9 @@
     "categoria": "24 Horas",
     "logo": "https://img.faz-o-eli.online/24h.png",
     "urls": [
-      "https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8"
+      "https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/226026b45c386adc5afc38c5c50143c9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/155b5f69ecb2a20a29da075445f5f7a1/error.txt?format=m3u8"
     ]
   },
   {
@@ -1464,6 +1632,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fdiscoveryworld%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event41/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4292a55c2a193078c5fb5d0d45691606/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/313ab7005e766fa9096ccbf42f0383dc/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/DISCOVERY%20WORLD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/DISCOVERY_WORLD_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -1477,6 +1647,9 @@
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://eitvplay.appmembers.com.br/event55/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/playlist.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2f9c08bc56fa66e7d6cf5caead683e66/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/264e24b5c738279f6ed012b8750d67ff/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5bb955b29db56b8c22e52937e7c84943/error.txt?format=m3u8",
       "https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/240p-cc/index.m3u8"
     ]
   },
@@ -1487,6 +1660,8 @@
     "logo": "https://img.faz-o-eli.online/cazetv.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fcazetv2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1f811ba44dd408ceb70083b942c23646/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/12705e8fd2bc9aea9dd2dcf39a42c589/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g3/CazeTV%202%20TV/index.m3u8"
     ]
   },
@@ -1497,6 +1672,9 @@
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b5d87002e2fe11a56f75119ed25d83cb/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7d7b0c0a51f35859270615ee17d2b3c8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/875e8a2bd6330f505aaf72bc9d0c7abc/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/Sportynet%20TV/index.m3u8"
     ]
   },
@@ -1506,7 +1684,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet2%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f0df3bfd393ee554083612ca110d98e9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a6d1c343b10384929d6a87dd36e52c1e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a0760777c22e0316d1016fdf952655df/error.txt?format=m3u8"
     ]
   },
   {
@@ -1515,7 +1696,10 @@
     "categoria": "Esportes",
     "logo": "https://img.faz-o-eli.online/sportynet.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fsportynet3%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/40ac19d3a6b11257742460b8c741edc2/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5bcd8fd6c98a30e46324fb73226a48b6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9e539f3131e20ae22921c3c4c5fa1349/error.txt?format=m3u8"
     ]
   },
   {
@@ -1524,7 +1708,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://net11.sattvgo.com.br/GLOBO_ES/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+      "https://net11.sattvgo.com.br/GLOBO_ES/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f8852a3cab10538c8a3acd578b6b91ef/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/00b94105e01454eacaa951ece31841c6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d5b0a43cffbc2b0028853ff50379035c/error.txt?format=m3u8"
     ]
   },
   {
@@ -1535,6 +1722,8 @@
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fgloborj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
       "https://net11.sattvgo.com.br/GLOBO_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5ec962ec2246520eafe83ca08f79b1e4/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0cce3bb2d06331300ccc3e60ca03f897/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/GLOBO%20RJ%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/GLOBO_RIO/tracks-v1a1/mono.ts.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -1546,6 +1735,9 @@
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobors%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a6b3744632ac1871046854d3e56557e6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/6d035a8f894d7163e3d76ef176a9c39e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/55bc2625a232d03e11e8293b9bfd13db/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/GLOBO%20RS%20HD%20TV/index.m3u8"
     ]
   },
@@ -1555,7 +1747,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordmg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordmg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c74e7ba49dc45525b32d8c76305593e4/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/41b5ef85b6c9200f703179d28c3e8b78/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1e7618146f940c193ed2a6c93eea5025/error.txt?format=m3u8"
     ]
   },
   {
@@ -1565,7 +1760,12 @@
     "logo": "https://img.faz-o-eli.online/record.png",
     "urls": [
       "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Frecordrj%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
-      "https://gvtelecom.satlabscloud.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+      "https://gvtelecom.satlabscloud.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7786cf7b06771aaeda3cf85af28f0455/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ee47182c93db89f7083a97aef0d67557/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/eb2e6d47d0703f472fdff2252f67c474/error.txt?format=m3u8",
+      "https://net11.sattvgo.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://grupoa.satlabscloud.com.br/RECORD_RIO/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
   },
   {
@@ -1584,7 +1784,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobodf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobodf%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d40e7a944a2c061189e0de82e58b4616/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d501206d1ba90f5693c0e6d609b98798/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/23a3386f4e2f07341671da50d38f8c2d/error.txt?format=m3u8"
     ]
   },
   {
@@ -1593,7 +1796,10 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/globosp.png",
     "urls": [
-      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobomg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8"
+      "https://play.saimotv.com/api/proxy?url=https%3A%2F%2Fd2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz%2Fglobomg%2Findex.m3u8&referer=https%3A%2F%2Fplayerembedcanais.site%2F&ua=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F126.0%20Safari%2F537.36&format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/938b0fa5dcd2225c739eddaf11feb03e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/816cdafd6a656b549bbf2e634857ef6b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e4fb1bfce8662ef894c706dcc753243f/error.txt?format=m3u8"
     ]
   },
   {
@@ -1807,6 +2013,7 @@
     "urls": [
       "https://eitvplay.appmembers.com.br/event20/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
       "https://video37.mais.uol.com.br/live/292.m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d31aa48e4bb98515c70e05ed8a5b0a1d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g8/Arte%201%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/ARTE_1/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -1818,6 +2025,7 @@
     "logo": "https://img.faz-o-eli.online/hgtv.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event38/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/14971bd8cb5755b0456d1dbfd097df90/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g7/HGTV%20HD%2B%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/HGTV_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -1829,6 +2037,9 @@
     "logo": "https://mondrian.claro.com.br/channels/inverse/record-tv.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event96/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c3c58e04209db793e999d63e5cc69997/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d2ed2269076afdf4568280a58c9f5f79/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a57365a3b790695d56876fcd126e64ef/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/Record%20HD%20TV/index.m3u8"
     ]
   },
@@ -1839,6 +2050,7 @@
     "logo": "https://img.faz-o-eli.online/tcm.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event73/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4dcdc1943e3f790ee6fa3a000a27d7df/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/TCM%20TV/index.m3u8"
     ]
   },
@@ -1849,6 +2061,7 @@
     "logo": "https://img.faz-o-eli.online/tlc.png",
     "urls": [
       "https://eitvplay.appmembers.com.br/event19/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b93e760c2480f33fbd5cc32d79460106/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/TLC%20HD%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/TLC_HD/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -2013,6 +2226,9 @@
     "categoria": "Variedades",
     "logo": "http://www.fontedecanais.me/logos/canais/bis.png",
     "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a78902bfc9f7b38caff2191a5d547031/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a0fee4a40ef282044e05c3d26918d34a/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/53087f8c987ccf8902d89161b0a538ef/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g6/BIS%20HD%20TV/index.m3u8"
     ]
   },
@@ -2022,6 +2238,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/band.png",
     "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b015ed50aa3b0931af04235f033528ad/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c09bf094d8d06c48ec6869a95338a20e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b5828274f7e015e732b56ee8bbd59872/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g1/BAND%20RJ%20TV/index.m3u8",
       "https://grupoa.satlabscloud.com.br/BAND_RIO/tracks-v1a1/mono.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
     ]
@@ -2032,6 +2251,7 @@
     "categoria": "Documentários",
     "logo": "https://img.faz-o-eli.online/curta.png",
     "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a3a625fc14df8c28bf8a0af3f4521180/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/Curta%20HD%20TV/index.m3u8"
     ]
   },
@@ -2041,6 +2261,9 @@
     "categoria": "TV Aberta",
     "logo": "https://img.faz-o-eli.online/sbt.png",
     "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a38a9792b386d7c68d6623f8f457b686/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4ee5799bb56431924d9e878620498c27/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d49dfb2a9f16152f0e95006376245206/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g5/SBT%20RJ%20TV/index.m3u8"
     ]
   },
@@ -2050,6 +2273,9 @@
     "categoria": "PPV",
     "logo": "https://img.faz-o-eli.online/ufcfightpass.png",
     "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/95bc67c9ef4a3b19d682fecfeef04fd8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2ade65d8941db5719fad25d86573f50c/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/84704954e857c8eb3895790c7b30ce8d/error.txt?format=m3u8",
       "https://live.lixe.net/hls/g2/UFC%20Fight%20Pass%20TV/index.m3u8"
     ]
   },
@@ -2159,19 +2385,6 @@
   },
   {
     "id": "205",
-    "nome": "RedeTV Paraná",
-    "categoria": "TV Aberta",
-    "logo": "https://yt3.googleusercontent.com/CTFU2P7tW43punwV3olirWyw_I5tKS1YzMe6JfeBmWw09ipCy_6GW2uE9EjX8T63pgLIsiJdBpA=s900-c-k-c0x00ffffff-no-rj",
-    "urls": [
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1134207413.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w2086934409.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1867635177.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w2051322477.m3u8",
-      "https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w534666631.m3u8"
-    ]
-  },
-  {
-    "id": "206",
     "nome": "HTO Filmes",
     "categoria": "Filmes e Séries",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoXfowZl0BZdJ_NX8DB2teKYv7qj2596G1pLKFOoAYqA&s=10",
@@ -2180,7 +2393,7 @@
     ]
   },
   {
-    "id": "207",
+    "id": "206",
     "nome": "HTO Kids",
     "categoria": "Infantil",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePfGzDJECvO-VuqtuMBeRvafW9lZRLeh3-Mj4BaMhKw&s=10",
@@ -2189,7 +2402,7 @@
     ]
   },
   {
-    "id": "208",
+    "id": "207",
     "nome": "AWTV",
     "categoria": "TV Aberta",
     "logo": "https://moobitv.com.br/uploads/91110179e89709245e975c7adb92646a.webp",
@@ -2198,7 +2411,7 @@
     ]
   },
   {
-    "id": "209",
+    "id": "208",
     "nome": "CBTV Play",
     "categoria": "TV Aberta",
     "logo": "https://moobitv.com.br/uploads/f788c5e79fc25b9c4f39620035fb839a.webp",
@@ -2207,7 +2420,7 @@
     ]
   },
   {
-    "id": "210",
+    "id": "209",
     "nome": "TV Carioca",
     "categoria": "TV Aberta",
     "logo": "https://moobitv.com.br/uploads/12b581d73b7c96f4e77ca714f542f17e.webp",
@@ -2216,7 +2429,7 @@
     ]
   },
   {
-    "id": "211",
+    "id": "210",
     "nome": "SportyNet +1",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/sportynet.png",
@@ -2225,7 +2438,7 @@
     ]
   },
   {
-    "id": "212",
+    "id": "211",
     "nome": "Disney+ 07",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -2234,7 +2447,7 @@
     ]
   },
   {
-    "id": "213",
+    "id": "212",
     "nome": "Disney+ 08",
     "categoria": "Esportes",
     "logo": "https://vipcanais.net/images/disneyplus.png",
@@ -2243,7 +2456,7 @@
     ]
   },
   {
-    "id": "214",
+    "id": "213",
     "nome": "Disney+ 03",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2252,7 +2465,7 @@
     ]
   },
   {
-    "id": "215",
+    "id": "214",
     "nome": "Disney+ 04",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2261,7 +2474,7 @@
     ]
   },
   {
-    "id": "216",
+    "id": "215",
     "nome": "Disney+ 05",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2270,7 +2483,7 @@
     ]
   },
   {
-    "id": "217",
+    "id": "216",
     "nome": "Disney+ 06",
     "categoria": "Esportes",
     "logo": "https://1.embedcanaisdetv.com/images/disneyplus.png",
@@ -2279,7 +2492,465 @@
     ]
   },
   {
+    "id": "217",
+    "nome": "24H Chaves",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/78796f14a2ae529c86e7ce4d45370ac7/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/80b3fc11be94d15c4c5d8a34b5d2773d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1387a70e22fe7c88f4f66bff046dd215/error.txt?format=m3u8"
+    ]
+  },
+  {
     "id": "218",
+    "nome": "24H Dragon Ball Z",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1afdaf481267fc667cbad5304002edad/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1d9317399e0e92d10501871e9ebf13f5/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/20be8c48ed545a1748ac5246dc57d05c/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "219",
+    "nome": "24H Friends",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ebddf224070ee440179c241228dce210/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/eec83d1ecd07c7aa137574b9cf90debd/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1fe7ffea822d28c4e73ee95cb9790a76/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "220",
+    "nome": "24H Os Simpsons",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/856c6caebf9a044bb8868910f9a40168/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/6c4436471247ec77692a0db714486569/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1c1dff59778e1d6c81e9943e53d5ce98/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "221",
+    "nome": "24H Pica Pau",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1e42e957550a1af794f0eba23e8b981b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/349327da35e65f25d2a3d2323bc3f0a0/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f21d57c0b1263419b9862e33227b20ca/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "222",
+    "nome": "24H Todo Mundo Odeia o Cris",
+    "categoria": "24 Horas",
+    "logo": "https://img.faz-o-eli.online/24h.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a6dcfb3f086e9df461c4be9345a2359b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/03e428e2c78d090cd6b0db13dcf3fc5d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d72c5fe5245e0260cc7bbaf1a5660e78/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "223",
+    "nome": "A Fazenda 1",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/838a324f6e5bda3e6b9089f1db2b16a9/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c3b61e2df063012e6694454bcf13e8a7/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/84688a045563406fdb65a36fd16f4907/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "224",
+    "nome": "A Fazenda 2",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d9609b1fb271e4032d0dbb184e286b29/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f36e6b68d4f91be8e6123765c883192e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ac1e1b81b84bb33b8d563992f7b97091/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "225",
+    "nome": "A Fazenda 3",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/64eb7143a81e17d4771041f22defb641/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8872cf731b4daa4b8c67ca62f28643a6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9fcda34635f9c69a0ca840a7f6abe3f3/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "226",
+    "nome": "A Fazenda 4",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/73d6b36523048a72b5fe627f84cd0da2/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/872ac9d3379491fc5ed96183399ad962/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4044c963c161e02e4315d0068c9e97b8/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "227",
+    "nome": "A Fazenda 5",
+    "categoria": "Variedades",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9a6001942d469ebade6caf6a8704b40c/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/d3ed0f5b361be32602b3714c615c6ff8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fb5bc9f446b22184c9eb16c2f93af3d1/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "228",
+    "nome": "Globo AM",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/874cd876022b86111eba63ab7960b089/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ea7bd3660914f4b6acc6aa42fe9ac470/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "229",
+    "nome": "Globo CE",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5fcf0e752e63a67e2f0084357a472fae/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8ed860f2d27cc7eb7d2fc1513b4bb524/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a04d0d08254dda9ea9ce090587387e51/error.txt?format=m3u8",
+      "https://net11.sattvgo.com.br/GLOBO_CEARA/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "230",
+    "nome": "Globo GO",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e0361dd9369b849bbfc4b577c465679b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8454c1277bab91d436dd9298cb5f5d48/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/017a9ccb33cab8d086d8cfbf6a99595d/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "231",
+    "nome": "Globo PB",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/83fdac54a12a68ee58b65e5ebeac66af/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/53da90375bffca97a495477c76db6c49/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "232",
+    "nome": "Globo PE",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c5c42038546e80577f459e53dbd6a013/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9bcf904fb60975d71e64b390d9981feb/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "233",
+    "nome": "MAX 01",
+    "categoria": "Filmes e Séries",
+    "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/263f57cbbf091455faffae645ace5e0e/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/cf87f1fad12c5f60080b7e2d2967f5ff/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9f6ef9744978c9008e05614b36aed7ad/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "234",
+    "nome": "MAX 02",
+    "categoria": "Filmes e Séries",
+    "logo": "http://www.fontedecanais.gs/logos/canais/max.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/5a0bf58d703f90fdb35c24fc82d93bf6/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e4a9f915e02495fb9b58c5326f0c1cd4/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9da59bfd8303ff50bc47ac734112d63e/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "235",
+    "nome": "MAX 03",
+    "categoria": "Filmes e Séries",
+    "logo": "https://img.faz-o-eli.online/max.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7b2b91bb4b8a2a77aed30c390ce4e787/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/8dbe29a176a608b0957b8afd96749ab8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4d40b7d360b9b45a9eb8ecc6fcc5d424/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "236",
+    "nome": "PT - A Bola",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_abola.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a357fe9079b467201a0d296703e02fa5/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/337810c42ea664d1f463cf15c3c74a97/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "237",
+    "nome": "PT - Benfica TV",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_benficatv.prev.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/78c424d022bce0a447080a8eac28f9fd/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9aa3abb54bb960c1c6362a194e5a236e/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "238",
+    "nome": "PT - Canal 11",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_canal11.prev.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/fbd069908631b365a75f370d7f96fe1d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/77beb3e2bc3836d790d9ac40c1b50111/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/9d7b83912a9edbc005c1e31f80fa0659/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "239",
+    "nome": "PT - Eleven 1",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_eleven1.prev.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ff253a23a78fb7c29c081a9923bb2569/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0ce22fb01643460791a00e9e36223be8/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4fadede66d0c92d89346f79092b390d0/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "240",
+    "nome": "PT - Eleven 2",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_eleven2.prev.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2417ec0c8032ef8cc489997eb4f343dc/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/14d96aa1f2ab9cd011f6d0a7d0540a31/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/479ffb5372e725c888e1ffc83fb4132d/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "241",
+    "nome": "PT - Eleven 3",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/pt_eleven3.prev.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f405f9eb1a0959dcc31daddfe4757147/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2d2467d3e66f512e34b43748b2b67a9d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a95e03215a6c2abc17465fb4a05d4ae1/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "242",
+    "nome": "PT - Sporttv 1",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/7844813db4a34cf808639d8c37f58cd3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/c2ed1ab4a81a746fba55a5b243a4ea65/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ae549f6f4255974fa4560556d30ff71d/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "243",
+    "nome": "PT - Sporttv 2",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/83e789c0a197bc2e8fad73b6c3b487ef/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f76fa598fe0ae9537b5b753be4e4e2f1/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1fb7a8759b612eb4f372b1ff35178ae7/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "244",
+    "nome": "PT - Sporttv 3",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/99a4bd858fe097f117f288efee86c224/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/e54cde5b7311920c73b41a563ebc94f1/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/99f35f60c1c7537c95e1a45ee711770b/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "245",
+    "nome": "PT - Sporttv 4",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/162b7a73a588d5f0b2cc0afd580a51a3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/042ccee83c87de36b39f7f3f0151bea8/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "246",
+    "nome": "PT - Sporttv 5",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2619a42faf7f4b1b7fcea5adea3d395b/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/b8c735411792586df5485fd401b35603/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "247",
+    "nome": "PT - Sporttv 6",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/adb945b1f8f611262808b99f7a59510d/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/2749fa1b3bdd0a09e1b03775a233c85c/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "248",
+    "nome": "PT - Sporttv 7",
+    "categoria": "Esportes",
+    "logo": "https://img.faz-o-eli.online/sportv.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/98f124d9f209bc054a3e7c384c70ebe4/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/a3978a93ca0be59150a7d3e36ffbc307/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "249",
+    "nome": "Record GO",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/record.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/4b9bf879a12255e0d35d635fb54cbf94/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/1d13702bfe4ad6fca80af0693c59eeb3/error.txt?format=m3u8",
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/43586169011ff67d14f8e289025a08c6/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "250",
+    "nome": "A Fazenda 18 1",
+    "categoria": "PPV",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/0aca83645e711835250f4afc80e465e6/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "251",
+    "nome": "A Fazenda 18 2",
+    "categoria": "PPV",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/66f041d48acb1d985d1af5c9da81da55/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "252",
+    "nome": "A Fazenda 18 3",
+    "categoria": "PPV",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/f9206d3bbe5ac0ef32a0797abdb3fffd/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "253",
+    "nome": "A Fazenda 18 4",
+    "categoria": "PPV",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/bab3570c60eedca455c35ea021aeee2c/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "254",
+    "nome": "A Fazenda 18 5",
+    "categoria": "PPV",
+    "logo": "https://img.faz-o-eli.online/afazenda2.png",
+    "urls": [
+      "https://a49fc0a50af4962dc188a3a82d8fd7ce.sv-nl-03-cloudfront-net.lat/stream/ca25150342f3e00e86859a03e026bceb/error.txt?format=m3u8"
+    ]
+  },
+  {
+    "id": "255",
+    "nome": "Globo Bahia",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/GLOBO_BAHIA/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://grupoa.satlabscloud.com.br/GLOBO_BAHIA/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "256",
+    "nome": "Globo Paraná",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/globosp.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/GLOBO_PR/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://grupoa.satlabscloud.com.br/GLOBO_PR/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "257",
+    "nome": "Record RS",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/record.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/RECORD_RS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "258",
+    "nome": "SBT RS",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/sbt.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/SBT_RS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "259",
+    "nome": "SBT Bahia",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/sbt.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/SBT_BAHIA/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://grupoa.satlabscloud.com.br/SBT_BAHIA/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "260",
+    "nome": "SBT Minas",
+    "categoria": "TV Aberta",
+    "logo": "https://img.faz-o-eli.online/sbt.png",
+    "urls": [
+      "https://net11.sattvgo.com.br/SBT_MINAS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx",
+      "https://grupoa.satlabscloud.com.br/SBT_MINAS/index.m3u8?token=RGnYBgq1dxRk5Eur690t0mpVo01rfWpPLxrMx"
+    ]
+  },
+  {
+    "id": "261",
     "nome": "Sex Privê",
     "categoria": "Adulto",
     "logo": "https://www.claro.com.br/files/104379/1200x800/420d5431ef/og-assistir-sexprive-canal-porno.png",
@@ -2290,7 +2961,7 @@
     ]
   },
   {
-    "id": "219",
+    "id": "262",
     "nome": "SexPlay",
     "categoria": "Adulto",
     "logo": "https://www.claro.com.br/files/104379/262x209/10f1714686/img-card-360-sexy-play-logo.jpg?sq=75",
@@ -2300,7 +2971,7 @@
     ]
   },
   {
-    "id": "220",
+    "id": "263",
     "nome": "HTO GANG",
     "categoria": "Adulto",
     "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEittgn5BhpUTEbFyROFNR0ROqkq_D_5FBdwCGMJiaVN13J9BfQXYw_5x0YB8PXjWWnA4f1Hso_4kw1pO9tSmC71DyPSpMJt7hc56pu6oadqjBq-SKZAZCKBoMLSIntA86AKgl1mYD9wtnU-eYyrPaQMNkuNv4XwlZbhw87ashQJFzRYf76L3cLUbI0GUp8/s1536/1000798992.png",
@@ -2311,7 +2982,7 @@
     ]
   },
   {
-    "id": "221",
+    "id": "264",
     "nome": "HTO MILF",
     "categoria": "Adulto",
     "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheYEFITAKMV39EkzcHdu3QDANq-sK6gtMHo_-YK_gOQegzRiQByI7m-UznLkcW_dbCm644X5gFtCpVCRmksKAJjLuxwtK2rofHih7XruV2-GtjybZNvT-UEfV8dQmLBupfUx17vpauVtXzUXHQBk0ilNo-gRYg4imCZemOP3_NLKwYhWYCyAP3DNFfpHU/s1536/1000798993.png",
@@ -2322,7 +2993,7 @@
     ]
   },
   {
-    "id": "222",
+    "id": "265",
     "nome": "Sexy Hot",
     "categoria": "Adulto",
     "logo": "https://mondrian.claro.com.br/channels/inverse/sexy-hot.png",
@@ -2331,7 +3002,7 @@
     ]
   },
   {
-    "id": "223",
+    "id": "266",
     "nome": "Playboy TV",
     "categoria": "Adulto",
     "logo": "https://mondrian.claro.com.br/channels/inverse/playboy-tv.png",
@@ -2340,7 +3011,7 @@
     ]
   },
   {
-    "id": "224",
+    "id": "267",
     "nome": "Venus",
     "categoria": "Adulto",
     "logo": "",
@@ -2349,7 +3020,7 @@
     ]
   },
   {
-    "id": "225",
+    "id": "268",
     "nome": "Private",
     "categoria": "Adulto",
     "logo": "",
@@ -2358,7 +3029,7 @@
     ]
   },
   {
-    "id": "226",
+    "id": "269",
     "nome": "Anal",
     "categoria": "Adulto",
     "logo": "",
@@ -2367,7 +3038,7 @@
     ]
   },
   {
-    "id": "227",
+    "id": "270",
     "nome": "Asian",
     "categoria": "Adulto",
     "logo": "",
@@ -2376,7 +3047,7 @@
     ]
   },
   {
-    "id": "228",
+    "id": "271",
     "nome": "Big Ass",
     "categoria": "Adulto",
     "logo": "",
@@ -2385,7 +3056,7 @@
     ]
   },
   {
-    "id": "229",
+    "id": "272",
     "nome": "MyCam Asian",
     "categoria": "Adulto",
     "logo": "",
@@ -2394,7 +3065,7 @@
     ]
   },
   {
-    "id": "230",
+    "id": "273",
     "nome": "MyCam Latina",
     "categoria": "Adulto",
     "logo": "",
@@ -2403,13 +3074,34 @@
     ]
   },
   {
-    "id": "231",
+    "id": "274",
     "nome": "MyCam Big Ass",
     "categoria": "Adulto",
     "logo": "",
     "urls": [
       "https://live.mycamtv.com/defstream.m3u8",
       "https://eitvplay.appmembers.com.br/event48/index.m3u8?token=jzFQQe9OVYP1ycd5Cqe0Av7tzx6QRtgJ"
+    ]
+  },
+  {
+    "id": "275",
+    "nome": "ADULT SWIN",
+    "categoria": "Adulto",
+    "logo": "https://redeflixapi.click/assets/channel-logos/c7e6275b6ebf8cb79835a6c4.webp",
+    "urls": [
+      "https://hls.redecanaisby.cv:8443/live/1795880154/wbYZEnbgHfDtaoyK6gcZUw/adult-swin/live.m3u8",
+      "https://hls.redecanaisby.cv:8443/live/1795881662/d2ijJAKb0-1ZNw8S5mo_sg/adult-swin/live.m3u8",
+      "https://hls.redecanaisby.cv:8443/live/1795887355/F7glkvgBz_lvgu9CHHweYw/adult-swin/live.m3u8"
+    ]
+  },
+  {
+    "id": "276",
+    "nome": "PLAYBOY",
+    "categoria": "Adulto",
+    "logo": "https://redeflixapi.click/assets/channel-logos/9cb0aced36e2159de4214c31.png",
+    "urls": [
+      "https://hls.redecanaisby.cv:8443/live/1795881665/tiNmvIgqzB9YoZcyESwVXw/playboy/live.m3u8",
+      "https://hls.redecanaisby.cv:8443/live/1795887358/7ZqzMWR9v542wDcx_f0FSA/playboy/live.m3u8"
     ]
   }
 ]

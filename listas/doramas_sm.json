@@ -8735,6 +8735,26 @@
             "season": 1,
             "episode": 3,
             "url": "https://nixplay.lat/series/saimo-vods/221097/323569/1/3.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/323569/1/4.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/323569/1/5.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/323569/1/6.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/323569/1/7.mp4?lang=leg"
           }
         ]
       }
@@ -8813,6 +8833,16 @@
             "season": 1,
             "episode": 10,
             "url": "https://nixplay.lat/series/saimo-vods/221097/316540/1/10.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/316540/1/11.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/316540/1/12.mp4?lang=leg"
           }
         ]
       }
@@ -8928,12 +8958,18 @@
           {
             "season": 1,
             "episode": 11,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/300954/1/11.mp4"
+            "url": "https://nixplay.lat/series/saimo-vods/221097/300954/1/11.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/300954/1/11.mp4?lang=leg"
+            ]
           },
           {
             "season": 1,
             "episode": 12,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/300954/1/12.mp4"
+            "url": "https://nixplay.lat/series/saimo-vods/221097/300954/1/12.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/300954/1/12.mp4?lang=leg"
+            ]
           }
         ]
       }
@@ -8972,6 +9008,16 @@
             "season": 1,
             "episode": 2,
             "url": "https://nixplay.lat/series/saimo-vods/221097/325828/1/2.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/325828/1/3.mp4?lang=leg"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/325828/1/4.mp4?lang=leg"
           }
         ]
       }
@@ -9182,8 +9228,8 @@
     "rating": 6.8,
     "popularity": 6.2,
     "audios": [
-      "legendado",
-      "dublado"
+      "dublado",
+      "legendado"
     ],
     "group": "Doramas | Drama",
     "seasons": [
@@ -9193,7 +9239,155 @@
           {
             "season": 1,
             "episode": 1,
-            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/1.mp4?lang=leg"
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/1.mp4",
+            "mirrors": [
+              "https://nixplay.lat/series/saimo-vods/221097/285143/1/1.mp4?lang=leg"
+            ]
+          },
+          {
+            "season": 1,
+            "episode": 2,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/2.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 3,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/3.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 4,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/4.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 5,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/5.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 6,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/6.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 7,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/7.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 8,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/8.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 9,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/9.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 10,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/10.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/11.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/12.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 13,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/13.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 14,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/14.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 15,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/15.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 16,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/16.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 17,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/17.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 18,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/18.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 19,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/19.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 20,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/20.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 21,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/21.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 22,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/22.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 23,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/23.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 24,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/24.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 25,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/25.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 26,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/26.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 27,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/27.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 28,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/28.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 29,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/29.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 30,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/285143/1/30.mp4"
           },
           {
             "season": 1,
@@ -9284,6 +9478,16 @@
             "season": 1,
             "episode": 10,
             "url": "https://nixplay.lat/series/saimo-vods/221097/289763/1/10.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 11,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/289763/1/11.mp4"
+          },
+          {
+            "season": 1,
+            "episode": 12,
+            "url": "https://nixplay.lat/series/saimo-vods/221097/289763/1/12.mp4"
           }
         ]
       }
